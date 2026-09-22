@@ -21,29 +21,29 @@ async function validateFixture(mutator) {
   }
 }
 
-test('accepts the explicitly marked demo catalogue', async () => {
-  const result = await validateFixture(async () => {});
+async function writeManifest(directory, patch) {
+  const path = join(directory, 'manifest.json');
+  const manifest = JSON.parse(await readFile(path, 'utf8'));
+  Object.assign(manifest, patch);
+  await writeFile(path, `${JSON.stringify(manifest)}\n`);
+}
+
+test('accepts an explicitly marked demo catalogue regardless of current published mode', async () => {
+  const result = await validateFixture((directory) => writeManifest(directory, { status: 'demo', isDemo: true }));
   assert.equal(result.status, 0, result.stderr);
   assert.match(result.stdout, /Validated safe demo manifest/);
 });
 
 test('rejects contradictory demo and live flags', async () => {
-  const result = await validateFixture(async (directory) => {
-    const path = join(directory, 'manifest.json');
-    const manifest = JSON.parse(await readFile(path, 'utf8'));
-    manifest.status = 'live';
-    await writeFile(path, `${JSON.stringify(manifest)}\n`);
-  });
+  const result = await validateFixture((directory) => writeManifest(directory, { status: 'live', isDemo: true }));
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /demo manifests must set both status=demo and isDemo=true/);
 });
 
 test('rejects a live catalogue without its required payloads', async () => {
   const result = await validateFixture(async (directory) => {
-    const path = join(directory, 'manifest.json');
-    const manifest = JSON.parse(await readFile(path, 'utf8'));
-    Object.assign(manifest, { status: 'live', isDemo: false });
-    await writeFile(path, `${JSON.stringify(manifest)}\n`);
+    await writeManifest(directory, { status: 'live', isDemo: false });
+    await Promise.all(['players.json', 'teams.json', 'matchups.json', 'playtypes.json'].map((name) => rm(join(directory, name), { force: true })));
   });
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /required data file is missing: teams.json/);
