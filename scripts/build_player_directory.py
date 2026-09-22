@@ -29,7 +29,7 @@ def main():
     except Exception:
         official={};official_available=False
     if CSV_URL.startswith(('http://','https://')):
-        with urlopen(CSV_URL,timeout=30,context=trusted_context()) as response: rows=list(csv.DictReader(line.decode('utf8-sig') for line in response))
+        with urlopen(CSV_URL,timeout=30,context=trusted_context()) as response: rows=list(csv.DictReader(line.decode('utf-8-sig') for line in response))
     else:
         with open(CSV_URL,encoding='utf-8-sig',newline='') as source: rows=list(csv.DictReader(source))
     candidates=[]; conflicts=[]; seen=set(); now=datetime.now(timezone.utc).isoformat()
