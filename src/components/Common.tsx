@@ -4,7 +4,7 @@ import { ArrowDown, ArrowUp, ArrowUpRight, Download, ImageDown, Link2, SlidersHo
 import { Button } from './ui/button';
 import type { Filters, Player, SampleQuality, MatchupRecord, AvatarSize } from '../lib/types';
 import { normalizePossessions, possessionSteps } from '../lib/filters';
-import { useData } from '../state';
+import { useData, useDataStatus } from '../state';
 import { getPlayers, searchPlayers } from '../lib/api';
 import { downloadCSV, copyLink, downloadShareCard } from '../lib/export';
 import { PlayerAvatar } from './PlayerAvatar';
@@ -42,4 +42,4 @@ export function Actions({title,subtitle='',rows,headers,metrics,players=[]}:{tit
 export function PlayerLink({player,to}:{player:Player;to?:string}){return <Link className="player-link" to={to??`/players/${player.id}`}><PlayerIdentity player={player}/><ArrowUpRight size={15}/></Link>;}
 export function Pagination({page,total,pageSize=10,onChange}:{page:number;total:number;pageSize?:number;onChange:(p:number)=>void}){const pages=Math.max(1,Math.ceil(total/pageSize));return <nav className="pagination" aria-label="结果分页"><span>{total} 条结果 · 第 {Math.min(page,pages)} / {pages} 页</span><Button disabled={page<=1} onClick={()=>onChange(page-1)}>上一页</Button><Button disabled={page>=pages} onClick={()=>onChange(page+1)}>下一页</Button></nav>;}
 export function SampleNote({records}:{records:MatchupRecord[]}){const low=records.filter(r=>r.matchupPossessions<25).length;return <p className="sample-note">{low>0?`${low} 条结果小于 25 回合。Small sample. Interpret with caution. `:''}样本等级仅表示回合数量；阵容、协防和赛程都会影响结果。</p>;}
-export function DataMethodNote(){const data=useData();return <section className="data-method-note"><strong>数据口径</strong><span>对位效率 = 得分 ÷（投篮出手 + 0.44 × 罚球出手 + 失误）。对位回合来自直接匹配追踪记录；低样本不等于统计置信度，也不代表完整防守能力。</span><small>Data source: NBA official public data / reference data source · Delivery: GitHub JSON · {data.mode==='live'?'LIVE':'DEMO'} · 更新 {data.updatedAt.slice(0,10)}</small></section>}
+export function DataMethodNote(){const data=useData();const status=useDataStatus();const label=status.state==='live'?'LIVE':status.state==='stale'?'DATA QUALITY WARNING':'DEMO';return <section className="data-method-note"><strong>数据口径</strong><span>对位效率 = 得分 ÷（投篮出手 + 0.44 × 罚球出手 + 失误）。对位回合来自直接匹配追踪记录；低样本不等于统计置信度，也不代表完整防守能力。</span><small>Data source: NBA official public data / reference data source · Delivery: GitHub JSON · {label} · 未确认位置保留为 Unknown · 更新 {data.updatedAt.slice(0,10)}</small></section>}
