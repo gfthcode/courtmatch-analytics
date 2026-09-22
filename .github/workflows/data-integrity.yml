@@ -54,6 +54,7 @@ jobs:
         with:
           node-version: '22'
       - run: python scripts/build_id_maps.py
+      - run: python -m unittest discover -s scripts -p 'test_*.py'
       - run: node --test scripts/validate-data.test.mjs
       - run: node scripts/validate-data.mjs data
       - run: python scripts/validate_pages.py
