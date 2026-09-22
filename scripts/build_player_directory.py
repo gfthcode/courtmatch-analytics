@@ -16,8 +16,9 @@ CSV_URL=os.environ.get('COURTMATCH_PLAYER_STATS_SOURCE','https://raw.githubuserc
 def normalise(name:str)->str:return re.sub(r'[^a-z0-9]+',' ',name.lower()).strip()
 def main():
     try:
-        official={str(row['id']):row for row in __import__('nba_api.stats.static.players',fromlist=['players']).get_players()}
-        official_available=True
+        from nba_api.stats.static.players import get_players
+        official={str(row['id']):row for row in get_players()}
+        official_available=bool(official)
     except Exception:
         official={};official_available=False
     if CSV_URL.startswith(('http://','https://')):
@@ -31,7 +32,7 @@ def main():
         if player_id in seen: conflicts.append({'reason':'duplicate-player-id','id':player_id,'name':name});continue
         seen.add(player_id); official_row=official.get(player_id);verified=official_row is not None
         if verified and normalise(official_row['full_name'])!=normalise(name):conflicts.append({'reason':'official-name-mismatch','id':player_id,'referenceName':name,'officialName':official_row['full_name']})
-        candidates.append({'id':player_id,'name':name,'normalizedName':normalise(name),'chineseName':name,'aliases':[row.get('shortname','')], 'shortName':row.get('shortname') or name,'teamId':str(row.get('teamid','')),'teamName':row.get('teamabbreviation') or 'Unknown','teamAbbreviation':row.get('teamabbreviation') or 'UNK','position':'G-F','height':'','weight':0,'jerseyNumber':'','headshotUrl':'','league':'NBA','source':'nba-api+reference-data' if verified else 'reference-player-stats','verified':verified,'updatedAt':now})
+        candidates.append({'id':player_id,'name':name,'normalizedName':normalise(name),'chineseName':name,'aliases':[row.get('shortname','')], 'shortName':row.get('shortname') or name,'teamId':str(row.get('teamid','')),'teamName':row.get('teamabbreviation') or 'Unknown','teamAbbreviation':row.get('teamabbreviation') or 'UNK','position':'G-F','height':'','weight':0,'jerseyNumber':'','headshotUrl':'','league':'NBA','source':'nba-api+reference-player-stats' if verified else 'reference-player-stats','verified':verified,'updatedAt':now})
     processed=ROOT/'data'/'processed';reports=ROOT/'data'/'reports';mappings=ROOT/'data'/'mappings';processed.mkdir(parents=True,exist_ok=True);reports.mkdir(parents=True,exist_ok=True);mappings.mkdir(parents=True,exist_ok=True)
     (processed/'players-candidate.json').write_text(json.dumps(candidates,ensure_ascii=False,indent=2),encoding='utf8')
     (mappings/'player-id-map.json').write_text(json.dumps({p['id']:p['id'] for p in candidates},indent=2),encoding='utf8')
