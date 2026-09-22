@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CourtMatch — NBA 对位分析</title>
+  <title>CourtMatch - NBA 对位分析</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,8 +13,8 @@
   <div class="grain"></div><div class="court-lines"></div>
   <header class="topbar">
     <a class="brand" href="#top" aria-label="CourtMatch 首页"><span class="mark"><i></i><i></i></span><span>COURT<span>MATCH</span></span></a>
-    <nav aria-label="主导航"><a class="active" href="#top">首页</a><a href="#matchups">联盟对位</a><a href="#comparison">球员比较</a><a href="#rankings">排行榜</a><a href="#method">方法论</a></nav>
-    <div class="nav-actions"><button class="league"><b>NBA</b><span>/ WNBA</span></button><button class="icon-btn" aria-label="切换主题">☼</button><button class="menu" aria-label="打开菜单">☰</button></div>
+    <nav id="main-nav" aria-label="NBA 导航"><a class="active" href="#top">首页</a><a href="#matchups">联盟对位</a><a href="#comparison">球员比较</a><a href="#rankings">排行榜</a><a href="#method">方法论</a></nav>
+    <div class="nav-actions"><button class="league" type="button" aria-label="NBA 球员直接对位"><b>NBA</b><span>DIRECT MATCHUPS</span></button><button class="icon-btn" type="button" aria-label="切换显示主题" aria-pressed="false">☼</button><button class="menu" type="button" aria-label="打开菜单" aria-controls="main-nav" aria-expanded="false">☰</button></div>
   </header>
 
   <main id="top">
@@ -35,16 +35,16 @@
         <div class="float-card card-bottom"><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i></div><span>LAST 10 MATCHUPS</span></div>
         <div class="hero-caption">TRACKING THE<br>GAME WITHIN<br>THE GAME <b>↘</b></div>
       </div>
-      <div class="scroll-cue"><span>SCROLL TO EXPLORE</span><i></i></div>
     </section>
 
     <section class="ticker" aria-label="演示数据提示"><div class="ticker-track"><span>DEMO MATCHUP <b>CURRY × HOLIDAY</b></span><span>·</span><span>SAMPLE METRIC <b>108.6 OFF RTG</b></span><span>·</span><span>DEMO ONLY <b>NOT OFFICIAL NBA TRACKING DATA</b></span><span>·</span><span>DEMO MATCHUP <b>CURRY × HOLIDAY</b></span><span>·</span></div></section>
 
     <section class="content-section explore" id="matchups">
-      <div class="section-head"><div><div class="kicker">01 / MATCHUP EXPLORER</div><h2>从一名球员开始。</h2></div><p>输入名字，拆解他的对位轨迹、效率变化与最关键的防守人。</p></div>
+      <div class="section-head"><div><div class="kicker">MATCHUP EXPLORER</div><h2>从一名球员开始。</h2></div><p>输入名字，拆解他的对位轨迹、效率变化与最关键的防守人。</p></div>
       <div class="search-panel">
         <div class="search-row"><label for="player-search">球员搜索</label><div class="search-input"><span>⌕</span><input id="player-search" placeholder="搜索球员，例如 Stephen Curry" /><kbd>⌘ K</kbd></div><button class="btn primary" id="search-button">开始分析 <b>→</b></button></div>
-        <div class="filter-row"><button class="filter active">常规赛</button><button class="filter">季后赛</button><span class="rule"></span><button class="select">2024–25 <b>⌄</b></button><button class="select">所有球队 <b>⌄</b></button><span class="possessions">最少对位回合 <strong>25</strong><input aria-label="最少对位回合" type="range" min="10" max="100" value="25"></span></div>
+        <div class="filter-row"><button class="filter active" type="button" aria-pressed="true">常规赛</button><button class="filter" type="button" aria-pressed="false">季后赛</button><span class="rule"></span><button class="select" type="button">2024-25 <b>⌄</b></button><button class="select" type="button">所有球队 <b>⌄</b></button><span class="possessions">最少对位回合 <strong>25</strong><input aria-label="最少对位回合" type="range" min="10" max="100" value="25"></span></div>
+        <p class="search-status" id="search-status" aria-live="polite">输入球员名称，即可更新下方演示视图。</p>
       </div>
       <div class="stats-grid">
         <article class="feature-stat"><div class="feature-top"><span class="number">01</span><span class="trend up">▲ 3.2</span></div><h3>最难防守的<br>持球人</h3><div class="athlete"><div class="avatar curry"></div><div><strong>S. Curry</strong><span>GSW · G</span></div><b>118.6</b></div><div class="meter"><i style="width:86%"></i></div><small>对位进攻效率 / 100回合</small></article>
@@ -54,11 +54,11 @@
     </section>
 
     <section class="comparison" id="comparison">
-      <div class="comp-copy"><div class="kicker">02 / HEAD-TO-HEAD</div><h2>把两位球员<br>放在同一块场地。</h2><p>直观看到他们相互盯防时的效率差、出手选择与胜负手。</p><a class="btn light" href="#comparison">开始双人对比 <b>→</b></a></div>
-      <div class="comp-board"><div class="board-label">SIMULATED MATCHUP · 2024–25</div><div class="board-player left"><span class="jersey">77</span><strong>DONČIĆ</strong><small>OFF RTG <b>121.8</b></small></div><div class="board-player right"><span class="jersey">5</span><strong>EDWARDS</strong><small>DEF RTG <b>104.2</b></small></div><div class="board-vs">VS</div><div class="board-score"><span>+17.6</span><small>EFFICIENCY EDGE</small></div></div>
+      <div class="comp-copy"><div class="kicker">HEAD-TO-HEAD</div><h2>把两位球员<br>放在同一块场地。</h2><p>直观看到他们相互盯防时的效率差、出手选择与胜负手。</p><a class="btn light" href="#comparison">开始双人对比 <b>→</b></a></div>
+      <div class="comp-board"><div class="board-label">SIMULATED MATCHUP · 2024-25</div><div class="board-player left"><span class="jersey">77</span><strong>DONČIĆ</strong><small>OFF RTG <b>121.8</b></small></div><div class="board-player right"><span class="jersey">5</span><strong>EDWARDS</strong><small>DEF RTG <b>104.2</b></small></div><div class="board-vs">VS</div><div class="board-score"><span>+17.6</span><small>EFFICIENCY EDGE</small></div></div>
     </section>
 
-    <section class="content-section rankings" id="rankings"><div class="section-head"><div><div class="kicker">03 / LEAGUE LEADERS · DEMO</div><h2>数据，不靠印象。</h2></div><a class="text-link" href="#rankings">查看演示榜单 <span>→</span></a></div>
+    <section class="content-section rankings" id="rankings"><div class="section-head"><div><div class="kicker">LEAGUE LEADERS · DEMO</div><h2>数据，不靠印象。</h2></div><a class="text-link" href="#rankings">查看演示榜单 <span>→</span></a></div>
       <div class="rank-layout"><div class="rank-list"><div class="rank-title"><span>进攻对位效率</span><small>MIN. 50 POSS</small></div><div class="rank-row"><b>01</b><div class="avatar sga"></div><strong>S. GILGEOUS-ALEXANDER <small>OKC · G</small></strong><em>120.8</em><i class="spark s1"></i></div><div class="rank-row"><b>02</b><div class="avatar jokic"></div><strong>N. JOKIĆ <small>DEN · C</small></strong><em>119.4</em><i class="spark s2"></i></div><div class="rank-row"><b>03</b><div class="avatar tatum"></div><strong>J. TATUM <small>BOS · F</small></strong><em>118.2</em><i class="spark s3"></i></div><div class="rank-row"><b>04</b><div class="avatar curry"></div><strong>S. CURRY <small>GSW · G</small></strong><em>117.6</em><i class="spark s4"></i></div></div>
         <aside class="quadrant"><div class="quad-head"><span>攻防象限</span><small>QUALIFIED PLAYERS</small></div><div class="chart"><div class="axis y">DEFENSIVE IMPACT ↑</div><div class="axis x">OFFENSIVE IMPACT →</div><i class="dot d1">SGA</i><i class="dot d2">JH</i><i class="dot d3">NC</i><i class="dot d4">ST</i><i class="dot d5">AE</i><div class="avg-h"></div><div class="avg-v"></div></div></aside>
       </div>
