@@ -43,7 +43,9 @@ def main():
         # locally packaged nba_api static directory is refreshed.  They remain
         # source-backed, but are explicitly distinguished from static matches.
         verification = 'official-static' if verified else 'source-entity'
-        candidates.append({'id':player_id,'name':name,'normalizedName':normalise(name),'chineseName':name,'aliases':[row.get('shortname','')], 'shortName':row.get('shortname') or name,'teamId':str(row.get('teamid','')),'teamName':row.get('teamabbreviation') or 'Unknown','teamAbbreviation':row.get('teamabbreviation') or 'UNK','position':'G-F','height':'','weight':0,'jerseyNumber':'','headshotUrl':'','league':'NBA','source':'nba-api+reference-player-stats' if verified else 'reference-player-stats','verification':verification,'verified':verified,'updatedAt':now})
+        # The tracking export does not expose a reliable roster position. Do not invent G-F;
+        # the UI and quality report make the uncertainty explicit until an official roster feed is joined.
+        candidates.append({'id':player_id,'name':name,'normalizedName':normalise(name),'chineseName':name,'aliases':[row.get('shortname','')], 'shortName':row.get('shortname') or name,'teamId':str(row.get('teamid','')),'teamName':row.get('teamabbreviation') or 'Unknown','teamAbbreviation':row.get('teamabbreviation') or 'UNK','position':'Unknown','height':'','weight':0,'jerseyNumber':'','headshotUrl':'','league':'NBA','source':'nba-api+reference-player-stats','verification':'position-unverified','verified':verified,'updatedAt':now})
     processed=ROOT/'data'/'processed';reports=ROOT/'data'/'reports';mappings=ROOT/'data'/'mappings';processed.mkdir(parents=True,exist_ok=True);reports.mkdir(parents=True,exist_ok=True);mappings.mkdir(parents=True,exist_ok=True)
     (processed/'players-candidate.json').write_text(json.dumps(candidates,ensure_ascii=False,indent=2),encoding='utf8')
     (mappings/'player-id-map.json').write_text(json.dumps({p['id']:p['id'] for p in candidates},indent=2),encoding='utf8')
