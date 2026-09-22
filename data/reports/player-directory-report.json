@@ -1,0 +1,11 @@
+{
+  "source": "player_stats CSV + nba_api.stats.static.players",
+  "officialDirectoryAvailable": true,
+  "candidateCount": 500,
+  "verifiedCount": 486,
+  "sourceBackedCount": 500,
+  "unverifiedCount": 0,
+  "staticDirectoryLagCount": 14,
+  "conflictCount": 0,
+  "generatedAt": "2026-09-22T21:18:45.404745+00:00"
+}
