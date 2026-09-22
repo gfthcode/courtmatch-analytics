@@ -1,0 +1,10 @@
+{
+  "total_players": 500,
+  "mapped_position_count": 0,
+  "unknown_count": 500,
+  "mapping_success_rate": 0,
+  "unknown_player_ids_source": "data/reports/player-position-report.json",
+  "invalid_positions": [],
+  "position_distribution": {"C": 0, "F": 0, "F-C": 0, "G": 0, "G-F": 0, "Unknown": 500},
+  "source": "NBA official roster position when available; Unknown is retained when not verifiable"
+}

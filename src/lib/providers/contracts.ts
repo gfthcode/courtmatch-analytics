@@ -2,7 +2,7 @@ import type { DataManifest, Dataset, Filters, MatchupRecord, Player, PlayerStats
 
 export type DataStatus = {
   provider: 'mock' | 'github-json' | 'supabase';
-  state: 'live' | 'recently-updated' | 'demo' | 'unavailable';
+  state: 'live' | 'recently-updated' | 'stale' | 'demo' | 'unavailable';
   lastUpdated: string;
   version: string;
   coverage: string;

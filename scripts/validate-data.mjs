@@ -16,9 +16,9 @@ function unique(rows,key,label){assert(Array.isArray(rows)&&rows.length>0,`${lab
 
 const manifest=await json('manifest.json');
 assert(object(manifest),'manifest must be an object');for(const field of required)assert(field in manifest,`manifest missing ${field}`);
-assert(manifest.league==='NBA','only NBA data is accepted');assert(['live','recently-updated','demo'].includes(manifest.status),'invalid manifest status');assert(timestamp(manifest.lastUpdated),'invalid manifest timestamp');assert(Number.isInteger(manifest.playerCount)&&manifest.playerCount>=0,'invalid player count');assert(Number.isInteger(manifest.matchupRecordCount)&&manifest.matchupRecordCount>=0,'invalid matchup count');
+assert(manifest.league==='NBA','only NBA data is accepted');assert(['live','recently-updated','stale','demo'].includes(manifest.status),'invalid manifest status');assert(timestamp(manifest.lastUpdated),'invalid manifest timestamp');assert(Number.isInteger(manifest.playerCount)&&manifest.playerCount>=0,'invalid player count');assert(Number.isInteger(manifest.matchupRecordCount)&&manifest.matchupRecordCount>=0,'invalid matchup count');
 if(manifest.isDemo||manifest.status==='demo'){assert(manifest.isDemo&&manifest.status==='demo','demo status and isDemo must agree');console.log(`Validated safe demo manifest ${manifest.version}`);process.exit(0)}
-assert(manifest.status==='live'||manifest.status==='recently-updated','live data has invalid status');
+assert(manifest.status==='live'||manifest.status==='recently-updated'||manifest.status==='stale','live data has invalid status');
 const teams=await json(manifest.teams),teamIds=unique(teams,'id','teams');
 const players=await json(manifest.players),playerIds=unique(players,'id','players');
 for(const player of players){assert(player.league==='NBA',`player ${player.id} is not NBA`);assert(typeof player.name==='string'&&player.name,`player ${player.id} missing name`);assert(teamIds.has(player.teamId),`player ${player.id} has missing team`)}
