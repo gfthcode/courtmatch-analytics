@@ -1,32 +1,28 @@
-name: Sync normalized NBA data
+name: Sync validated NBA data
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 8 * * *'
+    - cron: '17 8 * * *'
+
 permissions:
   contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: '3.12' }
+        with:
+          python-version: '3.12'
       - uses: actions/setup-node@v4
-        with: { node-version: '22' }
+        with:
+          node-version: '22'
       - run: pip install pandas openpyxl
-        if: vars.COURTMATCH_ENABLE_LIVE_SYNC == 'true'
+      - run: npm ci
+      - run: python scripts/build_id_maps.py
       - run: python scripts/sync_data.py
-        if: vars.COURTMATCH_ENABLE_LIVE_SYNC == 'true'
-      - run: node scripts/validate-data.mjs
-        if: vars.COURTMATCH_ENABLE_LIVE_SYNC == 'true'
-      - name: Commit only a validated update
-        if: vars.COURTMATCH_ENABLE_LIVE_SYNC == 'true'
-        run: |
-          git config user.name 'courtmatch-data-bot'
-          git config user.email 'courtmatch-data-bot@users.noreply.github.com'
-          git add public/data
-          git diff --cached --quiet || git commit -m 'data: refresh normalized NBA dataset'
-          git push
-      - run: echo 'Live sync is intentionally disabled until player metadata normalization is configured.'
-        if: vars.COURTMATCH_ENABLE_LIVE_SYNC != 'true'
+        env:
+          COURTMATCH_PLAYER_DIRECTORY: ${{ vars.COURTMATCH_PLAYER_DIRECTORY }}
+      - run: git diff --exit-code public/data data/reports || (git config user.name 'courtmatch-bot' && git config user.email 'courtmatch-bot@users.noreply.github.com' && git add public/data data/reports && git commit -m 'data: sync validated NBA dataset' && git push)
