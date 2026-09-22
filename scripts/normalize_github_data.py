@@ -15,7 +15,9 @@ from pathlib import Path
 from urllib.request import urlretrieve
 
 ROOT = Path(__file__).resolve().parents[1]
-PUBLISHED = ROOT / "public" / "data"
+# GitHub Pages serves the repository root. Publishing anywhere else would leave
+# the client reading an old catalogue, so the validated staging swap targets data/.
+PUBLISHED = ROOT / "data"
 MATCHUPS_URL = os.environ.get("COURTMATCH_MATCHUP_SOURCE", "https://raw.githubusercontent.com/suren504/surennba_stats/main/data/matchups/2025-26NBA_Regular_Matchups.xlsx")
 PLAYTYPES_URL = os.environ.get("COURTMATCH_PLAYTYPE_SOURCE", "https://raw.githubusercontent.com/suren504/surennba_stats/main/data/2025-26_player_playtype.xlsx")
 PLAYER_DIRECTORY = os.environ.get("COURTMATCH_PLAYER_DIRECTORY", "")

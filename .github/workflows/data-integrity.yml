@@ -1,0 +1,85 @@
+name: Verify CourtMatch data and Pages shell
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'index.html'
+      - 'matchups/**'
+      - 'comparison/**'
+      - 'rankings/**'
+      - 'playtypes/**'
+      - 'methodology/**'
+      - 'sources/**'
+      - 'settings/**'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - 'index.html'
+      - 'matchups/**'
+      - 'comparison/**'
+      - 'rankings/**'
+      - 'playtypes/**'
+      - 'methodology/**'
+      - 'sources/**'
+      - 'settings/**'
+      - '.github/workflows/**'
+  schedule:
+    - cron: '17 8 * * *'
+  workflow_dispatch:
+    inputs:
+      publish_live:
+        description: 'Attempt a fail-closed Live NBA data refresh (never enabled by schedule)'
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  validate-published-state:
+    name: Validate demo catalogue and Pages shell
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python scripts/build_id_maps.py
+      - run: node --test scripts/validate-data.test.mjs
+      - run: node scripts/validate-data.mjs data
+      - run: python scripts/validate_pages.py
+
+  refresh-live-data:
+    name: Refresh verified Live NBA data
+    if: github.event_name == 'workflow_dispatch' && inputs.publish_live
+    needs: validate-published-state
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install pandas openpyxl nba_api
+      - run: python scripts/sync_data.py
+      - run: node scripts/validate-data.mjs data
+      - name: Commit only a fully validated Live catalogue
+        run: |
+          git diff --quiet -- data || (
+            git config user.name 'courtmatch-bot'
+            git config user.email 'courtmatch-bot@users.noreply.github.com'
+            git add data
+            git commit -m 'data: sync verified NBA catalogue'
+            git push
+          )
