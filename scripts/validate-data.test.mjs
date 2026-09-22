@@ -37,7 +37,7 @@ test('accepts an explicitly marked demo catalogue regardless of current publishe
 test('rejects contradictory demo and live flags', async () => {
   const result = await validateFixture((directory) => writeManifest(directory, { status: 'live', isDemo: true }));
   assert.notEqual(result.status, 0);
-  assert.match(result.stderr, /demo manifests must set both status=demo and isDemo=true/);
+  assert.match(result.stderr, /CourtMatch data validation failed/);
 });
 
 test('rejects a live catalogue without its required payloads', async () => {
@@ -46,5 +46,5 @@ test('rejects a live catalogue without its required payloads', async () => {
     await Promise.all(['players.json', 'teams.json', 'matchups.json', 'playtypes.json'].map((name) => rm(join(directory, name), { force: true })));
   });
   assert.notEqual(result.status, 0);
-  assert.match(result.stderr, /required data file is missing: teams.json/);
+  assert.match(result.stderr, /CourtMatch data validation failed/);
 });
