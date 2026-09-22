@@ -1,0 +1,40 @@
+name: Sync validated NBA data
+
+'on':
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_player_directory.py'
+      - 'scripts/normalize_github_data.py'
+      - 'scripts/sync_data.py'
+      - 'scripts/validate-data.mjs'
+      - '.github/workflows/sync-data.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: pip install certifi pandas openpyxl nba_api
+      - run: python scripts/sync_data.py
+        env:
+          COURTMATCH_PUBLISHED_DATA_DIR: data
+      - run: node scripts/validate-data.mjs data
+      - run: |
+          git diff --quiet -- data || (
+            git config user.name 'courtmatch-bot'
+            git config user.email 'courtmatch-bot@users.noreply.github.com'
+            git add data
+            git commit -m 'data: sync verified NBA catalogue'
+            git push
+          )
