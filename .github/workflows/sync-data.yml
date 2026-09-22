@@ -1,6 +1,6 @@
 name: Sync validated NBA data
 
-on:
+'on':
   workflow_dispatch:
   schedule:
     - cron: '17 8 * * *'
@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   sync:
+    if: ${{ vars.COURTMATCH_PLAYER_DIRECTORY != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,7 +21,7 @@ jobs:
         with:
           node-version: '22'
       - run: pip install pandas openpyxl
-      - run: npm ci
+      - run: corepack enable && pnpm install --frozen-lockfile
       - run: python scripts/build_id_maps.py
       - run: python scripts/sync_data.py
         env:
