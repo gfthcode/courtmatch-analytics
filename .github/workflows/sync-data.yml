@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   sync:
-    if: ${{ vars.COURTMATCH_PLAYER_DIRECTORY != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,10 +19,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: pip install pandas openpyxl
+      - run: pip install pandas openpyxl nba_api
       - run: corepack enable && pnpm install --frozen-lockfile
       - run: python scripts/build_id_maps.py
       - run: python scripts/sync_data.py
-        env:
-          COURTMATCH_PLAYER_DIRECTORY: ${{ vars.COURTMATCH_PLAYER_DIRECTORY }}
       - run: git diff --exit-code public/data data/reports || (git config user.name 'courtmatch-bot' && git config user.email 'courtmatch-bot@users.noreply.github.com' && git add public/data data/reports && git commit -m 'data: sync validated NBA dataset' && git push)
