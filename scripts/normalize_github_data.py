@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import subprocess
 import ssl
 import tempfile
 from datetime import datetime, timezone
@@ -60,6 +61,19 @@ def text(row, *names) -> str:
 
 def write_json(path: Path, payload) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf8")
+
+
+def validate_catalogue_stage(stage: Path) -> None:
+    """Run the browser-facing validator before changing the public catalogue."""
+    completed = subprocess.run(
+        ["node", "scripts/validate-data.mjs", str(stage)],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+    )
+    if completed.returncode:
+        detail = (completed.stderr or completed.stdout).strip()
+        raise RuntimeError(f"staged NBA catalogue failed validation: {detail}")
 
 
 def validate_stage(players: list[dict], teams: list[dict], matchups: list[dict], playtypes: list[dict]) -> None:
@@ -141,6 +155,7 @@ def main() -> None:
         for name, payload in (("players.json", players), ("teams.json", teams), ("matchups.json", matchups), ("playtypes.json", playtypes)):
             write_json(stage / name, payload)
         write_json(stage / "manifest.json", manifest)
+        validate_catalogue_stage(stage)
         # Data files first, manifest last: clients observe either the old complete dataset or the new complete dataset.
         PUBLISHED.mkdir(parents=True, exist_ok=True)
         for name in ("players.json", "teams.json", "matchups.json", "playtypes.json", "manifest.json"):
