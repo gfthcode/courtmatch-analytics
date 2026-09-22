@@ -1,0 +1,14 @@
+{
+  "provider": "github-json",
+  "status": "demo",
+  "league": "NBA",
+  "lastUpdated": "2026-09-22T00:00:00.000Z",
+  "version": "demo-2026.09.22",
+  "coverage": "NBA · product demonstration dataset · 3 archived seasons",
+  "players": "players.json",
+  "teams": "teams.json",
+  "matchups": "matchups.json",
+  "playerCount": 0,
+  "matchupRecordCount": 0,
+  "isDemo": true
+}

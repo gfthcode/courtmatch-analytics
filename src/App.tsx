@@ -1,0 +1,28 @@
+import { useEffect, useState } from 'react';
+import { Link, NavLink, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+import * as Dialog from '@radix-ui/react-dialog';
+import { Search, X, Menu, Sun, Moon, ArrowUpRight, Activity, Users, Trophy, Home as HomeIcon } from 'lucide-react';
+import { DataGate, useSettings } from './state';
+import { Button } from './components/ui/button';
+import { SearchPlayers } from './components/Common';
+import { HomePage } from './pages/Home';
+import { MatchupsPage } from './pages/Matchups';
+import { PlayerPage } from './pages/Player';
+import { ComparisonPage } from './pages/Comparison';
+import { RankingsPage } from './pages/Rankings';
+import { InformationPage, SettingsPage } from './pages/Information';
+import { PlayTypesPage } from './pages/PlayTypes';
+
+const nav=[['/','Home'],['/matchups','Matchups'],['/comparison','Player Comparison'],['/rankings','Rankings'],['/playtypes','Play Types'],['/methodology','Methodology']];
+export function App(){
+ const [searchOpen,setSearchOpen]=useState(false);const [menuOpen,setMenuOpen]=useState(false);const {theme,setTheme}=useSettings();const location=useLocation();const navigate=useNavigate();
+ useEffect(()=>{const media=matchMedia('(prefers-color-scheme:dark)');const apply=()=>{document.documentElement.dataset.theme=theme==='system'?(media.matches?'dark':'light'):theme;};apply();media.addEventListener('change',apply);return()=>media.removeEventListener('change',apply);},[theme]);
+ useEffect(()=>{function onKey(e:KeyboardEvent){if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();setSearchOpen(v=>!v);}}window.addEventListener('keydown',onKey);return()=>window.removeEventListener('keydown',onKey);},[]);
+ useEffect(()=>{setMenuOpen(false);window.scrollTo({top:0});const labels:Record<string,string>={'/':'NBA 直接对位分析','/matchups':'联盟对位','/comparison':'球员比较','/rankings':'排行榜','/playtypes':'Play Types','/methodology':'方法论','/sources':'数据来源','/settings':'设置'};document.title=`${labels[location.pathname.replace(/\/$/,'')||'/']??'球员数据'} | CourtMatch`;},[location.pathname]);
+ useEffect(()=>{const old:Record<string,string>={'#matchups':'/matchups','#comparison':'/comparison','#rankings':'/rankings','#method':'/methodology'};if(location.pathname==='/'&&old[location.hash])navigate(old[location.hash]+location.search,{replace:true});},[location.hash,location.pathname,location.search,navigate]);
+ return <><a className="skip-link" href="#main">跳转到主要内容</a><header className="site-header"><Link className="brand" to="/" aria-label="CourtMatch 首页"><span className="brand-ball" aria-hidden="true"/>COURT<span>MATCH</span><small>ANALYTICS</small></Link><nav className={`main-nav ${menuOpen?'is-open':''}`} aria-label="主导航">{nav.map(([path,label])=><NavLink key={path} to={path} end={path==='/'}>{label}</NavLink>)}</nav><div className="header-actions"><span className="nba-badge">NBA</span><Button variant="ghost" aria-label="全局搜索" onClick={()=>setSearchOpen(true)}><Search size={18}/><kbd>⌘ K</kbd></Button><Button variant="ghost" aria-label="切换主题" onClick={()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark')}>{theme==='light'?<Moon size={18}/>:<Sun size={18}/>}</Button><Button variant="ghost" className="mobile-menu" aria-label={menuOpen?'关闭菜单':'打开菜单'} aria-expanded={menuOpen} onClick={()=>setMenuOpen(!menuOpen)}><Menu size={20}/></Button></div></header>
+ <main id="main" className="main-container"><Routes><Route path="/settings" element={<SettingsPage/>}/><Route path="*" element={<DataGate><Routes><Route path="/" element={<HomePage onSearch={()=>setSearchOpen(true)}/>}/><Route path="/matchups" element={<MatchupsPage/>}/><Route path="/matchups/player/:playerId" element={<MatchupsPage detail/>}/><Route path="/players/:playerId" element={<PlayerPage/>}/><Route path="/comparison" element={<ComparisonPage/>}/><Route path="/rankings" element={<RankingsPage/>}/><Route path="/playtypes" element={<PlayTypesPage/>}/><Route path="/playtypes/:playerId" element={<PlayTypesPage detail/>}/><Route path="/methodology" element={<InformationPage/>}/><Route path="/sources" element={<InformationPage sources/>}/><Route path="*" element={<section className="empty"><h1>这个页面没有出现在赛程里</h1><p>检查链接，或返回联盟对位重新开始。</p><Button asChild><Link to="/matchups">探索联盟对位</Link></Button></section>}/></Routes></DataGate>}/></Routes></main>
+ <footer className="site-footer"><Link className="brand" to="/">COURT<span>MATCH</span></Link><span>TRACKING THE GAME WITHIN THE GAME</span><div><Link to="/sources">数据来源 <ArrowUpRight size={13}/></Link><Link to="/methodology">指标口径</Link><Link to="/settings">设置</Link></div><small>© {new Date().getFullYear()} CourtMatch Analytics</small></footer>
+ <nav className="bottom-nav" aria-label="手机底部导航">{[[HomeIcon,'/','首页'],[Activity,'/matchups','对位'],[Users,'/comparison','比较'],[Trophy,'/rankings','榜单']].map(([Icon,path,label])=>{const I=Icon as typeof HomeIcon;return <NavLink key={String(path)} to={String(path)} end={path==='/'}><I size={19}/><span>{String(label)}</span></NavLink>;})}</nav>
+ <Dialog.Root open={searchOpen} onOpenChange={setSearchOpen}><Dialog.Portal><Dialog.Overlay className="dialog-overlay"/><Dialog.Content className="dialog-content"><div className="dialog-header"><Dialog.Title>找到你的球员</Dialog.Title><Dialog.Close asChild><Button variant="ghost" aria-label="关闭搜索"><X size={20}/></Button></Dialog.Close></div><Dialog.Description>支持中英文姓名、球队、缩写；↑ ↓ 选择，Enter 打开球员详情。</Dialog.Description><DataGate><SearchPlayers autoFocus onChoose={p=>{setSearchOpen(false);navigate(`/players/${p.id}`);}}/></DataGate></Dialog.Content></Dialog.Portal></Dialog.Root></>;
+}

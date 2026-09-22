@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gfthcode.github.io/courtmatch-analytics/sitemap.xml
