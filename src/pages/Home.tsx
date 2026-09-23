@@ -3,7 +3,7 @@ import { Activity, ArrowRight, ArrowUpRight, BarChart3, CalendarDays, Database, 
 import { useMemo } from 'react';
 import { Button } from '../components/ui/button';
 import { SearchPlayers, PlayerIdentity, Quality, number } from '../components/Common';
-import { useData } from '../state';
+import { useData, useDataStatus } from '../state';
 import { calculateMatchupMetrics, getMatchups, getPlayerById, getRankings, leagueAverage } from '../lib/api';
 import './home.css';
 import './home-motion.css';
@@ -48,6 +48,7 @@ function ImpactPanel({ label, metric, title, description }: { label: string; met
 
 export function HomePage({ onSearch }: { onSearch: () => void }) {
   const data = useData();
+  const dataStatus = useDataStatus();
   const { language, t } = useLanguage();
   const navigate = useNavigate();
   const season = data.seasons[0];
@@ -77,7 +78,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
   return <div className="lab-home">
     <section className="lab-hero" aria-labelledby="lab-hero-title">
       <div className="lab-hero-copy">
-        <div className="lab-signal"><i aria-hidden="true" />NBA DATA LAB <span>LIVE ANALYSIS SURFACE</span></div>
+        <div className="lab-signal"><i aria-hidden="true" />NBA DATA LAB <span>{dataStatus.state==='live'?'LIVE ANALYSIS SURFACE':dataStatus.state==='recently-updated'?'RECENTLY UPDATED':dataStatus.state==='stale'?'DATA QUALITY GATED':'DEMO ANALYSIS SURFACE'}</span></div>
         <h1 id="lab-hero-title">{language === 'en' ? <>Read every<br /><em>head-to-head.</em></> : <>读懂每一次<br /><em>正面对位。</em></>}</h1>
         <p className="lab-hero-subtitle">Explore how NBA players perform when directly matched against one another.</p>
         <p className="lab-hero-description">{copy.heroDescription}</p>
@@ -143,7 +144,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
     </section>
 
     <section className="lab-footer-grid">
-      <article className="lab-update" style={{ background: '#fff', backgroundImage: 'none' }}><div className="lab-module-kicker"><span>RECENT DATA UPDATE</span><i aria-hidden="true" /></div><h2>{formatUpdated(data.updatedAt)}</h2><p>{data.source}</p><dl><div><dt>{copy.scope}</dt><dd>{data.seasons.join(' · ')}</dd></div><div><dt>{copy.status}</dt><dd>{data.mode === 'live' ? 'LIVE DATA' : 'DEMO DATA'}</dd></div></dl><Link to="/sources">{t('查看数据来源与覆盖范围')} <ArrowUpRight size={16} /></Link></article>
+      <article className="lab-update" style={{ background: '#fff', backgroundImage: 'none' }}><div className="lab-module-kicker"><span>RECENT DATA UPDATE</span><i aria-hidden="true" /></div><h2>{formatUpdated(data.updatedAt)}</h2><p>{data.source}</p><dl><div><dt>{copy.scope}</dt><dd>{data.seasons.join(' · ')}</dd></div><div><dt>{copy.status}</dt><dd>{dataStatus.state === 'live' ? 'LIVE DATA' : dataStatus.state === 'recently-updated' ? 'RECENTLY UPDATED' : dataStatus.state === 'stale' ? 'STALE DATA' : 'DEMO DATA'}</dd></div></dl><Link to="/sources">{t('查看数据来源与覆盖范围')} <ArrowUpRight size={16} /></Link></article>
       <article className="lab-method" style={{ background: '#fff', backgroundImage: 'none' }}><ShieldCheck size={25} /><div><span>EXPLORE METHODOLOGY</span><h2>{t('数字需要上下文。')}</h2><p>{t('样本量不等于因果关系。先理解口径，再使用结论。')}</p><Link to="/methodology">{t('阅读方法论')} <ArrowRight size={17} /></Link></div></article>
     </section>
   </div>;
