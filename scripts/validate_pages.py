@@ -19,8 +19,8 @@ def fail(message: str) -> None:
 def main() -> None:
     root_html = ROOT / "index.html"
     html = root_html.read_text(encoding="utf8")
-    if "明确标记的演示数据" not in html:
-        fail("root metadata must disclose the demo state")
+    if "manifest" not in html or "STALE DATA" not in html:
+        fail("root metadata must disclose manifest-controlled data quality state")
     script = re.search(r'<script type="module" crossorigin src="([^"]+)"></script>', html)
     stylesheet = re.search(r'<link rel="stylesheet" crossorigin href="([^"]+)">', html)
     if not script or not stylesheet:
@@ -38,7 +38,7 @@ def main() -> None:
             fail(f"direct-entry route lacks canonical or recovery handling: {page.relative_to(ROOT)}")
     if not (ROOT / "404.html").is_file() or not (ROOT / ".nojekyll").is_file():
         fail("GitHub Pages fallback files are missing")
-    print("Validated GitHub Pages shell, direct-entry routes and demo disclosure")
+    print("Validated GitHub Pages shell, direct-entry routes and manifest data-quality disclosure")
 
 
 if __name__ == "__main__":
