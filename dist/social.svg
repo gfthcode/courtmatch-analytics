@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#141619"/>
+  <g stroke="#343739" fill="none" stroke-width="2"><path d="M814-40h292v710H814z"/><path d="M814 95h176v440H814"/><circle cx="960" cy="315" r="105"/><path d="M960 70v490"/><circle cx="960" cy="315" r="280"/></g>
+  <rect x="64" y="62" width="40" height="40" rx="8" fill="#f05a3c"/>
+  <path d="M94 72H83a10 10 0 0 0 0 20h11v-6H83a4 4 0 0 1 0-8h11z" fill="#141619"/>
+  <text x="121" y="93" fill="#f6f1e7" font-family="Arial, sans-serif" font-size="33" font-weight="800" letter-spacing="2">COURTMATCH</text>
+  <text x="66" y="178" fill="#f05a3c" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="4">TRACKING THE GAME WITHIN THE GAME</text>
+  <text x="60" y="293" fill="#f6f1e7" font-family="Arial, sans-serif" font-size="105" font-weight="900" letter-spacing="-5">EVERY MATCHUP.</text>
+  <text x="60" y="410" fill="#f6f1e7" font-family="Arial, sans-serif" font-size="105" font-weight="900" letter-spacing="-5">A DIFFERENT GAME.</text>
+  <path d="M64 462h72" stroke="#f05a3c" stroke-width="7"/>
+  <text x="156" y="470" fill="#b6b4ad" font-family="Arial, sans-serif" font-size="23" letter-spacing="1">NBA DIRECT MATCHUP ANALYTICS</text>
+  <text x="64" y="563" fill="#b6b4ad" font-family="Arial, sans-serif" font-size="16" letter-spacing="2">EXPLORE / COMPARE / UNDERSTAND</text>
+  <rect x="909" y="529" width="225" height="44" fill="#262829" rx="4"/>
+  <text x="1022" y="557" fill="#f05a3c" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="700" letter-spacing="2">DEMO DATA</text>
+</svg>
