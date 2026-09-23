@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom';
 import { BarChart3, CalendarDays, CheckCircle2, Globe2, History, Rocket, Search, Shield, WalletCards } from 'lucide-react';
 import { useData, useDataStatus } from '../state';
 import { getRankings, getTeamStats, searchPlayers } from '../lib/api';
@@ -24,7 +24,7 @@ export function PlayerDirectoryPage() {
 }
 
 export function TeamDirectoryPage() {
-  const routePath = window.location.pathname.replace(/^\/courtmatch-analytics(?=\/|$)/, '') || '/';
+  const { pathname: routePath } = useLocation();
   if (routePath === '/team' || routePath === '/team/') return <TeamScatterPage />;
   const data = useData(); const [query, setQuery] = useState(''); const [page, setPage] = useState(1); const pageSize = 12;
   const rows = data.teams.filter((t) => [t.id, t.name, t.chineseName, t.abbreviation].some((v) => v.toLowerCase().includes(query.toLowerCase()))).slice((page - 1) * pageSize, page * pageSize);
