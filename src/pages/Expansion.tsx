@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
-import { CalendarDays, CheckCircle2, Globe2, History, Rocket, Search, WalletCards } from 'lucide-react';
+import { CalendarDays, CheckCircle2, Globe2, History, Rocket, Search, Shield, WalletCards } from 'lucide-react';
 import { useData, useDataStatus } from '../state';
 import { getRankings, getTeamStats, searchPlayers } from '../lib/api';
 import { DataMethodNote, Empty, PageHead, Pagination, PlayerIdentity, PlayerLink, number } from '../components/Common';
@@ -33,6 +33,27 @@ export function TeamDetailPage() {
   if (!team) return <Empty title="未找到球队" message="请从球队数据目录选择有效球队。"><Button asChild><Link to="/teams">返回球队数据</Link></Button></Empty>;
   const players = data.players.filter((p) => p.teamId === team.id);
   return <><PageHead eyebrow="TEAM PROFILE" title={`${team.chineseName} · ${team.abbreviation}`} description={`${team.name} 的球队目录、赛季效率和当前发布数据覆盖。`} /><StatusCard /><div className="metrics-grid"><article className="metric"><span className="metric-label">进攻效率</span><strong>{number(stats?.offensiveRating)}</strong><p>{data.seasons[0]} · 当前数据</p></article><article className="metric"><span className="metric-label">防守效率</span><strong>{number(stats?.defensiveRating)}</strong><p>数值越低通常代表限制得分更好</p></article><article className="metric"><span className="metric-label">节奏</span><strong>{number(stats?.pace)}</strong><p>当前覆盖赛季</p></article></div><section className="section"><div className="section-title"><h2>球队球员</h2><Link to="/players">打开球员目录 →</Link></div><div className="directory-list">{players.map((player) => <PlayerLink key={player.id} player={player} />)}</div></section><DataMethodNote /></>;
+}
+
+export function TeamAnalysisPage() {
+  const data = useData();
+  const [params, setParams] = useSearchParams();
+  const teamId = params.get('team') ?? data.teams[0]?.id ?? '';
+  const team = data.teams.find((item) => item.id === teamId);
+  const stats = team ? getTeamStats(data, team.id, { season: data.seasons[0] })[0] : undefined;
+  return <><PageHead eyebrow="TEAM ANALYSIS" title="球队攻防" description="查看当前数据集已经发布的球队效率、节奏和基础赛季指标。" /><StatusCard /><section className="directory-toolbar"><label className="field"><span>选择球队</span><select value={teamId} onChange={(event) => { const next = new URLSearchParams(params); next.set('team', event.target.value); setParams(next, { replace: true }); }}>{data.teams.map((item) => <option key={item.id} value={item.id}>{item.abbreviation} · {item.chineseName}</option>)}</select></label></section>{team ? <><div className="metrics-grid"><article className="metric"><span className="metric-label">进攻效率</span><strong>{number(stats?.offensiveRating)}</strong><p>{data.seasons[0]} · 当前数据</p></article><article className="metric"><span className="metric-label">防守效率</span><strong>{number(stats?.defensiveRating)}</strong><p>数值越低通常代表限制得分更好</p></article><article className="metric"><span className="metric-label">节奏</span><strong>{number(stats?.pace)}</strong><p>回合/场 · 当前覆盖赛季</p></article></div><section className="notice-card"><Shield size={18} /><span>球队攻防明细只展示已发布字段；未提供的高级指标不会用估算值填充。</span></section><Link className="card-link" to={`/teams/${team.id}`}>打开 {team.chineseName} 球队详情 →</Link></> : <Empty title="未找到球队" message="请从球队选择器中选择有效球队。" />}</>;
+}
+
+export function TeamComparePage() {
+  const data = useData();
+  const [params, setParams] = useSearchParams();
+  const leftId = params.get('left') ?? data.teams[0]?.id ?? '';
+  const rightId = params.get('right') ?? data.teams[1]?.id ?? data.teams[0]?.id ?? '';
+  const left = data.teams.find((item) => item.id === leftId);
+  const right = data.teams.find((item) => item.id === rightId);
+  const update = (key: string, value: string) => { const next = new URLSearchParams(params); next.set(key, value); setParams(next, { replace: true }); };
+  const card = (team: typeof left) => { if (!team) return <article className="unavailable-panel"><h2>未选择球队</h2></article>; const stats = getTeamStats(data, team.id, { season: data.seasons[0] })[0]; return <article className="directory-card"><div className="team-mark" aria-hidden="true">{team.abbreviation.slice(0, 2)}</div><h2>{team.chineseName}</h2><p>{team.name} · {data.seasons[0]}</p><dl><div><dt>进攻效率</dt><dd>{number(stats?.offensiveRating)}</dd></div><div><dt>防守效率</dt><dd>{number(stats?.defensiveRating)}</dd></div><div><dt>节奏</dt><dd>{number(stats?.pace)}</dd></div></dl><Link className="card-link" to={`/teams/${team.id}`}>查看详情 →</Link></article>; };
+  return <><PageHead eyebrow="TEAM COMPARISON" title="球队对比" description="并排查看两支 NBA 球队的已发布赛季效率指标；空值保持为 —。" /><StatusCard /><section className="directory-toolbar"><label className="field"><span>左侧球队</span><select value={leftId} onChange={(event) => update('left', event.target.value)}>{data.teams.map((item) => <option key={item.id} value={item.id}>{item.abbreviation} · {item.chineseName}</option>)}</select></label><label className="field"><span>右侧球队</span><select value={rightId} onChange={(event) => update('right', event.target.value)}>{data.teams.map((item) => <option key={item.id} value={item.id}>{item.abbreviation} · {item.chineseName}</option>)}</select></label></section><div className="directory-grid team-directory">{card(left)}{card(right)}</div><DataMethodNote /></>;
 }
 
 export function SalariesPage() { return <><PageHead eyebrow="SALARY VAULT" title="薪金仓库" description="薪资数据需要可靠、可追溯的公开来源；当前数据目录未发布薪资字段。" /><StatusCard /><section className="unavailable-panel"><WalletCards size={30} /><h2>Salary data is not available in the current dataset.</h2><p>当前页面不会使用假数据填充薪资、合同年限或球队工资总额。</p><dl><div><dt>预计接入字段</dt><dd>球员薪资、合同年限、合同总额、合同状态</dd></div><div><dt>发布条件</dt><dd>来源可追溯、字段校验通过，并在 manifest 中明确标记可用。</dd></div></dl></section></>; }

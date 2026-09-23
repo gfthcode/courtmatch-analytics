@@ -3,15 +3,31 @@
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/matchups/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/players/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/player/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/player/compare/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/teams/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/team/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/team/pk/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/team/compare/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/comparison/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/matchup/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/matchup/player/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/rankings/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/playtypes/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/salaries/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/salary/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/salary/player/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/salary/compare/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/salary/team-compare/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/future/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/predict/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/predict/compare/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/predict/team-compare/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/impact/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/onoff/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/daily/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/countries/</loc></url>
+  <url><loc>https://gfthcode.github.io/courtmatch-analytics/country/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/changelog/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/methodology/</loc></url>
   <url><loc>https://gfthcode.github.io/courtmatch-analytics/sources/</loc></url>
