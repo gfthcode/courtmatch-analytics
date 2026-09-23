@@ -32,3 +32,11 @@ html body #courtmatch-side-drawer{background:#fff!important;background-color:#ff
 .playtype-table{overflow:hidden}
 @media(max-width:800px){.chart-canvas{min-height:240px}.scatter-plot{min-height:240px}.scatter-plot button span{max-width:90px;font-size:9px}.bar-chart>div{grid-template-columns:72px 1fr auto}.playtype-overview .chart-panel{min-height:320px}}
 @media(prefers-reduced-motion:reduce){.scatter-plot button,.scatter-plot button span{transition:none}}
+
+/* Drawer hierarchy pass: stable rhythm for nested navigation on desktop and mobile. */
+#courtmatch-side-drawer .side-drawer-nav{gap:4px}
+#courtmatch-side-drawer .side-drawer-item,#courtmatch-side-drawer .side-drawer-group-toggle{min-height:58px;padding:12px 14px;border-radius:4px}
+#courtmatch-side-drawer .side-drawer-subnav{margin:2px 0 8px 34px;padding-left:12px;gap:4px}
+#courtmatch-side-drawer .side-drawer-subnav a{min-height:44px;padding:10px 12px}
+#courtmatch-side-drawer .side-drawer-copy strong{line-height:1.2}
+@media(max-width:800px){#courtmatch-side-drawer .side-drawer-item,#courtmatch-side-drawer .side-drawer-group-toggle{min-height:54px;padding:11px 12px}}
