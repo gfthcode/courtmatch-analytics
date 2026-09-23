@@ -13,7 +13,7 @@ import { RankingsPage } from './pages/Rankings';
 import { InformationPage, SettingsPage } from './pages/Information';
 import { PlayTypesPage } from './pages/PlayTypes';
 
-const nav=[['/','Home'],['/matchups','Matchups'],['/comparison','Player Comparison'],['/rankings','Rankings'],['/playtypes','Play Types'],['/methodology','Methodology']];
+const nav=[['/','首页'],['/matchups','联盟对位'],['/comparison','球员比较'],['/rankings','排行榜'],['/playtypes','打法类型'],['/methodology','方法论']];
 export function App(){
  const [searchOpen,setSearchOpen]=useState(false);const [menuOpen,setMenuOpen]=useState(false);const {theme,setTheme}=useSettings();const location=useLocation();const navigate=useNavigate();
  useEffect(()=>{const media=matchMedia('(prefers-color-scheme:dark)');const apply=()=>{document.documentElement.dataset.theme=theme==='system'?(media.matches?'dark':'light'):theme;};apply();media.addEventListener('change',apply);return()=>media.removeEventListener('change',apply);},[theme]);
