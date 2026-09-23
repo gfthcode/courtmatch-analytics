@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
-import { CalendarDays, CheckCircle2, Globe2, History, Rocket, Search, Shield, WalletCards } from 'lucide-react';
+import { BarChart3, CalendarDays, CheckCircle2, Globe2, History, Rocket, Search, Shield, WalletCards } from 'lucide-react';
 import { useData, useDataStatus } from '../state';
 import { getRankings, getTeamStats, searchPlayers } from '../lib/api';
 import { DataMethodNote, Empty, PageHead, Pagination, PlayerIdentity, PlayerLink, number } from '../components/Common';
+import { Chart, scatterOption } from '../components/Charts';
 import { Button } from '../components/ui/button';
 
 function StatusCard({ label='数据状态' }: { label?: string }) {
@@ -23,9 +24,19 @@ export function PlayerDirectoryPage() {
 }
 
 export function TeamDirectoryPage() {
+  if (window.location.pathname.endsWith('/team')) return <TeamScatterPage />;
   const data = useData(); const [query, setQuery] = useState(''); const [page, setPage] = useState(1); const pageSize = 12;
   const rows = data.teams.filter((t) => [t.id, t.name, t.chineseName, t.abbreviation].some((v) => v.toLowerCase().includes(query.toLowerCase()))).slice((page - 1) * pageSize, page * pageSize);
   return <><PageHead eyebrow="TEAM DIRECTORY" title="球队数据" description="查看 NBA 球队目录与已发布的球队统计入口；球队数据只显示当前数据集真实覆盖范围。" /><StatusCard /><section className="directory-toolbar"><label className="field"><span><Search size={14} /> 搜索球队</span><input value={query} placeholder="球队名称或缩写" onChange={(e) => { setQuery(e.target.value); setPage(1); }} /></label></section><section className="directory-grid team-directory">{rows.map((team) => { const stats = getTeamStats(data, team.id, { season: data.seasons[0] })[0]; return <article className="directory-card" key={team.id}><div className="team-mark" aria-hidden="true">{team.abbreviation.slice(0, 2)}</div><div><h3>{team.chineseName}</h3><p>{team.name} · {team.id}</p></div><dl><div><dt>进攻效率</dt><dd>{number(stats?.offensiveRating)}</dd></div><div><dt>防守效率</dt><dd>{number(stats?.defensiveRating)}</dd></div><div><dt>节奏</dt><dd>{number(stats?.pace)}</dd></div></dl><Link className="card-link" to={`/teams/${team.id}`}>查看球队详情 →</Link></article>; })}</section>{!rows.length && <Empty title="没有匹配的球队" message="请使用球队名称或缩写搜索。" />}<Pagination page={page} total={data.teams.filter((t) => [t.id, t.name, t.chineseName, t.abbreviation].some((v) => v.toLowerCase().includes(query.toLowerCase()))).length} pageSize={pageSize} onChange={setPage} /></>;
+}
+
+export function TeamScatterPage() {
+  const data = useData(); const [params, setParams] = useSearchParams();
+  const season = params.get('season') ?? data.seasons[0] ?? ''; const type = params.get('type') === 'playoffs' ? 'playoffs' : 'regular'; const flip = params.get('flip') === '1'; const display = params.get('display') === 'fill' ? 'fill' : 'number';
+  const stats = data.teams.map((team) => ({ team, stats: getTeamStats(data, team.id, { season, type })[0] })).filter((row) => row.stats?.offensiveRating != null && row.stats.defensiveRating != null);
+  const update = (key: string, value: string) => { const next = new URLSearchParams(params); if (value) next.set(key, value); else next.delete(key); setParams(next, { replace: true }); };
+  const rows = stats.map(({ team, stats: row }) => ({ id: team.id, name: team.abbreviation, possessions: row?.pace ?? 0, efficiency: flip ? row!.defensiveRating! : row!.offensiveRating!, points: row?.wins ?? 0 }));
+  return <><PageHead eyebrow="TEAM SCATTER" title="联盟散点" description="用已发布的球队攻防指标观察联盟分布；缺少真实球队统计时，页面明确显示不可用状态。" /><StatusCard /><section className="directory-toolbar"><label className="field"><span>赛季</span><select value={season} onChange={(event) => update('season', event.target.value)}>{data.seasons.map((item) => <option key={item}>{item}</option>)}</select></label><label className="field"><span>比赛类型</span><select value={type} onChange={(event) => update('type', event.target.value)}><option value="regular">常规赛</option><option value="playoffs">季后赛</option></select></label><label className="check-field"><input type="checkbox" checked={flip} onChange={(event) => update('flip', event.target.checked ? '1' : '')}/><span>互换 X/Y 轴</span></label><div className="display-toggle" role="group" aria-label="图表显示模式"><Button variant={display === 'number' ? 'default' : 'secondary'} onClick={() => update('display', 'number')}>Number</Button><Button variant={display === 'fill' ? 'default' : 'secondary'} onClick={() => update('display', 'fill')}>Fill</Button></div></section>{rows.length ? <Chart title="球队攻防分布" description={`${season} · ${flip ? '防守效率' : '进攻效率'}与节奏分布；点击球队名称进入球队详情。`} option={scatterOption(rows, rows.reduce((sum, row) => sum + row.efficiency, 0) / rows.length, 0)} onClick={(id) => { window.location.href = `/courtmatch-analytics/teams/${id}`; }} /> : <section className="unavailable-panel"><BarChart3 size={30} /><h2>当前数据目录未发布球队统计</h2><p>球队散点需要真实的球队效率和节奏字段；当前页面保留筛选与图表入口，等待 team_stats 数据接入后自动启用。</p><Link className="card-link" to="/teams">查看球队目录 →</Link></section>}<DataMethodNote /></>;
 }
 
 export function TeamDetailPage() {
