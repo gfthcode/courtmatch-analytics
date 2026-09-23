@@ -7,3 +7,28 @@
 html body #courtmatch-side-drawer{background:#fff!important;background-color:#fff!important;background-image:none!important;color:#1d2226!important}html body #courtmatch-side-drawer .side-drawer-item,html body #courtmatch-side-drawer .side-drawer-group-toggle{color:#1d2226!important}html body #courtmatch-side-drawer .side-drawer-copy strong{color:#1d2226!important}html body #courtmatch-side-drawer .side-drawer-copy small,html body #courtmatch-side-drawer .side-drawer-nav>p{color:#697077!important}
 
 .dialog-overlay{position:fixed;inset:0;z-index:1100;background:rgba(29,34,38,.38);backdrop-filter:blur(5px)}.dialog-content{position:fixed;left:50%;top:50%;z-index:1101;width:min(720px,calc(100vw - 32px));max-height:calc(100vh - 32px);overflow:auto;transform:translate(-50%,-50%);padding:24px;background:#fff;color:#1d2226;border:1px solid #d4d0c7;border-radius:8px;box-shadow:0 24px 80px rgba(29,34,38,.24)}.dialog-header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}.dialog-header h2{margin:0;font:800 30px/1 'Barlow Condensed';letter-spacing:.2px}.dialog-content>p{margin:0 0 18px;color:#697077;font-size:12px}.dialog-content .player-search{max-width:none}.dialog-content .field span{color:#697077}.dialog-content input{background:#f4f1ea;color:#1d2226;border-color:#d4d0c7;width:100%}
+
+/* Deep layout pass: native chart surfaces stay readable at dense datasets. */
+.chart-panel{overflow:hidden}
+.chart-canvas{position:relative;min-height:280px;margin-top:14px;overflow:hidden}
+.scatter-plot{position:relative;height:100%;min-height:280px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(53,174,234,.04),transparent 48%),repeating-linear-gradient(0deg,transparent 0 38px,rgba(105,112,119,.08) 39px),repeating-linear-gradient(90deg,transparent 0 68px,rgba(105,112,119,.06) 69px)}
+.scatter-plot button{position:absolute;display:grid;place-items:center;transform:translate(-50%,50%);padding:0;border:2px solid #fff;border-radius:999px;background:linear-gradient(145deg,#f25a28,#ff8b52);box-shadow:0 3px 12px rgba(29,34,38,.18);cursor:pointer;transition:transform .16s ease,box-shadow .16s ease;z-index:2}
+.scatter-plot button span{position:absolute;bottom:calc(100% + 8px);left:50%;transform:translateX(-50%);width:max-content;max-width:120px;padding:4px 6px;background:#1d2226;color:#fff;font-size:10px;line-height:1.2;text-align:center;white-space:normal;opacity:0;pointer-events:none;transition:opacity .16s ease}
+.scatter-plot button:hover,.scatter-plot button:focus-visible{transform:translate(-50%,50%) scale(1.18);z-index:5;box-shadow:0 5px 18px rgba(242,90,40,.32)}
+.scatter-plot button:hover span,.scatter-plot button:focus-visible span{opacity:1}
+.scatter-plot .average-line{position:absolute;left:0;right:0;border-top:1px dashed #35aeea;opacity:.65}
+.scatter-plot>em{position:absolute;right:12px;bottom:10px;color:var(--muted);font-size:10px;font-style:normal}
+.bar-chart,.radar-chart{display:grid;gap:10px;padding:14px 2px}
+.bar-chart>div{display:grid;grid-template-columns:minmax(72px,1fr) 2fr auto;align-items:center;gap:8px;font-size:11px}
+.bar-chart>div>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--text)}
+.bar-chart>div>i{height:10px;border-radius:999px;background:linear-gradient(90deg,#ff4b4b,#f25a28);min-width:4px}
+.bar-chart>div>b{font-variant-numeric:tabular-nums;color:var(--text)}
+.radar-chart>div{display:grid;grid-template-columns:88px 1fr 34px;align-items:center;gap:8px;font-size:11px}
+.radar-chart>div>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.radar-chart>div>i{height:8px;border-radius:999px;background:linear-gradient(90deg,#35aeea,#f25a28)}
+.radar-chart>div>b{font-variant-numeric:tabular-nums;text-align:right}
+.playtype-overview .chart-panel{min-height:420px;background:var(--panel);border:1px solid var(--line)}
+.playtype-overview .chart-panel h2{font-size:22px}
+.playtype-table{overflow:hidden}
+@media(max-width:800px){.chart-canvas{min-height:240px}.scatter-plot{min-height:240px}.scatter-plot button span{max-width:90px;font-size:9px}.bar-chart>div{grid-template-columns:72px 1fr auto}.playtype-overview .chart-panel{min-height:320px}}
+@media(prefers-reduced-motion:reduce){.scatter-plot button,.scatter-plot button span{transition:none}}
