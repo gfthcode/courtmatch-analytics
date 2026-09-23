@@ -1,14 +1,1 @@
-{
-  "provider": "github-json",
-  "status": "demo",
-  "league": "NBA",
-  "lastUpdated": "2026-09-22T00:00:00.000Z",
-  "version": "demo-2026.09.22",
-  "coverage": "NBA · product demonstration dataset · 3 archived seasons",
-  "players": "players.json",
-  "teams": "teams.json",
-  "matchups": "matchups.json",
-  "playerCount": 0,
-  "matchupRecordCount": 0,
-  "isDemo": true
-}
+{"provider":"github-json","status":"stale","league":"NBA","lastUpdated":"2026-09-22T21:11:23.672570+00:00","version":"2025-26-20260922","coverage":"2025-26 NBA regular season · position quality warning","players":"players.json","teams":"teams.json","matchups":"matchups.json","playerStats":"player-stats.json","teamStats":"team-stats.json","playtypes":"playtypes.json","playerCount":500,"matchupRecordCount":145411,"playtypeRecordCount":6787,"isDemo":false,"dataSource":"NBA official public data / reference data source","delivery":"GitHub JSON","unmappedPlayerCount":500,"invalidRecordCount":0,"positionMappingRate":0,"positionQualityReport":"reports/player-position-report.json","optionalData":{"countries":"countries.json","salaries":"salaries.json","daily":"daily.json","changelog":"changelog.json","rankings":"rankings.json"}}
