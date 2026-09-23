@@ -4,10 +4,16 @@ NBA-only direct-matchup exploration published as a GitHub Pages static site.
 
 ## Current data state
 
-The public catalogue is deliberately in **Demo** mode. It is a product demonstration
-surface, not an NBA Tracking feed, and it must never be represented as Live data.
-The client falls back to its clearly labelled deterministic demo dataset whenever
-`data/manifest.json` is `"status": "demo"`.
+The public catalogue is served from `data/manifest.json`. The current manifest is
+**quality-gated / stale**, not a production Live release: the published files contain
+unresolved player-ID and position mapping gaps. The UI therefore surfaces
+**STALE DATA / 数据质量警告** and must not claim that the catalogue is a verified
+NBA Tracking feed.
+
+A manifest with `status: "demo"` uses the deterministic built-in demo dataset.
+A manifest with `status: "stale"` keeps the published JSON available for inspection,
+but it is not presented as Live data. Only `status: "live"` may receive the Live
+label, and only after the validation gates below pass.
 
 ## Data release policy
 
@@ -18,7 +24,14 @@ The client falls back to its clearly labelled deterministic demo dataset wheneve
 - Scheduled Actions only validate the public state. A maintainer must explicitly
   select **publish_live** in the manual workflow before an upstream fetch is attempted.
 - Failed source fetches or incomplete ID mappings preserve the existing public
-  catalogue and cannot silently turn Demo data into Live data.
+  catalogue and cannot silently turn stale or demo data into Live data.
+
+## Reference ingestion project
+
+The upstream reference repository contains the NBA API / pbpstats ingestion scripts
+used as a schema and pipeline reference. It is not treated as an automatic production
+source for this public Pages build; data is promoted only after the local validation
+gates pass.
 
 ## Verification
 
