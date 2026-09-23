@@ -20,3 +20,17 @@
 [data-theme=light] .lab-metrics article:hover,
 [data-theme=light] .lab-matchup-card:hover,
 [data-theme=light] .lab-leader-row:hover{background:#f8fafc}
+
+/* Homepage analysis modules are intentionally white surfaces in every theme. */
+.lab-command-panel,
+.lab-metrics,
+.lab-matchup-card,
+.lab-leaders,
+.lab-impact,
+.lab-update,
+.lab-method{
+  background:#fff !important;
+  background-image:none !important;
+  color:#1d2226;
+}
+.lab-command-panel:before{display:none}
