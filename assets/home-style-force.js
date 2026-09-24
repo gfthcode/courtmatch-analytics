@@ -11,6 +11,12 @@
     root.querySelector('.lab-command-panel input')?.style.setProperty('background', '#0c1421', 'important');
     root.querySelector('.lab-hero-subtitle')?.style.setProperty('color', '#f4f7fb', 'important');
     root.querySelector('.lab-hero-description')?.style.setProperty('color', '#9eacc0', 'important');
+    document.body.style.setProperty('background', '#080d17', 'important');
+    document.querySelector('.site-header')?.style.setProperty('background', '#080d17', 'important');
+    document.querySelector('.site-header')?.style.setProperty('color', '#f4f7fb', 'important');
+    document.querySelector('.data-strip')?.style.setProperty('background', '#101927', 'important');
+    document.querySelector('.data-strip')?.style.setProperty('color', '#d9e5f4', 'important');
+    document.querySelector('.site-footer')?.style.setProperty('background', '#080d17', 'important');
   };
   apply();
   new MutationObserver(apply).observe(document.documentElement, { childList: true, subtree: true });
