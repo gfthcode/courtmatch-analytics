@@ -20,4 +20,14 @@ html body:has(.lab-home) .site-header{box-shadow:0 1px 0 rgba(104,116,124,.24)}
 html body:has(.lab-home) .site-header a,html body:has(.lab-home) .site-header button,html body:has(.lab-home) .site-footer a,html body:has(.lab-home) .site-footer span,html body:has(.lab-home) .site-footer small{color:#4c5961!important}
 html body:has(.lab-home) .data-strip{background:#fbf9f4!important;color:#68747c!important;border-color:#d8d0c3!important}
 html body:has(.lab-home) .data-strip .mode-tag{color:#e9562b!important}
+html body:has(.lab-home) .site-header{transition:background .28s ease,box-shadow .28s ease}
+html body:has(.lab-home) .site-header.is-scrolled{background:rgba(243,239,230,.94)!important;box-shadow:0 8px 28px rgba(71,61,48,.08)!important;backdrop-filter:blur(12px)}
+html body:has(.lab-home) .lab-reveal{opacity:0;transform:translateY(24px);transition:opacity .72s ease,transform .72s cubic-bezier(.2,.7,.2,1)}
+html body:has(.lab-home) .lab-reveal.is-visible{opacity:1;transform:translateY(0)}
+html body:has(.lab-home) .lab-metrics.is-visible article{animation:cream-metric-in .55s both}
+html body:has(.lab-home) .lab-metrics.is-visible article:nth-child(2){animation-delay:.08s}
+html body:has(.lab-home) .lab-metrics.is-visible article:nth-child(3){animation-delay:.16s}
+html body:has(.lab-home) .lab-metrics.is-visible article:nth-child(4){animation-delay:.24s}
+@keyframes cream-metric-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){html body:has(.lab-home) .lab-reveal{opacity:1;transform:none;transition:none}html body:has(.lab-home) .lab-metrics.is-visible article{animation:none}}
 
