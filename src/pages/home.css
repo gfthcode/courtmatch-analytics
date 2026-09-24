@@ -66,4 +66,9 @@ html body:has(.lab-home) .lab-command-panel h2,html body:has(.lab-home) .lab-her
 html body:has(.lab-home) .lab-command-panel>p,html body:has(.lab-home) .lab-hero-description{color:#68747c}
 html body:has(.lab-home) .lab-command-panel input{background:#fffdf8;color:#1d252b;border-color:#cfc6b8}
 html body:has(.lab-home) .lab-hero-subtitle{color:#1d252b}
+html body:has(.lab-home) .site-header{transition:background .28s ease,box-shadow .28s ease}
+html body:has(.lab-home) .site-header.is-scrolled{background:rgba(243,239,230,.94);box-shadow:0 8px 28px rgba(71,61,48,.08);backdrop-filter:blur(12px)}
+html body:has(.lab-home) .lab-reveal{opacity:0;transform:translateY(24px);transition:opacity .72s ease,transform .72s cubic-bezier(.2,.7,.2,1)}
+html body:has(.lab-home) .lab-reveal.is-visible{opacity:1;transform:translateY(0)}
+@media(prefers-reduced-motion:reduce){html body:has(.lab-home) .lab-reveal{opacity:1;transform:none;transition:none}}
 
