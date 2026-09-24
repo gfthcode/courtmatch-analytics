@@ -38,3 +38,16 @@
 @media(prefers-reduced-motion:reduce){.lab-hero-orbit{animation:none}}
 @media(max-width:1020px){.lab-hero{grid-template-columns:1fr 1fr;min-height:640px}.lab-hero-copy{grid-column:1 / span 2}.lab-hero-visual{position:relative;right:auto;top:auto;width:auto;grid-column:1 / span 2;grid-row:2;height:300px}.lab-command-panel{grid-column:2;grid-row:2;margin:18px 18px 18px 0;z-index:4}}
 @media(max-width:800px){.lab-home{margin-inline:-16px;padding-inline:16px}.lab-hero{grid-template-columns:1fr;min-height:0;padding:42px 0 28px}.lab-hero-copy{grid-column:auto}.lab-hero h1{font-size:clamp(58px,17vw,86px);letter-spacing:-1.5px}.lab-hero-index{margin-top:17px}.lab-hero-visual{position:relative;right:auto;top:auto;width:auto;grid-column:auto;grid-row:auto;height:250px;margin:0}.lab-command-panel{grid-column:auto;grid-row:auto;margin:0}.lab-hero-visual-meta strong{font-size:33px}}
+
+/* The homepage keeps the video-inspired dark editorial treatment even when the global theme is light. */
+html[data-theme=light] .lab-home{background:var(--lab-ink);color:#f4f7fb}
+html[data-theme=light] .lab-home .lab-command-panel,
+html[data-theme=light] .lab-home .lab-metrics,
+html[data-theme=light] .lab-home .lab-matchup-card,
+html[data-theme=light] .lab-home .lab-leaders,
+html[data-theme=light] .lab-home .lab-impact,
+html[data-theme=light] .lab-home .lab-update,
+html[data-theme=light] .lab-home .lab-method{background:rgba(16,25,39,.9)!important;background-image:none!important;color:#f4f7fb;box-shadow:0 18px 44px rgba(0,0,0,.18)}
+html[data-theme=light] .lab-home .lab-matchup-card:first-child{background:linear-gradient(145deg,rgba(50,26,37,.95),rgba(16,25,39,.9))!important}
+html[data-theme=light] .lab-home .lab-hero-subtitle{color:#f4f7fb}
+html[data-theme=light] .lab-home .lab-hero-description{color:#9eacc0}
