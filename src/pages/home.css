@@ -21,16 +21,20 @@
 [data-theme=light] .lab-matchup-card:hover,
 [data-theme=light] .lab-leader-row:hover{background:#f8fafc}
 
-/* Homepage analysis modules are intentionally white surfaces in every theme. */
-.lab-command-panel,
-.lab-metrics,
-.lab-matchup-card,
-.lab-leaders,
-.lab-impact,
-.lab-update,
-.lab-method{
-  background:#fff !important;
-  background-image:none !important;
-  color:#1d2226;
-}
-.lab-command-panel:before{display:none}
+/* Video-inspired editorial layer: deep navy canvas, framed analysis surfaces and a single visual focal point. */
+.lab-home{--lab-ink:#080d17;--lab-surface:#101927;--lab-surface-2:#151f2f;background:var(--lab-ink);margin-inline:calc(var(--page-gutter, 0px) * -1);padding:0 var(--page-gutter, 0px) 42px;color:#f4f7fb;overflow:hidden}
+.lab-home:before{inset:0;background:radial-gradient(ellipse at 78% 18%,rgba(47,127,255,.24),transparent 31%),radial-gradient(ellipse at 18% 35%,rgba(255,70,85,.15),transparent 30%),linear-gradient(180deg,#0a101c 0%,#080d17 68%,#0b111c 100%);opacity:1}
+.lab-home:after{inset:0;background-size:44px 44px;opacity:.28;mask-image:linear-gradient(to bottom,#000 0%,transparent 74%)}
+.lab-hero{grid-template-columns:minmax(0,1fr) minmax(280px,.74fr) minmax(330px,.8fr);gap:24px;min-height:610px;padding:74px 0 48px;align-items:center}
+.lab-hero-copy{grid-column:1 / span 2;position:relative;z-index:2}
+.lab-hero-index{display:flex;align-items:center;gap:14px;margin-top:22px;color:#f4f7fb;font:700 10px Manrope;letter-spacing:1.8px}.lab-hero-index span{color:#7d8da5;font-weight:500}
+.lab-hero h1{font-size:clamp(68px,9vw,132px);line-height:.77;letter-spacing:-3px;margin:22px 0 24px}.lab-hero h1 em{-webkit-text-stroke:1px #4ab6ff;text-shadow:0 0 36px rgba(74,182,255,.2)}
+.lab-hero-subtitle{color:#f4f7fb}.lab-hero-description{color:#9eacc0}
+.lab-hero-visual{position:absolute;right:0;top:52px;width:52%;height:510px;border:1px solid rgba(130,166,208,.23);background:linear-gradient(135deg,rgba(26,43,70,.56),rgba(8,14,25,.16));overflow:hidden;isolation:isolate;z-index:1}.lab-hero-visual:before{content:"";position:absolute;inset:12% 16%;border:1px solid rgba(74,182,255,.25);border-radius:50%;box-shadow:0 0 0 28px rgba(74,182,255,.03),0 0 0 56px rgba(74,182,255,.025)}.lab-hero-visual-grid{position:absolute;inset:0;background:linear-gradient(90deg,transparent 49.6%,rgba(74,182,255,.18) 50%,transparent 50.4%),linear-gradient(0deg,transparent 49.6%,rgba(74,182,255,.18) 50%,transparent 50.4%),linear-gradient(rgba(120,153,191,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(120,153,191,.08) 1px,transparent 1px);background-size:100% 100%,100% 100%,42px 42px,42px 42px;opacity:.7}.lab-hero-orbit{position:absolute;border:1px solid rgba(74,182,255,.55);border-radius:50%;transform:rotate(-22deg);animation:lab-orbit 16s linear infinite}.lab-hero-orbit-a{width:70%;height:34%;left:15%;top:32%}.lab-hero-orbit-b{width:47%;height:72%;left:27%;top:13%;animation-duration:22s;animation-direction:reverse;border-color:rgba(255,114,46,.34)}.lab-hero-crosshair{position:absolute;left:50%;top:48%;width:106px;height:106px;transform:translate(-50%,-50%);border:1px solid #ff5a5f;border-radius:50%;box-shadow:0 0 38px rgba(255,70,85,.32);display:grid;place-items:center}.lab-hero-crosshair:before,.lab-hero-crosshair:after{content:"";position:absolute;background:#ff5a5f}.lab-hero-crosshair:before{height:1px;width:150px}.lab-hero-crosshair:after{height:150px;width:1px}.lab-hero-crosshair i,.lab-hero-crosshair b{position:absolute;width:6px;height:6px;border-radius:50%;background:#ff5a5f}.lab-hero-crosshair i{top:10px}.lab-hero-crosshair b{right:10px}.lab-hero-crosshair span{font:700 8px/1.4 Manrope;letter-spacing:1px;text-align:center;color:#ffb1ad}.lab-hero-visual-meta{position:absolute;left:18px;bottom:18px;display:grid;gap:3px}.lab-hero-visual-meta span{color:#4ab6ff;font:700 9px Manrope;letter-spacing:1.5px}.lab-hero-visual-meta strong{font:800 39px/.8 'Barlow Condensed';font-variant-numeric:tabular-nums}.lab-hero-visual-meta small{color:#8090a5;font-size:9px;letter-spacing:1px}
+.lab-command-panel{grid-column:3;grid-row:1;align-self:end;margin-bottom:28px;position:relative;z-index:4;background:rgba(16,25,39,.93)!important;border-color:rgba(122,164,216,.3);box-shadow:0 22px 65px rgba(0,0,0,.34);backdrop-filter:blur(16px)}.lab-command-panel:before{display:block}.lab-command-panel h2{color:#fff}.lab-command-panel>p{color:#9eacc0}
+.lab-metrics,.lab-leaders,.lab-impact,.lab-update,.lab-method,.lab-matchup-card{background:rgba(16,25,39,.85)!important;color:#f4f7fb;border-color:rgba(122,164,216,.22);box-shadow:0 18px 44px rgba(0,0,0,.18)}.lab-matchup-card:first-child{background:linear-gradient(145deg,rgba(50,26,37,.95),rgba(16,25,39,.9))!important}.lab-leaders{background:rgba(12,19,31,.88)!important}.lab-method{background:linear-gradient(125deg,rgba(40,29,38,.94),rgba(16,25,39,.9))!important}
+.lab-metrics{backdrop-filter:blur(12px)}.lab-metrics article:hover,.lab-matchup-card:hover,.lab-leader-row:hover{background:rgba(74,182,255,.1)}
+@keyframes lab-orbit{to{transform:rotate(338deg)}}
+@media(prefers-reduced-motion:reduce){.lab-hero-orbit{animation:none}}
+@media(max-width:1020px){.lab-hero{grid-template-columns:1fr 1fr;min-height:640px}.lab-hero-copy{grid-column:1 / span 2}.lab-hero-visual{position:relative;right:auto;top:auto;width:auto;grid-column:1 / span 2;grid-row:2;height:300px}.lab-command-panel{grid-column:2;grid-row:2;margin:18px 18px 18px 0;z-index:4}}
+@media(max-width:800px){.lab-home{margin-inline:-16px;padding-inline:16px}.lab-hero{grid-template-columns:1fr;min-height:0;padding:42px 0 28px}.lab-hero-copy{grid-column:auto}.lab-hero h1{font-size:clamp(58px,17vw,86px);letter-spacing:-1.5px}.lab-hero-index{margin-top:17px}.lab-hero-visual{position:relative;right:auto;top:auto;width:auto;grid-column:auto;grid-row:auto;height:250px;margin:0}.lab-command-panel{grid-column:auto;grid-row:auto;margin:0}.lab-hero-visual-meta strong{font-size:33px}}
