@@ -1,12 +1,23 @@
-html body .lab-home .lab-command-panel{background:rgba(16,25,39,.96)!important;background-image:none!important;color:#f4f7fb!important;border-color:rgba(122,164,216,.36)!important;box-shadow:0 22px 65px rgba(0,0,0,.34)!important}
-html body .lab-home .lab-command-panel h2{color:#fff!important}
-html body .lab-home .lab-command-panel>p,html body .lab-home .lab-command-panel label,html body .lab-home .lab-command-panel .field span{color:#9eacc0!important}
-html body .lab-home .lab-command-panel input{background:#0c1421!important;color:#fff!important;border-color:rgba(122,164,216,.35)!important}
-html body .lab-home .lab-metrics,html body .lab-home .lab-leaders,html body .lab-home .lab-impact,html body .lab-home .lab-update,html body .lab-home .lab-method,html body .lab-home .lab-matchup-card{background:rgba(16,25,39,.9)!important;background-image:none!important;color:#f4f7fb!important}
-html body .lab-home .lab-hero-subtitle{color:#f4f7fb!important}html body .lab-home .lab-hero-description{color:#9eacc0!important}
-html body:has(.lab-home){background:#080d17!important}
-html body:has(.lab-home) .site-header,html body:has(.lab-home) .site-footer,html body:has(.lab-home) .main-container{background:#080d17!important;color:#f4f7fb!important;border-color:rgba(122,164,216,.22)!important}
-html body:has(.lab-home) .site-header{box-shadow:0 1px 0 rgba(122,164,216,.2)}
-html body:has(.lab-home) .site-header a,html body:has(.lab-home) .site-header button,html body:has(.lab-home) .site-footer a,html body:has(.lab-home) .site-footer span,html body:has(.lab-home) .site-footer small{color:#d9e5f4!important}
-html body:has(.lab-home) .data-strip{background:#101927!important;color:#d9e5f4!important;border-color:rgba(122,164,216,.28)!important}
-html body:has(.lab-home) .data-strip .mode-tag{color:#ff765e!important}
+/* Cream homepage palette: keep the video-inspired layout, but unify every surface. */
+html body .lab-home{background:#f3efe6!important;color:#1d252b!important}
+html body .lab-home:before{background:radial-gradient(ellipse at 80% 16%,rgba(74,182,255,.09),transparent 32%),radial-gradient(ellipse at 16% 40%,rgba(255,114,46,.08),transparent 30%),linear-gradient(180deg,#faf7f0,#f3efe6 70%,#eee8dc)!important}
+html body .lab-home:after{background-image:linear-gradient(rgba(87,102,115,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(87,102,115,.08) 1px,transparent 1px)!important}
+html body .lab-home .lab-command-panel{background:#fbf9f4!important;background-image:none!important;color:#1d252b!important;border-color:#d8d0c3!important;box-shadow:0 22px 65px rgba(71,61,48,.14)!important}
+html body .lab-home .lab-command-panel h2{color:#1d252b!important}
+html body .lab-home .lab-command-panel>p,html body .lab-home .lab-command-panel label,html body .lab-home .lab-command-panel .field span{color:#68747c!important}
+html body .lab-home .lab-command-panel input{background:#fffdf8!important;color:#1d252b!important;border-color:#cfc6b8!important}
+html body .lab-home .lab-metrics,html body .lab-home .lab-leaders,html body .lab-home .lab-impact,html body .lab-home .lab-update,html body .lab-home .lab-method,html body .lab-home .lab-matchup-card{background:#fbf9f4!important;background-image:none!important;color:#1d252b!important;border-color:#d8d0c3!important;box-shadow:0 18px 44px rgba(71,61,48,.10)!important}
+html body .lab-home .lab-matchup-card:first-child{background:#fff7f1!important}
+html body .lab-home .lab-hero-subtitle{color:#1d252b!important}html body .lab-home .lab-hero-description{color:#68747c!important}
+html body .lab-home .lab-hero h1{color:#1d252b!important}
+html body .lab-home .lab-hero-visual{background:linear-gradient(135deg,rgba(255,253,248,.92),rgba(239,233,222,.74))!important;border-color:rgba(104,116,124,.36)!important}
+html body .lab-home .lab-visual-tabs{background:rgba(255,253,248,.88)!important;border-color:#d2c9bb!important}
+html body .lab-home .lab-visual-tabs button{color:#68747c!important}
+html body .lab-home .lab-visual-tabs button:hover,html body .lab-home .lab-visual-tabs button.is-active{background:rgba(74,182,255,.14)!important;color:#146c9e!important}
+html body:has(.lab-home){background:#f3efe6!important;color:#1d252b!important}
+html body:has(.lab-home) .site-header,html body:has(.lab-home) .site-footer,html body:has(.lab-home) .main-container{background:#f3efe6!important;color:#1d252b!important;border-color:#d8d0c3!important}
+html body:has(.lab-home) .site-header{box-shadow:0 1px 0 rgba(104,116,124,.24)}
+html body:has(.lab-home) .site-header a,html body:has(.lab-home) .site-header button,html body:has(.lab-home) .site-footer a,html body:has(.lab-home) .site-footer span,html body:has(.lab-home) .site-footer small{color:#4c5961!important}
+html body:has(.lab-home) .data-strip{background:#fbf9f4!important;color:#68747c!important;border-color:#d8d0c3!important}
+html body:has(.lab-home) .data-strip .mode-tag{color:#e9562b!important}
+
