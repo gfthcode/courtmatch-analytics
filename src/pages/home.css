@@ -52,3 +52,18 @@ html[data-theme=light] .lab-home .lab-method{background:rgba(16,25,39,.9)!import
 html[data-theme=light] .lab-home .lab-matchup-card:first-child{background:linear-gradient(145deg,rgba(50,26,37,.95),rgba(16,25,39,.9))!important}
 html[data-theme=light] .lab-home .lab-hero-subtitle{color:#f4f7fb}
 html[data-theme=light] .lab-home .lab-hero-description{color:#9eacc0}
+
+/* Unified cream visual system for the lead homepage. Detail routes keep their own theme. */
+html body:has(.lab-home),html body:has(.lab-home) .main-container{background:#f3efe6;color:#1d252b}
+html body:has(.lab-home) .site-header,html body:has(.lab-home) .site-footer{background:#f3efe6;color:#1d252b;border-color:#d8d0c3}
+html body:has(.lab-home) .data-strip{background:#fbf9f4;color:#68747c;border-color:#d8d0c3}
+html body:has(.lab-home) .lab-home{--lab-ink:#f3efe6;--lab-surface:#fbf9f4;--lab-surface-2:#fffdf8;background:#f3efe6;color:#1d252b}
+html body:has(.lab-home) .lab-home:before{background:radial-gradient(ellipse at 78% 18%,rgba(74,182,255,.09),transparent 31%),radial-gradient(ellipse at 18% 35%,rgba(255,114,46,.08),transparent 30%),linear-gradient(180deg,#faf7f0 0%,#f3efe6 68%,#eee8dc 100%)}
+html body:has(.lab-home) .lab-home:after{background-image:linear-gradient(rgba(87,102,115,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(87,102,115,.08) 1px,transparent 1px)}
+html body:has(.lab-home) .lab-command-panel,html body:has(.lab-home) .lab-metrics,html body:has(.lab-home) .lab-matchup-card,html body:has(.lab-home) .lab-leaders,html body:has(.lab-home) .lab-impact,html body:has(.lab-home) .lab-update,html body:has(.lab-home) .lab-method{background:#fbf9f4!important;background-image:none!important;color:#1d252b;border-color:#d8d0c3;box-shadow:0 18px 44px rgba(71,61,48,.10)}
+html body:has(.lab-home) .lab-matchup-card:first-child{background:#fff7f1!important}
+html body:has(.lab-home) .lab-command-panel h2,html body:has(.lab-home) .lab-hero h1{color:#1d252b}
+html body:has(.lab-home) .lab-command-panel>p,html body:has(.lab-home) .lab-hero-description{color:#68747c}
+html body:has(.lab-home) .lab-command-panel input{background:#fffdf8;color:#1d252b;border-color:#cfc6b8}
+html body:has(.lab-home) .lab-hero-subtitle{color:#1d252b}
+
