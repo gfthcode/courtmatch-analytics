@@ -3,7 +3,7 @@ import { Activity, ArrowRight, ArrowUpRight, BarChart3, CalendarDays, Database, 
 import { useMemo } from 'react';
 import { Button } from '../components/ui/button';
 import { SearchPlayers, PlayerIdentity, Quality, number } from '../components/Common';
-import { useData } from '../state';
+import { useData, useDataStatus } from '../state';
 import { calculateMatchupMetrics, getMatchups, getPlayerById, getRankings, leagueAverage } from '../lib/api';
 import './home.css';
 import './home-motion.css';
@@ -25,7 +25,7 @@ function ImpactPanel({ label, metric, title, description }: { label: string; met
   );
 
   return (
-    <article className={`lab-impact lab-impact-${metric}`}>
+    <article className={`lab-impact lab-impact-${metric}`} style={{ background: '#fff', backgroundImage: 'none' }}>
       <div className="lab-module-kicker"><span>{label}</span><Activity size={14} /></div>
       <h3>{title}</h3>
       <p>{description}</p>
@@ -48,6 +48,7 @@ function ImpactPanel({ label, metric, title, description }: { label: string; met
 
 export function HomePage({ onSearch }: { onSearch: () => void }) {
   const data = useData();
+  const dataStatus = useDataStatus();
   const { language, t } = useLanguage();
   const navigate = useNavigate();
   const season = data.seasons[0];
@@ -77,8 +78,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
   return <div className="lab-home">
     <section className="lab-hero" aria-labelledby="lab-hero-title">
       <div className="lab-hero-copy">
-        <div className="lab-signal"><i aria-hidden="true" />NBA DATA LAB <span>LIVE ANALYSIS SURFACE</span></div>
-        <div className="lab-hero-index">COURTMATCH / 01 <span>{season} · REGULAR SEASON</span></div>
+        <div className="lab-signal"><i aria-hidden="true" />NBA DATA LAB <span>{dataStatus.state==='live'?'LIVE ANALYSIS SURFACE':dataStatus.state==='recently-updated'?'RECENTLY UPDATED':dataStatus.state==='stale'?'DATA QUALITY GATED':'DEMO ANALYSIS SURFACE'}</span></div>
         <h1 id="lab-hero-title">{language === 'en' ? <>Read every<br /><em>head-to-head.</em></> : <>读懂每一次<br /><em>正面对位。</em></>}</h1>
         <p className="lab-hero-subtitle">Explore how NBA players perform when directly matched against one another.</p>
         <p className="lab-hero-description">{copy.heroDescription}</p>
@@ -89,15 +89,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
         </div>
       </div>
 
-      <div className="lab-hero-visual" aria-hidden="true">
-        <div className="lab-hero-visual-grid" />
-        <div className="lab-hero-orbit lab-hero-orbit-a" />
-        <div className="lab-hero-orbit lab-hero-orbit-b" />
-        <div className="lab-hero-crosshair"><i /><b /><span>POSSESSION<br />MAP</span></div>
-        <div className="lab-hero-visual-meta"><span>LIVE SAMPLE</span><strong>{data.matchups.length.toLocaleString(language==='en'?'en-US':'zh-CN')}</strong><small>DIRECT MATCHUP RECORDS</small></div>
-      </div>
-
-      <aside className="lab-command-panel" aria-label="球员分析搜索">
+      <aside className="lab-command-panel" aria-label="球员分析搜索" style={{ background: '#fff', backgroundImage: 'none' }}>
         <div className="lab-panel-topline"><span>ANALYSIS COMMAND</span><kbd>⌘ K</kbd></div>
         <h2>{t('从一名球员开始')}</h2>
         <p>{t('支持中英文姓名、球队、简称与键盘选择。')}</p>
@@ -108,7 +100,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
       </aside>
     </section>
 
-    <section className="lab-metrics" aria-label="当前数据摘要">
+    <section className="lab-metrics" aria-label="当前数据摘要" style={{ background: '#fff', backgroundImage: 'none' }}>
       <article><CalendarDays size={17} /><span>{t('当前赛季')}</span><strong>{season}</strong><small>{t('常规赛分析口径')}</small></article>
       <article><Users size={17} /><span>{t('覆盖球员')}</span><strong>{data.players.length.toLocaleString(language==='en'?'en-US':'zh-CN')}</strong><small>{t('NBA 球员目录')}</small></article>
       <article><Database size={17} /><span>{t('对位记录')}</span><strong>{data.matchups.length.toLocaleString(language==='en'?'en-US':'zh-CN')}</strong><small>{t('可筛选直接对位')}</small></article>
@@ -122,7 +114,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
       </div>
       <div className="lab-matchup-grid">
         {hotMatchups.map(({ record, offense, defense, metrics }, index) => (
-          <Link key={record.id} className="lab-matchup-card" to={`/matchups/player/${offense.id}?opponent=${defense.id}&season=${season}&minPossessions=0`}>
+          <Link key={record.id} className="lab-matchup-card" style={{ background: '#fff', backgroundImage: 'none' }} to={`/matchups/player/${offense.id}?opponent=${defense.id}&season=${season}&minPossessions=0`}>
             <div><span>NODE {String(index + 1).padStart(2, '0')}</span><Quality quality={metrics.sampleQuality} possessions={record.matchupPossessions} /></div>
             <div className="lab-matchup-players"><PlayerIdentity player={offense} /><span>VS</span><PlayerIdentity player={defense} /></div>
             <footer><strong>{number(metrics.pointsPer100)}<small> /100</small></strong><span>{record.matchupPossessions.toLocaleString(language==='en'?'en-US':'zh-CN')}{copy.matchupPossessions} <ArrowUpRight size={15} /></span></footer>
@@ -131,7 +123,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
       </div>
     </section>
 
-    <section className="lab-leaders" aria-label="联盟效率领跑者">
+    <section className="lab-leaders" aria-label="联盟效率领跑者" style={{ background: '#fff', backgroundImage: 'none' }}>
       <div className="lab-section-heading">
         <div><span>02 / LEAGUE LEADERS</span><h2>{t('表现进入视野')}</h2></div>
         <Link to="/rankings">{t('View all rankings')} <ArrowRight size={17} /></Link>
@@ -152,8 +144,8 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
     </section>
 
     <section className="lab-footer-grid">
-      <article className="lab-update"><div className="lab-module-kicker"><span>RECENT DATA UPDATE</span><i aria-hidden="true" /></div><h2>{formatUpdated(data.updatedAt)}</h2><p>{data.source}</p><dl><div><dt>{copy.scope}</dt><dd>{data.seasons.join(' · ')}</dd></div><div><dt>{copy.status}</dt><dd>{data.mode === 'live' ? 'LIVE DATA' : 'DEMO DATA'}</dd></div></dl><Link to="/sources">{t('查看数据来源与覆盖范围')} <ArrowUpRight size={16} /></Link></article>
-      <article className="lab-method"><ShieldCheck size={25} /><div><span>EXPLORE METHODOLOGY</span><h2>{t('数字需要上下文。')}</h2><p>{t('样本量不等于因果关系。先理解口径，再使用结论。')}</p><Link to="/methodology">{t('阅读方法论')} <ArrowRight size={17} /></Link></div></article>
+      <article className="lab-update" style={{ background: '#fff', backgroundImage: 'none' }}><div className="lab-module-kicker"><span>RECENT DATA UPDATE</span><i aria-hidden="true" /></div><h2>{formatUpdated(data.updatedAt)}</h2><p>{data.source}</p><dl><div><dt>{copy.scope}</dt><dd>{data.seasons.join(' · ')}</dd></div><div><dt>{copy.status}</dt><dd>{dataStatus.state === 'live' ? 'LIVE DATA' : dataStatus.state === 'recently-updated' ? 'RECENTLY UPDATED' : dataStatus.state === 'stale' ? 'STALE DATA' : 'DEMO DATA'}</dd></div></dl><Link to="/sources">{t('查看数据来源与覆盖范围')} <ArrowUpRight size={16} /></Link></article>
+      <article className="lab-method" style={{ background: '#fff', backgroundImage: 'none' }}><ShieldCheck size={25} /><div><span>EXPLORE METHODOLOGY</span><h2>{t('数字需要上下文。')}</h2><p>{t('样本量不等于因果关系。先理解口径，再使用结论。')}</p><Link to="/methodology">{t('阅读方法论')} <ArrowRight size={17} /></Link></div></article>
     </section>
   </div>;
 }
