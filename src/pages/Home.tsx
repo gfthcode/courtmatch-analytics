@@ -75,6 +75,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
     matchupPossessions: language === 'en' ? ' possessions' : ' 对位回合',
     scope: language === 'en' ? 'Scope' : '范围', status: language === 'en' ? 'Status' : '状态',
   };
+  const statusLabel = data.manifest.status === 'stale' ? 'STALE DATA' : data.manifest.status === 'live' ? 'LIVE DATA' : data.manifest.status === 'error' || data.manifest.status === 'unavailable' ? 'DATA UNAVAILABLE' : 'DEMO DATA';
   return <div className="lab-home">
     <section className="lab-hero" aria-labelledby="lab-hero-title">
       <div className="lab-hero-copy">
@@ -136,6 +137,20 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
       <article><BarChart3 size={17} /><span>{t('联盟平均效率')}</span><strong>{number(average)}<small>/100</small></strong><small>{t('当前覆盖数据加权值')}</small></article>
     </section>
 
+    <section className="lab-story" aria-label={language === 'en' ? 'Why matchup intelligence' : '看见比赛中的比赛'}>
+      <div className="lab-story-copy">
+        <span className="lab-module-kicker">COURTMATCH / 02</span>
+        <h2>{language === 'en' ? <>See the game<br /><em>inside the game.</em></> : <>看见比赛中的<br /><em>比赛。</em></>}</h2>
+        <p>{language === 'en' ? 'Direct matchup data turns a box score into a sequence of decisions: who created separation, who limited the next action, and how much evidence supports the read.' : '直接对位数据把一张赛后表格还原成一连串决定：谁创造了空间，谁限制了下一步，以及这次判断背后有多少真实样本。'}</p>
+        <div className="lab-story-actions"><Link to="/matchups">{t('探索 Matchups')} <ArrowRight size={16} /></Link><Link to="/methodology">{t('阅读方法论')} <ArrowUpRight size={15} /></Link></div>
+      </div>
+      <div className="lab-story-rail" aria-label={language === 'en' ? 'Live dataset facts' : '当前数据事实'}>
+        <div><strong>{data.teams.length}</strong><span>{language === 'en' ? 'NBA teams' : '支 NBA 球队'}</span></div>
+        <div><strong>{data.playtypes.length}</strong><span>{language === 'en' ? 'play type records' : '条打法记录'}</span></div>
+        <div><strong>{statusLabel}</strong><span>{language === 'en' ? 'manifest status' : 'manifest 数据状态'}</span></div>
+      </div>
+    </section>
+
     <section id="lab-workspace" className="lab-workspace" aria-label="首页分析工作台">
       <div className="lab-section-heading">
         <div><span>01 / HOT MATCHUPS</span><h2>{t('热门直接对位')}</h2></div>
@@ -172,9 +187,20 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
       <ImpactPanel label="03B / DEFENSIVE IMPACT" metric="defense" title={t('防守限制力')} description={copy.impactDefense} />
     </section>
 
+    <section className="lab-entry-grid" aria-label={language === 'en' ? 'Explore CourtMatch' : '探索 CourtMatch'}>
+      <div className="lab-section-heading"><div><span>04 / EXPLORE THE LAB</span><h2>{language === 'en' ? 'Choose your next read.' : '从一个问题开始。'}</h2></div></div>
+      <div className="lab-entry-links">
+        <Link to="/players"><span>01</span><strong>{t('球员数据')}</strong><small>{language === 'en' ? 'Profiles, trends and direct opponents' : '球员画像、趋势与常见对手'}</small><ArrowUpRight size={16} /></Link>
+        <Link to="/playtypes"><span>02</span><strong>{t('打法类型')}</strong><small>{language === 'en' ? 'Read the possession context' : '拆解每个回合的打法语境'}</small><ArrowUpRight size={16} /></Link>
+        <Link to="/comparison"><span>03</span><strong>{t('球员比较')}</strong><small>{language === 'en' ? 'Put two players on one axis' : '把两名球员放到同一条轴上'}</small><ArrowUpRight size={16} /></Link>
+        <Link to="/sources"><span>04</span><strong>{t('数据来源')}</strong><small>{language === 'en' ? 'Coverage, freshness and quality gates' : '覆盖范围、更新时间与质量门禁'}</small><ArrowUpRight size={16} /></Link>
+      </div>
+    </section>
+
     <section className="lab-footer-grid">
-      <article className="lab-update"><div className="lab-module-kicker"><span>RECENT DATA UPDATE</span><i aria-hidden="true" /></div><h2>{formatUpdated(data.updatedAt)}</h2><p>{data.source}</p><dl><div><dt>{copy.scope}</dt><dd>{data.seasons.join(' · ')}</dd></div><div><dt>{copy.status}</dt><dd>{data.mode === 'live' ? 'LIVE DATA' : 'DEMO DATA'}</dd></div></dl><Link to="/sources">{t('查看数据来源与覆盖范围')} <ArrowUpRight size={16} /></Link></article>
+      <article className="lab-update"><div className="lab-module-kicker"><span>RECENT DATA UPDATE</span><i aria-hidden="true" /></div><h2>{formatUpdated(data.updatedAt)}</h2><p>{data.source}</p><dl><div><dt>{copy.scope}</dt><dd>{data.seasons.join(' · ')}</dd></div><div><dt>{copy.status}</dt><dd>{statusLabel}</dd></div></dl><Link to="/sources">{t('查看数据来源与覆盖范围')} <ArrowUpRight size={16} /></Link></article>
       <article className="lab-method"><ShieldCheck size={25} /><div><span>EXPLORE METHODOLOGY</span><h2>{t('数字需要上下文。')}</h2><p>{t('样本量不等于因果关系。先理解口径，再使用结论。')}</p><Link to="/methodology">{t('阅读方法论')} <ArrowRight size={17} /></Link></div></article>
     </section>
   </div>;
 }
+
