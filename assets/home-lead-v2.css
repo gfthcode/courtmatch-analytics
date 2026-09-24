@@ -4,3 +4,9 @@ html body .lab-home .lab-command-panel>p,html body .lab-home .lab-command-panel 
 html body .lab-home .lab-command-panel input{background:#0c1421!important;color:#fff!important;border-color:rgba(122,164,216,.35)!important}
 html body .lab-home .lab-metrics,html body .lab-home .lab-leaders,html body .lab-home .lab-impact,html body .lab-home .lab-update,html body .lab-home .lab-method,html body .lab-home .lab-matchup-card{background:rgba(16,25,39,.9)!important;background-image:none!important;color:#f4f7fb!important}
 html body .lab-home .lab-hero-subtitle{color:#f4f7fb!important}html body .lab-home .lab-hero-description{color:#9eacc0!important}
+html body:has(.lab-home){background:#080d17!important}
+html body:has(.lab-home) .site-header,html body:has(.lab-home) .site-footer,html body:has(.lab-home) .main-container{background:#080d17!important;color:#f4f7fb!important;border-color:rgba(122,164,216,.22)!important}
+html body:has(.lab-home) .site-header{box-shadow:0 1px 0 rgba(122,164,216,.2)}
+html body:has(.lab-home) .site-header a,html body:has(.lab-home) .site-header button,html body:has(.lab-home) .site-footer a,html body:has(.lab-home) .site-footer span,html body:has(.lab-home) .site-footer small{color:#d9e5f4!important}
+html body:has(.lab-home) .data-strip{background:#101927!important;color:#d9e5f4!important;border-color:rgba(122,164,216,.28)!important}
+html body:has(.lab-home) .data-strip .mode-tag{color:#ff765e!important}
