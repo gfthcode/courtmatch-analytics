@@ -27,7 +27,19 @@
     if (workspace && !hero.nextElementSibling?.classList.contains('lab-scroll-cue')) {
       const cue = document.createElement('a'); cue.className = 'lab-scroll-cue'; cue.href = '#lab-workspace'; cue.innerHTML = '<span>向下进入分析工作台</span><i aria-hidden="true"></i>'; hero.after(cue);
     }
+    const revealTargets = document.querySelectorAll('.lab-metrics,.lab-workspace,.lab-leaders,.lab-impact-grid,.lab-footer-grid');
+    revealTargets.forEach((node) => node.classList.add('lab-reveal'));
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => entries.forEach((entry) => {
+        if (entry.isIntersecting) { entry.target.classList.add('is-visible'); observer.unobserve(entry.target); }
+      }), { threshold: .14, rootMargin: '0px 0px -8% 0px' });
+      revealTargets.forEach((node) => observer.observe(node));
+    } else revealTargets.forEach((node) => node.classList.add('is-visible'));
+    const header = document.querySelector('.site-header');
+    const updateHeader = () => header?.classList.toggle('is-scrolled', window.scrollY > 18);
+    updateHeader(); window.addEventListener('scroll', updateHeader, { passive: true });
     return true;
   };
   if (!boot()) new MutationObserver(() => { if (boot()) document.querySelectorAll('body > .lab-enhance-observer').forEach((node) => node.remove()); }).observe(document.body, { childList: true, subtree: true });
 })();
+
