@@ -27,6 +27,21 @@
     if (workspace && !hero.nextElementSibling?.classList.contains('lab-scroll-cue')) {
       const cue = document.createElement('a'); cue.className = 'lab-scroll-cue'; cue.href = '#lab-workspace'; cue.innerHTML = '<span>向下进入分析工作台</span><i aria-hidden="true"></i>'; hero.after(cue);
     }
+    const metrics = [...document.querySelectorAll('.lab-metrics article strong')].map((node) => node.textContent?.trim() || '—');
+    const metric = (index) => metrics[index] || '—';
+    const dataStatus = document.querySelector('.data-strip .mode-tag')?.textContent?.trim() || 'DATA STATUS';
+    const metricsNode = document.querySelector('.lab-metrics');
+    if (metricsNode && !document.querySelector('.lab-story')) {
+      const story = document.createElement('section'); story.className = 'lab-story'; story.setAttribute('aria-label', '看见比赛中的比赛');
+      story.innerHTML = `<div class="lab-story-copy"><span class="lab-module-kicker">COURTMATCH / 02</span><h2>看见比赛中的<br><em>比赛。</em></h2><p>直接对位数据把一张赛后表格还原成一连串决定：谁创造了空间，谁限制了下一步，以及这次判断背后有多少真实样本。</p><div class="lab-story-actions"><a href="/courtmatch-analytics/matchups">探索 Matchups <span>→</span></a><a href="/courtmatch-analytics/methodology">阅读方法论 <span>↗</span></a></div></div><div class="lab-story-rail"><div><strong>${metric(1)}</strong><span>NBA 球员目录</span></div><div><strong>${metric(2)}</strong><span>直接对位记录</span></div><div><strong>${dataStatus}</strong><span>manifest 数据状态</span></div></div>`;
+      metricsNode.after(story);
+    }
+    if (!document.querySelector('.lab-entry-grid')) {
+      const anchor = document.querySelector('.lab-footer-grid');
+      const entries = document.createElement('section'); entries.className = 'lab-entry-grid'; entries.setAttribute('aria-label', '探索 CourtMatch');
+      entries.innerHTML = '<div class="lab-section-heading"><div><span>04 / EXPLORE THE LAB</span><h2>从一个问题开始。</h2></div></div><div class="lab-entry-links"><a href="/courtmatch-analytics/players"><span>01</span><strong>球员数据</strong><small>球员画像、趋势与常见对手</small><span>↗</span></a><a href="/courtmatch-analytics/playtypes"><span>02</span><strong>打法类型</strong><small>拆解每个回合的打法语境</small><span>↗</span></a><a href="/courtmatch-analytics/comparison"><span>03</span><strong>球员比较</strong><small>把两名球员放到同一条轴上</small><span>↗</span></a><a href="/courtmatch-analytics/sources"><span>04</span><strong>数据来源</strong><small>覆盖范围、更新时间与质量门禁</small><span>↗</span></a></div>';
+      (anchor || document.querySelector('.lab-home')?.lastElementChild)?.before(entries);
+    }
     const revealTargets = document.querySelectorAll('.lab-metrics,.lab-workspace,.lab-leaders,.lab-impact-grid,.lab-footer-grid');
     revealTargets.forEach((node) => node.classList.add('lab-reveal'));
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
