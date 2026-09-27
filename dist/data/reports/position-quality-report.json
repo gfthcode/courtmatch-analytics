@@ -1,0 +1,16 @@
+{
+  "totalPlayers": 500,
+  "verifiedPlayers": 0,
+  "unknownPlayers": 500,
+  "invalidPositions": 0,
+  "positionDistribution": {
+    "G": 0,
+    "F": 0,
+    "C": 0,
+    "G-F": 0,
+    "F-C": 0,
+    "Unknown": 500
+  },
+  "source": "NBA tracking export does not expose a reliable roster position; Unknown is used instead of an invented G-F default.",
+  "generatedAt": "2026-09-23T00:00:00Z"
+}

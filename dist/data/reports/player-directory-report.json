@@ -1,0 +1,17 @@
+{
+  "source": "reference entity IDs verified against NBA Stats CommonAllPlayers; positions joined to NBA Stats CommonTeamRoster",
+  "officialDirectoryAvailable": false,
+  "cachedDirectoryUsed": true,
+  "cachedDirectoryGeneratedAt": "2026-09-27T06:44:21.338399+00:00",
+  "cachedReferenceCatalogueUsed": false,
+  "candidateCount": 500,
+  "verifiedCount": 500,
+  "sourceBackedCount": 500,
+  "unverifiedCount": 0,
+  "positionMappedCount": 475,
+  "positionCachedCount": 475,
+  "positionUnknownCount": 25,
+  "positionMappingRate": 95.0,
+  "conflictCount": 0,
+  "generatedAt": "2026-09-27T09:37:23.263204+00:00"
+}
