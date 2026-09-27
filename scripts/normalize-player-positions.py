@@ -17,12 +17,12 @@ def main() -> None:
     invalid = []
     for player in players:
         position = player.get('position', 'Unknown')
-        if player.get('verification') == 'position-unverified' or not player.get('position_verified', False):
+        if player.get('positionVerification') != 'official-team-roster':
             position = 'Unknown'
         if position not in ALLOWED:
             invalid.append({'player_id': str(player.get('id', '')), 'value': position})
             position = 'Unknown'
-        mapping[str(player['id'])] = {'player_id': str(player['id']), 'position': position, 'position_source': 'source-or-unverified', 'position_verified': position != 'Unknown', 'updated_at': player.get('updatedAt', '')[:10]}
+        mapping[str(player['id'])] = {'player_id': str(player['id']), 'position': position, 'position_source': player.get('positionVerification', 'unverified'), 'position_verified': position != 'Unknown', 'updated_at': player.get('updatedAt', '')[:10]}
     (mapping_dir / 'player-position-map.json').write_text(json.dumps(mapping, ensure_ascii=False, indent=2), encoding='utf8')
     unknown = [row['player_id'] for row in mapping.values() if row['position'] == 'Unknown']
     counts = {position: sum(row['position'] == position for row in mapping.values()) for position in sorted(ALLOWED)}

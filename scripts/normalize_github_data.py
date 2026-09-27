@@ -146,19 +146,37 @@ def main() -> None:
         work_path = Path(work)
         players = load_players(PLAYER_DIRECTORY)
         player_ids = {player["id"] for player in players}
+        player_stats = json.loads((ROOT / "data/processed/nba-player-stats.json").read_text(encoding="utf8"))
+        daily = json.loads((ROOT / "data/processed/nba-daily.json").read_text(encoding="utf8"))
+        if not player_stats or not daily:
+            raise ValueError("NBA Stats API player averages and game logs are required for this release")
+        if any(row.get("playerId") not in player_ids for row in player_stats + daily):
+            raise ValueError("NBA Stats API rows reference a player outside the verified directory")
+        if len({(row["playerId"], row["seasonType"]) for row in player_stats}) != len(player_stats):
+            raise ValueError("NBA Stats API returned duplicate player season summaries")
+        if len({row["id"] for row in daily}) != len(daily):
+            raise ValueError("NBA Stats API returned duplicate daily game-log rows")
         matchups = normalize_matchups(pd.read_excel(download(MATCHUPS_URL, work_path / "matchups.xlsx")), player_ids, now)
         playtypes = normalize_playtypes(pd.read_excel(download(PLAYTYPES_URL, work_path / "playtypes.xlsx")), player_ids, now)
         teams = list({player["teamId"]: {"id": player["teamId"], "name": player["teamName"], "chineseName": player["teamName"], "abbreviation": player["teamAbbreviation"], "logoUrl": ""} for player in players}.values())
-        manifest = {"provider": "github-json", "status": "live", "league": "NBA", "lastUpdated": now, "version": f"{SEASON}-{datetime.now(timezone.utc).strftime('%Y%m%d')}", "coverage": f"{SEASON} NBA regular season", "players": "players.json", "teams": "teams.json", "matchups": "matchups.json", "playtypes": "playtypes.json", "playerCount": len(players), "matchupRecordCount": len(matchups), "playtypeRecordCount": len(playtypes), "isDemo": False}
+        position_report_path = ROOT / "data/reports/player-position-report.json"
+        position_report = json.loads(position_report_path.read_text(encoding="utf8")) if position_report_path.exists() else {}
+        previous_manifest_path = PUBLISHED / "manifest.json"
+        previous_manifest = json.loads(previous_manifest_path.read_text(encoding="utf8")) if previous_manifest_path.exists() else {}
+        stats_updated = max((row["updatedAt"] for row in player_stats), default=now)
+        daily_updated = max((row["updatedAt"] for row in daily), default=now)
+        manifest = {"provider": "github-json", "status": "stale", "league": "NBA", "lastUpdated": now, "version": f"{SEASON}-{datetime.now(timezone.utc).strftime('%Y%m%d')}", "coverage": f"{SEASON} NBA regular season + playoffs · NBA Stats API player stats and game logs · {position_report.get('mapped_position_count', 0)}/{position_report.get('total_players', len(players))} positions verified", "players": "players.json", "teams": "teams.json", "matchups": "matchups.json", "playerStats": "player-stats.json", "playerStatsSourceUpdatedAt": stats_updated, "daily": "daily.json", "dailyRecordCount": len(daily), "dailySourceUpdatedAt": daily_updated, "playtypes": "playtypes.json", "playerPlaytypesSourceUpdatedAt": previous_manifest.get("playerPlaytypesSourceUpdatedAt"), "playerCount": len(players), "matchupRecordCount": len(matchups), "playtypeRecordCount": len(playtypes), "positionMappingRate": position_report.get('mapping_success_rate', 0), "positionQualityReport": "reports/player-position-report.json", "dataSource": "NBA Stats API + reference matchup and Synergy exports", "delivery": "GitHub JSON", "isDemo": False}
+        if not manifest["playerPlaytypesSourceUpdatedAt"]:
+            raise ValueError("existing verified Synergy source timestamp is required; refusing a partial catalog release")
         stage = work_path / "stage"; stage.mkdir()
         validate_stage(players, teams, matchups, playtypes)
-        for name, payload in (("players.json", players), ("teams.json", teams), ("matchups.json", matchups), ("playtypes.json", playtypes)):
+        for name, payload in (("players.json", players), ("teams.json", teams), ("matchups.json", matchups), ("player-stats.json", player_stats), ("daily.json", daily), ("playtypes.json", playtypes)):
             write_json(stage / name, payload)
         write_json(stage / "manifest.json", manifest)
         validate_catalogue_stage(stage)
         # Data files first, manifest last: clients observe either the old complete dataset or the new complete dataset.
         PUBLISHED.mkdir(parents=True, exist_ok=True)
-        for name in ("players.json", "teams.json", "matchups.json", "playtypes.json", "manifest.json"):
+        for name in ("players.json", "teams.json", "matchups.json", "player-stats.json", "daily.json", "playtypes.json", "manifest.json"):
             shutil.move(str(stage / name), str(PUBLISHED / name))
     print(f"Published {len(matchups)} NBA matchup rows and {len(playtypes)} play-type rows")
 

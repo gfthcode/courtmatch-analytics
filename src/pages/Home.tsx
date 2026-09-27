@@ -7,6 +7,7 @@ import { useData } from '../state';
 import { calculateMatchupMetrics, getMatchups, getPlayerById, getRankings, leagueAverage } from '../lib/api';
 import './home.css';
 import './home-motion.css';
+import './home-video.css';
 import { useLanguage } from '../i18n';
 
 type LeaderMetric = 'offense' | 'defense';
@@ -51,6 +52,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
   const { language, t } = useLanguage();
   const navigate = useNavigate();
   const [visualMode, setVisualMode] = useState<'radar' | 'flow' | 'sample'>('radar');
+  const [sceneStep, setSceneStep] = useState<0 | 1 | 2>(0);
   const season = data.seasons[0];
   const average = leagueAverage(data, { season, type: 'regular' });
   const matchups = useMemo(
@@ -76,8 +78,24 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
     scope: language === 'en' ? 'Scope' : '范围', status: language === 'en' ? 'Status' : '状态',
   };
   const statusLabel = data.manifest.status === 'stale' ? 'STALE DATA' : data.manifest.status === 'live' ? 'LIVE DATA' : data.manifest.status === 'error' || data.manifest.status === 'unavailable' ? 'DATA UNAVAILABLE' : 'DEMO DATA';
+  const sceneLabels = language === 'en'
+    ? [{ index: '01', title: 'Find a matchup', detail: 'Search a player or team' }, { index: '02', title: 'Read the sample', detail: 'Follow possessions and impact' }, { index: '03', title: 'Compare the read', detail: 'Open the full analysis' }]
+    : [{ index: '01', title: '找到对位', detail: '搜索球员或球队' }, { index: '02', title: '读取样本', detail: '跟踪回合与攻防影响' }, { index: '03', title: '比较结论', detail: '打开完整分析' }];
+  const selectScene = (step: 0 | 1 | 2) => {
+    setSceneStep(step);
+    setVisualMode(step === 0 ? 'radar' : step === 1 ? 'flow' : 'sample');
+    if (step === 1) document.querySelector('.lab-metrics')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (step === 2) document.querySelector('#lab-workspace')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
   return <div className="lab-home">
-    <section className="lab-hero" aria-labelledby="lab-hero-title">
+    <section className={`lab-hero scene-${sceneStep + 1}`} aria-labelledby="lab-hero-title">
+      <div className="lab-video-topline" aria-hidden="true"><span>COURTMATCH / IN MOTION</span><span>( IN BETWEEN )</span><span>A DATA EXPLORATION</span></div>
+      <div className="lab-scene-rail" aria-label={language === 'en' ? 'Homepage story steps' : '首页分析分镜'}>
+        <span className="lab-scene-rail-line" aria-hidden="true" />
+        {sceneLabels.map((scene, index) => <button key={scene.index} type="button" className={sceneStep === index ? 'is-active' : ''} onClick={() => selectScene(index as 0 | 1 | 2)}>
+          <span>{scene.index}</span><strong>{scene.title}</strong><small>{scene.detail}</small>
+        </button>)}
+      </div>
       <div className="lab-hero-copy">
         <div className="lab-signal"><i aria-hidden="true" />NBA DATA LAB <span>LIVE ANALYSIS SURFACE</span></div>
         <div className="lab-hero-index">COURTMATCH / 01 <span>{season} · REGULAR SEASON</span></div>
@@ -89,6 +107,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
           <Button variant="secondary" asChild><Link to="/comparison">{t('球员比较')}</Link></Button>
           <Link className="lab-text-action" to="/rankings">{t('排行榜')} <ArrowUpRight size={16} /></Link>
         </div>
+        <div className="lab-hero-statusline"><span><i aria-hidden="true" /> {statusLabel}</span><span>{data.matchups.length.toLocaleString(language === 'en' ? 'en-US' : 'zh-CN')} {language === 'en' ? 'records indexed' : '条记录已索引'}</span><span>{language === 'en' ? 'Updated' : '更新于'} {formatUpdated(data.updatedAt)}</span></div>
       </div>
 
       <div
@@ -106,7 +125,13 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
         }}
         aria-label={language === 'en' ? 'Interactive matchup visual' : '互动对位数据视图'}
       >
+        <div className="lab-video-stage-label">DIRECT MATCHUP / {season}</div>
+        <div className="lab-video-bloom" aria-hidden="true">
+          <span className="bloom-petal bloom-petal-a" /><span className="bloom-petal bloom-petal-b" /><span className="bloom-petal bloom-petal-c" /><span className="bloom-petal bloom-petal-d" /><span className="bloom-petal bloom-petal-e" /><span className="bloom-petal bloom-petal-f" />
+          <span className="bloom-core" /><i className="bloom-orbit bloom-orbit-a" /><i className="bloom-orbit bloom-orbit-b" />
+        </div>
         <div className="lab-hero-visual-grid" />
+        <div className="lab-hero-scanline" aria-hidden="true" />
         <div className="lab-hero-orbit lab-hero-orbit-a" />
         <div className="lab-hero-orbit lab-hero-orbit-b" />
         <div className="lab-hero-crosshair"><i /><b /><span>POSSESSION<br />MAP</span></div>
@@ -114,7 +139,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
         <div className="lab-visual-tabs" role="tablist" aria-label={language === 'en' ? 'Visual lens' : '视觉模式'}>
           {(['radar', 'flow', 'sample'] as const).map((mode) => <button key={mode} type="button" role="tab" aria-selected={visualMode === mode} className={visualMode === mode ? 'is-active' : ''} onClick={() => setVisualMode(mode)}>{mode.toUpperCase()}</button>)}
         </div>
-        <span className="lab-visual-corner">MOVE TO SCAN</span>
+        <span className="lab-visual-corner">MOVE TO SCAN / {String(sceneStep + 1).padStart(2, '0')}</span>
       </div>
 
       <aside className="lab-command-panel" aria-label="球员分析搜索">
@@ -129,6 +154,11 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
     </section>
 
     <a className="lab-scroll-cue" href="#lab-workspace"><span>{language === 'en' ? 'Scroll to enter the lab' : '向下进入分析工作台'}</span><i aria-hidden="true" /></a>
+
+    <section className="lab-ticker" aria-label={language === 'en' ? 'Live data ticker' : '实时数据滚动条'}>
+      <span className="lab-ticker-label">COURTMATCH / LIVE FEED</span>
+      <div className="lab-ticker-track"><span>{season} · {data.players.length} PLAYERS</span><i /> <span>{data.matchups.length.toLocaleString(language === 'en' ? 'en-US' : 'zh-CN')} DIRECT RECORDS</span><i /> <span>{data.teams.length} NBA TEAMS</span><i /> <span>{statusLabel}</span><i /> <span>{season} · {data.players.length} PLAYERS</span></div>
+    </section>
 
     <section className="lab-metrics" aria-label="当前数据摘要">
       <article><CalendarDays size={17} /><span>{t('当前赛季')}</span><strong>{season}</strong><small>{t('常规赛分析口径')}</small></article>
@@ -203,4 +233,3 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
     </section>
   </div>;
 }
-

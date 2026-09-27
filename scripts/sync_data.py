@@ -33,6 +33,8 @@ def main() -> None:
     report=json.loads((ROOT / "data" / "reports" / "player-directory-report.json").read_text(encoding="utf8"))
     if not report["officialDirectoryAvailable"] or report.get("sourceBackedCount", 0) != report["candidateCount"] or report["conflictCount"]:
         raise RuntimeError("player directory contains unresolved identities; Live Data was not enabled and public/data was preserved.")
+    run([sys.executable, "scripts/normalize-player-positions.py"])
+    run([sys.executable, "scripts/import_nba_api_data.py"])
     # Only a source-provided partialPossessions field is publishable. Never revive the
     # unsupported MATCHUP_MIN × 2.1 estimate.
     run([sys.executable, "scripts/normalize_github_data.py"])

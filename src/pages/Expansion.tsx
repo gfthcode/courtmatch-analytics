@@ -1,11 +1,12 @@
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import { Link, useLocation, useParams, useSearchParams } from 'react-router-dom';
-import { BarChart3, CalendarDays, CheckCircle2, ExternalLink, Globe2, History, Rocket, Search, Shield, WalletCards } from 'lucide-react';
+import { BarChart3, CheckCircle2, ExternalLink, Globe2, History, Rocket, Search, Shield, WalletCards } from 'lucide-react';
 import { useData, useDataStatus } from '../state';
-import { getRankings, getTeamPlayTypes, getTeamStats, searchPlayers } from '../lib/api';
-import { DataMethodNote, Empty, PageHead, Pagination, PlayerIdentity, PlayerLink, number } from '../components/Common';
+import { getRankings, getTeamPlayTypes, getTeamStats } from '../lib/api';
+import { DataMethodNote, Empty, PageHead, Pagination, PlayerLink, number } from '../components/Common';
 import { Chart, scatterOption } from '../components/Charts';
 import { Button } from '../components/ui/button';
+import { NBAPlayerStatsPage, NBADailyPage } from './NBAStatsPages';
 
 function StatusCard({ label='数据状态' }: { label?: string }) {
   const status = useDataStatus();
@@ -14,14 +15,7 @@ function StatusCard({ label='数据状态' }: { label?: string }) {
   return <div className={`data-availability data-availability-${tone}`} role="status"><span className="status-dot" /><div><strong>{label}：{status.state === 'live' ? 'LIVE DATA' : status.state === 'recently-updated' ? 'RECENTLY UPDATED' : status.state === 'stale' ? 'STALE DATA' : status.state === 'demo' ? 'DEMO DATA' : 'DATA UNAVAILABLE'}</strong><small>{status.message ?? status.coverage} · 更新 {status.lastUpdated.slice(0, 10)}</small></div></div>;
 }
 
-export function PlayerDirectoryPage() {
-  const data = useData(); const [params, setParams] = useSearchParams();
-  const query = params.get('q') ?? ''; const team = params.get('team') ?? ''; const position = params.get('position') ?? ''; const page = Math.max(1, Number(params.get('page') ?? '1'));
-  const filtered = useMemo(() => searchPlayers(data, query, team).filter((p) => !position || p.position === position).sort((a, b) => a.name.localeCompare(b.name)), [data, query, team, position]);
-  const pageSize = 12; const rows = filtered.slice((page - 1) * pageSize, page * pageSize);
-  const update = (key: string, value: string) => { const next = new URLSearchParams(params); if (value) next.set(key, value); else next.delete(key); next.delete('page'); setParams(next, { replace: true }); };
-  return <><PageHead eyebrow="PLAYER DIRECTORY" title="球员数据" description="浏览当前发布数据目录中的 NBA 球员、球队归属、位置和对位入口。" /><StatusCard /><DataMethodNote /><section className="directory-toolbar"><label className="field"><span><Search size={14} /> 搜索球员</span><input value={query} placeholder="姓名、中文名、缩写或球队" onChange={(e) => update('q', e.target.value)} /></label><label className="field"><span>球队</span><select value={team} onChange={(e) => update('team', e.target.value)}><option value="">全部球队</option>{data.teams.map((t) => <option key={t.id} value={t.id}>{t.abbreviation} · {t.chineseName}</option>)}</select></label><label className="field"><span>位置</span><select value={position} onChange={(e) => update('position', e.target.value)}><option value="">全部位置</option>{['G', 'F', 'C', 'G-F', 'F-C', 'Unknown'].map((p) => <option key={p}>{p}</option>)}</select></label></section><section className="directory-grid">{rows.map((player) => <article className="directory-card" key={player.id}><PlayerLink player={player} /><dl><div><dt>球员 ID</dt><dd>{player.id}</dd></div><div><dt>球队</dt><dd>{player.teamAbbreviation}</dd></div><div><dt>位置</dt><dd>{player.position}</dd></div><div><dt>对位入口</dt><dd><Link to={`/matchups/player/${player.id}`}>查看记录 →</Link></dd></div></dl></article>)}</section>{!rows.length && <Empty title="没有匹配的球员" message="请清除筛选，或使用英文姓名、中文名、球队缩写搜索。" />}<Pagination page={page} total={filtered.length} pageSize={pageSize} onChange={(next) => { const p = new URLSearchParams(params); p.set('page', String(next)); setParams(p, { replace: true }); }} /></>;
-}
+export function PlayerDirectoryPage() { return <NBAPlayerStatsPage />; }
 
 export function TeamDirectoryPage() {
   const { pathname: routePath } = useLocation();
@@ -105,7 +99,7 @@ export function FuturePage() { return <><PageHead eyebrow="PRODUCT ROADMAP" titl
 
 export function ImpactPage() { const data = useData(); const rankings = getRankings(data, { season: data.seasons[0], type: 'regular', minPossessions: 25, metric: 'edge', order: 'desc' }).slice(0, 12); return <><PageHead eyebrow="OFFENSE × DEFENSE" title="攻防影响" description="用当前数据集中的对位效率、对位回合和联盟基准观察攻防影响；不把结果解释为因果评分。" /><StatusCard /><DataMethodNote /><section className="section"><div className="section-title"><h2>当前覆盖范围的攻防影响</h2><span>{rankings.length} 位达到最低样本门槛的球员</span></div><div className="impact-list">{rankings.map((r) => <article key={r.player.id}><PlayerLink player={r.player} /><span><b>{number(r.offense)}</b><small>进攻 /100</small></span><span><b>{number(r.defense)}</b><small>被攻 /100</small></span><span className={r.edge && r.edge >= 0 ? 'positive' : 'negative'}><b>{r.edge == null ? '—' : `${r.edge >= 0 ? '+' : ''}${number(r.edge)}`}</b><small>防守压制</small></span></article>)}</div></section></>; }
 
-export function DailyPage() { const data = useData(); const ranking = getRankings(data, { season: data.seasons[0], type: 'regular', minPossessions: 25, metric: 'offense', order: 'desc' }).slice(0, 5); return <><PageHead eyebrow="DAILY BRIEF" title="每日最佳" description="当日摘要优先读取生产数据；当前若未发布逐场日志，会明确显示最近一次可用数据。" /><StatusCard label="每日数据状态" /><section className="notice-card"><CalendarDays size={18} /><span>当前页面使用最近一次可用数据；逐场日志字段将在 daily_player_log 数据接入后启用。</span></section><section className="section"><div className="section-title"><h2>当前可用的对位亮点</h2><span>{data.seasons[0]} · 最近发布数据</span></div><div className="daily-grid">{ranking.map((r) => <article className="directory-card" key={r.player.id}><PlayerIdentity player={r.player} /><strong>{number(r.offense)} <small>/100</small></strong><p>{number(r.offensePossessions, 0)} 个进攻对位回合 · {r.quality.toUpperCase()} 样本</p><Link to={`/players/${r.player.id}`}>查看球员详情 →</Link></article>)}</div></section><DataMethodNote /></>; }
+export function DailyPage() { return <NBADailyPage />; }
 
 export function CountriesPage() { const data = useData(); const countries = [{ name: 'Unknown / 未知', count: data.players.length, players: data.players }]; return <><PageHead eyebrow="PLAYER ORIGINS" title="球员国家" description="国家字段只有在可靠球员目录映射后才会发布；当前目录尚未提供可验证国家字段。" /><StatusCard /><section className="unavailable-panel"><Globe2 size={30} /><h2>当前球员国家字段不可用</h2><p>不根据姓名、球队或其他线索猜测国家。未映射球员统一保留为 Unknown。</p><div className="country-summary"><strong>{countries[0].count}</strong><span>名球员待映射</span></div></section><section className="section"><div className="section-title"><h2>未映射报告</h2><Link to="/players">查看球员目录 →</Link></div><div className="directory-list">{countries[0].players.slice(0, 8).map((p) => <PlayerLink key={p.id} player={p} />)}</div></section></>; }
 

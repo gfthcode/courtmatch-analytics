@@ -1,11 +1,13 @@
 {
-  "source": "player_stats CSV + nba_api.stats.static.players",
+  "source": "reference entity IDs verified against NBA Stats CommonAllPlayers; positions joined by NBA Stats CommonTeamRoster",
   "officialDirectoryAvailable": true,
   "candidateCount": 500,
-  "verifiedCount": 486,
+  "verifiedCount": 500,
   "sourceBackedCount": 500,
   "unverifiedCount": 0,
-  "staticDirectoryLagCount": 14,
+  "positionMappedCount": 475,
+  "positionUnknownCount": 25,
+  "positionMappingRate": 95.0,
   "conflictCount": 0,
-  "generatedAt": "2026-09-22T21:18:45.404745+00:00"
+  "generatedAt": "2026-09-27T06:44:21.338399+00:00"
 }
