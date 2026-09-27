@@ -27,12 +27,13 @@ export function PlayTypesPage({detail=false}:{detail?:boolean}){
  const allUsage=sourceRows.reduce((sum,row)=>sum+row.possessions,0);const visibleUsage=rows.reduce((sum,row)=>sum+row.possessions,0);const activeRow=rows.find(row=>rowKey(row)===selectedType)??rows[0];
  const mostUsed=[...sourceRows].sort((a,b)=>b.possessions-a.possessions)[0];const highestPercentile=[...sourceRows].filter(row=>row.percentile!=null).sort((a,b)=>(b.percentile??-1)-(a.percentile??-1))[0];
  const maxPossessions=Math.max(...rows.map(row=>row.possessions),0.1);
+ const dataState=data.manifest.status==='stale'?(en?'STALE DATA':'数据已过期'):data.manifest.status==='live'?'LIVE DATA':data.manifest.status==='demo'?'DEMO DATA':data.manifest.status.toUpperCase();
  if(!player)return <Empty title={en?'Player not found':'未找到球员'} message={en?'This provider has no play-type records for the selected player.':'当前数据源没有可展示打法的球员。请从搜索结果选择一位球员。'}/>;
  return <>
   <PageHead eyebrow="PLAY TYPE LAB" title={detail?(en?`${player.name} · Play type profile`:`${player.chineseName} 的打法剖面`):(en?'Play types':'球员打法类型')} description={en?'Explore Synergy play-type frequency and efficiency, with the season and sample context kept visible.':'按 Synergy 打法类别查看使用频率与进攻效率，同时保留赛季、样本与数据来源口径。'}/>
   <section className="playtype-command">
    <div><p>{en?'Find a player':'选择球员'}</p><SearchPlayers label={en?'Name, team or abbreviation':'姓名、球队或简称'} onChoose={choice=>navigate(`/playtypes/${choice.id}?season=${filters.season}&type=${filters.type}`)}/></div>
-   <div className="playtype-player"><PlayerIdentity player={player} large/><span>{filters.season} · {filters.type==='regular'?(en?'Regular season':'常规赛'):(en?'Playoffs':'季后赛')} · {data.mode==='live'?'LIVE DATA':'DEMO DATA'}</span></div>
+   <div className="playtype-player"><PlayerIdentity player={player} large/><span>{filters.season} · {filters.type==='regular'?(en?'Regular season':'常规赛'):(en?'Playoffs':'季后赛')} · {dataState}</span></div>
   </section>
   <section className="playtype-switch" aria-label={en?'Play type side':'攻防分组'}>
    <div className="playtype-tabs" role="group" aria-label={en?'Offense and defense':'进攻与防守'}>
