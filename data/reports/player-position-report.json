@@ -2,7 +2,7 @@
   "total_players": 500,
   "mapped_position_count": 475,
   "unknown_count": 25,
-  "cached_position_count": 0,
+  "cached_position_count": 475,
   "mapping_success_rate": 95.0,
   "unknown_player_ids": [
     "1630560",

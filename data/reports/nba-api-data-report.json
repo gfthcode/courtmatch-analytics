@@ -5,5 +5,8 @@
   "dailyLogCount": 28016,
   "firstGameDate": "2025-10-21",
   "lastGameDate": "2026-06-13",
-  "generatedAt": "2026-09-27T06:44:51.138589+00:00"
+  "generatedAt": "2026-09-27T09:38:58.934017+00:00",
+  "refreshMode": "verified-cache",
+  "sourceUpdatedAt": "2026-09-27T06:44:51.138589+00:00",
+  "fallbackReason": "LeagueDashPlayerStats(Base, Regular Season) failed after 3 network attempts"
 }
