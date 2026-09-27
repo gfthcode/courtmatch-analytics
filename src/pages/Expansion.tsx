@@ -7,6 +7,8 @@ import { DataMethodNote, Empty, PageHead, Pagination, PlayerLink, number } from 
 import { Chart, scatterOption } from '../components/Charts';
 import { Button } from '../components/ui/button';
 import { NBAPlayerStatsPage, NBADailyPage } from './NBAStatsPages';
+import { useLanguage } from '../i18n';
+import '../data-ops.css';
 
 function StatusCard({ label='数据状态' }: { label?: string }) {
   const status = useDataStatus();
@@ -104,6 +106,36 @@ export function DailyPage() { return <NBADailyPage />; }
 
 export function CountriesPage() { const data = useData(); const countries = [{ name: 'Unknown / 未知', count: data.players.length, players: data.players }]; return <><PageHead eyebrow="PLAYER ORIGINS" title="球员国家" description="国家字段只有在可靠球员目录映射后才会发布；当前目录尚未提供可验证国家字段。" /><StatusCard /><section className="unavailable-panel"><Globe2 size={30} /><h2>当前球员国家字段不可用</h2><p>不根据姓名、球队或其他线索猜测国家。未映射球员统一保留为 Unknown。</p><div className="country-summary"><strong>{countries[0].count}</strong><span>名球员待映射</span></div></section><section className="section"><div className="section-title"><h2>未映射报告</h2><Link to="/players">查看球员目录 →</Link></div><div className="directory-list">{countries[0].players.slice(0, 8).map((p) => <PlayerLink key={p.id} player={p} />)}</div></section></>; }
 
-export function ChangelogPage() { const data = useData(); const status = useDataStatus(); return <><PageHead eyebrow="RELEASE LOG" title="更新日志" description="版本、数据计数和发布状态来自当前数据 manifest；失败更新不会覆盖上一份有效发布。" /><StatusCard label="发布状态" /><section className="timeline"><article><History size={20} /><div><strong>{status.version}</strong><span>{status.lastUpdated}</span><p>{data.players.length} 位球员 · {data.teams.length} 支球队 · {data.matchups.length.toLocaleString()} 条对位记录 · {data.playtypes.length.toLocaleString()} 条打法记录</p><small>来源：{data.source}。GitHub Actions 数据更新失败时保留旧数据并标记状态。</small></div><CheckCircle2 className="timeline-check" size={18} /></article></section><DataMethodNote /></>; }
+export function ChangelogPage() {
+  const data = useData();
+  const status = useDataStatus();
+  const { language } = useLanguage();
+  const en = language === 'en';
+  const manifest = data.manifest;
+  const feeds = [
+    [en ? 'NBA player stats & game logs' : 'NBA 球员统计与比赛日志', manifest.nbaStatsDataThrough ?? manifest.playerStatsSourceUpdatedAt ?? manifest.dailySourceUpdatedAt, 7],
+    [en ? 'Player play types' : '球员打法数据', manifest.playerPlaytypesSourceUpdatedAt, 30],
+    [en ? 'Team play types' : '球队打法数据', manifest.teamPlaytypesSourceUpdatedAt, 30],
+    [en ? 'Team season stats' : '球队赛季统计', manifest.teamStatsSourceUpdatedAt, 30],
+  ] as const;
+  const sourceAge = (name: string) => manifest.sourceAgeDays?.[name];
+  const ageLabels = ['球员统计与比赛日志', '球员打法快照', '球队打法快照', '球队统计快照'];
+  return <>
+    <PageHead eyebrow="DATA OPERATIONS" title={en ? 'Automatic updates & data quality' : '自动更新与数据质量'} description={en ? 'Daily scheduled refresh, manual recovery, source freshness and fail-closed publication in one auditable view.' : '每日自动刷新、手动恢复、来源新鲜度与失败保护集中展示；数据状态按真实来源判断。'} />
+    <StatusCard label={en ? 'Published dataset' : '当前发布数据'} />
+    <section className="metrics-grid data-ops-metrics" aria-label={en ? 'Refresh overview' : '更新概览'}>
+      <article className="metric"><span className="metric-label">{en ? 'Refresh mode' : '本轮刷新模式'}</span><strong>{manifest.refreshMode === 'live' ? (en ? 'LIVE SOURCE' : '实时源') : manifest.refreshMode === 'verified-cache' ? (en ? 'VERIFIED CACHE' : '已验证缓存') : '—'}</strong><p>{en ? 'Cache fallback never claims a live refresh.' : '使用缓存时不会冒充实时更新。'}</p></article>
+      <article className="metric"><span className="metric-label">{en ? 'Position coverage' : '球员位置覆盖率'}</span><strong>{manifest.positionMappingRate == null ? '—' : `${manifest.positionMappingRate.toFixed(1)}%`}</strong><p>{en ? `${manifest.positionUnknownCount ?? 0} unknown positions remain unfilled.` : `${manifest.positionUnknownCount ?? 0} 位未确认位置保留为空。`}</p></article>
+      <article className="metric"><span className="metric-label">{en ? 'Published records' : '已发布记录'}</span><strong>{data.matchups.length.toLocaleString()}</strong><p>{en ? `${data.players.length} players · ${data.teams.length} teams` : `${data.players.length} 位球员 · ${data.teams.length} 支球队`}</p></article>
+    </section>
+    {manifest.staleReasons?.length ? <section className="unavailable-panel data-quality-warnings" role="status"><h2>{en ? 'Quality warnings — dataset retained, not presented as fresh' : '数据质量提示：保留有效数据，但不标记为最新'}</h2><ul>{manifest.staleReasons.map((reason) => <li key={reason}>{reason}</li>)}</ul></section> : <section className="data-availability data-availability-success"><CheckCircle2 size={18}/><strong>{en ? 'All published freshness checks passed.' : '所有已发布的数据新鲜度检查均通过。'}</strong></section>}
+    <section className="section">
+      <div className="section-title"><h2>{en ? 'Source freshness' : '各数据源新鲜度'}</h2><span>{en ? 'Thresholds: last game within 7 days; source snapshots within 30 days.' : '阈值：比赛日期 7 天；打法/球队源快照 30 天。'}</span></div>
+      <div className="directory-list data-source-freshness">{feeds.map(([label, timestamp, threshold], index) => { const age = index === 0 ? manifest.nbaStatsDataAgeDays ?? sourceAge(ageLabels[index]) : sourceAge(ageLabels[index]); const fresh = typeof age === 'number' && age <= threshold; const date = timestamp ? (index === 0 && manifest.nbaStatsDataThrough ? timestamp : new Date(timestamp).toLocaleString(en ? 'en-AU' : 'zh-CN')) : (en ? 'Source timestamp unavailable' : '未提供源更新时间'); return <article className="data-source-row" key={label}><div><strong>{label}</strong><small>{index === 0 ? (en ? `Last game recorded: ${date}` : `比赛数据截止：${date}`) : date}</small></div><span className={fresh ? 'freshness-good' : 'freshness-old'}>{typeof age === 'number' ? (en ? `${age} days old` : `${age} 天前`) : (en ? 'Not verified' : '未核验')}</span></article>; })}</div>
+    </section>
+    <section className="section timeline"><div className="section-title"><h2>{en ? 'Automation & release safeguards' : '自动化与发布保护'}</h2></div><article><History size={20}/><div><strong>{en ? 'Daily + manual GitHub Actions run' : 'GitHub Actions 每日运行 + 手动触发'}</strong><span>{en ? 'Daily at 19:15 UTC; queued runs do not overlap.' : '每日 UTC 19:15；并发运行排队，避免相互覆盖。'}</span><p>{en ? 'NBA stats retry with verified-cache fallback; staged data must pass reference, schema, ID-map and position checks before atomic publication.' : 'NBA API 失败时重试并回退到已验证缓存；候选数据需通过关联、结构、ID 映射与位置检查后才原子发布。'}</p><small>{en ? `Last checked ${manifest.dataQualityCheckedAt ?? status.lastUpdated}` : `最近校验：${manifest.dataQualityCheckedAt ?? status.lastUpdated}`}</small></div><a className="card-link" href="https://github.com/gfthcode/courtmatch-analytics/actions/workflows/sync-data.yml" target="_blank" rel="noreferrer">{en ? 'View runs ↗' : '查看运行记录 ↗'}</a></article></section>
+    <DataMethodNote />
+  </>;
+}
 
 export function PlayerDetailRoute() { return null; }

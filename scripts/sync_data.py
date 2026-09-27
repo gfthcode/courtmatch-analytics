@@ -93,6 +93,7 @@ def main() -> None:
         run([sys.executable, "scripts/import_player_playtypes.py"], env=stage_environment)
         run([sys.executable, "scripts/import_team_playtypes.py"], env=stage_environment)
         run([sys.executable, "scripts/import_team_stats.py"], env=stage_environment)
+        run([sys.executable, "scripts/finalize_data_quality.py"], env=stage_environment)
         node_binary=os.environ.get("COURTMATCH_NODE_BINARY") or shutil.which("node")
         if not node_binary:
             raise RuntimeError("Node.js was not found; staged data is not eligible for publication.")

@@ -13,17 +13,26 @@ name: Sync validated NBA data
       - 'scripts/import_team_playtypes.py'
       - 'scripts/import_team_stats.py'
       - 'scripts/import_player_playtypes.py'
+      - 'scripts/finalize_data_quality.py'
       - 'scripts/sync_data.py'
       - 'scripts/validate-data.mjs'
       - '.github/workflows/sync-data.yml'
+  schedule:
+    # Reference project refreshes once daily; run after its scheduled source collection.
+    - cron: '15 19 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: courtmatch-nba-data-sync
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,11 +42,33 @@ jobs:
         with:
           node-version: '22'
       - run: pip install certifi pandas openpyxl nba_api
+      - name: Test data quality reporting
+        run: python -m unittest scripts/test_finalize_data_quality.py
       - name: Refresh and validate NBA data
         run: python scripts/sync_data.py 2>&1 | tee "$RUNNER_TEMP/courtmatch-sync.log"
         env:
           COURTMATCH_PUBLISHED_DATA_DIR: data
       - run: node scripts/validate-data.mjs data
+      - name: Publish refresh and quality summary
+        if: success()
+        run: |
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          manifest = json.loads(Path('data/manifest.json').read_text())
+          api = json.loads(Path('data/reports/nba-api-data-report.json').read_text())
+          directory = json.loads(Path('data/reports/player-directory-report.json').read_text())
+          print('## NBA 数据刷新与质量检查')
+          print()
+          print(f"- 数据状态：**{manifest['status']}**；刷新模式：**{manifest.get('refreshMode', api.get('refreshMode', 'unknown'))}**")
+          print(f"- 最近成功发布：{manifest['lastUpdated']}；NBA Stats 记录日期：{api.get('lastGameDate', '未知')}")
+          print(f"- 球员/对位：{manifest['playerCount']} / {manifest['matchupRecordCount']:,}；位置映射：{manifest.get('positionMappingRate', 0):.1f}%")
+          print(f"- 球员目录：{'实时来源' if directory.get('officialDirectoryAvailable') else '已验证缓存'}；未映射位置：{directory.get('positionUnknownCount', '未知')}")
+          reasons = manifest.get('staleReasons', [])
+          print(f"- 质量提示：{'；'.join(reasons) if reasons else '无'}")
+          print()
+          print('校验失败会阻止候选数据发布，并保留上一份有效数据。')
+          PY
       - run: |
           git diff --quiet -- data || (
             git config user.name 'courtmatch-bot'
