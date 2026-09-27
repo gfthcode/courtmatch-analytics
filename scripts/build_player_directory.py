@@ -11,6 +11,9 @@ from pathlib import Path
 from urllib.request import urlopen
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT/'scripts'))
+from nba_api_retry import retry_nba_request
+
 CSV_URL=os.environ.get('COURTMATCH_PLAYER_STATS_SOURCE','https://raw.githubusercontent.com/suren504/surennba_stats/main/data/player_stats/2025-26NBA_RegularSeason_Player_stats.csv')
 SEASON=os.environ.get('COURTMATCH_SEASON','2025-26')
 
@@ -28,7 +31,7 @@ def trusted_context():
         return ssl.create_default_context()
 def main():
     from nba_api.stats.endpoints import commonallplayers, commonteamroster, commonplayerinfo
-    all_rows=commonallplayers.CommonAllPlayers(is_only_current_season=1,season=SEASON,timeout=30).get_dict()['resultSets'][0]
+    all_rows=retry_nba_request(lambda:commonallplayers.CommonAllPlayers(is_only_current_season=1,season=SEASON,timeout=60).get_dict()['resultSets'][0],label='CommonAllPlayers')
     official={str(row[0]):{'name':row[2],'teamId':str(row[8])} for row in all_rows['rowSet']}
     official_available=bool(official)
     if CSV_URL.startswith(('http://','https://')):
@@ -42,7 +45,7 @@ def main():
     teams={str(row['teamid']) for row in rows if row.get('teamid')}
     for index,team_id in enumerate(sorted(teams)):
         try:
-            roster=commonteamroster.CommonTeamRoster(team_id=team_id,season=SEASON,timeout=30).get_dict()['resultSets'][0]
+            roster=retry_nba_request(lambda:commonteamroster.CommonTeamRoster(team_id=team_id,season=SEASON,timeout=60).get_dict()['resultSets'][0],label=f'CommonTeamRoster({team_id})')
             for roster_row in roster['rowSet']:
                 positions[str(roster_row[14])]={'position':str(roster_row[7]).strip(),'height':str(roster_row[8] or ''),'weight':float(roster_row[9] or 0),'jerseyNumber':str(roster_row[6] or '')}
         except Exception as error:

@@ -10,8 +10,12 @@ import os
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+from nba_api_retry import retry_nba_request
+
 SEASON = os.environ.get('COURTMATCH_SEASON', '2025-26')
 PLAYERS = Path(os.environ.get('COURTMATCH_PLAYER_DIRECTORY', ROOT / 'data/processed/players-candidate.json'))
 OUTPUT = ROOT / 'data/processed'
@@ -40,15 +44,15 @@ def endpoint_rows(endpoint) -> list[dict]:
 def fetch_stats(player_ids: set[str], season_type: str, now: str) -> list[dict]:
     from nba_api.stats.endpoints import leaguedashplayerstats
 
-    base = endpoint_rows(leaguedashplayerstats.LeagueDashPlayerStats(
+    base = retry_nba_request(lambda: endpoint_rows(leaguedashplayerstats.LeagueDashPlayerStats(
         season=SEASON, season_type_all_star=season_type,
-        measure_type_detailed_defense='Base', per_mode_detailed='PerGame', timeout=60,
-    ))
+        measure_type_detailed_defense='Base', per_mode_detailed='PerGame', timeout=90,
+    )), label=f'LeagueDashPlayerStats(Base, {season_type})')
     time.sleep(1)
-    advanced = endpoint_rows(leaguedashplayerstats.LeagueDashPlayerStats(
+    advanced = retry_nba_request(lambda: endpoint_rows(leaguedashplayerstats.LeagueDashPlayerStats(
         season=SEASON, season_type_all_star=season_type,
-        measure_type_detailed_defense='Advanced', per_mode_detailed='PerGame', timeout=60,
-    ))
+        measure_type_detailed_defense='Advanced', per_mode_detailed='PerGame', timeout=90,
+    )), label=f'LeagueDashPlayerStats(Advanced, {season_type})')
     adv_by_id = {str(row['PLAYER_ID']): row for row in advanced}
     season_type_code = 'regular' if season_type == 'Regular Season' else 'playoffs'
     rows = []
@@ -83,10 +87,10 @@ def fetch_stats(player_ids: set[str], season_type: str, now: str) -> list[dict]:
 def fetch_logs(player_ids: set[str], season_type: str, now: str) -> list[dict]:
     from nba_api.stats.endpoints import leaguegamelog
 
-    raw = endpoint_rows(leaguegamelog.LeagueGameLog(
+    raw = retry_nba_request(lambda: endpoint_rows(leaguegamelog.LeagueGameLog(
         season=SEASON, season_type_all_star=season_type,
-        player_or_team_abbreviation='P', timeout=90,
-    ))
+        player_or_team_abbreviation='P', timeout=120,
+    )), label=f'LeagueGameLog({season_type})')
     code = 'regular' if season_type == 'Regular Season' else 'playoffs'
     rows = []
     for row in raw:
