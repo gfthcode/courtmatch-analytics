@@ -15,7 +15,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 WORK_DATA = Path(os.environ.get('COURTMATCH_DATA_WORK_DIR', ROOT / 'data'))
 sys.path.insert(0, str(ROOT / "scripts"))
-from nba_api_retry import retry_nba_request
+from nba_api_retry import RetryExhaustedError, retry_nba_request
 
 SEASON = os.environ.get('COURTMATCH_SEASON', '2025-26')
 PLAYERS = Path(os.environ.get('COURTMATCH_PLAYER_DIRECTORY', WORK_DATA / 'processed/players-candidate.json'))
@@ -120,16 +120,52 @@ def fetch_logs(player_ids: set[str], season_type: str, now: str) -> list[dict]:
     return rows
 
 
+def load_cached_snapshot(player_ids: set[str]) -> tuple[list[dict], list[dict]]:
+    """Load a last-known-good API snapshot only after checking season and IDs."""
+    published_path = os.environ.get('COURTMATCH_PREVIOUS_PUBLISHED_DATA_DIR', '')
+    if not published_path:
+        raise RuntimeError('NBA Stats timed out and no previous published dataset is configured')
+    published = Path(published_path)
+    if not published.is_dir():
+        raise RuntimeError('NBA Stats timed out and no previous published dataset is available')
+    try:
+        stats = json.loads((published / 'player-stats.json').read_text(encoding='utf8'))
+        logs = json.loads((published / 'daily.json').read_text(encoding='utf8'))
+    except (OSError, json.JSONDecodeError) as error:
+        raise RuntimeError('NBA Stats timed out and the previous player-stat cache is unreadable') from error
+    if not isinstance(stats, list) or not isinstance(logs, list) or not stats or not logs:
+        raise RuntimeError('NBA Stats timed out and the previous player-stat cache is incomplete')
+    if any(row.get('season') != SEASON or row.get('playerId') not in player_ids for row in stats):
+        raise RuntimeError('NBA Stats timed out and cached player statistics do not match the current season/player directory')
+    if any(row.get('season') != SEASON or row.get('playerId') not in player_ids for row in logs):
+        raise RuntimeError('NBA Stats timed out and cached game logs do not match the current season/player directory')
+    if len({(row.get('playerId'), row.get('seasonType')) for row in stats}) != len(stats):
+        raise RuntimeError('NBA Stats timed out and cached player statistics contain duplicate records')
+    if len({row.get('id') for row in logs}) != len(logs) or any(not row.get('id') for row in logs):
+        raise RuntimeError('NBA Stats timed out and cached game logs contain missing or duplicate IDs')
+    if len(stats) < len(player_ids) * 0.5:
+        raise RuntimeError('NBA Stats timed out and cached player statistics fail the minimum coverage threshold')
+    return stats, logs
+
+
 def main() -> None:
     players = json.loads(PLAYERS.read_text(encoding='utf8'))
     player_ids = {str(row['id']) for row in players}
     now = datetime.now(timezone.utc).isoformat()
     stats, logs = [], []
-    for index, season_type in enumerate(('Regular Season', 'Playoffs')):
-        stats.extend(fetch_stats(player_ids, season_type, now))
-        logs.extend(fetch_logs(player_ids, season_type, now))
-        if index == 0:
-            time.sleep(1)
+    refresh_mode = 'live'
+    fallback_reason = None
+    try:
+        for index, season_type in enumerate(('Regular Season', 'Playoffs')):
+            stats.extend(fetch_stats(player_ids, season_type, now))
+            logs.extend(fetch_logs(player_ids, season_type, now))
+            if index == 0:
+                time.sleep(1)
+    except RetryExhaustedError as error:
+        stats, logs = load_cached_snapshot(player_ids)
+        refresh_mode = 'verified-cache'
+        fallback_reason = str(error)
+        print(f'NBA Stats endpoint unavailable; retaining the complete verified cached snapshot ({len(stats)} stats, {len(logs)} logs).', file=sys.stderr, flush=True)
     if len(stats) < len(player_ids) * 0.5:
         raise RuntimeError(f'NBA Stats player averages unexpectedly incomplete: {len(stats)} rows for {len(player_ids)} players')
     if not logs:
@@ -142,7 +178,9 @@ def main() -> None:
         'source': 'NBA Stats API LeagueDashPlayerStats + LeagueGameLog', 'season': SEASON,
         'playerStatsCount': len(stats), 'dailyLogCount': len(logs),
         'firstGameDate': min(row['date'] for row in logs), 'lastGameDate': max(row['date'] for row in logs),
-        'generatedAt': now,
+        'generatedAt': now, 'refreshMode': refresh_mode,
+        'sourceUpdatedAt': max((row.get('updatedAt', '') for row in stats + logs), default=''),
+        'fallbackReason': fallback_reason,
     }
     reports = WORK_DATA / 'reports'
     reports.mkdir(parents=True, exist_ok=True)

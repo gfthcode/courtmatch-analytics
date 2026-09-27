@@ -78,11 +78,6 @@ def verify_identity(player_id:str, reference_name:str, directory:dict[str,dict])
 
 def main():
     from nba_api.stats.endpoints import commonallplayers, commonteamroster
-    if CSV_URL.startswith(('http://','https://')):
-        with urlopen(CSV_URL,timeout=30,context=trusted_context()) as response: rows=list(csv.DictReader(line.decode('utf-8-sig') for line in response))
-    else:
-        with open(CSV_URL,encoding='utf-8-sig',newline='') as source: rows=list(csv.DictReader(source))
-
     cache_path=os.environ.get('COURTMATCH_CACHED_PLAYER_DIRECTORY','')
     cache_report_path=os.environ.get('COURTMATCH_CACHED_PLAYER_REPORT','')
     cached_directory={}
@@ -94,6 +89,23 @@ def main():
         except (OSError,ValueError,json.JSONDecodeError) as error:
             cache_error=error
             print(f'Last-known-good NBA player directory cache is unusable: {error}',file=sys.stderr,flush=True)
+
+    cached_source_rows=False
+    try:
+        if CSV_URL.startswith(('http://','https://')):
+            with urlopen(CSV_URL,timeout=30,context=trusted_context()) as response: rows=list(csv.DictReader(line.decode('utf-8-sig') for line in response))
+        else:
+            with open(CSV_URL,encoding='utf-8-sig',newline='') as source: rows=list(csv.DictReader(source))
+    except (OSError,TimeoutError) as error:
+        if not cached_directory:
+            raise RuntimeError('Reference player catalogue is unavailable and no verified NBA player directory cache was usable') from (cache_error or error)
+        # The cached directory has already been verified against immutable NBA IDs and
+        # names. Reconstitute the small join input from it rather than inventing IDs.
+        rows=[{'entityid':player_id,'name':player['name'],'shortname':player.get('shortName',player['name']),
+               'teamid':player.get('teamId',''),'teamabbreviation':player.get('teamAbbreviation','')}
+              for player_id,player in cached_directory.items()]
+        cached_source_rows=True
+        print(f'Reference player catalogue unavailable; using {len(rows)} previously verified NBA identities.',file=sys.stderr,flush=True)
 
     official_available=True
     cached_directory_used=False
@@ -151,7 +163,7 @@ def main():
     source_backed=sum(p['verification']=='nba-stats-api-id' for p in candidates)
     position_mapped=sum(p['positionVerification'] in {'official-team-roster','official-team-roster-cache'} for p in candidates)
     position_cached=sum(p['positionVerification']=='official-team-roster-cache' for p in candidates)
-    report={'source':'reference entity IDs verified against NBA Stats CommonAllPlayers; positions joined to NBA Stats CommonTeamRoster','officialDirectoryAvailable':official_available,'cachedDirectoryUsed':cached_directory_used,'cachedDirectoryGeneratedAt':cache_generated_at or None,'candidateCount':len(candidates)+len(conflicts),'verifiedCount':source_backed,'sourceBackedCount':source_backed,'unverifiedCount':len(candidates)+len(conflicts)-source_backed,'positionMappedCount':position_mapped,'positionCachedCount':position_cached,'positionUnknownCount':len(candidates)-position_mapped,'positionMappingRate':round(position_mapped/len(candidates)*100,2) if candidates else 0,'conflictCount':len(conflicts),'generatedAt':now}
+    report={'source':'reference entity IDs verified against NBA Stats CommonAllPlayers; positions joined to NBA Stats CommonTeamRoster','officialDirectoryAvailable':official_available,'cachedDirectoryUsed':cached_directory_used or cached_source_rows,'cachedDirectoryGeneratedAt':cache_generated_at or None,'cachedReferenceCatalogueUsed':cached_source_rows,'candidateCount':len(candidates)+len(conflicts),'verifiedCount':source_backed,'sourceBackedCount':source_backed,'unverifiedCount':len(candidates)+len(conflicts)-source_backed,'positionMappedCount':position_mapped,'positionCachedCount':position_cached,'positionUnknownCount':len(candidates)-position_mapped,'positionMappingRate':round(position_mapped/len(candidates)*100,2) if candidates else 0,'conflictCount':len(conflicts),'generatedAt':now}
     (reports/'player-directory-report.json').write_text(json.dumps(report,indent=2),encoding='utf8')
     (reports/'unmapped_players.json').write_text(json.dumps(conflicts,ensure_ascii=False,indent=2),encoding='utf8')
     print(json.dumps(report))

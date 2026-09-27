@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { resolve, sep } from 'node:path';
 
-const directory=resolve(process.cwd(),process.argv[2]??'public/data');
+const directory=resolve(process.cwd(),process.argv[2]??'data');
 const required=['provider','status','league','lastUpdated','version','coverage','players','teams','matchups','playerCount','matchupRecordCount','isDemo'];
 const playTypes=new Set(['Isolation','Transition','PRBallHandler','PRRollman','Postup','Spotup','Handoff','Cut','OffScreen','OffRebound','Misc']);
 const fail=(message)=>{throw new Error(`CourtMatch data validation failed: ${message}`)};

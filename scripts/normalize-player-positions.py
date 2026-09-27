@@ -14,7 +14,7 @@ def main() -> None:
     report_dir = WORK_DATA / 'reports'
     mapping_dir.mkdir(parents=True, exist_ok=True)
     report_dir.mkdir(parents=True, exist_ok=True)
-    players = json.loads(source.read_text(encoding='utf8')) if source.exists() else json.loads((ROOT / 'public/data/players.json').read_text(encoding='utf8'))
+    players = json.loads(source.read_text(encoding='utf8')) if source.exists() else json.loads((ROOT / 'data/players.json').read_text(encoding='utf8'))
     mapping = {}
     invalid = []
     cached = 0

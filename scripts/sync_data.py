@@ -1,6 +1,6 @@
 """Fail-closed production entrypoint for CourtMatch NBA data.
 
-Raw XLSX/Parquet stays under data/raw. The browser only reads public/data JSON.
+Raw XLSX/Parquet stays under data/raw. GitHub Pages publishes the validated JSON files from data/.
 Existing public data is never replaced until normalization and validation succeed.
 """
 from __future__ import annotations
@@ -50,6 +50,7 @@ def main() -> None:
         work_data.mkdir()
         work_environment=identity_environment.copy()
         work_environment["COURTMATCH_DATA_WORK_DIR"] = str(work_data)
+        work_environment["COURTMATCH_PREVIOUS_PUBLISHED_DATA_DIR"] = str(published_directory)
         previous_reports=published_directory / "reports"
         if previous_reports.is_dir():
             shutil.copytree(previous_reports, stage / "reports", dirs_exist_ok=True)
@@ -64,6 +65,11 @@ def main() -> None:
         if not directory_source_available or report.get("sourceBackedCount", 0) != report["candidateCount"] or report["conflictCount"]:
             raise RuntimeError("player directory contains unresolved identities; publication was blocked and public data was preserved.")
         run([sys.executable, "scripts/normalize-player-positions.py"], env=work_environment)
+        position_map = work_data / "mappings" / "player-position-map.json"
+        if not position_map.is_file():
+            raise RuntimeError("verified player-position map was not generated; existing published data was preserved.")
+        (stage / "mappings").mkdir(parents=True, exist_ok=True)
+        shutil.copy2(position_map, stage / "mappings" / position_map.name)
         for report_name in ("player-directory-report.json", "player-position-report.json", "unmapped_players.json"):
             report_source=work_data / "reports" / report_name
             if report_source.is_file():
@@ -90,6 +96,9 @@ def main() -> None:
         if not node_binary:
             raise RuntimeError("Node.js was not found; staged data is not eligible for publication.")
         run([node_binary, "scripts/validate-data.mjs", str(stage)])
+        validation_environment = stage_environment.copy()
+        validation_environment["COURTMATCH_VALIDATION_DATA_DIR"] = str(stage)
+        run([sys.executable, "scripts/validate-player-positions.py"], env=validation_environment)
         promote_validated_stage(stage, published_directory)
     print(f"CourtMatch data sync completed; {published_directory} is a validated NBA dataset.")
 
