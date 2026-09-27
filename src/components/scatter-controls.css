@@ -1,0 +1,21 @@
+:root .scatter-plot{grid-template-rows:auto minmax(190px,1fr) 24px 24px 28px;}
+:root .scatter-controls{grid-column:1/-1;grid-row:1;display:flex;align-items:end;gap:8px;flex-wrap:wrap;padding:0 0 12px;}
+:root .scatter-controls label{display:grid;gap:4px;color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.04em;}
+:root .scatter-controls select{min-width:132px;min-height:32px;padding:6px 25px 6px 9px;border-color:var(--line);background:var(--panel);color:var(--text);font-size:11px;}
+:root .scatter-highlight-toggle,:root .scatter-clear-selection{min-height:32px;padding:6px 10px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:11px;cursor:pointer;}
+:root .scatter-highlight-toggle:hover,:root .scatter-clear-selection:hover,:root .scatter-highlight-toggle.is-active{border-color:var(--accent);color:var(--accent);}
+:root .scatter-count{margin-left:auto;padding-bottom:8px;color:var(--muted);font-size:10px;font-variant-numeric:tabular-nums;}
+:root .scatter-y-axis,:root .scatter-plot-area{grid-row:2;}
+:root .scatter-x-axis{grid-row:3;}
+:root .scatter-x-title{grid-row:4;}
+:root .scatter-chart-hint{grid-row:5;}
+:root .scatter-point{width:28px;height:28px;border:2px solid var(--panel);overflow:visible;background:var(--panel);box-shadow:0 1px 5px rgba(0,0,0,.35),0 0 0 1px color-mix(in srgb,#f25a28 65%,var(--panel));}
+:root .scatter-point img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;}
+:root .scatter-initials{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;background:var(--accent);color:white;font:700 9px/1 Manrope,sans-serif;}
+:root .scatter-point:hover,:root .scatter-point:focus-visible,:root .scatter-point.is-selected{z-index:6;transform:translate(-50%,50%) scale(1.35);box-shadow:0 0 0 3px color-mix(in srgb,#168bc4 28%,transparent),0 2px 8px rgba(0,0,0,.4);}
+:root .scatter-point.is-selected{outline:2px solid #168bc4;outline-offset:2px;}
+:root .scatter-point.is-muted{opacity:.24;}
+:root .scatter-point.is-muted:hover,:root .scatter-point.is-muted:focus-visible{opacity:1;}
+:root .scatter-average{z-index:1;}
+@media(max-width:620px){:root .scatter-controls{gap:6px;align-items:end}:root .scatter-controls label{flex:1;min-width:120px}:root .scatter-controls select{width:100%;min-width:0}:root .scatter-count{margin-left:0}:root .scatter-point{width:24px;height:24px}:root .scatter-plot{grid-template-rows:auto minmax(190px,1fr) 24px 24px 34px;}}
+@media(prefers-reduced-motion:reduce){:root .scatter-point{transition:none}}
