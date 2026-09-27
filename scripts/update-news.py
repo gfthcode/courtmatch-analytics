@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from html import unescape
 import json
+import os
 from pathlib import Path
 import re
 import urllib.request
@@ -13,7 +14,8 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_DIR = ROOT / "public"
-OUT = (PUBLIC_DIR / "data" / "news.json") if PUBLIC_DIR.is_dir() else (ROOT / "data" / "news.json")
+OUTPUT_OVERRIDE = os.environ.get("COURTMATCH_NEWS_OUTPUT")
+OUT = (ROOT / OUTPUT_OVERRIDE) if OUTPUT_OVERRIDE else ((PUBLIC_DIR / "data" / "news.json") if PUBLIC_DIR.is_dir() else (ROOT / "data" / "news.json"))
 NEWS_API = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50"
 RSS_FEED = "https://www.espn.com/espn/rss/nba/news"
 NS = {"dc": "http://purl.org/dc/elements/1.1/", "media": "http://search.yahoo.com/mrss/"}

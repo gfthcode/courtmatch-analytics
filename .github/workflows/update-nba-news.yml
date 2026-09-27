@@ -30,6 +30,8 @@ jobs:
           python-version: '3.x'
       - name: Fetch and validate ESPN NBA news
         run: python scripts/update-news.py
+        env:
+          COURTMATCH_NEWS_OUTPUT: data/news.json
       - name: Publish changed news snapshot
         run: |
           git config user.name "github-actions[bot]"
