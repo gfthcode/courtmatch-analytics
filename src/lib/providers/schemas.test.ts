@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { matchupSchema, playerSchema, teamPlaytypeSchema, validateDatasetReferences } from './schemas';
+import { matchupSchema, playerSchema, teamPlaytypeSchema, teamStatsSchema, validateDatasetReferences } from './schemas';
 
 describe('GitHub JSON data contracts',()=>{
   it('accepts a complete NBA player directory record',()=>{
@@ -10,6 +10,9 @@ describe('GitHub JSON data contracts',()=>{
   });
   it('accepts a source-backed team play type with normalized rates',()=>{
     expect(teamPlaytypeSchema.parse({teamId:'1610612760',playType:'Isolation',grouping:'offensive',possessions:10.9,possessionShare:.097,pointsPerPossession:1.033,percentile:1,gamesPlayed:77,season:'2025-26',seasonType:'regular',updatedAt:'2026-05-17T09:21:44Z'}).pointsPerPossession).toBe(1.033);
+  });
+  it('accepts a source-backed team season record with distinct offense and opponent rates',()=>{
+    expect(teamStatsSchema.parse({teamId:'1610612759',season:'2025-26',seasonType:'regular',gamesPlayed:82,offensiveRating:119.87,defensiveRating:110.82,pace:100.03,effectiveFieldGoalPercentage:.556,trueShootingPercentage:.591,updatedAt:'2026-09-26T20:31:54Z'}).defensiveRating).toBe(110.82);
   });
   it('reports duplicate rows and missing player foreign keys',()=>{
     const player={id:'1',name:'A',chineseName:'甲',aliases:[],shortName:'A',teamId:'t',teamName:'Team',teamAbbreviation:'T',position:'G' as const,height:'',weight:0,jerseyNumber:'',headshotUrl:'',league:'NBA' as const};

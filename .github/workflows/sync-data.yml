@@ -11,6 +11,7 @@ name: Sync validated NBA data
       - 'scripts/normalize-player-positions.py'
       - 'scripts/import_nba_api_data.py'
       - 'scripts/import_team_playtypes.py'
+      - 'scripts/import_team_stats.py'
       - 'scripts/import_player_playtypes.py'
       - 'scripts/sync_data.py'
       - 'scripts/validate-data.mjs'
