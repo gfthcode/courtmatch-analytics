@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { ScatterPlot, type ScatterRow } from './ScatterPlot';
 
-export type ChartOption={kind:'scatter'|'bar'|'line'|'compare'|'radar'|'heatmap';rows?:any[];labels?:string[];values?:any[];average?:number;min?:number;name?:string};
+export type ChartOption={kind:'scatter'|'bar'|'line'|'compare'|'radar'|'heatmap';rows?:any[];labels?:string[];values?:any[];series?:string[];average?:number;min?:number;name?:string};
 
 export function Chart({title,description,option,onClick,onSelect,selectedIds,onReady,height=390}:{title:string;description:string;option:ChartOption;onClick?:(id:string)=>void;onSelect?:(ids:string[])=>void;selectedIds?:string[];onReady?:()=>void;height?:number}){
  useEffect(()=>{const timer=window.setTimeout(()=>onReady?.(),80);return()=>window.clearTimeout(timer);},[onReady,option]);
@@ -12,7 +12,7 @@ export function Chart({title,description,option,onClick,onSelect,selectedIds,onR
   {option.kind==='scatter'&&<ScatterPlot rows={rows as ScatterRow[]} average={option.average} onClick={onClick} onSelect={onSelect} selectedIds={selectedIds}/>}
   {option.kind==='bar'&&<div className="bar-chart">{rows.map(r=><div key={r.id}><span>{r.name}</span><i style={{width:`${Math.max(4,Math.min(100,r.value))}%`}}/><b>{Number(r.value).toFixed(1)}</b></div>)}</div>}
   {option.kind==='line'&&<div className="line-chart">{rows.map((r,i)=><div key={r.label} style={{height:`${Math.max(8,Math.min(88,r.value??0))}%`,left:`${8+i*(82/Math.max(1,rows.length-1))}%`}}><b>{r.label}</b><span>{r.value?.toFixed(1)??'—'}</span></div>)}</div>}
-  {option.kind==='compare'&&<div className="compare-chart">{(option.values??[]).map((v:any,i:number)=><div key={option.labels?.[i]}><b>{option.labels?.[i]}</b><i style={{height:`${Math.min(100,Number(v[0]??0))}%`}}/><i style={{height:`${Math.min(100,Number(v[1]??0))}%`}}/><small>{v[0]?.toFixed?.(1)??'—'} / {v[1]?.toFixed?.(1)??'—'}</small></div>)}</div>}
+  {option.kind==='compare'&&<div className="compare-chart" role="list" aria-label={option.name}>{(option.values??[]).map((values:any[],i:number)=>{const max=Math.max(0,...values.filter((value):value is number=>typeof value==='number'&&Number.isFinite(value)));return <div className="compare-chart-row" key={option.labels?.[i]} role="listitem"><strong className="compare-chart-metric">{option.labels?.[i]}</strong><div className="compare-chart-series">{(option.series??[]).map((label,index)=>{const value=values[index];const numeric=typeof value==='number'&&Number.isFinite(value);const width=numeric&&max>0?Math.max(0,Math.min(100,value/max*100)):0;return <div className={`compare-chart-item compare-chart-item-${index}`} key={label}><span>{label}</span><div className="compare-chart-track"><i style={{width:`${width}%`}}/></div><b>{numeric?Number(value).toFixed(1):'—'}</b></div>;})}</div></div>;})}</div>}
   {option.kind==='radar'&&<div className="radar-chart">{(option.values??[]).map((v:number,i:number)=><div key={option.labels?.[i]}><span>{option.labels?.[i]}</span><i style={{width:`${v}%`}}/><b>{v.toFixed(0)}</b></div>)}</div>}
   {option.kind==='heatmap'&&<div className="heatmap-chart">{rows.map(r=><div key={r.x} style={{backgroundColor:`hsl(${18+Math.max(0,Math.min(70,100-r.value))*1.2} 72% ${Math.max(26,Math.min(56,r.value/2))}%)`}}><span>{r.x}</span><b>{r.value.toFixed(0)}</b></div>)}</div>}
  </div></section>;
@@ -21,6 +21,6 @@ export function Chart({title,description,option,onClick,onSelect,selectedIds,onR
 export function scatterOption(rows:ScatterRow[],average:number,min:number):ChartOption{return {kind:'scatter',rows,average,min};}
 export function rankingOption(rows:{id:string;name:string;value:number}[]):ChartOption{return {kind:'bar',rows};}
 export function lineOption(rows:{label:string;value:number|null}[],name:string):ChartOption{return {kind:'line',rows,name};}
-export function compareOption(labels:string[],a:string,b:string,av:string,values:[number|null,number|null,number|null][]):ChartOption{return {kind:'compare',labels,values,name:`${a} / ${b} / ${av}`};}
+export function compareOption(labels:string[],a:string,b:string,av:string,values:[number|null,number|null,number|null][]):ChartOption{return {kind:'compare',labels,values,series:[a,b,av],name:`${a}、${b} 与 ${av} 对比`};}
 export function radarOption(labels:string[],values:number[],name:string):ChartOption{return {kind:'radar',labels,values,name};}
 export function heatmapOption(rows:{x:string;y:string;value:number}[]):ChartOption{return {kind:'heatmap',rows};}
