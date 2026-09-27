@@ -28,7 +28,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Fetch and validate ESPN RSS
+      - name: Fetch and validate ESPN NBA news
         run: python scripts/update-news.py
       - name: Publish changed news snapshot
         run: |

@@ -1,6 +1,6 @@
 {
-  "source": "ESPN NBA RSS",
-  "feedUrl": "https://www.espn.com/espn/rss/nba/news",
+  "source": "ESPN NBA News API",
+  "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
   "updatedAt": null,
   "articles": []
 }
