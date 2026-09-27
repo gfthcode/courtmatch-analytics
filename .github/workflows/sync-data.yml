@@ -33,7 +33,8 @@ jobs:
         with:
           node-version: '22'
       - run: pip install certifi pandas openpyxl nba_api
-      - run: python scripts/sync_data.py
+      - name: Refresh and validate NBA data
+        run: python scripts/sync_data.py 2>&1 | tee "$RUNNER_TEMP/courtmatch-sync.log"
         env:
           COURTMATCH_PUBLISHED_DATA_DIR: data
       - run: node scripts/validate-data.mjs data
@@ -53,5 +54,8 @@ jobs:
             echo
             echo 'The candidate dataset did not pass the complete refresh and validation pipeline. The existing published NBA dataset was left in place; no partial data commit was made.'
             echo
-            echo 'See the first failed sync step above for the source or validation error.'
+            echo 'Last sync output (diagnostic tail):'
+            echo '```text'
+            tail -n 60 "$RUNNER_TEMP/courtmatch-sync.log" || true
+            echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
