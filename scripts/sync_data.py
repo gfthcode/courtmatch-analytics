@@ -36,6 +36,8 @@ def main() -> None:
     # Only a source-provided partialPossessions field is publishable. Never revive the
     # unsupported MATCHUP_MIN × 2.1 estimate.
     run([sys.executable, "scripts/normalize_github_data.py"])
+    run([sys.executable, "scripts/import_player_playtypes.py"])
+    run([sys.executable, "scripts/import_team_playtypes.py"])
     node_binary=os.environ.get("COURTMATCH_NODE_BINARY") or shutil.which("node")
     if not node_binary:
         raise RuntimeError("Node.js was not found; public/data was generated but is not eligible for deployment.")

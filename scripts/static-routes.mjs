@@ -9,7 +9,7 @@ const publicUrl = `${origin}${base}`;
 const shell = await readFile(resolve(dist, 'index.html'), 'utf8');
 
 const routes = [
-  ['', 'CourtMatch | NBA 直接对位分析', '读懂每一次正面对位。探索 NBA 球员攻防对位、赛季趋势与样本质量，支持双人比较、筛选和分享。当前为明确标记的演示数据。'],
+  ['', 'CourtMatch | NBA 直接对位分析', '读懂每一次正面对位。探索 NBA 球员攻防对位、赛季趋势与样本质量，支持双人比较、筛选和分享。数据状态与覆盖范围由公开目录清单标记。'],
   ['matchups', '联盟对位 | CourtMatch', '按球员、球队、赛季和最低回合筛选 NBA 直接对位，查看交互散点图、详细统计及样本质量。'],
   ['players', '球员数据 | CourtMatch', '浏览 NBA 球员目录、球队归属、位置和直接对位入口。'],
   ['player', '球员总览 | CourtMatch', '浏览 NBA 球员目录、球队归属、位置和直接对位入口。'],
@@ -23,6 +23,7 @@ const routes = [
   ['matchup/player', '球员对位 | CourtMatch', '比较两名 NBA 球员的直接对位效率。'],
   ['rankings', 'NBA 对位排行榜 | CourtMatch', '探索 NBA 进攻、防守、对位回合和跨赛季变化榜单。可按赛季、球队、位置与样本质量筛选。'],
   ['playtypes', '球员打法分析 | CourtMatch', '按球员、攻防分组与样本回合探索 NBA Play Types 使用频率、每回合效率与百分位。'],
+  ['news', 'NBA 新闻 | CourtMatch', '每日浏览 NBA 球员场内表现与场外动态，按分类筛选并搜索 ESPN 原始报道。'],
   ['salaries', '薪金仓库 | CourtMatch', '查看当前 NBA 薪资数据接入状态与可用字段。'],
   ['salary', '薪资总览 | CourtMatch', '查看当前 NBA 薪资数据接入状态与可用字段。'],
   ['salary/player', '球员薪资 | CourtMatch', '查看球员薪资数据接入状态。'],

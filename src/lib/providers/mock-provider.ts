@@ -17,5 +17,6 @@ export class MockProvider implements BasketballDataProvider {
   async getHeadToHead(playerA:string,playerB:string,filters:Partial<Filters>={}):Promise<{a:MatchupRecord[];b:MatchupRecord[]}>{return getHeadToHeadMatchup(DEMO_DATA,playerA,playerB,filters);}
   async getPlayerPlayTypes(playerId:string,filters:Partial<Filters>={}):Promise<Dataset['playtypes']>{return DEMO_DATA.playtypes.filter(row=>row.playerId===playerId&&(!filters.season||row.season===filters.season)&&(!filters.type||row.seasonType===filters.type));}
   async getTeamStats(teamId:string,filters:Partial<Filters>={}):Promise<Dataset['teamStats']>{return DEMO_DATA.teamStats.filter(row=>row.teamId===teamId&&(!filters.season||row.season===filters.season)&&(!filters.type||row.seasonType===filters.type));}
+  async getTeamPlayTypes(teamId:string,filters:Partial<Filters>={}):Promise<Dataset['teamPlaytypes']>{return DEMO_DATA.teamPlaytypes.filter(row=>row.teamId===teamId&&(!filters.season||row.season===filters.season)&&(!filters.type||row.seasonType===filters.type));}
   async getDataManifest():Promise<Dataset['manifest']>{return DEMO_DATA.manifest;}
 }

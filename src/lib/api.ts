@@ -1,4 +1,4 @@
-import type { Dataset, Filters, MatchupMetrics, MatchupRecord, Player, PlayerStats, PlayTypeRecord, Ranking, SampleQuality, TeamStats } from './types';
+import type { Dataset, Filters, MatchupMetrics, MatchupRecord, Player, PlayerStats, PlayTypeRecord, Ranking, SampleQuality, TeamPlayTypeRecord, TeamStats } from './types';
 
 export type DataFilters = Partial<Filters>;
 const normalize = (value: string) => value.toLocaleLowerCase().normalize('NFKD').replace(/[\s·.'’-]/g, '');
@@ -14,6 +14,7 @@ export const getPlayerById = (data: Dataset, id: string): Player | undefined => 
 export const getPlayerStats=(data:Dataset,playerId:string,filters:DataFilters={}):PlayerStats[]=>data.playerStats.filter(row=>row.playerId===playerId&&(!filters.season||row.season===filters.season)&&(!filters.type||row.seasonType===filters.type));
 export const getPlayerPlayTypes=(data:Dataset,playerId:string,filters:DataFilters={}):PlayTypeRecord[]=>data.playtypes.filter(row=>row.playerId===playerId&&(!filters.season||row.season===filters.season)&&(!filters.type||row.seasonType===filters.type));
 export const getTeamStats=(data:Dataset,teamId:string,filters:DataFilters={}):TeamStats[]=>data.teamStats.filter(row=>row.teamId===teamId&&(!filters.season||row.season===filters.season)&&(!filters.type||row.seasonType===filters.type));
+export const getTeamPlayTypes=(data:Dataset,teamId:string,filters:DataFilters={}):TeamPlayTypeRecord[]=>data.teamPlaytypes.filter(row=>row.teamId===teamId&&(!filters.season||row.season===filters.season)&&(!filters.type||row.seasonType===filters.type));
 
 export function searchPlayers(data: Dataset, query: string, team?: string): Player[] {
   const value = normalize(query);

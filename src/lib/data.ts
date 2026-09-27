@@ -112,7 +112,7 @@ export const DEMO_PLAYTYPES:PlayTypeRecord[]=DEMO_PLAYERS.flatMap(player=>SEASON
 export const DEMO_TEAM_STATS:TeamStats[]=DEMO_TEAMS.flatMap(team=>SEASONS.map(season=>{const seed=hash(`${team.id}:${season}:team`);return {teamId:team.id,season,seasonType:'regular' as const,wins:28+seed%32,losses:82-(28+seed%32),offensiveRating:Math.round((106+(seed>>>6)%130/10)*10)/10,defensiveRating:Math.round((105+(seed>>>13)%120/10)*10)/10,pace:Math.round((95+(seed>>>21)%70/10)*10)/10,updatedAt:DATA_UPDATED_AT};}));
 
 export const DEMO_DATA: Dataset = {
-  players: DEMO_PLAYERS, teams: DEMO_TEAMS, matchups: DEMO_MATCHUPS, playerStats:DEMO_PLAYER_STATS, playtypes:DEMO_PLAYTYPES, teamStats:DEMO_TEAM_STATS, seasons: SEASONS,
+  players: DEMO_PLAYERS, teams: DEMO_TEAMS, matchups: DEMO_MATCHUPS, playerStats:DEMO_PLAYER_STATS, playtypes:DEMO_PLAYTYPES, teamPlaytypes:[], teamStats:DEMO_TEAM_STATS, seasons: SEASONS,
   manifest:{provider:'mock',status:'demo',league:'NBA',season:SEASONS[0],lastUpdated:DATA_UPDATED_AT,version:'demo-2026.09.22',playerCount:DEMO_PLAYERS.length,matchupRecordCount:DEMO_MATCHUPS.length,playtypeRecordCount:DEMO_PLAYTYPES.length,teamCount:DEMO_TEAMS.length,isDemo:true,source:'CourtMatch deterministic synthetic dataset'},
   source: 'CourtMatch deterministic synthetic dataset · not official NBA Tracking data',
   updatedAt: DATA_UPDATED_AT, mode: 'demo',

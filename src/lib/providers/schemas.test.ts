@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { matchupSchema, playerSchema, validateDatasetReferences } from './schemas';
+import { matchupSchema, playerSchema, teamPlaytypeSchema, validateDatasetReferences } from './schemas';
 
 describe('GitHub JSON data contracts',()=>{
   it('accepts a complete NBA player directory record',()=>{
@@ -7,6 +7,9 @@ describe('GitHub JSON data contracts',()=>{
   });
   it('rejects non-NBA matchup rows before they reach the UI',()=>{
     expect(()=>matchupSchema.parse({id:'row-1',offensivePlayerId:'1',defensivePlayerId:'2',season:'2025-26',seasonType:'regular',league:'WNBA',matchupPossessions:12,points:8,fieldGoalAttempts:6,fieldGoalsMade:3,threePointAttempts:2,threePointMade:1,freeThrowAttempts:1,freeThrowsMade:1,turnovers:1,updatedAt:'2026-09-22T00:00:00Z'})).toThrow();
+  });
+  it('accepts a source-backed team play type with normalized rates',()=>{
+    expect(teamPlaytypeSchema.parse({teamId:'1610612760',playType:'Isolation',grouping:'offensive',possessions:10.9,possessionShare:.097,pointsPerPossession:1.033,percentile:1,gamesPlayed:77,season:'2025-26',seasonType:'regular',updatedAt:'2026-05-17T09:21:44Z'}).pointsPerPossession).toBe(1.033);
   });
   it('reports duplicate rows and missing player foreign keys',()=>{
     const player={id:'1',name:'A',chineseName:'甲',aliases:[],shortName:'A',teamId:'t',teamName:'Team',teamAbbreviation:'T',position:'G' as const,height:'',weight:0,jerseyNumber:'',headshotUrl:'',league:'NBA' as const};

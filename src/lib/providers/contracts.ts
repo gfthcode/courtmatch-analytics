@@ -1,4 +1,4 @@
-import type { DataManifest, Dataset, Filters, MatchupRecord, Player, PlayerStats, PlayTypeRecord, Team, TeamStats } from '../types';
+import type { DataManifest, Dataset, Filters, MatchupRecord, Player, PlayerStats, PlayTypeRecord, Team, TeamPlayTypeRecord, TeamStats } from '../types';
 
 export type DataStatus = {
   provider: 'mock' | 'github-json' | 'supabase';
@@ -23,5 +23,6 @@ export interface BasketballDataProvider {
   getHeadToHead(playerA:string,playerB:string,filters?:Partial<Filters>):Promise<{a:MatchupRecord[];b:MatchupRecord[]}>;
   getPlayerPlayTypes(playerId:string,filters?:Partial<Filters>):Promise<PlayTypeRecord[]>;
   getTeamStats(teamId:string,filters?:Partial<Filters>):Promise<TeamStats[]>;
+  getTeamPlayTypes(teamId:string,filters?:Partial<Filters>):Promise<TeamPlayTypeRecord[]>;
   getDataManifest():Promise<DataManifest>;
 }

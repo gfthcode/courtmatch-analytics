@@ -6,6 +6,8 @@ name: Sync validated NBA data
     paths:
       - 'scripts/build_player_directory.py'
       - 'scripts/normalize_github_data.py'
+      - 'scripts/import_team_playtypes.py'
+      - 'scripts/import_player_playtypes.py'
       - 'scripts/sync_data.py'
       - 'scripts/validate-data.mjs'
       - '.github/workflows/sync-data.yml'
