@@ -5,7 +5,11 @@ name: Sync validated NBA data
     branches: [main]
     paths:
       - 'scripts/build_player_directory.py'
+      - 'scripts/build_id_maps.py'
+      - 'scripts/nba_api_retry.py'
       - 'scripts/normalize_github_data.py'
+      - 'scripts/normalize-player-positions.py'
+      - 'scripts/import_nba_api_data.py'
       - 'scripts/import_team_playtypes.py'
       - 'scripts/import_player_playtypes.py'
       - 'scripts/sync_data.py'
@@ -40,3 +44,13 @@ jobs:
             git commit -m 'data: sync verified NBA catalogue'
             git push
           )
+      - name: Explain fail-closed sync status
+        if: failure()
+        run: |
+          {
+            echo '## NBA data sync did not publish'
+            echo
+            echo 'The candidate dataset did not pass the complete refresh and validation pipeline. The existing published NBA dataset was left in place; no partial data commit was made.'
+            echo
+            echo 'See the first failed sync step above for the source or validation error.'
+          } >> "$GITHUB_STEP_SUMMARY"

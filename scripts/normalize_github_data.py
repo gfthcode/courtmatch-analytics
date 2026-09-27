@@ -18,7 +18,9 @@ from pathlib import Path
 from urllib.request import urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
+WORK_DATA = Path(os.environ.get("COURTMATCH_DATA_WORK_DIR", ROOT / "data"))
 PUBLISHED = Path(os.environ.get("COURTMATCH_PUBLISHED_DATA_DIR", ROOT / "public" / "data"))
+PREVIOUS_PUBLISHED = Path(os.environ.get("COURTMATCH_PREVIOUS_PUBLISHED_DATA_DIR", PUBLISHED))
 MATCHUPS_URL = os.environ.get("COURTMATCH_MATCHUP_SOURCE", "https://raw.githubusercontent.com/suren504/surennba_stats/main/data/matchups/2025-26NBA_Regular_Matchups.xlsx")
 PLAYTYPES_URL = os.environ.get("COURTMATCH_PLAYTYPE_SOURCE", "https://raw.githubusercontent.com/suren504/surennba_stats/main/data/2025-26_player_playtype.xlsx")
 PLAYER_DIRECTORY = os.environ.get("COURTMATCH_PLAYER_DIRECTORY", "")
@@ -79,7 +81,7 @@ def validate_catalogue_stage(stage: Path) -> None:
 
 def prepare_stage_id_maps(stage: Path) -> None:
     """Stage the verified player crosswalk and derive canonical team IDs."""
-    source = ROOT / "data" / "mappings"
+    source = WORK_DATA / "mappings"
     mappings = stage / "mappings"
     mappings.mkdir(parents=True, exist_ok=True)
     for name in ("player-id-map.json", "team-id-map.json"):
@@ -171,8 +173,8 @@ def main() -> None:
         work_path = Path(work)
         players = load_players(PLAYER_DIRECTORY)
         player_ids = {player["id"] for player in players}
-        player_stats = json.loads((ROOT / "data/processed/nba-player-stats.json").read_text(encoding="utf8"))
-        daily = json.loads((ROOT / "data/processed/nba-daily.json").read_text(encoding="utf8"))
+        player_stats = json.loads((WORK_DATA / "processed/nba-player-stats.json").read_text(encoding="utf8"))
+        daily = json.loads((WORK_DATA / "processed/nba-daily.json").read_text(encoding="utf8"))
         if not player_stats or not daily:
             raise ValueError("NBA Stats API player averages and game logs are required for this release")
         if any(row.get("playerId") not in player_ids for row in player_stats + daily):
@@ -184,13 +186,18 @@ def main() -> None:
         matchups = normalize_matchups(pd.read_excel(download(MATCHUPS_URL, work_path / "matchups.xlsx")), player_ids, now)
         playtypes = normalize_playtypes(pd.read_excel(download(PLAYTYPES_URL, work_path / "playtypes.xlsx")), player_ids, now)
         teams = list({player["teamId"]: {"id": player["teamId"], "name": player["teamName"], "chineseName": player["teamName"], "abbreviation": player["teamAbbreviation"], "logoUrl": ""} for player in players}.values())
-        position_report_path = ROOT / "data/reports/player-position-report.json"
+        position_report_path = WORK_DATA / "reports/player-position-report.json"
         position_report = json.loads(position_report_path.read_text(encoding="utf8")) if position_report_path.exists() else {}
-        previous_manifest_path = PUBLISHED / "manifest.json"
+        identity_report_path = WORK_DATA / "reports/player-directory-report.json"
+        identity_report = json.loads(identity_report_path.read_text(encoding="utf8")) if identity_report_path.exists() else {}
+        previous_manifest_path = PREVIOUS_PUBLISHED / "manifest.json"
         previous_manifest = json.loads(previous_manifest_path.read_text(encoding="utf8")) if previous_manifest_path.exists() else {}
         stats_updated = max((row["updatedAt"] for row in player_stats), default=now)
         daily_updated = max((row["updatedAt"] for row in daily), default=now)
-        manifest = {"provider": "github-json", "status": "stale", "league": "NBA", "lastUpdated": now, "version": f"{SEASON}-{datetime.now(timezone.utc).strftime('%Y%m%d')}", "coverage": f"{SEASON} NBA regular season + playoffs · NBA Stats API player stats and game logs · {position_report.get('mapped_position_count', 0)}/{position_report.get('total_players', len(players))} positions verified", "players": "players.json", "teams": "teams.json", "matchups": "matchups.json", "playerStats": "player-stats.json", "playerStatsSourceUpdatedAt": stats_updated, "daily": "daily.json", "dailyRecordCount": len(daily), "dailySourceUpdatedAt": daily_updated, "playtypes": "playtypes.json", "playerPlaytypesSourceUpdatedAt": previous_manifest.get("playerPlaytypesSourceUpdatedAt"), "playerCount": len(players), "matchupRecordCount": len(matchups), "playtypeRecordCount": len(playtypes), "positionMappingRate": position_report.get('mapping_success_rate', 0), "positionQualityReport": "reports/player-position-report.json", "dataSource": "NBA Stats API + reference matchup and Synergy exports", "delivery": "GitHub JSON", "isDemo": False}
+        directory_mode = "verified-cache" if identity_report.get("cachedDirectoryUsed") else "live"
+        directory_updated = identity_report.get("cachedDirectoryGeneratedAt") if directory_mode == "verified-cache" else identity_report.get("generatedAt")
+        directory_note = " · player identity directory: last verified NBA Stats cache" if directory_mode == "verified-cache" else " · player identity directory: NBA Stats API"
+        manifest = {"provider": "github-json", "status": "stale", "league": "NBA", "lastUpdated": now, "version": f"{SEASON}-{datetime.now(timezone.utc).strftime('%Y%m%d')}", "coverage": f"{SEASON} NBA regular season + playoffs · NBA Stats API player stats and game logs · {position_report.get('mapped_position_count', 0)}/{position_report.get('total_players', len(players))} positions verified{directory_note}", "players": "players.json", "teams": "teams.json", "matchups": "matchups.json", "playerStats": "player-stats.json", "playerStatsSourceUpdatedAt": stats_updated, "daily": "daily.json", "dailyRecordCount": len(daily), "dailySourceUpdatedAt": daily_updated, "playtypes": "playtypes.json", "playerPlaytypesSourceUpdatedAt": previous_manifest.get("playerPlaytypesSourceUpdatedAt"), "playerCount": len(players), "matchupRecordCount": len(matchups), "playtypeRecordCount": len(playtypes), "positionMappingRate": position_report.get('mapping_success_rate', 0), "positionQualityReport": "reports/player-position-report.json", "playerDirectoryMode": directory_mode, "playerDirectorySourceUpdatedAt": directory_updated, "dataSource": "NBA Stats API + reference matchup and Synergy exports", "delivery": "GitHub JSON", "isDemo": False}
         if not manifest["playerPlaytypesSourceUpdatedAt"]:
             raise ValueError("existing verified Synergy source timestamp is required; refusing a partial catalog release")
         stage = work_path / "stage"; stage.mkdir()

@@ -9,6 +9,10 @@ T = TypeVar("T")
 TRANSIENT_NETWORK_ERRORS = {"Timeout", "ReadTimeout", "ConnectTimeout", "ConnectionError"}
 
 
+class RetryExhaustedError(RuntimeError):
+    """Raised only when a recognized transient transport error exhausts retries."""
+
+
 def retry_nba_request(
     operation: Callable[[], T],
     *,
@@ -26,7 +30,7 @@ def retry_nba_request(
             if not any(error_type.__name__ in TRANSIENT_NETWORK_ERRORS for error_type in type(error).__mro__):
                 raise
             if attempt == attempts:
-                raise RuntimeError(f"{label} failed after {attempts} network attempts") from error
+                raise RetryExhaustedError(f"{label} failed after {attempts} network attempts") from error
             delay = initial_delay * (2 ** (attempt - 1))
             print(
                 f"NBA Stats {label} network attempt {attempt}/{attempts} failed; retrying in {delay:g}s",

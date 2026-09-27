@@ -13,12 +13,13 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+WORK_DATA = Path(os.environ.get('COURTMATCH_DATA_WORK_DIR', ROOT / 'data'))
 sys.path.insert(0, str(ROOT / "scripts"))
 from nba_api_retry import retry_nba_request
 
 SEASON = os.environ.get('COURTMATCH_SEASON', '2025-26')
-PLAYERS = Path(os.environ.get('COURTMATCH_PLAYER_DIRECTORY', ROOT / 'data/processed/players-candidate.json'))
-OUTPUT = ROOT / 'data/processed'
+PLAYERS = Path(os.environ.get('COURTMATCH_PLAYER_DIRECTORY', WORK_DATA / 'processed/players-candidate.json'))
+OUTPUT = WORK_DATA / 'processed'
 
 
 def val(row: dict, key: str, default: float = 0) -> float:
@@ -143,7 +144,9 @@ def main() -> None:
         'firstGameDate': min(row['date'] for row in logs), 'lastGameDate': max(row['date'] for row in logs),
         'generatedAt': now,
     }
-    (ROOT / 'data/reports/nba-api-data-report.json').write_text(json.dumps(report, indent=2), encoding='utf8')
+    reports = WORK_DATA / 'reports'
+    reports.mkdir(parents=True, exist_ok=True)
+    (reports / 'nba-api-data-report.json').write_text(json.dumps(report, indent=2), encoding='utf8')
     print(json.dumps(report))
 
 
