@@ -4,9 +4,11 @@ from __future__ import annotations
 import unittest
 from unittest.mock import Mock, patch
 
-from requests.exceptions import ReadTimeout
-
 from nba_api_retry import retry_nba_request
+
+
+class ReadTimeout(Exception):
+    """Stand-in matching requests' public timeout exception class name."""
 
 
 class NbaApiRetryTests(unittest.TestCase):
