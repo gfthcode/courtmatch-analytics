@@ -15,8 +15,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def run(command: list[str]) -> None:
-    completed = subprocess.run(command, cwd=ROOT, text=True)
+def run(command: list[str], env: dict[str, str] | None = None) -> None:
+    completed = subprocess.run(command, cwd=ROOT, env=env, text=True)
     if completed.returncode:
         raise RuntimeError(f"failed ({completed.returncode}): {' '.join(command)}")
 
@@ -38,6 +38,12 @@ def main() -> None:
     # Only a source-provided partialPossessions field is publishable. Never revive the
     # unsupported MATCHUP_MIN × 2.1 estimate.
     run([sys.executable, "scripts/normalize_github_data.py"])
+    # Keep the official-ID crosswalk in lockstep with the just-normalized catalogues;
+    # the final validator then fails closed if any NBA entity is missing or mislinked.
+    mapping_environment = os.environ.copy()
+    mapping_environment["COURTMATCH_ID_DATA_DIR"] = str(published_directory)
+    mapping_environment["COURTMATCH_ID_MAPPINGS_DIR"] = str(published_directory / "mappings")
+    run([sys.executable, "scripts/build_id_maps.py"], env=mapping_environment)
     run([sys.executable, "scripts/import_player_playtypes.py"])
     run([sys.executable, "scripts/import_team_playtypes.py"])
     node_binary=os.environ.get("COURTMATCH_NODE_BINARY") or shutil.which("node")

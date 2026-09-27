@@ -11,6 +11,7 @@ import os
 import shutil
 import subprocess
 import ssl
+import sys
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -74,6 +75,30 @@ def validate_catalogue_stage(stage: Path) -> None:
     if completed.returncode:
         detail = (completed.stderr or completed.stdout).strip()
         raise RuntimeError(f"staged NBA catalogue failed validation: {detail}")
+
+
+def prepare_stage_id_maps(stage: Path) -> None:
+    """Stage the verified player crosswalk and derive canonical team IDs."""
+    source = ROOT / "data" / "mappings"
+    mappings = stage / "mappings"
+    mappings.mkdir(parents=True, exist_ok=True)
+    for name in ("player-id-map.json", "team-id-map.json"):
+        path = source / name
+        if path.is_file():
+            shutil.copy2(path, mappings / name)
+    environment = os.environ.copy()
+    environment["COURTMATCH_ID_DATA_DIR"] = str(stage)
+    environment["COURTMATCH_ID_MAPPINGS_DIR"] = str(mappings)
+    completed = subprocess.run(
+        [sys.executable, "scripts/build_id_maps.py"],
+        cwd=ROOT,
+        env=environment,
+        text=True,
+        capture_output=True,
+    )
+    if completed.returncode:
+        detail = (completed.stderr or completed.stdout).strip()
+        raise RuntimeError(f"staged NBA ID maps failed validation: {detail}")
 
 
 def validate_stage(players: list[dict], teams: list[dict], matchups: list[dict], playtypes: list[dict]) -> None:
@@ -173,11 +198,17 @@ def main() -> None:
         for name, payload in (("players.json", players), ("teams.json", teams), ("matchups.json", matchups), ("player-stats.json", player_stats), ("daily.json", daily), ("playtypes.json", playtypes)):
             write_json(stage / name, payload)
         write_json(stage / "manifest.json", manifest)
+        prepare_stage_id_maps(stage)
         validate_catalogue_stage(stage)
         # Data files first, manifest last: clients observe either the old complete dataset or the new complete dataset.
         PUBLISHED.mkdir(parents=True, exist_ok=True)
-        for name in ("players.json", "teams.json", "matchups.json", "player-stats.json", "daily.json", "playtypes.json", "manifest.json"):
+        for name in ("players.json", "teams.json", "matchups.json", "player-stats.json", "daily.json", "playtypes.json"):
             shutil.move(str(stage / name), str(PUBLISHED / name))
+        published_mappings = PUBLISHED / "mappings"
+        published_mappings.mkdir(parents=True, exist_ok=True)
+        for name in ("player-id-map.json", "team-id-map.json"):
+            shutil.move(str(stage / "mappings" / name), str(published_mappings / name))
+        shutil.move(str(stage / "manifest.json"), str(PUBLISHED / "manifest.json"))
     print(f"Published {len(matchups)} NBA matchup rows and {len(playtypes)} play-type rows")
 
 

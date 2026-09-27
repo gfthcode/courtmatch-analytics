@@ -48,3 +48,25 @@ test('rejects a live catalogue without its required payloads', async () => {
   assert.notEqual(result.status, 0);
   assert.match(result.stderr, /CourtMatch data validation failed/);
 });
+
+test('rejects a published catalogue with an incomplete official team ID map', async () => {
+  const result = await validateFixture(async (directory) => {
+    const path = join(directory, 'mappings', 'team-id-map.json');
+    const map = JSON.parse(await readFile(path, 'utf8'));
+    delete map['1610612745'];
+    await writeFile(path, `${JSON.stringify(map)}\n`);
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /team ID map missing canonical NBA ID 1610612745/);
+});
+
+test('rejects a published catalogue with a player ID mapped to a different NBA player', async () => {
+  const result = await validateFixture(async (directory) => {
+    const path = join(directory, 'mappings', 'player-id-map.json');
+    const map = JSON.parse(await readFile(path, 'utf8'));
+    map['1641708'] = '201142';
+    await writeFile(path, `${JSON.stringify(map)}\n`);
+  });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /player ID map missing canonical NBA ID 1641708/);
+});
