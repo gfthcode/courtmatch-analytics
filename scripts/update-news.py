@@ -8,6 +8,7 @@ import json
 import os
 from pathlib import Path
 import re
+from urllib.parse import urlsplit, urlunsplit
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -19,6 +20,7 @@ OUT = (ROOT / OUTPUT_OVERRIDE) if OUTPUT_OVERRIDE else ((PUBLIC_DIR / "data" / "
 NEWS_API = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50"
 RSS_FEED = "https://www.espn.com/espn/rss/nba/news"
 NS = {"dc": "http://purl.org/dc/elements/1.1/", "media": "http://search.yahoo.com/mrss/"}
+MINIMUM_ARTICLES = 5
 
 
 def clean_html(value: str) -> str:
@@ -77,21 +79,52 @@ def fetch_rss_articles() -> list[dict]:
     return articles
 
 
+def normalize_articles(articles: list[dict]) -> list[dict]:
+    """Deduplicate stories and put valid publication dates in stable newest-first order."""
+    by_url: dict[str, dict] = {}
+    for article in articles:
+        url = article.get("url", "").strip()
+        if not url.startswith("https://"):
+            continue
+        parts = urlsplit(url)
+        key = urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path.rstrip("/"), parts.query, ""))
+        if key in by_url:
+            continue
+        published = article.get("publishedAt", "")
+        try:
+            timestamp = datetime.fromisoformat(published.replace("Z", "+00:00"))
+            if timestamp.tzinfo is None:
+                timestamp = timestamp.replace(tzinfo=timezone.utc)
+            timestamp = timestamp.astimezone(timezone.utc)
+            article["publishedAt"] = timestamp.isoformat()
+            article["_published_sort"] = timestamp.timestamp()
+        except (AttributeError, TypeError, ValueError, OverflowError):
+            article["publishedAt"] = ""
+            article["_published_sort"] = float("-inf")
+        by_url[key] = article
+    normalized = sorted(by_url.values(), key=lambda item: item["_published_sort"], reverse=True)
+    for article in normalized:
+        article.pop("_published_sort", None)
+    return normalized
+
+
 def main() -> None:
     source = "ESPN NBA News API"
     try:
-        articles = fetch_api_articles()
+        articles = normalize_articles(fetch_api_articles())
+        if len(articles) < MINIMUM_ARTICLES:
+            raise RuntimeError(f"only {len(articles)} usable stories (minimum {MINIMUM_ARTICLES})")
     except Exception as error:
         print(f"ESPN news API unavailable ({error}); trying official RSS fallback")
         articles = []
     if not articles:
         source = "ESPN NBA RSS"
         try:
-            articles = fetch_rss_articles()
+            articles = normalize_articles(fetch_rss_articles())
         except Exception as error:
             raise RuntimeError(f"ESPN API and RSS returned no usable stories; keeping previous snapshot ({error})") from error
-    if not articles:
-        raise RuntimeError("ESPN returned no valid news stories; keeping previous snapshot")
+    if len(articles) < MINIMUM_ARTICLES:
+        raise RuntimeError(f"ESPN returned only {len(articles)} usable news stories; keeping previous snapshot (minimum {MINIMUM_ARTICLES})")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"source": source, "feedUrl": NEWS_API if source.endswith("API") else RSS_FEED, "updatedAt": datetime.now(timezone.utc).isoformat(), "articles": articles}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(articles)} articles to {OUT}")
