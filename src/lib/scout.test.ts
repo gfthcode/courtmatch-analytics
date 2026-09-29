@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { DEMO_DATA } from './data';
-import { answerScoutQuestion } from './scout';
+import { answerScoutQuestion, type ScoutNewsFeed } from './scout';
 import type { MatchupRecord, Player, TeamStats } from './types';
 
 const curry: Player = { id: 'curry', name: 'Stephen Curry', chineseName: '斯蒂芬·库里', aliases: ['Curry'], shortName: 'Curry', teamId: 'gsw', teamName: 'Golden State Warriors', teamAbbreviation: 'GSW', position: 'G', height: '6-2', weight: 185, jerseyNumber: '30', headshotUrl: '', league: 'NBA' };
@@ -28,6 +28,15 @@ const data = {
   manifest: { ...DEMO_DATA.manifest, status: 'live' as const },
 };
 
+const news: ScoutNewsFeed = {
+  source: 'ESPN NBA News API',
+  updatedAt: '2026-09-29T01:00:47Z',
+  articles: [
+    { id: 'curry-news', title: 'Stephen Curry leads Warriors to a win', summary: 'Curry made seven threes.', url: 'https://www.espn.com/nba/story/curry', publishedAt: '2026-09-29T00:00:00Z', author: 'ESPN', categories: ['Golden State Warriors'] },
+    { id: 'trade-news', title: 'League trade talks continue', summary: 'Several teams are exploring a trade.', url: 'https://www.espn.com/nba/story/trade', publishedAt: '2026-09-28T00:00:00Z', categories: ['NBA'] },
+  ],
+};
+
 describe('CourtMatch Scout answers', () => {
   it('compares both directions and links to a prefilled comparison page', () => {
     const result = answerScoutQuestion(data, '比较 Stephen Curry 和 LeBron James 至少 25 回合', false);
@@ -47,7 +56,7 @@ describe('CourtMatch Scout answers', () => {
 
   it('explains the supported scope rather than inventing unsupported answers', () => {
     const result = answerScoutQuestion(data, '今晚谁会赢？', false);
-    expect(result.body).toContain('不支持伤病判断、实时新闻、比赛预测');
+    expect(result.body).toContain('不支持伤病判断、比赛预测');
   });
 
   it('compares available team ratings and links to the team comparison page', () => {
@@ -70,5 +79,23 @@ describe('CourtMatch Scout answers', () => {
     const result = answerScoutQuestion({ ...data, teamStats: [] }, '查询 Boston Celtics 球队数据', false);
     expect(result.body).toContain('没有该赛季球队统计记录');
     expect(result.body).not.toContain('进攻效率 120.0');
+  });
+
+  it('searches the published news feed by player and returns original source links', () => {
+    const result = answerScoutQuestion(data, '库里最近新闻', false, news);
+    expect(result.title).toContain('Curry');
+    expect(result.body).toContain('Stephen Curry leads Warriors');
+    expect(result.body).not.toContain('League trade talks');
+    expect(result.sources).toEqual([{ label: 'Stephen Curry leads Warriors to a win', href: 'https://www.espn.com/nba/story/curry' }]);
+    expect(result.action?.href).toBe('/news');
+  });
+
+  it('searches general news topics and reports when the feed is missing', () => {
+    const topic = answerScoutQuestion(data, '交易新闻', true, news);
+    const unavailable = answerScoutQuestion(data, 'NBA 最新新闻', false);
+    expect(topic.sources).toHaveLength(1);
+    expect(topic.sources?.[0].label).toContain('trade talks');
+    expect(topic.body).toContain('Feed updated');
+    expect(unavailable.title).toContain('暂不可用');
   });
 });

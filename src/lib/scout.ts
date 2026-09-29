@@ -13,7 +13,10 @@ import {
 import type { Dataset, Player, SeasonType, Team } from './types';
 
 export type ScoutAction = { label: string; href: string };
-export type ScoutResult = { title: string; body: string; action?: ScoutAction };
+export type ScoutSource = { label: string; href: string };
+export type ScoutResult = { title: string; body: string; action?: ScoutAction; sources?: ScoutSource[] };
+export type ScoutNewsArticle = { id: string; title: string; summary?: string; url: string; publishedAt: string; author?: string; categories?: string[] };
+export type ScoutNewsFeed = { source?: string; updatedAt?: string; articles: ScoutNewsArticle[] };
 
 const normalize = (value: string) => value.toLocaleLowerCase().normalize('NFKD').replace(/[\s·.'’-]/g, '');
 const zh = (text: string, en: string, english: boolean) => english ? en : text;
@@ -227,7 +230,59 @@ function teamSummary(data: Dataset, teams: Team[], query: string, english: boole
   };
 }
 
-export function answerScoutQuestion(data: Dataset, query: string, english: boolean): ScoutResult {
+const NEWS_INTENT = /新闻|消息|报道|场外|赛场外|最新动态|news|headlines?|stories|articles?|off.?court/i;
+const NEWS_FILLER = /新闻|消息|报道|场外|赛场外|最新动态|最近|最新|今日|今天|球员|nba|news|headlines?|stories|articles?|off.?court|please|show|find|about|what|are|the|latest|for/gi;
+
+function newsSearch(data: Dataset, query: string, english: boolean, feed?: ScoutNewsFeed): ScoutResult {
+  if (!feed?.articles?.length) return {
+    title: zh('NBA 新闻暂不可用', 'NBA news is unavailable', english),
+    body: zh('新闻目录目前没有可用内容。请稍后重试，或打开新闻页查看来源状态。', 'The published news catalogue is unavailable right now. Try again later or open the news desk to check the source status.', english),
+    action: { label: zh('打开新闻', 'Open NBA news', english), href: '/news' },
+  };
+  const queryTerms = normalize(query.replace(NEWS_FILLER, ''));
+  const terms = queryTerms.match(/[a-z0-9]{3,}|[\u4e00-\u9fff]{2,}/g) ?? [];
+  const resolvedPlayers = resolvePlayers(data, query);
+  const partialPlayers = terms.length ? data.players.filter((player) => {
+    const names = [player.name, player.shortName, player.chineseName, ...player.aliases].filter(Boolean).map(normalize);
+    return terms.some((term) => term.length >= 2 && names.some((name) => name.includes(term)));
+  }) : [];
+  const players = resolvedPlayers.length ? resolvedPlayers : partialPlayers;
+  const playerNames = players.flatMap((player) => [player.name, player.shortName, player.chineseName, ...player.aliases].filter(Boolean).map(normalize));
+  const playerTerms = [...playerNames, ...terms.filter((term) => playerNames.some((name) => name.includes(term)))];
+  const topicAliases: Record<string, string[]> = {
+    '交易': ['trade'], '伤病': ['injur'], '受伤': ['injur'], '续约': ['contract', 'extension'], '签约': ['sign', 'contract'],
+    '季后赛': ['playoff'], '湖人': ['lakers'], '勇士': ['warriors'], '凯尔特人': ['celtics'], '火箭': ['rockets'], '骑士': ['cavaliers', 'cavs'],
+  };
+  const searchTerms = [...new Set(terms.flatMap((term) => [term, ...(topicAliases[term] ?? [])]))];
+  const filtered = feed.articles.filter((article) => {
+    const haystack = normalize([article.title, article.summary ?? '', article.author ?? '', ...(article.categories ?? [])].join(' '));
+    if (playerTerms.length && !playerTerms.some((term) => term.length > 1 && haystack.includes(term))) return false;
+    if (!playerTerms.length && searchTerms.length && !searchTerms.some((term) => haystack.includes(normalize(term)))) return false;
+    return /^https:\/\//i.test(article.url) && Boolean(article.title);
+  }).sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)).slice(0, 5);
+  const date = feed.updatedAt && Number.isFinite(Date.parse(feed.updatedAt))
+    ? new Intl.DateTimeFormat(english ? 'en-US' : 'zh-CN', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'UTC' }).format(new Date(feed.updatedAt)) + ' UTC'
+    : zh('未知', 'unknown', english);
+  const stale = !feed.updatedAt || !Number.isFinite(Date.parse(feed.updatedAt)) || Date.now() - Date.parse(feed.updatedAt) > 36 * 60 * 60 * 1000;
+  const body = filtered.length
+    ? filtered.map((article, index) => {
+      const published = Number.isFinite(Date.parse(article.publishedAt))
+        ? new Intl.DateTimeFormat(english ? 'en-US' : 'zh-CN', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(article.publishedAt))
+        : zh('日期未知', 'date unavailable', english);
+      const summary = (article.summary ?? '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 220);
+      return `${index + 1}. ${article.title}\n${published}${article.author ? ` · ${article.author}` : ''}${summary ? `\n${summary}${article.summary && article.summary.length > 220 ? '…' : ''}` : ''}`;
+    }).join('\n\n')
+    : zh('在当前已发布的新闻目录中，没有找到与该球员或主题匹配的报道。可以试试球员英文名、球队名或更宽泛的关键词。', 'No stories in the published feed matched that player or topic. Try the player’s English name, team name or a broader keyword.', english);
+  return {
+    title: players.length ? zh(`${players[0].shortName} · NBA 新闻`, `${players[0].shortName} · NBA news`, english) : zh('NBA 新闻检索', 'NBA news search', english),
+    body: `${body}\n\n${zh(`来源：${feed.source ?? '已发布 ESPN NBA 新闻目录'} · 新闻源更新时间：${date}${stale ? ' · 数据可能已过期' : ''}。新闻目录按发布流程更新，非逐条实时推送。`, `Source: ${feed.source ?? 'published ESPN NBA news catalogue'} · Feed updated: ${date}${stale ? ' · data may be stale' : ''}. The catalogue is refreshed through the publishing pipeline, not streamed live.`, english)}`,
+    action: { label: zh('打开新闻中心', 'Open NBA news desk', english), href: '/news' },
+    sources: filtered.map((article) => ({ label: article.title, href: article.url })),
+  };
+}
+
+export function answerScoutQuestion(data: Dataset, query: string, english: boolean, news?: ScoutNewsFeed): ScoutResult {
+  if (NEWS_INTENT.test(query)) return newsSearch(data, query, english, news);
   const teams = resolveTeams(data, query);
   const players = resolvePlayers(data, query);
   const isComparison = /对比|比较|vs\.?|versus|compare|head.?to.?head|交手/i.test(query);
@@ -246,6 +301,6 @@ export function answerScoutQuestion(data: Dataset, query: string, english: boole
   };
   return {
     title: zh('我可以帮你查 NBA 对位数据', 'Ask about NBA matchup data', english),
-    body: zh('目前支持：球员赛季数据、球员直接对位与强弱对位、攻防排行榜、球员打法，以及球队效率、节奏、打法和双队对比。可使用球队全名、常见昵称、中文名或缩写。数据来自当前 CourtMatch 数据集；不支持伤病判断、实时新闻、比赛预测或投注建议。', 'I can look up player season stats and matchups, offensive/defensive rankings, player play types, and team ratings, pace, play types, and comparisons. Team full names, common nicknames, Chinese names and abbreviations are supported. Answers use the published CourtMatch dataset; injuries, breaking news, game predictions and betting advice are not supported.', english),
+    body: zh('目前支持：球员赛季数据、球员直接对位与强弱对位、攻防排行榜、球员打法、球队效率与双队对比，以及按球员或主题检索已发布的 NBA 新闻并打开原文。可使用球队全名、常见昵称、中文名或缩写。新闻目录按发布流程更新，不是逐条实时推送；不支持伤病判断、比赛预测或投注建议。', 'I can look up player season stats and matchups, offensive/defensive rankings, play types, team ratings and comparisons, and search the published NBA news feed by player or topic with links to original stories. Team full names, common nicknames, Chinese names and abbreviations are supported. The news catalogue is refreshed through the publishing pipeline, not streamed live; injury assessments, game predictions and betting advice are not supported.', english),
   };
 }
