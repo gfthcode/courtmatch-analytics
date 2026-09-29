@@ -38,9 +38,11 @@ export function ScoutAssistant() {
 
   const curry = data.players.find((player) => /curry/i.test(player.name));
   const lebron = data.players.find((player) => /lebron/i.test(player.name));
+  const celtics = data.teams.find((team) => team.abbreviation === 'BOS');
+  const lakers = data.teams.find((team) => team.abbreviation === 'LAL');
   const examples = english
-    ? ['Top 5 defensive restrictions', curry ? `Who limits ${curry.shortName} best?` : 'Who limits this scorer best?', curry && lebron ? `Compare ${curry.shortName} vs ${lebron.shortName}` : 'Compare two players head to head']
-    : ['防守限制榜前 5', curry ? `谁最能限制${curry.chineseName || curry.shortName}？` : '谁最能限制这名得分手？', curry && lebron ? `比较${curry.chineseName || curry.shortName}和${lebron.chineseName || lebron.shortName}` : '比较两名球员的直接对位'];
+    ? ['Top 5 defensive restrictions', curry ? `Who limits ${curry.shortName} best?` : 'Who limits this scorer best?', curry && lebron ? `Compare ${curry.shortName} vs ${lebron.shortName}` : 'Compare two players head to head', celtics && lakers ? `Compare ${celtics.abbreviation} and ${lakers.abbreviation} team ratings` : 'Compare two teams']
+    : ['防守限制榜前 5', curry ? `谁最能限制${curry.chineseName || curry.shortName}？` : '谁最能限制这名得分手？', curry && lebron ? `比较${curry.chineseName || curry.shortName}和${lebron.chineseName || lebron.shortName}` : '比较两名球员的直接对位', celtics && lakers ? `比较 ${celtics.abbreviation} 和 ${lakers.abbreviation} 球队效率` : '比较两支球队效率'];
 
   return <Dialog.Root open={open} onOpenChange={setOpen}>
     <Dialog.Trigger asChild><button className="scout-launcher" type="button" aria-label={english ? 'Open CourtMatch Scout' : '打开 CourtMatch Scout'}>

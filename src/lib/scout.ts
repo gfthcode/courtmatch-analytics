@@ -7,8 +7,10 @@ import {
   getRankings,
   getSampleQuality,
   searchPlayers,
+  getTeamPlayTypes,
+  getTeamStats,
 } from './api';
-import type { Dataset, Player, SeasonType } from './types';
+import type { Dataset, Player, SeasonType, Team } from './types';
 
 export type ScoutAction = { label: string; href: string };
 export type ScoutResult = { title: string; body: string; action?: ScoutAction };
@@ -25,6 +27,16 @@ function resolvePlayers(data: Dataset, query: string): Player[] {
   const found = new Map<string, Player>();
   for (const { player, name } of variants) {
     if (name.length > 1 && normalized.includes(name)) found.set(player.id, player);
+  }
+  return [...found.values()];
+}
+
+function resolveTeams(data: Dataset, query: string): Team[] {
+  const normalized = normalize(query);
+  const found = new Map<string, Team>();
+  for (const team of data.teams) {
+    const names = [team.name, team.chineseName, team.abbreviation, team.id].map(normalize).sort((a, b) => b.length - a.length);
+    if (names.some((name) => name.length > 1 && normalized.includes(name))) found.set(team.id, team);
   }
   return [...found.values()];
 }
@@ -144,10 +156,51 @@ function playerSummary(data: Dataset, player: Player, query: string, english: bo
   };
 }
 
+function teamSummary(data: Dataset, teams: Team[], query: string, english: boolean): ScoutResult {
+  const { season, type } = period(query, data);
+  const rows = teams.map((team) => ({ team, stats: getTeamStats(data, team.id, { season, type })[0] }));
+  const playtypeRequested = /打法|play.?type|synergy/i.test(query);
+  const fields = (stats: NonNullable<typeof rows[number]['stats']>) => {
+    const values = [
+      zh(`进攻效率 ${safeRate(stats.offensiveRating)}`, `Offensive rating ${safeRate(stats.offensiveRating)}`, english),
+      zh(`防守效率 ${safeRate(stats.defensiveRating)}`, `Defensive rating ${safeRate(stats.defensiveRating)}`, english),
+      zh(`节奏 ${safeRate(stats.pace)}`, `Pace ${safeRate(stats.pace)}`, english),
+    ];
+    if (stats.offensiveRating != null && stats.defensiveRating != null) {
+      values.push(zh(`净效率 ${safeRate(stats.offensiveRating - stats.defensiveRating)}`, `Net rating ${safeRate(stats.offensiveRating - stats.defensiveRating)}`, english));
+    }
+    if (stats.gamesPlayed != null) values.push(zh(`${stats.gamesPlayed} 场`, `${stats.gamesPlayed} games`, english));
+    return values.join(' · ');
+  };
+  const notes = rows.map(({ team, stats }) => {
+    if (!stats) return `${team.chineseName} (${team.abbreviation}): ${zh('当前数据集没有该赛季球队统计记录。', 'No team stats for this season in the current dataset.', english)}`;
+    const playTypes = playtypeRequested
+      ? getTeamPlayTypes(data, team.id, { season, type }).filter((row) => row.grouping === (/防守|defen/i.test(query) ? 'defensive' : 'offensive')).sort((a, b) => b.possessions - a.possessions).slice(0, 3)
+      : [];
+    const playSummary = playtypeRequested && !playTypes.length
+      ? zh('球队打法快照当前没有可用记录。', 'No team play-type snapshot is available.', english)
+      : playTypes.map((row) => `${row.playType} (${safeRate(row.possessions)} ${zh('回合', 'poss.', english)}, ${safeRate(row.pointsPerPossession, 2)} ${zh('分/回合', 'pts/poss.', english)})`).join(' · ');
+    return `${team.chineseName} (${team.abbreviation}): ${fields(stats)}${playtypeRequested ? `\n${zh('主要打法', 'Leading play types', english)}: ${playSummary}` : ''}`;
+  });
+  const isComparison = rows.length > 1;
+  return {
+    title: isComparison
+      ? zh(`${rows[0].team.chineseName} × ${rows[1].team.chineseName} 球队对比`, `${rows[0].team.name} × ${rows[1].team.name} team comparison`, english)
+      : zh(`${rows[0].team.chineseName} · 球队分析`, `${rows[0].team.name} · team analysis`, english),
+    body: `${season} ${type === 'playoffs' ? zh('季后赛', 'playoffs', english) : zh('常规赛', 'regular season', english)}\n${notes.join('\n')}\n\n${zh('效率与节奏来自已发布球队快照；不代表实时排名或因果解释。', 'Ratings and pace come from the published team snapshot; they are not live rankings or causal estimates.', english)}${freshness(data, english)}`,
+    action: isComparison
+      ? { label: zh('打开球队对比', 'Open team comparison', english), href: `/team/compare?left=${encoded(rows[0].team.id)}&right=${encoded(rows[1].team.id)}&season=${encoded(season)}&type=${type}` }
+      : { label: zh('打开球队分析', 'Open team analysis', english), href: `/team/pk?team=${encoded(rows[0].team.id)}&season=${encoded(season)}&type=${type}` },
+  };
+}
+
 export function answerScoutQuestion(data: Dataset, query: string, english: boolean): ScoutResult {
+  const teams = resolveTeams(data, query);
   const players = resolvePlayers(data, query);
-  const isComparison = players.length > 1 && /对比|比较|vs\.?|versus|compare|head.?to.?head|交手/i.test(query);
-  if (isComparison) return comparison(data, players.slice(0, 2), query, english);
+  const isComparison = /对比|比较|vs\.?|versus|compare|head.?to.?head|交手/i.test(query);
+  if (teams.length && (isComparison || /球队|team|pace|节奏|阵容|打法/i.test(query))) return teamSummary(data, teams.slice(0, 2), query, english);
+  const isPlayerComparison = players.length > 1 && isComparison;
+  if (isPlayerComparison) return comparison(data, players.slice(0, 2), query, english);
   if (players[0] && /打法|play.?type|isolation|transition|挡拆|单打|定点/i.test(query)) return playTypes(data, players[0], query, english);
   if (players[0] && /谁|对位|限制|最强|最弱|最差|最难|matchup|limit|restrict|opponent/i.test(query)) return matchupLeaders(data, players[0], query, english);
   if (/排行|榜|排名|top\s*\d|leaders?|rankings?|效率最高/i.test(query)) return rankings(data, query, english);
