@@ -34,6 +34,7 @@ const news: ScoutNewsFeed = {
   articles: [
     { id: 'curry-news', title: 'Stephen Curry leads Warriors to a win', summary: 'Curry made seven threes.', url: 'https://www.espn.com/nba/story/curry', publishedAt: '2026-09-29T00:00:00Z', author: 'ESPN', categories: ['Golden State Warriors'] },
     { id: 'trade-news', title: 'League trade talks continue', summary: 'Several teams are exploring a trade.', url: 'https://www.espn.com/nba/story/trade', publishedAt: '2026-09-28T00:00:00Z', categories: ['NBA'] },
+    { id: 'celtics-news', title: 'Boston Celtics prepare for the new season', summary: 'The Celtics discussed their lineup.', url: 'https://www.espn.com/nba/story/celtics', publishedAt: '2026-09-27T00:00:00Z', categories: ['Boston Celtics'] },
   ],
 };
 
@@ -97,5 +98,11 @@ describe('CourtMatch Scout answers', () => {
     expect(topic.sources?.[0].label).toContain('trade talks');
     expect(topic.body).toContain('Feed updated');
     expect(unavailable.title).toContain('暂不可用');
+  });
+
+  it('filters news by NBA team names and Chinese nicknames', () => {
+    const result = answerScoutQuestion(data, '凯尔特人新闻', false, news);
+    expect(result.title).toContain('凯尔特人');
+    expect(result.sources).toEqual([{ label: 'Boston Celtics prepare for the new season', href: 'https://www.espn.com/nba/story/celtics' }]);
   });
 });
