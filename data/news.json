@@ -1,14 +1,156 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-09-28T21:14:04.702286+00:00",
+  "updatedAt": "2026-09-29T01:00:47.384575+00:00",
   "articles": [
     {
+      "id": "50055730",
+      "title": "Bronny on LeBron James' Lakers exit: 'He's got his own path'",
+      "summary": "Bronny James said he hasn't spoken much to his father, LeBron, about the decision to leave the Lakers this summer but did say he's excited to face him on Christmas.",
+      "url": "https://www.espn.com/nba/story/_/id/50055730/got-own-path",
+      "publishedAt": "2026-09-29T00:59:09Z",
+      "image": "https://a.espncdn.com/photo/2026/0331/r1636501_2_600x400_3-2.jpg",
+      "author": "Brian Windhorst",
+      "categories": [
+        "news",
+        "Los Angeles Lakers",
+        "NBA",
+        "Bronny James",
+        "LeBron James",
+        "Brian Windhorst"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA regular-season buzz: Latest on trades, news and intel",
+      "summary": "Here are the deals, trades and buzz across the NBA, including intel from Monday's media days.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-regular-season-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-09-29T00:48:39Z",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723110_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50055438",
+      "title": "Tatum 'comfortable' leading new-look Celtics post-Brown trade",
+      "summary": "Jayson Tatum says he's thankful for his time with Jaylen Brown and the success they shared but feels comfortable leading the new-look Celtics this season.",
+      "url": "https://www.espn.com/nba/story/_/id/50055438/tatum-comfortable-leading-new-look-celtics-post-brown-trade",
+      "publishedAt": "2026-09-29T00:01:15Z",
+      "image": "https://a.espncdn.com/photo/2026/0427/r1649803_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Boston Celtics",
+        "Jayson Tatum",
+        "Jaylen Brown",
+        "news"
+      ]
+    },
+    {
+      "id": "50055235",
+      "title": "Zion Williamson, on cusp of 8th season, not where he wants to be",
+      "summary": "Zion Williamson smiled politely, but kept his answer brief when asked how he would summarize his first seven years as an NBA player, saying \"I'm not where I need to be.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50055235/zion-williamson-cusp-8th-season-not-where-wants-be",
+      "publishedAt": "2026-09-28T23:53:39Z",
+      "image": "https://a.espncdn.com/photo/2026/0523/r1662474_1296x729_16-9.jpg",
+      "author": "Associated Press",
+      "categories": [
+        "NBA",
+        "New Orleans Pelicans",
+        "Zion Williamson",
+        "news"
+      ]
+    },
+    {
+      "id": "50055229",
+      "title": "Wizards' Anthony Davis to wait until summer for extension talks",
+      "summary": "Anthony Davis plans on finishing the season with the Washington Wizards before deciding on any potential contract extension, he said Monday.",
+      "url": "https://www.espn.com/nba/story/_/id/50055229/wizards-anthony-davis-wait-summer-extension-talks",
+      "publishedAt": "2026-09-28T22:59:53Z",
+      "image": "https://a.espncdn.com/photo/2026/0715/r1689648_600x400_3-2.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "news",
+        "NBA",
+        "Washington Wizards",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50055051",
+      "title": "Anthony Edwards happy to cede PG duties to LaMelo Ball",
+      "summary": "Anthony Edwards says he's happy with the moves Minnesota made over the summer and is excited to continue to develop chemistry with LaMelo Ball.",
+      "url": "https://www.espn.com/nba/story/_/id/50055051/anthony-edwards-happy-cede-pg-duties-lamelo-ball",
+      "publishedAt": "2026-09-28T22:49:42Z",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723199_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "news",
+        "NBA",
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "Anthony Edwards",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50054741",
+      "title": "Victor Wembanyama remembers NBA Finals loss but 'very hopeful' for season",
+      "summary": "Spurs star Victor Wembanyama said on Monday that he still hasn't recovered from the NBA Finals loss to the Knicks. But he also said the team is in a \"great spot\" heading into this season and \"very hopeful.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50054741/victor-wembanyama-remembers-nba-finals-loss-very-hopeful-season",
+      "publishedAt": "2026-09-28T21:29:27Z",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723179_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "news",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50054727",
+      "title": "76ers say 'sacrifice' key to success after offseason additions",
+      "summary": "The 76ers say they are comfortable with making sacrifices for the benefit of the team after adding LeBron James and Jaylen Brown in the offseason.",
+      "url": "https://www.espn.com/nba/story/_/id/50054727/76ers-say-sacrifice-key-success-offseason-additions",
+      "publishedAt": "2026-09-28T23:32:11Z",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723110_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50054712",
+      "title": "Sources: Hornets waiving recently acquired Rob Dillingham",
+      "summary": "The Charlotte Hornets are waiving guard Rob Dillingham one day after acquiring the former No. 8 pick, sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50054712/sources-hornets-waiving-recently-acquired-rob-dillingham",
+      "publishedAt": "2026-09-28T21:25:52Z",
+      "image": "https://a.espncdn.com/photo/2026/0926/r1722186_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Charlotte Hornets",
+        "Rob Dillingham"
+      ]
+    },
+    {
       "id": "50023689",
-      "title": "New look 76ers top NBA media day 2026 highlights",
+      "title": "New-look 76ers top NBA media day 2026 highlights",
       "summary": "The 2026-27 NBA season is approaching with media days ending Monday. Here are the top scenes from around the league.",
       "url": "https://www.espn.com/nba/story/_/id/50023689/nba-2026-media-day-sights-sounds-highlights",
-      "publishedAt": "2026-09-28T21:06:00Z",
+      "publishedAt": "2026-09-28T22:39:05Z",
       "image": "https://a.espncdn.com/photo/2026/0928/r1723167_608x342_16-9.jpg",
       "author": "ESPN",
       "categories": [
@@ -40,22 +182,6 @@
         "Toronto Raptors",
         "Utah Jazz",
         "Washington Wizards"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA regular-season buzz: Latest on trades, news and intel",
-      "summary": "Here are the deals, trades and buzz across the NBA, including intel from Monday's media days.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-regular-season-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-09-28T21:04:49Z",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723110_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -109,7 +235,7 @@
       "title": "Lillard: Blazers' crowded backcourt 'will work itself out'",
       "summary": "Damian Lillard said he's not worried about balancing a backcourt that includes himself, Ja Morant, Jrue Holiday and Scoot Henderson, saying it \"will work itself out.\"",
       "url": "https://www.espn.com/nba/story/_/id/50054292/lillard-blazers-crowded-backcourt-work-out",
-      "publishedAt": "2026-09-28T21:07:30Z",
+      "publishedAt": "2026-09-28T21:25:06Z",
       "image": "https://a.espncdn.com/photo/2020/0814/r731425_600x400_3-2.jpg",
       "author": "Ramona Shelburne",
       "categories": [
@@ -154,10 +280,10 @@
     },
     {
       "id": "50054063",
-      "title": "Jokic leaves no doubt on future: 'I'm going to sign next year'",
+      "title": "Jokic leaves no doubt on Nuggets future, says he will re-sign",
       "summary": "Nikola Jokic left little doubt that he plans to be back in Denver at least next season after saying he plans to sign his extension when it's offered next summer.",
       "url": "https://www.espn.com/nba/story/_/id/50054063/jokic-leaves-no-doubt-future-gonna-sign-next-year",
-      "publishedAt": "2026-09-28T20:31:25Z",
+      "publishedAt": "2026-09-28T22:29:48Z",
       "image": "https://a.espncdn.com/photo/2026/0310/r1626066_600x400_3-2.jpg",
       "author": "",
       "categories": [
@@ -295,7 +421,7 @@
       "title": "LeBron James says he envisioned joining Knicks as free agent",
       "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer but nixed the idea after New York won the NBA title.",
       "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
-      "publishedAt": "2026-09-28T17:53:13Z",
+      "publishedAt": "2026-09-28T21:28:25Z",
       "image": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
       "author": "Dave McMenamin",
       "categories": [
@@ -797,142 +923,6 @@
         "espnw sport",
         "espnw - sports",
         "200305 COLUMNIST PROFILE Leonard Solms"
-      ]
-    },
-    {
-      "id": "50023962",
-      "title": "Pelinka touts post-LeBron overhaul as Lakers reset around Luka",
-      "summary": "Lakers GM Rob Pelinka expressed excitement over the team's offseason overhaul as it transitions out of the LeBron James era, including retaining Austin Reaves and acquiring center Walker Kessler.",
-      "url": "https://www.espn.com/nba/story/_/id/50023962/pelinka-touts-post-lebron-overhaul-lakers-reset-luka",
-      "publishedAt": "2026-09-25T00:35:00Z",
-      "image": "https://a.espncdn.com/photo/2026/0820/r1704457_600x400_3-2.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "LeBron James",
-        "Austin Reaves",
-        "Walker Kessler",
-        "news",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50023928",
-      "title": "Pelinka: Lakers grateful for run with LeBron, exit 'done amicably'",
-      "summary": "Rob Pelinka said Thursday that the Lakers remain thankful for their time with LeBron James.",
-      "url": "https://www.espn.com/nba/story/_/id/50023928/pelinka-lakers-grateful-run-lebron-exit-done-amicably",
-      "publishedAt": "2026-09-25T02:09:32Z",
-      "image": "https://a.espncdn.com/photo/2026/0724/r1693321_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "28074905",
-      "title": "Goose at Dodger Stadium during Padres-Dodgers recalls past wildlife interruptions",
-      "summary": "A goose slid on Dodger Stadium's field during Padres-Dodgers. It's not the first time a creature stole the show at a sporting event.",
-      "url": "https://www.espn.com/nfl/story/_/id/28074905/squirrels-cats-dogs-bees-animals-ran-loose-stadiums",
-      "publishedAt": "2026-09-24T23:00:17Z",
-      "image": "https://a.espncdn.com/photo/2026/0924/r1721485_608x342_16-9.png",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "NFL",
-        "MLB",
-        "espnw - sports",
-        "espnw",
-        "New York Yankees",
-        "Los Angeles Angels",
-        "Arizona Diamondbacks",
-        "Philadelphia Phillies",
-        "daily",
-        "MLS",
-        "Tennis"
-      ]
-    },
-    {
-      "id": "50023520",
-      "title": "How the Lakers are preparing for life after LeBron James",
-      "summary": "How the Lakers are preparing for life after LeBron James",
-      "url": "https://www.espn.com/video/clip/_/id/50023520/how-lakers-preparing-life-lebron-james",
-      "publishedAt": "2026-09-25T02:14:00Z",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0924/ss_20260924_183306184_36729371123/ss_20260924_183306184_36729371123.jpg",
-      "author": "",
-      "categories": [
-        "Los Angeles Lakers",
-        "2 Star Rating",
-        "NBA",
-        "LeBron James",
-        "Philadelphia 76ers",
-        "League Boost"
-      ]
-    },
-    {
-      "id": "50023100",
-      "title": "Bob Pettit, who starred at LSU and then in NBA, dies at 93",
-      "summary": "Bob Pettit, who was named an All-Star in each of his 11 NBA seasons and was one of the greatest scorers and rebounders in league history, died, the Naismith Basketball Hall of Fame said Thursday.",
-      "url": "https://www.espn.com/nba/story/_/id/50023100/bob-pettit-starred-lsu-nba-dies-93",
-      "publishedAt": "2026-09-25T01:04:28Z",
-      "image": "https://a.espncdn.com/photo/2016/0127/r48595_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news",
-        "LSU Tigers",
-        "Louisiana State University",
-        "Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50022711",
-      "title": "Sam Presti is optimistic about the future of OKC's young core",
-      "summary": "Sam Presti is optimistic about the future of OKC's young core",
-      "url": "https://www.espn.com/video/clip/_/id/50022711/sam-presti-optimistic-future-okc-young-core",
-      "publishedAt": "2026-09-24T20:49:30Z",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0924/ss_20260924_163503347_3672822/ss_20260924_163503347_3672822.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Oklahoma City Thunder",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50022277",
-      "title": "Terry Rozier's mother asks judge to allow him NBA return",
-      "summary": "Terry Rozier's mother asked a federal judge to allow her son to return to basketball while the NBA veteran fights charges in a gambling case scheduled for trial in February, according to a letter filed with the court.",
-      "url": "https://www.espn.com/nba/story/_/id/50022277/terry-rozier-mother-gina-tucker-asks-judge-nba-gambling-case",
-      "publishedAt": "2026-09-24T19:58:33Z",
-      "image": "https://a.espncdn.com/photo/2025/1208/r1586827_1296x729_16-9.jpg",
-      "author": "David Purdum",
-      "categories": [
-        "NBA",
-        "news – sports betting",
-        "David Purdum"
-      ]
-    },
-    {
-      "id": "50022493",
-      "title": "Perk voices displeasure about Brunson being outside top 5 of ESPN NBA Rank",
-      "summary": "Perk voices displeasure about Brunson being outside top 5 of ESPN NBA Rank",
-      "url": "https://www.espn.com/video/clip/_/id/50022493/perk-voices-displeasure-brunson-being-top-5-espn-nba-rank",
-      "publishedAt": "2026-09-24T20:00:37Z",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0924/ss_20260924_155428438_3672783/ss_20260924_155428438_3672783.jpg",
-      "author": "",
-      "categories": [
-        "New York Knicks",
-        "Jalen Brunson",
-        "NBA",
-        "Kendrick Perkins",
-        "NBA Today",
-        "Verts - Exclude Content"
       ]
     }
   ]
