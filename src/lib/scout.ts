@@ -11,6 +11,7 @@ import {
   getTeamStats,
 } from './api';
 import type { Dataset, Player, SeasonType, Team } from './types';
+import { DEMO_DATA } from './data';
 
 export type ScoutAction = { label: string; href: string };
 export type ScoutSource = { label: string; href: string };
@@ -21,6 +22,11 @@ export type ScoutNewsFeed = { source?: string; updatedAt?: string; articles: Sco
 const normalize = (value: string) => value.toLocaleLowerCase().normalize('NFKD').replace(/[\s·.'’-]/g, '');
 const zh = (text: string, en: string, english: boolean) => english ? en : text;
 const encoded = (value: string) => encodeURIComponent(value);
+
+function playerNames(player: Player): string[] {
+  const aliases = DEMO_DATA.players.find((candidate) => normalize(candidate.name) === normalize(player.name));
+  return [player.name, player.shortName, player.chineseName, ...player.aliases, aliases?.chineseName, ...(aliases?.aliases ?? [])].filter((name): name is string => Boolean(name));
+}
 
 const teamAliases: Record<string, string[]> = {
   ATL: ['Atlanta Hawks', 'Hawks', '亚特兰大老鹰', '老鹰'],
@@ -57,8 +63,8 @@ const teamAliases: Record<string, string[]> = {
 
 function resolvePlayers(data: Dataset, query: string): Player[] {
   const normalized = normalize(query);
-  const variants = data.players.flatMap((player) => [player.name, player.shortName, player.chineseName, ...player.aliases]
-    .filter(Boolean).map((name) => ({ player, name: normalize(name) })))
+  const variants = data.players.flatMap((player) => playerNames(player)
+    .map((name) => ({ player, name: normalize(name) })))
     .sort((a, b) => b.name.length - a.name.length);
   const found = new Map<string, Player>();
   for (const { player, name } of variants) {
@@ -243,12 +249,12 @@ function newsSearch(data: Dataset, query: string, english: boolean, feed?: Scout
   const terms = queryTerms.match(/[a-z0-9]{3,}|[\u4e00-\u9fff]{2,}/g) ?? [];
   const resolvedPlayers = resolvePlayers(data, query);
   const partialPlayers = terms.length ? data.players.filter((player) => {
-    const names = [player.name, player.shortName, player.chineseName, ...player.aliases].filter(Boolean).map(normalize);
+    const names = playerNames(player).map(normalize);
     return terms.some((term) => term.length >= 2 && names.some((name) => name.includes(term)));
   }) : [];
   const players = resolvedPlayers.length ? resolvedPlayers : partialPlayers;
-  const playerNames = players.flatMap((player) => [player.name, player.shortName, player.chineseName, ...player.aliases].filter(Boolean).map(normalize));
-  const playerTerms = [...playerNames, ...terms.filter((term) => playerNames.some((name) => name.includes(term)))];
+  const playerNameTerms = players.flatMap((player) => playerNames(player).map(normalize));
+  const playerTerms = [...playerNameTerms.filter((term) => term.length > 2 || /[\u4e00-\u9fff]/.test(term)), ...terms.filter((term) => playerNameTerms.some((name) => name.includes(term)))];
   const topicAliases: Record<string, string[]> = {
     '交易': ['trade'], '伤病': ['injur'], '受伤': ['injur'], '续约': ['contract', 'extension'], '签约': ['sign', 'contract'],
     '季后赛': ['playoff'], '湖人': ['lakers'], '勇士': ['warriors'], '凯尔特人': ['celtics'], '火箭': ['rockets'], '骑士': ['cavaliers', 'cavs'],
