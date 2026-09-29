@@ -102,7 +102,7 @@ describe('CourtMatch Scout answers', () => {
 
   it('filters news by NBA team names and Chinese nicknames', () => {
     const result = answerScoutQuestion(data, '凯尔特人新闻', false, news);
-    expect(result.title).toContain('凯尔特人');
+    expect(result.title).toContain('波士顿凯尔特人');
     expect(result.sources).toEqual([{ label: 'Boston Celtics prepare for the new season', href: 'https://www.espn.com/nba/story/celtics' }]);
   });
 });

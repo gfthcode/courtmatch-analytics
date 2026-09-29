@@ -284,7 +284,9 @@ function newsSearch(data: Dataset, query: string, english: boolean, feed?: Scout
     }).join('\n\n')
     : zh('在当前已发布的新闻目录中，没有找到与该球员或主题匹配的报道。可以试试球员英文名、球队名或更宽泛的关键词。', 'No stories in the published feed matched that player or topic. Try the player’s English name, team name or a broader keyword.', english);
   return {
-    title: players.length ? zh(`${players[0].shortName} · NBA 新闻`, `${players[0].shortName} · NBA news`, english) : teams.length ? zh(`${teams[0].chineseName} · NBA 新闻`, `${teams[0].name} · NBA news`, english) : zh('NBA 新闻检索', 'NBA news search', english),
+    title: players.length ? zh(`${players[0].shortName} · NBA 新闻`, `${players[0].shortName} · NBA news`, english) : teams.length
+      ? zh(`${teamAliases[teams[0].abbreviation]?.find((name) => /[\u4e00-\u9fff]/.test(name) && name.length > 3) ?? teams[0].chineseName} · NBA 新闻`, `${teams[0].name} · NBA news`, english)
+      : zh('NBA 新闻检索', 'NBA news search', english),
     body: `${body}\n\n${zh(`来源：${feed.source ?? '已发布 ESPN NBA 新闻目录'} · 新闻源更新时间：${date}${stale ? ' · 数据可能已过期' : ''}。新闻目录按发布流程更新，非逐条实时推送。`, `Source: ${feed.source ?? 'published ESPN NBA news catalogue'} · Feed updated: ${date}${stale ? ' · data may be stale' : ''}. The catalogue is refreshed through the publishing pipeline, not streamed live.`, english)}`,
     action: { label: zh('打开新闻中心', 'Open NBA news desk', english), href: '/news' },
     sources: filtered.map((article) => ({ label: article.title, href: article.url })),
