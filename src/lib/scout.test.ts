@@ -47,7 +47,7 @@ describe('CourtMatch Scout answers', () => {
 
   it('explains the supported scope rather than inventing unsupported answers', () => {
     const result = answerScoutQuestion(data, '今晚谁会赢？', false);
-    expect(result.body).toContain('不支持伤病、实时新闻、比赛预测');
+    expect(result.body).toContain('不支持伤病判断、实时新闻、比赛预测');
   });
 
   it('compares available team ratings and links to the team comparison page', () => {
@@ -56,6 +56,14 @@ describe('CourtMatch Scout answers', () => {
     expect(result.body).toContain('进攻效率 120.0');
     expect(result.body).toContain('净效率 10.0');
     expect(result.action?.href).toContain('/team/compare?left=bos&right=lal');
+  });
+
+  it('resolves NBA teams from common English nicknames and Chinese full names', () => {
+    const nickname = answerScoutQuestion(data, '比较 Celtics 和 Lakers 球队效率', true);
+    const chinese = answerScoutQuestion(data, '比较波士顿凯尔特人和洛杉矶湖人球队效率', false);
+    expect(nickname.action?.href).toContain('left=bos&right=lal');
+    expect(chinese.body).toContain('进攻效率 120.0');
+    expect(chinese.action?.href).toContain('left=bos&right=lal');
   });
 
   it('does not infer team ratings when the published team snapshot is missing', () => {

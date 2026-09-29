@@ -19,6 +19,39 @@ const normalize = (value: string) => value.toLocaleLowerCase().normalize('NFKD')
 const zh = (text: string, en: string, english: boolean) => english ? en : text;
 const encoded = (value: string) => encodeURIComponent(value);
 
+const teamAliases: Record<string, string[]> = {
+  ATL: ['Atlanta Hawks', 'Hawks', '亚特兰大老鹰', '老鹰'],
+  BOS: ['Boston Celtics', 'Celtics', '波士顿凯尔特人', '凯尔特人'],
+  BKN: ['Brooklyn Nets', 'Nets', '布鲁克林篮网', '篮网'],
+  CHA: ['Charlotte Hornets', 'Hornets', '夏洛特黄蜂', '黄蜂'],
+  CHI: ['Chicago Bulls', 'Bulls', '芝加哥公牛', '公牛'],
+  CLE: ['Cleveland Cavaliers', 'Cavaliers', 'Cavs', '克利夫兰骑士', '骑士'],
+  DAL: ['Dallas Mavericks', 'Mavericks', 'Mavs', '达拉斯独行侠', '独行侠', '小牛'],
+  DEN: ['Denver Nuggets', 'Nuggets', '丹佛掘金', '掘金'],
+  DET: ['Detroit Pistons', 'Pistons', '底特律活塞', '活塞'],
+  GSW: ['Golden State Warriors', 'Warriors', '金州勇士', '勇士'],
+  HOU: ['Houston Rockets', 'Rockets', '休斯顿火箭', '火箭'],
+  IND: ['Indiana Pacers', 'Pacers', '印第安纳步行者', '步行者'],
+  LAC: ['Los Angeles Clippers', 'LA Clippers', 'Clippers', '洛杉矶快船', '快船'],
+  LAL: ['Los Angeles Lakers', 'LA Lakers', 'Lakers', '洛杉矶湖人', '湖人'],
+  MEM: ['Memphis Grizzlies', 'Grizzlies', '孟菲斯灰熊', '灰熊'],
+  MIA: ['Miami Heat', '迈阿密热火', '热火'],
+  MIL: ['Milwaukee Bucks', 'Bucks', '密尔沃基雄鹿', '雄鹿'],
+  MIN: ['Minnesota Timberwolves', 'Timberwolves', 'Wolves', '明尼苏达森林狼', '森林狼'],
+  NOP: ['New Orleans Pelicans', 'Pelicans', '新奥尔良鹈鹕', '鹈鹕'],
+  NYK: ['New York Knicks', 'Knicks', '纽约尼克斯', '尼克斯'],
+  OKC: ['Oklahoma City Thunder', 'Thunder', '俄克拉荷马城雷霆', '雷霆'],
+  ORL: ['Orlando Magic', 'Magic', '奥兰多魔术', '魔术'],
+  PHI: ['Philadelphia 76ers', '76ers', 'Sixers', '费城76人', '76人'],
+  PHX: ['Phoenix Suns', 'Suns', '菲尼克斯太阳', '太阳'],
+  POR: ['Portland Trail Blazers', 'Trail Blazers', 'Blazers', '波特兰开拓者', '开拓者'],
+  SAC: ['Sacramento Kings', 'Kings', '萨克拉门托国王', '国王'],
+  SAS: ['San Antonio Spurs', 'Spurs', '圣安东尼奥马刺', '马刺'],
+  TOR: ['Toronto Raptors', 'Raptors', '多伦多猛龙', '猛龙'],
+  UTA: ['Utah Jazz', 'Jazz', '犹他爵士', '爵士'],
+  WAS: ['Washington Wizards', 'Wizards', '华盛顿奇才', '奇才'],
+};
+
 function resolvePlayers(data: Dataset, query: string): Player[] {
   const normalized = normalize(query);
   const variants = data.players.flatMap((player) => [player.name, player.shortName, player.chineseName, ...player.aliases]
@@ -35,7 +68,7 @@ function resolveTeams(data: Dataset, query: string): Team[] {
   const normalized = normalize(query);
   const found = new Map<string, Team>();
   for (const team of data.teams) {
-    const names = [team.name, team.chineseName, team.abbreviation, team.id].map(normalize).sort((a, b) => b.length - a.length);
+    const names = [team.name, team.chineseName, team.abbreviation, team.id, ...(teamAliases[team.abbreviation] ?? [])].map(normalize).sort((a, b) => b.length - a.length);
     if (names.some((name) => name.length > 1 && normalized.includes(name))) found.set(team.id, team);
   }
   return [...found.values()];
@@ -213,6 +246,6 @@ export function answerScoutQuestion(data: Dataset, query: string, english: boole
   };
   return {
     title: zh('我可以帮你查 NBA 对位数据', 'Ask about NBA matchup data', english),
-    body: zh('目前支持：球员赛季数据、两名球员的直接对位、球员的强弱对位、防守限制榜，以及球员进攻/防守打法。数字来自当前 CourtMatch 数据集，不支持伤病、实时新闻、比赛预测或投注建议。', 'I can look up player season stats, head-to-head matchups, a player’s strongest/weakest matchups, defensive rankings, and play types. Numbers come from the current CourtMatch dataset; injuries, breaking news, game predictions and betting advice are not supported.', english),
+    body: zh('目前支持：球员赛季数据、球员直接对位与强弱对位、攻防排行榜、球员打法，以及球队效率、节奏、打法和双队对比。可使用球队全名、常见昵称、中文名或缩写。数据来自当前 CourtMatch 数据集；不支持伤病判断、实时新闻、比赛预测或投注建议。', 'I can look up player season stats and matchups, offensive/defensive rankings, player play types, and team ratings, pace, play types, and comparisons. Team full names, common nicknames, Chinese names and abbreviations are supported. Answers use the published CourtMatch dataset; injuries, breaking news, game predictions and betting advice are not supported.', english),
   };
 }

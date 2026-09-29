@@ -55,7 +55,7 @@ export function ScoutAssistant() {
           <div className="scout-mark"><Bot size={19}/></div>
           <div className="scout-heading"><p>COURTMATCH · SCOUT</p><Dialog.Title>{english ? 'Matchup analysis assistant' : 'NBA 对位分析助手'}</Dialog.Title></div>
           <Dialog.Close asChild><button className="scout-icon-button" aria-label={english ? 'Close assistant' : '关闭助手'}><X size={19}/></button></Dialog.Close>
-          <Dialog.Description id="scout-description" className="scout-sr-only">{english ? 'Ask questions about player matchups and rankings in the CourtMatch dataset.' : '基于 CourtMatch 数据集查询球员对位、效率和排行榜。'}</Dialog.Description>
+          <Dialog.Description id="scout-description" className="scout-sr-only">{english ? 'Ask about player and team matchups, ratings and rankings in the CourtMatch dataset.' : '基于 CourtMatch 数据集查询球员与球队对位、效率和排行榜。'}</Dialog.Description>
         </header>
         <div className="scout-data-note" role="note"><span className={`scout-status-dot ${data.manifest.status === 'stale' ? 'is-stale' : ''}`}/><span>{data.manifest.status === 'stale'
           ? (english ? `Published data · updated ${data.updatedAt.slice(0, 10)} · not live` : `已发布数据 · 更新于 ${data.updatedAt.slice(0, 10)} · 非实时`)
@@ -64,7 +64,7 @@ export function ScoutAssistant() {
           {!messages.length ? <section className="scout-welcome">
             <span className="scout-welcome-icon"><Sparkles size={18}/></span>
             <h2>{english ? 'What do you want to find out?' : '今天想看哪组对位？'}</h2>
-            <p>{english ? 'Ask in your own words. I’ll query CourtMatch data and show the season, sample and source limits.' : '直接用自然语言提问。我会查询 CourtMatch 数据，并把赛季、样本量和数据边界一起展示。'}</p>
+            <p>{english ? 'Ask in your own words. I’ll query player or team data and show the season, sample and source limits.' : '可以查询球员或球队数据；我会同时展示赛季、样本量和数据边界。'}</p>
             <div className="scout-examples">{examples.map((example) => <button type="button" key={example} onClick={() => setQuestion(example)}><MessageSquareText size={14}/>{example}<ArrowUpRight size={13}/></button>)}</div>
           </section> : messages.map((message) => <article className={`scout-message scout-message-${message.role}`} key={message.id}>
             <div className="scout-message-avatar" aria-hidden="true">{message.role === 'assistant' ? <Sparkles size={14}/> : <span>YOU</span>}</div>
