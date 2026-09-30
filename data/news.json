@@ -1,22 +1,74 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-09-30T12:34:29.902256+00:00",
+  "updatedAt": "2026-09-30T20:01:15.365038+00:00",
   "articles": [
     {
-      "id": "38604409",
-      "title": "Fantasy basketball: The pros and cons of points, roto and category leagues",
-      "summary": "Which fantasy basketball scoring format should you play? Jim McCormick breaks down the most popular options so you can choose for yourself.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/38604409/fantasy-basketball-pros-cons-points-roto-category-leagues-nba-2026-27",
-      "publishedAt": "2026-09-30T11:14:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0402/r1637769_1296x729_16-9.jpg",
+      "id": "50070155",
+      "title": "Clippers' Brandon Ingram gets in light work before practice",
+      "summary": "Brandon Ingram, recovering from heel surgery, got in some light shooting and court work ahead of Clippers practice Tuesday in Hawai'i.",
+      "url": "https://www.espn.com/nba/story/_/id/50070155/clippers-brandom-ingram-gets-light-work-practice",
+      "publishedAt": "2026-09-30T19:26:10+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0501/r1652083_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "LA Clippers",
+        "Brandon Ingram",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50069755",
+      "title": "Fantasy basketball: Ajay Mitchell, Ayo Dosunmu and other top sleepers to target",
+      "summary": "Jim McCormick highlights the lesser known players who could be worth taking a flyer on in the final rounds of your fantasy draft.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50069755/fantasy-basketball-top-sleepers-target-nba-2026-27",
+      "publishedAt": "2026-09-30T19:19:03+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0930/r1724065_1296x729_16-9.jpg",
       "author": "Jim McCormick",
       "categories": [
         "news - fantasy",
         "news - fantasy basketball",
         "Fantasy NBA",
-        "Jim McCormick",
-        "NBA"
+        "NBA",
+        "Collin Murray-Boyles",
+        "Keegan Murray",
+        "Peyton Watson",
+        "Ajay Mitchell",
+        "Zach Edey",
+        "Ayo Dosunmu",
+        "Jim McCormick"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-09-30T18:56:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50069241",
+      "title": "Michael Jordan's Game 3 'Last Dance' jersey sold for record amount",
+      "summary": "Jordan wore the jersey in Game 3 of the 1998 NBA Finals.",
+      "url": "https://www.espn.com/nba/story/_/id/50069241/michael-jordan-last-dance-game-3-1998-nba-finals-game-worn-jersey-auction-record",
+      "publishedAt": "2026-09-30T18:34:36+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0930/r1724064_608x342_16-9.jpg",
+      "author": "Kalan Hooks",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "Kalan Hooks"
       ]
     },
     {
@@ -24,7 +76,7 @@
       "title": "NBA preview 2026-27: What Bobby Marks is watching at 30 training camps",
       "summary": "As training camps get underway across the league, Bobby Marks examines roster, contract and fit questions for all 30 teams.",
       "url": "https://www.espn.com/nba/story/_/id/50061973/nba-preview-2026-27-bobby-marks-training-camp-guide-duren-pistons-lebron-76ers-30-teams",
-      "publishedAt": "2026-09-30T11:00:20+00:00",
+      "publishedAt": "2026-09-30T18:16:48+00:00",
       "image": "https://a.espncdn.com/photo/2026/0930/r1723772_1296x729_16-9.jpg",
       "author": "Bobby Marks",
       "categories": [
@@ -69,6 +121,53 @@
         "Sacramento Kings",
         "San Antonio Spurs",
         "Bobby Marks"
+      ]
+    },
+    {
+      "id": "50068731",
+      "title": "Suns' Dillon Brooks charged with DUI from March arrest",
+      "summary": "Suns forward Dillon Brooks was charged Monday with driving under the influence following his March arrest in Scottsdale, Arizona, according to court records.",
+      "url": "https://www.espn.com/nba/story/_/id/50068731/suns-dillon-brooks-charged-dui-march-arrest",
+      "publishedAt": "2026-09-30T16:33:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0306/r1624208_600x400_3-2.jpg",
+      "author": "Michael Rothstein",
+      "categories": [
+        "Dillon Brooks",
+        "Phoenix Suns",
+        "NBA",
+        "news",
+        "Michael Rothstein"
+      ]
+    },
+    {
+      "id": "50059977",
+      "title": "Ex-NBA champ JR Smith arrested on assault charge in Texas",
+      "summary": "Former NBA champion JR Smith was arrested Monday in Texas on a charge of assault causing \"bodily injury family violence.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50059977/ex-nba-champ-jr-smith-arrested-assault-charge-texas",
+      "publishedAt": "2026-09-30T14:47:49+00:00",
+      "image": "https://a.espncdn.com/photo/2021/0824/r899888_1296x729_16-9.jpg",
+      "author": "Michael Rothstein",
+      "categories": [
+        "NBA",
+        "JR Smith",
+        "news",
+        "Michael Rothstein"
+      ]
+    },
+    {
+      "id": "38604409",
+      "title": "Fantasy basketball: The pros and cons of points, roto and category leagues",
+      "summary": "Which fantasy basketball scoring format should you play? Jim McCormick breaks down the most popular options so you can choose for yourself.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/38604409/fantasy-basketball-pros-cons-points-roto-category-leagues-nba-2026-27",
+      "publishedAt": "2026-09-30T11:14:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0402/r1637769_1296x729_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Jim McCormick",
+        "NBA"
       ]
     },
     {
@@ -147,37 +246,6 @@
         "news",
         "NBA",
         "Shams Charania"
-      ]
-    },
-    {
-      "id": "50059977",
-      "title": "Ex-NBA champ JR Smith arrested on assault charge in Texas",
-      "summary": "Former NBA champion JR Smith was arrested Monday in Texas on a charge of assault causing \"bodily injury family violence.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50059977/ex-nba-champ-jr-smith-arrested-assault-charge-texas",
-      "publishedAt": "2026-09-29T21:41:58+00:00",
-      "image": "https://a.espncdn.com/photo/2021/0824/r899888_1296x729_16-9.jpg",
-      "author": "Michael Rothstein",
-      "categories": [
-        "NBA",
-        "JR Smith",
-        "news",
-        "Michael Rothstein"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-09-29T20:45:27+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -659,22 +727,6 @@
       ]
     },
     {
-      "id": "50051681",
-      "title": "Pistons' Jalen Duren not at media day amid contract standoff",
-      "summary": "Pistons All-Star center Jalen Duren is not attending the team's media day Monday or the start of training camp as the contract standoff continues.",
-      "url": "https://www.espn.com/nba/story/_/id/50051681/sources-pistons-duren-not-media-day-amid-contract-standoff",
-      "publishedAt": "2026-09-28T20:13:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0227/r1620886_600x400_3-2.jpg",
-      "author": "Eric Woodyard",
-      "categories": [
-        "news",
-        "NBA",
-        "Detroit Pistons",
-        "Jalen Duren",
-        "Eric Woodyard"
-      ]
-    },
-    {
       "id": "50054069",
       "title": "Owner Mat Ishbia says mortgage company woes won't hurt Suns",
       "summary": "Phoenix Suns owner Mat Ishbia says financial issues at his mortgage company will have \"zero\" effect on his spending habits when it comes to basketball.",
@@ -766,37 +818,6 @@
       ]
     },
     {
-      "id": "50048228",
-      "title": "NBA preview 2026-27: Stacking the 8 most intriguing newcomers",
-      "summary": "A full roster's worth of NBA stars changed teams this past summer. The storylines surrounding eight will help define the league's journey to spring.",
-      "url": "https://www.espn.com/nba/story/_/id/50048228/nba-preview-2026-27-lebron-kawhi-giannis-morant-ranking-most-intriguing-newcomers",
-      "publishedAt": "2026-09-28T18:14:54+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1722762_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Boston Celtics",
-        "Toronto Raptors",
-        "Washington Wizards",
-        "Los Angeles Lakers",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "Philadelphia 76ers",
-        "Portland Trail Blazers",
-        "Utah Jazz",
-        "Kawhi Leonard",
-        "Anthony Davis",
-        "Walker Kessler",
-        "Giannis Antetokounmpo",
-        "LeBron James",
-        "Jaylen Brown",
-        "LaMelo Ball",
-        "Ja Morant",
-        "Ben Golliver"
-      ]
-    },
-    {
       "id": "50053467",
       "title": "Tyrese Haliburton: No restrictions in return from Achilles tear",
       "summary": "Pacers star guard Tyrese Haliburton says he won't have any restrictions as he returns from the torn Achilles that has kept him off the court for more than a year.",
@@ -871,38 +892,6 @@
         "news",
         "Kristaps Porzingis",
         "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50016779",
-      "title": "AJ Dybantsa named cover athlete for 2026 Topps Flagship Basketball",
-      "summary": "The Washington Wizards star began collecting cards this year and will be the cover athlete of 2026 Topps Flagship Basketball.",
-      "url": "https://www.espn.com/nba/story/_/id/50016779/aj-dybantsa-washington-wizards-2026-topps-flagship-basketball-cover",
-      "publishedAt": "2026-09-28T14:01:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0924/r1721102_608x342_16-9.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "NBA",
-        "Washington Wizards",
-        "AJ Dybantsa",
-        "Anthony Gharib"
-      ]
-    },
-    {
-      "id": "41519907",
-      "title": "Jimmy Butler's media day looks through the years: Will 'emo Jimmy' return?",
-      "summary": "Jimmy Butler has made headlines at past media days for his unique looks. Will Butler arrive looking different this year?",
-      "url": "https://www.espn.com/nba/story/_/id/41519907/jimmy-butler-hair-styles-nba-media-day",
-      "publishedAt": "2026-09-28T13:02:18+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0503/r1487329_608x342_16-9.jpg",
-      "author": "Brianna Williams",
-      "categories": [
-        "daily",
-        "culture",
-        "NBA",
-        "Jimmy Butler III",
-        "Golden State Warriors",
-        "Brianna Williams"
       ]
     }
   ]
