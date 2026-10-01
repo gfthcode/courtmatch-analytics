@@ -1,8 +1,137 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-01T10:08:08.273350+00:00",
+  "updatedAt": "2026-10-01T18:25:24.913552+00:00",
   "articles": [
+    {
+      "id": "50076974",
+      "title": "Jamal Shead, Raptors reach 3-year, $24M extension through 2029-30",
+      "summary": "Raptors guard Jamal Shead has agreed to a three-year, $24 million contract extension with the franchise, his agent, KJ Smith, told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50076974/jamal-shead-raptors-reach-3-year-24m-extension-2029-30",
+      "publishedAt": "2026-10-01T14:55:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724449_1296x729_16-9.jpg",
+      "author": "Shams Charania",
+      "categories": [
+        "Jamal Shead",
+        "Toronto Raptors",
+        "NBA",
+        "news",
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-01T14:43:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50076885",
+      "title": "Cavs' Donovan Mitchell signs new multiyear deal with Adidas",
+      "summary": "Cavaliers star Donovan Mitchell has signed a new multiyear contract extension with Adidas -- a deal that will take him through a 10th signature shoe with the same brand, becoming the seventh active NBA player to accomplish the feat.",
+      "url": "https://www.espn.com/nba/story/_/id/50076885/cavs-donovan-mitchell-signs-new-multi-year-deal-adidas",
+      "publishedAt": "2026-10-01T14:31:08+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0520/r1660765_600x400_3-2.jpg",
+      "author": "Shams Charania",
+      "categories": [
+        "news",
+        "NBA",
+        "Cleveland Cavaliers",
+        "Donovan Mitchell",
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50076574",
+      "title": "Armstrong sinks United in Tasmania",
+      "summary": "The Tasmania JackJumpers claim a 84-82 win over Melbourne United, with hometown hero Taran Armstrong sinking the game winning shot.",
+      "url": "https://www.espn.com/video/clip/_/id/50076574/armstrong-sinks-united-tasmania",
+      "publishedAt": "2026-10-01T12:59:28+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/dm_261001_NBL_Highlight_Armstrong_sinks_United_in_Tasmania_20261001_PACRIM_AND_US_ONLY/dm_261001_NBL_Highlight_Armstrong_sinks_United_in_Tasmania_20261001_PACRIM_AND_US_ONLY.jpg",
+      "author": "",
+      "categories": [
+        "Melbourne United",
+        "NBA",
+        "National Basketball League",
+        "news - au nbl",
+        "Tasmania JackJumpers"
+      ]
+    },
+    {
+      "id": "50069752",
+      "title": "NBA preview 2026-27: Five coaches facing the most pressure to win",
+      "summary": "Which coaches could face the most scrutiny this season? Ben Golliver examines what lies ahead for five with Finals aspirations.",
+      "url": "https://www.espn.com/nba/story/_/id/50069752/nba-preview-2026-27-76ers-nurse-spurs-johnson-five-coaches-pressure",
+      "publishedAt": "2026-10-01T10:45:36+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0930/r1724150_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Jaylen Brown",
+        "Cleveland Cavaliers",
+        "Denver Nuggets",
+        "Houston Rockets",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "Nikola Jokic",
+        "Kevin Durant",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50070415",
+      "title": "Fantasy basketball: Players to know and position battles to watch during NBA preseason",
+      "summary": "Eric Moody points out which preseason NBA position battles could have big fantasy ramifications.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50070415/fantasy-basketball-position-battles-watch-nba-preseason",
+      "publishedAt": "2026-10-01T10:28:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0930/r1724136_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Ryan Rollins",
+        "Brayden Burries",
+        "Kevin Porter Jr",
+        "Cameron Johnson",
+        "DeMar DeRozan",
+        "Keyonte George",
+        "Darryn Peterson",
+        "Isaiah Collier",
+        "Ace Bailey",
+        "Moussa Diabate",
+        "Hannes Steinbach",
+        "Neemias Queta",
+        "Mitchell Robinson",
+        "Luka Garza",
+        "Jase Richardson",
+        "Jalen Suggs",
+        "Anthony Black",
+        "Reed Sheppard",
+        "Fred VanVleet",
+        "Marcus Smart",
+        "Derik Queen",
+        "Yves Missi",
+        "Damian Lillard",
+        "Ja Morant",
+        "Jrue Holiday",
+        "Scoot Henderson",
+        "Deni Avdija",
+        "NBA"
+      ]
+    },
     {
       "id": "50070779",
       "title": "76ers guard Tyrese Maxey: 'I want to be judged by winning'",
@@ -32,22 +161,6 @@
         "JR Smith",
         "news",
         "Michael Rothstein"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-09-30T20:48:08+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -231,23 +344,6 @@
         "Bronny James",
         "LeBron James",
         "Brian Windhorst"
-      ]
-    },
-    {
-      "id": "50053106",
-      "title": "LeBron James says he envisioned joining Knicks as free agent",
-      "summary": "LeBron James told ESPN that he envisioned joining the Knicks as a free agent this summer but nixed the idea after New York won the NBA title.",
-      "url": "https://www.espn.com/nba/story/_/id/50053106/lebron-james-says-envisioned-joining-knicks-free-agent",
-      "publishedAt": "2026-09-30T10:23:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723054_1296x729_16-9.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "New York Knicks",
-        "LeBron James",
-        "news",
-        "Dave McMenamin"
       ]
     },
     {
@@ -804,21 +900,6 @@
       ]
     },
     {
-      "id": "50053340",
-      "title": "Kawhi Leonard focused on being a Raptor after Clippers exit",
-      "summary": "Kawhi Leonard said he wants to put the focus on basketball and being a Raptor after being traded back to Toronto following a scandal-marred conclusion to his Clippers tenure.",
-      "url": "https://www.espn.com/nba/story/_/id/50053340/kawhi-leonard-focused-being-raptor-clippers-exit",
-      "publishedAt": "2026-09-28T18:53:45+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723067_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news",
-        "Toronto Raptors",
-        "Kawhi Leonard"
-      ]
-    },
-    {
       "id": "50053583",
       "title": "Karl-Anthony Towns wants extension to stay with Knicks",
       "summary": "Karl-Anthony Towns said he wants to get a contract extension done with the Knicks as he has one year and a player option left on his current deal.",
@@ -847,52 +928,6 @@
         "2 Star Rating",
         "NBA",
         "Kawhi Leonard"
-      ]
-    },
-    {
-      "id": "50053467",
-      "title": "Tyrese Haliburton: No restrictions in return from Achilles tear",
-      "summary": "Pacers star guard Tyrese Haliburton says he won't have any restrictions as he returns from the torn Achilles that has kept him off the court for more than a year.",
-      "url": "https://www.espn.com/nba/story/_/id/50053467/tyrese-haliburton-no-restrictions-return-achilles-tear",
-      "publishedAt": "2026-09-28T18:10:44+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0923/r1549975_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "Tyrese Haliburton",
-        "Indiana Pacers",
-        "NBA",
-        "news"
-      ]
-    },
-    {
-      "id": "50053495",
-      "title": "LeBron James cites Tyrese Maxey as a key factor in his signing with 76ers",
-      "summary": "LeBron James cites Tyrese Maxey as a key factor in his signing with 76ers",
-      "url": "https://www.espn.com/video/clip/_/id/50053495/lebron-james-cites-tyrese-maxey-key-factor-signing-76ers",
-      "publishedAt": "2026-09-28T18:01:49+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/ss_20260928_134613551_3678587/ss_20260928_134613551_3678587.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "LeBron James",
-        "Tyrese Maxey",
-        "Philadelphia 76ers",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50053258",
-      "title": "Big Ten basketball adopts rule preventing pros from returning",
-      "summary": "The Big Ten Conference has adopted a rule to prohibit men's and women's basketball players who left school to play professionally from maintaining their eligibility.",
-      "url": "https://www.espn.com/mens-college-basketball/story/_/id/50053258/big-ten-basketball-adopts-rule-preventing-pros-returning",
-      "publishedAt": "2026-09-28T17:28:04+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0825/r1536655_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NCAA Men's Basketball",
-        "NCAA Women's Basketball",
-        "NBA",
-        "news"
       ]
     }
   ]
