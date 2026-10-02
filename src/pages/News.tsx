@@ -8,8 +8,10 @@ import './news.css';
 const NEWS_URL = `${import.meta.env.BASE_URL}data/news.json`;
 const CACHE_KEY = 'courtmatch-nba-news-v1';
 const CACHE_TTL = 10 * 60 * 1000;
+const ZH_CACHE_KEY = 'courtmatch-nba-news-zh-v1';
 
-type NewsItem = { id: string; title: string; summary: string; url: string; publishedAt: string; image?: string; authors: string[]; category: 'court' | 'off-court' | 'general' };
+type NewsItem = { id: string; title: string; summary: string; titleZh?: string; summaryZh?: string; url: string; publishedAt: string; image?: string; authors: string[]; category: 'court' | 'off-court' | 'general' };
+type NewsTranslation = { title: string; summary: string };
 type RawArticle = Record<string, unknown>;
 
 function text(value: unknown): string { return typeof value === 'string' ? value : ''; }
@@ -32,7 +34,26 @@ function normalize(article: RawArticle, index: number): NewsItem | null {
   const summary = text(article.description ?? article.summary ?? article.story).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
   const publishedAt = text(article.published ?? article.publishedAt ?? article.lastModified);
   const id = text(article.id ?? article.dataSourceIdentifier) || `${url}-${index}`;
-  return { id, title, summary, url, publishedAt, image: /^https:\/\//.test(image) ? image : undefined, authors, category: classify(article, title, summary) };
+  return { id, title, summary, titleZh: text(article.titleZh ?? article.title_zh).trim() || undefined, summaryZh: text(article.summaryZh ?? article.summary_zh).trim() || undefined, url, publishedAt, image: /^https:\/\//.test(image) ? image : undefined, authors, category: classify(article, title, summary) };
+}
+function readTranslationCache(): Record<string, NewsTranslation> {
+  try {
+    const value = JSON.parse(localStorage.getItem(ZH_CACHE_KEY) || '{}') as Record<string, NewsTranslation>;
+    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+  } catch { return {}; }
+}
+function parseTranslation(payload: unknown): string {
+  if (!Array.isArray(payload) || !Array.isArray(payload[0])) return '';
+  return (payload[0] as unknown[]).map((segment) => Array.isArray(segment) ? text(segment[0]) : '').join('').trim();
+}
+async function translateToChinese(value: string, signal: AbortSignal): Promise<string> {
+  if (!value.trim()) return '';
+  const params = new URLSearchParams({ client: 'gtx', sl: 'en', tl: 'zh-CN', dt: 't', q: value });
+  const response = await fetch(`https://translate.googleapis.com/translate_a/single?${params}`, { signal, headers: { Accept: 'application/json' } });
+  if (!response.ok) throw new Error(`Translation HTTP ${response.status}`);
+  const translated = parseTranslation(await response.json());
+  if (!translated) throw new Error('Translation returned no text');
+  return translated;
 }
 function readCache(): { items: NewsItem[]; fetchedAt: number } | null {
   try {
@@ -48,6 +69,8 @@ export function NewsPage() {
   const { language } = useLanguage();
   const en = language === 'en';
   const [items, setItems] = useState<NewsItem[]>([]);
+  const [translations, setTranslations] = useState<Record<string, NewsTranslation>>({});
+  const [translationErrors, setTranslationErrors] = useState<Record<string, boolean>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [fetchedAt, setFetchedAt] = useState(0);
@@ -84,12 +107,56 @@ export function NewsPage() {
     const timer = window.setInterval(() => { if (document.visibilityState === 'visible') void refresh(true); }, 15 * 60 * 1000);
     return () => window.clearInterval(timer);
   }, [refresh]);
+  useEffect(() => {
+    if (en || !items.length) return;
+    const controller = new AbortController();
+    const cached = readTranslationCache();
+    const initial: Record<string, NewsTranslation> = {};
+    for (const item of items) {
+      const saved = cached[item.id];
+      if (item.titleZh || item.summaryZh) initial[item.id] = { title: item.titleZh || saved?.title || '', summary: item.summaryZh || saved?.summary || '' };
+      else if (saved?.title) initial[item.id] = saved;
+    }
+    setTranslations(initial);
+    setTranslationErrors({});
+    let cursor = 0;
+    const worker = async () => {
+      while (!controller.signal.aborted) {
+        const item = items[cursor++];
+        if (!item) return;
+        const existing = initial[item.id];
+        if (existing?.title && (!item.summary || existing.summary)) continue;
+        try {
+          let title = item.titleZh || '';
+          let summary = item.summaryZh || '';
+          if (!title && !summary && item.summary) {
+            const combined = await translateToChinese(`${item.title}\n\n${item.summary}`, controller.signal);
+            const parts = combined.split(/\n\s*\n/, 2);
+            if (parts.length === 2) [title, summary] = parts.map((part) => part.trim());
+          }
+          if (!title) title = await translateToChinese(item.title, controller.signal);
+          if (!summary && item.summary) summary = await translateToChinese(item.summary, controller.signal);
+          const result = { title, summary };
+          initial[item.id] = result;
+          setTranslations((current) => ({ ...current, [item.id]: result }));
+          cached[item.id] = result;
+          const entries = Object.entries(cached).slice(-150);
+          try { localStorage.setItem(ZH_CACHE_KEY, JSON.stringify(Object.fromEntries(entries))); } catch { /* private mode or storage quota */ }
+        } catch {
+          if (!controller.signal.aborted) setTranslationErrors((current) => ({ ...current, [item.id]: true }));
+        }
+      }
+    };
+    void Promise.all(Array.from({ length: Math.min(3, items.length) }, () => worker()));
+    return () => controller.abort();
+  }, [en, items]);
   const shown = useMemo(() => items.filter((item) => {
     const matchesFilter = filter === 'all' || item.category === filter || item.category === 'general';
     const needle = query.trim().toLocaleLowerCase();
-    const matchesQuery = !needle || `${item.title} ${item.summary} ${item.authors.join(' ')}`.toLocaleLowerCase().includes(needle);
+    const translated = translations[item.id];
+    const matchesQuery = !needle || `${item.title} ${item.summary} ${translated?.title || ''} ${translated?.summary || ''} ${item.authors.join(' ')}`.toLocaleLowerCase().includes(needle);
     return matchesFilter && matchesQuery;
-  }), [items, filter, query]);
+  }), [items, filter, query, translations]);
   const relativeTime = (value: string) => {
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return en ? 'Time unavailable' : '时间暂缺';
@@ -109,7 +176,7 @@ export function NewsPage() {
     {error && <div className={`news-alert${items.length ? ' is-stale' : ''}`} role="status">{error}{!items.length && <Button variant="secondary" onClick={() => void refresh(true)}>{en ? 'Retry' : '重试'}</Button>}</div>}
     {loading && !items.length ? <div className="news-loading" role="status"><span className="news-pulse"/><span>{en ? 'Loading the latest NBA stories…' : '正在读取最新 NBA 新闻…'}</span></div> : shown.length ? <section className="news-grid" aria-label={en ? 'Latest NBA stories' : '最新 NBA 新闻'}>{shown.map((item) => <article className="news-card" key={item.id}>
       {item.image && <a className="news-image" href={item.url} target="_blank" rel="noreferrer" tabIndex={-1} aria-hidden="true"><img src={item.image} alt="" loading="lazy" onError={(event) => { event.currentTarget.parentElement?.remove(); }} /></a>}
-      <div className="news-card-content"><div className="news-card-meta"><span className={`news-category news-category-${item.category}`}>{item.category === 'off-court' ? (en ? 'OFF COURT' : '场外动态') : item.category === 'court' ? (en ? 'ON COURT' : '场内动态') : (en ? 'NBA' : '联盟新闻')}</span><time dateTime={item.publishedAt}>{relativeTime(item.publishedAt)}</time></div><h2><a href={item.url} target="_blank" rel="noreferrer">{item.title}</a></h2>{item.summary && <p>{item.summary}</p>}<footer><span>{item.authors[0] || 'ESPN'}</span><a href={item.url} target="_blank" rel="noreferrer">{en ? 'Read original' : '阅读原文'} <ExternalLink size={13}/></a></footer></div>
+      <div className="news-card-content"><div className="news-card-meta"><span className={`news-category news-category-${item.category}`}>{item.category === 'off-court' ? (en ? 'OFF COURT' : '场外动态') : item.category === 'court' ? (en ? 'ON COURT' : '场内动态') : (en ? 'NBA' : '联盟新闻')}</span><time dateTime={item.publishedAt}>{relativeTime(item.publishedAt)}</time></div><h2><a href={item.url} target="_blank" rel="noreferrer">{en ? item.title : translations[item.id]?.title || (translationErrors[item.id] ? '标题翻译暂不可用' : '正在翻译标题…')}</a></h2>{item.summary && <p>{en ? item.summary : translations[item.id]?.summary || (translationErrors[item.id] ? '摘要翻译暂不可用，可点击“阅读原文”查看完整报道。' : '正在翻译新闻摘要…')}</p>}<footer><span>{item.authors[0] || 'ESPN'}</span><a href={item.url} target="_blank" rel="noreferrer">{en ? 'Read original' : '阅读原文'} <ExternalLink size={13}/></a></footer></div>
     </article>)}</section> : !loading && <section className="news-empty"><Newspaper size={28}/><h2>{items.length ? (en ? 'No stories match this filter' : '没有符合条件的新闻') : (en ? 'No news available' : '暂无新闻')}</h2><p>{items.length ? (en ? 'Try another keyword or category.' : '试试更换关键词或分类。') : (en ? 'The live feed has not returned any stories yet.' : '新闻源暂未返回新闻内容。')}</p></section>}
     <p className="news-disclaimer">{en ? 'On-court / off-court labels are automatically inferred from headline and summary keywords. Stories remain attributed to and hosted by their original publishers.' : '场内 / 场外标签根据标题与摘要关键词自动归类，仅供浏览筛选；新闻内容及版权均归原始发布方所有。'}</p>
   </div>;
