@@ -1,8 +1,90 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-01T18:25:24.913552+00:00",
+  "updatedAt": "2026-10-02T00:47:31.796576+00:00",
   "articles": [
+    {
+      "id": "50079853",
+      "title": "76ers envision LeBron James' role being 'offense creator'",
+      "summary": "Sixers coach Nick Nurse envisions LeBron James setting the table for the offense this season. \"I consider him a great offense creator,\" Nurse said.",
+      "url": "https://www.espn.com/nba/story/_/id/50079853/76ers-envision-lebron-james-role-being-offense-creator",
+      "publishedAt": "2026-10-01T23:26:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724677_1296x729_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "LeBron James",
+        "Philadelphia 76ers",
+        "NBA",
+        "news",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50079209",
+      "title": "'I need to win': Embiid talks 76ers' upcoming season with LeBron in the fold",
+      "summary": "'I need to win': Embiid talks 76ers' upcoming season with LeBron in the fold",
+      "url": "https://www.espn.com/video/clip/_/id/50079209/embiid-talks-76ers-upcoming-season-lebron-fold",
+      "publishedAt": "2026-10-01T20:55:21+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/ss_20261001_164537987_3680997/ss_20261001_164537987_3680997.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "nba highlight",
+        "Joel Embiid",
+        "LeBron James",
+        "Philadelphia 76ers",
+        "Malika Andrews",
+        "NBA Today"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-01T20:28:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50078401",
+      "title": "Spurs' Victor Wembanyama not interested in promoting betting sites",
+      "summary": "Spurs star Victor Wembanyama said Thursday that he isn't interested in promoting sports betting sites.",
+      "url": "https://www.espn.com/nba/story/_/id/50078401/spurs-victor-wembanyama-not-interested-promoting-betting-sites",
+      "publishedAt": "2026-10-01T19:50:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724574_1296x729_16-9.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "news",
+        "NBA",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "news – sports betting",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50078590",
+      "title": "Victor Wembanyama has no interest in promoting betting sites",
+      "summary": "Victor Wembanyama has no interest in promoting betting sites",
+      "url": "https://www.espn.com/video/clip/_/id/50078590/victor-wembanyama-no-interest-promoting-betting-sites",
+      "publishedAt": "2026-10-01T19:44:26+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/dm_261001_Wembanyama_on_why_he_is_anti_sports_betting/dm_261001_Wembanyama_on_why_he_is_anti_sports_betting.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "Verts - Exclude Content",
+        "Victor Wembanyama"
+      ]
+    },
     {
       "id": "50076974",
       "title": "Jamal Shead, Raptors reach 3-year, $24M extension through 2029-30",
@@ -17,22 +99,6 @@
         "NBA",
         "news",
         "Shams Charania"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-01T14:43:42+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -866,68 +932,6 @@
         "NBA",
         "Phoenix Suns",
         "news"
-      ]
-    },
-    {
-      "id": "50053694",
-      "title": "Clippers' Brandon Ingram to miss start of season after surgery",
-      "summary": "Brandon Ingram, a key part of the Clippers' return in their trade of Kawhi Leonard, will not be available to start the 2026-27 season as he recovers from a surgery that addressed a right heel injury and partially torn Achilles tendon.",
-      "url": "https://www.espn.com/nba/story/_/id/50053694/clippers-brandon-ingram-miss-start-season-surgery",
-      "publishedAt": "2026-09-28T19:42:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0506/r1654121_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "Brandon Ingram",
-        "LA Clippers",
-        "NBA",
-        "Bradley Beal",
-        "news",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50053823",
-      "title": "Clippers confirm Brandon Ingram will miss start of season",
-      "summary": "Clippers confirm Brandon Ingram will miss start of season",
-      "url": "https://www.espn.com/video/clip/_/id/50053823/clippers-confirm-brandon-ingram-miss-start-season",
-      "publishedAt": "2026-09-28T19:04:55+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/dm_260928_brandon_ingram_injury_update/dm_260928_brandon_ingram_injury_update.jpg",
-      "author": "",
-      "categories": [
-        "Brandon Ingram",
-        "LA Clippers",
-        "NBA"
-      ]
-    },
-    {
-      "id": "50053583",
-      "title": "Karl-Anthony Towns wants extension to stay with Knicks",
-      "summary": "Karl-Anthony Towns said he wants to get a contract extension done with the Knicks as he has one year and a player option left on his current deal.",
-      "url": "https://www.espn.com/nba/story/_/id/50053583/karl-anthony-towns-wants-extension-stay-knicks",
-      "publishedAt": "2026-09-28T18:19:00+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723085_1296x729_16-9.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "Josh Hart",
-        "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50053650",
-      "title": "Kawhi wants to move forward with Raptors after Clippers investigation",
-      "summary": "Kawhi wants to move forward with Raptors after Clippers investigation",
-      "url": "https://www.espn.com/video/clip/_/id/50053650/kawhi-wants-move-forward-raptors-clippers-investigation",
-      "publishedAt": "2026-09-28T18:16:28+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/ss_20260928_141338302_3678602/ss_20260928_141338302_3678602.jpg",
-      "author": "",
-      "categories": [
-        "Toronto Raptors",
-        "2 Star Rating",
-        "NBA",
-        "Kawhi Leonard"
       ]
     }
   ]
