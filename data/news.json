@@ -1,14 +1,117 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-02T00:47:31.796576+00:00",
+  "updatedAt": "2026-10-02T09:45:59.172968+00:00",
   "articles": [
+    {
+      "id": "48957095",
+      "title": "2026 NBA free agency: Grades for offseason signings, extensions",
+      "summary": "We're grading the biggest free agent signings and extensions, including Jalen Duren's new five-year deal.",
+      "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
+      "publishedAt": "2026-10-02T05:05:14+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1002/r1724795_608x342_16-9.jpg",
+      "author": "Zach Kram",
+      "categories": [
+        "NBA",
+        "nba free agency",
+        "nba trade deadline",
+        "Phoenix Suns",
+        "Atlanta Hawks",
+        "Washington Wizards",
+        "Trae Young",
+        "Minnesota Timberwolves",
+        "Los Angeles Lakers",
+        "Austin Reaves",
+        "Golden State Warriors",
+        "Mark Williams",
+        "CJ McCollum",
+        "Charlotte Hornets",
+        "Coby White",
+        "Al Horford",
+        "Jose Alvarado",
+        "New York Knicks",
+        "Brooklyn Nets",
+        "Miami Heat",
+        "Andrew Wiggins",
+        "San Antonio Spurs",
+        "Julian Champagnie",
+        "Utah Jazz",
+        "Jusuf Nurkic",
+        "Milwaukee Bucks",
+        "Ousmane Dieng",
+        "Tim Hardaway Jr",
+        "Keon Ellis",
+        "Luke Kennard",
+        "Philadelphia 76ers",
+        "Dean Wade",
+        "Houston Rockets",
+        "Marcus Smart",
+        "Chicago Bulls",
+        "Norman Powell",
+        "Sandro Mamukelashvili",
+        "Quentin Grimes",
+        "Collin Sexton",
+        "De'Anthony Melton",
+        "Mitchell Robinson",
+        "Boston Celtics",
+        "Anfernee Simons",
+        "Tari Eason",
+        "Victor Wembanyama",
+        "Dallas Mavericks",
+        "Naji Marshall",
+        "James Harden",
+        "Cleveland Cavaliers",
+        "Klay Thompson",
+        "DeMar DeRozan",
+        "Bennedict Mathurin",
+        "New Orleans Pelicans",
+        "Jonathan Kuminga",
+        "Amen Thompson",
+        "Saddiq Bey",
+        "Pelle Larsson",
+        "Kawhi Leonard",
+        "Toronto Raptors",
+        "Zach Kram"
+      ]
+    },
+    {
+      "id": "50081576",
+      "title": "Jalen Duren accepts 5-year, $200M deal from Pistons",
+      "summary": "Jalen Duren agreed to a five-year, $200 million fully guaranteed contract to return to the Pistons, agent Chafie Fields told ESPN's Shams Charania ahead of a Thursday night deadline the All-NBA center had to accept a 1-year qualifying offer.",
+      "url": "https://www.espn.com/nba/story/_/id/50081576/jalen-duren-accepts-5-year-200m-deal-pistons-agent-says",
+      "publishedAt": "2026-10-02T03:37:38+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0401/r1636967_600x600_1-1.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Jalen Duren",
+        "news",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-02T03:17:36+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
     {
       "id": "50079853",
       "title": "76ers envision LeBron James' role being 'offense creator'",
       "summary": "Sixers coach Nick Nurse envisions LeBron James setting the table for the offense this season. \"I consider him a great offense creator,\" Nurse said.",
       "url": "https://www.espn.com/nba/story/_/id/50079853/76ers-envision-lebron-james-role-being-offense-creator",
-      "publishedAt": "2026-10-01T23:26:01+00:00",
+      "publishedAt": "2026-10-02T02:31:59+00:00",
       "image": "https://a.espncdn.com/photo/2026/1001/r1724677_1296x729_16-9.jpg",
       "author": "Dave McMenamin",
       "categories": [
@@ -35,22 +138,6 @@
         "Philadelphia 76ers",
         "Malika Andrews",
         "NBA Today"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-01T20:28:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -795,21 +882,6 @@
       ]
     },
     {
-      "id": "50054063",
-      "title": "Jokic leaves no doubt on Nuggets future, says he will re-sign",
-      "summary": "Nikola Jokic left little doubt that he plans to be back in Denver at least next season after saying he plans to sign his extension when it's offered next summer.",
-      "url": "https://www.espn.com/nba/story/_/id/50054063/jokic-leaves-no-doubt-future-gonna-sign-next-year",
-      "publishedAt": "2026-09-28T22:29:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0310/r1626066_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Denver Nuggets",
-        "Nikola Jokic"
-      ]
-    },
-    {
       "id": "50054741",
       "title": "Victor Wembanyama remembers NBA Finals loss but 'very hopeful' for season",
       "summary": "Spurs star Victor Wembanyama said on Monday that he still hasn't recovered from the NBA Finals loss to the Knicks. But he also said the team is in a \"great spot\" heading into this season and \"very hopeful.\"",
@@ -918,20 +990,6 @@
         "LA Clippers",
         "Kawhi Leonard",
         "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50054069",
-      "title": "Owner Mat Ishbia says mortgage company woes won't hurt Suns",
-      "summary": "Phoenix Suns owner Mat Ishbia says financial issues at his mortgage company will have \"zero\" effect on his spending habits when it comes to basketball.",
-      "url": "https://www.espn.com/nba/story/_/id/50054069/owner-mat-ishbia-says-mortgage-company-woes-hurt-suns",
-      "publishedAt": "2026-09-28T19:58:57+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0828/r1537692_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Phoenix Suns",
-        "news"
       ]
     }
   ]
