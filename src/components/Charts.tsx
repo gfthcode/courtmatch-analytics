@@ -1,11 +1,11 @@
 /* Chart rows intentionally support several native chart shapes. */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { useEffect } from 'react';
+import { memo, useEffect } from 'react';
 import { ScatterPlot, type ScatterRow } from './ScatterPlot';
 
 export type ChartOption={kind:'scatter'|'bar'|'line'|'compare'|'radar'|'heatmap';rows?:any[];labels?:string[];values?:any[];series?:string[];average?:number;min?:number;name?:string};
 
-export function Chart({title,description,option,onClick,onSelect,selectedIds,onReady,height=390}:{title:string;description:string;option:ChartOption;onClick?:(id:string)=>void;onSelect?:(ids:string[])=>void;selectedIds?:string[];onReady?:()=>void;height?:number}){
+export const Chart=memo(function Chart({title,description,option,onClick,onSelect,selectedIds,onReady,height=390}:{title:string;description:string;option:ChartOption;onClick?:(id:string)=>void;onSelect?:(ids:string[])=>void;selectedIds?:string[];onReady?:()=>void;height?:number}){
  useEffect(()=>{const timer=window.setTimeout(()=>onReady?.(),80);return()=>window.clearTimeout(timer);},[onReady,option]);
  const rows=option.rows??[];
  return <section className={`chart-panel chart-${option.kind}`}><header><h2>{title}</h2><p>{description}</p></header><div className="chart-canvas native-chart" style={{height}} role={option.kind==='scatter'?undefined:'img'} aria-label={`${title}。${description}`}>
@@ -16,7 +16,7 @@ export function Chart({title,description,option,onClick,onSelect,selectedIds,onR
   {option.kind==='radar'&&<div className="radar-chart">{(option.values??[]).map((v:number,i:number)=><div key={option.labels?.[i]}><span>{option.labels?.[i]}</span><i style={{width:`${v}%`}}/><b>{v.toFixed(0)}</b></div>)}</div>}
   {option.kind==='heatmap'&&<div className="heatmap-chart">{rows.map(r=><div key={r.x} style={{backgroundColor:`hsl(${18+Math.max(0,Math.min(70,100-r.value))*1.2} 72% ${Math.max(26,Math.min(56,r.value/2))}%)`}}><span>{r.x}</span><b>{r.value.toFixed(0)}</b></div>)}</div>}
  </div></section>;
-}
+});
 
 export function scatterOption(rows:ScatterRow[],average:number,min:number):ChartOption{return {kind:'scatter',rows,average,min};}
 export function rankingOption(rows:{id:string;name:string;value:number}[]):ChartOption{return {kind:'bar',rows};}

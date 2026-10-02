@@ -83,26 +83,56 @@ export function leagueAverage(data: Dataset, filters: DataFilters = {}): number 
   return totals ? calculateMatchupMetrics(totals).pointsPer100 : null;
 }
 
-const rate = (records: MatchupRecord[]): number | null => {
-  const aggregate = aggregateRecords(records);
-  return aggregate ? calculateMatchupMetrics(aggregate).pointsPer100 : null;
-};
-
 export function getRankings(data: Dataset, filters: DataFilters = {}): Ranking[] {
-  const current = data.matchups.filter((record) => inPeriod(record, filters));
-  const seasonIndex = [...data.seasons].sort().indexOf(filters.season ?? '');
-  const previousSeason = [...data.seasons].sort()[seasonIndex - 1];
-  const previous = previousSeason ? data.matchups.filter((record) => record.season === previousSeason && (!filters.type || record.seasonType === filters.type)) : [];
-  const average = leagueAverage(data, filters);
   const candidates = searchPlayers(data, filters.search ?? '', filters.team).filter((player) => !filters.position || player.position === filters.position);
+  const accumulators = new Map(candidates.map((player) => [player.id, {
+    offensePossessions: 0, offensePoints: 0, defensePossessions: 0, defensePoints: 0,
+    previousPossessions: 0, previousPoints: 0, weightedRateSquares: 0,
+  }]));
+  let leaguePossessions = 0;
+  let leaguePoints = 0;
+  const seasons = [...data.seasons].sort();
+  const seasonIndex = seasons.indexOf(filters.season ?? '');
+  const previousSeason = seasons[seasonIndex - 1];
+
+  // Accumulate all player and league totals in one pass instead of filtering the
+  // full matchup dataset once per player (500 x 145k records on the live set).
+  for (const record of data.matchups) {
+    const inCurrentPeriod = inPeriod(record, filters);
+    if (inCurrentPeriod) {
+      leaguePossessions += record.matchupPossessions;
+      leaguePoints += record.points;
+      const offense = accumulators.get(record.offensivePlayerId);
+      if (offense) {
+        offense.offensePossessions += record.matchupPossessions;
+        offense.offensePoints += record.points;
+        if (record.matchupPossessions > 0) {
+          const rate = record.points / record.matchupPossessions * 100;
+          offense.weightedRateSquares += record.matchupPossessions * rate ** 2;
+        }
+      }
+      const defense = accumulators.get(record.defensivePlayerId);
+      if (defense) {
+        defense.defensePossessions += record.matchupPossessions;
+        defense.defensePoints += record.points;
+      }
+    }
+    if (previousSeason && record.season === previousSeason && (!filters.type || record.seasonType === filters.type)) {
+      const previous = accumulators.get(record.offensivePlayerId);
+      if (previous) {
+        previous.previousPossessions += record.matchupPossessions;
+        previous.previousPoints += record.points;
+      }
+    }
+  }
+  const average = leaguePossessions > 0 ? leaguePoints / leaguePossessions * 100 : null;
   const rankings: Ranking[] = candidates.map((player) => {
-    const offensiveRecords = current.filter((record) => record.offensivePlayerId === player.id);
-    const defensiveRecords = current.filter((record) => record.defensivePlayerId === player.id);
-    const offensePossessions = offensiveRecords.reduce((total, record) => total + record.matchupPossessions, 0);
-    const defensePossessions = defensiveRecords.reduce((total, record) => total + record.matchupPossessions, 0);
-    const offense = rate(offensiveRecords), defense = rate(defensiveRecords);
-    const previousRate = rate(previous.filter((record) => record.offensivePlayerId === player.id));
-    const variance = offense === null || !offensePossessions ? null : offensiveRecords.reduce((total, record) => total + (record.matchupPossessions > 0 ? record.matchupPossessions * (record.points / record.matchupPossessions * 100 - offense) ** 2 : 0), 0) / offensePossessions;
+    const totals = accumulators.get(player.id)!;
+    const { offensePossessions, defensePossessions } = totals;
+    const offense = offensePossessions > 0 ? totals.offensePoints / offensePossessions * 100 : null;
+    const defense = defensePossessions > 0 ? totals.defensePoints / defensePossessions * 100 : null;
+    const previousRate = totals.previousPossessions > 0 ? totals.previousPoints / totals.previousPossessions * 100 : null;
+    const variance = offense === null ? null : Math.max(0, totals.weightedRateSquares / offensePossessions - offense ** 2);
     const possessions = offensePossessions + defensePossessions;
     return { player, possessions, offensePossessions, defensePossessions, offense, defense,
       edge: average !== null && defense !== null ? average - defense : null,
