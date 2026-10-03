@@ -1,8 +1,28 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-03T16:17:41.342359+00:00",
+  "updatedAt": "2026-10-03T21:14:02.289007+00:00",
   "articles": [
+    {
+      "id": "50092448",
+      "title": "LeBron James calls scrimmage 'great first step' for new-look 76ers",
+      "summary": "Throngs of fans waited in lines more than 10-deep to watch LeBron James, Jaylen Brown and the rest of the 76ers take part in Saturday's scrimmage.",
+      "url": "https://www.espn.com/nba/story/_/id/50092448/lebron-james-calls-scrimmage-great-first-step-new-look-76ers",
+      "publishedAt": "2026-10-03T19:56:49+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723110_1296x729_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Jaylen Brown",
+        "Tyrese Maxey",
+        "VJ Edgecombe",
+        "Joel Embiid",
+        "news",
+        "Dave McMenamin"
+      ]
+    },
     {
       "id": "50088523",
       "title": "Windy: Simmons could guard Wembanyama",
@@ -949,22 +969,6 @@
         "NBA",
         "Washington Wizards",
         "Anthony Gharib"
-      ]
-    },
-    {
-      "id": "50054741",
-      "title": "Victor Wembanyama remembers NBA Finals loss but 'very hopeful' for season",
-      "summary": "Spurs star Victor Wembanyama said on Monday that he still hasn't recovered from the NBA Finals loss to the Knicks. But he also said the team is in a \"great spot\" heading into this season and \"very hopeful.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50054741/victor-wembanyama-remembers-nba-finals-loss-very-hopeful-season",
-      "publishedAt": "2026-09-28T21:29:27+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723179_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "news",
-        "Michael C. Wright"
       ]
     }
   ]
