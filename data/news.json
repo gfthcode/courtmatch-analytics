@@ -1,8 +1,84 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-02T22:14:14.786426+00:00",
+  "updatedAt": "2026-10-03T05:18:37.068339+00:00",
   "articles": [
+    {
+      "id": "50088523",
+      "title": "Windy: Simmons could guard Wembanyama",
+      "summary": "Brian Windhorst believes a healthy Ben Simmons could defend anyone 1 through 5 on the court, including Victor Wembanyama",
+      "url": "https://www.espn.com/video/clip/_/id/50088523/simmons-guard-wembanyama",
+      "publishedAt": "2026-10-03T04:46:35+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1003/dm_261003_NBA_Analysis_Windy_Simmons_could_guard_Wembanyama_20261003/dm_261003_NBA_Analysis_Windy_Simmons_could_guard_Wembanyama_20261003.jpg",
+      "author": "",
+      "categories": [
+        "Ben Simmons",
+        "LSU Tigers",
+        "Louisiana State University",
+        "NBA",
+        "NCAA Men's Basketball",
+        "Sacramento Kings"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-03T02:37:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50087727",
+      "title": "Sources: Grizzlies waive Jordan Hawkins weeks after Pels trade",
+      "summary": "The Memphis Grizzlies and guard Jordan Hawkins have agreed to part ways via waivers, allowing the 2023 lottery pick to find a new home in free agency, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50087727/sources-grizzlies-waive-jordan-hawkins-weeks-pels-trade",
+      "publishedAt": "2026-10-03T02:33:07+00:00",
+      "image": "https://a.espncdn.com/photo/2023/1117/r1254480_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Memphis Grizzlies",
+        "Jordan Hawkins",
+        "news",
+        "nba free agency"
+      ]
+    },
+    {
+      "id": "50079137",
+      "title": "Where NBA expansion stands ahead of the 2026-27 season",
+      "summary": "As NBA training camps begin for 30 teams, here's the latest intel on the potential for the 31st and 32nd teams.",
+      "url": "https://www.espn.com/nba/story/_/id/50079137/nba-expansion-las-vegas-seattle",
+      "publishedAt": "2026-10-03T00:04:41+00:00",
+      "image": "https://a.espncdn.com/photo/2022/1206/r1103138_608x342_16-9.jpg",
+      "author": "Ramona Shelburne",
+      "categories": [
+        "NBA",
+        "Ramona Shelburne"
+      ]
+    },
+    {
+      "id": "50084279",
+      "title": "Trail Blazers fire new announcer over past inappropriate posts",
+      "summary": "The Trail Blazers hired then on the same day fired Braiden Bell as their play-by-play announcer after a series of inappropriate social media posts from when he was a teenager came to light.",
+      "url": "https://www.espn.com/nba/story/_/id/50084279/trail-blazers-fire-new-announcer-inappropriate-posts",
+      "publishedAt": "2026-10-02T23:31:13+00:00",
+      "image": "https://a.espncdn.com/photo/2024/1110/r1412740_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Portland Trail Blazers",
+        "news"
+      ]
+    },
     {
       "id": "50086121",
       "title": "Giannis, Bam discuss 'nightmare' other teams will face when playing the Heat",
@@ -66,49 +142,6 @@
         "NBA",
         "Miami Heat",
         "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-02T14:42:03+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50084279",
-      "title": "Trail Blazers fire new announcer over past inappropriate posts",
-      "summary": "The Trail Blazers hired then on the same day fired Braiden Bell as their play-by-play announcer after a series of inappropriate social media posts from when he was a teenager came to light.",
-      "url": "https://www.espn.com/nba/story/_/id/50084279/trail-blazers-fire-new-announcer-inappropriate-posts",
-      "publishedAt": "2026-10-02T13:34:37+00:00",
-      "image": "https://a.espncdn.com/photo/2024/1110/r1412740_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Portland Trail Blazers",
-        "news"
-      ]
-    },
-    {
-      "id": "50079137",
-      "title": "Where NBA expansion stands ahead of the 2026-27 season",
-      "summary": "As NBA training camps begin for 30 teams, here's the latest intel on the potential for the 31st and 32nd teams.",
-      "url": "https://www.espn.com/nba/story/_/id/50079137/nba-expansion-las-vegas-seattle",
-      "publishedAt": "2026-10-02T10:52:13+00:00",
-      "image": "https://a.espncdn.com/photo/2022/1206/r1103138_608x342_16-9.jpg",
-      "author": "Ramona Shelburne",
-      "categories": [
-        "NBA",
-        "Ramona Shelburne"
       ]
     },
     {
@@ -904,21 +937,6 @@
       ]
     },
     {
-      "id": "50054727",
-      "title": "76ers say 'sacrifice' key to success after offseason additions",
-      "summary": "The 76ers say they are comfortable with making sacrifices for the benefit of the team after adding LeBron James and Jaylen Brown in the offseason.",
-      "url": "https://www.espn.com/nba/story/_/id/50054727/76ers-say-sacrifice-key-success-offseason-additions",
-      "publishedAt": "2026-09-28T23:32:11+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723110_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Dave McMenamin"
-      ]
-    },
-    {
       "id": "50055229",
       "title": "Wizards' Anthony Davis to wait until summer for extension talks",
       "summary": "Anthony Davis plans on finishing the season with the Washington Wizards before deciding on any potential contract extension, he said Monday.",
@@ -947,21 +965,6 @@
         "Victor Wembanyama",
         "news",
         "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50054712",
-      "title": "Sources: Hornets waiving recently acquired Rob Dillingham",
-      "summary": "The Charlotte Hornets are waiving guard Rob Dillingham one day after acquiring the former No. 8 pick, sources told ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/50054712/sources-hornets-waiving-recently-acquired-rob-dillingham",
-      "publishedAt": "2026-09-28T21:25:52+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0926/r1722186_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Charlotte Hornets",
-        "Rob Dillingham"
       ]
     }
   ]
