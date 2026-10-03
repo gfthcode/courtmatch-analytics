@@ -1,7 +1,7 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-03T05:18:37.068339+00:00",
+  "updatedAt": "2026-10-03T11:39:23.224866+00:00",
   "articles": [
     {
       "id": "50088523",
