@@ -1,8 +1,40 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-04T18:38:28.471584+00:00",
+  "updatedAt": "2026-10-04T23:57:20.491178+00:00",
   "articles": [
+    {
+      "id": "50104825",
+      "title": "Spurs' Tobias Harris to miss preseason with left calf strain",
+      "summary": "Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
+      "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
+      "publishedAt": "2026-10-04T23:44:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1726067_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "news",
+        "NBA",
+        "San Antonio Spurs",
+        "Tobias Harris",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50104454",
+      "title": "Pistons' Jalen Duren happy to return despite prolonged talks",
+      "summary": "Despite a prolonged negotiation that appeared to turn sour at times, Jalen Duren said he is relieved and excited to return to Detroit.",
+      "url": "https://www.espn.com/nba/story/_/id/50104454/pistons-jalen-duren-happy-return-prolonged-talks",
+      "publishedAt": "2026-10-04T22:33:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1726049_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "news",
+        "Detroit Pistons",
+        "NBA",
+        "Jalen Duren",
+        "Jamal Collier"
+      ]
+    },
     {
       "id": "50094632",
       "title": "Lakers' Ziaire Williams proposes to longtime girlfriend at Bruno Mars tour",
@@ -937,36 +969,6 @@
         "NBA",
         "Anthony Edwards",
         "League Boost"
-      ]
-    },
-    {
-      "id": "50055235",
-      "title": "Zion Williamson, on cusp of 8th season, not where he wants to be",
-      "summary": "Zion Williamson smiled politely, but kept his answer brief when asked how he would summarize his first seven years as an NBA player, saying \"I'm not where I need to be.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50055235/zion-williamson-cusp-8th-season-not-where-wants-be",
-      "publishedAt": "2026-09-28T23:53:39+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0523/r1662474_1296x729_16-9.jpg",
-      "author": "Associated Press",
-      "categories": [
-        "NBA",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "news"
-      ]
-    },
-    {
-      "id": "50055229",
-      "title": "Wizards' Anthony Davis to wait until summer for extension talks",
-      "summary": "Anthony Davis plans on finishing the season with the Washington Wizards before deciding on any potential contract extension, he said Monday.",
-      "url": "https://www.espn.com/nba/story/_/id/50055229/wizards-anthony-davis-wait-summer-extension-talks",
-      "publishedAt": "2026-09-28T22:59:53+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0715/r1689648_600x400_3-2.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "news",
-        "NBA",
-        "Washington Wizards",
-        "Anthony Gharib"
       ]
     }
   ]
