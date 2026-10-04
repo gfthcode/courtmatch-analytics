@@ -1,8 +1,23 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-03T23:47:09.004732+00:00",
+  "updatedAt": "2026-10-04T05:52:11.161971+00:00",
   "articles": [
+    {
+      "id": "50094632",
+      "title": "Lakers' Ziaire Williams proposes to longtime girlfriend at Bruno Mars tour",
+      "summary": "The singer complemented the proposal during his second of five Inglewood shows.",
+      "url": "https://www.espn.com/nba/story/_/id/50094632/los-angeles-lakers-ziaire-williams-bruno-mars-romantic-tour-proposal",
+      "publishedAt": "2026-10-04T00:40:19+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1725524_608x342_16-9.jpg",
+      "author": "Kalan Hooks",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Ziaire Williams",
+        "Kalan Hooks"
+      ]
+    },
     {
       "id": "50092448",
       "title": "LeBron James calls scrimmage 'great first step' for new-look 76ers",
@@ -816,23 +831,6 @@
         "NBA",
         "Ben Simmons",
         "Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50055051",
-      "title": "Anthony Edwards happy to cede PG duties to LaMelo Ball",
-      "summary": "Anthony Edwards says he's happy with the moves Minnesota made over the summer and is excited to continue to develop chemistry with LaMelo Ball.",
-      "url": "https://www.espn.com/nba/story/_/id/50055051/anthony-edwards-happy-cede-pg-duties-lamelo-ball",
-      "publishedAt": "2026-09-29T02:26:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723199_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "news",
-        "NBA",
-        "Minnesota Timberwolves",
-        "LaMelo Ball",
-        "Anthony Edwards",
-        "Jamal Collier"
       ]
     },
     {
