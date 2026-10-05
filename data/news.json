@@ -1,8 +1,27 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-05T05:39:48.892048+00:00",
+  "updatedAt": "2026-10-05T14:37:59.173298+00:00",
   "articles": [
+    {
+      "id": "50104877",
+      "title": "Behind the scenes inside LeBron's first 76ers training camp",
+      "summary": "From on-court schemes to a private team dinner to an attempt at divine intervention, here's what happened in LeBron's first camp with the 76ers.",
+      "url": "https://www.espn.com/nba/story/_/id/50104877/lebron-james-philadelphia-76ers-training-camp",
+      "publishedAt": "2026-10-05T14:00:47+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1726080_608x342_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Tyrese Maxey",
+        "Joel Embiid",
+        "VJ Edgecombe",
+        "Jaylen Brown",
+        "Dave McMenamin"
+      ]
+    },
     {
       "id": "50106572",
       "title": "Golden State Warriors vs. LA Clippers: Game Highlights",
@@ -975,21 +994,6 @@
         "Boston Celtics",
         "NBA",
         "Jaylen Brown"
-      ]
-    },
-    {
-      "id": "50055711",
-      "title": "Anthony Edwards excited for new-look Timberwolves",
-      "summary": "Anthony Edwards excited for new-look Timberwolves",
-      "url": "https://www.espn.com/video/clip/_/id/50055711/anthony-edwards-excited-new-look-timberwolves",
-      "publishedAt": "2026-09-29T01:49:45+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/ss_20260928_205015843_3678893/ss_20260928_205015843_3678893.jpg",
-      "author": "",
-      "categories": [
-        "Minnesota Timberwolves",
-        "NBA",
-        "Anthony Edwards",
-        "League Boost"
       ]
     }
   ]
