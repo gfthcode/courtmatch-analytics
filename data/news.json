@@ -1,8 +1,76 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-04T23:57:20.491178+00:00",
+  "updatedAt": "2026-10-05T05:39:48.892048+00:00",
   "articles": [
+    {
+      "id": "50106572",
+      "title": "Golden State Warriors vs. LA Clippers: Game Highlights",
+      "summary": "Golden State Warriors vs. LA Clippers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50106572/game-highlights",
+      "publishedAt": "2026-10-05T01:54:01+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1005/1274de8d-cbfa-4b27-bff7-d605feb6c974/1274de8d-cbfa-4b27-bff7-d605feb6c974.jpg",
+      "author": "",
+      "categories": [
+        "Charles Bassey",
+        "Miles Kelly",
+        "Cam Christie",
+        "SC4U - Full Highlight",
+        "Golden State Warriors",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "LA Clippers",
+        "Rui Hachimura",
+        "Graham Ike",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Golden State Warriors @ LA Clippers"
+      ]
+    },
+    {
+      "id": "50106547",
+      "title": "Utah Jazz vs. Denver Nuggets: Game Highlights",
+      "summary": "Utah Jazz vs. Denver Nuggets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50106547/game-highlights",
+      "publishedAt": "2026-10-05T01:53:24+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1005/96f93cb7-9e57-4ef2-9056-fe6edce0f32a/96f93cb7-9e57-4ef2-9056-fe6edce0f32a.jpg",
+      "author": "",
+      "categories": [
+        "Trevon Brazile",
+        "Jaren Jackson Jr",
+        "Utah Jazz",
+        "DeMar DeRozan",
+        "Denver Nuggets",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Nikola Jokic",
+        "Julian Strawther",
+        "SC4U  - Eligible",
+        "5 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Utah Jazz @ Denver Nuggets"
+      ]
+    },
+    {
+      "id": "50104454",
+      "title": "Pistons' Jalen Duren happy to return despite prolonged talks",
+      "summary": "Despite a prolonged negotiation that appeared to turn sour at times, Jalen Duren said he is relieved and excited to return to Detroit.",
+      "url": "https://www.espn.com/nba/story/_/id/50104454/pistons-jalen-duren-happy-return-prolonged-talks",
+      "publishedAt": "2026-10-05T00:23:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1726049_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "news",
+        "Detroit Pistons",
+        "NBA",
+        "Jalen Duren",
+        "Jamal Collier"
+      ]
+    },
     {
       "id": "50104825",
       "title": "Spurs' Tobias Harris to miss preseason with left calf strain",
@@ -17,22 +85,6 @@
         "San Antonio Spurs",
         "Tobias Harris",
         "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50104454",
-      "title": "Pistons' Jalen Duren happy to return despite prolonged talks",
-      "summary": "Despite a prolonged negotiation that appeared to turn sour at times, Jalen Duren said he is relieved and excited to return to Detroit.",
-      "url": "https://www.espn.com/nba/story/_/id/50104454/pistons-jalen-duren-happy-return-prolonged-talks",
-      "publishedAt": "2026-10-04T22:33:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1726049_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "news",
-        "Detroit Pistons",
-        "NBA",
-        "Jalen Duren",
-        "Jamal Collier"
       ]
     },
     {
@@ -866,22 +918,6 @@
       ]
     },
     {
-      "id": "50055438",
-      "title": "Tatum 'comfortable' leading new-look Celtics post-Brown trade",
-      "summary": "Jayson Tatum says he's thankful for his time with Jaylen Brown and the success they shared but feels comfortable leading the new-look Celtics this season.",
-      "url": "https://www.espn.com/nba/story/_/id/50055438/tatum-comfortable-leading-new-look-celtics-post-brown-trade",
-      "publishedAt": "2026-09-29T02:26:16+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0427/r1649803_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Boston Celtics",
-        "Jayson Tatum",
-        "Jaylen Brown",
-        "news"
-      ]
-    },
-    {
       "id": "50056203",
       "title": "Nikola Jokic hilariously thanks reporter for calling him 'jacked'",
       "summary": "Nikola Jokic hilariously thanks reporter for calling him 'jacked'",
@@ -939,21 +975,6 @@
         "Boston Celtics",
         "NBA",
         "Jaylen Brown"
-      ]
-    },
-    {
-      "id": "50055692",
-      "title": "Wemby using Finals loss as motivation",
-      "summary": "Wemby using Finals loss as motivation",
-      "url": "https://www.espn.com/video/clip/_/id/50055692/wemby-using-finals-loss-motivation",
-      "publishedAt": "2026-09-29T01:50:03+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/ss_20260928_204234162_3678890/ss_20260928_204234162_3678890.jpg",
-      "author": "",
-      "categories": [
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "NBA",
-        "League Boost"
       ]
     },
     {
