@@ -1,8 +1,127 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-05T14:37:59.173298+00:00",
+  "updatedAt": "2026-10-05T22:00:59.270606+00:00",
   "articles": [
+    {
+      "id": "50112238",
+      "title": "NBA testing smart basketballs, wrist wearables in preseason",
+      "summary": "The NBA is experimenting with smart basketballs and wrist wearables for officials in select preseason games in order to collect data on the review process.",
+      "url": "https://www.espn.com/nba/story/_/id/50112238/nba-testing-smart-basketballs-wrist-wearables-preseason",
+      "publishedAt": "2026-10-05T21:47:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0605/r1668330_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "news"
+      ]
+    },
+    {
+      "id": "50111860",
+      "title": "Hornets guard Coby White to sit preseason after calf strain",
+      "summary": "Hornets guard Coby White suffered a left calf strain during training camp and will miss the remainder of preseason, the team announced Monday.",
+      "url": "https://www.espn.com/nba/story/_/id/50111860/hornets-guard-coby-white-sit-preseason-calf-strain",
+      "publishedAt": "2026-10-05T21:23:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0625/r1679458_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Charlotte Hornets",
+        "Coby White"
+      ]
+    },
+    {
+      "id": "50111838",
+      "title": "James, Embiid, Maxey sit out 76ers' preseason opener vs. Knicks",
+      "summary": "LeBron James, Joel Embiid and Tyrese Maxey will sit out the 76ers' preseason opener against the Knicks on Monday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50111838/james-embiid-maxey-sit-76ers-preseason-opener-vs-knicks",
+      "publishedAt": "2026-10-05T21:19:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724677_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Joel Embiid",
+        "Tyrese Maxey",
+        "LeBron James",
+        "news"
+      ]
+    },
+    {
+      "id": "50110415",
+      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
+      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
+      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
+      "publishedAt": "2026-10-05T20:50:17+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "news",
+        "Karl-Anthony Towns"
+      ]
+    },
+    {
+      "id": "50111525",
+      "title": "Shams: KAT contract negotiations 'a growing cloud around the New York Knicks'",
+      "summary": "Shams: KAT contract negotiations 'a growing cloud around the New York Knicks'",
+      "url": "https://www.espn.com/video/clip/_/id/50111525/kat-contract-negotiations-growing-cloud-new-york-knicks",
+      "publishedAt": "2026-10-05T20:18:20+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1005/ss_20261005_161111449_3686245/ss_20261005_161111449_3686245.jpg",
+      "author": "",
+      "categories": [
+        "Karl-Anthony Towns",
+        "New York Knicks",
+        "NBA",
+        "Shams Charania",
+        "Verts - Exclude Content",
+        "NBA Today",
+        "Team Boost"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-05T20:17:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50110301",
+      "title": "Fantasy basketball: Eric Karabell's 'Do not draft' list",
+      "summary": "Eric Karabell highlights the players to fade at their current average draft position in fantasy basketball drafts.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50110301/fantasy-basketball-do-not-draft-list-nba-2026-27",
+      "publishedAt": "2026-10-05T19:19:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1005/r1726401_1296x729_16-9.jpg",
+      "author": "Eric Karabell",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "NBA",
+        "LaMelo Ball",
+        "Anthony Davis",
+        "Joel Embiid",
+        "Zion Williamson",
+        "Damian Lillard",
+        "Mikal Bridges",
+        "Lauri Markkanen",
+        "Kristaps Porzingis",
+        "Kawhi Leonard",
+        "Eric Karabell"
+      ]
+    },
     {
       "id": "50104877",
       "title": "Behind the scenes inside LeBron's first 76ers training camp",
@@ -156,22 +275,6 @@
         "NBA",
         "NCAA Men's Basketball",
         "Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-03T02:37:52+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -745,23 +848,6 @@
       ]
     },
     {
-      "id": "50055730",
-      "title": "Bronny on LeBron James' Lakers exit: 'He's got his own path'",
-      "summary": "Bronny James said he hasn't spoken much to his father, LeBron, about the decision to leave the Lakers this summer, but said he's excited to face him on Christmas.",
-      "url": "https://www.espn.com/nba/story/_/id/50055730/bronny-lebron-james-lakers-exit-got-own-path",
-      "publishedAt": "2026-09-30T10:23:45+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0331/r1636501_2_600x400_3-2.jpg",
-      "author": "Brian Windhorst",
-      "categories": [
-        "news",
-        "Los Angeles Lakers",
-        "NBA",
-        "Bronny James",
-        "LeBron James",
-        "Brian Windhorst"
-      ]
-    },
-    {
       "id": "50063714",
       "title": "NBA issues new guidelines, instructs refs to crack down on push-offs",
       "summary": "The NBA has issued new guidance to its referees on four types of \"high-volume and highly impactful\" calls, including push-offs.",
@@ -920,80 +1006,6 @@
         "Domantas Sabonis",
         "Jalen Johnson",
         "Eric Karabell"
-      ]
-    },
-    {
-      "id": "50056610",
-      "title": "'I love this game': Ben Simmons rejects NBA criticism",
-      "summary": "A revitalised Ben Simmons has called \"bull----\" on critics who claim the reason he sat out the last NBA season is because he doesn't love basketball.",
-      "url": "https://www.espn.com/nba/story/_/id/50056610/nba-ben-simmons-rejects-criticisms-love-game",
-      "publishedAt": "2026-09-29T04:56:53+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723287_1296x518_5-2.jpg",
-      "author": "AAP",
-      "categories": [
-        "NBA",
-        "Ben Simmons",
-        "Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50056203",
-      "title": "Nikola Jokic hilariously thanks reporter for calling him 'jacked'",
-      "summary": "Nikola Jokic hilariously thanks reporter for calling him 'jacked'",
-      "url": "https://www.espn.com/video/clip/_/id/50056203/nikola-jokic-hilariously-thanks-reporter-calling-jacked",
-      "publishedAt": "2026-09-29T02:17:19+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/ss_20260928_221406994_3678944/ss_20260928_221406994_3678944.jpg",
-      "author": "",
-      "categories": [
-        "Denver Nuggets",
-        "NBA",
-        "Nikola Jokic",
-        "Team Boost"
-      ]
-    },
-    {
-      "id": "50056151",
-      "title": "Bronny creating his 'own path' after LeBron's Lakers departure",
-      "summary": "Bronny creating his 'own path' after LeBron's Lakers departure",
-      "url": "https://www.espn.com/video/clip/_/id/50056151/bronny-creating-own-path-lebron-lakers-departure",
-      "publishedAt": "2026-09-29T02:12:27+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/ss_20260928_220258694_3678940/ss_20260928_220258694_3678940.jpg",
-      "author": "",
-      "categories": [
-        "Los Angeles Lakers",
-        "Bronny James",
-        "NBA",
-        "LeBron James"
-      ]
-    },
-    {
-      "id": "50055744",
-      "title": "SGA not focused on trying to win 3rd straight MVP",
-      "summary": "SGA not focused on trying to win 3rd straight MVP",
-      "url": "https://www.espn.com/video/clip/_/id/50055744/sga-not-focused-trying-win-3rd-straight-mvp",
-      "publishedAt": "2026-09-29T01:51:45+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/ss_20260928_210548329_3678903/ss_20260928_210548329_3678903.jpg",
-      "author": "",
-      "categories": [
-        "Oklahoma City Thunder",
-        "NBA",
-        "Shai Gilgeous-Alexander",
-        "League Boost"
-      ]
-    },
-    {
-      "id": "50055726",
-      "title": "Jayson Tatum opens up about the Jaylen Brown trade",
-      "summary": "Jayson Tatum opens up about the Jaylen Brown trade",
-      "url": "https://www.espn.com/video/clip/_/id/50055726/jayson-tatum-opens-jaylen-brown-trade",
-      "publishedAt": "2026-09-29T01:50:56+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0928/ss_20260928_205453954_3678896/ss_20260928_205453954_3678896.jpg",
-      "author": "",
-      "categories": [
-        "Jayson Tatum",
-        "Boston Celtics",
-        "NBA",
-        "Jaylen Brown"
       ]
     }
   ]
