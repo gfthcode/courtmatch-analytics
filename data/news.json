@@ -1,14 +1,92 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-06T15:57:13.178765+00:00",
+  "updatedAt": "2026-10-06T22:39:36.194234+00:00",
   "articles": [
+    {
+      "id": "50075156",
+      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+      "publishedAt": "2026-10-06T21:59:26+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
+      "author": "ESPN Fantasy",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-06T20:24:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50118908",
+      "title": "76ers lose backup center Ariel Hukporti to torn Achilles",
+      "summary": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
+      "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
+      "publishedAt": "2026-10-06T19:47:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726939_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Ariel Hukporti",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50112265",
+      "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
+      "summary": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
+      "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
+      "publishedAt": "2026-10-06T18:37:19+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "author": "NBA insiders",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Karl-Anthony Towns",
+        "NBA Insiders"
+      ]
+    },
+    {
+      "id": "50117976",
+      "title": "Did you miss the NBA offseason? Here's what to know for fantasy basketball",
+      "summary": "Jim McCormick highlights all the changes -- and other things to know -- heading into the new fantasy basketball season.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50117976/fantasy-basketball-offseason-news-2026-2027",
+      "publishedAt": "2026-10-06T18:24:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726889_1296x729_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "NBA",
+        "Jim McCormick"
+      ]
+    },
     {
       "id": "50117250",
       "title": "Why Stephen A. trusts LeBron to be playoff-ready",
       "summary": "Why Stephen A. trusts LeBron to be playoff-ready",
       "url": "https://www.espn.com/video/clip/_/id/50117250/why-stephen-trusts-lebron-playoff-ready",
-      "publishedAt": "2026-10-06T15:51:28+00:00",
+      "publishedAt": "2026-10-06T16:00:28+00:00",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_114702747_3686864/ss_20261006_114702747_3686864.jpg",
       "author": "",
       "categories": [
@@ -16,7 +94,8 @@
         "LeBron James",
         "Philadelphia 76ers",
         "Stephen A. Smith",
-        "First Take"
+        "First Take",
+        "Verts - Exclude Content"
       ]
     },
     {
@@ -52,22 +131,6 @@
       ]
     },
     {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-06T14:35:27+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
       "id": "50110415",
       "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
       "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
@@ -80,21 +143,6 @@
         "New York Knicks",
         "news",
         "Karl-Anthony Towns"
-      ]
-    },
-    {
-      "id": "50112265",
-      "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
-      "summary": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
-      "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
-      "publishedAt": "2026-10-06T12:29:23+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
-      "author": "NBA insiders",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "NBA Insiders"
       ]
     },
     {
@@ -627,21 +675,6 @@
       ]
     },
     {
-      "id": "50075156",
-      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-      "publishedAt": "2026-10-02T10:45:33+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball"
-      ]
-    },
-    {
       "id": "48957095",
       "title": "2026 NBA free agency: Grades for offseason signings, extensions",
       "summary": "We're grading the biggest free agent signings and extensions, including Jalen Duren's new five-year deal.",
@@ -924,22 +957,6 @@
       ]
     },
     {
-      "id": "50070155",
-      "title": "Clippers' Brandon Ingram gets in light work before practice",
-      "summary": "Brandon Ingram, recovering from heel surgery, got in some light shooting and court work ahead of Clippers practice Tuesday in Hawai'i.",
-      "url": "https://www.espn.com/nba/story/_/id/50070155/clippers-brandom-ingram-gets-light-work-practice",
-      "publishedAt": "2026-09-30T19:26:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0501/r1652083_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "LA Clippers",
-        "Brandon Ingram",
-        "Anthony Slater"
-      ]
-    },
-    {
       "id": "50069755",
       "title": "Fantasy basketball: Ajay Mitchell, Ayo Dosunmu and other top sleepers to target",
       "summary": "Jim McCormick highlights the lesser known players who could be worth taking a flyer on in the final rounds of your fantasy draft.",
@@ -959,20 +976,6 @@
         "Zach Edey",
         "Ayo Dosunmu",
         "Jim McCormick"
-      ]
-    },
-    {
-      "id": "50069241",
-      "title": "Michael Jordan's Game 3 'Last Dance' jersey sold for record amount",
-      "summary": "Jordan wore the jersey in Game 3 of the 1998 NBA Finals.",
-      "url": "https://www.espn.com/nba/story/_/id/50069241/michael-jordan-last-dance-game-3-1998-nba-finals-game-worn-jersey-auction-record",
-      "publishedAt": "2026-09-30T18:34:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0930/r1724064_608x342_16-9.jpg",
-      "author": "Kalan Hooks",
-      "categories": [
-        "NBA",
-        "Chicago Bulls",
-        "Kalan Hooks"
       ]
     }
   ]
