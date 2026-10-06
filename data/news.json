@@ -1,8 +1,219 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-05T22:00:59.270606+00:00",
+  "updatedAt": "2026-10-06T06:20:27.899499+00:00",
   "articles": [
+    {
+      "id": "50114927",
+      "title": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
+      "summary": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50114927/game-highlights",
+      "publishedAt": "2026-10-06T05:13:35+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/e4ec1628-617e-4b8a-af3c-879564ad4a1e/e4ec1628-617e-4b8a-af3c-879564ad4a1e.jpg",
+      "author": "",
+      "categories": [
+        "Los Angeles Lakers",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Nique Clifford",
+        "Sandro Mamukelashvili",
+        "4 Star Rating",
+        "Quentin Grimes",
+        "Cameron Carr",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Los Angeles Lakers @ Sacramento Kings"
+      ]
+    },
+    {
+      "id": "50114505",
+      "title": "Minnesota Timberwolves vs. Milwaukee Bucks: Game Highlights",
+      "summary": "Minnesota Timberwolves vs. Milwaukee Bucks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50114505/game-highlights",
+      "publishedAt": "2026-10-06T03:20:59+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/23faf852-9fbd-4abc-a258-9b4e024ccb48/23faf852-9fbd-4abc-a258-9b4e024ccb48.jpg",
+      "author": "",
+      "categories": [
+        "Tyler Herro",
+        "Minnesota Timberwolves",
+        "Kevin Porter Jr",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Antonio Reeves",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Anthony Edwards",
+        "Joan Beringer",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Minnesota Timberwolves @ Milwaukee Bucks"
+      ]
+    },
+    {
+      "id": "50113626",
+      "title": "76ers backup center Ariel Hukporti exits preseason opener early",
+      "summary": "Just five minutes into the preseason opener against the Knicks on Monday, 76ers backup center Ariel Hukporti suffered a right leg injury, causing him to leave the game.",
+      "url": "https://www.espn.com/nba/story/_/id/50113626/76ers-backup-center-ariel-hukporti-exits-preseason-opener-early",
+      "publishedAt": "2026-10-06T03:16:14+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726649_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "Philadelphia 76ers",
+        "Ariel Hukporti",
+        "NBA",
+        "news",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50113916",
+      "title": "New York Knicks vs. Philadelphia 76ers: Game Highlights",
+      "summary": "New York Knicks vs. Philadelphia 76ers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50113916/game-highlights",
+      "publishedAt": "2026-10-06T02:46:03+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/e2b76986-3e01-47f1-94bd-89b8892f1d77/e2b76986-3e01-47f1-94bd-89b8892f1d77.jpg",
+      "author": "",
+      "categories": [
+        "Caleb Love",
+        "Dillon Jones",
+        "Philadelphia 76ers",
+        "New York Knicks",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Duke Miles",
+        "SC4U  - Eligible",
+        "Jaylen Brown",
+        "4 Star Rating",
+        "Andre Drummond",
+        "Saint Thomas",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "New York Knicks @ Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50114093",
+      "title": "Memphis Grizzlies vs. Atlanta Hawks: Game Highlights",
+      "summary": "Memphis Grizzlies vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50114093/game-highlights",
+      "publishedAt": "2026-10-06T02:45:55+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/fab8da5f-e8bd-4dd4-b363-6f8dcc0d9c55/fab8da5f-e8bd-4dd4-b363-6f8dcc0d9c55.jpg",
+      "author": "",
+      "categories": [
+        "GG Jackson",
+        "Javon Small",
+        "Atlanta Hawks",
+        "Ty Jerome",
+        "Corey Kispert",
+        "SC4U - Full Highlight",
+        "Memphis Grizzlies",
+        "NBA",
+        "3 Star Rating",
+        "Cameron Boozer",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Memphis Grizzlies @ Atlanta Hawks"
+      ]
+    },
+    {
+      "id": "50114231",
+      "title": "Phoenix Suns vs. Detroit Pistons: Game Highlights",
+      "summary": "Phoenix Suns vs. Detroit Pistons: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50114231/game-highlights",
+      "publishedAt": "2026-10-06T02:45:48+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/a903535f-4de1-4ecd-b874-4c673eb8ea6e/a903535f-4de1-4ecd-b874-4c673eb8ea6e.jpg",
+      "author": "",
+      "categories": [
+        "John Collins",
+        "Phoenix Suns",
+        "Detroit Pistons",
+        "Ronald Holland II",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Jamaree Bouyea",
+        "SC4U  - Eligible",
+        "Ebuka Okorie",
+        "Devin Booker",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Phoenix Suns @ Detroit Pistons"
+      ]
+    },
+    {
+      "id": "50113284",
+      "title": "Jaylen Brown drops 22 points in first half of 76ers preseason debut",
+      "summary": "Jaylen Brown drops 22 points in first half of 76ers preseason debut",
+      "url": "https://www.espn.com/video/clip/_/id/50113284/jaylen-brown-drops-22-points-first-half-76ers-preseason-debut",
+      "publishedAt": "2026-10-06T00:35:37+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/81503108-f8a1-4671-b4f9-90d822a345f7/81503108-f8a1-4671-b4f9-90d822a345f7.jpg",
+      "author": "",
+      "categories": [
+        "Philadelphia 76ers",
+        "New York Knicks",
+        "NBA",
+        "Jaylen Brown",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "League Boost",
+        "New York Knicks @ Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50112557",
+      "title": "Sources: Clippers' Max Strus (foot) out at least 4 weeks",
+      "summary": "Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
+      "publishedAt": "2026-10-05T22:41:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1005/r1726578_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "LA Clippers",
+        "Max Strus",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-05T22:31:24+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50112444",
+      "title": "Sources: Jordan Hawkins to join Bulls on two-way deal",
+      "summary": "Former lottery pick Jordan Hawkins is signing a two-way deal with the Chicago Bulls, sources told ESPN's Shams Charania on Monday.",
+      "url": "https://www.espn.com/nba/story/_/id/50112444/sources-jordan-hawkins-join-bulls-two-way-deal",
+      "publishedAt": "2026-10-05T22:10:45+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0124/r1442782_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "Chicago Bulls",
+        "NBA",
+        "Jordan Hawkins"
+      ]
+    },
     {
       "id": "50112238",
       "title": "NBA testing smart basketballs, wrist wearables in preseason",
@@ -79,22 +290,6 @@
         "Verts - Exclude Content",
         "NBA Today",
         "Team Boost"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a month away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-05T20:17:39+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -258,23 +453,6 @@
         "Joel Embiid",
         "news",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50088523",
-      "title": "Windy: Simmons could guard Wembanyama",
-      "summary": "Brian Windhorst believes a healthy Ben Simmons could defend anyone 1 through 5 on the court, including Victor Wembanyama",
-      "url": "https://www.espn.com/video/clip/_/id/50088523/simmons-guard-wembanyama",
-      "publishedAt": "2026-10-03T04:46:35+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1003/dm_261003_NBA_Analysis_Windy_Simmons_could_guard_Wembanyama_20261003/dm_261003_NBA_Analysis_Windy_Simmons_could_guard_Wembanyama_20261003.jpg",
-      "author": "",
-      "categories": [
-        "Ben Simmons",
-        "LSU Tigers",
-        "Louisiana State University",
-        "NBA",
-        "NCAA Men's Basketball",
-        "Sacramento Kings"
       ]
     },
     {
@@ -604,8 +782,7 @@
         "San Antonio Spurs",
         "Victor Wembanyama",
         "Nikola Jokic",
-        "Kevin Durant",
-        "Ben Golliver"
+        "Kevin Durant"
       ]
     },
     {
@@ -664,35 +841,6 @@
         "Philadelphia 76ers",
         "Tyrese Maxey",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50059977",
-      "title": "Ex-NBA champ JR Smith arrested on assault charge in Texas",
-      "summary": "Former NBA champion JR Smith was arrested Monday in Texas on a charge of assault causing \"bodily injury family violence.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50059977/ex-nba-champ-jr-smith-arrested-assault-charge-texas",
-      "publishedAt": "2026-09-30T21:06:20+00:00",
-      "image": "https://a.espncdn.com/photo/2021/0824/r899888_1296x729_16-9.jpg",
-      "author": "Michael Rothstein",
-      "categories": [
-        "NBA",
-        "JR Smith",
-        "news",
-        "Michael Rothstein"
-      ]
-    },
-    {
-      "id": "50060732",
-      "title": "Sources: NBA reviewing bids from three finalists for Vegas team",
-      "summary": "The NBA is expected to select the winning bid for owner of the Las Vegas expansion team from among three finalist groups: Nancy Walton Laurie and Bill Laurie; Steve Apostolopoulos and Marc Lasry; and Bill Foley and Jerry Colangelo.",
-      "url": "https://www.espn.com/nba/story/_/id/50060732/nba-reviewing-finalists-bids-vegas-team-12-13b",
-      "publishedAt": "2026-09-30T20:28:13+00:00",
-      "image": "https://a.espncdn.com/photo/2025/1020/r1563218_600x400_3-2.jpg",
-      "author": "Shams Charania",
-      "categories": [
-        "news",
-        "NBA",
-        "Shams Charania"
       ]
     },
     {
@@ -857,155 +1005,7 @@
       "author": "Ben Golliver",
       "categories": [
         "NBA",
-        "news",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50062704",
-      "title": "Kessler talks up Lakers' title hopes behind 'nasty' defense",
-      "summary": "New addition Walker Kessler is convinced the Lakers have the right guys to be \"a nasty defensive team\" and a contender in the Western Conference this season.",
-      "url": "https://www.espn.com/nba/story/_/id/50062704/kessler-talks-lakers-title-hopes-nasty-defense",
-      "publishedAt": "2026-09-30T01:22:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0930/r1723699_600x400_3-2.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "Walker Kessler",
-        "news",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50060343",
-      "title": "Knicks still undecided if they will visit White House",
-      "summary": "The Knicks are still deciding if they will become the first NBA champions to visit the White House under President Donald Trump.",
-      "url": "https://www.espn.com/nba/story/_/id/50060343/knicks-undecided-visit-white-house",
-      "publishedAt": "2026-09-29T19:43:56+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0614/r1672934_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
         "news"
-      ]
-    },
-    {
-      "id": "50008454",
-      "title": "NBA preseason: Answering big questions for all 30 teams",
-      "summary": "From LeBron James' fit in Philadelphia to Kawhi Leonard's return to Toronto, we're answering the biggest preseason questions for all 30 teams.",
-      "url": "https://www.espn.com/nba/story/_/id/50008454/nba-2026-2027-preseason-biggest-question-all-30-teams",
-      "publishedAt": "2026-09-29T16:39:52+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723194_608x342_16-9.jpg",
-      "author": "NBA insiders",
-      "categories": [
-        "NBA",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards",
-        "NBA Insiders"
-      ]
-    },
-    {
-      "id": "50059125",
-      "title": "LeBron confirms that he would've been a Knick if they didn't win the NBA Finals",
-      "summary": "LeBron confirms that he would've been a Knick if they didn't win the NBA Finals",
-      "url": "https://www.espn.com/video/clip/_/id/50059125/lebron-confirms-a-knick-win-nba-finals",
-      "publishedAt": "2026-09-29T15:49:55+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0929/ss_20260929_111436228_3679119709/ss_20260929_111436228_3679119709.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "NBA",
-        "LeBron James",
-        "Dave McMenamin",
-        "Fantasy NBA",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50058868",
-      "title": "Stephen A.: I would've begged LeBron to come to N.Y. if Knicks didn't win title",
-      "summary": "Stephen A.: I would've begged LeBron to come to N.Y. if Knicks didn't win title",
-      "url": "https://www.espn.com/video/clip/_/id/50058868/begged-lebron-come-ny-knicks-win-title",
-      "publishedAt": "2026-09-29T14:59:13+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0929/ss_20260929_104706042_3679102/ss_20260929_104706042_3679102.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "LeBron James",
-        "Stephen A. Smith",
-        "First Take",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50052052",
-      "title": "Fantasy basketball: Eric Karabell's 'Do Draft' list",
-      "summary": "Eric Karabell highlights the players who are falling further than they should be in fantasy basketball drafts this season.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50052052/fantasy-basketball-eric-karabell-do-draft-list-nba-2026-27",
-      "publishedAt": "2026-09-29T12:28:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723020_1296x729_16-9.jpg",
-      "author": "Eric Karabell",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA",
-        "Day'Ron Sharpe",
-        "Cason Wallace",
-        "Egor Demin",
-        "Jeremiah Fears",
-        "Collin Gillespie",
-        "Jakob Poeltl",
-        "Jaime Jaquez Jr",
-        "Darius Acuff Jr",
-        "Scotty Pippen Jr",
-        "Zach Edey",
-        "Cameron Boozer",
-        "Ty Jerome",
-        "Cedric Coward",
-        "Naz Reid",
-        "James Harden",
-        "Julius Randle",
-        "Kel'el Ware",
-        "Darius Garland",
-        "Stephon Castle",
-        "Ivica Zubac",
-        "Austin Reaves",
-        "Alperen Sengun",
-        "Evan Mobley",
-        "Domantas Sabonis",
-        "Jalen Johnson",
-        "Eric Karabell"
       ]
     }
   ]
