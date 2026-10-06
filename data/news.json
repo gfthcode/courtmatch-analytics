@@ -1,8 +1,102 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-06T06:20:27.899499+00:00",
+  "updatedAt": "2026-10-06T15:57:13.178765+00:00",
   "articles": [
+    {
+      "id": "50117250",
+      "title": "Why Stephen A. trusts LeBron to be playoff-ready",
+      "summary": "Why Stephen A. trusts LeBron to be playoff-ready",
+      "url": "https://www.espn.com/video/clip/_/id/50117250/why-stephen-trusts-lebron-playoff-ready",
+      "publishedAt": "2026-10-06T15:51:28+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_114702747_3686864/ss_20261006_114702747_3686864.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "LeBron James",
+        "Philadelphia 76ers",
+        "Stephen A. Smith",
+        "First Take"
+      ]
+    },
+    {
+      "id": "50117157",
+      "title": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
+      "summary": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
+      "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations",
+      "publishedAt": "2026-10-06T15:22:05+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_111606687_3686839/ss_20261006_111606687_3686839.jpg",
+      "author": "",
+      "categories": [
+        "Karl-Anthony Towns",
+        "New York Knicks",
+        "Jalen Brunson",
+        "NBA",
+        "First Take",
+        "Stephen A. Smith",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50079138",
+      "title": "Predicting how new NBA lottery, anti-tanking rules will impact 2026-27 season",
+      "summary": "How could the changes aimed at circumventing tanking likely affect on-court outcomes this season?",
+      "url": "https://www.espn.com/nba/story/_/id/50079138/nba-new-lottery-rules-tanking-predictions",
+      "publishedAt": "2026-10-06T15:14:50+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724647_608x342_16-9.jpg",
+      "author": "Zach Kram",
+      "categories": [
+        "NBA",
+        "NBA Draft",
+        "Zach Kram"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-06T14:35:27+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50110415",
+      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
+      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
+      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
+      "publishedAt": "2026-10-06T13:01:23+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "news",
+        "Karl-Anthony Towns"
+      ]
+    },
+    {
+      "id": "50112265",
+      "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
+      "summary": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
+      "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
+      "publishedAt": "2026-10-06T12:29:23+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "author": "NBA insiders",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Karl-Anthony Towns",
+        "NBA Insiders"
+      ]
+    },
     {
       "id": "50114927",
       "title": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
@@ -184,22 +278,6 @@
       ]
     },
     {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-05T22:31:24+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
       "id": "50112444",
       "title": "Sources: Jordan Hawkins to join Bulls on two-way deal",
       "summary": "Former lottery pick Jordan Hawkins is signing a two-way deal with the Chicago Bulls, sources told ESPN's Shams Charania on Monday.",
@@ -257,21 +335,6 @@
         "Tyrese Maxey",
         "LeBron James",
         "news"
-      ]
-    },
-    {
-      "id": "50110415",
-      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
-      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
-      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
-      "publishedAt": "2026-10-05T20:50:17+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "news",
-        "Karl-Anthony Towns"
       ]
     },
     {
@@ -782,7 +845,8 @@
         "San Antonio Spurs",
         "Victor Wembanyama",
         "Nikola Jokic",
-        "Kevin Durant"
+        "Kevin Durant",
+        "Ben Golliver"
       ]
     },
     {
@@ -909,103 +973,6 @@
         "NBA",
         "Chicago Bulls",
         "Kalan Hooks"
-      ]
-    },
-    {
-      "id": "50061973",
-      "title": "NBA preview 2026-27: What Bobby Marks is watching at 30 training camps",
-      "summary": "As training camps get underway across the league, Bobby Marks examines roster, contract and fit questions for all 30 teams.",
-      "url": "https://www.espn.com/nba/story/_/id/50061973/nba-preview-2026-27-bobby-marks-training-camp-guide-duren-pistons-lebron-76ers-30-teams",
-      "publishedAt": "2026-09-30T18:16:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0930/r1723772_1296x729_16-9.jpg",
-      "author": "Bobby Marks",
-      "categories": [
-        "NBA",
-        "Boston Celtics",
-        "Toronto Raptors",
-        "Washington Wizards",
-        "Los Angeles Lakers",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "Philadelphia 76ers",
-        "Portland Trail Blazers",
-        "Utah Jazz",
-        "Kawhi Leonard",
-        "Anthony Davis",
-        "Walker Kessler",
-        "Giannis Antetokounmpo",
-        "LeBron James",
-        "Jaylen Brown",
-        "LaMelo Ball",
-        "Ja Morant",
-        "Atlanta Hawks",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Indiana Pacers",
-        "Houston Rockets",
-        "LA Clippers",
-        "Memphis Grizzlies",
-        "NBA Draft",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Phoenix Suns",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Bobby Marks"
-      ]
-    },
-    {
-      "id": "50068731",
-      "title": "Suns' Dillon Brooks charged with DUI from March arrest",
-      "summary": "Suns forward Dillon Brooks was charged Monday with driving under the influence following his March arrest in Scottsdale, Arizona, according to court records.",
-      "url": "https://www.espn.com/nba/story/_/id/50068731/suns-dillon-brooks-charged-dui-march-arrest",
-      "publishedAt": "2026-09-30T16:33:52+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0306/r1624208_600x400_3-2.jpg",
-      "author": "Michael Rothstein",
-      "categories": [
-        "Dillon Brooks",
-        "Phoenix Suns",
-        "NBA",
-        "news",
-        "Michael Rothstein"
-      ]
-    },
-    {
-      "id": "38604409",
-      "title": "Fantasy basketball: The pros and cons of points, roto and category leagues",
-      "summary": "Which fantasy basketball scoring format should you play? Jim McCormick breaks down the most popular options so you can choose for yourself.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/38604409/fantasy-basketball-pros-cons-points-roto-category-leagues-nba-2026-27",
-      "publishedAt": "2026-09-30T11:14:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0402/r1637769_1296x729_16-9.jpg",
-      "author": "Jim McCormick",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Jim McCormick",
-        "NBA"
-      ]
-    },
-    {
-      "id": "50063714",
-      "title": "NBA issues new guidelines, instructs refs to crack down on push-offs",
-      "summary": "The NBA has issued new guidance to its referees on four types of \"high-volume and highly impactful\" calls, including push-offs.",
-      "url": "https://www.espn.com/nba/story/_/id/50063714/nba-issues-new-guidelines-instructs-refs-crack-push-offs",
-      "publishedAt": "2026-09-30T03:28:29+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0421/r1647195_600x400_3-2.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "news"
       ]
     }
   ]
