@@ -1,8 +1,104 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-07T13:23:09.838458+00:00",
+  "updatedAt": "2026-10-07T20:37:32.671770+00:00",
   "articles": [
+    {
+      "id": "50127138",
+      "title": "Mike Breen apologizes after LeBron James refutes Embiid story",
+      "summary": "Broadcaster Mike Breen apologized Wednesday for the reaction to a story he shared about LeBron James calling out Joel Embiid for showing up late, a story James has since disputed.",
+      "url": "https://www.espn.com/nba/story/_/id/50127138/mike-breen-apologizes-lebron-james-refutes-embiid-story",
+      "publishedAt": "2026-10-07T20:06:24+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1007/r1727490_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Joel Embiid",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50127157",
+      "title": "Why Danny Green doesn't see Kyrie Irving staying in Dallas the entire season",
+      "summary": "Why Danny Green doesn't see Kyrie Irving staying in Dallas the entire season",
+      "url": "https://www.espn.com/video/clip/_/id/50127157/why-danny-green-see-kyrie-irving-staying-dallas-entire-season",
+      "publishedAt": "2026-10-07T20:06:02+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1007/ss_20261007_155345622_3687872959/ss_20261007_155345622_3687872959.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Kyrie Irving",
+        "Dallas Mavericks",
+        "NBA Today",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-07T14:55:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50111217",
+      "title": "Basketball Power Index: NBA projections, playoff chances for 2026-27 season",
+      "summary": "ESPN's Basketball Power Index projections for the 2026-27 NBA season are out, including a ranking of all 30 teams.",
+      "url": "https://www.espn.com/nba/story/_/id/50111217/nba-season-projections-2026-27-bpi",
+      "publishedAt": "2026-10-07T14:18:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0209/nba_all-star-preview_2_16x9_608x342.jpg",
+      "author": "Dean Oliver",
+      "categories": [
+        "NBA",
+        "news - analytics",
+        "NBA Draft",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
+      ]
+    },
     {
       "id": "50124074",
       "title": "United grind out much needed win",
@@ -96,50 +192,6 @@
         "Indiana Pacers",
         "Tyrese Haliburton",
         "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50111217",
-      "title": "Basketball Power Index: NBA projections, playoff chances for 2026-27 season",
-      "summary": "ESPN's Basketball Power Index projections for the 2026-27 NBA season are out, including a ranking of all 30 teams.",
-      "url": "https://www.espn.com/nba/story/_/id/50111217/nba-season-projections-2026-27-bpi",
-      "publishedAt": "2026-10-07T10:47:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0209/nba_all-star-preview_2_16x9_608x342.jpg",
-      "author": "Dean Oliver",
-      "categories": [
-        "NBA",
-        "news - analytics",
-        "NBA Draft",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards"
       ]
     },
     {
@@ -284,22 +336,6 @@
         "NBA",
         "news - fantasy",
         "news - fantasy basketball"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-06T20:24:58+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -964,39 +1000,6 @@
         "NBA",
         "news",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50079209",
-      "title": "'I need to win': Embiid talks 76ers' upcoming season with LeBron in the fold",
-      "summary": "'I need to win': Embiid talks 76ers' upcoming season with LeBron in the fold",
-      "url": "https://www.espn.com/video/clip/_/id/50079209/embiid-talks-76ers-upcoming-season-lebron-fold",
-      "publishedAt": "2026-10-01T20:55:21+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/ss_20261001_164537987_3680997/ss_20261001_164537987_3680997.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "nba highlight",
-        "Joel Embiid",
-        "LeBron James",
-        "Philadelphia 76ers",
-        "Malika Andrews",
-        "NBA Today"
-      ]
-    },
-    {
-      "id": "50078590",
-      "title": "Victor Wembanyama has no interest in promoting betting sites",
-      "summary": "Victor Wembanyama has no interest in promoting betting sites",
-      "url": "https://www.espn.com/video/clip/_/id/50078590/victor-wembanyama-no-interest-promoting-betting-sites",
-      "publishedAt": "2026-10-01T19:44:26+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/dm_261001_Wembanyama_on_why_he_is_anti_sports_betting/dm_261001_Wembanyama_on_why_he_is_anti_sports_betting.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "Verts - Exclude Content",
-        "Victor Wembanyama"
       ]
     }
   ]
