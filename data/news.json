@@ -1,8 +1,153 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-06T22:39:36.194234+00:00",
+  "updatedAt": "2026-10-07T05:58:59.424060+00:00",
   "articles": [
+    {
+      "id": "50122353",
+      "title": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
+      "summary": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50122353/game-highlights",
+      "publishedAt": "2026-10-07T04:43:54+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1007/101a8a1d-a214-42a4-a9f0-9166f0fafcc6/101a8a1d-a214-42a4-a9f0-9166f0fafcc6.jpg",
+      "author": "",
+      "categories": [
+        "Charles Bassey",
+        "Los Angeles Lakers",
+        "Yaxel Lendeborg",
+        "Adou Thiero",
+        "SC4U - Full Highlight",
+        "Golden State Warriors",
+        "Brandon Williams",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Sandro Mamukelashvili",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Los Angeles Lakers @ Golden State Warriors"
+      ]
+    },
+    {
+      "id": "50122305",
+      "title": "Denver Nuggets vs. Utah Jazz: Game Highlights",
+      "summary": "Denver Nuggets vs. Utah Jazz: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50122305/game-highlights",
+      "publishedAt": "2026-10-07T04:22:20+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1007/4dd538b9-d729-4fda-a354-924443ac1045/4dd538b9-d729-4fda-a354-924443ac1045.jpg",
+      "author": "",
+      "categories": [
+        "Aaron Gordon",
+        "Trevon Brazile",
+        "Darryn Peterson",
+        "Utah Jazz",
+        "Denver Nuggets",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Isaiah Collier",
+        "Josh Okogie",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Denver Nuggets @ Utah Jazz"
+      ]
+    },
+    {
+      "id": "50121999",
+      "title": "New Orleans Pelicans vs. Oklahoma City Thunder: Game Highlights",
+      "summary": "New Orleans Pelicans vs. Oklahoma City Thunder: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50121999/game-highlights",
+      "publishedAt": "2026-10-07T03:44:48+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1007/1bc6cff2-ad91-4f4b-9cb5-6c1880ad4f3a/1bc6cff2-ad91-4f4b-9cb5-6c1880ad4f3a.jpg",
+      "author": "",
+      "categories": [
+        "Andrew Holifield",
+        "Bennedict Mathurin",
+        "Bennett Stirtz",
+        "Oklahoma City Thunder",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Karlo Matkovic",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "New Orleans Pelicans",
+        "Zion Williamson",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "New Orleans Pelicans @ Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "50121620",
+      "title": "Sources: EuroLeague teams reject offer to merge into NBA Europe",
+      "summary": "Members of the EuroLeague rejected a formal offer from the NBA this week to merge and create a single NBA Europe operation, sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50121620/sources-euroleague-teams-reject-offer-merge-nba-europe",
+      "publishedAt": "2026-10-07T02:34:37+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1007/r1727134_600x400_3-2.jpg",
+      "author": "Brian Windhorst",
+      "categories": [
+        "news",
+        "NBA",
+        "Brian Windhorst"
+      ]
+    },
+    {
+      "id": "50121039",
+      "title": "Haliburton buys Iowa St. students tickets for Pacers game",
+      "summary": "Tyrese Haliburton purchased tickets for the student section at his alma mater Iowa State for the Pacers' first preseason game Wednesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50121039/haliburton-buys-iowa-st-students-tickets-pacers-game",
+      "publishedAt": "2026-10-07T02:30:33+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1007/r1727087_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "news",
+        "NBA",
+        "Indiana Pacers",
+        "Tyrese Haliburton",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50121705",
+      "title": "Adam Silver discusses NBA's plans in Europe",
+      "summary": "Adam Silver discusses NBA's plans in Europe",
+      "url": "https://www.espn.com/video/clip/_/id/50121705/adam-silver-discusses-nba-plans-europe",
+      "publishedAt": "2026-10-07T02:23:46+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_221632721_3687329/ss_20261006_221632721_3687329.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Euroleague"
+      ]
+    },
+    {
+      "id": "50121469",
+      "title": "Brooklyn Nets vs. Charlotte Hornets: Game Highlights",
+      "summary": "Brooklyn Nets vs. Charlotte Hornets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50121469/game-highlights",
+      "publishedAt": "2026-10-07T02:16:20+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1007/f6f4b1bd-5990-4bc3-883d-823bf707ee06/f6f4b1bd-5990-4bc3-883d-823bf707ee06.jpg",
+      "author": "",
+      "categories": [
+        "Michael Porter Jr",
+        "Julius Randle",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Liam McNeeley",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Charlotte Hornets",
+        "Wyatt Fricks",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Brooklyn Nets @ Charlotte Hornets"
+      ]
+    },
     {
       "id": "50075156",
       "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
@@ -825,157 +970,6 @@
         "NBA",
         "news",
         "Shams Charania"
-      ]
-    },
-    {
-      "id": "50076885",
-      "title": "Cavs' Donovan Mitchell signs new multiyear deal with Adidas",
-      "summary": "Cavaliers star Donovan Mitchell has signed a new multiyear contract extension with Adidas -- a deal that will take him through a 10th signature shoe with the same brand, becoming the seventh active NBA player to accomplish the feat.",
-      "url": "https://www.espn.com/nba/story/_/id/50076885/cavs-donovan-mitchell-signs-new-multi-year-deal-adidas",
-      "publishedAt": "2026-10-01T14:31:08+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0520/r1660765_600x400_3-2.jpg",
-      "author": "Shams Charania",
-      "categories": [
-        "news",
-        "NBA",
-        "Cleveland Cavaliers",
-        "Donovan Mitchell",
-        "Shams Charania"
-      ]
-    },
-    {
-      "id": "50076574",
-      "title": "Armstrong sinks United in Tasmania",
-      "summary": "The Tasmania JackJumpers claim a 84-82 win over Melbourne United, with hometown hero Taran Armstrong sinking the game winning shot.",
-      "url": "https://www.espn.com/video/clip/_/id/50076574/armstrong-sinks-united-tasmania",
-      "publishedAt": "2026-10-01T12:59:28+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1001/dm_261001_NBL_Highlight_Armstrong_sinks_United_in_Tasmania_20261001_PACRIM_AND_US_ONLY/dm_261001_NBL_Highlight_Armstrong_sinks_United_in_Tasmania_20261001_PACRIM_AND_US_ONLY.jpg",
-      "author": "",
-      "categories": [
-        "Melbourne United",
-        "NBA",
-        "National Basketball League",
-        "news - au nbl",
-        "Tasmania JackJumpers"
-      ]
-    },
-    {
-      "id": "50069752",
-      "title": "NBA preview 2026-27: Five coaches facing the most pressure to win",
-      "summary": "Which coaches could face the most scrutiny this season? Ben Golliver examines what lies ahead for five with Finals aspirations.",
-      "url": "https://www.espn.com/nba/story/_/id/50069752/nba-preview-2026-27-76ers-nurse-spurs-johnson-five-coaches-pressure",
-      "publishedAt": "2026-10-01T10:45:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0930/r1724150_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Jaylen Brown",
-        "Cleveland Cavaliers",
-        "Denver Nuggets",
-        "Houston Rockets",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Nikola Jokic",
-        "Kevin Durant",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50070415",
-      "title": "Fantasy basketball: Players to know and position battles to watch during NBA preseason",
-      "summary": "Eric Moody points out which preseason NBA position battles could have big fantasy ramifications.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50070415/fantasy-basketball-position-battles-watch-nba-preseason",
-      "publishedAt": "2026-10-01T10:28:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0930/r1724136_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Ryan Rollins",
-        "Brayden Burries",
-        "Kevin Porter Jr",
-        "Cameron Johnson",
-        "DeMar DeRozan",
-        "Keyonte George",
-        "Darryn Peterson",
-        "Isaiah Collier",
-        "Ace Bailey",
-        "Moussa Diabate",
-        "Hannes Steinbach",
-        "Neemias Queta",
-        "Mitchell Robinson",
-        "Luka Garza",
-        "Jase Richardson",
-        "Jalen Suggs",
-        "Anthony Black",
-        "Reed Sheppard",
-        "Fred VanVleet",
-        "Marcus Smart",
-        "Derik Queen",
-        "Yves Missi",
-        "Damian Lillard",
-        "Ja Morant",
-        "Jrue Holiday",
-        "Scoot Henderson",
-        "Deni Avdija",
-        "NBA"
-      ]
-    },
-    {
-      "id": "50070779",
-      "title": "76ers guard Tyrese Maxey: 'I want to be judged by winning'",
-      "summary": "Coming off a career year, Tyrese Maxey said he doesn't want to be judged by how he does individually but by how the 76ers do as a team this year.",
-      "url": "https://www.espn.com/nba/story/_/id/50070779/76ers-guard-tyrese-maxey-want-judged-winning",
-      "publishedAt": "2026-09-30T21:16:38+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0724/r1693323_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Tyrese Maxey",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50070652",
-      "title": "Shams: Bids for Las Vegas NBA expansion team down to 3 finalists",
-      "summary": "Shams: Bids for Las Vegas NBA expansion team down to 3 finalists",
-      "url": "https://www.espn.com/video/clip/_/id/50070652/bids-las-vegas-nba-expansion-team-3-finalists",
-      "publishedAt": "2026-09-30T20:09:08+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0930/ss_20260930_160247853_3680072965/ss_20260930_160247853_3680072965.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Fantasy NBA",
-        "Shams Charania",
-        "NBA Today",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50069755",
-      "title": "Fantasy basketball: Ajay Mitchell, Ayo Dosunmu and other top sleepers to target",
-      "summary": "Jim McCormick highlights the lesser known players who could be worth taking a flyer on in the final rounds of your fantasy draft.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50069755/fantasy-basketball-top-sleepers-target-nba-2026-27",
-      "publishedAt": "2026-09-30T19:19:03+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0930/r1724065_1296x729_16-9.jpg",
-      "author": "Jim McCormick",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA",
-        "Collin Murray-Boyles",
-        "Keegan Murray",
-        "Peyton Watson",
-        "Ajay Mitchell",
-        "Zach Edey",
-        "Ayo Dosunmu",
-        "Jim McCormick"
       ]
     }
   ]
