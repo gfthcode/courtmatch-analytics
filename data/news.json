@@ -1,8 +1,147 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-07T05:58:59.424060+00:00",
+  "updatedAt": "2026-10-07T13:23:09.838458+00:00",
   "articles": [
+    {
+      "id": "50124074",
+      "title": "United grind out much needed win",
+      "summary": "Melbourne United survive a late surge from the Adelaide 36ers in their 96-91 win on the road in the NBL Ignite Cup.",
+      "url": "https://www.espn.com/video/clip/_/id/50124074/united-grind-much-needed-win",
+      "publishedAt": "2026-10-07T11:06:36+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1007/dm_261007_NBL_Highlight_United_grind_out_much_needed_win_20260710_PACRIM_AND_US_ONLY/dm_261007_NBL_Highlight_United_grind_out_much_needed_win_20260710_PACRIM_AND_US_ONLY.jpg",
+      "author": "",
+      "categories": [
+        "ADELAIDE 36ers",
+        "Melbourne United",
+        "NBA",
+        "National Basketball League",
+        "news - au nbl"
+      ]
+    },
+    {
+      "id": "50104825",
+      "title": "Spurs' Tobias Harris to miss preseason with left calf strain",
+      "summary": "Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
+      "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
+      "publishedAt": "2026-10-07T10:52:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1004/r1726067_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "news",
+        "NBA",
+        "San Antonio Spurs",
+        "Tobias Harris",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50111860",
+      "title": "Hornets guard Coby White to sit preseason after calf strain",
+      "summary": "Hornets guard Coby White suffered a left calf strain during training camp and will miss the remainder of preseason, the team announced Monday.",
+      "url": "https://www.espn.com/nba/story/_/id/50111860/hornets-guard-coby-white-sit-preseason-calf-strain",
+      "publishedAt": "2026-10-07T10:52:11+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0625/r1679458_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Charlotte Hornets",
+        "Coby White"
+      ]
+    },
+    {
+      "id": "50112557",
+      "title": "Sources: Clippers' Max Strus (foot) out at least 4 weeks",
+      "summary": "Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
+      "publishedAt": "2026-10-07T10:51:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1005/r1726578_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "LA Clippers",
+        "Max Strus",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50118908",
+      "title": "76ers lose backup center Ariel Hukporti to torn Achilles",
+      "summary": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
+      "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
+      "publishedAt": "2026-10-07T10:50:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726939_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Ariel Hukporti",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50121039",
+      "title": "Haliburton buys Iowa St. students tickets for Pacers game",
+      "summary": "Tyrese Haliburton purchased tickets for the student section at his alma mater Iowa State for the Pacers' first preseason game Wednesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50121039/haliburton-buys-iowa-st-students-tickets-pacers-game",
+      "publishedAt": "2026-10-07T10:50:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1007/r1727087_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "news",
+        "NBA",
+        "Indiana Pacers",
+        "Tyrese Haliburton",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50111217",
+      "title": "Basketball Power Index: NBA projections, playoff chances for 2026-27 season",
+      "summary": "ESPN's Basketball Power Index projections for the 2026-27 NBA season are out, including a ranking of all 30 teams.",
+      "url": "https://www.espn.com/nba/story/_/id/50111217/nba-season-projections-2026-27-bpi",
+      "publishedAt": "2026-10-07T10:47:37+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0209/nba_all-star-preview_2_16x9_608x342.jpg",
+      "author": "Dean Oliver",
+      "categories": [
+        "NBA",
+        "news - analytics",
+        "NBA Draft",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
+      ]
+    },
     {
       "id": "50122353",
       "title": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
@@ -96,22 +235,6 @@
       ]
     },
     {
-      "id": "50121039",
-      "title": "Haliburton buys Iowa St. students tickets for Pacers game",
-      "summary": "Tyrese Haliburton purchased tickets for the student section at his alma mater Iowa State for the Pacers' first preseason game Wednesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50121039/haliburton-buys-iowa-st-students-tickets-pacers-game",
-      "publishedAt": "2026-10-07T02:30:33+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727087_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "news",
-        "NBA",
-        "Indiana Pacers",
-        "Tyrese Haliburton",
-        "Jamal Collier"
-      ]
-    },
-    {
       "id": "50121705",
       "title": "Adam Silver discusses NBA's plans in Europe",
       "summary": "Adam Silver discusses NBA's plans in Europe",
@@ -177,22 +300,6 @@
         "nba free agency",
         "news - frontpage",
         "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50118908",
-      "title": "76ers lose backup center Ariel Hukporti to torn Achilles",
-      "summary": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
-      "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
-      "publishedAt": "2026-10-06T19:47:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726939_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Ariel Hukporti",
-        "Dave McMenamin"
       ]
     },
     {
@@ -455,22 +562,6 @@
       ]
     },
     {
-      "id": "50112557",
-      "title": "Sources: Clippers' Max Strus (foot) out at least 4 weeks",
-      "summary": "Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
-      "publishedAt": "2026-10-05T22:41:42+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1005/r1726578_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "LA Clippers",
-        "Max Strus",
-        "Anthony Slater"
-      ]
-    },
-    {
       "id": "50112444",
       "title": "Sources: Jordan Hawkins to join Bulls on two-way deal",
       "summary": "Former lottery pick Jordan Hawkins is signing a two-way deal with the Chicago Bulls, sources told ESPN's Shams Charania on Monday.",
@@ -496,21 +587,6 @@
       "categories": [
         "NBA",
         "news"
-      ]
-    },
-    {
-      "id": "50111860",
-      "title": "Hornets guard Coby White to sit preseason after calf strain",
-      "summary": "Hornets guard Coby White suffered a left calf strain during training camp and will miss the remainder of preseason, the team announced Monday.",
-      "url": "https://www.espn.com/nba/story/_/id/50111860/hornets-guard-coby-white-sit-preseason-calf-strain",
-      "publishedAt": "2026-10-05T21:23:55+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0625/r1679458_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Charlotte Hornets",
-        "Coby White"
       ]
     },
     {
@@ -658,22 +734,6 @@
         "NBA",
         "Jalen Duren",
         "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50104825",
-      "title": "Spurs' Tobias Harris to miss preseason with left calf strain",
-      "summary": "Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
-      "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
-      "publishedAt": "2026-10-04T23:44:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1726067_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "news",
-        "NBA",
-        "San Antonio Spurs",
-        "Tobias Harris",
-        "Michael C. Wright"
       ]
     },
     {
@@ -925,23 +985,6 @@
       ]
     },
     {
-      "id": "50078401",
-      "title": "Spurs' Victor Wembanyama not interested in promoting betting sites",
-      "summary": "Spurs star Victor Wembanyama said Thursday that he isn't interested in promoting sports betting sites.",
-      "url": "https://www.espn.com/nba/story/_/id/50078401/spurs-victor-wembanyama-not-interested-promoting-betting-sites",
-      "publishedAt": "2026-10-01T19:50:57+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724574_1296x729_16-9.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "news",
-        "NBA",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "news – sports betting",
-        "Michael C. Wright"
-      ]
-    },
-    {
       "id": "50078590",
       "title": "Victor Wembanyama has no interest in promoting betting sites",
       "summary": "Victor Wembanyama has no interest in promoting betting sites",
@@ -954,22 +997,6 @@
         "San Antonio Spurs",
         "Verts - Exclude Content",
         "Victor Wembanyama"
-      ]
-    },
-    {
-      "id": "50076974",
-      "title": "Jamal Shead, Raptors reach 3-year, $24M extension through 2029-30",
-      "summary": "Raptors guard Jamal Shead has agreed to a three-year, $24 million contract extension with the franchise, his agent, KJ Smith, told ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/50076974/jamal-shead-raptors-reach-3-year-24m-extension-2029-30",
-      "publishedAt": "2026-10-01T14:55:04+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724449_1296x729_16-9.jpg",
-      "author": "Shams Charania",
-      "categories": [
-        "Jamal Shead",
-        "Toronto Raptors",
-        "NBA",
-        "news",
-        "Shams Charania"
       ]
     }
   ]
