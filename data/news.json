@@ -1,8 +1,165 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-08T01:00:31.219899+00:00",
+  "updatedAt": "2026-10-08T10:34:40.421357+00:00",
   "articles": [
+    {
+      "id": "50131848",
+      "title": "NBA, FIBA say Europe push to continue without EuroLeague",
+      "summary": "The NBA and FIBA say they are undeterred in moving forward with the NBA Europe plan after EuroLeague's team owners rejected a merger offer this week.",
+      "url": "https://www.espn.com/nba/story/_/id/50131848/nba-fiba-say-europe-push-continue-euroleague",
+      "publishedAt": "2026-10-08T10:22:10+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724627_1296x729_16-9.jpg",
+      "author": "Brian Windhorst",
+      "categories": [
+        "NBA",
+        "news",
+        "Brian Windhorst"
+      ]
+    },
+    {
+      "id": "50130536",
+      "title": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
+      "summary": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50130536/game-highlights",
+      "publishedAt": "2026-10-08T05:05:47+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/d90975c3-d438-4292-a93b-5ffbb8c39f25/d90975c3-d438-4292-a93b-5ffbb8c39f25.jpg",
+      "author": "",
+      "categories": [
+        "Deni Avdija",
+        "Ja Morant",
+        "Portland Trail Blazers",
+        "Miles Kelly",
+        "Micah Potter",
+        "Damian Lillard",
+        "SC4U - Full Highlight",
+        "Golden State Warriors",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Golden State Warriors @ Portland Trail Blazers"
+      ]
+    },
+    {
+      "id": "50130092",
+      "title": "Tyrese Haliburton scores 7 in 1st game in more than 16 months",
+      "summary": "Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
+      "url": "https://www.espn.com/nba/story/_/id/50130092/tyrese-haliburton-scores-7-1st-game-more-16-months",
+      "publishedAt": "2026-10-08T03:57:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1008/r1727673_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Indiana Pacers",
+        "Tyrese Haliburton",
+        "news",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50129878",
+      "title": "Orlando Magic vs. Memphis Grizzlies: Game Highlights",
+      "summary": "Orlando Magic vs. Memphis Grizzlies: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50129878/game-highlights",
+      "publishedAt": "2026-10-08T03:33:45+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/52ce7f58-2e19-400b-8ef6-eab38aff8ea9/52ce7f58-2e19-400b-8ef6-eab38aff8ea9.jpg",
+      "author": "",
+      "categories": [
+        "Jamal Cain",
+        "Tristan da Silva",
+        "Orlando Magic",
+        "Ty Jerome",
+        "Kevin Knox II",
+        "SC4U - Full Highlight",
+        "Memphis Grizzlies",
+        "Franz Wagner",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "Wendell Carter Jr",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Orlando Magic @ Memphis Grizzlies"
+      ]
+    },
+    {
+      "id": "50129886",
+      "title": "Milwaukee Bucks vs. Oklahoma City Thunder: Game Highlights",
+      "summary": "Milwaukee Bucks vs. Oklahoma City Thunder: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50129886/game-highlights",
+      "publishedAt": "2026-10-08T03:33:27+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/a90f4cae-cd5a-41b5-b82d-dc4f2ac61bbd/a90f4cae-cd5a-41b5-b82d-dc4f2ac61bbd.jpg",
+      "author": "",
+      "categories": [
+        "Oklahoma City Thunder",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Jaime Jaquez Jr",
+        "Myles Turner",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Aday Mara",
+        "Cormac Ryan",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Milwaukee Bucks @ Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "50129923",
+      "title": "Phoenix Suns vs. Chicago Bulls: Game Highlights",
+      "summary": "Phoenix Suns vs. Chicago Bulls: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50129923/game-highlights",
+      "publishedAt": "2026-10-08T03:30:26+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/ac0cf659-6f72-48fc-8760-c1103f44a491/ac0cf659-6f72-48fc-8760-c1103f44a491.jpg",
+      "author": "",
+      "categories": [
+        "Phoenix Suns",
+        "Caleb Wilson",
+        "Patrick Williams",
+        "SC4U - Full Highlight",
+        "Chicago Bulls",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Dillon Brooks",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Phoenix Suns @ Chicago Bulls"
+      ]
+    },
+    {
+      "id": "50129245",
+      "title": "Minnesota Timberwolves vs. Indiana Pacers: Game Highlights",
+      "summary": "Minnesota Timberwolves vs. Indiana Pacers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50129245/game-highlights",
+      "publishedAt": "2026-10-08T01:49:43+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/8403b562-68c9-4de7-8f77-08b403acdafa/8403b562-68c9-4de7-8f77-08b403acdafa.jpg",
+      "author": "",
+      "categories": [
+        "Quenton Jackson",
+        "Minnesota Timberwolves",
+        "Jarace Walker",
+        "Indiana Pacers",
+        "Jonathan Kuminga",
+        "Cody Williams",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Anthony Edwards",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Minnesota Timberwolves @ Indiana Pacers"
+      ]
+    },
     {
       "id": "50127138",
       "title": "Mike Breen apologizes after LeBron James disputes Embiid story",
@@ -351,21 +508,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Brooklyn Nets @ Charlotte Hornets"
-      ]
-    },
-    {
-      "id": "50075156",
-      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-      "publishedAt": "2026-10-06T21:59:26+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball"
       ]
     },
     {
@@ -851,153 +993,6 @@
         "Jordan Hawkins",
         "news",
         "nba free agency"
-      ]
-    },
-    {
-      "id": "50079137",
-      "title": "Where NBA expansion stands ahead of the 2026-27 season",
-      "summary": "As NBA training camps begin for 30 teams, here's the latest intel on the potential for the 31st and 32nd teams.",
-      "url": "https://www.espn.com/nba/story/_/id/50079137/nba-expansion-las-vegas-seattle",
-      "publishedAt": "2026-10-03T00:04:41+00:00",
-      "image": "https://a.espncdn.com/photo/2022/1206/r1103138_608x342_16-9.jpg",
-      "author": "Ramona Shelburne",
-      "categories": [
-        "NBA",
-        "Ramona Shelburne"
-      ]
-    },
-    {
-      "id": "50084279",
-      "title": "Trail Blazers fire new announcer over past inappropriate posts",
-      "summary": "The Trail Blazers hired then on the same day fired Braiden Bell as their play-by-play announcer after a series of inappropriate social media posts from when he was a teenager came to light.",
-      "url": "https://www.espn.com/nba/story/_/id/50084279/trail-blazers-fire-new-announcer-inappropriate-posts",
-      "publishedAt": "2026-10-02T23:31:13+00:00",
-      "image": "https://a.espncdn.com/photo/2024/1110/r1412740_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Portland Trail Blazers",
-        "news"
-      ]
-    },
-    {
-      "id": "50086121",
-      "title": "Giannis, Bam discuss 'nightmare' other teams will face when playing the Heat",
-      "summary": "Giannis, Bam discuss 'nightmare' other teams will face when playing the Heat",
-      "url": "https://www.espn.com/video/clip/_/id/50086121/giannis-bam-discuss-nightmare-other-teams-face-playing-heat",
-      "publishedAt": "2026-10-02T20:15:35+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1002/ss_20261002_155025324_3681857/ss_20261002_155025324_3681857.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "Miami Heat",
-        "Bam Adebayo",
-        "Giannis Antetokounmpo",
-        "NBA Today",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50086093",
-      "title": "Shams breaks down how Jalen Duren's new deal with Pistons came to be",
-      "summary": "Shams breaks down how Jalen Duren's new deal with Pistons came to be",
-      "url": "https://www.espn.com/video/clip/_/id/50086093/shams-breaks-how-jalen-duren-new-deal-pistons-came-be",
-      "publishedAt": "2026-10-02T20:07:10+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1002/ss_20261002_154010423_3681845955/ss_20261002_154010423_3681845955.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Shams Charania",
-        "NBA Today",
-        "Jalen Duren",
-        "Detroit Pistons",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50085674",
-      "title": "Miami Heat announce 'A Night in Vice City' theme ahead of GTA VI release",
-      "summary": "With Grand Theft Auto VI's long-awaited release date set for Nov. 19, the Heat are partnering with Rockstar Games to offer a topical lead-up event the night before.",
-      "url": "https://www.espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game",
-      "publishedAt": "2026-10-02T18:38:51+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1725012_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "48957095",
-      "title": "2026 NBA free agency: Grades for offseason signings, extensions",
-      "summary": "We're grading the biggest free agent signings and extensions, including Jalen Duren's new five-year deal.",
-      "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
-      "publishedAt": "2026-10-02T05:05:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1724795_608x342_16-9.jpg",
-      "author": "Zach Kram",
-      "categories": [
-        "NBA",
-        "nba free agency",
-        "nba trade deadline",
-        "Phoenix Suns",
-        "Atlanta Hawks",
-        "Washington Wizards",
-        "Trae Young",
-        "Minnesota Timberwolves",
-        "Los Angeles Lakers",
-        "Austin Reaves",
-        "Golden State Warriors",
-        "Mark Williams",
-        "CJ McCollum",
-        "Charlotte Hornets",
-        "Coby White",
-        "Al Horford",
-        "Jose Alvarado",
-        "New York Knicks",
-        "Brooklyn Nets",
-        "Miami Heat",
-        "Andrew Wiggins",
-        "San Antonio Spurs",
-        "Julian Champagnie",
-        "Utah Jazz",
-        "Jusuf Nurkic",
-        "Milwaukee Bucks",
-        "Ousmane Dieng",
-        "Tim Hardaway Jr",
-        "Keon Ellis",
-        "Luke Kennard",
-        "Philadelphia 76ers",
-        "Dean Wade",
-        "Houston Rockets",
-        "Marcus Smart",
-        "Chicago Bulls",
-        "Norman Powell",
-        "Sandro Mamukelashvili",
-        "Quentin Grimes",
-        "Collin Sexton",
-        "De'Anthony Melton",
-        "Mitchell Robinson",
-        "Boston Celtics",
-        "Anfernee Simons",
-        "Tari Eason",
-        "Victor Wembanyama",
-        "Dallas Mavericks",
-        "Naji Marshall",
-        "James Harden",
-        "Cleveland Cavaliers",
-        "Klay Thompson",
-        "DeMar DeRozan",
-        "Bennedict Mathurin",
-        "New Orleans Pelicans",
-        "Jonathan Kuminga",
-        "Amen Thompson",
-        "Saddiq Bey",
-        "Pelle Larsson",
-        "Kawhi Leonard",
-        "Toronto Raptors",
-        "Zach Kram"
       ]
     }
   ]
