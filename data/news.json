@@ -1,20 +1,267 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-08T10:34:40.421357+00:00",
+  "updatedAt": "2026-10-08T18:50:45.658004+00:00",
   "articles": [
+    {
+      "id": "50134349",
+      "title": "Haliburton tells McAfee he feels 'great' after return to court",
+      "summary": "Haliburton tells McAfee he feels 'great' after return to court",
+      "url": "https://www.espn.com/video/clip/_/id/50134349/haliburton-tells-mcafee-feels-great-return-court",
+      "publishedAt": "2026-10-08T18:22:55+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1008/ss_20261008_141830898_3688851/ss_20261008_141830898_3688851.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "Indiana Pacers",
+        "Tyrese Haliburton",
+        "Pat McAfee",
+        "The Pat McAfee Show"
+      ]
+    },
+    {
+      "id": "50125975",
+      "title": "Fantasy basketball: Points league draft tiers",
+      "summary": "André Snellings groups players into tiers by each position for points leagues.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50125975/fantasy-basketball-points-league-draft-tiers-nba-2026-27",
+      "publishedAt": "2026-10-08T17:20:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1007/r1727547_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "NBA"
+      ]
+    },
+    {
+      "id": "50111204",
+      "title": "What does your NBA team need? The biggest hole on all 30 rosters",
+      "summary": "Every NBA team is missing something, even the leading title contenders.",
+      "url": "https://www.espn.com/nba/story/_/id/50111204/nba-preseason-roster-holes-30-teams",
+      "publishedAt": "2026-10-08T16:39:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726994_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Cleveland Cavaliers",
+        "Denver Nuggets",
+        "Houston Rockets",
+        "San Antonio Spurs",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Dallas Mavericks",
+        "Golden State Warriors",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards",
+        "Atlanta Hawks",
+        "Detroit Pistons",
+        "NBA Draft",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50127220",
+      "title": "Fantasy basketball: André Snellings' Ultimate Draft Board",
+      "summary": "André Snellings crunches the numbers, factors in average draft position and highlights the best spots to draft key players throughout your fantasy basketball draft.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50127220/fantasy-basketball-ultimate-draft-board-perfect-picks-every-round-nba-2026-27",
+      "publishedAt": "2026-10-08T13:55:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1007/r1727524_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "NBA",
+        "Nikola Jokic",
+        "Victor Wembanyama",
+        "Giannis Antetokounmpo",
+        "Anthony Edwards",
+        "Jayson Tatum",
+        "Donovan Mitchell",
+        "Trae Young",
+        "Josh Giddey",
+        "Tyrese Haliburton",
+        "Cooper Flagg",
+        "Domantas Sabonis",
+        "Alperen Sengun",
+        "Amen Thompson",
+        "Kevin Durant",
+        "LaMelo Ball",
+        "James Harden",
+        "Anthony Davis",
+        "Austin Reaves",
+        "Derrick White",
+        "Deni Avdija",
+        "Mikal Bridges",
+        "Nickeil Alexander-Walker",
+        "Dyson Daniels",
+        "Naz Reid",
+        "Walker Kessler",
+        "Ty Jerome",
+        "Ivica Zubac",
+        "Paul George",
+        "Kel'el Ware",
+        "Darius Acuff Jr",
+        "Jalen Green",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50119633",
+      "title": "Rockets, Mavs take China: Highlights, top scenes from off the court",
+      "summary": "The top sights and sounds from the Dallas Mavericks and Houston Rockets' preseason trip to China.",
+      "url": "https://www.espn.com/nba/story/_/id/50119633/rockets-mavs-nba-china-highlights",
+      "publishedAt": "2026-10-08T13:24:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1727044_2_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks",
+        "Houston Rockets",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50125703",
+      "title": "The Warriors need Yaxel Lendeborg's fast-tracked development",
+      "summary": "The Golden State Warriors have high hopes for the No. 11 pick after several failed lottery picks.",
+      "url": "https://www.espn.com/nba/story/_/id/50125703/warriors-yaxel-lendeborg-training-camp-preseason-debut",
+      "publishedAt": "2026-10-08T12:40:22+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1007/r1727373_608x342_16-9.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Yaxel Lendeborg",
+        "Stephen Curry",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-08T12:29:21+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
     {
       "id": "50131848",
       "title": "NBA, FIBA say Europe push to continue without EuroLeague",
       "summary": "The NBA and FIBA say they are undeterred in moving forward with the NBA Europe plan after EuroLeague's team owners rejected a merger offer this week.",
       "url": "https://www.espn.com/nba/story/_/id/50131848/nba-fiba-say-europe-push-continue-euroleague",
-      "publishedAt": "2026-10-08T10:22:10+00:00",
+      "publishedAt": "2026-10-08T12:17:49+00:00",
       "image": "https://a.espncdn.com/photo/2026/1001/r1724627_1296x729_16-9.jpg",
       "author": "Brian Windhorst",
       "categories": [
         "NBA",
         "news",
         "Brian Windhorst"
+      ]
+    },
+    {
+      "id": "50112557",
+      "title": "Sources: Clippers' Max Strus (foot) out at least 4 weeks",
+      "summary": "Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
+      "publishedAt": "2026-10-08T11:15:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1005/r1726578_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "LA Clippers",
+        "Max Strus",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50118908",
+      "title": "76ers lose backup center Ariel Hukporti to torn Achilles",
+      "summary": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
+      "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
+      "publishedAt": "2026-10-08T11:15:33+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726939_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Ariel Hukporti",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50127764",
+      "title": "Trail Blazers' Dundon says he intends to bring title to Portland",
+      "summary": "New Trail Blazers owner Tom Dundon told season-ticket holders he intends to bring a championship to Portland.",
+      "url": "https://www.espn.com/nba/story/_/id/50127764/trail-blazers-dundon-says-intends-bring-title-portland",
+      "publishedAt": "2026-10-08T11:15:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0403/r1637876_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Portland Trail Blazers",
+        "news"
+      ]
+    },
+    {
+      "id": "50130092",
+      "title": "Tyrese Haliburton scores 7 in 1st game in more than 16 months",
+      "summary": "Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
+      "url": "https://www.espn.com/nba/story/_/id/50130092/tyrese-haliburton-scores-7-1st-game-more-16-months",
+      "publishedAt": "2026-10-08T11:14:47+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1008/r1727673_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Indiana Pacers",
+        "Tyrese Haliburton",
+        "news",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50075156",
+      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+      "publishedAt": "2026-10-08T10:40:23+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
+      "author": "ESPN Fantasy",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball"
       ]
     },
     {
@@ -39,24 +286,7 @@
         "SC4U  - Eligible",
         "fantasy",
         "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors @ Portland Trail Blazers"
-      ]
-    },
-    {
-      "id": "50130092",
-      "title": "Tyrese Haliburton scores 7 in 1st game in more than 16 months",
-      "summary": "Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
-      "url": "https://www.espn.com/nba/story/_/id/50130092/tyrese-haliburton-scores-7-1st-game-more-16-months",
-      "publishedAt": "2026-10-08T03:57:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1008/r1727673_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "NBA",
-        "Indiana Pacers",
-        "Tyrese Haliburton",
-        "news",
-        "Jamal Collier"
+        "Fantasy NBA"
       ]
     },
     {
@@ -194,36 +424,6 @@
       ]
     },
     {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-07T23:14:23+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50127764",
-      "title": "Trail Blazers' Dundon says he intends to bring title to Portland",
-      "summary": "New Trail Blazers owner Tom Dundon told season-ticket holders he intends to bring a championship to Portland.",
-      "url": "https://www.espn.com/nba/story/_/id/50127764/trail-blazers-dundon-says-intends-bring-title-portland",
-      "publishedAt": "2026-10-07T21:59:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0403/r1637876_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Portland Trail Blazers",
-        "news"
-      ]
-    },
-    {
       "id": "50127157",
       "title": "Why Danny Green doesn't see Kyrie Irving staying in Dallas the entire season",
       "summary": "Why Danny Green doesn't see Kyrie Irving staying in Dallas the entire season",
@@ -303,22 +503,6 @@
       ]
     },
     {
-      "id": "50104825",
-      "title": "Spurs' Tobias Harris to miss preseason with left calf strain",
-      "summary": "Spurs free agent acquisition Tobias Harris sustained a calf strain during camp that has him questionable for the team's Oct. 20 season opener vs. OKC.",
-      "url": "https://www.espn.com/nba/story/_/id/50104825/spurs-tobias-harris-miss-preseason-left-calf-strain",
-      "publishedAt": "2026-10-07T10:52:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1726067_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "news",
-        "NBA",
-        "San Antonio Spurs",
-        "Tobias Harris",
-        "Michael C. Wright"
-      ]
-    },
-    {
       "id": "50111860",
       "title": "Hornets guard Coby White to sit preseason after calf strain",
       "summary": "Hornets guard Coby White suffered a left calf strain during training camp and will miss the remainder of preseason, the team announced Monday.",
@@ -331,38 +515,6 @@
         "NBA",
         "Charlotte Hornets",
         "Coby White"
-      ]
-    },
-    {
-      "id": "50112557",
-      "title": "Sources: Clippers' Max Strus (foot) out at least 4 weeks",
-      "summary": "Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
-      "publishedAt": "2026-10-07T10:51:41+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1005/r1726578_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "LA Clippers",
-        "Max Strus",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50118908",
-      "title": "76ers lose backup center Ariel Hukporti to torn Achilles",
-      "summary": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
-      "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
-      "publishedAt": "2026-10-07T10:50:34+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726939_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Ariel Hukporti",
-        "Dave McMenamin"
       ]
     },
     {
@@ -874,125 +1026,6 @@
         "VJ Edgecombe",
         "Jaylen Brown",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50106572",
-      "title": "Golden State Warriors vs. LA Clippers: Game Highlights",
-      "summary": "Golden State Warriors vs. LA Clippers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50106572/game-highlights",
-      "publishedAt": "2026-10-05T01:54:01+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1005/1274de8d-cbfa-4b27-bff7-d605feb6c974/1274de8d-cbfa-4b27-bff7-d605feb6c974.jpg",
-      "author": "",
-      "categories": [
-        "Charles Bassey",
-        "Miles Kelly",
-        "Cam Christie",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "LA Clippers",
-        "Rui Hachimura",
-        "Graham Ike",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors @ LA Clippers"
-      ]
-    },
-    {
-      "id": "50106547",
-      "title": "Utah Jazz vs. Denver Nuggets: Game Highlights",
-      "summary": "Utah Jazz vs. Denver Nuggets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50106547/game-highlights",
-      "publishedAt": "2026-10-05T01:53:24+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1005/96f93cb7-9e57-4ef2-9056-fe6edce0f32a/96f93cb7-9e57-4ef2-9056-fe6edce0f32a.jpg",
-      "author": "",
-      "categories": [
-        "Trevon Brazile",
-        "Jaren Jackson Jr",
-        "Utah Jazz",
-        "DeMar DeRozan",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Nikola Jokic",
-        "Julian Strawther",
-        "SC4U  - Eligible",
-        "5 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Utah Jazz @ Denver Nuggets"
-      ]
-    },
-    {
-      "id": "50104454",
-      "title": "Pistons' Jalen Duren happy to return despite prolonged talks",
-      "summary": "Despite a prolonged negotiation that appeared to turn sour at times, Jalen Duren said he is relieved and excited to return to Detroit.",
-      "url": "https://www.espn.com/nba/story/_/id/50104454/pistons-jalen-duren-happy-return-prolonged-talks",
-      "publishedAt": "2026-10-05T00:23:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1726049_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "news",
-        "Detroit Pistons",
-        "NBA",
-        "Jalen Duren",
-        "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50094632",
-      "title": "Lakers' Ziaire Williams proposes to longtime girlfriend at Bruno Mars tour",
-      "summary": "The singer complemented the proposal during his second of five Inglewood shows.",
-      "url": "https://www.espn.com/nba/story/_/id/50094632/los-angeles-lakers-ziaire-williams-bruno-mars-romantic-tour-proposal",
-      "publishedAt": "2026-10-04T00:40:19+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1725524_608x342_16-9.jpg",
-      "author": "Kalan Hooks",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "Ziaire Williams",
-        "Kalan Hooks"
-      ]
-    },
-    {
-      "id": "50092448",
-      "title": "LeBron James calls scrimmage 'great first step' for new-look 76ers",
-      "summary": "Throngs of fans waited in lines more than 10-deep to watch LeBron James, Jaylen Brown and the rest of the 76ers take part in Saturday's scrimmage.",
-      "url": "https://www.espn.com/nba/story/_/id/50092448/lebron-james-calls-scrimmage-great-first-step-new-look-76ers",
-      "publishedAt": "2026-10-03T19:56:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723110_1296x729_16-9.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Jaylen Brown",
-        "Tyrese Maxey",
-        "VJ Edgecombe",
-        "Joel Embiid",
-        "news",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50087727",
-      "title": "Sources: Grizzlies waive Jordan Hawkins weeks after Pels trade",
-      "summary": "The Memphis Grizzlies and guard Jordan Hawkins have agreed to part ways via waivers, allowing the 2023 lottery pick to find a new home in free agency, sources told ESPN's Shams Charania.",
-      "url": "https://www.espn.com/nba/story/_/id/50087727/sources-grizzlies-waive-jordan-hawkins-weeks-pels-trade",
-      "publishedAt": "2026-10-03T02:33:07+00:00",
-      "image": "https://a.espncdn.com/photo/2023/1117/r1254480_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Memphis Grizzlies",
-        "Jordan Hawkins",
-        "news",
-        "nba free agency"
       ]
     }
   ]
