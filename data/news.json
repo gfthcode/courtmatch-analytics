@@ -1,8 +1,182 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-09T01:13:25.795085+00:00",
+  "updatedAt": "2026-10-09T10:33:15.190875+00:00",
   "articles": [
+    {
+      "id": "50137673",
+      "title": "LeBron James scores 10 points in 18 minutes in 76ers debut",
+      "summary": "LeBron James, who joined the 76ers this summer, had 10 points, five assists and four rebounds in the first half of his debut with Philadelphia.",
+      "url": "https://www.espn.com/nba/story/_/id/50137673/lebron-james-scores-10-points-18-minutes-76ers-debut",
+      "publishedAt": "2026-10-09T05:49:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728114_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "news",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50137826",
+      "title": "76ers' Embiid calls 'not true' LeBron report 'unfortunate'",
+      "summary": "Joel Embiid said a recent report about LeBron James getting on him about being late to practice \"is not true\" and caused him to wonder why he was targeted.",
+      "url": "https://www.espn.com/nba/story/_/id/50137826/76ers-embiid-calls-not-true-lebron-report-unfortunate",
+      "publishedAt": "2026-10-09T05:27:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728117_600x600_1-1.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Joel Embiid",
+        "news",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50137491",
+      "title": "Atlanta Hawks vs. San Antonio Spurs: Game Highlights",
+      "summary": "Atlanta Hawks vs. San Antonio Spurs: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50137491/game-highlights",
+      "publishedAt": "2026-10-09T03:37:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/8bcac97f-8eac-4fb7-a6b6-47c29f254c06/8bcac97f-8eac-4fb7-a6b6-47c29f254c06.jpg",
+      "author": "",
+      "categories": [
+        "Dylan Harper",
+        "Nickeil Alexander-Walker",
+        "Asa Newell",
+        "San Antonio Spurs",
+        "Atlanta Hawks",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "CJ McCollum",
+        "SC4U  - Eligible",
+        "Stephon Castle",
+        "Jock Landale",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Atlanta Hawks @ San Antonio Spurs"
+      ]
+    },
+    {
+      "id": "50137286",
+      "title": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
+      "summary": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50137286/game-highlights",
+      "publishedAt": "2026-10-09T03:05:35+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/e370eaaf-9d48-43e3-b82c-1f8e520955da/e370eaaf-9d48-43e3-b82c-1f8e520955da.jpg",
+      "author": "",
+      "categories": [
+        "Philadelphia 76ers",
+        "Egor Demin",
+        "Julius Randle",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Jaylen Brown",
+        "Grant Nelson",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Philadelphia 76ers @ Brooklyn Nets"
+      ]
+    },
+    {
+      "id": "50137095",
+      "title": "Washington Wizards vs. New York Knicks: Game Highlights",
+      "summary": "Washington Wizards vs. New York Knicks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50137095/game-highlights",
+      "publishedAt": "2026-10-09T02:36:07+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/df8006d5-3de0-4bbb-8bdd-21d30dbb907a/df8006d5-3de0-4bbb-8bdd-21d30dbb907a.jpg",
+      "author": "",
+      "categories": [
+        "Washington Wizards",
+        "New York Knicks",
+        "Jalen Brunson",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Landry Shamet",
+        "Anthony Davis",
+        "Bruce Brown",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Washington Wizards @ New York Knicks"
+      ]
+    },
+    {
+      "id": "50136993",
+      "title": "New Orleans Pelicans vs. Miami Heat: Game Highlights",
+      "summary": "New Orleans Pelicans vs. Miami Heat: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50136993/game-highlights",
+      "publishedAt": "2026-10-09T02:14:48+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/1c925fb8-cfd9-4c39-812b-dd104dc81c90/1c925fb8-cfd9-4c39-812b-dd104dc81c90.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Jordan Poole",
+        "Myron Gardner",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Yves Missi",
+        "SC4U  - Eligible",
+        "New Orleans Pelicans",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "New Orleans Pelicans @ Miami Heat"
+      ]
+    },
+    {
+      "id": "50136810",
+      "title": "Boston Celtics vs. Cleveland Cavaliers: Game Highlights",
+      "summary": "Boston Celtics vs. Cleveland Cavaliers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50136810/game-highlights",
+      "publishedAt": "2026-10-09T01:51:19+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/56b34b88-c4d7-4bf3-886e-043b888543ab/56b34b88-c4d7-4bf3-886e-043b888543ab.jpg",
+      "author": "",
+      "categories": [
+        "Jaylon Tyson",
+        "Baylor Scheierman",
+        "Boston Celtics",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "NBA",
+        "SC4U  - Eligible",
+        "Luka Garza",
+        "Meleek Thomas",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Boston Celtics @ Cleveland Cavaliers"
+      ]
+    },
+    {
+      "id": "50134369",
+      "title": "Fantasy basketball: Category league draft tiers",
+      "summary": "Eric Moody groups players into tiers by each position for category-based leagues.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134369/fantasy-basketball-category-league-draft-tiers-2026-27",
+      "publishedAt": "2026-10-09T01:20:36+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728065_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba"
+      ]
+    },
     {
       "id": "50134809",
       "title": "Tyrese Maxey, Jaylen Brown, VJ Edgecombe make 'Abbott Elementary' cameos",
@@ -39,22 +213,6 @@
         "VJ Edgecombe",
         "news",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50134369",
-      "title": "Fantasy basketball: Category league draft tiers",
-      "summary": "Eric Moody groups players into tiers by each position for category-based leagues.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134369/fantasy-basketball-category-league-draft-tiers-2026-27",
-      "publishedAt": "2026-10-08T20:07:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1008/r1727941_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba"
       ]
     },
     {
@@ -243,22 +401,6 @@
       ]
     },
     {
-      "id": "50112557",
-      "title": "Sources: Clippers' Max Strus (foot) out at least 4 weeks",
-      "summary": "Clippers wing Max Strus suffered a partial tear of the plantar fascia in his right foot and will be reevaluated in four weeks, league sources told ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/50112557/sources-clippers-max-strus-foot-least-4-weeks",
-      "publishedAt": "2026-10-08T11:15:51+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1005/r1726578_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "LA Clippers",
-        "Max Strus",
-        "Anthony Slater"
-      ]
-    },
-    {
       "id": "50118908",
       "title": "76ers lose backup center Ariel Hukporti to torn Achilles",
       "summary": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
@@ -341,7 +483,8 @@
         "SC4U  - Eligible",
         "fantasy",
         "nba highlight",
-        "Fantasy NBA"
+        "Fantasy NBA",
+        "Golden State Warriors @ Portland Trail Blazers"
       ]
     },
     {
@@ -555,21 +698,6 @@
         "NBA",
         "National Basketball League",
         "news - au nbl"
-      ]
-    },
-    {
-      "id": "50111860",
-      "title": "Hornets guard Coby White to sit preseason after calf strain",
-      "summary": "Hornets guard Coby White suffered a left calf strain during training camp and will miss the remainder of preseason, the team announced Monday.",
-      "url": "https://www.espn.com/nba/story/_/id/50111860/hornets-guard-coby-white-sit-preseason-calf-strain",
-      "publishedAt": "2026-10-07T10:52:11+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0625/r1679458_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Charlotte Hornets",
-        "Coby White"
       ]
     },
     {
@@ -939,89 +1067,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Phoenix Suns @ Detroit Pistons"
-      ]
-    },
-    {
-      "id": "50113284",
-      "title": "Jaylen Brown drops 22 points in first half of 76ers preseason debut",
-      "summary": "Jaylen Brown drops 22 points in first half of 76ers preseason debut",
-      "url": "https://www.espn.com/video/clip/_/id/50113284/jaylen-brown-drops-22-points-first-half-76ers-preseason-debut",
-      "publishedAt": "2026-10-06T00:35:37+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/81503108-f8a1-4671-b4f9-90d822a345f7/81503108-f8a1-4671-b4f9-90d822a345f7.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "New York Knicks",
-        "NBA",
-        "Jaylen Brown",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "League Boost",
-        "New York Knicks @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50112444",
-      "title": "Sources: Jordan Hawkins to join Bulls on two-way deal",
-      "summary": "Former lottery pick Jordan Hawkins is signing a two-way deal with the Chicago Bulls, sources told ESPN's Shams Charania on Monday.",
-      "url": "https://www.espn.com/nba/story/_/id/50112444/sources-jordan-hawkins-join-bulls-two-way-deal",
-      "publishedAt": "2026-10-05T22:10:45+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0124/r1442782_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "Chicago Bulls",
-        "NBA",
-        "Jordan Hawkins"
-      ]
-    },
-    {
-      "id": "50112238",
-      "title": "NBA testing smart basketballs, wrist wearables in preseason",
-      "summary": "The NBA is experimenting with smart basketballs and wrist wearables for officials in select preseason games in order to collect data on the review process.",
-      "url": "https://www.espn.com/nba/story/_/id/50112238/nba-testing-smart-basketballs-wrist-wearables-preseason",
-      "publishedAt": "2026-10-05T21:47:57+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0605/r1668330_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news"
-      ]
-    },
-    {
-      "id": "50111838",
-      "title": "James, Embiid, Maxey sit out 76ers' preseason opener vs. Knicks",
-      "summary": "LeBron James, Joel Embiid and Tyrese Maxey will sit out the 76ers' preseason opener against the Knicks on Monday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50111838/james-embiid-maxey-sit-76ers-preseason-opener-vs-knicks",
-      "publishedAt": "2026-10-05T21:19:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724677_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Joel Embiid",
-        "Tyrese Maxey",
-        "LeBron James",
-        "news"
-      ]
-    },
-    {
-      "id": "50111525",
-      "title": "Shams: KAT contract negotiations 'a growing cloud around the New York Knicks'",
-      "summary": "Shams: KAT contract negotiations 'a growing cloud around the New York Knicks'",
-      "url": "https://www.espn.com/video/clip/_/id/50111525/kat-contract-negotiations-growing-cloud-new-york-knicks",
-      "publishedAt": "2026-10-05T20:18:20+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1005/ss_20261005_161111449_3686245/ss_20261005_161111449_3686245.jpg",
-      "author": "",
-      "categories": [
-        "Karl-Anthony Towns",
-        "New York Knicks",
-        "NBA",
-        "Shams Charania",
-        "Verts - Exclude Content",
-        "NBA Today",
-        "Team Boost"
       ]
     }
   ]
