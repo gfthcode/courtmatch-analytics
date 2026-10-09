@@ -1,14 +1,84 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-08T18:50:45.658004+00:00",
+  "updatedAt": "2026-10-09T01:13:25.795085+00:00",
   "articles": [
+    {
+      "id": "50134809",
+      "title": "Tyrese Maxey, Jaylen Brown, VJ Edgecombe make 'Abbott Elementary' cameos",
+      "summary": "\"Abbott Elementary\" continues to embrace Philadelphia sports culture with its latest instance starring the 76ers.",
+      "url": "https://www.espn.com/nba/story/_/id/50134809/abbott-elementary-season-six-premiere-sixers-cameo",
+      "publishedAt": "2026-10-08T20:47:07+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723110_608x342_16-9.jpg",
+      "author": "Brianna Williams",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Jaylen Brown",
+        "Tyrese Maxey",
+        "VJ Edgecombe",
+        "LeBron James",
+        "Brianna Williams"
+      ]
+    },
+    {
+      "id": "50134832",
+      "title": "Sources: 76ers plan to play starters in preseason game vs. Nets",
+      "summary": "The 76ers plan to play their starters Thursday against the Nets, sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50134832/sources-76ers-plan-play-starters-preseason-game-vs-nets",
+      "publishedAt": "2026-10-08T20:15:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726797_1296x729_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Joel Embiid",
+        "LeBron James",
+        "Tyrese Maxey",
+        "Jaylen Brown",
+        "VJ Edgecombe",
+        "news",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50134369",
+      "title": "Fantasy basketball: Category league draft tiers",
+      "summary": "Eric Moody groups players into tiers by each position for category-based leagues.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134369/fantasy-basketball-category-league-draft-tiers-2026-27",
+      "publishedAt": "2026-10-08T20:07:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1008/r1727941_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-08T19:10:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
     {
       "id": "50134349",
       "title": "Haliburton tells McAfee he feels 'great' after return to court",
       "summary": "Haliburton tells McAfee he feels 'great' after return to court",
       "url": "https://www.espn.com/video/clip/_/id/50134349/haliburton-tells-mcafee-feels-great-return-court",
-      "publishedAt": "2026-10-08T18:22:55+00:00",
+      "publishedAt": "2026-10-08T19:08:57+00:00",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1008/ss_20261008_141830898_3688851/ss_20261008_141830898_3688851.jpg",
       "author": "",
       "categories": [
@@ -17,15 +87,16 @@
         "Indiana Pacers",
         "Tyrese Haliburton",
         "Pat McAfee",
-        "The Pat McAfee Show"
+        "The Pat McAfee Show",
+        "Verts - Exclude Content"
       ]
     },
     {
       "id": "50125975",
       "title": "Fantasy basketball: Points league draft tiers",
-      "summary": "André Snellings groups players into tiers by each position for points leagues.",
+      "summary": "Eric Moody groups players into tiers by each position for points leagues.",
       "url": "https://www.espn.com/fantasy/basketball/story/_/id/50125975/fantasy-basketball-points-league-draft-tiers-nba-2026-27",
-      "publishedAt": "2026-10-08T17:20:42+00:00",
+      "publishedAt": "2026-10-08T18:51:37+00:00",
       "image": "https://a.espncdn.com/photo/2026/1007/r1727547_1296x729_16-9.jpg",
       "author": "Eric Moody",
       "categories": [
@@ -155,22 +226,6 @@
         "Yaxel Lendeborg",
         "Stephen Curry",
         "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-08T12:29:21+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -743,21 +798,6 @@
       ]
     },
     {
-      "id": "50110415",
-      "title": "Knicks' Karl-Anthony Towns not expecting contract extension soon",
-      "summary": "Karl-Anthony Towns says the chances \"don't look good\" for him getting a new extension with the Knicks before the start of the regular season.",
-      "url": "https://www.espn.com/nba/story/_/id/50110415/knicks-karl-anthony-towns-not-expecting-extension-soon",
-      "publishedAt": "2026-10-06T13:01:23+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "news",
-        "Karl-Anthony Towns"
-      ]
-    },
-    {
       "id": "50114927",
       "title": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
       "summary": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
@@ -982,50 +1022,6 @@
         "Verts - Exclude Content",
         "NBA Today",
         "Team Boost"
-      ]
-    },
-    {
-      "id": "50110301",
-      "title": "Fantasy basketball: Eric Karabell's 'Do not draft' list",
-      "summary": "Eric Karabell highlights the players to fade at their current average draft position in fantasy basketball drafts.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50110301/fantasy-basketball-do-not-draft-list-nba-2026-27",
-      "publishedAt": "2026-10-05T19:19:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1005/r1726401_1296x729_16-9.jpg",
-      "author": "Eric Karabell",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA",
-        "LaMelo Ball",
-        "Anthony Davis",
-        "Joel Embiid",
-        "Zion Williamson",
-        "Damian Lillard",
-        "Mikal Bridges",
-        "Lauri Markkanen",
-        "Kristaps Porzingis",
-        "Kawhi Leonard",
-        "Eric Karabell"
-      ]
-    },
-    {
-      "id": "50104877",
-      "title": "Behind the scenes inside LeBron's first 76ers training camp",
-      "summary": "From on-court schemes to a private team dinner to an attempt at divine intervention, here's what happened in LeBron's first camp with the 76ers.",
-      "url": "https://www.espn.com/nba/story/_/id/50104877/lebron-james-philadelphia-76ers-training-camp",
-      "publishedAt": "2026-10-05T14:00:47+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1004/r1726080_608x342_16-9.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Tyrese Maxey",
-        "Joel Embiid",
-        "VJ Edgecombe",
-        "Jaylen Brown",
-        "Dave McMenamin"
       ]
     }
   ]
