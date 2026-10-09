@@ -1,8 +1,180 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-09T10:33:15.190875+00:00",
+  "updatedAt": "2026-10-09T18:21:12.643262+00:00",
   "articles": [
+    {
+      "id": "50141686",
+      "title": "Tyrese Haliburton hopes to mend fences with Damian Lillard",
+      "summary": "Tyrese Haliburton said he wishes his relationship with Damian Lillard could be repaired after the Pacers star stole Lillard's Dame Time celebration during the 2023 in-season tournament.",
+      "url": "https://www.espn.com/nba/story/_/id/50141686/tyrese-haliburton-hopes-mend-fences-damian-lillard",
+      "publishedAt": "2026-10-09T18:14:22+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1723084_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Indiana Pacers",
+        "Portland Trail Blazers",
+        "Tyrese Haliburton",
+        "Damian Lillard",
+        "news"
+      ]
+    },
+    {
+      "id": "50140136",
+      "title": "Knicks tabling Karl-Anthony Towns, Josh Hart contract talks",
+      "summary": "The Knicks have said they are tabling contract extension talks with Karl-Anthony Towns and Josh Hart \"until later in the season and will remain solely focused on preparing for the start of the season.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50140136/knicks-tabling-karl-anthony-towns-josh-hart-contract-talks",
+      "publishedAt": "2026-10-09T15:41:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728230_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "news",
+        "Karl-Anthony Towns",
+        "Josh Hart"
+      ]
+    },
+    {
+      "id": "50140615",
+      "title": "'Very disrespectful!' Stephen A. slams James Dolan for tabling KAT, Hart contract talks",
+      "summary": "'Very disrespectful!' Stephen A. slams James Dolan for tabling KAT, Hart contract talks",
+      "url": "https://www.espn.com/video/clip/_/id/50140615/very-disrespectful-stephen-slams-james-dolan-tabling-kat-hart-contract-talks",
+      "publishedAt": "2026-10-09T15:06:30+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/ss_20261009_105505914_3689715/ss_20261009_105505914_3689715.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "New York Knicks",
+        "Karl-Anthony Towns",
+        "Josh Hart",
+        "Stephen A. Smith",
+        "First Take",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-09T14:56:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50138055",
+      "title": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
+      "summary": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50138055/game-highlights",
+      "publishedAt": "2026-10-09T14:33:45+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/7c48c8f0-3917-45e4-a9b8-20531456f104/7c48c8f0-3917-45e4-a9b8-20531456f104.jpg",
+      "author": "",
+      "categories": [
+        "Emanuel Sharp",
+        "Zach LaVine",
+        "Luka Doncic",
+        "Jarred Vanderbilt",
+        "Los Angeles Lakers",
+        "SC4U - Full Highlight",
+        "Precious Achiuwa",
+        "Daeqwon Plowden",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Sacramento Kings @ Los Angeles Lakers"
+      ]
+    },
+    {
+      "id": "50140391",
+      "title": "Evan Cohen perplexed by Knicks tabling contract talks with KAT, Hart",
+      "summary": "Evan Cohen perplexed by Knicks tabling contract talks with KAT, Hart",
+      "url": "https://www.espn.com/video/clip/_/id/50140391/evan-cohen-perplexed-knicks-tabling-contract-talks-kat-hart",
+      "publishedAt": "2026-10-09T14:14:29+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/ss_20261009_100909951_3689682612/ss_20261009_100909951_3689682612.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Josh Hart",
+        "Karl-Anthony Towns",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "49960162",
+      "title": "Fantasy basketball points league rankings: Cade Cunningham, Jalen Johnson are first-rounders",
+      "summary": "Updated fantasy basketball rankings for points leagues, with Cade Cunningham and Jalen Johnson starting the season higher than ever before.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-10-09T13:48:38+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0916/r1717760_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Andre Snellings",
+        "NBA"
+      ]
+    },
+    {
+      "id": "49959975",
+      "title": "Fantasy basketball H2H Roto and Category rankings: Who is No. 1?",
+      "summary": "Updated fantasy basketball rankings for roto and category leagues, with Tyrese Haliburton and Kyrie Irving back after a missed season.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-10-09T13:46:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0916/r1717750_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "Fantasy NBA",
+        "NBA",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50118254",
+      "title": "Jalen Duren, Pistons need each other -- for better or worse",
+      "summary": "After agreeing to a five-year, $200 million deal, how will Duren and Detroit move forward after a monthslong saga?",
+      "url": "https://www.espn.com/nba/story/_/id/50118254/detroit-pistons-jalen-duren-new-contract",
+      "publishedAt": "2026-10-09T11:39:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726894_608x342_16-9.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Jalen Duren",
+        "Cade Cunningham",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50134524",
+      "title": "How to ace your salary cap draft: Tips and strategies to build a winning team",
+      "summary": "Are you ready for your salary cap draft? Jim McCormick lays out helpful strategies and tactics you can use to ace draft day.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134524/fantasy-basketball-how-ace-your-salary-cap-draft-2026-2027",
+      "publishedAt": "2026-10-09T10:32:11+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1008/r1727955_1296x729_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Jim McCormick",
+        "NBA"
+      ]
+    },
     {
       "id": "50137673",
       "title": "LeBron James scores 10 points in 18 minutes in 76ers debut",
@@ -213,22 +385,6 @@
         "VJ Edgecombe",
         "news",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-08T19:10:58+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -846,21 +1002,6 @@
       ]
     },
     {
-      "id": "50112265",
-      "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
-      "summary": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
-      "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
-      "publishedAt": "2026-10-06T18:37:19+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
-      "author": "NBA insiders",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "NBA Insiders"
-      ]
-    },
-    {
       "id": "50117976",
       "title": "Did you miss the NBA offseason? Here's what to know for fantasy basketball",
       "summary": "Jim McCormick highlights all the changes -- and other things to know -- heading into the new fantasy basketball season.",
@@ -891,182 +1032,6 @@
         "Stephen A. Smith",
         "First Take",
         "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50117157",
-      "title": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
-      "summary": "Stephen A. sounds off on James Dolan, Knicks for their handling of KAT negotiations",
-      "url": "https://www.espn.com/video/clip/_/id/50117157/stephen-sounds-james-dolan-knicks-their-handling-kat-negotiations",
-      "publishedAt": "2026-10-06T15:22:05+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_111606687_3686839/ss_20261006_111606687_3686839.jpg",
-      "author": "",
-      "categories": [
-        "Karl-Anthony Towns",
-        "New York Knicks",
-        "Jalen Brunson",
-        "NBA",
-        "First Take",
-        "Stephen A. Smith",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50079138",
-      "title": "Predicting how new NBA lottery, anti-tanking rules will impact 2026-27 season",
-      "summary": "How could the changes aimed at circumventing tanking likely affect on-court outcomes this season?",
-      "url": "https://www.espn.com/nba/story/_/id/50079138/nba-new-lottery-rules-tanking-predictions",
-      "publishedAt": "2026-10-06T15:14:50+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724647_608x342_16-9.jpg",
-      "author": "Zach Kram",
-      "categories": [
-        "NBA",
-        "NBA Draft",
-        "Zach Kram"
-      ]
-    },
-    {
-      "id": "50114927",
-      "title": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
-      "summary": "Los Angeles Lakers vs. Sacramento Kings: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50114927/game-highlights",
-      "publishedAt": "2026-10-06T05:13:35+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/e4ec1628-617e-4b8a-af3c-879564ad4a1e/e4ec1628-617e-4b8a-af3c-879564ad4a1e.jpg",
-      "author": "",
-      "categories": [
-        "Los Angeles Lakers",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Nique Clifford",
-        "Sandro Mamukelashvili",
-        "4 Star Rating",
-        "Quentin Grimes",
-        "Cameron Carr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Los Angeles Lakers @ Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50114505",
-      "title": "Minnesota Timberwolves vs. Milwaukee Bucks: Game Highlights",
-      "summary": "Minnesota Timberwolves vs. Milwaukee Bucks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50114505/game-highlights",
-      "publishedAt": "2026-10-06T03:20:59+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/23faf852-9fbd-4abc-a258-9b4e024ccb48/23faf852-9fbd-4abc-a258-9b4e024ccb48.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Minnesota Timberwolves",
-        "Kevin Porter Jr",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Antonio Reeves",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Anthony Edwards",
-        "Joan Beringer",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Minnesota Timberwolves @ Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50113626",
-      "title": "76ers backup center Ariel Hukporti exits preseason opener early",
-      "summary": "Just five minutes into the preseason opener against the Knicks on Monday, 76ers backup center Ariel Hukporti suffered a right leg injury, causing him to leave the game.",
-      "url": "https://www.espn.com/nba/story/_/id/50113626/76ers-backup-center-ariel-hukporti-exits-preseason-opener-early",
-      "publishedAt": "2026-10-06T03:16:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726649_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "Philadelphia 76ers",
-        "Ariel Hukporti",
-        "NBA",
-        "news",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50113916",
-      "title": "New York Knicks vs. Philadelphia 76ers: Game Highlights",
-      "summary": "New York Knicks vs. Philadelphia 76ers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50113916/game-highlights",
-      "publishedAt": "2026-10-06T02:46:03+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/e2b76986-3e01-47f1-94bd-89b8892f1d77/e2b76986-3e01-47f1-94bd-89b8892f1d77.jpg",
-      "author": "",
-      "categories": [
-        "Caleb Love",
-        "Dillon Jones",
-        "Philadelphia 76ers",
-        "New York Knicks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Duke Miles",
-        "SC4U  - Eligible",
-        "Jaylen Brown",
-        "4 Star Rating",
-        "Andre Drummond",
-        "Saint Thomas",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New York Knicks @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50114093",
-      "title": "Memphis Grizzlies vs. Atlanta Hawks: Game Highlights",
-      "summary": "Memphis Grizzlies vs. Atlanta Hawks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50114093/game-highlights",
-      "publishedAt": "2026-10-06T02:45:55+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/fab8da5f-e8bd-4dd4-b363-6f8dcc0d9c55/fab8da5f-e8bd-4dd4-b363-6f8dcc0d9c55.jpg",
-      "author": "",
-      "categories": [
-        "GG Jackson",
-        "Javon Small",
-        "Atlanta Hawks",
-        "Ty Jerome",
-        "Corey Kispert",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "3 Star Rating",
-        "Cameron Boozer",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Memphis Grizzlies @ Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50114231",
-      "title": "Phoenix Suns vs. Detroit Pistons: Game Highlights",
-      "summary": "Phoenix Suns vs. Detroit Pistons: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50114231/game-highlights",
-      "publishedAt": "2026-10-06T02:45:48+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1006/a903535f-4de1-4ecd-b874-4c673eb8ea6e/a903535f-4de1-4ecd-b874-4c673eb8ea6e.jpg",
-      "author": "",
-      "categories": [
-        "John Collins",
-        "Phoenix Suns",
-        "Detroit Pistons",
-        "Ronald Holland II",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Jamaree Bouyea",
-        "SC4U  - Eligible",
-        "Ebuka Okorie",
-        "Devin Booker",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Phoenix Suns @ Detroit Pistons"
       ]
     }
   ]
