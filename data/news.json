@@ -1,14 +1,116 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-09T18:21:12.643262+00:00",
+  "updatedAt": "2026-10-10T00:50:54.517047+00:00",
   "articles": [
+    {
+      "id": "50142422",
+      "title": "Russell Westbrook wants to carry torch for L.A. Olympics",
+      "summary": "Retired NBA player and Olympic gold medal winner Russell Westbrook said he wants to carry the torch when his native Los Angeles hosts the 2028 Games.",
+      "url": "https://www.espn.com/olympics/basketball/story/_/id/50142422/russell-westbrook-wants-carry-torch-la-olympics",
+      "publishedAt": "2026-10-10T00:17:45+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728372_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Olympics",
+        "news",
+        "Olympics - Basketball",
+        "Olympics - Men's Basketball",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50134847",
+      "title": "Fantasy basketball cheat sheet: All the names you need to know for your draft",
+      "summary": "All the names you need to know from our 2026-27 fantasy basketball draft guide on a printable PDF cheat sheet",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134847/fantasy-basketball-guide-sleepers-busts-draft-tips-2026-2027",
+      "publishedAt": "2026-10-09T22:19:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728381_1296x729_16-9.jpg",
+      "author": "ESPN Fantasy",
+      "categories": [
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy"
+      ]
+    },
+    {
+      "id": "50075156",
+      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+      "publishedAt": "2026-10-09T22:18:37+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
+      "author": "ESPN Fantasy",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball"
+      ]
+    },
+    {
+      "id": "50134778",
+      "title": "Fantasy basketball guide: Player rankings, schedule grid and draft tips",
+      "summary": "Here is all of our key fantasy basketball draft content -- rankings, sleepers, schedule grid and draft tips -- collected into downloadable/printable PDF cheat sheets.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134778/fantasy-basketball-player-rankings-schedule-grid-draft-tips-2026-2027",
+      "publishedAt": "2026-10-09T22:10:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728319_1296x729_16-9.jpg",
+      "author": "ESPN Fantasy",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy"
+      ]
+    },
+    {
+      "id": "49959975",
+      "title": "Fantasy basketball H2H Roto and Category rankings: Who is No. 1?",
+      "summary": "Updated fantasy basketball rankings for roto and category leagues, with Tyrese Haliburton and Kyrie Irving back after a missed season.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-10-09T21:16:09+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0916/r1717750_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "Fantasy NBA",
+        "NBA",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50142464",
+      "title": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
+      "summary": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50142464/game-highlights",
+      "publishedAt": "2026-10-09T20:23:52+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/f64ab4d4-5097-47cd-8d7e-507c4839954d/f64ab4d4-5097-47cd-8d7e-507c4839954d.jpg",
+      "author": "",
+      "categories": [
+        "Tari Eason",
+        "Oscar Tshiebwe",
+        "Dallas Mavericks",
+        "Houston Rockets",
+        "Sergio de Larrea",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Max Christie",
+        "Cooper Flagg",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Houston Rockets @ Dallas Mavericks"
+      ]
+    },
     {
       "id": "50141686",
       "title": "Tyrese Haliburton hopes to mend fences with Damian Lillard",
       "summary": "Tyrese Haliburton said he wishes his relationship with Damian Lillard could be repaired after the Pacers star stole Lillard's Dame Time celebration during the 2023 in-season tournament.",
       "url": "https://www.espn.com/nba/story/_/id/50141686/tyrese-haliburton-hopes-mend-fences-damian-lillard",
-      "publishedAt": "2026-10-09T18:14:22+00:00",
+      "publishedAt": "2026-10-09T18:26:48+00:00",
       "image": "https://a.espncdn.com/photo/2026/0928/r1723084_1296x729_16-9.jpg",
       "author": "",
       "categories": [
@@ -126,21 +228,6 @@
         "Fantasy NBA",
         "Andre Snellings",
         "NBA"
-      ]
-    },
-    {
-      "id": "49959975",
-      "title": "Fantasy basketball H2H Roto and Category rankings: Who is No. 1?",
-      "summary": "Updated fantasy basketball rankings for roto and category leagues, with Tyrese Haliburton and Kyrie Irving back after a missed season.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-10-09T13:46:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717750_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "Fantasy NBA",
-        "NBA",
-        "Andre Snellings"
       ]
     },
     {
@@ -557,22 +644,6 @@
       ]
     },
     {
-      "id": "50118908",
-      "title": "76ers lose backup center Ariel Hukporti to torn Achilles",
-      "summary": "The 76ers' thin frontcourt took a big blow Tuesday after an MRI confirmed backup center Ariel Hukporti suffered a torn right Achilles.",
-      "url": "https://www.espn.com/nba/story/_/id/50118908/76ers-lose-backup-center-ariel-hukporti-torn-achilles",
-      "publishedAt": "2026-10-08T11:15:33+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726939_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Ariel Hukporti",
-        "Dave McMenamin"
-      ]
-    },
-    {
       "id": "50127764",
       "title": "Trail Blazers' Dundon says he intends to bring title to Portland",
       "summary": "New Trail Blazers owner Tom Dundon told season-ticket holders he intends to bring a championship to Portland.",
@@ -600,21 +671,6 @@
         "Tyrese Haliburton",
         "news",
         "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50075156",
-      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-      "publishedAt": "2026-10-08T10:40:23+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball"
       ]
     },
     {
@@ -857,22 +913,6 @@
       ]
     },
     {
-      "id": "50121039",
-      "title": "Haliburton buys Iowa St. students tickets for Pacers game",
-      "summary": "Tyrese Haliburton purchased tickets for the student section at his alma mater Iowa State for the Pacers' first preseason game Wednesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50121039/haliburton-buys-iowa-st-students-tickets-pacers-game",
-      "publishedAt": "2026-10-07T10:50:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727087_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "news",
-        "NBA",
-        "Indiana Pacers",
-        "Tyrese Haliburton",
-        "Jamal Collier"
-      ]
-    },
-    {
       "id": "50122353",
       "title": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
       "summary": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
@@ -999,39 +1039,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Brooklyn Nets @ Charlotte Hornets"
-      ]
-    },
-    {
-      "id": "50117976",
-      "title": "Did you miss the NBA offseason? Here's what to know for fantasy basketball",
-      "summary": "Jim McCormick highlights all the changes -- and other things to know -- heading into the new fantasy basketball season.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50117976/fantasy-basketball-offseason-news-2026-2027",
-      "publishedAt": "2026-10-06T18:24:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726889_1296x729_16-9.jpg",
-      "author": "Jim McCormick",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA",
-        "Jim McCormick"
-      ]
-    },
-    {
-      "id": "50117250",
-      "title": "Why Stephen A. trusts LeBron to be playoff-ready",
-      "summary": "Why Stephen A. trusts LeBron to be playoff-ready",
-      "url": "https://www.espn.com/video/clip/_/id/50117250/why-stephen-trusts-lebron-playoff-ready",
-      "publishedAt": "2026-10-06T16:00:28+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_114702747_3686864/ss_20261006_114702747_3686864.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "LeBron James",
-        "Philadelphia 76ers",
-        "Stephen A. Smith",
-        "First Take",
-        "Verts - Exclude Content"
       ]
     }
   ]
