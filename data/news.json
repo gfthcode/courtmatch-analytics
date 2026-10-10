@@ -1,8 +1,33 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-10T00:50:54.517047+00:00",
+  "updatedAt": "2026-10-10T09:50:18.571674+00:00",
   "articles": [
+    {
+      "id": "50144244",
+      "title": "Memphis Grizzlies vs. Chicago Bulls: Game Highlights",
+      "summary": "Memphis Grizzlies vs. Chicago Bulls: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50144244/game-highlights",
+      "publishedAt": "2026-10-10T02:55:08+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1010/385b62c8-aa7f-4688-ba30-14976fdc10bb/385b62c8-aa7f-4688-ba30-14976fdc10bb.jpg",
+      "author": "",
+      "categories": [
+        "Zach Edey",
+        "Caleb Wilson",
+        "Javon Small",
+        "Ty Jerome",
+        "SC4U - Full Highlight",
+        "Chicago Bulls",
+        "Memphis Grizzlies",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Memphis Grizzlies @ Chicago Bulls"
+      ]
+    },
     {
       "id": "50142422",
       "title": "Russell Westbrook wants to carry torch for L.A. Olympics",
@@ -1015,30 +1040,6 @@
       "categories": [
         "NBA",
         "Euroleague"
-      ]
-    },
-    {
-      "id": "50121469",
-      "title": "Brooklyn Nets vs. Charlotte Hornets: Game Highlights",
-      "summary": "Brooklyn Nets vs. Charlotte Hornets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50121469/game-highlights",
-      "publishedAt": "2026-10-07T02:16:20+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1007/f6f4b1bd-5990-4bc3-883d-823bf707ee06/f6f4b1bd-5990-4bc3-883d-823bf707ee06.jpg",
-      "author": "",
-      "categories": [
-        "Michael Porter Jr",
-        "Julius Randle",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Liam McNeeley",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Charlotte Hornets",
-        "Wyatt Fricks",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Brooklyn Nets @ Charlotte Hornets"
       ]
     }
   ]
