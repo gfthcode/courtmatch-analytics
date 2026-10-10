@@ -1,8 +1,41 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-10T09:50:18.571674+00:00",
+  "updatedAt": "2026-10-10T17:20:43.200376+00:00",
   "articles": [
+    {
+      "id": "50148027",
+      "title": "Warriors give Brandin Podziemski 5-year, $110M extension",
+      "summary": "Warriors guard Brandin Podziemski has agreed to a five-year, $110 million extension, his agent told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50148027/warriors-give-brandin-podziemski-5-year-110m-extension",
+      "publishedAt": "2026-10-10T16:38:00+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1010/r1728688_1296x729_16-9.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Brandin Podziemski",
+        "news",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50146858",
+      "title": "Wildcats run wild over Breakers",
+      "summary": "Dylan Windler drop 32 points as the Perth Wildcats runout 16 points victors over a New Zealand Breakers side missing Parker Jackson-Cartwright through injury.",
+      "url": "https://www.espn.com/video/clip/_/id/50146858/wildcats-run-wild-breakers",
+      "publishedAt": "2026-10-10T12:36:00+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1010/dm_261010_NBL_Highlight_Wildcats_run_wild_over_Breakers_20261010_PACRIM_AND_US_ONLY/dm_261010_NBL_Highlight_Wildcats_run_wild_over_Breakers_20261010_PACRIM_AND_US_ONLY.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "NBA G League",
+        "National Basketball League",
+        "New Zealand Breakers",
+        "news - au nbl",
+        "Perth"
+      ]
+    },
     {
       "id": "50144244",
       "title": "Memphis Grizzlies vs. Chicago Bulls: Game Highlights",
@@ -1013,33 +1046,6 @@
         "nba highlight",
         "Fantasy NBA",
         "New Orleans Pelicans @ Oklahoma City Thunder"
-      ]
-    },
-    {
-      "id": "50121620",
-      "title": "Sources: EuroLeague teams reject offer to merge into NBA Europe",
-      "summary": "Members of the EuroLeague rejected a formal offer from the NBA this week to merge and create a single NBA Europe operation, sources told ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/50121620/sources-euroleague-teams-reject-offer-merge-nba-europe",
-      "publishedAt": "2026-10-07T02:34:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727134_600x400_3-2.jpg",
-      "author": "Brian Windhorst",
-      "categories": [
-        "news",
-        "NBA",
-        "Brian Windhorst"
-      ]
-    },
-    {
-      "id": "50121705",
-      "title": "Adam Silver discusses NBA's plans in Europe",
-      "summary": "Adam Silver discusses NBA's plans in Europe",
-      "url": "https://www.espn.com/video/clip/_/id/50121705/adam-silver-discusses-nba-plans-europe",
-      "publishedAt": "2026-10-07T02:23:46+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1006/ss_20261006_221632721_3687329/ss_20261006_221632721_3687329.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Euroleague"
       ]
     }
   ]
