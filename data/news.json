@@ -1,8 +1,155 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-10T21:43:53.458991+00:00",
+  "updatedAt": "2026-10-11T05:46:20.707791+00:00",
   "articles": [
+    {
+      "id": "50148027",
+      "title": "Warriors give Brandin Podziemski 5-year, $110M extension",
+      "summary": "Warriors guard Brandin Podziemski has agreed to a five-year, $110 million extension, his agent told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50148027/warriors-give-brandin-podziemski-5-year-110m-extension",
+      "publishedAt": "2026-10-11T05:33:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1010/r1728688_1296x729_16-9.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Brandin Podziemski",
+        "news",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50154226",
+      "title": "Detroit Pistons vs. Washington Wizards: Game Highlights",
+      "summary": "Detroit Pistons vs. Washington Wizards: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50154226/game-highlights",
+      "publishedAt": "2026-10-11T04:03:35+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1011/71ded35d-90c3-4427-9810-e5bfad93a724/71ded35d-90c3-4427-9810-e5bfad93a724.jpg",
+      "author": "",
+      "categories": [
+        "Isaac Jones",
+        "Washington Wizards",
+        "Kyshawn George",
+        "Detroit Pistons",
+        "Justin Champagnie",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Detroit Pistons @ Washington Wizards"
+      ]
+    },
+    {
+      "id": "50153526",
+      "title": "Kings lose Maxime Raynaud to apparent serious knee injury",
+      "summary": "Kings second-year center Maxime Raynaud suffered what appeared to be a serious right knee injury in Saturday's preseason game against the Warriors.",
+      "url": "https://www.espn.com/nba/story/_/id/50153526/kings-lose-maxime-raynaud-apparent-serious-knee-injury",
+      "publishedAt": "2026-10-11T03:53:38+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729010_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "Sacramento Kings",
+        "Maxime Raynaud",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50153993",
+      "title": "Sacramento Kings vs. Golden State Warriors: Game Highlights",
+      "summary": "Sacramento Kings vs. Golden State Warriors: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50153993/game-highlights",
+      "publishedAt": "2026-10-11T03:33:22+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1011/8ce75427-269e-4c9a-b811-48ee7a8bf7a9/8ce75427-269e-4c9a-b811-48ee7a8bf7a9.jpg",
+      "author": "",
+      "categories": [
+        "Darius Acuff Jr",
+        "Charles Bassey",
+        "Will Richard",
+        "Yaxel Lendeborg",
+        "SC4U - Full Highlight",
+        "Golden State Warriors",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "De'Andre Hunter",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Sacramento Kings @ Golden State Warriors"
+      ]
+    },
+    {
+      "id": "50153982",
+      "title": "Minnesota Timberwolves vs. Miami Heat: Game Highlights",
+      "summary": "Minnesota Timberwolves vs. Miami Heat: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50153982/game-highlights",
+      "publishedAt": "2026-10-11T03:33:18+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1011/918dcd49-9ab1-4b93-8ba8-04aab4f6ac5c/918dcd49-9ab1-4b93-8ba8-04aab4f6ac5c.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "Minnesota Timberwolves",
+        "Ryan Conwell",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Antonio Reeves",
+        "SC4U  - Eligible",
+        "Bones Hyland",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Minnesota Timberwolves @ Miami Heat"
+      ]
+    },
+    {
+      "id": "50153766",
+      "title": "Philadelphia 76ers vs. Boston Celtics: Game Highlights",
+      "summary": "Philadelphia 76ers vs. Boston Celtics: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50153766/game-highlights",
+      "publishedAt": "2026-10-11T03:26:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1011/3eb44c8f-e475-4841-a3ef-aa8276fe0ddf/3eb44c8f-e475-4841-a3ef-aa8276fe0ddf.jpg",
+      "author": "",
+      "categories": [
+        "Philadelphia 76ers",
+        "Jabari Walker",
+        "Boston Celtics",
+        "Justin Edwards",
+        "SC4U - Full Highlight",
+        "NBA",
+        "VJ Edgecombe",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Mitchell Robinson",
+        "Derrick White",
+        "Payton Pritchard",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Philadelphia 76ers @ Boston Celtics"
+      ]
+    },
+    {
+      "id": "50151066",
+      "title": "Knicks' Towns opens up about grief for World Mental Health Day",
+      "summary": "Karl-Anthony Towns shared his emotional journey following the death of his mother six years ago to mark World Mental Health Day on Saturday.",
+      "url": "https://www.espn.com/nba/story/_/id/50151066/knicks-towns-opens-grief-world-mental-health-day",
+      "publishedAt": "2026-10-10T22:08:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0424/r1648593_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "New York Knicks",
+        "Karl-Anthony Towns"
+      ]
+    },
     {
       "id": "48957095",
       "title": "2026 NBA free agency: Grades for offseason signings, extensions",
@@ -88,22 +235,6 @@
         "nba free agency",
         "news - frontpage",
         "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50148027",
-      "title": "Warriors give Brandin Podziemski 5-year, $110M extension",
-      "summary": "Warriors guard Brandin Podziemski has agreed to a five-year, $110 million extension, his agent told ESPN's Shams Charania.",
-      "url": "https://www.espn.com/nba/story/_/id/50148027/warriors-give-brandin-podziemski-5-year-110m-extension",
-      "publishedAt": "2026-10-10T16:38:00+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1010/r1728688_1296x729_16-9.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Brandin Podziemski",
-        "news",
-        "Anthony Slater"
       ]
     },
     {
@@ -930,23 +1061,6 @@
       ]
     },
     {
-      "id": "50127138",
-      "title": "Mike Breen apologizes after LeBron James disputes Embiid story",
-      "summary": "Broadcaster Mike Breen apologized Wednesday for the reaction to a story he shared about LeBron James calling out Joel Embiid for showing up late, a story James has since disputed.",
-      "url": "https://www.espn.com/nba/story/_/id/50127138/mike-breen-apologizes-lebron-james-refutes-embiid-story",
-      "publishedAt": "2026-10-08T00:01:26+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727490_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Joel Embiid",
-        "Dave McMenamin"
-      ]
-    },
-    {
       "id": "50128244",
       "title": "Buss siblings formally file against Jeanie over Lakers sale",
       "summary": "The five Buss siblings attempting to sell the family's remaining shares in the Lakers officially filed their case against acting governor Jeanie Buss.",
@@ -960,137 +1074,6 @@
         "NBA",
         "Dave McMenamin",
         "Shams Charania"
-      ]
-    },
-    {
-      "id": "50127157",
-      "title": "Why Danny Green doesn't see Kyrie Irving staying in Dallas the entire season",
-      "summary": "Why Danny Green doesn't see Kyrie Irving staying in Dallas the entire season",
-      "url": "https://www.espn.com/video/clip/_/id/50127157/why-danny-green-see-kyrie-irving-staying-dallas-entire-season",
-      "publishedAt": "2026-10-07T20:06:02+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1007/ss_20261007_155345622_3687872959/ss_20261007_155345622_3687872959.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Kyrie Irving",
-        "Dallas Mavericks",
-        "NBA Today",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50111217",
-      "title": "Basketball Power Index: NBA projections, playoff chances for 2026-27 season",
-      "summary": "ESPN's Basketball Power Index projections for the 2026-27 NBA season are out, including a ranking of all 30 teams.",
-      "url": "https://www.espn.com/nba/story/_/id/50111217/nba-season-projections-2026-27-bpi",
-      "publishedAt": "2026-10-07T14:18:28+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0209/nba_all-star-preview_2_16x9_608x342.jpg",
-      "author": "Dean Oliver",
-      "categories": [
-        "NBA",
-        "news - analytics",
-        "NBA Draft",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards"
-      ]
-    },
-    {
-      "id": "50124074",
-      "title": "United grind out much needed win",
-      "summary": "Melbourne United survive a late surge from the Adelaide 36ers in their 96-91 win on the road in the NBL Ignite Cup.",
-      "url": "https://www.espn.com/video/clip/_/id/50124074/united-grind-much-needed-win",
-      "publishedAt": "2026-10-07T11:06:36+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1007/dm_261007_NBL_Highlight_United_grind_out_much_needed_win_20260710_PACRIM_AND_US_ONLY/dm_261007_NBL_Highlight_United_grind_out_much_needed_win_20260710_PACRIM_AND_US_ONLY.jpg",
-      "author": "",
-      "categories": [
-        "ADELAIDE 36ers",
-        "Melbourne United",
-        "NBA",
-        "National Basketball League",
-        "news - au nbl"
-      ]
-    },
-    {
-      "id": "50122353",
-      "title": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
-      "summary": "Los Angeles Lakers vs. Golden State Warriors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50122353/game-highlights",
-      "publishedAt": "2026-10-07T04:43:54+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1007/101a8a1d-a214-42a4-a9f0-9166f0fafcc6/101a8a1d-a214-42a4-a9f0-9166f0fafcc6.jpg",
-      "author": "",
-      "categories": [
-        "Charles Bassey",
-        "Los Angeles Lakers",
-        "Yaxel Lendeborg",
-        "Adou Thiero",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "Brandon Williams",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Sandro Mamukelashvili",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Los Angeles Lakers @ Golden State Warriors"
-      ]
-    },
-    {
-      "id": "50122305",
-      "title": "Denver Nuggets vs. Utah Jazz: Game Highlights",
-      "summary": "Denver Nuggets vs. Utah Jazz: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50122305/game-highlights",
-      "publishedAt": "2026-10-07T04:22:20+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1007/4dd538b9-d729-4fda-a354-924443ac1045/4dd538b9-d729-4fda-a354-924443ac1045.jpg",
-      "author": "",
-      "categories": [
-        "Aaron Gordon",
-        "Trevon Brazile",
-        "Darryn Peterson",
-        "Utah Jazz",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Isaiah Collier",
-        "Josh Okogie",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Denver Nuggets @ Utah Jazz"
       ]
     }
   ]
