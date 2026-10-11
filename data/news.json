@@ -1,8 +1,80 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-11T12:49:42.179885+00:00",
+  "updatedAt": "2026-10-11T19:33:33.956839+00:00",
   "articles": [
+    {
+      "id": "50159419",
+      "title": "Kings C Maxime Raynaud (knee) to be reevaluated in 2 weeks",
+      "summary": "Kings second-year center Maxime Raynaud will be reevaluated in two weeks with a patellar subluxation in his right knee.",
+      "url": "https://www.espn.com/nba/story/_/id/50159419/kings-c-maxime-raynaud-knee-reevaluated-2-weeks",
+      "publishedAt": "2026-10-11T18:54:37+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729010_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "Maxime Raynaud",
+        "Sacramento Kings",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50153526",
+      "title": "Kings lose Maxime Raynaud to apparent serious knee injury",
+      "summary": "Kings second-year center Maxime Raynaud suffered what appeared to be a serious right knee injury in Saturday's preseason game against the Warriors.",
+      "url": "https://www.espn.com/nba/story/_/id/50153526/kings-lose-maxime-raynaud-apparent-serious-knee-injury",
+      "publishedAt": "2026-10-11T17:11:03+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729010_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "Sacramento Kings",
+        "Maxime Raynaud",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50157198",
+      "title": "Kyrie Irving returns to Mavs, dazzles in China preseason game",
+      "summary": "Kyrie Irving dazzled in his return to the Mavericks, scoring 17 points in his first game in 586 days.",
+      "url": "https://www.espn.com/nba/story/_/id/50157198/kyrie-irving-returns-mavs-dazzles-china-preseason-game",
+      "publishedAt": "2026-10-11T15:47:32+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729169_1296x729_16-9.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks",
+        "Kyrie Irving",
+        "news",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50156392",
+      "title": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
+      "summary": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50156392/game-highlights",
+      "publishedAt": "2026-10-11T14:47:49+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1011/e1a6103d-4c46-40c0-be2f-e9a712fd036a/e1a6103d-4c46-40c0-be2f-e9a712fd036a.jpg",
+      "author": "",
+      "categories": [
+        "Kyrie Irving",
+        "Zaccharie Risacher",
+        "Houston Rockets",
+        "Dallas Mavericks",
+        "SC4U - Full Highlight",
+        "Marcus Smart",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Dallas Mavericks @ Houston Rockets"
+      ]
+    },
     {
       "id": "50148027",
       "title": "Warriors give Brandin Podziemski 5-year, $110M extension",
@@ -41,22 +113,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Detroit Pistons @ Washington Wizards"
-      ]
-    },
-    {
-      "id": "50153526",
-      "title": "Kings lose Maxime Raynaud to apparent serious knee injury",
-      "summary": "Kings second-year center Maxime Raynaud suffered what appeared to be a serious right knee injury in Saturday's preseason game against the Warriors.",
-      "url": "https://www.espn.com/nba/story/_/id/50153526/kings-lose-maxime-raynaud-apparent-serious-knee-injury",
-      "publishedAt": "2026-10-11T03:53:38+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1011/r1729010_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Sacramento Kings",
-        "Maxime Raynaud",
-        "Anthony Slater"
       ]
     },
     {
@@ -904,20 +960,6 @@
       ]
     },
     {
-      "id": "50127764",
-      "title": "Trail Blazers' Dundon says he intends to bring title to Portland",
-      "summary": "New Trail Blazers owner Tom Dundon told season-ticket holders he intends to bring a championship to Portland.",
-      "url": "https://www.espn.com/nba/story/_/id/50127764/trail-blazers-dundon-says-intends-bring-title-portland",
-      "publishedAt": "2026-10-08T11:15:04+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0403/r1637876_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Portland Trail Blazers",
-        "news"
-      ]
-    },
-    {
       "id": "50130092",
       "title": "Tyrese Haliburton scores 7 in 1st game in more than 16 months",
       "summary": "Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
@@ -1032,48 +1074,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Phoenix Suns @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50129245",
-      "title": "Minnesota Timberwolves vs. Indiana Pacers: Game Highlights",
-      "summary": "Minnesota Timberwolves vs. Indiana Pacers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50129245/game-highlights",
-      "publishedAt": "2026-10-08T01:49:43+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/8403b562-68c9-4de7-8f77-08b403acdafa/8403b562-68c9-4de7-8f77-08b403acdafa.jpg",
-      "author": "",
-      "categories": [
-        "Quenton Jackson",
-        "Minnesota Timberwolves",
-        "Jarace Walker",
-        "Indiana Pacers",
-        "Jonathan Kuminga",
-        "Cody Williams",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Anthony Edwards",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Minnesota Timberwolves @ Indiana Pacers"
-      ]
-    },
-    {
-      "id": "50128244",
-      "title": "Buss siblings formally file against Jeanie over Lakers sale",
-      "summary": "The five Buss siblings attempting to sell the family's remaining shares in the Lakers officially filed their case against acting governor Jeanie Buss.",
-      "url": "https://www.espn.com/nba/story/_/id/50128244/buss-siblings-formally-file-jeanie-lakers-sale",
-      "publishedAt": "2026-10-07T23:29:41+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0527/r1664559_600x400_3-2.jpg",
-      "author": "Dave McMenamin and Shams Charania",
-      "categories": [
-        "news",
-        "Los Angeles Lakers",
-        "NBA",
-        "Dave McMenamin",
-        "Shams Charania"
       ]
     }
   ]
