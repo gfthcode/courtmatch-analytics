@@ -1,8 +1,100 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-12T10:49:12.400424+00:00",
+  "updatedAt": "2026-10-12T21:16:16.592680+00:00",
   "articles": [
+    {
+      "id": "50168000",
+      "title": "Kentavious Caldwell-Pope cites team chemistry as key to 76ers' success",
+      "summary": "Kentavious Caldwell-Pope says the 76ers' success this season depends on how well the team's diverse personalities mesh.",
+      "url": "https://www.espn.com/nba/story/_/id/50168000/kentavious-caldwell-pope-cites-team-chemistry-key-76ers",
+      "publishedAt": "2026-10-12T19:20:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729797_1296x729_16-9.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Kentavious Caldwell-Pope",
+        "news",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50167264",
+      "title": "Pacers, Spurs, Nuggets, Nets unveil ABA-inspired uniforms, courts",
+      "summary": "The four teams' throwback uniforms and courts pay homage to their milestone ABA anniversaries.",
+      "url": "https://www.espn.com/nba/story/_/id/50167264/spurs-nuggets-pacers-nets-aba-uniforms",
+      "publishedAt": "2026-10-12T19:04:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729782_1080x607_16-9.jpg",
+      "author": "Kalan Hooks",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "Indiana Pacers",
+        "Denver Nuggets",
+        "Brooklyn Nets",
+        "Kalan Hooks"
+      ]
+    },
+    {
+      "id": "50163354",
+      "title": "Windhorst: Why Cooper Flagg's ascension is starting to feel inevitable",
+      "summary": "The NBA China Games showcased Cooper Flagg's evolving game, leadership and, perhaps most impressive, his franchise-savior ceiling.",
+      "url": "https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china",
+      "publishedAt": "2026-10-12T17:26:21+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729604_1296x729_16-9.jpg",
+      "author": "Brian Windhorst",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks",
+        "Cooper Flagg",
+        "Houston Rockets",
+        "Brian Windhorst"
+      ]
+    },
+    {
+      "id": "50166468",
+      "title": "'E:60 Being Ben' trailer",
+      "summary": "'E:60 Being Ben' trailer",
+      "url": "https://www.espn.com/video/clip/_/id/50166468/e60-being-ben-trailer",
+      "publishedAt": "2026-10-12T15:06:20+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_e60_beingben_trailer666/dm_261012_e60_beingben_trailer666.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50165903",
+      "title": "Jordan game-worn 1998 NBA Finals jersey sells for $14 million",
+      "summary": "A game-worn, autographed Michael Jordan road jersey from the 1998 NBA Finals has been privately sold for $14 million.",
+      "url": "https://www.espn.com/nba/story/_/id/50165903/jordan-game-worn-1998-nba-finals-jersey-sells-14-million",
+      "publishedAt": "2026-10-12T14:07:39+00:00",
+      "image": "https://a.espncdn.com/photo/2020/0331/r684529_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "news"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-12T13:27:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
     {
       "id": "50163814",
       "title": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
@@ -380,22 +472,6 @@
         "Kawhi Leonard",
         "Toronto Raptors",
         "Zach Kram"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-10T18:11:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -926,142 +1002,6 @@
         "news - fantasy basketball",
         "Fantasy NBA",
         "NBA"
-      ]
-    },
-    {
-      "id": "50111204",
-      "title": "What does your NBA team need? The biggest hole on all 30 rosters",
-      "summary": "Every NBA team is missing something, even the leading title contenders.",
-      "url": "https://www.espn.com/nba/story/_/id/50111204/nba-preseason-roster-holes-30-teams",
-      "publishedAt": "2026-10-08T16:39:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726994_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Cleveland Cavaliers",
-        "Denver Nuggets",
-        "Houston Rockets",
-        "San Antonio Spurs",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Dallas Mavericks",
-        "Golden State Warriors",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards",
-        "Atlanta Hawks",
-        "Detroit Pistons",
-        "NBA Draft",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50127220",
-      "title": "Fantasy basketball: André Snellings' Ultimate Draft Board",
-      "summary": "André Snellings crunches the numbers, factors in average draft position and highlights the best spots to draft key players throughout your fantasy basketball draft.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50127220/fantasy-basketball-ultimate-draft-board-perfect-picks-every-round-nba-2026-27",
-      "publishedAt": "2026-10-08T13:55:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727524_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA",
-        "Nikola Jokic",
-        "Victor Wembanyama",
-        "Giannis Antetokounmpo",
-        "Anthony Edwards",
-        "Jayson Tatum",
-        "Donovan Mitchell",
-        "Trae Young",
-        "Josh Giddey",
-        "Tyrese Haliburton",
-        "Cooper Flagg",
-        "Domantas Sabonis",
-        "Alperen Sengun",
-        "Amen Thompson",
-        "Kevin Durant",
-        "LaMelo Ball",
-        "James Harden",
-        "Anthony Davis",
-        "Austin Reaves",
-        "Derrick White",
-        "Deni Avdija",
-        "Mikal Bridges",
-        "Nickeil Alexander-Walker",
-        "Dyson Daniels",
-        "Naz Reid",
-        "Walker Kessler",
-        "Ty Jerome",
-        "Ivica Zubac",
-        "Paul George",
-        "Kel'el Ware",
-        "Darius Acuff Jr",
-        "Jalen Green",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50119633",
-      "title": "Rockets, Mavs take China: Highlights, top scenes from off the court",
-      "summary": "The top sights and sounds from the Dallas Mavericks and Houston Rockets' preseason trip to China.",
-      "url": "https://www.espn.com/nba/story/_/id/50119633/rockets-mavs-nba-china-highlights",
-      "publishedAt": "2026-10-08T13:24:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1727044_2_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "Dallas Mavericks",
-        "Houston Rockets",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50125703",
-      "title": "The Warriors need Yaxel Lendeborg's fast-tracked development",
-      "summary": "The Golden State Warriors have high hopes for the No. 11 pick after several failed lottery picks.",
-      "url": "https://www.espn.com/nba/story/_/id/50125703/warriors-yaxel-lendeborg-training-camp-preseason-debut",
-      "publishedAt": "2026-10-08T12:40:22+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727373_608x342_16-9.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Yaxel Lendeborg",
-        "Stephen Curry",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50131848",
-      "title": "NBA, FIBA say Europe push to continue without EuroLeague",
-      "summary": "The NBA and FIBA say they are undeterred in moving forward with the NBA Europe plan after EuroLeague's team owners rejected a merger offer this week.",
-      "url": "https://www.espn.com/nba/story/_/id/50131848/nba-fiba-say-europe-push-continue-euroleague",
-      "publishedAt": "2026-10-08T12:17:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724627_1296x729_16-9.jpg",
-      "author": "Brian Windhorst",
-      "categories": [
-        "NBA",
-        "news",
-        "Brian Windhorst"
       ]
     }
   ]
