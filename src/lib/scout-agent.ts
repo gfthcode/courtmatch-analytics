@@ -95,7 +95,10 @@ export function buildLineupFitReport(data: Dataset, query: string, english: bool
     body: text('当前筛选指标的权重都为 0。请把至少一项调到大于 0，再生成候选名单。', 'All selected signals have zero weight. Increase at least one above zero to rank candidates.', english),
   };
   const valuesFor = (stats: PlayerStats): Record<FitMetric, number | null> => ({
-    shooting: stats.threePointPercentage ?? null,
+    shooting: stats.threePointersAttemptedPerGame != null
+      && stats.threePointersAttemptedPerGame >= 1.5
+      && stats.threePointersAttemptedPerGame * stats.gamesPlayed >= 50
+      ? stats.threePointPercentage ?? null : null,
     playmaking: stats.assistsPerGame ?? null,
     scoring: stats.pointsPerGame,
     rebounding: stats.reboundsPerGame,
@@ -129,7 +132,8 @@ export function buildLineupFitReport(data: Dataset, query: string, english: bool
   if (/内线|中锋|center|big/i.test(query)) requestedRoles.add('big');
   const selectedRoles = requestedRoles.size ? roles.filter((role) => requestedRoles.has(role.key)) : roles;
   const sections = selectedRoles.map((role) => {
-    const rows = candidates.filter((candidate) => role.accepts(candidate.player.position)).sort((a, b) => b.score - a.score).slice(0, selectedRoles.length === 1 ? 5 : 2);
+    const rows = candidates.filter((candidate) => role.accepts(candidate.player.position) && (!metrics.includes('shooting') || candidate.values.shooting != null))
+      .sort((a, b) => b.score - a.score).slice(0, selectedRoles.length === 1 ? 5 : 2);
     const entries = rows.map((candidate, index) => {
       const details = metrics.map((metric) => {
         const value = candidate.values[metric];
@@ -143,7 +147,7 @@ export function buildLineupFitReport(data: Dataset, query: string, english: bool
   const criteria = metrics.map((metric) => `${text(...metricLabels[metric], english)} ×${rate(selectedWeights?.[metric] ?? 1)}`).join(' · ');
   return {
     title: text('阵容搭配探索 · 候选球员', 'Lineup fit · player candidates', english),
-    body: `${text(`赛季：${season} 常规赛 · 筛选：${criteria} · 至少 10 场`, `Season: ${season} regular season · Signals: ${criteria} · minimum 10 games`, english)}\n\n${sections.join('\n\n')}\n\n${text('算法：在至少 10 场的候选球员池中，每项指标按最小值到最大值映射到 0–100，再按上方权重加权平均；缺失指标按 0 计。抢断+盖帽只是防守数据代理指标，三分命中率未考虑出手量。匹配分不代表球员间化学反应、真实阵容胜率或因果结论。', 'Method: among candidates with at least 10 games, each signal is min-max scaled to 0–100 and combined with the weights shown above; missing values count as zero. Steals plus blocks are only a defensive proxy, and 3P% does not account for volume. Fit is not chemistry, lineup win probability or causality.', english)}\n${scoutSourceNote(data, 'player', season, english)}`,
+    body: `${text(`赛季：${season} 常规赛 · 筛选：${criteria} · 至少 10 场`, `Season: ${season} regular season · Signals: ${criteria} · minimum 10 games`, english)}\n\n${sections.join('\n\n')}\n\n${text('算法：在至少 10 场的候选球员池中，每项指标按最小值到最大值映射到 0–100，再按上方权重加权平均；缺失指标按 0 计。投射指标须场均至少 1.5 次三分出手且赛季至少 50 次；明确要求投射时，未达门槛的球员不入榜。抢断+盖帽只是防守数据代理指标。匹配分不代表球员间化学反应、真实阵容胜率或因果结论。', 'Method: among candidates with at least 10 games, each signal is min-max scaled to 0–100 and combined with the weights shown above; missing values count as zero. Shooting requires at least 1.5 threes attempted per game and 50 attempts in the season; explicit shooting queries exclude players below that threshold. Steals plus blocks are only a defensive proxy. Fit is not chemistry, lineup win probability or causality.', english)}\n${scoutSourceNote(data, 'player', season, english)}`,
     action: { label: text('打开球员目录', 'Open player directory', english), href: `/players?season=${encodeURIComponent(season)}` },
   };
 }

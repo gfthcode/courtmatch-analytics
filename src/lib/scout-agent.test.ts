@@ -9,7 +9,7 @@ const player = (id: string, position: Player['position']): Player => ({
 const stats = (playerId: string, season: string, overrides: Partial<PlayerStats> = {}): PlayerStats => ({
   playerId, season, seasonType: 'regular', gamesPlayed: 20, pointsPerGame: 15, reboundsPerGame: 5,
   assistsPerGame: 4, stealsPerGame: 1, blocksPerGame: 1, fieldGoalPercentage: 0.5,
-  threePointPercentage: 0.35, freeThrowPercentage: 0.8, updatedAt: '2026-10-01', ...overrides,
+  threePointPercentage: 0.35, threePointersAttemptedPerGame: 4, freeThrowPercentage: 0.8, updatedAt: '2026-10-01', ...overrides,
 });
 const dataset = (): Dataset => ({
   players: [player('guard', 'G'), player('wing', 'F'), player('big', 'C')], teams: [], matchups: [],
@@ -48,5 +48,13 @@ describe('CourtMatch Agent local workflows', () => {
     expect(report.body).toContain('缺失指标按 0 计');
     const empty = buildLineupFitReport(dataset(), '投射和防守后卫', false, { ...weights, shooting: 0 });
     expect(empty.body).toContain('权重都为 0');
+  });
+
+  it('does not treat a one-attempt 100% shooter as a spacing candidate', () => {
+    const current = dataset();
+    current.playerStats = current.playerStats.map((row) => row.playerId === 'big' ? { ...row, threePointPercentage: 1, threePointersAttemptedPerGame: 0.1 } : row);
+    const report = buildLineupFitReport(current, '寻找具备投射和防守能力的内线', false);
+    expect(report.body).not.toContain('big (TST / C)');
+    expect(report.body).toContain('赛季至少 50 次');
   });
 });
