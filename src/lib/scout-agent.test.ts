@@ -39,4 +39,14 @@ describe('CourtMatch Agent local workflows', () => {
     expect(report.body).not.toContain('锋线\n');
     expect(report.body).toContain('不代表球员间化学反应');
   });
+
+  it('explains lineup weights and rejects a zero-weight ranking', () => {
+    const weights = { shooting: 2, playmaking: 1, scoring: 1, rebounding: 1, defense: 0 };
+    const report = buildLineupFitReport(dataset(), '投射和防守后卫', false, weights);
+    expect(report.body).toContain('三分命中率 ×2.0');
+    expect(report.body).not.toContain('抢断+盖帽 ×0.0');
+    expect(report.body).toContain('缺失指标按 0 计');
+    const empty = buildLineupFitReport(dataset(), '投射和防守后卫', false, { ...weights, shooting: 0 });
+    expect(empty.body).toContain('权重都为 0');
+  });
 });

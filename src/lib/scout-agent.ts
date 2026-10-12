@@ -1,5 +1,6 @@
 import type { Dataset, Player, PlayerStats } from './types';
 import type { ScoutResult } from './scout';
+import { scoutSourceNote } from './scout-provenance';
 
 const text = (zh: string, en: string, english: boolean) => english ? en : zh;
 const rate = (value: number | null | undefined, decimals = 1) => value == null || !Number.isFinite(value) ? '—' : value.toFixed(decimals);
@@ -49,19 +50,20 @@ export function buildWatchlistReport(data: Dataset, playerIds: string[], english
     : text('这是当前已发布快照，不是后台监控或实时通知。', 'This uses the current published snapshot; it is not background monitoring or a live alert.', english);
   return {
     title: text('关注球员 · 变化简报', 'Watchlist · change brief', english),
-    body: `${reports.join('\n\n')}\n\n${text(`本地关注 ${selected.length} 人 · ${season} · ${note}`, `Tracking ${selected.length} locally saved player(s) · ${season} · ${note}`, english)}`,
+    body: `${reports.join('\n\n')}\n\n${text(`本地关注 ${selected.length} 人 · ${season} · ${note}`, `Tracking ${selected.length} locally saved player(s) · ${season} · ${note}`, english)}\n${scoutSourceNote(data, 'player', season, english)}`,
     action: { label: text('查看球员数据', 'View player data', english), href: '/players' },
   };
 }
 
-type FitMetric = 'shooting' | 'playmaking' | 'scoring' | 'rebounding' | 'defense';
+export type FitMetric = 'shooting' | 'playmaking' | 'scoring' | 'rebounding' | 'defense';
+export type FitWeights = Record<FitMetric, number>;
 type Candidate = { player: Player; stats: PlayerStats; values: Record<FitMetric, number | null>; score: number };
 const metricLabels: Record<FitMetric, [string, string]> = {
   shooting: ['三分命中率', '3P%'], playmaking: ['助攻', 'APG'], scoring: ['得分', 'PPG'],
   rebounding: ['篮板', 'RPG'], defense: ['抢断+盖帽', 'STL+BLK'],
 };
 
-export function buildLineupFitReport(data: Dataset, query: string, english: boolean): ScoutResult {
+export function buildLineupFitReport(data: Dataset, query: string, english: boolean, selectedWeights?: FitWeights): ScoutResult {
   const season = currentSeason(data);
   const allStats = latestRows(data, season);
   const playersById = new Map(data.players.map((player) => [player.id, player]));
@@ -86,7 +88,12 @@ export function buildLineupFitReport(data: Dataset, query: string, english: bool
     ...(wantsScoring ? ['scoring' as const] : []), ...(wantsRebounding ? ['rebounding' as const] : []),
     ...(wantsDefense ? ['defense' as const] : []),
   ];
-  const metrics: FitMetric[] = requested.length ? requested : ['shooting', 'playmaking', 'rebounding', 'defense'];
+  const baseMetrics: FitMetric[] = requested.length ? requested : ['shooting', 'playmaking', 'rebounding', 'defense'];
+  const metrics = baseMetrics.filter((metric) => !selectedWeights || selectedWeights[metric] > 0);
+  if (!metrics.length) return {
+    title: text('阵容搭配探索 · 请设置权重', 'Lineup fit · set a weight', english),
+    body: text('当前筛选指标的权重都为 0。请把至少一项调到大于 0，再生成候选名单。', 'All selected signals have zero weight. Increase at least one above zero to rank candidates.', english),
+  };
   const valuesFor = (stats: PlayerStats): Record<FitMetric, number | null> => ({
     shooting: stats.threePointPercentage ?? null,
     playmaking: stats.assistsPerGame ?? null,
@@ -102,10 +109,12 @@ export function buildLineupFitReport(data: Dataset, query: string, english: bool
   const candidates: Candidate[] = raw.map((row) => {
     let total = 0; let weights = 0;
     for (const metric of metrics) {
+      const weight = selectedWeights?.[metric] ?? 1;
       const value = row.values[metric]; const range = ranges.get(metric);
+      weights += weight;
       if (value == null || !range) continue;
       const normalized = range.max === range.min ? 0.5 : (value - range.min) / (range.max - range.min);
-      total += normalized; weights += 1;
+      total += normalized * weight;
     }
     return { ...row, score: weights ? total / weights : 0 };
   });
@@ -131,10 +140,10 @@ export function buildLineupFitReport(data: Dataset, query: string, english: bool
     });
     return `${text(role.zh, role.en, english)}\n${entries.length ? entries.join('\n') : text('当前筛选没有合格球员。', 'No qualified candidates for this role.', english)}`;
   });
-  const criteria = metrics.map((metric) => text(...metricLabels[metric], english)).join(' · ');
+  const criteria = metrics.map((metric) => `${text(...metricLabels[metric], english)} ×${rate(selectedWeights?.[metric] ?? 1)}`).join(' · ');
   return {
     title: text('阵容搭配探索 · 候选球员', 'Lineup fit · player candidates', english),
-    body: `${text(`赛季：${season} 常规赛 · 筛选：${criteria} · 至少 10 场`, `Season: ${season} regular season · Signals: ${criteria} · minimum 10 games`, english)}\n\n${sections.join('\n\n')}\n\n${text('匹配分是当前候选池内所选指标的归一化排序，不代表球员间化学反应、真实阵容胜率或因果结论。数据来自已发布快照。', 'Fit scores are normalized rankings of selected metrics within the current candidate pool. They do not measure player chemistry, lineup win probability, or causality. Based on published snapshots.', english)}`,
+    body: `${text(`赛季：${season} 常规赛 · 筛选：${criteria} · 至少 10 场`, `Season: ${season} regular season · Signals: ${criteria} · minimum 10 games`, english)}\n\n${sections.join('\n\n')}\n\n${text('算法：在至少 10 场的候选球员池中，每项指标按最小值到最大值映射到 0–100，再按上方权重加权平均；缺失指标按 0 计。抢断+盖帽只是防守数据代理指标，三分命中率未考虑出手量。匹配分不代表球员间化学反应、真实阵容胜率或因果结论。', 'Method: among candidates with at least 10 games, each signal is min-max scaled to 0–100 and combined with the weights shown above; missing values count as zero. Steals plus blocks are only a defensive proxy, and 3P% does not account for volume. Fit is not chemistry, lineup win probability or causality.', english)}\n${scoutSourceNote(data, 'player', season, english)}`,
     action: { label: text('打开球员目录', 'Open player directory', english), href: `/players?season=${encodeURIComponent(season)}` },
   };
 }

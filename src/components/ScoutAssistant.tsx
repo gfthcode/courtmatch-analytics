@@ -4,7 +4,7 @@ import { Activity, ArrowUpRight, BarChart3, Bot, Bookmark, CircleHelp, CornerDow
 import { Link } from 'react-router-dom';
 import { answerScoutQuestion, type ScoutNewsFeed, type ScoutResult } from '../lib/scout';
 import { readNewsTranslationCache, saveNewsTranslation, translateNewsToChinese } from '../lib/news-translation';
-import { buildLineupFitReport, buildWatchlistReport } from '../lib/scout-agent';
+import { buildLineupFitReport, buildWatchlistReport, type FitMetric, type FitWeights } from '../lib/scout-agent';
 import { SCOUT_AGENT_OPEN_EVENT, type ScoutAgentMode } from '../lib/scout-events';
 import { searchPlayers } from '../lib/api';
 import { useData } from '../state';
@@ -13,6 +13,14 @@ import './scout-assistant.css';
 import './scout-news.css';
 
 type Message = { id: number; role: 'user' | 'assistant'; text: string; result?: ScoutResult };
+const defaultFitWeights: FitWeights = { shooting: 1, playmaking: 1, scoring: 1, rebounding: 1, defense: 1 };
+const fitSignals: Array<{ key: FitMetric; zh: string; en: string }> = [
+  { key: 'shooting', zh: '三分命中率', en: '3P%' },
+  { key: 'playmaking', zh: '助攻', en: 'Assists' },
+  { key: 'scoring', zh: '得分', en: 'Scoring' },
+  { key: 'rebounding', zh: '篮板', en: 'Rebounding' },
+  { key: 'defense', zh: '抢断 + 盖帽', en: 'Steals + blocks' },
+];
 
 export function ScoutAssistant() {
   const data = useData();
@@ -25,6 +33,7 @@ export function ScoutAssistant() {
   const [newsFeed, setNewsFeed] = useState<ScoutNewsFeed>();
   const [activeMode, setActiveMode] = useState<ScoutAgentMode | null>(null);
   const [watchSearch, setWatchSearch] = useState('');
+  const [fitWeights, setFitWeights] = useState<FitWeights>(defaultFitWeights);
   const [trackedIds, setTrackedIds] = useState<string[]>(() => {
     try { const saved = JSON.parse(localStorage.getItem('cm-agent-watchlist-v1') ?? '[]') as unknown; return Array.isArray(saved) ? saved.filter((id): id is string => typeof id === 'string') : []; }
     catch { return []; }
@@ -73,7 +82,7 @@ export function ScoutAssistant() {
       let result = mode === 'watchlist'
         ? buildWatchlistReport(data, trackedIds, english)
         : mode === 'lineup'
-          ? buildLineupFitReport(data, prompt, english)
+          ? buildLineupFitReport(data, prompt, english, fitWeights)
           : answerScoutQuestion(data, prompt, english, feed);
       if (!english && mode !== 'watchlist' && mode !== 'lineup' && feed && result.sources?.length) {
         const sourceUrls = new Set(result.sources.map((source) => source.href));
@@ -106,7 +115,7 @@ export function ScoutAssistant() {
       const result = mode === 'watchlist'
         ? buildWatchlistReport(data, trackedIds, english)
         : mode === 'lineup'
-          ? buildLineupFitReport(data, prompt, english)
+          ? buildLineupFitReport(data, prompt, english, fitWeights)
           : answerScoutQuestion(data, prompt, english);
       setMessages((current) => [...current, { id: id + 1, role: 'assistant', text: result.body, result }]);
     } finally {
@@ -125,8 +134,8 @@ export function ScoutAssistant() {
   const celtics = data.teams.find((team) => team.abbreviation === 'BOS');
   const lakers = data.teams.find((team) => team.abbreviation === 'LAL');
   const examples = english
-    ? ['Top 5 defensive restrictions', curry ? `Who limits ${curry.shortName} best?` : 'Who limits this scorer best?', curry && lebron ? `Compare ${curry.shortName} vs ${lebron.shortName}` : 'Compare two players head to head', celtics && lakers ? `Compare ${celtics.abbreviation} and ${lakers.abbreviation} team ratings` : 'Compare two teams', 'Latest NBA news']
-    : ['防守限制榜前 5', curry ? `谁最能限制${curry.chineseName || curry.shortName}？` : '谁最能限制这名得分手？', curry && lebron ? `比较${curry.chineseName || curry.shortName}和${lebron.chineseName || lebron.shortName}` : '比较两名球员的直接对位', celtics && lakers ? `比较 ${celtics.abbreviation} 和 ${lakers.abbreviation} 球队效率` : '比较两支球队效率', 'NBA 最新新闻'];
+    ? ['Lowest opponent scoring in covered matchups', curry ? `Who limits ${curry.shortName} best?` : 'Who limits this scorer best?', curry && lebron ? `Compare ${curry.shortName} vs ${lebron.shortName}` : 'Compare two players head to head', celtics && lakers ? `Compare ${celtics.abbreviation} and ${lakers.abbreviation} team ratings` : 'Compare two teams', 'Latest NBA news']
+    : ['样本对手得分最低前 5', curry ? `谁最能限制${curry.chineseName || curry.shortName}？` : '谁最能限制这名得分手？', curry && lebron ? `比较${curry.chineseName || curry.shortName}和${lebron.chineseName || lebron.shortName}` : '比较两名球员的直接对位', celtics && lakers ? `比较 ${celtics.abbreviation} 和 ${lakers.abbreviation} 球队效率` : '比较两支球队效率', 'NBA 最新新闻'];
   const modes: Array<{ id: ScoutAgentMode; title: string; description: string; icon: typeof Activity; prompt: string }> = [
     { id: 'matchup', title: english ? 'Matchup scout' : '对位侦察', description: english ? 'Compare direct matchup samples' : '比较直接对位与样本量', icon: Activity, prompt: curry ? (english ? `Who limits ${curry.shortName} best?` : `谁最能限制${curry.chineseName || curry.shortName}？`) : (english ? 'Find a player’s toughest matchups' : '查询一名球员最难打的对位') },
     { id: 'news', title: english ? 'Daily brief' : '每日新闻简报', description: english ? 'Search published NBA stories' : '检索已发布 NBA 新闻', icon: Newspaper, prompt: english ? 'Latest NBA news' : 'NBA 最新新闻' },
@@ -145,6 +154,15 @@ export function ScoutAssistant() {
     <small>{english ? 'Saved on this device only · no background alerts' : '仅保存在当前设备 · 不会后台推送提醒'}</small>
     <button className="scout-watch-report" type="button" disabled={!trackedIds.length || busy} onClick={() => void requestAnswer(english ? 'Create my watchlist change brief' : '生成我的关注球员变化简报', 'watchlist')}>{english ? 'Generate change brief' : '生成变化简报'}<ArrowUpRight size={13}/></button>
   </section> : null;
+  const lineupPanel = activeMode === 'lineup' ? <section className="scout-fit-panel" aria-label={english ? 'Lineup signal weights' : '阵容筛选指标权重'}>
+    <strong>{english ? 'Signal weights' : '指标权重'}</strong>
+    <p>{english ? 'Only signals named in your question are ranked. Zero removes a signal.' : '仅计算问题中提及的指标；设为 0 可排除。'}</p>
+    <div className="scout-fit-signals">{fitSignals.map(({ key, zh, en }) => <label key={key}>
+      <span>{english ? en : zh}</span>
+      <input type="range" min="0" max="3" step="0.5" value={fitWeights[key]} onChange={(event) => setFitWeights((current) => ({ ...current, [key]: Number(event.target.value) }))} />
+      <output>{fitWeights[key].toFixed(1)}×</output>
+    </label>)}</div>
+  </section> : null;
 
   return <Dialog.Root open={open} onOpenChange={setOpen}>
     <Dialog.Trigger asChild><button className="scout-launcher" type="button" aria-label={english ? 'Open CourtMatch Agent' : '打开 CourtMatch Agent'}>
@@ -159,12 +177,13 @@ export function ScoutAssistant() {
           <Dialog.Close asChild><button className="scout-icon-button" aria-label={english ? 'Close assistant' : '关闭助手'}><X size={19}/></button></Dialog.Close>
           <Dialog.Description id="scout-description" className="scout-sr-only">{english ? 'Ask about player and team matchups, ratings and rankings in the CourtMatch dataset.' : '基于 CourtMatch 数据集查询球员与球队对位、效率和排行榜。'}</Dialog.Description>
         </header>
-        <div className="scout-data-note" role="note"><span className={`scout-status-dot ${data.manifest.status === 'stale' ? 'is-stale' : ''}`}/><span>{data.manifest.status === 'stale'
-          ? (english ? `Published data · updated ${data.updatedAt.slice(0, 10)} · not live` : `已发布数据 · 更新于 ${data.updatedAt.slice(0, 10)} · 非实时`)
-          : (english ? `NBA dataset · updated ${data.updatedAt.slice(0, 10)}` : `NBA 数据集 · 更新于 ${data.updatedAt.slice(0, 10)}`)}</span></div>
+        <div className="scout-data-note" role="note"><span className={`scout-status-dot ${data.manifest.status === 'stale' ? 'is-stale' : ''}`}/><span>{english
+          ? `${data.manifest.season || data.seasons[0] || 'NBA'} stats · ${data.manifest.status === 'stale' ? 'stale snapshot' : 'published snapshot'} · last game ${data.manifest.nbaStatsDataThrough || 'unverified'}`
+          : `${data.manifest.season || data.seasons[0] || 'NBA'} 数据 · ${data.manifest.status === 'stale' ? '过期快照' : '已发布快照'} · 比赛记录截止 ${data.manifest.nbaStatsDataThrough || '未核验'}`}</span></div>
         <div className="scout-mode-strip" role="group" aria-label={english ? 'Choose an agent workflow' : '选择 Agent 工作流'}>{modes.map(({ id: mode, title, icon: Icon, prompt }) => <button type="button" key={mode} aria-pressed={activeMode === mode} onClick={() => selectMode(mode, prompt)}><Icon size={14}/><span>{title}</span></button>)}</div>
         <div className="scout-messages" role="log" aria-live="polite" aria-relevant="additions text">
           {watchlistPanel}
+          {lineupPanel}
           {!messages.length ? <section className="scout-welcome">
             <span className="scout-welcome-icon"><Sparkles size={18}/></span>
             <h2>{activeModeInfo?.title ?? (english ? 'What do you want the Agent to do?' : '选择一个 Agent 任务')}</h2>

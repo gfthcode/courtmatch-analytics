@@ -12,6 +12,7 @@ import {
 } from './api';
 import type { Dataset, Player, SeasonType, Team } from './types';
 import { DEMO_DATA } from './data';
+import { sampleLabel, scoutSourceNote } from './scout-provenance';
 
 export type ScoutAction = { label: string; href: string };
 export type ScoutSource = { label: string; href: string };
@@ -92,13 +93,10 @@ function period(query: string, data: Dataset) {
 }
 
 const safeRate = (value: number | null | undefined, digits = 1) => value == null ? '—' : value.toFixed(digits);
+const safePercent = (value: number | null | undefined) => value == null ? '—' : `${(value * 100).toFixed(1)}%`;
 
-function freshness(data: Dataset, english: boolean): string {
-  const status = data.manifest.status;
-  if (status === 'stale') return zh(`\n\n数据提示：当前目录为过期/待验证状态，更新时间 ${data.updatedAt.slice(0, 10)}；结果只代表已发布覆盖范围。`, `\n\nData note: the catalogue is stale or pending validation (updated ${data.updatedAt.slice(0, 10)}); results only describe the published coverage.`, english);
-  if (data.mode === 'demo') return zh('\n\n数据提示：当前使用演示数据，不代表官方 NBA 追踪统计。', '\n\nData note: demo data is active; it is not official NBA tracking data.', english);
-  return zh(`\n\n数据更新：${data.updatedAt.slice(0, 10)}。`, `\n\nData updated: ${data.updatedAt.slice(0, 10)}.`, english);
-}
+const sourceNote = (data: Dataset, source: Parameters<typeof scoutSourceNote>[1], season: string, english: boolean) =>
+  `\n\n${scoutSourceNote(data, source, season, english)}`;
 
 function comparison(data: Dataset, players: Player[], query: string, english: boolean): ScoutResult {
   const [left, right] = players;
@@ -112,13 +110,13 @@ function comparison(data: Dataset, players: Player[], query: string, english: bo
   const body = empty
     ? zh(`在 ${season} ${type === 'playoffs' ? '季后赛' : '常规赛'}，按至少 ${minimum} 回合筛选，没有找到 ${left.shortName} 与 ${right.shortName} 的直接对位记录。可以降低样本门槛或更换赛季。`, `No direct matchup rows for ${left.shortName} vs ${right.shortName} in ${season} ${type === 'playoffs' ? 'playoffs' : 'regular season'} at a ${minimum}-possession minimum. Try a lower threshold or another season.`, english)
     : [
-      zh(`${left.shortName} 进攻面对 ${right.shortName}：${safeRate(leftRate)} 分 / 100 回合，${leftTotal?.matchupPossessions ?? 0} 回合（${getSampleQuality(leftTotal?.matchupPossessions ?? 0)} 样本）。`, `${left.shortName} on offense vs ${right.shortName}: ${safeRate(leftRate)} points per 100 possessions, ${leftTotal?.matchupPossessions ?? 0} possessions (${getSampleQuality(leftTotal?.matchupPossessions ?? 0)} sample).`, english),
-      zh(`${right.shortName} 进攻面对 ${left.shortName}：${safeRate(rightRate)} 分 / 100 回合，${rightTotal?.matchupPossessions ?? 0} 回合（${getSampleQuality(rightTotal?.matchupPossessions ?? 0)} 样本）。`, `${right.shortName} on offense vs ${left.shortName}: ${safeRate(rightRate)} points per 100 possessions, ${rightTotal?.matchupPossessions ?? 0} possessions (${getSampleQuality(rightTotal?.matchupPossessions ?? 0)} sample).`, english),
-      zh('这比较的是当前对位数据覆盖中的进攻效率，不等于球员整体攻防能力或因果结论。', 'This compares offensive efficiency in the available direct-matchup coverage; it is not a complete measure of overall ability or causality.', english),
+      zh(`${left.shortName} 进攻面对 ${right.shortName}：${safeRate(leftRate)} 分 / 100 直接对位回合，${leftTotal?.matchupPossessions ?? 0} 回合（${sampleLabel(getSampleQuality(leftTotal?.matchupPossessions ?? 0), false)}）。`, `${left.shortName} on offense vs ${right.shortName}: ${safeRate(leftRate)} points / 100 direct matchup possessions, ${leftTotal?.matchupPossessions ?? 0} possessions (${sampleLabel(getSampleQuality(leftTotal?.matchupPossessions ?? 0), true)}).`, english),
+      zh(`${right.shortName} 进攻面对 ${left.shortName}：${safeRate(rightRate)} 分 / 100 直接对位回合，${rightTotal?.matchupPossessions ?? 0} 回合（${sampleLabel(getSampleQuality(rightTotal?.matchupPossessions ?? 0), false)}）。`, `${right.shortName} on offense vs ${left.shortName}: ${safeRate(rightRate)} points / 100 direct matchup possessions, ${rightTotal?.matchupPossessions ?? 0} possessions (${sampleLabel(getSampleQuality(rightTotal?.matchupPossessions ?? 0), true)}).`, english),
+      zh(`每条记录至少 ${minimum} 回合。对位归属会受到换防、协防和阵容影响；这不是完整的个人防守评价。`, `Each record meets the ${minimum}-possession minimum. Switching, help defense and lineups affect matchup attribution; this is not a complete individual defensive grade.`, english),
     ].join('\n');
   return {
     title: zh(`${left.shortName} × ${right.shortName} 对位`, `${left.shortName} × ${right.shortName} matchup`, english),
-    body: body + freshness(data, english),
+    body: body + sourceNote(data, 'matchup', season, english),
     action: { label: zh('打开双人比较', 'Open player comparison', english), href: `/comparison?leftPlayer=${encoded(left.id)}&rightPlayer=${encoded(right.id)}&season=${encoded(season)}&type=${type}&minPossessions=${minimum}` },
   };
 }
@@ -137,11 +135,11 @@ function matchupLeaders(data: Dataset, player: Player, query: string, english: b
   rows.sort((a, b) => restrictive ? a.metric - b.metric : b.metric - a.metric);
   const selected = rows.slice(0, 5);
   const body = selected.length
-    ? selected.map((row, index) => `${index + 1}. ${row.player.shortName} — ${safeRate(row.metric)} ${zh('分 / 100 回合', 'points / 100 poss.', english)} · ${row.possessions} ${zh('回合', 'poss.', english)} · ${getSampleQuality(row.possessions)}`).join('\n')
+    ? selected.map((row, index) => `${index + 1}. ${row.player.shortName} — ${safeRate(row.metric)} ${zh('分 / 100 直接对位回合', 'points / 100 direct matchup possessions', english)} · ${row.possessions} ${zh('回合', 'poss.', english)} · ${sampleLabel(getSampleQuality(row.possessions), english)}`).join('\n')
     : zh(`在 ${season} 当前筛选和至少 ${minimum} 回合的门槛下，没有找到 ${player.shortName} 的对位记录。`, `No matchup rows found for ${player.shortName} in ${season} at the ${minimum}-possession minimum.`, english);
   return {
-    title: zh(`${player.shortName} 的${restrictive ? '受限' : '进攻'}对位`, `${player.shortName} ${restrictive ? 'most-restricted' : 'offensive'} matchups`, english),
-    body: body + zh('\n\n按每 100 个直接对位回合得分排序；这不是完整防守评价。', '\n\nSorted by points per 100 direct matchup possessions; this is not a complete defensive evaluation.', english) + freshness(data, english),
+    title: zh(`${player.shortName} 的${restrictive ? '样本中低得分' : '样本中高得分'}对位`, `${player.shortName} ${restrictive ? 'lowest-scoring' : 'highest-scoring'} covered matchups`, english),
+    body: body + zh(`\n\n每条记录至少 ${minimum} 回合，再按防守者汇总并排序。换防、协防、阵容和对手出手选择都会影响这一数字；不能据此判断谁是更好的防守者。`, `\n\nRecords meet the ${minimum}-possession minimum before aggregation by defender. Switching, help defense, lineups and shot selection affect this number; it does not rank individual defenders.`, english) + sourceNote(data, 'matchup', season, english),
     action: { label: zh('打开联盟对位', 'Open matchup explorer', english), href: `/matchups?player=${encoded(player.id)}&season=${encoded(season)}&type=${type}&perspective=offense&minPossessions=${minimum}` },
   };
 }
@@ -153,12 +151,12 @@ function rankings(data: Dataset, query: string, english: boolean): ScoutResult {
   const rows = getRankings(data, { season, type, metric, minPossessions: minimum }).filter((row) => (metric === 'defense' ? row.defense : row.offense) !== null).slice(0, 5);
   const items = rows.map((row) => {
     const value = metric === 'defense' ? row.defense : row.offense;
-      return `${row.rank}. ${row.player.shortName} (${row.player.teamAbbreviation}) — ${safeRate(value)} ${zh('分 / 100 回合', 'pts / 100 poss.', english)} · ${safeRate(row.possessions)} ${zh('回合', 'poss.', english)} · ${zh(row.quality === 'high' ? '高样本' : row.quality === 'medium' ? '中样本' : '低样本', `${row.quality} sample`, english)}`;
+      return `${row.rank}. ${row.player.shortName} (${row.player.teamAbbreviation}) — ${safeRate(value)} ${zh('分 / 100 对位回合', 'pts / 100 matchup poss.', english)} · ${safeRate(row.possessions)} ${zh('回合', 'poss.', english)} · ${sampleLabel(row.quality, english)}`;
   });
-  if (defensive) items.push(zh('防守口径为对手每 100 个对位回合得分，数值越低表示当前覆盖样本中的得分限制越强。', 'Defense is opponent points per 100 matchup possessions; lower means stronger scoring restriction in this covered sample.', english));
+  if (defensive) items.push(zh('防守口径为对手每 100 个对位回合得分；较低仅表示当前覆盖样本中的对手得分较少，不能单独评定个人防守能力。', 'Defense is opponent points per 100 matchup possessions; lower means fewer points allowed in this covered sample, not a complete individual defensive grade.', english));
   return {
-    title: zh(`排行榜 · ${defensive ? '防守限制' : '进攻效率'}`, `Rankings · ${defensive ? 'defensive restriction' : 'offensive efficiency'}`, english),
-    body: (items.length ? items.join('\n') : zh('当前赛季和样本门槛下没有合格记录。', 'No qualified rows for the selected season and sample threshold.', english)) + freshness(data, english),
+    title: zh(`排行榜 · ${defensive ? '样本对手得分' : '进攻对位得分'}`, `Rankings · ${defensive ? 'opponent scoring in sample' : 'offensive matchup scoring'}`, english),
+    body: `${season} ${type === 'playoffs' ? zh('季后赛', 'playoffs', english) : zh('常规赛', 'regular season', english)} · ${zh(`球员汇总至少 ${minimum} 回合`, `minimum ${minimum} aggregated player possessions`, english)}\n${items.length ? items.join('\n') : zh('当前赛季和样本门槛下没有合格记录。', 'No qualified rows for the selected season and sample threshold.', english)}${sourceNote(data, 'matchup', season, english)}`,
     action: { label: zh('查看完整排行榜', 'View full rankings', english), href: `/rankings?season=${encoded(season)}&type=${type}&metric=${metric}&order=${defensive ? 'asc' : 'desc'}&minPossessions=${minimum}` },
   };
 }
@@ -170,11 +168,9 @@ function playTypes(data: Dataset, player: Player, query: string, english: boolea
   const rows = getPlayerPlayTypes(data, player.id, { season, type }).filter((row) => row.grouping === group)
     .sort((a, b) => b.possessions - a.possessions).slice(0, 5);
   const items = rows.map((row, index) => `${index + 1}. ${row.playType} — ${row.possessions.toFixed(1)} ${zh('回合', 'poss.', english)} · ${safeRate(row.pointsPerPossession, 2)} ${zh('分 / 回合', 'pts / poss.', english)} · ${row.percentile == null ? '—' : `${Math.round(row.percentile * 100)}%`}`);
-  const sourceDate = data.manifest.playerPlaytypesSourceUpdatedAt?.slice(0, 10);
-  if (sourceDate) items.push(zh(`打法快照源更新时间：${sourceDate}。`, `Play-type snapshot source updated: ${sourceDate}.`, english));
   return {
     title: zh(`${player.shortName} · ${defensive ? '防守' : '进攻'}打法`, `${player.shortName} · ${defensive ? 'defensive' : 'offensive'} play types`, english),
-    body: (items.length ? items.join('\n') : zh(`当前没有 ${player.shortName} 在 ${season} 的该类打法记录。`, `No ${defensive ? 'defensive' : 'offensive'} play-type rows for ${player.shortName} in ${season}.`, english)) + freshness(data, english),
+    body: `${season} ${type === 'playoffs' ? zh('季后赛', 'playoffs', english) : zh('常规赛', 'regular season', english)}\n${items.length ? items.join('\n') : zh(`当前没有 ${player.shortName} 在 ${season} 的该类打法记录。`, `No ${defensive ? 'defensive' : 'offensive'} play-type rows for ${player.shortName} in ${season}.`, english)}${sourceNote(data, 'playerPlaytype', season, english)}`,
     action: { label: zh('打开打法分析', 'Open play-type analysis', english), href: `/playtypes/${encoded(player.id)}?season=${encoded(season)}&type=${type}` },
   };
 }
@@ -184,17 +180,38 @@ function playerSummary(data: Dataset, player: Player, query: string, english: bo
   const stats = getPlayerStats(data, player.id, { season, type })[0];
   if (!stats) return {
     title: zh(`${player.shortName} · 数据概览`, `${player.shortName} · player overview`, english),
-    body: zh(`找到球员，但当前数据集没有 ${season} ${type === 'playoffs' ? '季后赛' : '常规赛'} 的球员统计记录。`, `Player found, but no ${season} ${type === 'playoffs' ? 'playoff' : 'regular-season'} stats are available in this dataset.`, english) + freshness(data, english),
+    body: zh(`找到球员，但当前数据集没有 ${season} ${type === 'playoffs' ? '季后赛' : '常规赛'} 的球员统计记录。`, `Player found, but no ${season} ${type === 'playoffs' ? 'playoff' : 'regular-season'} stats are available in this dataset.`, english) + sourceNote(data, 'player', season, english),
     action: { label: zh('打开球员页面', 'Open player profile', english), href: `/players/${encoded(player.id)}?season=${encoded(season)}` },
   };
   return {
     title: zh(`${player.shortName} · ${season} 球员数据`, `${player.shortName} · ${season} player stats`, english),
     body: [
-      `${zh('球队 / 位置', 'Team / position', english)}：${player.teamAbbreviation} / ${player.position}`,
+      `${season} ${type === 'playoffs' ? zh('季后赛', 'playoffs', english) : zh('常规赛', 'regular season', english)} · ${zh('球队 / 位置', 'Team / position', english)}：${player.teamAbbreviation} / ${player.position}`,
       `${zh('场均得分 / 篮板 / 助攻', 'PPG / RPG / APG', english)}：${safeRate(stats.pointsPerGame)} / ${safeRate(stats.reboundsPerGame)} / ${safeRate(stats.assistsPerGame)}`,
-      `${zh('投篮 / 三分命中率', 'FG% / 3P%', english)}：${safeRate(stats.fieldGoalPercentage)}% / ${safeRate(stats.threePointPercentage)}% · ${stats.gamesPlayed} ${zh('场', 'games', english)}`,
-    ].join('\n') + freshness(data, english),
+      `${zh('投篮 / 三分命中率', 'FG% / 3P%', english)}：${safePercent(stats.fieldGoalPercentage)} / ${safePercent(stats.threePointPercentage)} · ${stats.gamesPlayed} ${zh('场', 'games', english)}`,
+      ...(stats.minutesPerGame != null ? [zh(`场均上场 ${safeRate(stats.minutesPerGame)} 分钟。`, `${safeRate(stats.minutesPerGame)} minutes per game.`, english)] : []),
+      ...(stats.trueShootingPercentage != null ? [zh(`真实命中率 ${safePercent(stats.trueShootingPercentage)}。`, `True shooting ${safePercent(stats.trueShootingPercentage)}.`, english)] : []),
+      ...(/为什么|原因|适合|表现|why|reason|fit|how good/i.test(query) ? [zh('这些是已记录的产量、效率和出场时间；目前缺少完整战术、阵容和伤病语境，不能单凭这些指标解释表现成因。', 'These describe recorded output, efficiency and minutes. Without full scheme, lineup and injury context they do not establish why a player performed this way.', english)] : []),
+    ].join('\n') + sourceNote(data, 'player', season, english),
     action: { label: zh('打开球员画像', 'Open player profile', english), href: `/players/${encoded(player.id)}?season=${encoded(season)}` },
+  };
+}
+
+function recentForm(data: Dataset, player: Player, query: string, english: boolean): ScoutResult {
+  const { season, type } = period(query, data);
+  const requested = Number(query.match(/(?:最近|近|last|recent)\s*(\d{1,2})\s*(?:场|games?)?/i)?.[1] ?? 5);
+  const count = Math.max(1, Math.min(20, requested));
+  const logs = (data.daily ?? []).filter((row) => row.playerId === player.id && row.season === season && row.seasonType === type)
+    .sort((a, b) => b.date.localeCompare(a.date)).slice(0, count);
+  const stats = getPlayerStats(data, player.id, { season, type })[0];
+  const average = (field: 'points' | 'rebounds' | 'assists') => logs.reduce((sum, row) => sum + row[field], 0) / logs.length;
+  const body = logs.length
+    ? zh(`最近 ${logs.length} 场已记录比赛（${logs.at(-1)!.date} 至 ${logs[0].date}）：场均 ${safeRate(average('points'))} 分、${safeRate(average('rebounds'))} 篮板、${safeRate(average('assists'))} 助攻。${stats ? `同期赛季场均 ${safeRate(stats.pointsPerGame)} 分，近 ${logs.length} 场高出 ${safeRate(average('points') - stats.pointsPerGame)} 分。` : ''}\n只计算已发布比赛日志；${logs.length < count ? `请求 ${count} 场，当前仅找到 ${logs.length} 场。` : ''}短期样本不说明未来表现或变化原因。`, `Last ${logs.length} recorded games (${logs.at(-1)!.date} to ${logs[0].date}): ${safeRate(average('points'))} PPG, ${safeRate(average('rebounds'))} RPG, ${safeRate(average('assists'))} APG. ${stats ? `Season average: ${safeRate(stats.pointsPerGame)} PPG; recent difference: ${safeRate(average('points') - stats.pointsPerGame)} PPG. ` : ''}Only published game logs are counted. ${logs.length < count ? `Requested ${count}, found ${logs.length}. ` : ''}A short sample does not explain causes or predict future form.`, english)
+    : zh(`当前目录没有 ${player.shortName} 在 ${season} ${type === 'playoffs' ? '季后赛' : '常规赛'}的比赛日志，无法计算近 ${count} 场表现。`, `No ${season} ${type === 'playoffs' ? 'playoff' : 'regular-season'} game logs for ${player.shortName} are published, so the last ${count} games cannot be calculated.`, english);
+  return {
+    title: zh(`${player.shortName} · 近况`, `${player.shortName} · recent form`, english),
+    body: `${season} ${type === 'playoffs' ? zh('季后赛', 'playoffs', english) : zh('常规赛', 'regular season', english)}\n${body}${sourceNote(data, 'player', season, english)}`,
+    action: { label: zh('查看球员比赛日志', 'View player game logs', english), href: `/players/${encoded(player.id)}?season=${encoded(season)}` },
   };
 }
 
@@ -215,21 +232,22 @@ function teamSummary(data: Dataset, teams: Team[], query: string, english: boole
     return values.join(' · ');
   };
   const notes = rows.map(({ team, stats }) => {
-    if (!stats) return `${team.chineseName} (${team.abbreviation}): ${zh('当前数据集没有该赛季球队统计记录。', 'No team stats for this season in the current dataset.', english)}`;
+    const teamName = english ? team.name : team.chineseName;
+    if (!stats) return `${teamName} (${team.abbreviation}): ${zh('当前数据集没有该赛季球队统计记录。', 'No team stats for this season in the current dataset.', english)}`;
     const playTypes = playtypeRequested
       ? getTeamPlayTypes(data, team.id, { season, type }).filter((row) => row.grouping === (/防守|defen/i.test(query) ? 'defensive' : 'offensive')).sort((a, b) => b.possessions - a.possessions).slice(0, 3)
       : [];
     const playSummary = playtypeRequested && !playTypes.length
       ? zh('球队打法快照当前没有可用记录。', 'No team play-type snapshot is available.', english)
       : playTypes.map((row) => `${row.playType} (${safeRate(row.possessions)} ${zh('回合', 'poss.', english)}, ${safeRate(row.pointsPerPossession, 2)} ${zh('分/回合', 'pts/poss.', english)})`).join(' · ');
-    return `${team.chineseName} (${team.abbreviation}): ${fields(stats)}${playtypeRequested ? `\n${zh('主要打法', 'Leading play types', english)}: ${playSummary}` : ''}`;
+    return `${teamName} (${team.abbreviation}): ${fields(stats)}${playtypeRequested ? `\n${zh('主要打法', 'Leading play types', english)}: ${playSummary}` : ''}`;
   });
   const isComparison = rows.length > 1;
   return {
     title: isComparison
       ? zh(`${rows[0].team.chineseName} × ${rows[1].team.chineseName} 球队对比`, `${rows[0].team.name} × ${rows[1].team.name} team comparison`, english)
       : zh(`${rows[0].team.chineseName} · 球队分析`, `${rows[0].team.name} · team analysis`, english),
-    body: `${season} ${type === 'playoffs' ? zh('季后赛', 'playoffs', english) : zh('常规赛', 'regular season', english)}\n${notes.join('\n')}\n\n${zh('效率与节奏来自已发布球队快照；不代表实时排名或因果解释。', 'Ratings and pace come from the published team snapshot; they are not live rankings or causal estimates.', english)}${freshness(data, english)}`,
+    body: `${season} ${type === 'playoffs' ? zh('季后赛', 'playoffs', english) : zh('常规赛', 'regular season', english)}\n${notes.join('\n')}\n\n${zh('效率与节奏来自已发布球队快照，不能单凭这些指标解释比赛结果。', 'Ratings and pace come from the published team snapshot and alone do not explain game results.', english)}${sourceNote(data, 'team', season, english)}${playtypeRequested ? sourceNote(data, 'teamPlaytype', season, english) : ''}`,
     action: isComparison
       ? { label: zh('打开球队对比', 'Open team comparison', english), href: `/team/compare?left=${encoded(rows[0].team.id)}&right=${encoded(rows[1].team.id)}&season=${encoded(season)}&type=${type}` }
       : { label: zh('打开球队分析', 'Open team analysis', english), href: `/team/pk?team=${encoded(rows[0].team.id)}&season=${encoded(season)}&type=${type}` },
@@ -277,18 +295,18 @@ function newsSearch(data: Dataset, query: string, english: boolean, feed?: Scout
   const body = filtered.length
     ? filtered.map((article, index) => {
       const published = Number.isFinite(Date.parse(article.publishedAt))
-        ? new Intl.DateTimeFormat(english ? 'en-US' : 'zh-CN', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(article.publishedAt))
+        ? new Intl.DateTimeFormat(english ? 'en-US' : 'zh-CN', { year: 'numeric', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZoneName: 'short' }).format(new Date(article.publishedAt))
         : zh('日期未知', 'date unavailable', english);
       const headline = english ? article.title : article.titleZh || '新闻标题翻译暂不可用';
       const summary = (english ? article.summary : article.summaryZh || (article.summary ? '新闻摘要翻译暂不可用，可点击来源查看原文。' : ''))?.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 220) ?? '';
-      return `${index + 1}. ${headline}\n${published}${article.author ? ` · ${article.author}` : ''}${summary ? `\n${summary}${article.summary && article.summary.length > 220 ? '…' : ''}` : ''}`;
+      return `${index + 1}. ${headline}\n${published}${article.author ? ` · ${article.author}` : ''}${!english && article.titleZh ? ' · 机器翻译' : ''}${summary ? `\n${summary}${article.summary && article.summary.length > 220 ? '…' : ''}` : ''}`;
     }).join('\n\n')
     : zh('在当前已发布的新闻目录中，没有找到与该球员或主题匹配的报道。可以试试球员英文名、球队名或更宽泛的关键词。', 'No stories in the published feed matched that player or topic. Try the player’s English name, team name or a broader keyword.', english);
   return {
     title: players.length ? zh(`${players[0].shortName} · NBA 新闻`, `${players[0].shortName} · NBA news`, english) : teams.length
       ? zh(`${teamAliases[teams[0].abbreviation]?.find((name) => /[\u4e00-\u9fff]/.test(name) && name.length > 3) ?? teams[0].chineseName} · NBA 新闻`, `${teams[0].name} · NBA news`, english)
       : zh('NBA 新闻检索', 'NBA news search', english),
-    body: `${body}\n\n${zh(`来源：${feed.source ?? '已发布 ESPN NBA 新闻目录'} · 新闻源更新时间：${date}${stale ? ' · 数据可能已过期' : ''}。新闻目录按发布流程更新，非逐条实时推送。`, `Source: ${feed.source ?? 'published ESPN NBA news catalogue'} · Feed updated: ${date}${stale ? ' · data may be stale' : ''}. The catalogue is refreshed through the publishing pipeline, not streamed live.`, english)}`,
+    body: `${body}\n\n${zh(`来源：${feed.source ?? '已发布 ESPN NBA 新闻目录'} · 新闻源更新时间：${date}${stale ? ' · 数据可能已过期' : ''}。新闻目录按发布流程更新，非逐条实时推送；伤病、交易及签约以原文和官方公告为准。`, `Source: ${feed.source ?? 'published ESPN NBA news catalogue'} · Feed updated: ${date}${stale ? ' · data may be stale' : ''}. The catalogue is refreshed through the publishing pipeline, not streamed live. Check the original story and official announcements for injury, trade and signing status.`, english)}`,
     action: { label: zh('打开新闻中心', 'Open NBA news desk', english), href: '/news' },
     sources: filtered.map((article) => ({ label: english ? article.title : article.titleZh || '阅读新闻原文', href: article.url })),
   };
@@ -296,6 +314,17 @@ function newsSearch(data: Dataset, query: string, english: boolean, feed?: Scout
 
 export function answerScoutQuestion(data: Dataset, query: string, english: boolean, news?: ScoutNewsFeed): ScoutResult {
   if (NEWS_INTENT.test(query)) return newsSearch(data, query, english, news);
+  const requestedSeason = query.match(/20\d{2}-\d{2}/)?.[0];
+  if (requestedSeason && !data.seasons.includes(requestedSeason)) return {
+    title: zh('所选赛季暂无数据', 'Season not available', english),
+    body: zh(`当前没有 ${requestedSeason} 的可查询对位赛季数据。已发布赛季：${data.seasons.join('、') || '暂无'}。请指定其中一个赛季。`, `No queryable matchup-season data is published for ${requestedSeason}. Available seasons: ${data.seasons.join(', ') || 'none'}. Please choose an available season.`, english),
+    action: { label: zh('查看数据来源', 'View data sources', english), href: '/sources' },
+  };
+  if (/伤病|受伤|缺阵|复出|injur|out tonight|available tonight|今晚.*(赢|胜)|谁会赢|预测|胜率|赔率|投注|betting|predict|live score|实时比分/i.test(query)) return {
+    title: zh('需要实时核验的问题', 'This needs current verification', english),
+    body: zh('当前 Agent 没有经过核验的实时伤病、赛前出场名单或比赛预测数据，不能确认这项判断。可在新闻中心查找相关报道，并以球队或联盟官方公告为准。', 'This Agent has no verified live injury report, game-day availability list or prediction data, so it cannot confirm that claim. Check the news desk and official team or league announcements.', english),
+    action: { label: zh('查看 NBA 新闻', 'Open NBA news', english), href: '/news' },
+  };
   const teams = resolveTeams(data, query);
   const players = resolvePlayers(data, query);
   const isComparison = /对比|比较|vs\.?|versus|compare|head.?to.?head|交手/i.test(query);
@@ -305,6 +334,7 @@ export function answerScoutQuestion(data: Dataset, query: string, english: boole
   if (players[0] && /打法|play.?type|isolation|transition|挡拆|单打|定点/i.test(query)) return playTypes(data, players[0], query, english);
   if (players[0] && /谁|对位|限制|最强|最弱|最差|最难|matchup|limit|restrict|opponent/i.test(query)) return matchupLeaders(data, players[0], query, english);
   if (/排行|榜|排名|top\s*\d|leaders?|rankings?|效率最高/i.test(query)) return rankings(data, query, english);
+  if (players[0] && /最近\s*\d{1,2}\s*场|近\s*\d{1,2}\s*场|近况|last\s*\d{1,2}\s*games?|recent\s*\d{1,2}\s*games?/i.test(query)) return recentForm(data, players[0], query, english);
   if (players[0]) return playerSummary(data, players[0], query, english);
   const matches = searchPlayers(data, query).slice(0, 3);
   if (matches.length) return {

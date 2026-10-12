@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { DEMO_DATA } from './data';
 import { answerScoutQuestion, type ScoutNewsFeed } from './scout';
-import type { MatchupRecord, Player, TeamStats } from './types';
+import type { DailyGameLog, MatchupRecord, Player, PlayerStats, TeamStats } from './types';
 
 const curry: Player = { id: 'curry', name: 'Stephen Curry', chineseName: '斯蒂芬·库里', aliases: ['Curry'], shortName: 'Curry', teamId: 'gsw', teamName: 'Golden State Warriors', teamAbbreviation: 'GSW', position: 'G', height: '6-2', weight: 185, jerseyNumber: '30', headshotUrl: '', league: 'NBA' };
 const lebron: Player = { id: 'lebron', name: 'LeBron James', chineseName: '勒布朗·詹姆斯', aliases: ['LeBron'], shortName: 'LeBron', teamId: 'lal', teamName: 'Los Angeles Lakers', teamAbbreviation: 'LAL', position: 'F', height: '6-9', weight: 250, jerseyNumber: '23', headshotUrl: '', league: 'NBA' };
@@ -50,14 +50,15 @@ describe('CourtMatch Scout answers', () => {
 
   it('finds the lowest-scoring matchups when asked who limits a player', () => {
     const result = answerScoutQuestion(data, '谁最能限制 Stephen Curry？至少 25 回合', false);
-    expect(result.title).toContain('受限对位');
+    expect(result.title).toContain('样本中低得分对位');
     expect(result.body).toContain('Tatum');
     expect(result.body).toContain('20.0');
+    expect(result.body).toContain('换防、协防');
   });
 
   it('explains the supported scope rather than inventing unsupported answers', () => {
     const result = answerScoutQuestion(data, '今晚谁会赢？', false);
-    expect(result.body).toContain('不支持伤病判断、比赛预测');
+    expect(result.body).toContain('没有经过核验的实时伤病、赛前出场名单或比赛预测数据');
   });
 
   it('compares available team ratings and links to the team comparison page', () => {
@@ -115,5 +116,26 @@ describe('CourtMatch Scout answers', () => {
     expect(chinese.body).toContain('新闻标题翻译暂不可用');
     expect(chinese.body).toContain('新闻摘要翻译暂不可用');
     expect(chinese.sources?.[0].label).toBe('阅读新闻原文');
+  });
+
+  it('shows real percentages, source coverage, and refuses an unavailable season', () => {
+    const row: PlayerStats = { playerId: 'curry', season: '2025-26', seasonType: 'regular', gamesPlayed: 70, pointsPerGame: 25, reboundsPerGame: 4, assistsPerGame: 6, stealsPerGame: 1, blocksPerGame: 0, fieldGoalPercentage: 0.436, threePointPercentage: 0.422, freeThrowPercentage: 0.9, updatedAt: '2026-06-13' };
+    const current = { ...data, playerStats: [row], manifest: { ...data.manifest, nbaStatsDataThrough: '2026-06-13' } };
+    const answer = answerScoutQuestion(current, 'Stephen Curry 赛季数据', false);
+    expect(answer.body).toContain('43.6% / 42.2%');
+    expect(answer.body).toContain('比赛记录截止 2026-06-13');
+    const missing = answerScoutQuestion(current, 'Stephen Curry 2026-27 数据', false);
+    expect(missing.title).toContain('赛季暂无数据');
+    expect(missing.body).not.toContain('25.0');
+  });
+
+  it('uses published game logs for recent form and labels a short sample', () => {
+    const row: PlayerStats = { playerId: 'curry', season: '2025-26', seasonType: 'regular', gamesPlayed: 70, pointsPerGame: 25, reboundsPerGame: 4, assistsPerGame: 6, stealsPerGame: 1, blocksPerGame: 0, fieldGoalPercentage: 0.436, threePointPercentage: 0.422, freeThrowPercentage: 0.9, updatedAt: '2026-06-13' };
+    const log = (date: string, points: number): DailyGameLog => ({ id: date, playerId: 'curry', season: '2025-26', seasonType: 'regular', gameId: date, date, teamId: 'gsw', teamAbbreviation: 'GSW', opponent: 'LAL', matchup: 'GSW vs LAL', result: 'W', minutes: 30, points, rebounds: 5, offensiveRebounds: 0, defensiveRebounds: 5, assists: 7, steals: 1, blocks: 0, turnovers: 2, personalFouls: 1, fieldGoalsMade: 10, fieldGoalsAttempted: 20, fieldGoalPercentage: 0.5, threePointersMade: 4, threePointersAttempted: 10, threePointPercentage: 0.4, freeThrowsMade: 2, freeThrowsAttempted: 2, freeThrowPercentage: 1, plusMinus: 3, updatedAt: date });
+    const current = { ...data, playerStats: [row], daily: [log('2026-06-12', 20), log('2026-06-13', 30)] };
+    const answer = answerScoutQuestion(current, 'Stephen Curry 最近 3 场', false);
+    expect(answer.body).toContain('最近 2 场已记录比赛');
+    expect(answer.body).toContain('请求 3 场，当前仅找到 2 场');
+    expect(answer.body).toContain('场均 25.0 分');
   });
 });
