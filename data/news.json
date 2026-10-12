@@ -1,8 +1,40 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-11T19:33:33.956839+00:00",
+  "updatedAt": "2026-10-12T00:32:16.885187+00:00",
   "articles": [
+    {
+      "id": "50161378",
+      "title": "Lakers center Walker Kessler (finger) nears preseason debut",
+      "summary": "Walker Kessler is closing in on making his preseason debut with the Lakers after he was a full participant in practice Sunday.",
+      "url": "https://www.espn.com/nba/story/_/id/50161378/lakers-center-walker-kessler-finger-nears-preseason-debut",
+      "publishedAt": "2026-10-11T22:25:17+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729417_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Los Angeles Lakers",
+        "Walker Kessler",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50159713",
+      "title": "Karl-Anthony Towns 'disappointed' with Knicks tabling talks",
+      "summary": "Karl-Anthony Towns responded to the Knicks' statement that they are tabling all extension talks until later in the season, saying he was \"disappointed.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50159713/karl-anthony-towns-disappointed-knicks-tabling-talks",
+      "publishedAt": "2026-10-11T20:40:35+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0604/r1667963_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "news",
+        "New York Knicks",
+        "NBA",
+        "Karl-Anthony Towns",
+        "Vincent Goodwill"
+      ]
+    },
     {
       "id": "50159419",
       "title": "Kings C Maxime Raynaud (knee) to be reevaluated in 2 weeks",
@@ -999,57 +1031,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Golden State Warriors @ Portland Trail Blazers"
-      ]
-    },
-    {
-      "id": "50129878",
-      "title": "Orlando Magic vs. Memphis Grizzlies: Game Highlights",
-      "summary": "Orlando Magic vs. Memphis Grizzlies: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50129878/game-highlights",
-      "publishedAt": "2026-10-08T03:33:45+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/52ce7f58-2e19-400b-8ef6-eab38aff8ea9/52ce7f58-2e19-400b-8ef6-eab38aff8ea9.jpg",
-      "author": "",
-      "categories": [
-        "Jamal Cain",
-        "Tristan da Silva",
-        "Orlando Magic",
-        "Ty Jerome",
-        "Kevin Knox II",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "Franz Wagner",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "Wendell Carter Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50129886",
-      "title": "Milwaukee Bucks vs. Oklahoma City Thunder: Game Highlights",
-      "summary": "Milwaukee Bucks vs. Oklahoma City Thunder: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50129886/game-highlights",
-      "publishedAt": "2026-10-08T03:33:27+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/a90f4cae-cd5a-41b5-b82d-dc4f2ac61bbd/a90f4cae-cd5a-41b5-b82d-dc4f2ac61bbd.jpg",
-      "author": "",
-      "categories": [
-        "Oklahoma City Thunder",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Jaime Jaquez Jr",
-        "Myles Turner",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Aday Mara",
-        "Cormac Ryan",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Milwaukee Bucks @ Oklahoma City Thunder"
       ]
     },
     {
