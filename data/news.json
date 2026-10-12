@@ -1,8 +1,81 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-12T00:32:16.885187+00:00",
+  "updatedAt": "2026-10-12T10:49:12.400424+00:00",
   "articles": [
+    {
+      "id": "50163814",
+      "title": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
+      "summary": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50163814/game-highlights",
+      "publishedAt": "2026-10-12T03:56:27+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/59342c8f-e439-44a4-8876-1759e9a99d4c/59342c8f-e439-44a4-8876-1759e9a99d4c.jpg",
+      "author": "",
+      "categories": [
+        "Aaron Gordon",
+        "Leonard Miller",
+        "Denver Nuggets",
+        "SC4U - Full Highlight",
+        "Chicago Bulls",
+        "NBA",
+        "Nikola Jokic",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Chicago Bulls @ Denver Nuggets"
+      ]
+    },
+    {
+      "id": "50163183",
+      "title": "Milwaukee Bucks vs. Charlotte Hornets: Game Highlights",
+      "summary": "Milwaukee Bucks vs. Charlotte Hornets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50163183/game-highlights",
+      "publishedAt": "2026-10-12T01:30:56+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/aadaa262-b665-4303-a205-5c10a0ef2909/aadaa262-b665-4303-a205-5c10a0ef2909.jpg",
+      "author": "",
+      "categories": [
+        "Tyler Herro",
+        "Jericho Sims",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Jarkel Joiner",
+        "Charlotte Hornets",
+        "Brandon Miller",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Milwaukee Bucks @ Charlotte Hornets"
+      ]
+    },
+    {
+      "id": "50163110",
+      "title": "Orlando Magic vs. Cleveland Cavaliers: Game Highlights",
+      "summary": "Orlando Magic vs. Cleveland Cavaliers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50163110/game-highlights",
+      "publishedAt": "2026-10-12T01:30:52+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/9a752864-a862-4b6d-ae66-e5afbaca8616/9a752864-a862-4b6d-ae66-e5afbaca8616.jpg",
+      "author": "",
+      "categories": [
+        "Tristan da Silva",
+        "Orlando Magic",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "James Harden",
+        "Meleek Thomas",
+        "Wendell Carter Jr",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Orlando Magic @ Cleveland Cavaliers"
+      ]
+    },
     {
       "id": "50161378",
       "title": "Lakers center Walker Kessler (finger) nears preseason debut",
@@ -989,72 +1062,6 @@
         "NBA",
         "news",
         "Brian Windhorst"
-      ]
-    },
-    {
-      "id": "50130092",
-      "title": "Tyrese Haliburton scores 7 in 1st game in more than 16 months",
-      "summary": "Pacers star Tyrese Haliburton scored seven points during his 16 minutes of action against the Wolves on Wednesday. It was his first game in more than 16 months, as Haliburton was recovering from a torn Achilles.",
-      "url": "https://www.espn.com/nba/story/_/id/50130092/tyrese-haliburton-scores-7-1st-game-more-16-months",
-      "publishedAt": "2026-10-08T11:14:47+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1008/r1727673_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "NBA",
-        "Indiana Pacers",
-        "Tyrese Haliburton",
-        "news",
-        "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50130536",
-      "title": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
-      "summary": "Golden State Warriors vs. Portland Trail Blazers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50130536/game-highlights",
-      "publishedAt": "2026-10-08T05:05:47+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/d90975c3-d438-4292-a93b-5ffbb8c39f25/d90975c3-d438-4292-a93b-5ffbb8c39f25.jpg",
-      "author": "",
-      "categories": [
-        "Deni Avdija",
-        "Ja Morant",
-        "Portland Trail Blazers",
-        "Miles Kelly",
-        "Micah Potter",
-        "Damian Lillard",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors @ Portland Trail Blazers"
-      ]
-    },
-    {
-      "id": "50129923",
-      "title": "Phoenix Suns vs. Chicago Bulls: Game Highlights",
-      "summary": "Phoenix Suns vs. Chicago Bulls: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50129923/game-highlights",
-      "publishedAt": "2026-10-08T03:30:26+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1008/ac0cf659-6f72-48fc-8760-c1103f44a491/ac0cf659-6f72-48fc-8760-c1103f44a491.jpg",
-      "author": "",
-      "categories": [
-        "Phoenix Suns",
-        "Caleb Wilson",
-        "Patrick Williams",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Dillon Brooks",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Phoenix Suns @ Chicago Bulls"
       ]
     }
   ]
