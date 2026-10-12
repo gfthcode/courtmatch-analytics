@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ArrowUpRight, Search } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Search, Sparkles } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { PlayerIdentity, Quality, number, signed, PlayerLink, Empty } from '../components/Common';
 import { useLanguage } from '../i18n';
 import { useData } from '../state';
+import { openScoutAgent } from '../lib/scout-events';
 import { calculateMatchupMetrics, getMatchups, getPlayerById, getRankings, leagueAverage } from '../lib/api';
 import './home-legacy.css';
 
@@ -66,7 +67,10 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
             <kbd>⌘ K</kbd>
             <ArrowRight size={20} />
           </Button>
-          <Link className="text-link" to="/comparison">{t('比较两名球员')} <ArrowUpRight size={17} /></Link>
+          <div className="hero-secondary-actions">
+            <Button variant="secondary" className="hero-agent-entry" onClick={() => openScoutAgent()}><Sparkles size={15}/>{t('打开数据 Agent')}</Button>
+            <Link className="text-link" to="/comparison">{t('比较两名球员')} <ArrowUpRight size={17} /></Link>
+          </div>
         </div>
         <div className="hero-board">
           {focus && offensePlayer && defensePlayer ? <>

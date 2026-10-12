@@ -4,7 +4,7 @@ export type Language = 'zh' | 'en';
 
 const translations: Record<string, string> = {
   '首页': 'Home', '联盟对位': 'Matchups', '球员比较': 'Player Comparison', '排行榜': 'Rankings', '打法类型': 'Play Types', '新闻': 'News', '方法论': 'Methodology', 'NBA 直接对位分析': 'NBA Matchup Analytics',
-  '打开导航': 'Open navigation', '关闭导航': 'Close navigation', '导航': 'MENU', '关闭': 'CLOSE', '切换主题': 'Toggle theme', '全局搜索': 'Global search', 'CourtMatch 首页': 'CourtMatch home',
+  '打开导航': 'Open navigation', '关闭导航': 'Close navigation', '导航': 'MENU', '关闭': 'CLOSE', '打开数据 Agent': 'Open NBA Agent', '切换主题': 'Toggle theme', '全局搜索': 'Global search', 'CourtMatch 首页': 'CourtMatch home',
   '找到你的球员': 'Find your player', '关闭搜索': 'Close search', '搜索球员': 'Search players', '搜索球员或球队': 'Search players or teams',
   '打开全局球员搜索': 'Open global player search', '支持中英文姓名、球队、缩写；↑ ↓ 选择，Enter 打开球员详情。': 'Search by name, team or abbreviation; use ↑ ↓ and Enter to open a player.',
   '支持中英文姓名、球队、简称与键盘选择。': 'Search names, teams or abbreviations with keyboard navigation.',
