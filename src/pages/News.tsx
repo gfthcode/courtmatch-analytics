@@ -3,15 +3,14 @@ import { ExternalLink, Filter, Newspaper, RefreshCw, Search } from 'lucide-react
 import { PageHead } from '../components/Common';
 import { Button } from '../components/ui/button';
 import { useLanguage } from '../i18n';
+import { readNewsTranslationCache, saveNewsTranslation, translateNewsTextToChinese, type NewsTranslation } from '../lib/news-translation';
 import './news.css';
 
 const NEWS_URL = `${import.meta.env.BASE_URL}data/news.json`;
 const CACHE_KEY = 'courtmatch-nba-news-v1';
 const CACHE_TTL = 10 * 60 * 1000;
-const ZH_CACHE_KEY = 'courtmatch-nba-news-zh-v1';
 
 type NewsItem = { id: string; title: string; summary: string; titleZh?: string; summaryZh?: string; url: string; publishedAt: string; image?: string; authors: string[]; category: 'court' | 'off-court' | 'general' };
-type NewsTranslation = { title: string; summary: string };
 type RawArticle = Record<string, unknown>;
 
 function text(value: unknown): string { return typeof value === 'string' ? value : ''; }
@@ -35,25 +34,6 @@ function normalize(article: RawArticle, index: number): NewsItem | null {
   const publishedAt = text(article.published ?? article.publishedAt ?? article.lastModified);
   const id = text(article.id ?? article.dataSourceIdentifier) || `${url}-${index}`;
   return { id, title, summary, titleZh: text(article.titleZh ?? article.title_zh).trim() || undefined, summaryZh: text(article.summaryZh ?? article.summary_zh).trim() || undefined, url, publishedAt, image: /^https:\/\//.test(image) ? image : undefined, authors, category: classify(article, title, summary) };
-}
-function readTranslationCache(): Record<string, NewsTranslation> {
-  try {
-    const value = JSON.parse(localStorage.getItem(ZH_CACHE_KEY) || '{}') as Record<string, NewsTranslation>;
-    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
-  } catch { return {}; }
-}
-function parseTranslation(payload: unknown): string {
-  if (!Array.isArray(payload) || !Array.isArray(payload[0])) return '';
-  return (payload[0] as unknown[]).map((segment) => Array.isArray(segment) ? text(segment[0]) : '').join('').trim();
-}
-async function translateToChinese(value: string, signal: AbortSignal): Promise<string> {
-  if (!value.trim()) return '';
-  const params = new URLSearchParams({ client: 'gtx', sl: 'en', tl: 'zh-CN', dt: 't', q: value });
-  const response = await fetch(`https://translate.googleapis.com/translate_a/single?${params}`, { signal, headers: { Accept: 'application/json' } });
-  if (!response.ok) throw new Error(`Translation HTTP ${response.status}`);
-  const translated = parseTranslation(await response.json());
-  if (!translated) throw new Error('Translation returned no text');
-  return translated;
 }
 function readCache(): { items: NewsItem[]; fetchedAt: number } | null {
   try {
@@ -110,7 +90,7 @@ export function NewsPage() {
   useEffect(() => {
     if (en || !items.length) return;
     const controller = new AbortController();
-    const cached = readTranslationCache();
+    const cached = readNewsTranslationCache();
     const initial: Record<string, NewsTranslation> = {};
     for (const item of items) {
       const saved = cached[item.id];
@@ -130,18 +110,17 @@ export function NewsPage() {
           let title = item.titleZh || '';
           let summary = item.summaryZh || '';
           if (!title && !summary && item.summary) {
-            const combined = await translateToChinese(`${item.title}\n\n${item.summary}`, controller.signal);
+            const combined = await translateNewsTextToChinese(`${item.title}\n\n${item.summary}`, controller.signal);
             const parts = combined.split(/\n\s*\n/, 2);
             if (parts.length === 2) [title, summary] = parts.map((part) => part.trim());
           }
-          if (!title) title = await translateToChinese(item.title, controller.signal);
-          if (!summary && item.summary) summary = await translateToChinese(item.summary, controller.signal);
+          if (!title) title = await translateNewsTextToChinese(item.title, controller.signal);
+          if (!summary && item.summary) summary = await translateNewsTextToChinese(item.summary, controller.signal);
           const result = { title, summary };
           initial[item.id] = result;
           setTranslations((current) => ({ ...current, [item.id]: result }));
           cached[item.id] = result;
-          const entries = Object.entries(cached).slice(-150);
-          try { localStorage.setItem(ZH_CACHE_KEY, JSON.stringify(Object.fromEntries(entries))); } catch { /* private mode or storage quota */ }
+          saveNewsTranslation(item.id, result);
         } catch {
           if (!controller.signal.aborted) setTranslationErrors((current) => ({ ...current, [item.id]: true }));
         }

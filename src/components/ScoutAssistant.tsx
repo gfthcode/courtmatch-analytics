@@ -3,6 +3,7 @@ import * as Dialog from '@radix-ui/react-dialog';
 import { Activity, ArrowUpRight, BarChart3, Bot, Bookmark, CircleHelp, CornerDownLeft, ExternalLink, MessageSquareText, Newspaper, Search, Send, Sparkles, UsersRound, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { answerScoutQuestion, type ScoutNewsFeed, type ScoutResult } from '../lib/scout';
+import { readNewsTranslationCache, saveNewsTranslation, translateNewsToChinese } from '../lib/news-translation';
 import { buildLineupFitReport, buildWatchlistReport } from '../lib/scout-agent';
 import { SCOUT_AGENT_OPEN_EVENT, type ScoutAgentMode } from '../lib/scout-events';
 import { searchPlayers } from '../lib/api';
@@ -61,18 +62,45 @@ export function ScoutAssistant() {
         }
         if (response.ok) {
           const payload = await response.json() as Partial<ScoutNewsFeed>;
-          const articles = Array.isArray(payload.articles) ? payload.articles.filter((article) => article && typeof article.title === 'string' && /^https:\/\//i.test(article.url)) : [];
+          const translations = readNewsTranslationCache();
+          const articles = Array.isArray(payload.articles) ? payload.articles.filter((article) => article && typeof article.title === 'string' && /^https:\/\//i.test(article.url)).map((article) => ({ ...article, titleZh: article.titleZh || translations[article.id]?.title, summaryZh: article.summaryZh || translations[article.id]?.summary })) : [];
           if (articles.length) {
             feed = { source: payload.source, updatedAt: payload.updatedAt, articles };
             setNewsFeed(feed);
           }
         }
       }
-      const result = mode === 'watchlist'
+      let result = mode === 'watchlist'
         ? buildWatchlistReport(data, trackedIds, english)
         : mode === 'lineup'
           ? buildLineupFitReport(data, prompt, english)
           : answerScoutQuestion(data, prompt, english, feed);
+      if (!english && mode !== 'watchlist' && mode !== 'lineup' && feed && result.sources?.length) {
+        const sourceUrls = new Set(result.sources.map((source) => source.href));
+        const matching = feed.articles.filter((article) => sourceUrls.has(article.url) && (!article.titleZh || (article.summary && !article.summaryZh)));
+        const translations = new Map<string, { title: string; summary: string }>();
+        let cursor = 0;
+        const controller = new AbortController();
+        const timeout = window.setTimeout(() => controller.abort(), 12_000);
+        try {
+          const worker = async () => {
+            while (!controller.signal.aborted) {
+              const article = matching[cursor++];
+              if (!article) return;
+              try {
+                const translated = await translateNewsToChinese(article.title, article.summary ?? '', controller.signal);
+                translations.set(article.id, translated);
+                saveNewsTranslation(article.id, translated);
+              } catch { /* newsSearch will show a Chinese unavailable notice and keep the source link */ }
+            }
+          };
+          await Promise.all(Array.from({ length: Math.min(3, matching.length) }, () => worker()));
+        } finally { window.clearTimeout(timeout); }
+        if (translations.size) {
+          const translatedFeed = { ...feed, articles: feed.articles.map((article) => ({ ...article, ...(translations.has(article.id) ? { titleZh: translations.get(article.id)!.title, summaryZh: translations.get(article.id)!.summary } : {}) })) };
+          result = answerScoutQuestion(data, prompt, english, translatedFeed);
+        }
+      }
       setMessages((current) => [...current, { id: id + 1, role: 'assistant', text: result.body, result }]);
     } catch {
       const result = mode === 'watchlist'

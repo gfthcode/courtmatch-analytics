@@ -32,9 +32,9 @@ const news: ScoutNewsFeed = {
   source: 'ESPN NBA News API',
   updatedAt: '2026-09-29T01:00:47Z',
   articles: [
-    { id: 'curry-news', title: 'Stephen Curry leads Warriors to a win', summary: 'Curry made seven threes.', url: 'https://www.espn.com/nba/story/curry', publishedAt: '2026-09-29T00:00:00Z', author: 'ESPN', categories: ['Golden State Warriors'] },
+    { id: 'curry-news', title: 'Stephen Curry leads Warriors to a win', titleZh: '库里率勇士取胜', summary: 'Curry made seven threes.', summaryZh: '库里投进了七记三分球。', url: 'https://www.espn.com/nba/story/curry', publishedAt: '2026-09-29T00:00:00Z', author: 'ESPN', categories: ['Golden State Warriors'] },
     { id: 'trade-news', title: 'League trade talks continue', summary: 'Several teams are exploring a trade.', url: 'https://www.espn.com/nba/story/trade', publishedAt: '2026-09-28T00:00:00Z', categories: ['NBA'] },
-    { id: 'celtics-news', title: 'Boston Celtics prepare for the new season', summary: 'The Celtics discussed their lineup.', url: 'https://www.espn.com/nba/story/celtics', publishedAt: '2026-09-27T00:00:00Z', categories: ['Boston Celtics'] },
+    { id: 'celtics-news', title: 'Boston Celtics prepare for the new season', titleZh: '凯尔特人为新赛季做准备', summary: 'The Celtics discussed their lineup.', summaryZh: '凯尔特人谈到了球队阵容。', url: 'https://www.espn.com/nba/story/celtics', publishedAt: '2026-09-27T00:00:00Z', categories: ['Boston Celtics'] },
   ],
 };
 
@@ -85,9 +85,10 @@ describe('CourtMatch Scout answers', () => {
   it('searches the published news feed by player and returns original source links', () => {
     const result = answerScoutQuestion(data, '库里最近新闻', false, news);
     expect(result.title).toContain('Curry');
-    expect(result.body).toContain('Stephen Curry leads Warriors');
+    expect(result.body).toContain('库里率勇士取胜');
+    expect(result.body).toContain('库里投进了七记三分球。');
     expect(result.body).not.toContain('League trade talks');
-    expect(result.sources).toEqual([{ label: 'Stephen Curry leads Warriors to a win', href: 'https://www.espn.com/nba/story/curry' }]);
+    expect(result.sources).toEqual([{ label: '库里率勇士取胜', href: 'https://www.espn.com/nba/story/curry' }]);
     expect(result.action?.href).toBe('/news');
   });
 
@@ -103,6 +104,16 @@ describe('CourtMatch Scout answers', () => {
   it('filters news by NBA team names and Chinese nicknames', () => {
     const result = answerScoutQuestion(data, '凯尔特人新闻', false, news);
     expect(result.title).toContain('波士顿凯尔特人');
-    expect(result.sources).toEqual([{ label: 'Boston Celtics prepare for the new season', href: 'https://www.espn.com/nba/story/celtics' }]);
+    expect(result.sources).toEqual([{ label: '凯尔特人为新赛季做准备', href: 'https://www.espn.com/nba/story/celtics' }]);
+  });
+
+  it('keeps original headlines in English but never leaks untranslated copy into Chinese answers', () => {
+    const english = answerScoutQuestion(data, 'Curry news', true, news);
+    expect(english.body).toContain('Stephen Curry leads Warriors to a win');
+    const untranslated: ScoutNewsFeed = { ...news, articles: [{ ...news.articles[0], titleZh: undefined, summaryZh: undefined }] };
+    const chinese = answerScoutQuestion(data, '库里新闻', false, untranslated);
+    expect(chinese.body).toContain('新闻标题翻译暂不可用');
+    expect(chinese.body).toContain('新闻摘要翻译暂不可用');
+    expect(chinese.sources?.[0].label).toBe('阅读新闻原文');
   });
 });

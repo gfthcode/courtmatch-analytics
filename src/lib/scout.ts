@@ -16,7 +16,7 @@ import { DEMO_DATA } from './data';
 export type ScoutAction = { label: string; href: string };
 export type ScoutSource = { label: string; href: string };
 export type ScoutResult = { title: string; body: string; action?: ScoutAction; sources?: ScoutSource[] };
-export type ScoutNewsArticle = { id: string; title: string; summary?: string; url: string; publishedAt: string; author?: string; categories?: string[] };
+export type ScoutNewsArticle = { id: string; title: string; titleZh?: string; summary?: string; summaryZh?: string; url: string; publishedAt: string; author?: string; categories?: string[] };
 export type ScoutNewsFeed = { source?: string; updatedAt?: string; articles: ScoutNewsArticle[] };
 
 const normalize = (value: string) => value.toLocaleLowerCase().normalize('NFKD').replace(/[\s·.'’-]/g, '');
@@ -279,8 +279,9 @@ function newsSearch(data: Dataset, query: string, english: boolean, feed?: Scout
       const published = Number.isFinite(Date.parse(article.publishedAt))
         ? new Intl.DateTimeFormat(english ? 'en-US' : 'zh-CN', { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date(article.publishedAt))
         : zh('日期未知', 'date unavailable', english);
-      const summary = (article.summary ?? '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 220);
-      return `${index + 1}. ${article.title}\n${published}${article.author ? ` · ${article.author}` : ''}${summary ? `\n${summary}${article.summary && article.summary.length > 220 ? '…' : ''}` : ''}`;
+      const headline = english ? article.title : article.titleZh || '新闻标题翻译暂不可用';
+      const summary = (english ? article.summary : article.summaryZh || (article.summary ? '新闻摘要翻译暂不可用，可点击来源查看原文。' : ''))?.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 220) ?? '';
+      return `${index + 1}. ${headline}\n${published}${article.author ? ` · ${article.author}` : ''}${summary ? `\n${summary}${article.summary && article.summary.length > 220 ? '…' : ''}` : ''}`;
     }).join('\n\n')
     : zh('在当前已发布的新闻目录中，没有找到与该球员或主题匹配的报道。可以试试球员英文名、球队名或更宽泛的关键词。', 'No stories in the published feed matched that player or topic. Try the player’s English name, team name or a broader keyword.', english);
   return {
@@ -289,7 +290,7 @@ function newsSearch(data: Dataset, query: string, english: boolean, feed?: Scout
       : zh('NBA 新闻检索', 'NBA news search', english),
     body: `${body}\n\n${zh(`来源：${feed.source ?? '已发布 ESPN NBA 新闻目录'} · 新闻源更新时间：${date}${stale ? ' · 数据可能已过期' : ''}。新闻目录按发布流程更新，非逐条实时推送。`, `Source: ${feed.source ?? 'published ESPN NBA news catalogue'} · Feed updated: ${date}${stale ? ' · data may be stale' : ''}. The catalogue is refreshed through the publishing pipeline, not streamed live.`, english)}`,
     action: { label: zh('打开新闻中心', 'Open NBA news desk', english), href: '/news' },
-    sources: filtered.map((article) => ({ label: article.title, href: article.url })),
+    sources: filtered.map((article) => ({ label: english ? article.title : article.titleZh || '阅读新闻原文', href: article.url })),
   };
 }
 
