@@ -1,8 +1,59 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-13T02:36:19.442803+00:00",
+  "updatedAt": "2026-10-13T10:35:27.483208+00:00",
   "articles": [
+    {
+      "id": "50171054",
+      "title": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
+      "summary": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50171054/game-highlights",
+      "publishedAt": "2026-10-13T05:29:49+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1013/11e92f6f-4e6b-4f90-acec-3718cd5b9b3a/11e92f6f-4e6b-4f90-acec-3718cd5b9b3a.jpg",
+      "author": "",
+      "categories": [
+        "Jaxson Hayes",
+        "Darryn Peterson",
+        "Lauri Markkanen",
+        "Utah Jazz",
+        "San Antonio Spurs",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Keyonte George",
+        "4 Star Rating",
+        "Ja'Kobi Gillespie",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "San Antonio Spurs @ Utah Jazz"
+      ]
+    },
+    {
+      "id": "50170683",
+      "title": "Minnesota Timberwolves vs. New York Knicks: Game Highlights",
+      "summary": "Minnesota Timberwolves vs. New York Knicks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50170683/game-highlights",
+      "publishedAt": "2026-10-13T05:28:00+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1013/6166fe3c-b2a8-456f-8c51-eec23e65b77b/6166fe3c-b2a8-456f-8c51-eec23e65b77b.jpg",
+      "author": "",
+      "categories": [
+        "New York Knicks",
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "Jalen Brunson",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Antonio Reeves",
+        "SC4U  - Eligible",
+        "Anthony Edwards",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Minnesota Timberwolves @ New York Knicks"
+      ]
+    },
     {
       "id": "50165903",
       "title": "Jordan game-worn 1998 NBA Finals jersey sells for $14 million",
@@ -965,56 +1016,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Washington Wizards @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50136993",
-      "title": "New Orleans Pelicans vs. Miami Heat: Game Highlights",
-      "summary": "New Orleans Pelicans vs. Miami Heat: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50136993/game-highlights",
-      "publishedAt": "2026-10-09T02:14:48+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/1c925fb8-cfd9-4c39-812b-dd104dc81c90/1c925fb8-cfd9-4c39-812b-dd104dc81c90.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "Jordan Poole",
-        "Myron Gardner",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Yves Missi",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New Orleans Pelicans @ Miami Heat"
-      ]
-    },
-    {
-      "id": "50136810",
-      "title": "Boston Celtics vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "Boston Celtics vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50136810/game-highlights",
-      "publishedAt": "2026-10-09T01:51:19+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/56b34b88-c4d7-4bf3-886e-043b888543ab/56b34b88-c4d7-4bf3-886e-043b888543ab.jpg",
-      "author": "",
-      "categories": [
-        "Jaylon Tyson",
-        "Baylor Scheierman",
-        "Boston Celtics",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "SC4U  - Eligible",
-        "Luka Garza",
-        "Meleek Thomas",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Boston Celtics @ Cleveland Cavaliers"
       ]
     }
   ]
