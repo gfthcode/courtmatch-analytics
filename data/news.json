@@ -1,8 +1,122 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-12T21:16:16.592680+00:00",
+  "updatedAt": "2026-10-13T02:36:19.442803+00:00",
   "articles": [
+    {
+      "id": "50165903",
+      "title": "Jordan game-worn 1998 NBA Finals jersey sells for $14 million",
+      "summary": "A game-worn, autographed Michael Jordan road jersey from the 1998 NBA Finals has been privately sold for $14 million.",
+      "url": "https://www.espn.com/nba/story/_/id/50165903/jordan-game-worn-1998-nba-finals-jersey-sells-14-million",
+      "publishedAt": "2026-10-13T02:10:53+00:00",
+      "image": "https://a.espncdn.com/photo/2020/0331/r684529_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "news"
+      ]
+    },
+    {
+      "id": "50170441",
+      "title": "Oklahoma City Thunder vs. Atlanta Hawks: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50170441/game-highlights",
+      "publishedAt": "2026-10-13T02:00:17+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1013/3e20162c-f657-48a2-8421-de88222b7cc9/3e20162c-f657-48a2-8421-de88222b7cc9.jpg",
+      "author": "",
+      "categories": [
+        "Nickeil Alexander-Walker",
+        "Asa Newell",
+        "Atlanta Hawks",
+        "Bennett Stirtz",
+        "Oklahoma City Thunder",
+        "Corey Kispert",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Oklahoma City Thunder @ Atlanta Hawks"
+      ]
+    },
+    {
+      "id": "50170518",
+      "title": "Brooklyn Nets vs. Washington Wizards: Game Highlights",
+      "summary": "Brooklyn Nets vs. Washington Wizards: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50170518/game-highlights",
+      "publishedAt": "2026-10-13T01:58:56+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1013/7ae6f358-9f15-438c-b74a-5c1f2bad87c8/7ae6f358-9f15-438c-b74a-5c1f2bad87c8.jpg",
+      "author": "",
+      "categories": [
+        "Chaney Johnson",
+        "Washington Wizards",
+        "Michael Porter Jr",
+        "Kyshawn George",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Brooklyn Nets @ Washington Wizards"
+      ]
+    },
+    {
+      "id": "50169786",
+      "title": "Carmelo Anthony thinks Knicks right to halt contract talks to focus on season",
+      "summary": "Former Knicks great Carmelo Anthony said the team is making the right decision in halting contract negotiations with players to focus solely on basketball.",
+      "url": "https://www.espn.com/nba/story/_/id/50169786/carmelo-anthony-thinks-knicks-right-halt-contract-talks-focus-season",
+      "publishedAt": "2026-10-13T00:46:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1729943_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Josh Hart",
+        "news",
+        "Karl-Anthony Towns"
+      ]
+    },
+    {
+      "id": "50169402",
+      "title": "Ja Morant gets it done on both sides of the court",
+      "summary": "Ja Morant gets it done on both sides of the court",
+      "url": "https://www.espn.com/video/clip/_/id/50169402/ja-morant-gets-done-sides-court",
+      "publishedAt": "2026-10-12T23:03:39+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/6457f06e-7d34-4324-93aa-0eb19017d511/6457f06e-7d34-4324-93aa-0eb19017d511.jpg",
+      "author": "",
+      "categories": [
+        "Ja Morant",
+        "Portland Trail Blazers",
+        "NBA",
+        "3 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "League Boost",
+        "London Lions @ Portland Trail Blazers"
+      ]
+    },
+    {
+      "id": "50168743",
+      "title": "Kristaps Porzingis expected to be at Warriors' facility on Tuesday",
+      "summary": "Veteran center Kristaps Porzingis is expected to return to the Golden State Warriors practice facility Tuesday afternoon, according to head coach Steve Kerr.",
+      "url": "https://www.espn.com/nba/story/_/id/50168743/kristaps-porzingis-expected-warriors-facility-tue",
+      "publishedAt": "2026-10-12T22:02:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729848_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Kristaps Porzingis",
+        "news",
+        "Anthony Slater"
+      ]
+    },
     {
       "id": "50168000",
       "title": "Kentavious Caldwell-Pope cites team chemistry as key to 76ers' success",
@@ -63,20 +177,6 @@
       "categories": [
         "NBA",
         "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50165903",
-      "title": "Jordan game-worn 1998 NBA Finals jersey sells for $14 million",
-      "summary": "A game-worn, autographed Michael Jordan road jersey from the 1998 NBA Finals has been privately sold for $14 million.",
-      "url": "https://www.espn.com/nba/story/_/id/50165903/jordan-game-worn-1998-nba-finals-jersey-sells-14-million",
-      "publishedAt": "2026-10-12T14:07:39+00:00",
-      "image": "https://a.espncdn.com/photo/2020/0331/r684529_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Chicago Bulls",
-        "news"
       ]
     },
     {
@@ -915,93 +1015,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Boston Celtics @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50134369",
-      "title": "Fantasy basketball: Category league draft tiers",
-      "summary": "Eric Moody groups players into tiers by each position for category-based leagues.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134369/fantasy-basketball-category-league-draft-tiers-2026-27",
-      "publishedAt": "2026-10-09T01:20:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1009/r1728065_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba"
-      ]
-    },
-    {
-      "id": "50134809",
-      "title": "Tyrese Maxey, Jaylen Brown, VJ Edgecombe make 'Abbott Elementary' cameos",
-      "summary": "\"Abbott Elementary\" continues to embrace Philadelphia sports culture with its latest instance starring the 76ers.",
-      "url": "https://www.espn.com/nba/story/_/id/50134809/abbott-elementary-season-six-premiere-sixers-cameo",
-      "publishedAt": "2026-10-08T20:47:07+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723110_608x342_16-9.jpg",
-      "author": "Brianna Williams",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Jaylen Brown",
-        "Tyrese Maxey",
-        "VJ Edgecombe",
-        "LeBron James",
-        "Brianna Williams"
-      ]
-    },
-    {
-      "id": "50134832",
-      "title": "Sources: 76ers plan to play starters in preseason game vs. Nets",
-      "summary": "The 76ers plan to play their starters Thursday against the Nets, sources told ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/50134832/sources-76ers-plan-play-starters-preseason-game-vs-nets",
-      "publishedAt": "2026-10-08T20:15:04+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726797_1296x729_16-9.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Joel Embiid",
-        "LeBron James",
-        "Tyrese Maxey",
-        "Jaylen Brown",
-        "VJ Edgecombe",
-        "news",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50134349",
-      "title": "Haliburton tells McAfee he feels 'great' after return to court",
-      "summary": "Haliburton tells McAfee he feels 'great' after return to court",
-      "url": "https://www.espn.com/video/clip/_/id/50134349/haliburton-tells-mcafee-feels-great-return-court",
-      "publishedAt": "2026-10-08T19:08:57+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1008/ss_20261008_141830898_3688851/ss_20261008_141830898_3688851.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "Indiana Pacers",
-        "Tyrese Haliburton",
-        "Pat McAfee",
-        "The Pat McAfee Show",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50125975",
-      "title": "Fantasy basketball: Points league draft tiers",
-      "summary": "Eric Moody groups players into tiers by each position for points leagues.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50125975/fantasy-basketball-points-league-draft-tiers-nba-2026-27",
-      "publishedAt": "2026-10-08T18:51:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1007/r1727547_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA"
       ]
     }
   ]
