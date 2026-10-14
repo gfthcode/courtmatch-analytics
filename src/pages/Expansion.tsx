@@ -90,12 +90,12 @@ export function SalariesPage() {
       <article className="salary-overview-card"><span>已核验公开脚本</span><strong>0 个薪资字段</strong><p>参考仓库当前公开脚本聚焦对位、打法、球队与球员日志。</p></article>
       <article className="salary-overview-card"><span>接入门槛</span><strong>4 项校验</strong><p>来源、赛季、币种、更新时间均需进入 manifest。</p></article>
     </section>
-    <section className="section salary-fields-section">
+    <section id="salary-fields" className="section salary-fields-section">
       <div className="section-title"><div><span className="eyebrow">SCHEMA CHECK</span><h2>计划接入字段</h2></div><button className="text-button" type="button" onClick={() => setShowAudit((value) => !value)}>{showAudit ? '收起核验说明' : '查看核验说明'} ↗</button></div>
       <div className="salary-fields-grid">{fields.map(([label, state, detail]) => <article className="salary-field-card" key={label}><span className="status-dot status-dot-muted" /><div><strong>{label}</strong><small>{state}</small><p>{detail}</p></div></article>)}</div>
       {showAudit && <div className="salary-audit-note"><strong>核验结论</strong><p>已检查参考站公开页面与 <code>suren504/surennba_stats</code> 的 README 及脚本目录：当前没有可直接复用的 salary / contract / payroll 输出。接入前需要新增独立数据源，并通过字段完整性、赛季一致性和更新时间校验。</p></div>}
     </section>
-    <section className="section salary-sources-section"><div className="section-title"><div><span className="eyebrow">SOURCE MAP</span><h2>可追溯数据入口</h2></div><span>点击查看原始来源</span></div><div className="salary-source-list"><a href="https://www.nba.com/stats" target="_blank" rel="noreferrer"><span>NBA Stats</span><small>官方统计入口，不代表当前已提供薪资字段</small><ExternalLink size={16} /></a><a href="https://github.com/suren504/surennba_stats" target="_blank" rel="noreferrer"><span>参考 GitHub 仓库</span><small>查看公开抓取脚本与数据发布说明</small><ExternalLink size={16} /></a><Link to="/methodology"><span>CourtMatch 数据口径</span><small>查看发布、质量门禁和字段说明</small><ExternalLink size={16} /></Link></div></section>
+    <section id="salary-sources" className="section salary-sources-section"><div className="section-title"><div><span className="eyebrow">SOURCE MAP</span><h2>可追溯数据入口</h2></div><span>点击查看原始来源</span></div><div className="salary-source-list"><a href="https://www.nba.com/stats" target="_blank" rel="noreferrer"><span>NBA Stats</span><small>官方统计入口，不代表当前已提供薪资字段</small><ExternalLink size={16} /></a><a href="https://github.com/suren504/surennba_stats" target="_blank" rel="noreferrer"><span>参考 GitHub 仓库</span><small>查看公开抓取脚本与数据发布说明</small><ExternalLink size={16} /></a><Link to="/methodology"><span>CourtMatch 数据口径</span><small>查看发布、质量门禁和字段说明</small><ExternalLink size={16} /></Link></div></section>
   </>;
 }
 

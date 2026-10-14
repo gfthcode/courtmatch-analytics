@@ -97,7 +97,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
         <Link to="/matchups">{t('打开分析工作台')} <ArrowUpRight size={18} /></Link>
       </div>
 
-      <section className="section">
+      <section id="home-matchups" className="section">
         <div className="section-title">
           <div><h2>{t('每一组对位，都有细节。')}</h2><p>{t('从样本量充足的记录切入，再看效率差异。')}</p></div>
           <Link className="text-link" to="/matchups">{t('全部对位')} <ArrowRight size={17} /></Link>
@@ -121,7 +121,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
         </div>
       </section>
 
-      <section className="section home-rank">
+      <section id="home-leaders" className="section home-rank">
         <div>
           <p className="eyebrow">LEAGUE LEADERS</p>
           <h2>{t('让表现')}<br />{t('进入视野。')}</h2>
@@ -160,7 +160,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
         </article>
       </section>
 
-      <section className="method-teaser">
+      <section id="home-methodology" className="method-teaser">
         <h2>{t('数字需要上下文。')}</h2>
         <p>{t('每一项效率都附带样本回合和比较基准。样本多不代表因果关系，了解算法后再做判断。')}</p>
         <Link className="text-link" to="/methodology">{t('阅读方法论')} <ArrowUpRight size={18} /></Link>
