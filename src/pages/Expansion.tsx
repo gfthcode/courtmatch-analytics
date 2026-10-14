@@ -77,27 +77,29 @@ export function TeamComparePage() {
 
 export function SalariesPage() {
   const [showAudit, setShowAudit] = useState(false);
+  const { language } = useLanguage();
+  const en = language === 'en';
   const fields = [
-    ['球员薪资', '未发布', '需要逐球员赛季薪资与币种字段'],
-    ['合同年限', '未发布', '需要合同起止赛季和选项年字段'],
-    ['合同总额', '未发布', '需要可追溯的合同来源与校验时间'],
-    ['球队工资总额', '未发布', '需要球队赛季薪资汇总字段'],
+    [en ? 'Player salary' : '球员薪资', en ? 'Not published' : '未发布', en ? 'Player-level season salary and currency fields are required.' : '需要逐球员赛季薪资与币种字段'],
+    [en ? 'Contract length' : '合同年限', en ? 'Not published' : '未发布', en ? 'Contract start/end seasons and option-year fields are required.' : '需要合同起止赛季和选项年字段'],
+    [en ? 'Total contract value' : '合同总额', en ? 'Not published' : '未发布', en ? 'A traceable contract source and verification date are required.' : '需要可追溯的合同来源与校验时间'],
+    [en ? 'Team payroll' : '球队工资总额', en ? 'Not published' : '未发布', en ? 'A team-level season payroll total is required.' : '需要球队赛季薪资汇总字段'],
   ];
   return <>
-    <PageHead eyebrow="SALARY VAULT" title="薪金仓库" description="薪资数据需要可靠、可追溯的公开来源；当前数据目录未发布薪资字段。" />
-    <StatusCard />
-    <section className="salary-overview-grid" aria-label="薪资数据状态">
-      <article className="salary-overview-card salary-overview-card-primary"><WalletCards size={24} /><span>当前状态</span><strong>等待可信数据源</strong><p>不会用估算值或旧合同填充金额。</p></article>
-      <article className="salary-overview-card"><span>已核验公开脚本</span><strong>0 个薪资字段</strong><p>参考仓库当前公开脚本聚焦对位、打法、球队与球员日志。</p></article>
-      <article className="salary-overview-card"><span>接入门槛</span><strong>4 项校验</strong><p>来源、赛季、币种、更新时间均需进入 manifest。</p></article>
+    <PageHead eyebrow="SALARY VAULT" title={en ? 'Salary vault' : '薪金仓库'} description={en ? 'Salary data needs reliable, traceable public sources; the published dataset does not include contract fields.' : '薪资数据需要可靠、可追溯的公开来源；当前数据目录未发布薪资字段。'} />
+    <StatusCard label={en ? 'Data status' : '数据状态'} />
+    <section className="salary-overview-grid" aria-label={en ? 'Salary data status' : '薪资数据状态'}>
+      <article className="salary-overview-card salary-overview-card-primary"><WalletCards size={24} /><span>{en ? 'Current status' : '当前状态'}</span><strong>{en ? 'Awaiting verified sources' : '等待可信数据源'}</strong><p>{en ? 'No estimated or outdated contract amounts are used.' : '不会用估算值或旧合同填充金额。'}</p></article>
+      <article className="salary-overview-card"><span>{en ? 'Verified public scripts' : '已核验公开脚本'}</span><strong>{en ? '0 salary fields' : '0 个薪资字段'}</strong><p>{en ? 'The reference repository currently focuses on matchups, play types, teams and player logs.' : '参考仓库当前公开脚本聚焦对位、打法、球队与球员日志。'}</p></article>
+      <article className="salary-overview-card"><span>{en ? 'Integration requirements' : '接入门槛'}</span><strong>{en ? '4 checks' : '4 项校验'}</strong><p>{en ? 'Source, season, currency and update time must be included in the manifest.' : '来源、赛季、币种、更新时间均需进入 manifest。'}</p></article>
     </section>
     <SalaryVault />
     <section id="salary-fields" className="section salary-fields-section">
-      <div className="section-title"><div><span className="eyebrow">SCHEMA CHECK</span><h2>计划接入字段</h2></div><button className="text-button" type="button" onClick={() => setShowAudit((value) => !value)}>{showAudit ? '收起核验说明' : '查看核验说明'} ↗</button></div>
+      <div className="section-title"><div><span className="eyebrow">SCHEMA CHECK</span><h2>{en ? 'Planned salary fields' : '计划接入字段'}</h2></div><button className="text-button" type="button" onClick={() => setShowAudit((value) => !value)}>{showAudit ? (en ? 'Hide audit notes' : '收起核验说明') : (en ? 'View audit notes' : '查看核验说明')} ↗</button></div>
       <div className="salary-fields-grid">{fields.map(([label, state, detail]) => <article className="salary-field-card" key={label}><span className="status-dot status-dot-muted" /><div><strong>{label}</strong><small>{state}</small><p>{detail}</p></div></article>)}</div>
-      {showAudit && <div className="salary-audit-note"><strong>核验结论</strong><p>已检查参考站公开页面与 <code>suren504/surennba_stats</code> 的 README 及脚本目录：当前没有可直接复用的 salary / contract / payroll 输出。接入前需要新增独立数据源，并通过字段完整性、赛季一致性和更新时间校验。</p></div>}
+      {showAudit && <div className="salary-audit-note"><strong>{en ? 'Audit finding' : '核验结论'}</strong><p>{en ? <>The reference site and <code>suren504/surennba_stats</code> README/scripts were reviewed; no reusable salary, contract or payroll output is currently published. A dedicated source must pass field-completeness, season-consistency and freshness checks before integration.</> : <>已检查参考站公开页面与 <code>suren504/surennba_stats</code> 的 README 及脚本目录：当前没有可直接复用的 salary / contract / payroll 输出。接入前需要新增独立数据源，并通过字段完整性、赛季一致性和更新时间校验。</>}</p></div>}
     </section>
-    <section id="salary-sources" className="section salary-sources-section"><div className="section-title"><div><span className="eyebrow">SOURCE MAP</span><h2>可追溯数据入口</h2></div><span>点击查看原始来源</span></div><div className="salary-source-list"><a href="https://www.nba.com/stats" target="_blank" rel="noreferrer"><span>NBA Stats</span><small>官方统计入口，不代表当前已提供薪资字段</small><ExternalLink size={16} /></a><a href="https://github.com/suren504/surennba_stats" target="_blank" rel="noreferrer"><span>参考 GitHub 仓库</span><small>查看公开抓取脚本与数据发布说明</small><ExternalLink size={16} /></a><Link to="/methodology"><span>CourtMatch 数据口径</span><small>查看发布、质量门禁和字段说明</small><ExternalLink size={16} /></Link></div></section>
+    <section id="salary-sources" className="section salary-sources-section"><div className="section-title"><div><span className="eyebrow">SOURCE MAP</span><h2>{en ? 'Traceable data sources' : '可追溯数据入口'}</h2></div><span>{en ? 'Open source reference' : '点击查看原始来源'}</span></div><div className="salary-source-list"><a href="https://www.nba.com/stats" target="_blank" rel="noreferrer"><span>NBA Stats</span><small>{en ? 'Official stats portal; salary fields are not currently provided here.' : '官方统计入口，不代表当前已提供薪资字段'}</small><ExternalLink size={16} /></a><a href="https://github.com/suren504/surennba_stats" target="_blank" rel="noreferrer"><span>{en ? 'Reference GitHub repository' : '参考 GitHub 仓库'}</span><small>{en ? 'Review public collection scripts and data publishing notes.' : '查看公开抓取脚本与数据发布说明'}</small><ExternalLink size={16} /></a><Link to="/methodology"><span>{en ? 'CourtMatch methodology' : 'CourtMatch 数据口径'}</span><small>{en ? 'Review publishing, quality gates and field definitions.' : '查看发布、质量门禁和字段说明'}</small><ExternalLink size={16} /></Link></div></section>
   </>;
 }
 
