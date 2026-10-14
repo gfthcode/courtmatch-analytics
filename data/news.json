@@ -1,8 +1,187 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-14T00:18:16.770708+00:00",
+  "updatedAt": "2026-10-14T08:42:49.517106+00:00",
   "articles": [
+    {
+      "id": "50179763",
+      "title": "Walker Kessler impresses in preseason debut for Lakers",
+      "summary": "Lakers center Walker Kessler made a strong first impression in his preseason debut Tuesday, finishing with 11 points on 4-for-6 shooting, nine rebounds, one block and one steal while playing only in the first half.",
+      "url": "https://www.espn.com/nba/story/_/id/50179763/walker-kessler-impresses-preseason-debut-lakers",
+      "publishedAt": "2026-10-14T07:06:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730520_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "Walker Kessler",
+        "NBA",
+        "Los Angeles Lakers",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50179404",
+      "title": "Golden State Warriors vs. Los Angeles Lakers: Game Highlights",
+      "summary": "Golden State Warriors vs. Los Angeles Lakers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50179404/game-highlights",
+      "publishedAt": "2026-10-14T05:30:44+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1014/b18a238c-a623-4cbc-b023-2d0afb8d3e4b/b18a238c-a623-4cbc-b023-2d0afb8d3e4b.jpg",
+      "author": "",
+      "categories": [
+        "Los Angeles Lakers",
+        "SC4U - Full Highlight",
+        "Golden State Warriors",
+        "Austin Reaves",
+        "NBA",
+        "SC4U  - Eligible",
+        "Sandro Mamukelashvili",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Golden State Warriors @ Los Angeles Lakers"
+      ]
+    },
+    {
+      "id": "50179402",
+      "title": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
+      "summary": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50179402/game-highlights",
+      "publishedAt": "2026-10-14T04:41:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1014/ec30ccee-1c04-4b22-97e4-54f4f09e9a8b/ec30ccee-1c04-4b22-97e4-54f4f09e9a8b.jpg",
+      "author": "",
+      "categories": [
+        "Deni Avdija",
+        "Portland Trail Blazers",
+        "Robert Williams III",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Yang Hansen",
+        "Keegan Murray",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Portland Trail Blazers @ Sacramento Kings"
+      ]
+    },
+    {
+      "id": "50179040",
+      "title": "Thunder beat the Pacers in OT",
+      "summary": "Thunder beat the Pacers in OT",
+      "url": "https://www.espn.com/video/clip/_/id/50179040/thunder-beat-pacers-ot",
+      "publishedAt": "2026-10-14T03:19:18+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1014/38f62f29-2c64-4b8c-8c9e-a979270d11ec/38f62f29-2c64-4b8c-8c9e-a979270d11ec.jpg",
+      "author": "",
+      "categories": [
+        "Rienk Mast",
+        "Indiana Pacers",
+        "Oklahoma City Thunder",
+        "NBA",
+        "Tyrese Haliburton",
+        "Braden Smith",
+        "Zhaire Smith",
+        "Shai Gilgeous-Alexander",
+        "Kobe Brown",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "Indiana Pacers @ Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "50178825",
+      "title": "New York Knicks vs. Toronto Raptors: Game Highlights",
+      "summary": "New York Knicks vs. Toronto Raptors: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50178825/game-highlights",
+      "publishedAt": "2026-10-14T02:40:34+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1014/ef521df6-eb21-4dc4-85da-231d6ddac7b9/ef521df6-eb21-4dc4-85da-231d6ddac7b9.jpg",
+      "author": "",
+      "categories": [
+        "Toronto Raptors",
+        "New York Knicks",
+        "Trayce Jackson-Davis",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Kawhi Leonard",
+        "Pacome Dadiet",
+        "3 Star Rating",
+        "James Wiseman",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "New York Knicks @ Toronto Raptors"
+      ]
+    },
+    {
+      "id": "50178407",
+      "title": "Kawhi drops 21 points in 17 minutes in preseason debut",
+      "summary": "Kawhi drops 21 points in 17 minutes in preseason debut",
+      "url": "https://www.espn.com/video/clip/_/id/50178407/kawhi-drops-21-points-17-minutes-preseason-debut",
+      "publishedAt": "2026-10-14T02:08:52+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1014/b9a866f4-b32d-49ed-927a-74621e29ed31/b9a866f4-b32d-49ed-927a-74621e29ed31.jpg",
+      "author": "",
+      "categories": [
+        "Toronto Raptors",
+        "New York Knicks",
+        "NBA",
+        "Kawhi Leonard",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Team Boost",
+        "New York Knicks @ Toronto Raptors"
+      ]
+    },
+    {
+      "id": "50178600",
+      "title": "Haliburton drops 24 first-half points in first game in OKC since Achilles tear",
+      "summary": "Haliburton drops 24 first-half points in first game in OKC since Achilles tear",
+      "url": "https://www.espn.com/video/clip/_/id/50178600/haliburton-drops-24-first-half-points-first-game-okc-achilles-tear",
+      "publishedAt": "2026-10-14T02:07:46+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1014/22b4aa38-2a9f-47c5-9079-f91a6dea5ac9/22b4aa38-2a9f-47c5-9079-f91a6dea5ac9.jpg",
+      "author": "",
+      "categories": [
+        "Indiana Pacers",
+        "Oklahoma City Thunder",
+        "NBA",
+        "Tyrese Haliburton",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Team Boost",
+        "Indiana Pacers @ Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "50178369",
+      "title": "Cleveland Cavaliers vs. Orlando Magic: Game Highlights",
+      "summary": "Cleveland Cavaliers vs. Orlando Magic: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50178369/game-highlights",
+      "publishedAt": "2026-10-14T01:36:29+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1014/1d1dbb33-5c22-408a-a2c8-c2628768df15/1d1dbb33-5c22-408a-a2c8-c2628768df15.jpg",
+      "author": "",
+      "categories": [
+        "Tyrese Proctor",
+        "Orlando Magic",
+        "Goga Bitadze",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "Paolo Banchero",
+        "NBA",
+        "SC4U  - Eligible",
+        "James Harden",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Cleveland Cavaliers @ Orlando Magic"
+      ]
+    },
     {
       "id": "50175002",
       "title": "Fantasy basketball: The rookies you should be targeting in drafts",
@@ -848,23 +1027,6 @@
       ]
     },
     {
-      "id": "50142422",
-      "title": "Russell Westbrook wants to carry torch for L.A. Olympics",
-      "summary": "Retired NBA player and Olympic gold medal winner Russell Westbrook said he wants to carry the torch when his native Los Angeles hosts the 2028 Games.",
-      "url": "https://www.espn.com/olympics/basketball/story/_/id/50142422/russell-westbrook-wants-carry-torch-la-olympics",
-      "publishedAt": "2026-10-10T00:17:45+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1009/r1728372_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Olympics",
-        "news",
-        "Olympics - Basketball",
-        "Olympics - Men's Basketball",
-        "Ben Golliver"
-      ]
-    },
-    {
       "id": "50134847",
       "title": "Fantasy basketball cheat sheet: All the names you need to know for your draft",
       "summary": "All the names you need to know from our 2026-27 fantasy basketball draft guide on a printable PDF cheat sheet",
@@ -895,20 +1057,6 @@
       ]
     },
     {
-      "id": "50134778",
-      "title": "Fantasy basketball guide: Player rankings, schedule grid and draft tips",
-      "summary": "Here is all of our key fantasy basketball draft content -- rankings, sleepers, schedule grid and draft tips -- collected into downloadable/printable PDF cheat sheets.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134778/fantasy-basketball-player-rankings-schedule-grid-draft-tips-2026-2027",
-      "publishedAt": "2026-10-09T22:10:42+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1009/r1728319_1296x729_16-9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy"
-      ]
-    },
-    {
       "id": "49959975",
       "title": "Fantasy basketball H2H Roto and Category rankings: Who is No. 1?",
       "summary": "Updated fantasy basketball rankings for roto and category leagues, with Tyrese Haliburton and Kyrie Irving back after a missed season.",
@@ -921,116 +1069,6 @@
         "Fantasy NBA",
         "NBA",
         "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50142464",
-      "title": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
-      "summary": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50142464/game-highlights",
-      "publishedAt": "2026-10-09T20:23:52+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1009/f64ab4d4-5097-47cd-8d7e-507c4839954d/f64ab4d4-5097-47cd-8d7e-507c4839954d.jpg",
-      "author": "",
-      "categories": [
-        "Tari Eason",
-        "Oscar Tshiebwe",
-        "Dallas Mavericks",
-        "Houston Rockets",
-        "Sergio de Larrea",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Max Christie",
-        "Cooper Flagg",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Dallas Mavericks"
-      ]
-    },
-    {
-      "id": "50141686",
-      "title": "Tyrese Haliburton hopes to mend fences with Damian Lillard",
-      "summary": "Tyrese Haliburton said he wishes his relationship with Damian Lillard could be repaired after the Pacers star stole Lillard's Dame Time celebration during the 2023 in-season tournament.",
-      "url": "https://www.espn.com/nba/story/_/id/50141686/tyrese-haliburton-hopes-mend-fences-damian-lillard",
-      "publishedAt": "2026-10-09T18:26:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0928/r1723084_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Indiana Pacers",
-        "Portland Trail Blazers",
-        "Tyrese Haliburton",
-        "Damian Lillard",
-        "news"
-      ]
-    },
-    {
-      "id": "50140136",
-      "title": "Knicks tabling Karl-Anthony Towns, Josh Hart contract talks",
-      "summary": "The Knicks have said they are tabling contract extension talks with Karl-Anthony Towns and Josh Hart \"until later in the season and will remain solely focused on preparing for the start of the season.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50140136/knicks-tabling-karl-anthony-towns-josh-hart-contract-talks",
-      "publishedAt": "2026-10-09T15:41:06+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1009/r1728230_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "news",
-        "Karl-Anthony Towns",
-        "Josh Hart"
-      ]
-    },
-    {
-      "id": "50140615",
-      "title": "'Very disrespectful!' Stephen A. slams James Dolan for tabling KAT, Hart contract talks",
-      "summary": "'Very disrespectful!' Stephen A. slams James Dolan for tabling KAT, Hart contract talks",
-      "url": "https://www.espn.com/video/clip/_/id/50140615/very-disrespectful-stephen-slams-james-dolan-tabling-kat-hart-contract-talks",
-      "publishedAt": "2026-10-09T15:06:30+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/ss_20261009_105505914_3689715/ss_20261009_105505914_3689715.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "Josh Hart",
-        "Stephen A. Smith",
-        "First Take",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50140391",
-      "title": "Evan Cohen perplexed by Knicks tabling contract talks with KAT, Hart",
-      "summary": "Evan Cohen perplexed by Knicks tabling contract talks with KAT, Hart",
-      "url": "https://www.espn.com/video/clip/_/id/50140391/evan-cohen-perplexed-knicks-tabling-contract-talks-kat-hart",
-      "publishedAt": "2026-10-09T14:14:29+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1009/ss_20261009_100909951_3689682612/ss_20261009_100909951_3689682612.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Josh Hart",
-        "Karl-Anthony Towns",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "49960162",
-      "title": "Fantasy basketball points league rankings: Cade Cunningham, Jalen Johnson are first-rounders",
-      "summary": "Updated fantasy basketball rankings for points leagues, with Cade Cunningham and Jalen Johnson starting the season higher than ever before.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-10-09T13:48:38+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717760_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Andre Snellings",
-        "NBA"
       ]
     }
   ]
