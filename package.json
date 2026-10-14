@@ -11,7 +11,8 @@
     "build": "tsc --noEmit && vite build && node scripts/copy-published-data.mjs && node scripts/static-routes.mjs && node scripts/publish-pages-root.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "release:check": "node scripts/check-release-scope.mjs"
   },
   "dependencies": {
     "@fontsource/barlow-condensed": "^5.2.7",

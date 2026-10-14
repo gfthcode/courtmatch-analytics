@@ -11,7 +11,7 @@ const modules: Module[] = [
   { label: '球员数据', href: '/players', icon: UsersRound, links: [
     { label: '球员总览', href: '/players', detail: '赛季基础与高阶数据表' },
     { label: '球员比较', href: '/comparison', detail: '并排比较球员表现' },
-    { label: '进攻打法', href: '/playtypes', detail: '查看 Synergy 进攻方式' },
+    { label: '打法类型', href: '/playtypes', detail: '查看 Synergy 进攻方式' },
     { label: '每日最佳', href: '/daily', detail: '按比赛日期浏览球员表现' },
     { label: '新闻', href: '/news', detail: '浏览场内外新闻与中文摘要' },
     { label: '球员国家', href: '/country', detail: '查看已核验的球员来源字段' },
@@ -22,6 +22,7 @@ const modules: Module[] = [
     { label: '球队攻防与打法', href: '/team/pk', detail: '切换进攻、防守与回合类型' },
     { label: '球队对比', href: '/team/compare', detail: '对照两支球队的已发布指标' },
     { label: '排行榜', href: '/rankings', detail: '按指标与样本门槛筛选' },
+    { label: '打法类型', href: '/playtypes', detail: '查看 Synergy 进攻方式' },
   ] },
   { label: '对位杀手', href: '/matchups', icon: Activity, links: [
     { label: '联盟对位', href: '/matchups', detail: '筛选直接攻防对位记录' },
@@ -58,22 +59,35 @@ const modules: Module[] = [
 
 export function ModuleNavigation() {
   const [openModule, setOpenModule] = useState<string | null>(null);
+  const [compactOpen, setCompactOpen] = useState(false);
   const { language, t } = useLanguage();
   const location = useLocation();
 
-  useEffect(() => setOpenModule(null), [location.pathname, location.search, location.hash]);
+  useEffect(() => { setOpenModule(null); setCompactOpen(false); }, [location.pathname, location.search, location.hash]);
   useEffect(() => {
-    if (!openModule) return;
+    if (!openModule && !compactOpen) return;
     const closeOnOutside = (event: PointerEvent) => {
-      if (!(event.target instanceof Element) || !event.target.closest('.module-nav')) setOpenModule(null);
+      if (!(event.target instanceof Element) || !event.target.closest('.module-nav')) { setOpenModule(null); setCompactOpen(false); }
     };
-    const closeOnEscape = (event: KeyboardEvent) => { if (event.key === 'Escape') setOpenModule(null); };
+    const closeOnEscape = (event: KeyboardEvent) => { if (event.key === 'Escape') { setOpenModule(null); setCompactOpen(false); } };
     document.addEventListener('pointerdown', closeOnOutside);
     document.addEventListener('keydown', closeOnEscape);
     return () => { document.removeEventListener('pointerdown', closeOnOutside); document.removeEventListener('keydown', closeOnEscape); };
-  }, [openModule]);
+  }, [openModule, compactOpen]);
 
   return <nav className="module-nav" aria-label={t('主导航')}>
+    <button className="module-nav-compact-trigger" type="button" aria-expanded={compactOpen} onClick={() => setCompactOpen(!compactOpen)}>
+      <span>{language === 'en' ? 'Modules' : '功能导航'}</span><ChevronDown size={14} />
+    </button>
+    {compactOpen && <div className="module-nav-compact-panel">
+      {modules.map((module) => {
+        const Icon = module.icon;
+        return <section key={module.label}>
+          <Link className="module-nav-compact-heading" to={module.href} onClick={() => setCompactOpen(false)}><Icon size={16} />{t(module.label)}<ArrowUpRight size={14} /></Link>
+          {module.links.map((link) => <Link key={link.href + link.label} to={link.href} onClick={() => setCompactOpen(false)}>{t(link.label)}</Link>)}
+        </section>;
+      })}
+    </div>}
     {modules.map((module) => {
       const Icon = module.icon;
       const active = module.href === '/' ? location.pathname === '/' : location.pathname === module.href || module.links.some((link) => location.pathname === link.href.split('?')[0] || location.pathname.startsWith(`${link.href.split('?')[0]}/`));

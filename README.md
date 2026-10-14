@@ -43,3 +43,24 @@ python3 scripts/validate_pages.py
 
 The same checks run on pull requests, relevant pushes, and the daily scheduled
 validation workflow.
+
+## Production release scope guard
+
+GitHub Pages serves this repository's root, so only reviewed files should be
+staged for a production release. Build outputs and other local changes can remain
+in the worktree, but they must not be swept into a release with `git add .`.
+
+1. Prepare the release on `main` and stage only reviewed source and generated
+   Pages files.
+2. List every intended staged path explicitly; the check fails on another branch,
+   an empty stage, a deletion/rename, whitespace errors, or any staged path not
+   listed in the allowlist:
+
+```bash
+pnpm release:check -- --allow src/components/ModuleNavigation.tsx src/components/module-navigation.css
+```
+
+For a site release, include the exact reviewed root Pages entrypoints and asset
+paths produced by `pnpm run build` as well. Unstaged and untracked files are not
+part of the release check or a commit; rerun the check after changing the staged
+set.
