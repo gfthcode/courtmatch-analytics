@@ -1,8 +1,152 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-14T08:42:49.517106+00:00",
+  "updatedAt": "2026-10-14T14:31:01.782023+00:00",
   "articles": [
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is less than a week away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-14T14:07:35+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50174585",
+      "title": "Wemby, Spurs have 'clarity' after Finals loss but know 'nothing is guaranteed'",
+      "summary": "The Spurs enter the season with expectations to return to the Finals after loss to the Knicks.",
+      "url": "https://www.espn.com/nba/story/_/id/50174585/san-antonio-spurs-wembanyama-expectations-nba",
+      "publishedAt": "2026-10-14T13:30:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730175_1296x729_16-9.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "Stephon Castle",
+        "De'Aaron Fox",
+        "Dylan Harper",
+        "Keldon Johnson",
+        "Victor Wembanyama",
+        "Devin Vassell",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50159419",
+      "title": "Kings C Maxime Raynaud (knee) to be reevaluated in 2 weeks",
+      "summary": "Kings second-year center Maxime Raynaud will be reevaluated in two weeks with a patellar subluxation in his right knee.",
+      "url": "https://www.espn.com/nba/story/_/id/50159419/kings-c-maxime-raynaud-knee-reevaluated-2-weeks",
+      "publishedAt": "2026-10-14T11:09:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1011/r1729010_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "Maxime Raynaud",
+        "Sacramento Kings",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50169786",
+      "title": "Carmelo Anthony thinks Knicks right to halt contract talks to focus on season",
+      "summary": "Former Knicks great Carmelo Anthony said the team is making the right decision in halting contract negotiations with players to focus solely on basketball.",
+      "url": "https://www.espn.com/nba/story/_/id/50169786/carmelo-anthony-thinks-knicks-right-halt-contract-talks-focus-season",
+      "publishedAt": "2026-10-14T11:08:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1729943_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Josh Hart",
+        "news",
+        "Karl-Anthony Towns"
+      ]
+    },
+    {
+      "id": "50168000",
+      "title": "Kentavious Caldwell-Pope cites team chemistry as key to 76ers' success",
+      "summary": "Kentavious Caldwell-Pope says the 76ers' success this season depends on how well the team's diverse personalities mesh.",
+      "url": "https://www.espn.com/nba/story/_/id/50168000/kentavious-caldwell-pope-cites-team-chemistry-key-76ers",
+      "publishedAt": "2026-10-14T11:08:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729797_1296x729_16-9.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Kentavious Caldwell-Pope",
+        "news",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50176173",
+      "title": "Celtics to extend guard Payton Pritchard on 2-year, $44.2M deal",
+      "summary": "Celtics guard Payton Pritchard has agreed to a two-year, $44.2 million extension with a mutual option for the 2029-30 season.",
+      "url": "https://www.espn.com/nba/story/_/id/50176173/celtics-extend-payton-pritchard-two-year-442m-deal",
+      "publishedAt": "2026-10-14T11:08:00+00:00",
+      "image": "https://a.espncdn.com/photo/2024/1030/r1408017_600x400_3-2.jpg",
+      "author": "Shams Charania",
+      "categories": [
+        "news",
+        "NBA",
+        "Boston Celtics",
+        "Payton Pritchard",
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50167312",
+      "title": "NBA Now or Later rankings: Which teams most need to win immediately?",
+      "summary": "Which teams must win immediately, with their current cores, and which could bide their time and win later instead? We ranked all 30.",
+      "url": "https://www.espn.com/nba/story/_/id/50167312/2026-27-now-later-rankings-finals",
+      "publishedAt": "2026-10-14T10:58:32+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1013/261014_nba_now-or-later-rankings_16x9_608x342.jpg",
+      "author": "Zach Kram",
+      "categories": [
+        "NBA",
+        "NBA Draft",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards",
+        "Zach Kram"
+      ]
+    },
     {
       "id": "50179763",
       "title": "Walker Kessler impresses in preseason debut for Lakers",
@@ -284,22 +428,6 @@
       ]
     },
     {
-      "id": "50176173",
-      "title": "Celtics to extend guard Payton Pritchard on 2-year, $44.2M deal",
-      "summary": "Celtics guard Payton Pritchard has agreed to a two-year, $44.2 million extension with a mutual option for the 2029-30 season.",
-      "url": "https://www.espn.com/nba/story/_/id/50176173/celtics-extend-payton-pritchard-two-year-442m-deal",
-      "publishedAt": "2026-10-13T20:42:33+00:00",
-      "image": "https://a.espncdn.com/photo/2024/1030/r1408017_600x400_3-2.jpg",
-      "author": "Shams Charania",
-      "categories": [
-        "news",
-        "NBA",
-        "Boston Celtics",
-        "Payton Pritchard",
-        "Shams Charania"
-      ]
-    },
-    {
       "id": "50176265",
       "title": "Celtics, Payton Pritchard agree to two-year extension",
       "summary": "Celtics, Payton Pritchard agree to two-year extension",
@@ -315,22 +443,6 @@
         "Malika Andrews",
         "Bobby Marks",
         "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is just a few weeks away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-13T20:24:57+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -563,22 +675,6 @@
       ]
     },
     {
-      "id": "50169786",
-      "title": "Carmelo Anthony thinks Knicks right to halt contract talks to focus on season",
-      "summary": "Former Knicks great Carmelo Anthony said the team is making the right decision in halting contract negotiations with players to focus solely on basketball.",
-      "url": "https://www.espn.com/nba/story/_/id/50169786/carmelo-anthony-thinks-knicks-right-halt-contract-talks-focus-season",
-      "publishedAt": "2026-10-13T00:46:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1729943_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Josh Hart",
-        "news",
-        "Karl-Anthony Towns"
-      ]
-    },
-    {
       "id": "50169402",
       "title": "Ja Morant gets it done on both sides of the court",
       "summary": "Ja Morant gets it done on both sides of the court",
@@ -612,22 +708,6 @@
         "Kristaps Porzingis",
         "news",
         "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50168000",
-      "title": "Kentavious Caldwell-Pope cites team chemistry as key to 76ers' success",
-      "summary": "Kentavious Caldwell-Pope says the 76ers' success this season depends on how well the team's diverse personalities mesh.",
-      "url": "https://www.espn.com/nba/story/_/id/50168000/kentavious-caldwell-pope-cites-team-chemistry-key-76ers",
-      "publishedAt": "2026-10-12T19:20:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729797_1296x729_16-9.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Kentavious Caldwell-Pope",
-        "news",
-        "Kris Rhim"
       ]
     },
     {
@@ -779,22 +859,6 @@
         "NBA",
         "Karl-Anthony Towns",
         "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50159419",
-      "title": "Kings C Maxime Raynaud (knee) to be reevaluated in 2 weeks",
-      "summary": "Kings second-year center Maxime Raynaud will be reevaluated in two weeks with a patellar subluxation in his right knee.",
-      "url": "https://www.espn.com/nba/story/_/id/50159419/kings-c-maxime-raynaud-knee-reevaluated-2-weeks",
-      "publishedAt": "2026-10-11T18:54:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1011/r1729010_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Maxime Raynaud",
-        "Sacramento Kings",
-        "Anthony Slater"
       ]
     },
     {
@@ -1024,51 +1088,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Memphis Grizzlies @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50134847",
-      "title": "Fantasy basketball cheat sheet: All the names you need to know for your draft",
-      "summary": "All the names you need to know from our 2026-27 fantasy basketball draft guide on a printable PDF cheat sheet",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50134847/fantasy-basketball-guide-sleepers-busts-draft-tips-2026-2027",
-      "publishedAt": "2026-10-09T22:19:51+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1009/r1728381_1296x729_16-9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy"
-      ]
-    },
-    {
-      "id": "50075156",
-      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-      "publishedAt": "2026-10-09T22:18:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball"
-      ]
-    },
-    {
-      "id": "49959975",
-      "title": "Fantasy basketball H2H Roto and Category rankings: Who is No. 1?",
-      "summary": "Updated fantasy basketball rankings for roto and category leagues, with Tyrese Haliburton and Kyrie Irving back after a missed season.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-10-09T21:16:09+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0916/r1717750_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "Fantasy NBA",
-        "NBA",
-        "Andre Snellings"
       ]
     }
   ]
