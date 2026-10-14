@@ -14,10 +14,14 @@ export const possessionSteps = POSSESSION_STEPS;
 export function normalizePossessions(value: number): number {
   return POSSESSION_STEPS.reduce((best, candidate) => Math.abs(candidate - value) < Math.abs(best - value) ? candidate : best, 30);
 }
-function safeNumber(value: string | null, fallback: number, maximum: number, discrete = false): number {
+export function getPossessionControlSteps(value: number): number[] {
+  const current = Number.isFinite(value) ? Math.min(1000, Math.max(0, Math.trunc(value))) : 30;
+  return [...new Set([0, ...POSSESSION_STEPS, 75, 100, 150, 250, 500, 1000, current])].sort((a, b) => a - b);
+}
+function safeNumber(value: string | null, fallback: number, maximum: number): number {
   if (value === null || value.trim() === '') return fallback;
   const parsed = Number(value);
-  return Number.isFinite(parsed) ? (discrete ? normalizePossessions(parsed) : Math.min(maximum, Math.max(0, Math.trunc(parsed)))) : fallback;
+  return Number.isFinite(parsed) ? Math.min(maximum, Math.max(0, Math.trunc(parsed))) : fallback;
 }
 
 export function parseFilters(search: URLSearchParams | string, seasons = SEASONS, defaultPlayer = DEFAULT_FILTERS.player): Filters {
@@ -33,7 +37,7 @@ export function parseFilters(search: URLSearchParams | string, seasons = SEASONS
     perspective: query.get('perspective') === 'defense' ? 'defense' : 'offense',
     team: (query.get('team') || '').slice(0, 40), opponentTeam: (query.get('opponentTeam') || '').slice(0, 40),
     position: ['G', 'F', 'C', 'G-F', 'F-C', 'Unknown'].includes(position) ? position : '',
-    minPossessions: safeNumber(query.get('minPossessions'), 30, 50, true),
+    minPossessions: safeNumber(query.get('minPossessions'), 30, 1000),
     quality: ['low', 'medium', 'high'].includes(quality) ? quality : '',
     search: (query.get('search') || '').slice(0, 150),
     metric: ['offense', 'defense', 'possessions', 'edge', 'improvement', 'decline', 'stability', 'position', 'points', 'fieldGoalPercentage', 'threePointPercentage', 'turnovers', 'efficiency'].includes(metric) ? metric : 'offense',

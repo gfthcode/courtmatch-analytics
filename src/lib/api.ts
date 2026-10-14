@@ -84,6 +84,8 @@ export function leagueAverage(data: Dataset, filters: DataFilters = {}): number 
 }
 
 export function getRankings(data: Dataset, filters: DataFilters = {}): Ranking[] {
+  const metric = filters.metric ?? (filters.perspective === 'defense' ? 'defense' : 'offense');
+  const defensiveSample = metric === 'defense' || metric === 'edge';
   const candidates = searchPlayers(data, filters.search ?? '', filters.team).filter((player) => !filters.position || player.position === filters.position);
   const accumulators = new Map(candidates.map((player) => [player.id, {
     offensePossessions: 0, offensePoints: 0, defensePossessions: 0, defensePoints: 0,
@@ -133,14 +135,15 @@ export function getRankings(data: Dataset, filters: DataFilters = {}): Ranking[]
     const defense = defensePossessions > 0 ? totals.defensePoints / defensePossessions * 100 : null;
     const previousRate = totals.previousPossessions > 0 ? totals.previousPoints / totals.previousPossessions * 100 : null;
     const variance = offense === null ? null : Math.max(0, totals.weightedRateSquares / offensePossessions - offense ** 2);
-    const possessions = offensePossessions + defensePossessions;
+    // The displayed sample, minimum and quality must describe the ranked metric.
+    // A large offensive sample cannot qualify a player's tiny defensive sample.
+    const possessions = metric === 'possessions' ? offensePossessions + defensePossessions : defensiveSample ? defensePossessions : offensePossessions;
     return { player, possessions, offensePossessions, defensePossessions, offense, defense,
       edge: average !== null && defense !== null ? average - defense : null,
       improvement: offense !== null && previousRate !== null ? offense - previousRate : null,
       stability: variance === null ? null : Math.sqrt(variance),
       quality: getSampleQuality(possessions), rank: 0, positionRank: 0 };
   }).filter((ranking) => ranking.possessions > 0 && ranking.possessions >= (filters.minPossessions ?? 0) && (!filters.quality || ranking.quality === filters.quality));
-  const metric = filters.metric ?? 'offense';
   const field: 'offense' | 'defense' | 'possessions' | 'edge' | 'improvement' | 'stability' = metric === 'decline' ? 'improvement' : ['defense', 'possessions', 'edge', 'improvement', 'stability'].includes(metric) ? metric as 'defense' | 'possessions' | 'edge' | 'improvement' | 'stability' : 'offense';
   const ascending = filters.order ? filters.order === 'asc' : ['defense', 'decline', 'stability'].includes(metric);
   rankings.sort((a, b) => {

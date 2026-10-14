@@ -1,4 +1,4 @@
-export type NewsTranslation = { title: string; summary: string };
+export type NewsTranslation = { title: string; summary: string; sourceText?: string };
 
 const ZH_CACHE_KEY = 'courtmatch-nba-news-zh-v1';
 
@@ -6,13 +6,22 @@ function text(value: unknown): string { return typeof value === 'string' ? value
 
 export function readNewsTranslationCache(): Record<string, NewsTranslation> {
   try {
-    const value = JSON.parse(localStorage.getItem(ZH_CACHE_KEY) || '{}') as Record<string, NewsTranslation>;
-    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+    const value: unknown = JSON.parse(localStorage.getItem(ZH_CACHE_KEY) || '{}');
+    if (!value || typeof value !== 'object' || Array.isArray(value)) return {};
+    return Object.fromEntries(Object.entries(value).flatMap(([id, entry]) => {
+      if (!id || !entry || typeof entry !== 'object' || Array.isArray(entry)) return [];
+      const candidate = entry as Record<string, unknown>;
+      if (typeof candidate.title !== 'string' || !candidate.title.trim() || typeof candidate.summary !== 'string') return [];
+      return [[id, { title: candidate.title, summary: candidate.summary,
+        ...(typeof candidate.sourceText === 'string' ? { sourceText: candidate.sourceText } : {}) }]];
+    }).slice(-150));
   } catch { return {}; }
 }
 
 export function saveNewsTranslation(id: string, translation: NewsTranslation): void {
+  if (!id || typeof translation.title !== 'string' || !translation.title.trim() || typeof translation.summary !== 'string') return;
   const cache = readNewsTranslationCache();
+  delete cache[id];
   cache[id] = translation;
   try { localStorage.setItem(ZH_CACHE_KEY, JSON.stringify(Object.fromEntries(Object.entries(cache).slice(-150)))); }
   catch { /* Keep the current response usable when storage is unavailable. */ }

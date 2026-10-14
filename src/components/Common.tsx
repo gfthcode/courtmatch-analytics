@@ -1,9 +1,9 @@
-import { useState, type ReactNode, type CSSProperties } from 'react';
+import { useId, useState, type ReactNode, type CSSProperties } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { ArrowDown, ArrowUp, ArrowUpRight, Download, ImageDown, Link2, SlidersHorizontal, HelpCircle } from 'lucide-react';
 import { Button } from './ui/button';
 import type { Filters, Player, SampleQuality, MatchupRecord, AvatarSize } from '../lib/types';
-import { normalizePossessions, possessionSteps } from '../lib/filters';
+import { getPossessionControlSteps } from '../lib/filters';
 import { useData, useDataStatus } from '../state';
 import { getPlayers, searchPlayers } from '../lib/api';
 import { downloadCSV, copyLink, downloadShareCard } from '../lib/export';
@@ -21,10 +21,13 @@ export function PageHead({eyebrow,title,description,children}:{eyebrow?:string;t
 export function Empty({title='没有符合条件的对位',message='尝试降低最低回合数或清除筛选条件。',children}:{title?:string;message?:string;children?:ReactNode}){const {t}=useLanguage();return <div className="empty"><SlidersHorizontal size={27}/><h3>{t(title)}</h3><p>{t(message)}</p>{children}</div>;}
 export function Metric({label,value,unit,basis,help,delta}:{label:string;value:string;unit?:string;basis:string;help:string;delta?:number|null}){const {language,t}=useLanguage();return <article className="metric"><div className="metric-label">{t(label)}<span tabIndex={0} className="hint" aria-label={t(help)}><HelpCircle size={13}/><span role="tooltip">{t(help)}</span></span></div><strong>{value}<small>{unit}</small></strong><p>{t(basis)}</p>{delta!=null&&<span className={`delta ${delta>=0?'positive':'negative'}`}>{delta>=0?<ArrowUp size={13}/>:<ArrowDown size={13}/>} {signed(delta)} {language==='en'?'vs league':'对比联盟'}</span>}</article>;}
 export function Field({label,children}:{label:string;children:ReactNode}){const {t}=useLanguage();return <label className="field"><span>{t(label)}</span>{children}</label>;}
+export function PossessionSlider({value,onChange}:{value:number;onChange:(value:number)=>void}){
+ const {language}=useLanguage();const en=language==='en';const id=useId();const steps=getPossessionControlSteps(value);const index=steps.indexOf(value);
+ return <Field label={`${en?'Minimum matchup possessions':'最低对位回合数'}: ${value}`}><input className="possessions-slider" type="range" min={0} max={steps.length-1} step={1} value={index<0?0:index} list={id} aria-valuetext={`${value} ${en?'possessions':'回合'}`} onChange={event=>onChange(steps[Number(event.target.value)])}/><span className="range-ticks"><span>0</span><span>{en?'Drag to adjust':'拖动调整'}</span><span>1000</span></span><datalist id={id}>{steps.map((amount,step)=><option key={amount} value={step} label={String(amount)}/>)}</datalist></Field>;
+}
 export function FilterPanel({filters,onChange,onReset,children,rankings=false}:{filters:Filters;onChange:(patch:Partial<Filters>)=>void;onReset:()=>void;children?:ReactNode;rankings?:boolean}){
  const data=useData();const {language}=useLanguage();const en=language==='en';const pool=getPlayers(data).filter(p=>!filters.team||p.teamId===filters.team);const [params,setParams]=useSearchParams();const locked=params.get('lockedOpponent')==='1';const lockedOpponent=params.get('opponent')??'';
- const sliderValue=filters.minPossessions;
- const slider=(<Field label={`${en?'Minimum matchup possessions':'最低对位回合数'}: ${sliderValue}`}><input className="possessions-slider" type="range" min={10} max={50} step={5} value={sliderValue} list="possession-steps" onChange={e=>onChange({minPossessions:normalizePossessions(Number(e.target.value))})}/><span className="range-ticks">{possessionSteps.map(v=><span key={v}>{v}</span>)}</span><datalist id="possession-steps">{possessionSteps.map(v=><option key={v} value={v}/>)}</datalist></Field>);
+ const slider=<PossessionSlider value={filters.minPossessions} onChange={minPossessions=>onChange({minPossessions})}/>;
  return <details className="filters" open><summary><SlidersHorizontal size={16}/> {en?'Filters':'筛选条件'} <span>{en?'Adjust season, perspective and sample':'调整赛季、视角与样本范围'}</span></summary><div className="filter-grid">
  <div className="filter-group"><strong>{en?'Basic filters':'基础筛选'}</strong>
  <Field label={en?'Season':'赛季'}><select value={filters.season} onChange={e=>onChange({season:e.target.value})}>{data.seasons.map(s=><option key={s}>{s}</option>)}</select></Field>

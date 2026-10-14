@@ -40,7 +40,7 @@ const news: ScoutNewsFeed = {
 
 describe('CourtMatch Scout answers', () => {
   it('compares both directions and links to a prefilled comparison page', () => {
-    const result = answerScoutQuestion(data, '比较 Stephen Curry 和 LeBron James 至少 25 回合', false);
+    const result = answerScoutQuestion(data, '比较 Stephen Curry 和 LeBron James 的直接对位 至少 25 回合', false);
     expect(result.title).toContain('Curry');
     expect(result.body).toContain('30.0');
     expect(result.body.match(/30\.0/g)).toHaveLength(2);
@@ -137,5 +137,84 @@ describe('CourtMatch Scout answers', () => {
     expect(answer.body).toContain('最近 2 场已记录比赛');
     expect(answer.body).toContain('请求 3 场，当前仅找到 2 场');
     expect(answer.body).toContain('场均 25.0 分');
+    expect(answer.body).toContain('与赛季场均持平');
+    const lower = { ...current, daily: [log('2026-06-12', 16), log('2026-06-13', 20)] };
+    expect(answerScoutQuestion(lower, 'Curry 最近5场', false).body).toContain('低于赛季场均 7.0 分');
+    expect(answerScoutQuestion(lower, 'Curry last 5 games', true).body).toContain('7.0 PPG below the season average');
+  });
+
+  const stats = (playerId: string, points: number, assists: number, overrides: Partial<PlayerStats> = {}): PlayerStats => ({ playerId, season: '2025-26', seasonType: 'regular', gamesPlayed: 70, pointsPerGame: points, reboundsPerGame: 4, assistsPerGame: assists, stealsPerGame: 1, blocksPerGame: 0.5, fieldGoalPercentage: 0.436, threePointPercentage: 0.422, freeThrowPercentage: 0.9, updatedAt: '2026-06-13', ...overrides });
+
+  it('answers a general two-player comparison using season statistics, not their direct matchup', () => {
+    const result = answerScoutQuestion({ ...data, playerStats: [stats('curry', 27, 5), stats('lebron', 25, 8)] }, '比较库里和詹姆斯的数据', false);
+    expect(result.title).toContain('赛季数据比较');
+    expect(result.body).toContain('27.0 分 / 4.0 篮板 / 5.0 助攻');
+    expect(result.body).not.toContain('30.0 分 / 100');
+    expect(result.action?.href).toContain('leftPlayer=curry&rightPlayer=lebron');
+  });
+
+  it('does not substitute regular-season stats into a missing playoff comparison', () => {
+    const result = answerScoutQuestion({ ...data, playerStats: [stats('curry', 27, 5), stats('lebron', 25, 8)] }, '比较 Curry 和 LeBron 季后赛防守数据', false);
+    expect(result.title).toContain('防守数据比较');
+    expect(result.body).toContain('该赛季 / 阶段暂无球员统计');
+    expect(result.body).not.toContain('1.0');
+    expect(result.action?.href).toContain('type=playoffs');
+  });
+
+  it('recognizes statistical leaders, requested count, and excludes nonfinite or low-sample values', () => {
+    const current = { ...data, playerStats: [stats('curry', 27, 5), stats('lebron', 25, 8), stats('tatum', 29, 12, { gamesPlayed: 1 })] };
+    const result = answerScoutQuestion(current, '助攻最多的前一名', false);
+    expect(result.title).toContain('场均助攻');
+    expect(result.body).toContain('1. LeBron');
+    expect(result.body).not.toContain('2.');
+    expect(result.body).not.toContain('Tatum');
+    const invalid = answerScoutQuestion({ ...current, playerStats: [stats('curry', Number.NaN, 5)] }, '得分榜前10', false);
+    expect(invalid.body).toContain('没有合格的球员统计');
+    expect(invalid.body).not.toContain('NaN');
+  });
+
+  it('requires attempts for shooting percentage leaders and respects a spaced top count', () => {
+    const current = { ...data, playerStats: [stats('curry', 27, 5, { threePointersAttemptedPerGame: 10 }), stats('lebron', 25, 8, { threePointPercentage: 1, threePointersAttemptedPerGame: 0.1 })] };
+    const result = answerScoutQuestion(current, '三分命中率前 1 名', false);
+    expect(result.body).toContain('1. Curry');
+    expect(result.body).not.toContain('LeBron');
+    expect(result.body).toContain('42.2%');
+  });
+
+  it('routes the default lowest opponent scoring example to defense and reports empty coverage', () => {
+    const result = answerScoutQuestion({ ...data, matchups: [] }, '样本对手得分最低前5', false);
+    expect(result.title).toContain('样本对手得分');
+    expect(result.action?.href).toContain('metric=defense');
+    expect(result.body).toContain('没有合格记录');
+  });
+
+  it('qualifies a defensive leaderboard with defensive possessions rather than combined possessions', () => {
+    const current = { ...data, matchups: [matchup('offense-heavy', 'curry', 'lebron', 1000, 300), matchup('tiny-defense', 'lebron', 'curry', 1, 0)] };
+    const result = answerScoutQuestion(current, '防守榜前5 至少25回合', false);
+    expect(result.body).toContain('1. LeBron');
+    expect(result.body).not.toContain('Curry');
+    expect(result.body).toContain('1000.0');
+    expect(result.body).not.toContain('1001.0');
+  });
+
+  it('resolves common Chinese nicknames without matching abbreviations inside unrelated English words', () => {
+    const durant: Player = { ...lebron, id: 'durant', name: 'Kevin Durant', chineseName: '', aliases: [], shortName: 'Kevin Durant' };
+    const result = answerScoutQuestion({ ...data, players: [...data.players, durant], playerStats: [stats('durant', 26, 5)] }, '阿杜赛季表现', false);
+    expect(result.title).toContain('Kevin Durant');
+    const empty = answerScoutQuestion({ ...data, teams: [{ ...lakers, id: 'min', abbreviation: 'MIN', name: 'Minnesota Timberwolves' }] }, 'minimum 25 possessions leaders', true);
+    expect(empty.title).toContain('Rankings');
+    const initials = answerScoutQuestion({ ...data, players: [{ ...curry, shortName: 'S. Curry', aliases: ['S. Curry'] }], playerStats: [stats('curry', 27, 5)] }, 'S. Curry stats', true);
+    expect(initials.title).toContain('S. Curry');
+    const harden: Player = { ...lebron, id: 'harden', name: 'James Harden', chineseName: '詹姆斯·哈登', shortName: 'James Harden', aliases: ['哈登'] };
+    const fullChinese = answerScoutQuestion({ ...data, players: [...data.players, harden], playerStats: [stats('harden', 22, 9)] }, '詹姆斯·哈登数据', false);
+    expect(fullChinese.title).toContain('James Harden');
+    expect(fullChinese.title).not.toContain('比较');
+  });
+
+  it('filters news by entity AND topic and keeps multiword English search terms separate', () => {
+    const feed: ScoutNewsFeed = { ...news, articles: [...news.articles, { ...news.articles[0], id: 'curry-injury', title: 'Stephen Curry sidelined with ankle injury', titleZh: '库里因脚踝伤势缺阵', summary: 'An injury update for Curry.', summaryZh: '库里伤病情况更新。', url: 'https://www.espn.com/nba/story/curry-injury' }] };
+    expect(answerScoutQuestion(data, '库里伤病新闻', false, feed).sources?.map((source) => source.href)).toEqual(['https://www.espn.com/nba/story/curry-injury']);
+    expect(answerScoutQuestion(data, 'trade rumors news', true, feed).sources?.map((source) => source.href)).toEqual(['https://www.espn.com/nba/story/trade']);
+    expect(answerScoutQuestion(data, '给我最新NBA新闻汇总', false, feed).sources).toHaveLength(4);
   });
 });
