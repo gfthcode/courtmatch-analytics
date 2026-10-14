@@ -9,6 +9,7 @@ import { Chart, scatterOption } from '../components/Charts';
 import { Button } from '../components/ui/button';
 import { NBAPlayerStatsPage, NBADailyPage } from './NBAStatsPages';
 import { useLanguage } from '../i18n';
+import { SalaryVault } from './SalaryVault';
 import '../data-ops.css';
 
 function StatusCard({ label='数据状态' }: { label?: string }) {
@@ -90,6 +91,7 @@ export function SalariesPage() {
       <article className="salary-overview-card"><span>已核验公开脚本</span><strong>0 个薪资字段</strong><p>参考仓库当前公开脚本聚焦对位、打法、球队与球员日志。</p></article>
       <article className="salary-overview-card"><span>接入门槛</span><strong>4 项校验</strong><p>来源、赛季、币种、更新时间均需进入 manifest。</p></article>
     </section>
+    <SalaryVault />
     <section id="salary-fields" className="section salary-fields-section">
       <div className="section-title"><div><span className="eyebrow">SCHEMA CHECK</span><h2>计划接入字段</h2></div><button className="text-button" type="button" onClick={() => setShowAudit((value) => !value)}>{showAudit ? '收起核验说明' : '查看核验说明'} ↗</button></div>
       <div className="salary-fields-grid">{fields.map(([label, state, detail]) => <article className="salary-field-card" key={label}><span className="status-dot status-dot-muted" /><div><strong>{label}</strong><small>{state}</small><p>{detail}</p></div></article>)}</div>
