@@ -15,7 +15,7 @@ const shortcuts = [
 export function CoreQuickNavigation() {
   const { language, t } = useLanguage();
 
-  return <nav className="core-quick-nav" aria-label={language === 'en' ? 'Core features' : '核心功能快捷入口'}>
+  return <nav className="core-quick-nav core-quick-nav--top" aria-label={language === 'en' ? 'Core features' : '核心功能快捷入口'}>
     <span className="core-quick-nav-label">{language === 'en' ? 'CORE' : '核心功能'}</span>
     <div className="core-quick-nav-links">
       {shortcuts.map(({ label, href, icon: Icon }) => <NavLink

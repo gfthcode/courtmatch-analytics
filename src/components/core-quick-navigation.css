@@ -58,10 +58,56 @@
   color: var(--text);
 }
 
+/* The core shortcuts share the original cream header instead of adding a second bar. */
+.site-header .core-quick-nav--top {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+  gap: 9px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+}
+.site-header .core-quick-nav--top .core-quick-nav-label { font-size: 11px; }
+.site-header .core-quick-nav--top .core-quick-nav-links { gap: 3px; }
+.site-header .core-quick-nav--top .core-quick-nav-link {
+  min-height: 38px;
+  gap: 7px;
+  padding-inline: 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.site-header .core-quick-nav--top .core-quick-nav-link svg { color: var(--accent); }
+.site-header .core-quick-nav--top .core-quick-nav-link.is-active {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  background: color-mix(in srgb, var(--accent) 9%, var(--bg));
+  color: var(--text);
+}
+
+/* Keep every secondary module reachable from one compact menu on all screens. */
+.site-header > .module-nav {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+.site-header > .module-nav .module-nav-compact-trigger { display: inline-flex; }
+.site-header > .module-nav .module-nav-group { display: none; }
+
 @media (max-width: 767px) {
   .core-quick-nav { gap: 11px; min-height: 44px; padding-inline: 12px; }
   .core-quick-nav-link { min-height: 32px; padding-inline: 9px; font-size: 10px; }
   .core-quick-nav-link svg { width: 14px; height: 14px; }
+  .site-header .core-quick-nav--top { gap: 5px; }
+  .site-header .core-quick-nav--top .core-quick-nav-label { display: none; }
+  .site-header .core-quick-nav--top .core-quick-nav-link { min-height: 34px; padding-inline: 8px; font-size: 10px; }
+}
+
+@media (max-width: 520px) {
+  .site-header .core-quick-nav--top .core-quick-nav-link { gap: 4px; padding-inline: 6px; font-size: 9px; }
+  .site-header > .module-nav .module-nav-compact-trigger { padding: 7px; }
+  .site-header > .module-nav .module-nav-compact-trigger span { font-size: 9px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

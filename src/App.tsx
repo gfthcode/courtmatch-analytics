@@ -33,6 +33,7 @@ export function App(){
   <header className="site-header">
    <NavigationToggle open={drawerOpen} onClick={() => setDrawerOpen(true)} />
    <Link className="brand" to="/" aria-label={t('CourtMatch 首页')}><span className="brand-ball" aria-hidden="true" />COURT<span>MATCH</span><small>ANALYTICS</small></Link>
+   <CoreQuickNavigation />
    <ModuleNavigation />
    <div className="header-actions">
     <span className="nba-badge">NBA</span>
@@ -42,7 +43,6 @@ export function App(){
     <Button variant="ghost" aria-label={t('切换主题')} onClick={() => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark')}>{theme === 'light' ? <Moon size={18} /> : <Sun size={18} />}</Button>
    </div>
   </header>
-  <CoreQuickNavigation />
   <SideDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} onSearch={() => { setDrawerOpen(false); setSearchOpen(true); }} />
   <main id="main" className="main-container"><Routes>
    <Route path="/settings" element={<SettingsPage />} />
