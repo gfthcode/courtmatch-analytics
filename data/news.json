@@ -1,44 +1,14 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-15T11:28:29.383821+00:00",
+  "updatedAt": "2026-10-15T17:00:27.431965+00:00",
   "articles": [
-    {
-      "id": "50182803",
-      "title": "10 people who will define the NBA season: Zion, Kawhi, Kyrie",
-      "summary": "With the NBA season just days away, let's take stock of the most important coaches, execs and players worth monitoring.",
-      "url": "https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season",
-      "publishedAt": "2026-10-15T10:44:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730736_608x342_16-9.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "Zion Williamson",
-        "New Orleans Pelicans",
-        "Sacramento Kings",
-        "LaMelo Ball",
-        "Minnesota Timberwolves",
-        "Ja Morant",
-        "Portland Trail Blazers",
-        "Washington Wizards",
-        "Anthony Davis",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "Cleveland Cavaliers",
-        "Kyrie Irving",
-        "Dallas Mavericks",
-        "Milwaukee Bucks",
-        "Toronto Raptors",
-        "Kawhi Leonard",
-        "Vincent Goodwill"
-      ]
-    },
     {
       "id": "50176718",
       "title": "What NBA preseason has revealed about the Lakers, 76ers, Celtics and every team",
       "summary": "With 2026-27 tipoff closing in, Ben Golliver shares the key takeaways that will shape the regular season.",
       "url": "https://www.espn.com/nba/story/_/id/50176718/nba-preseason-lakers-76ers-celtics-30-teams",
-      "publishedAt": "2026-10-15T10:42:45+00:00",
+      "publishedAt": "2026-10-15T16:37:23+00:00",
       "image": "https://a.espncdn.com/photo/2026/1013/nba_season_16x9.jpg",
       "author": "Ben Golliver",
       "categories": [
@@ -78,6 +48,106 @@
       ]
     },
     {
+      "id": "50189623",
+      "title": "Amar'e Stoudemire graduates from Miami Dade law enforcement academy",
+      "summary": "Stoudemire will now train with the Miami-Dade Schools Police Department.",
+      "url": "https://www.espn.com/nba/story/_/id/50189623/amare-stoudemire-law-enforcement-academy-police",
+      "publishedAt": "2026-10-15T16:09:30+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1015/r1731202_1128x635_16-9.png",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "Amar'e Stoudemire",
+        "New York Knicks",
+        "Miami Heat",
+        "Phoenix Suns",
+        "Dallas Mavericks"
+      ]
+    },
+    {
+      "id": "50189708",
+      "title": "Stephen A.: Kawhi Leonard is the worst superstar in NBA history",
+      "summary": "Stephen A.: Kawhi Leonard is the worst superstar in NBA history",
+      "url": "https://www.espn.com/video/clip/_/id/50189708/kawhi-leonard-worst-superstar-nba-history",
+      "publishedAt": "2026-10-15T16:06:26+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1015/ss_20261015_115836294_3697353723/ss_20261015_115836294_3697353723.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "nba highlight",
+        "Kawhi Leonard",
+        "Toronto Raptors",
+        "Stephen A. Smith",
+        "First Take",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA preseason buzz: Latest on trades, news and intel",
+      "summary": "The NBA regular season is less than a week away, and we're tracking all the news, deals, and trades across the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-15T14:57:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50186974",
+      "title": "Spurs debut three-guard lineup of Fox, Harper, Castle in preseason win",
+      "summary": "Spurs coach Mitch Johnson finally deployed a three-guard lineup featuring De'Aaron Fox, Dylan Harper and Stephon Castle in a 123-103 preseason win over the Suns.",
+      "url": "https://www.espn.com/nba/story/_/id/50186974/spurs-debut-3-guard-lineup-deaaron-fox-dylan-harper-stephon-castle-preseason-win",
+      "publishedAt": "2026-10-15T13:34:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1015/r1731032_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "news",
+        "NBA",
+        "San Antonio Spurs",
+        "De'Aaron Fox",
+        "Dylan Harper",
+        "Stephon Castle",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50182803",
+      "title": "10 people who will define the NBA season: Zion, Kawhi, Kyrie",
+      "summary": "With the NBA season just days away, let's take stock of the most important coaches, execs and players worth monitoring.",
+      "url": "https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season",
+      "publishedAt": "2026-10-15T10:44:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730736_608x342_16-9.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "Zion Williamson",
+        "New Orleans Pelicans",
+        "Sacramento Kings",
+        "LaMelo Ball",
+        "Minnesota Timberwolves",
+        "Ja Morant",
+        "Portland Trail Blazers",
+        "Washington Wizards",
+        "Anthony Davis",
+        "New York Knicks",
+        "Karl-Anthony Towns",
+        "Cleveland Cavaliers",
+        "Kyrie Irving",
+        "Dallas Mavericks",
+        "Milwaukee Bucks",
+        "Toronto Raptors",
+        "Kawhi Leonard",
+        "Vincent Goodwill"
+      ]
+    },
+    {
       "id": "50187160",
       "title": "Denver Nuggets vs. LA Clippers: Game Highlights",
       "summary": "Denver Nuggets vs. LA Clippers: Game Highlights",
@@ -100,24 +170,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Denver Nuggets @ LA Clippers"
-      ]
-    },
-    {
-      "id": "50186974",
-      "title": "Spurs debut three-guard lineup of Fox, Harper, Castle in preseason win",
-      "summary": "Spurs coach Mitch Johnson finally deployed the three-guard lineup featuring De'Aaron Fox, Dylan Harper and Stephon Castle in a 123-103 preseason win over the Suns on Wednesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50186974/spurs-debut-3-guard-lineup-deaaron-fox-dylan-harper-stephon-castle-preseason-win",
-      "publishedAt": "2026-10-15T04:54:33+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1015/r1731032_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "news",
-        "NBA",
-        "San Antonio Spurs",
-        "De'Aaron Fox",
-        "Dylan Harper",
-        "Stephon Castle",
-        "Michael C. Wright"
       ]
     },
     {
@@ -300,22 +352,6 @@
         "fantasy",
         "nba highlight",
         "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a week away, and we're tracking all the news, deals, and trades across the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-14T18:01:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -807,7 +843,8 @@
         "news – sports betting",
         "WNBA",
         "NBA",
-        "news - nba"
+        "news - nba",
+        "David Purdum"
       ]
     },
     {
@@ -1101,55 +1138,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Chicago Bulls @ Denver Nuggets"
-      ]
-    },
-    {
-      "id": "50163183",
-      "title": "Milwaukee Bucks vs. Charlotte Hornets: Game Highlights",
-      "summary": "Milwaukee Bucks vs. Charlotte Hornets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50163183/game-highlights",
-      "publishedAt": "2026-10-12T01:30:56+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/aadaa262-b665-4303-a205-5c10a0ef2909/aadaa262-b665-4303-a205-5c10a0ef2909.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Jericho Sims",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Jarkel Joiner",
-        "Charlotte Hornets",
-        "Brandon Miller",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Milwaukee Bucks @ Charlotte Hornets"
-      ]
-    },
-    {
-      "id": "50163110",
-      "title": "Orlando Magic vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "Orlando Magic vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50163110/game-highlights",
-      "publishedAt": "2026-10-12T01:30:52+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/9a752864-a862-4b6d-ae66-e5afbaca8616/9a752864-a862-4b6d-ae66-e5afbaca8616.jpg",
-      "author": "",
-      "categories": [
-        "Tristan da Silva",
-        "Orlando Magic",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "James Harden",
-        "Meleek Thomas",
-        "Wendell Carter Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Cleveland Cavaliers"
       ]
     }
   ]
