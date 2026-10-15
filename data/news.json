@@ -1,8 +1,170 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-15T17:00:27.431965+00:00",
+  "updatedAt": "2026-10-15T21:22:45.022556+00:00",
   "articles": [
+    {
+      "id": "50191473",
+      "title": "Maxey: Healthy Embiid 'changes everything' for Sixers",
+      "summary": "76ers guard Tyrese Maxey said Thursday that having a healthy Joel Embiid \"changes everything\" for the Sixers.",
+      "url": "https://www.espn.com/nba/story/_/id/50191473/maxey-healthy-embiid-changes-everything-sixers",
+      "publishedAt": "2026-10-15T20:23:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0511/r1656714_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Joel Embiid",
+        "Tyrese Maxey",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50190258",
+      "title": "Victor Wembanyama, Spurs dominate annual NBA GM survey",
+      "summary": "An annual survey of NBA general managers projects the Spurs to win the NBA title this season, with Victor Wembanyama earning MVP and Defensive Player of the Year honors.",
+      "url": "https://www.espn.com/nba/story/_/id/50190258/victor-wembanyama-spurs-dominate-annual-nba-gm-survey",
+      "publishedAt": "2026-10-15T19:48:07+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0610/r1670790_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "Victor Wembanyama",
+        "San Antonio Spurs",
+        "NBA",
+        "Oklahoma City Thunder",
+        "New York Knicks",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Jaylen Brown",
+        "Nikola Jokic",
+        "Anthony Edwards",
+        "Dylan Harper",
+        "Cooper Flagg",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Minnesota Timberwolves",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50191249",
+      "title": "Perk declares what he wants to see Wemby improve on this season",
+      "summary": "Perk declares what he wants to see Wemby improve on this season",
+      "url": "https://www.espn.com/video/clip/_/id/50191249/perk-declares-wants-see-wemby-improve-season",
+      "publishedAt": "2026-10-15T19:45:45+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1015/ss_20261015_153912412_3697455941/ss_20261015_153912412_3697455941.jpg",
+      "author": "",
+      "categories": [
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "NBA",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50182803",
+      "title": "10 people who will define the NBA season: Zion, Kawhi, Kyrie",
+      "summary": "With the NBA season just days away, let's take stock of the most important coaches, execs and players worth monitoring.",
+      "url": "https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season",
+      "publishedAt": "2026-10-15T19:26:21+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730736_608x342_16-9.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "Zion Williamson",
+        "New Orleans Pelicans",
+        "Sacramento Kings",
+        "LaMelo Ball",
+        "Minnesota Timberwolves",
+        "Ja Morant",
+        "Portland Trail Blazers",
+        "Washington Wizards",
+        "Anthony Davis",
+        "New York Knicks",
+        "Karl-Anthony Towns",
+        "Cleveland Cavaliers",
+        "Kyrie Irving",
+        "Dallas Mavericks",
+        "Milwaukee Bucks",
+        "Toronto Raptors",
+        "Kawhi Leonard",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50075156",
+      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
+      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
+      "publishedAt": "2026-10-15T18:26:10+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
+      "author": "ESPN Fantasy",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball"
+      ]
+    },
+    {
+      "id": "50189270",
+      "title": "Backup plan guide: Seven late-round picks one break away from fantasy success",
+      "summary": "Jim McCormick points out which late-round picks could be close to fantasy basketball stardom.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50189270/fantasy-basketball-late-round-picks-stash-breakouts",
+      "publishedAt": "2026-10-15T18:24:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1015/r1731149_1296x729_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Isaiah Stewart",
+        "Collin Sexton",
+        "Ace Bailey",
+        "Anthony Black",
+        "Ayo Dosunmu",
+        "Ajay Mitchell",
+        "Aday Mara",
+        "Jim McCormick"
+      ]
+    },
+    {
+      "id": "50184696",
+      "title": "Fantasy basketball roto league mock draft: Cooper Flagg, Derrick White go early",
+      "summary": "The fantasy crew gets together for it's final mock draft before the NBA season tips off.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50184696/fantasy-basketball-mock-draft-8-team-roto-league-2026-2027",
+      "publishedAt": "2026-10-15T18:17:11+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1015/r1731264_1296x729_16-9.jpg",
+      "author": "ESPN Fantasy",
+      "categories": [
+        "news - fantasy",
+        "NBA",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Derrick White",
+        "Cooper Flagg"
+      ]
+    },
+    {
+      "id": "50189910",
+      "title": "Las Vegas bettor Shane Hennen pleads guilty to charges related to fixing schemes",
+      "summary": "A bettor indicted in three federal gambling cases pleaded guilty to charges related to schemes involving the NBA, NCAA and Chinese Basketball Association.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/50189910/shane-hennen-pleads-guilty-charges-related-fixing-schemes",
+      "publishedAt": "2026-10-15T17:56:51+00:00",
+      "image": "https://a.espncdn.com/photo/2014/0806/ncb_g_basketball_ms_600x400.jpg",
+      "author": "David Purdum",
+      "categories": [
+        "NBA",
+        "Sports Betting",
+        "news – sports betting",
+        "NCAA Men's Basketball",
+        "David Purdum"
+      ]
+    },
     {
       "id": "50176718",
       "title": "What NBA preseason has revealed about the Lakers, 76ers, Celtics and every team",
@@ -115,36 +277,6 @@
         "Dylan Harper",
         "Stephon Castle",
         "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50182803",
-      "title": "10 people who will define the NBA season: Zion, Kawhi, Kyrie",
-      "summary": "With the NBA season just days away, let's take stock of the most important coaches, execs and players worth monitoring.",
-      "url": "https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season",
-      "publishedAt": "2026-10-15T10:44:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730736_608x342_16-9.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "Zion Williamson",
-        "New Orleans Pelicans",
-        "Sacramento Kings",
-        "LaMelo Ball",
-        "Minnesota Timberwolves",
-        "Ja Morant",
-        "Portland Trail Blazers",
-        "Washington Wizards",
-        "Anthony Davis",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "Cleveland Cavaliers",
-        "Kyrie Irving",
-        "Dallas Mavericks",
-        "Milwaukee Bucks",
-        "Toronto Raptors",
-        "Kawhi Leonard",
-        "Vincent Goodwill"
       ]
     },
     {
@@ -429,22 +561,6 @@
         "Josh Hart",
         "news",
         "Karl-Anthony Towns"
-      ]
-    },
-    {
-      "id": "50168000",
-      "title": "Kentavious Caldwell-Pope cites team chemistry as key to 76ers' success",
-      "summary": "Kentavious Caldwell-Pope says the 76ers' success this season depends on how well the team's diverse personalities mesh.",
-      "url": "https://www.espn.com/nba/story/_/id/50168000/kentavious-caldwell-pope-cites-team-chemistry-key-76ers",
-      "publishedAt": "2026-10-14T11:08:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729797_1296x729_16-9.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Kentavious Caldwell-Pope",
-        "news",
-        "Kris Rhim"
       ]
     },
     {
@@ -973,20 +1089,6 @@
       ]
     },
     {
-      "id": "50165903",
-      "title": "Jordan game-worn 1998 NBA Finals jersey sells for $14 million",
-      "summary": "A game-worn, autographed Michael Jordan road jersey from the 1998 NBA Finals has been privately sold for $14 million.",
-      "url": "https://www.espn.com/nba/story/_/id/50165903/jordan-game-worn-1998-nba-finals-jersey-sells-14-million",
-      "publishedAt": "2026-10-13T02:10:53+00:00",
-      "image": "https://a.espncdn.com/photo/2020/0331/r684529_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Chicago Bulls",
-        "news"
-      ]
-    },
-    {
       "id": "50170441",
       "title": "Oklahoma City Thunder vs. Atlanta Hawks: Game Highlights",
       "summary": "Oklahoma City Thunder vs. Atlanta Hawks: Game Highlights",
@@ -1052,92 +1154,6 @@
         "Fantasy NBA",
         "League Boost",
         "London Lions @ Portland Trail Blazers"
-      ]
-    },
-    {
-      "id": "50168743",
-      "title": "Kristaps Porzingis expected to be at Warriors' facility on Tuesday",
-      "summary": "Veteran center Kristaps Porzingis is expected to return to the Golden State Warriors practice facility Tuesday afternoon, according to head coach Steve Kerr.",
-      "url": "https://www.espn.com/nba/story/_/id/50168743/kristaps-porzingis-expected-warriors-facility-tue",
-      "publishedAt": "2026-10-12T22:02:52+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729848_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Kristaps Porzingis",
-        "news",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50167264",
-      "title": "Pacers, Spurs, Nuggets, Nets unveil ABA-inspired uniforms, courts",
-      "summary": "The four teams' throwback uniforms and courts pay homage to their milestone ABA anniversaries.",
-      "url": "https://www.espn.com/nba/story/_/id/50167264/spurs-nuggets-pacers-nets-aba-uniforms",
-      "publishedAt": "2026-10-12T19:04:51+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729782_1080x607_16-9.jpg",
-      "author": "Kalan Hooks",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "Indiana Pacers",
-        "Denver Nuggets",
-        "Brooklyn Nets",
-        "Kalan Hooks"
-      ]
-    },
-    {
-      "id": "50163354",
-      "title": "Windhorst: Why Cooper Flagg's ascension is starting to feel inevitable",
-      "summary": "The NBA China Games showcased Cooper Flagg's evolving game, leadership and, perhaps most impressive, his franchise-savior ceiling.",
-      "url": "https://www.espn.com/nba/story/_/id/50163354/cooper-flagg-kyrie-irving-mavericks-china",
-      "publishedAt": "2026-10-12T17:26:21+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729604_1296x729_16-9.jpg",
-      "author": "Brian Windhorst",
-      "categories": [
-        "NBA",
-        "Dallas Mavericks",
-        "Cooper Flagg",
-        "Houston Rockets",
-        "Brian Windhorst"
-      ]
-    },
-    {
-      "id": "50166468",
-      "title": "'E:60 Being Ben' trailer",
-      "summary": "'E:60 Being Ben' trailer",
-      "url": "https://www.espn.com/video/clip/_/id/50166468/e60-being-ben-trailer",
-      "publishedAt": "2026-10-12T15:06:20+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1012/dm_261012_e60_beingben_trailer666/dm_261012_e60_beingben_trailer666.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50163814",
-      "title": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
-      "summary": "Chicago Bulls vs. Denver Nuggets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50163814/game-highlights",
-      "publishedAt": "2026-10-12T03:56:27+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/59342c8f-e439-44a4-8876-1759e9a99d4c/59342c8f-e439-44a4-8876-1759e9a99d4c.jpg",
-      "author": "",
-      "categories": [
-        "Aaron Gordon",
-        "Leonard Miller",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "Nikola Jokic",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Denver Nuggets"
       ]
     }
   ]
