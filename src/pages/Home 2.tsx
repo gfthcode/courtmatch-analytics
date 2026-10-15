@@ -8,6 +8,8 @@ import { useData } from '../state';
 import { openScoutAgent } from '../lib/scout-events';
 import { calculateMatchupMetrics, getMatchups, getPlayerById, getRankings, leagueAverage } from '../lib/api';
 import './home-legacy.css';
+import './schedule.css';
+import { Schedule202627 } from './Schedule202627';
 
 type ChartMetric = 'offense' | 'defense' | 'possessions';
 
@@ -96,6 +98,8 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
         <span>{t('球员 → 视角 → 样本 → 对位')}</span>
         <Link to="/matchups">{t('打开分析工作台')} <ArrowUpRight size={18} /></Link>
       </div>
+
+      <Schedule202627 />
 
       <section id="home-matchups" className="section">
         <div className="section-title">

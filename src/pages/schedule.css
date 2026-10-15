@@ -1,0 +1,26 @@
+.lab-schedule{position:relative;z-index:1;margin-top:58px;padding:30px;background:#fbf9f4;border:1px solid #d8d0c3;box-shadow:0 18px 44px rgba(71,61,48,.08);color:#1d252b}
+.lab-schedule-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding-bottom:22px;border-bottom:1px solid #ded7cb}
+.lab-schedule-eyebrow{display:flex;align-items:center;gap:8px;color:#f15b2a;font:800 10px Manrope;letter-spacing:1.6px}
+.lab-schedule-heading h2{margin:12px 0 6px;font:800 clamp(32px,4vw,48px)/1 'Barlow Condensed';letter-spacing:-.5px}
+.lab-schedule-heading p{margin:0;color:#68747c;font-size:13px;line-height:1.6}
+.lab-schedule-total{display:grid;justify-items:end;gap:2px;flex:none;color:#68747c;font-size:11px}.lab-schedule-total strong{color:#f15b2a;font:800 36px/.9 'Barlow Condensed';font-variant-numeric:tabular-nums}
+.lab-schedule-toolbar{display:flex;align-items:flex-end;flex-wrap:wrap;gap:14px;padding:18px 0}
+.lab-schedule-toolbar label{display:grid;gap:6px;color:#7d858a;font:700 9px Manrope;letter-spacing:1px}
+.lab-schedule-toolbar select{min-width:160px;padding:9px 32px 9px 11px;border:1px solid #d8d0c3;border-radius:2px;background:#fffdf8;color:#1d252b;font:600 12px Manrope}
+.lab-schedule-timezone{display:flex;align-items:center;gap:6px;margin:0 0 9px auto;color:#68747c;font-size:11px}.lab-schedule-timezone svg{color:#f15b2a}
+.lab-schedule-notice{display:flex;gap:9px;align-items:flex-start;margin:0 0 16px;padding:11px 13px;background:#fff4e9;border-left:2px solid #f15b2a;color:#68747c;font-size:11px;line-height:1.6}.lab-schedule-notice svg{flex:none;color:#f15b2a}
+.lab-schedule-days{display:grid;gap:12px}
+.lab-schedule-day{border:1px solid #e4ded4;background:#fffdf9}
+.lab-schedule-day>header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:11px 14px;background:#f5f1e9;border-bottom:1px solid #e4ded4}
+.lab-schedule-day>header h3{margin:0;font:800 16px 'Barlow Condensed';text-transform:capitalize}.lab-schedule-day>header span{color:#7d858a;font-size:10px}
+.lab-schedule-games{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.lab-schedule-game{display:grid;grid-template-columns:72px minmax(0,1fr) auto;align-items:center;gap:12px;min-height:74px;padding:10px 13px;border-bottom:1px solid #eee9e1}
+.lab-schedule-game:nth-last-child(-n+2){border-bottom:0}.lab-schedule-game:nth-child(odd):not(:last-child){border-right:1px solid #eee9e1}
+.lab-schedule-game time{display:grid;gap:3px}.lab-schedule-game time strong{font:800 21px/.95 'Barlow Condensed';font-variant-numeric:tabular-nums}.lab-schedule-game time small{color:#92999d;font-size:9px}
+.lab-schedule-teams{display:grid;grid-template-columns:minmax(0,1fr) 15px minmax(0,1fr);align-items:center;gap:5px;min-width:0}.lab-schedule-teams>div{display:grid;gap:2px;min-width:0}.lab-schedule-teams>div>span{color:#9ba0a2;font:700 8px Manrope;letter-spacing:.8px}.lab-schedule-teams>div>strong{overflow:hidden;color:#364047;font-size:11px;text-overflow:ellipsis;white-space:nowrap}.lab-schedule-teams>div.is-home>span{color:#f15b2a}.lab-schedule-teams>div.is-home>strong{color:#1d252b;font-weight:800}.lab-schedule-teams>div.is-neutral>span{color:#7b8790}.lab-schedule-teams>b{text-align:center;color:#a0a6a8;font-size:11px}
+.lab-schedule-venue{display:flex;align-items:center;gap:4px;color:#9ba0a2;font-size:9px;white-space:nowrap}.lab-schedule-venue.home{color:#f15b2a}.lab-schedule-venue svg{flex:none}
+.lab-schedule-state{margin:0;padding:22px 0;color:#68747c;font-size:12px}
+.lab-schedule-footer{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-top:16px;color:#92999d;font-size:10px}.lab-schedule-footer a{display:flex;align-items:center;gap:4px;color:#f15b2a;font-weight:700}
+@media(max-width:1000px){.lab-schedule{padding:22px}.lab-schedule-game{grid-template-columns:62px minmax(0,1fr);gap:8px}.lab-schedule-venue{grid-column:2}.lab-schedule-teams{grid-column:2;grid-row:1}.lab-schedule-game time{grid-column:1;grid-row:1 / span 2}}
+@media(max-width:680px){.lab-schedule{margin:38px -16px 0;padding:19px 14px;border-left:0;border-right:0}.lab-schedule-heading{align-items:flex-start}.lab-schedule-heading h2{font-size:34px}.lab-schedule-heading p{max-width:280px;font-size:11px}.lab-schedule-total strong{font-size:29px}.lab-schedule-toolbar{align-items:stretch;gap:10px}.lab-schedule-toolbar label{flex:1;min-width:calc(50% - 8px)}.lab-schedule-toolbar select{width:100%;min-width:0}.lab-schedule-timezone{width:100%;margin:0}.lab-schedule-games{grid-template-columns:1fr}.lab-schedule-game{grid-template-columns:66px minmax(0,1fr) auto;gap:8px;padding:11px 10px;border-right:0!important;border-bottom:1px solid #eee9e1!important}.lab-schedule-game:last-child{border-bottom:0!important}.lab-schedule-game time{grid-column:1;grid-row:1 / span 2}.lab-schedule-teams{grid-column:2;grid-row:1}.lab-schedule-venue{grid-column:2 / 4;grid-row:2}.lab-schedule-day>header{padding:10px}.lab-schedule-day>header h3{font-size:15px}.lab-schedule-footer{align-items:flex-start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){.lab-schedule *{scroll-behavior:auto}}
