@@ -1,14 +1,113 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-15T04:38:30.921668+00:00",
+  "updatedAt": "2026-10-15T11:28:29.383821+00:00",
   "articles": [
+    {
+      "id": "50182803",
+      "title": "10 people who will define the NBA season: Zion, Kawhi, Kyrie",
+      "summary": "With the NBA season just days away, let's take stock of the most important coaches, execs and players worth monitoring.",
+      "url": "https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season",
+      "publishedAt": "2026-10-15T10:44:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730736_608x342_16-9.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "Zion Williamson",
+        "New Orleans Pelicans",
+        "Sacramento Kings",
+        "LaMelo Ball",
+        "Minnesota Timberwolves",
+        "Ja Morant",
+        "Portland Trail Blazers",
+        "Washington Wizards",
+        "Anthony Davis",
+        "New York Knicks",
+        "Karl-Anthony Towns",
+        "Cleveland Cavaliers",
+        "Kyrie Irving",
+        "Dallas Mavericks",
+        "Milwaukee Bucks",
+        "Toronto Raptors",
+        "Kawhi Leonard",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50176718",
+      "title": "What NBA preseason has revealed about the Lakers, 76ers, Celtics and every team",
+      "summary": "With 2026-27 tipoff closing in, Ben Golliver shares the key takeaways that will shape the regular season.",
+      "url": "https://www.espn.com/nba/story/_/id/50176718/nba-preseason-lakers-76ers-celtics-30-teams",
+      "publishedAt": "2026-10-15T10:42:45+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1013/nba_season_16x9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Cleveland Cavaliers",
+        "Denver Nuggets",
+        "Houston Rockets",
+        "San Antonio Spurs",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Dallas Mavericks",
+        "Golden State Warriors",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards",
+        "Atlanta Hawks",
+        "Detroit Pistons",
+        "NBA Draft",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50187160",
+      "title": "Denver Nuggets vs. LA Clippers: Game Highlights",
+      "summary": "Denver Nuggets vs. LA Clippers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50187160/game-highlights",
+      "publishedAt": "2026-10-15T05:16:35+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1015/54f491a4-a04a-4f72-bf02-096acf5f50fc/54f491a4-a04a-4f72-bf02-096acf5f50fc.jpg",
+      "author": "",
+      "categories": [
+        "Trevon Brazile",
+        "Gradey Dick",
+        "Denver Nuggets",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "Julian Strawther",
+        "SC4U  - Eligible",
+        "LA Clippers",
+        "Rui Hachimura",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Denver Nuggets @ LA Clippers"
+      ]
+    },
     {
       "id": "50186974",
       "title": "Spurs debut three-guard lineup of Fox, Harper, Castle in preseason win",
       "summary": "Spurs coach Mitch Johnson finally deployed the three-guard lineup featuring De'Aaron Fox, Dylan Harper and Stephon Castle in a 123-103 preseason win over the Suns on Wednesday.",
       "url": "https://www.espn.com/nba/story/_/id/50186974/spurs-debut-3-guard-lineup-deaaron-fox-dylan-harper-stephon-castle-preseason-win",
-      "publishedAt": "2026-10-15T04:14:51+00:00",
+      "publishedAt": "2026-10-15T04:54:33+00:00",
       "image": "https://a.espncdn.com/photo/2026/1015/r1731032_600x400_3-2.jpg",
       "author": "Michael C. Wright",
       "categories": [
@@ -278,22 +377,6 @@
         "Victor Wembanyama",
         "Devin Vassell",
         "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50159419",
-      "title": "Kings C Maxime Raynaud (knee) to be reevaluated in 2 weeks",
-      "summary": "Kings second-year center Maxime Raynaud will be reevaluated in two weeks with a patellar subluxation in his right knee.",
-      "url": "https://www.espn.com/nba/story/_/id/50159419/kings-c-maxime-raynaud-knee-reevaluated-2-weeks",
-      "publishedAt": "2026-10-14T11:09:06+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1011/r1729010_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Maxime Raynaud",
-        "Sacramento Kings",
-        "Anthony Slater"
       ]
     },
     {
@@ -724,8 +807,7 @@
         "news – sports betting",
         "WNBA",
         "NBA",
-        "news - nba",
-        "David Purdum"
+        "news - nba"
       ]
     },
     {
@@ -1068,38 +1150,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Orlando Magic @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50161378",
-      "title": "Lakers center Walker Kessler (finger) nears preseason debut",
-      "summary": "Walker Kessler is closing in on making his preseason debut with the Lakers after he was a full participant in practice Sunday.",
-      "url": "https://www.espn.com/nba/story/_/id/50161378/lakers-center-walker-kessler-finger-nears-preseason-debut",
-      "publishedAt": "2026-10-11T22:25:17+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1011/r1729417_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "Walker Kessler",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50159713",
-      "title": "Karl-Anthony Towns 'disappointed' with Knicks tabling talks",
-      "summary": "Karl-Anthony Towns responded to the Knicks' statement that they are tabling all extension talks until later in the season, saying he was \"disappointed.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50159713/karl-anthony-towns-disappointed-knicks-tabling-talks",
-      "publishedAt": "2026-10-11T20:40:35+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0604/r1667963_600x400_3-2.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "news",
-        "New York Knicks",
-        "NBA",
-        "Karl-Anthony Towns",
-        "Vincent Goodwill"
       ]
     }
   ]
