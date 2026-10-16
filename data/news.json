@@ -1,8 +1,38 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-16T21:08:10.411852+00:00",
+  "updatedAt": "2026-10-16T23:35:18.857638+00:00",
   "articles": [
+    {
+      "id": "50198707",
+      "title": "Hagan, Basketball Hall of Famer and Kentucky legend, dies at 94",
+      "summary": "Hall of Fame forward Cliff Hagan, a five-time All-Star who spent his entire NBA career with the St. Louis Hawks, has died at age 94.",
+      "url": "https://www.espn.com/nba/story/_/id/50198707/hagan-basketball-hall-famer-kentucky-legend-dies-94",
+      "publishedAt": "2026-10-16T23:24:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1016/r1731830_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "NCAA Men's Basketball",
+        "Atlanta Hawks",
+        "Kentucky Wildcats",
+        "University of Kentucky"
+      ]
+    },
+    {
+      "id": "50198205",
+      "title": "Steve Lacy delights crowd with 'LeBron, LeBron, LeBron' cover of 'Oh Yeah?'",
+      "summary": "Lacy sang a few bars from the viral cover of his hit song \"Oh Yeah?\" at a concert in Camden, New Jersey, on Thursday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50198205/steve-lacy-lebron-james-oh-yeah",
+      "publishedAt": "2026-10-16T21:46:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1016/r1731802_1296x729_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "LeBron James",
+        "Philadelphia 76ers"
+      ]
+    },
     {
       "id": "50196498",
       "title": "NBA tells sportsbooks to stop certain bets, restrict parlays",
@@ -999,36 +1029,6 @@
       ]
     },
     {
-      "id": "50175002",
-      "title": "Fantasy basketball: The rookies you should be targeting in drafts",
-      "summary": "André Snellings looks at the rookie class and highlights which players to target in fantasy drafts this season.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50175002/fantasy-basketball-top-rookies-draft-nba-2026-27",
-      "publishedAt": "2026-10-13T23:40:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1730229_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA",
-        "Caleb Wilson",
-        "AJ Dybantsa",
-        "Cameron Boozer",
-        "Darius Acuff Jr",
-        "Darryn Peterson",
-        "Yaxel Lendeborg",
-        "Mikel Brown Jr",
-        "Keaton Wagler",
-        "Kingston Flemings",
-        "Morez Johnson Jr",
-        "Brayden Burries",
-        "Aday Mara",
-        "Hannes Steinbach",
-        "Meleek Thomas",
-        "Andre Snellings"
-      ]
-    },
-    {
       "id": "48957095",
       "title": "2026 NBA free agency: Grades for offseason signings, extensions",
       "summary": "We're grading the biggest offseason signings, including Payton Pritchard's two-year extension with the Celtics.",
@@ -1115,32 +1115,6 @@
         "Malika Andrews",
         "Bobby Marks",
         "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50166436",
-      "title": "Which NBA deals will get done? Bobby Marks' biggest extension decisions to watch",
-      "summary": "With Monday's extension deadline looming, Bobby Marks breaks down the biggest decisions around the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50166436/rookie-veteran-contract-extensions-towns-giannis-jokic",
-      "publishedAt": "2026-10-13T19:51:07+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729699_1296x729_16-9.jpg",
-      "author": "Bobby Marks",
-      "categories": [
-        "NBA",
-        "Charlotte Hornets",
-        "Dallas Mavericks",
-        "Milwaukee Bucks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Denver Nuggets",
-        "New York Knicks",
-        "Miami Heat",
-        "Washington Wizards",
-        "Minnesota Timberwolves",
-        "Boston Celtics",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Bobby Marks"
       ]
     }
   ]
