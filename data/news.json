@@ -1,14 +1,67 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-15T21:22:45.022556+00:00",
+  "updatedAt": "2026-10-16T04:31:57.179558+00:00",
   "articles": [
+    {
+      "id": "50193708",
+      "title": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. Houston Rockets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50193708/game-highlights",
+      "publishedAt": "2026-10-16T03:12:00+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1016/93f85ee0-0525-4543-b304-055293315ba8/93f85ee0-0525-4543-b304-055293315ba8.jpg",
+      "author": "",
+      "categories": [
+        "Reed Sheppard",
+        "Houston Rockets",
+        "Bogdan Bogdanovic",
+        "Oklahoma City Thunder",
+        "SC4U - Full Highlight",
+        "Amen Thompson",
+        "NBA",
+        "SC4U  - Eligible",
+        "Alperen Sengun",
+        "4 Star Rating",
+        "Shai Gilgeous-Alexander",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Oklahoma City Thunder @ Houston Rockets"
+      ]
+    },
+    {
+      "id": "50193529",
+      "title": "Toronto Raptors vs. New York Knicks: Game Highlights",
+      "summary": "Toronto Raptors vs. New York Knicks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50193529/game-highlights",
+      "publishedAt": "2026-10-16T03:02:10+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1016/26eb8ae8-f5eb-49c6-b656-5e897c75735f/26eb8ae8-f5eb-49c6-b656-5e897c75735f.jpg",
+      "author": "",
+      "categories": [
+        "Tyler Kolek",
+        "New York Knicks",
+        "Toronto Raptors",
+        "Jalen Brunson",
+        "Nimari Burnett",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Scottie Barnes",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Jordan Clarkson",
+        "Landry Shamet",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Toronto Raptors @ New York Knicks"
+      ]
+    },
     {
       "id": "50191473",
       "title": "Maxey: Healthy Embiid 'changes everything' for Sixers",
       "summary": "76ers guard Tyrese Maxey said Thursday that having a healthy Joel Embiid \"changes everything\" for the Sixers.",
       "url": "https://www.espn.com/nba/story/_/id/50191473/maxey-healthy-embiid-changes-everything-sixers",
-      "publishedAt": "2026-10-15T20:23:28+00:00",
+      "publishedAt": "2026-10-15T21:43:26+00:00",
       "image": "https://a.espncdn.com/photo/2026/0511/r1656714_600x400_3-2.jpg",
       "author": "Kris Rhim",
       "categories": [
@@ -545,22 +598,6 @@
         "Victor Wembanyama",
         "Devin Vassell",
         "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50169786",
-      "title": "Carmelo Anthony thinks Knicks right to halt contract talks to focus on season",
-      "summary": "Former Knicks great Carmelo Anthony said the team is making the right decision in halting contract negotiations with players to focus solely on basketball.",
-      "url": "https://www.espn.com/nba/story/_/id/50169786/carmelo-anthony-thinks-knicks-right-halt-contract-talks-focus-season",
-      "publishedAt": "2026-10-14T11:08:41+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1013/r1729943_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Josh Hart",
-        "news",
-        "Karl-Anthony Towns"
       ]
     },
     {
@@ -1134,26 +1171,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Brooklyn Nets @ Washington Wizards"
-      ]
-    },
-    {
-      "id": "50169402",
-      "title": "Ja Morant gets it done on both sides of the court",
-      "summary": "Ja Morant gets it done on both sides of the court",
-      "url": "https://www.espn.com/video/clip/_/id/50169402/ja-morant-gets-done-sides-court",
-      "publishedAt": "2026-10-12T23:03:39+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1012/6457f06e-7d34-4324-93aa-0eb19017d511/6457f06e-7d34-4324-93aa-0eb19017d511.jpg",
-      "author": "",
-      "categories": [
-        "Ja Morant",
-        "Portland Trail Blazers",
-        "NBA",
-        "3 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "League Boost",
-        "London Lions @ Portland Trail Blazers"
       ]
     }
   ]
