@@ -1,8 +1,23 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-17T20:36:40.490639+00:00",
+  "updatedAt": "2026-10-17T23:07:56.117967+00:00",
   "articles": [
+    {
+      "id": "50204321",
+      "title": "Knicks waive Bruce Brown, keep James Wiseman ahead of opener",
+      "summary": "The Knicks are waiving Bruce Brown and keeping James Wiseman on the roster as the team heads into its regular-season opener, sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50204321/sources-knicks-waiving-bruce-brown-keeping-james-wiseman",
+      "publishedAt": "2026-10-17T22:27:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1732162_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Bruce Brown",
+        "James Wiseman"
+      ]
+    },
     {
       "id": "50199062",
       "title": "Nuggets' Julian Strawther out with knee sprain, will be reevaluated in six weeks",
@@ -1007,25 +1022,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Phoenix Suns @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50185737",
-      "title": "Caleb Wilson takes flight for alley-oop",
-      "summary": "Caleb Wilson connects on alley-oop dunk",
-      "url": "https://www.espn.com/video/clip/_/id/50185737/caleb-wilson-takes-flight-alley-oop",
-      "publishedAt": "2026-10-15T02:44:26+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1015/3d89b68e-fcd8-4c8f-9758-f2f6da6c5f4f/3d89b68e-fcd8-4c8f-9758-f2f6da6c5f4f.jpg",
-      "author": "",
-      "categories": [
-        "Caleb Wilson",
-        "Chicago Bulls",
-        "NBA",
-        "3 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Milwaukee Bucks"
       ]
     },
     {
