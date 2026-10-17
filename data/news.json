@@ -1,21 +1,70 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-17T10:43:56.223483+00:00",
+  "updatedAt": "2026-10-17T15:34:25.591203+00:00",
   "articles": [
     {
+      "id": "50199096",
+      "title": "Spurs' 3-guard lineup of Fox, Castle, Harper to start opener vs. Thunder",
+      "summary": "The Spurs will start guards De'Aaron Fox, Stephon Castle and Dylan Harper alongside Devin Vassell and Victor Wembanyama when they face the Thunder in Tuesday's season opener.",
+      "url": "https://www.espn.com/nba/story/_/id/50199096/spurs-start-3-guard-lineup-season-opener-vs-thunder",
+      "publishedAt": "2026-10-17T14:36:47+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0606/r1668885_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "De'Aaron Fox",
+        "Stephon Castle",
+        "Dylan Harper",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50200909",
+      "title": "No. 1 pick AJ Dybantsa injures ankle during Wizards' preseason finale",
+      "summary": "First overall pick AJ Dybantsa exited the Wizards' preseason finale after injuring his ankle on an awkward landing and will undergo further evaluation.",
+      "url": "https://www.espn.com/nba/story/_/id/50200909/no-1-pick-aj-dybantsa-set-evaluation-injuring-ankle",
+      "publishedAt": "2026-10-17T14:08:49+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0710/r1687479_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "AJ Dybantsa",
+        "Washington Wizards",
+        "NBA",
+        "news"
+      ]
+    },
+    {
       "id": "50199797",
-      "title": "James, Embiid play 76ers' preseason finale, but 'still working on our rhythm'",
-      "summary": "Without VJ Edgecombe, who was held out of Friday night's 125-120 loss to the Celtics, 76ers coach Nick Nurse gave the closest glimpse of what this team may look like this season, including LeBron James and Joel Embiid playing preseason highs in minutes.",
+      "title": "James, Embiid play 76ers' preseason finale, 'still working on our rhythm'",
+      "summary": "Without VJ Edgecombe, who was held out of Friday night's 125-120 loss to the Celtics, 76ers coach Nick Nurse gave the closest glimpse of what his team may look like this season, including LeBron James and Joel Embiid playing preseason highs in minutes.",
       "url": "https://www.espn.com/nba/story/_/id/50199797/lebron-james-76ers-working-our-rhythm-opener-nears",
-      "publishedAt": "2026-10-17T05:50:42+00:00",
+      "publishedAt": "2026-10-17T12:53:01+00:00",
       "image": "https://a.espncdn.com/photo/2026/1017/r1731881_600x600_1-1.jpg",
       "author": "Kris Rhim",
       "categories": [
         "NBA",
         "Philadelphia 76ers",
-        "Boston Celtics",
+        "LeBron James",
+        "Tyrese Maxey",
+        "Jaylen Brown",
+        "Joel Embiid",
         "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50199345",
+      "title": "LeBron fires up crowd with monster slam in Sixers home debut",
+      "summary": "LeBron James gave a sellout crowd a glimpse of his \"connection\" with new teammate Tyrese Maxey when James threw down an alley-oop jam in his Sixers home debut.",
+      "url": "https://www.espn.com/nba/story/_/id/50199345/lebron-fires-crowd-monster-slam-sixers-home-debut",
+      "publishedAt": "2026-10-17T11:36:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1731871_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James"
       ]
     },
     {
@@ -41,20 +90,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Denver Nuggets @ Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50199345",
-      "title": "LeBron fires up crowd with monster slam in Sixers home debut",
-      "summary": "LeBron James gave a sellout crowd a glimpse of his \"connection\" with new teammate Tyrese Maxey when James threw down an alley-oop jam in his Sixers home debut.",
-      "url": "https://www.espn.com/nba/story/_/id/50199345/lebron-fires-crowd-monster-slam-sixers-home-debut",
-      "publishedAt": "2026-10-17T04:47:54+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1731871_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James"
       ]
     },
     {
@@ -321,23 +356,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Boston Celtics @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50199096",
-      "title": "Spurs' 3-guard lineup of Fox, Castle, Harper to start in opener vs. Thunder",
-      "summary": "The Spurs will start guards De'Aaron Fox, Stephon Castle and Dylan Harper alongside Devin Vassell and Victor Wembanyama when they face the Thunder in Tuesday's season opener.",
-      "url": "https://www.espn.com/nba/story/_/id/50199096/spurs-start-3-guard-lineup-season-opener-vs-thunder",
-      "publishedAt": "2026-10-17T01:47:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0606/r1668885_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "De'Aaron Fox",
-        "Stephon Castle",
-        "Dylan Harper",
-        "Michael C. Wright"
       ]
     },
     {
@@ -1059,24 +1077,6 @@
         "Golden State Warriors",
         "Kristaps Porzingis",
         "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50184082",
-      "title": "Perk: Kawhi is the 'most feared' and dangerous player in East",
-      "summary": "Perk: Kawhi is the 'most feared' and dangerous player in East",
-      "url": "https://www.espn.com/video/clip/_/id/50184082/kawhi-most-feared-dangerous-player-east",
-      "publishedAt": "2026-10-14T20:16:49+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1014/ss_20261014_155432445_3696572967/ss_20261014_155432445_3696572967.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Kawhi Leonard",
-        "Toronto Raptors",
-        "2 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Verts - Exclude Content"
       ]
     }
   ]
