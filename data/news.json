@@ -1,8 +1,89 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-17T04:25:34.273320+00:00",
+  "updatedAt": "2026-10-17T10:43:56.223483+00:00",
   "articles": [
+    {
+      "id": "50199797",
+      "title": "James, Embiid play 76ers' preseason finale, but 'still working on our rhythm'",
+      "summary": "Without VJ Edgecombe, who was held out of Friday night's 125-120 loss to the Celtics, 76ers coach Nick Nurse gave the closest glimpse of what this team may look like this season, including LeBron James and Joel Embiid playing preseason highs in minutes.",
+      "url": "https://www.espn.com/nba/story/_/id/50199797/lebron-james-76ers-working-our-rhythm-opener-nears",
+      "publishedAt": "2026-10-17T05:50:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1731881_600x600_1-1.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Boston Celtics",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50199875",
+      "title": "Denver Nuggets vs. Los Angeles Lakers: Game Highlights",
+      "summary": "Denver Nuggets vs. Los Angeles Lakers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50199875/game-highlights",
+      "publishedAt": "2026-10-17T05:13:18+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/0edac3a1-60cd-40e9-83f8-e12dbb7b8dff/0edac3a1-60cd-40e9-83f8-e12dbb7b8dff.jpg",
+      "author": "",
+      "categories": [
+        "Jamal Murray",
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "Denver Nuggets",
+        "SC4U - Full Highlight",
+        "Austin Reaves",
+        "NBA",
+        "Nikola Jokic",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Denver Nuggets @ Los Angeles Lakers"
+      ]
+    },
+    {
+      "id": "50199345",
+      "title": "LeBron fires up crowd with monster slam in Sixers home debut",
+      "summary": "LeBron James gave a sellout crowd a glimpse of his \"connection\" with new teammate Tyrese Maxey when James threw down an alley-oop jam in his Sixers home debut.",
+      "url": "https://www.espn.com/nba/story/_/id/50199345/lebron-fires-crowd-monster-slam-sixers-home-debut",
+      "publishedAt": "2026-10-17T04:47:54+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1731871_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James"
+      ]
+    },
+    {
+      "id": "50199801",
+      "title": "Portland Trail Blazers vs. Golden State Warriors: Game Highlights",
+      "summary": "Portland Trail Blazers vs. Golden State Warriors: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50199801/game-highlights",
+      "publishedAt": "2026-10-17T04:44:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/b2d114bc-fb56-4879-ae98-36ef4845e793/b2d114bc-fb56-4879-ae98-36ef4845e793.jpg",
+      "author": "",
+      "categories": [
+        "Ja Morant",
+        "Will Richard",
+        "Portland Trail Blazers",
+        "Donovan Clingan",
+        "Damian Lillard",
+        "Yaxel Lendeborg",
+        "SC4U - Full Highlight",
+        "Golden State Warriors",
+        "NBA",
+        "SC4U  - Eligible",
+        "Toumani Camara",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Portland Trail Blazers @ Golden State Warriors"
+      ]
+    },
     {
       "id": "50190583",
       "title": "Where to watch Ben Simmons 'E60' documentary",
@@ -14,20 +95,6 @@
       "categories": [
         "NBA",
         "seo h2w"
-      ]
-    },
-    {
-      "id": "50199345",
-      "title": "LeBron fires up crowd with monster slam in Sixers home debut",
-      "summary": "LeBron James gave a sellout crowd a glimpse of his \"connection\" with new teammate Tyrese Maxey when James threw down an alley-oop jam in his Sixers home debut.",
-      "url": "https://www.espn.com/nba/story/_/id/50199345/lebron-fires-crowd-monster-slam-sixers-home-debut",
-      "publishedAt": "2026-10-17T03:43:29+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1731871_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James"
       ]
     },
     {
@@ -1010,47 +1077,6 @@
         "fantasy",
         "nba highlight",
         "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50182236",
-      "title": "Stephen A. is not having any of Mad Dog's KAT contract take",
-      "summary": "Stephen A. is not having any of Mad Dog's KAT contract take",
-      "url": "https://www.espn.com/video/clip/_/id/50182236/stephen-not-having-mad-dog-kat-contract-take",
-      "publishedAt": "2026-10-14T16:05:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1014/ss_20261014_115841505_3696383723/ss_20261014_115841505_3696383723.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "Stephen A. Smith",
-        "Chris Russo",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50181842",
-      "title": "Fantasy basketball points league mock draft: Where things stand with season near",
-      "summary": "Our second points league mock draft of the fantasy basketball season featured some players who were drafted earlier than they were in the first mock.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50181842/fantasy-basketball-mock-draft-10-team-h2h-points-league-nba-2026-2027",
-      "publishedAt": "2026-10-14T15:47:08+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730655_1296x729_16-9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "news - fantasy",
-        "NBA",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Matas Buzelis",
-        "Cameron Boozer",
-        "Egor Demin",
-        "Ryan Rollins",
-        "Jaden McDaniels",
-        "Darius Acuff Jr",
-        "Miles Bridges",
-        "RJ Barrett",
-        "John Collins"
       ]
     }
   ]
