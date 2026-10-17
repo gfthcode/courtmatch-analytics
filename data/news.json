@@ -1,8 +1,56 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-17T15:34:25.591203+00:00",
+  "updatedAt": "2026-10-17T20:36:40.490639+00:00",
   "articles": [
+    {
+      "id": "50199062",
+      "title": "Nuggets' Julian Strawther out with knee sprain, will be reevaluated in six weeks",
+      "summary": "The Nuggets will be without Julian Strawther indefinitely after the versatile 24-year-old guard/forward sprained his left knee while playing a preseason game at the Clippers.",
+      "url": "https://www.espn.com/nba/story/_/id/50199062/strawther-indefinitely-knee-sprain-nuggets-say",
+      "publishedAt": "2026-10-17T16:55:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1731855_600x600_1-1.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Denver Nuggets",
+        "Julian Strawther"
+      ]
+    },
+    {
+      "id": "50201671",
+      "title": "76ers, needing frontcourt help, convert 7-foot-6 Tacko Fall to two-way contract",
+      "summary": "The 76ers, dealing with injuries in the frontcourt, have converted center Tacko Fall to a two-way contract.",
+      "url": "https://www.espn.com/nba/story/_/id/50201671/76ers-convert-7-foot-6-tacko-fall-two-way-contract",
+      "publishedAt": "2026-10-17T16:23:33+00:00",
+      "image": "https://a.espncdn.com/photo/2014/0303/nba_g_76ers_logo_1296x729.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "Tacko Fall",
+        "Philadelphia 76ers",
+        "NBA",
+        "news",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50199797",
+      "title": "James, Embiid play 76ers' preseason finale, 'still working on our rhythm'",
+      "summary": "Without VJ Edgecombe, who was held out of Friday night's 125-120 loss to the Celtics, 76ers coach Nick Nurse gave the closest glimpse of what his team may look like this season, including LeBron James and Joel Embiid playing preseason highs in minutes.",
+      "url": "https://www.espn.com/nba/story/_/id/50199797/lebron-james-76ers-working-our-rhythm-opener-nears",
+      "publishedAt": "2026-10-17T16:22:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1017/r1731881_600x600_1-1.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Tyrese Maxey",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "Kris Rhim"
+      ]
+    },
     {
       "id": "50199096",
       "title": "Spurs' 3-guard lineup of Fox, Castle, Harper to start opener vs. Thunder",
@@ -33,24 +81,6 @@
         "Washington Wizards",
         "NBA",
         "news"
-      ]
-    },
-    {
-      "id": "50199797",
-      "title": "James, Embiid play 76ers' preseason finale, 'still working on our rhythm'",
-      "summary": "Without VJ Edgecombe, who was held out of Friday night's 125-120 loss to the Celtics, 76ers coach Nick Nurse gave the closest glimpse of what his team may look like this season, including LeBron James and Joel Embiid playing preseason highs in minutes.",
-      "url": "https://www.espn.com/nba/story/_/id/50199797/lebron-james-76ers-working-our-rhythm-opener-nears",
-      "publishedAt": "2026-10-17T12:53:01+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1731881_600x600_1-1.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Tyrese Maxey",
-        "Jaylen Brown",
-        "Joel Embiid",
-        "Kris Rhim"
       ]
     },
     {
@@ -356,20 +386,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Boston Celtics @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50199062",
-      "title": "Nuggets' Strawther out with knee sprain, will be reevaluated in six weeks",
-      "summary": "The Denver Nuggets will be without Julian Strawther indefinitely, after the versatile 24-year-old guard and forward sprained his left knee while playing a preseason game at the Los Angeles Clippers on Wednesday night at Intuit Dome.",
-      "url": "https://www.espn.com/nba/story/_/id/50199062/strawther-indefinitely-knee-sprain-nuggets-say",
-      "publishedAt": "2026-10-17T01:45:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1731855_600x600_1-1.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Denver Nuggets",
-        "Julian Strawther"
       ]
     },
     {
@@ -1061,22 +1077,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Charlotte Hornets @ Boston Celtics"
-      ]
-    },
-    {
-      "id": "50184641",
-      "title": "Warriors' Kristaps Porzingis remains out indefinitely but will be around team",
-      "summary": "Warriors center Kristaps Porzingis will remain out indefinitely with a private health-related issue but will be around the team.",
-      "url": "https://www.espn.com/nba/story/_/id/50184641/warriors-kristaps-porzingis-indefinitely-team",
-      "publishedAt": "2026-10-14T23:08:30+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730861_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Golden State Warriors",
-        "Kristaps Porzingis",
-        "Anthony Slater"
       ]
     }
   ]
