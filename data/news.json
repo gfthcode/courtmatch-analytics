@@ -1,14 +1,14 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-17T23:07:56.117967+00:00",
+  "updatedAt": "2026-10-18T04:33:36.799208+00:00",
   "articles": [
     {
       "id": "50204321",
       "title": "Knicks waive Bruce Brown, keep James Wiseman ahead of opener",
       "summary": "The Knicks are waiving Bruce Brown and keeping James Wiseman on the roster as the team heads into its regular-season opener, sources told ESPN.",
       "url": "https://www.espn.com/nba/story/_/id/50204321/sources-knicks-waiving-bruce-brown-keeping-james-wiseman",
-      "publishedAt": "2026-10-17T22:27:51+00:00",
+      "publishedAt": "2026-10-18T01:41:18+00:00",
       "image": "https://a.espncdn.com/photo/2026/1017/r1732162_600x400_3-2.jpg",
       "author": "",
       "categories": [
