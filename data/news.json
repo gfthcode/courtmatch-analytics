@@ -1,15 +1,15 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-19T04:40:05.383660+00:00",
+  "updatedAt": "2026-10-19T13:14:39.499841+00:00",
   "articles": [
     {
       "id": "50028196",
-      "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "NBA basketball is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
       "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-19T02:59:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
+      "publishedAt": "2026-10-19T13:08:43+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1019/r1732871_608x342_16-9.jpg",
       "author": "ESPN staff",
       "categories": [
         "NBA",
@@ -17,6 +17,141 @@
         "nba free agency",
         "news - frontpage",
         "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50217446",
+      "title": "Ugonna Onyenso thought his NBA dream was over -- then the Detroit Pistons called him up",
+      "summary": "Detroit Pistons center Ugonna Onyenso was surprised to hear his name called out 53rd at the 2026 NBA Draft, having once believed his dream of making the league was over, but is now confident he can grow into the sizable shoes left by Isaiah Stewart.",
+      "url": "https://www.espn.com/espn/story/_/id/50217446/ugonna-onyenso-thought-nba-dream-was-detroit-pistons-called-up",
+      "publishedAt": "2026-10-19T12:53:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1019/r1732838_1296x729_16-9.jpg",
+      "author": "Leonard Solms",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Ugonna Onyenso",
+        "NCAA Men's Basketball",
+        "Virginia Cavaliers",
+        "University of Virginia",
+        "200305 COLUMNIST PROFILE Leonard Solms"
+      ]
+    },
+    {
+      "id": "48957095",
+      "title": "2026 NBA free agency: Grades for offseason signings, extensions",
+      "summary": "We're grading the most important offseason signings, including Cason Wallace's $139 million extension with the Thunder.",
+      "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
+      "publishedAt": "2026-10-19T12:51:45+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0225/r1619906_608x342_16-9.jpg",
+      "author": "Zach Kram",
+      "categories": [
+        "NBA",
+        "nba free agency",
+        "Cason Wallace",
+        "Oklahoma City Thunder",
+        "Boston Celtics",
+        "Payton Pritchard",
+        "Zach Kram"
+      ]
+    },
+    {
+      "id": "50208473",
+      "title": "NBA betting storylines: 76ers, Spurs, Thunder and Knicks top choices to win title",
+      "summary": "David Purdum highlights the biggest betting storylines heading into the 2026-27 NBA season.",
+      "url": "https://www.espn.com/sports-betting/story/_/id/50208473/nba-betting-storylines-76ers-knicks-spurs-2026-2027",
+      "publishedAt": "2026-10-19T12:36:11+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1018/r1732542_1296x729_16-9.jpg",
+      "author": "David Purdum",
+      "categories": [
+        "NBA",
+        "Sports Betting",
+        "Philadelphia 76ers",
+        "David Purdum"
+      ]
+    },
+    {
+      "id": "49998634",
+      "title": "2026-27 NBA season preview: Rankings, predictions, odds",
+      "summary": "Here's everything you need to know for all 30 NBA teams for the season, including storylines, stats and predictions ahead of opening night.",
+      "url": "https://www.espn.com/nba/story/_/id/49998634/2026-27-nba-season-preview-rankings-predictions",
+      "publishedAt": "2026-10-19T12:28:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1017/nba_mega_preview_cr_16x9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50182600",
+      "title": "2026-2027 NBA season expert picks for East, West, Finals champs",
+      "summary": "Spurs or Thunder in West? Are the Knicks destined for the Finals? And who will take home the MVP? Hear from our experts.",
+      "url": "https://www.espn.com/nba/story/_/id/50182600/nba-expert-picks-east-west-champs-mvp",
+      "publishedAt": "2026-10-19T12:03:09+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1018/r1732554_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "San Antonio Spurs",
+        "New York Knicks",
+        "Indiana Pacers",
+        "Toronto Raptors",
+        "Philadelphia 76ers",
+        "Boston Celtics",
+        "Minnesota Timberwolves",
+        "Los Angeles Lakers",
+        "Miami Heat",
+        "Victor Wembanyama",
+        "Luka Doncic",
+        "Anthony Edwards",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50214131",
+      "title": "Kings guard Ben Simmons has torn Achilles tendon, will undergo surgery",
+      "summary": "Kings guard Ben Simmons has sustained a torn Achilles tendon and will undergo surgery, the team announced Sunday, an injury that is likely season-ending for the 30-year-old veteran who authored an impressive training camp on short notice for Sacramento.",
+      "url": "https://www.espn.com/nba/story/_/id/50214131/kings-simmons-believed-achilles-tendon-tear",
+      "publishedAt": "2026-10-19T11:52:10+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1018/r1732677_600x600_1-1.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Sacramento Kings",
+        "Ben Simmons",
+        "Anthony Slater"
       ]
     },
     {
@@ -32,21 +167,6 @@
         "Sacramento Kings",
         "Ben Simmons",
         "news - au olympics"
-      ]
-    },
-    {
-      "id": "50214131",
-      "title": "Kings guard Ben Simmons, 30, has torn Achilles tendon, will undergo surgery",
-      "summary": "Kings guard Ben Simmons has sustained a torn Achilles tendon and will undergo surgery, the team announced Sunday, an injury that is likely season-ending for the 30-year-old veteran who authored an impressive training camp on short notice for Sacramento.",
-      "url": "https://www.espn.com/nba/story/_/id/50214131/kings-simmons-believed-achilles-tendon-tear",
-      "publishedAt": "2026-10-19T01:05:41+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1018/r1732677_600x600_1-1.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Sacramento Kings",
-        "Ben Simmons",
-        "Anthony Slater"
       ]
     },
     {
@@ -767,36 +887,6 @@
       ]
     },
     {
-      "id": "50182803",
-      "title": "10 people who will define the NBA season: Zion, Kawhi, Kyrie",
-      "summary": "With the NBA season just days away, let's take stock of the most important coaches, execs and players worth monitoring.",
-      "url": "https://www.espn.com/nba/story/_/id/50182803/nba-most-important-names-season",
-      "publishedAt": "2026-10-15T19:26:21+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730736_608x342_16-9.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "Zion Williamson",
-        "New Orleans Pelicans",
-        "Sacramento Kings",
-        "LaMelo Ball",
-        "Minnesota Timberwolves",
-        "Ja Morant",
-        "Portland Trail Blazers",
-        "Washington Wizards",
-        "Anthony Davis",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "Cleveland Cavaliers",
-        "Kyrie Irving",
-        "Dallas Mavericks",
-        "Milwaukee Bucks",
-        "Toronto Raptors",
-        "Kawhi Leonard",
-        "Vincent Goodwill"
-      ]
-    },
-    {
       "id": "50075156",
       "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
       "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
@@ -866,181 +956,6 @@
         "news – sports betting",
         "NCAA Men's Basketball",
         "David Purdum"
-      ]
-    },
-    {
-      "id": "50176718",
-      "title": "What NBA preseason has revealed about the Lakers, 76ers, Celtics and every team",
-      "summary": "With 2026-27 tipoff closing in, Ben Golliver shares the key takeaways that will shape the regular season.",
-      "url": "https://www.espn.com/nba/story/_/id/50176718/nba-preseason-lakers-76ers-celtics-30-teams",
-      "publishedAt": "2026-10-15T16:37:23+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1013/nba_season_16x9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Cleveland Cavaliers",
-        "Denver Nuggets",
-        "Houston Rockets",
-        "San Antonio Spurs",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Dallas Mavericks",
-        "Golden State Warriors",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards",
-        "Atlanta Hawks",
-        "Detroit Pistons",
-        "NBA Draft",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50189623",
-      "title": "Amar'e Stoudemire graduates from Miami Dade law enforcement academy",
-      "summary": "Stoudemire will now train with the Miami-Dade Schools Police Department.",
-      "url": "https://www.espn.com/nba/story/_/id/50189623/amare-stoudemire-law-enforcement-academy-police",
-      "publishedAt": "2026-10-15T16:09:30+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1015/r1731202_1128x635_16-9.png",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "Amar'e Stoudemire",
-        "New York Knicks",
-        "Miami Heat",
-        "Phoenix Suns",
-        "Dallas Mavericks"
-      ]
-    },
-    {
-      "id": "50189708",
-      "title": "Stephen A.: Kawhi Leonard is the worst superstar in NBA history",
-      "summary": "Stephen A.: Kawhi Leonard is the worst superstar in NBA history",
-      "url": "https://www.espn.com/video/clip/_/id/50189708/kawhi-leonard-worst-superstar-nba-history",
-      "publishedAt": "2026-10-15T16:06:26+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1015/ss_20261015_115836294_3697353723/ss_20261015_115836294_3697353723.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "nba highlight",
-        "Kawhi Leonard",
-        "Toronto Raptors",
-        "Stephen A. Smith",
-        "First Take",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50186974",
-      "title": "Spurs debut three-guard lineup of Fox, Harper, Castle in preseason win",
-      "summary": "Spurs coach Mitch Johnson finally deployed a three-guard lineup featuring De'Aaron Fox, Dylan Harper and Stephon Castle in a 123-103 preseason win over the Suns.",
-      "url": "https://www.espn.com/nba/story/_/id/50186974/spurs-debut-3-guard-lineup-deaaron-fox-dylan-harper-stephon-castle-preseason-win",
-      "publishedAt": "2026-10-15T13:34:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1015/r1731032_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "news",
-        "NBA",
-        "San Antonio Spurs",
-        "De'Aaron Fox",
-        "Dylan Harper",
-        "Stephon Castle",
-        "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50187160",
-      "title": "Denver Nuggets vs. LA Clippers: Game Highlights",
-      "summary": "Denver Nuggets vs. LA Clippers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50187160/game-highlights",
-      "publishedAt": "2026-10-15T05:16:35+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1015/54f491a4-a04a-4f72-bf02-096acf5f50fc/54f491a4-a04a-4f72-bf02-096acf5f50fc.jpg",
-      "author": "",
-      "categories": [
-        "Trevon Brazile",
-        "Gradey Dick",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "Julian Strawther",
-        "SC4U  - Eligible",
-        "LA Clippers",
-        "Rui Hachimura",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Denver Nuggets @ LA Clippers"
-      ]
-    },
-    {
-      "id": "50186718",
-      "title": "New Orleans Pelicans vs. Dallas Mavericks: Game Highlights",
-      "summary": "New Orleans Pelicans vs. Dallas Mavericks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50186718/game-highlights",
-      "publishedAt": "2026-10-15T03:36:41+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1015/4f31cf23-914f-4916-880f-a0ae006d2090/4f31cf23-914f-4916-880f-a0ae006d2090.jpg",
-      "author": "",
-      "categories": [
-        "Dallas Mavericks",
-        "Jeremiah Fears",
-        "Seth Lundy",
-        "SC4U - Full Highlight",
-        "AJ Johnson",
-        "NBA",
-        "John Poulakidas",
-        "Yves Missi",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Tobi Lawal",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New Orleans Pelicans @ Dallas Mavericks"
-      ]
-    },
-    {
-      "id": "50186688",
-      "title": "Detroit Pistons vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "Detroit Pistons vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50186688/game-highlights",
-      "publishedAt": "2026-10-15T03:17:08+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1015/745fa601-07d1-405c-960f-f067fbd5ed2d/745fa601-07d1-405c-960f-f067fbd5ed2d.jpg",
-      "author": "",
-      "categories": [
-        "John Ukomadu",
-        "Minnesota Timberwolves",
-        "Detroit Pistons",
-        "Ronald Holland II",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "Jalen Duren",
-        "SC4U  - Eligible",
-        "Anthony Edwards",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Detroit Pistons @ Minnesota Timberwolves"
       ]
     }
   ]
