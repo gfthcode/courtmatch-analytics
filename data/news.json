@@ -1,14 +1,14 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-18T23:12:08.222104+00:00",
+  "updatedAt": "2026-10-19T04:40:05.383660+00:00",
   "articles": [
     {
       "id": "50028196",
       "title": "NBA preseason buzz: Latest on trades, news and intel",
-      "summary": "The NBA regular season is less than a week away, and we're tracking all the news, deals, and trades across the league.",
+      "summary": "NBA basketball is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
       "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-18T23:10:36+00:00",
+      "publishedAt": "2026-10-19T02:59:31+00:00",
       "image": "https://a.espncdn.com/photo/2026/0929/r1723601_608x342_16-9.jpg",
       "author": "ESPN staff",
       "categories": [
@@ -20,17 +20,47 @@
       ]
     },
     {
+      "id": "50215522",
+      "title": "Cruel Achilles injury has killed the Ben Simmons comeback Australia was dying to see",
+      "summary": "For the first time in years, Ben Simmons had given us a reason to believe. That's what made the news of his Achilles injury hit so heavily -- he'd started to answer a question that had followed him for half a decade, Olgun Uluc writes.",
+      "url": "https://www.espn.com/nba/story/_/id/50215522/cruel-achilles-injury-killed-ben-simmons-comeback-australia-was-dying-see",
+      "publishedAt": "2026-10-19T01:30:29+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1019/r1732754_1296x518_5-2.jpg",
+      "author": "Olgun Uluc, ESPN Basketball Insider",
+      "categories": [
+        "NBA",
+        "Sacramento Kings",
+        "Ben Simmons",
+        "news - au olympics"
+      ]
+    },
+    {
       "id": "50214131",
-      "title": "Sources: Kings guard Ben Simmons believed to have torn Achilles tendon",
-      "summary": "Sacramento Kings guard Ben Simmons, a three-time All-Star who agreed to a one-year, $3.5 million contract on Sept. 4, is believed to have sustained a torn Achilles tendon after receiving a preliminary diagnosis on the injury, sources told ESPN on Sunday.",
+      "title": "Kings guard Ben Simmons, 30, has torn Achilles tendon, will undergo surgery",
+      "summary": "Kings guard Ben Simmons has sustained a torn Achilles tendon and will undergo surgery, the team announced Sunday, an injury that is likely season-ending for the 30-year-old veteran who authored an impressive training camp on short notice for Sacramento.",
       "url": "https://www.espn.com/nba/story/_/id/50214131/kings-simmons-believed-achilles-tendon-tear",
-      "publishedAt": "2026-10-18T23:07:49+00:00",
+      "publishedAt": "2026-10-19T01:05:41+00:00",
       "image": "https://a.espncdn.com/photo/2026/1018/r1732677_600x600_1-1.jpg",
       "author": "Anthony Slater",
       "categories": [
         "NBA",
         "Sacramento Kings",
         "Ben Simmons",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50214211",
+      "title": "Warriors' Stephen Curry 'fine' after tweaking right ankle in practice",
+      "summary": "Steve Kerr said franchise superstar Stephen Curry is \"fine\" after he limped off the practice court with a right ankle issue.",
+      "url": "https://www.espn.com/nba/story/_/id/50214211/stephen-curry-fine-tweaking-right-ankle-practice",
+      "publishedAt": "2026-10-19T00:01:10+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1018/r1732680_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Stephen Curry",
         "Anthony Slater"
       ]
     },
@@ -1011,57 +1041,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Detroit Pistons @ Minnesota Timberwolves"
-      ]
-    },
-    {
-      "id": "50186617",
-      "title": "Phoenix Suns vs. San Antonio Spurs: Game Highlights",
-      "summary": "Phoenix Suns vs. San Antonio Spurs: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50186617/game-highlights",
-      "publishedAt": "2026-10-15T02:55:16+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1015/a690823e-5d17-403f-93c5-ff83b3a3343a/a690823e-5d17-403f-93c5-ff83b3a3343a.jpg",
-      "author": "",
-      "categories": [
-        "Ryan Dunn",
-        "San Antonio Spurs",
-        "Phoenix Suns",
-        "Victor Wembanyama",
-        "Maliq Brown",
-        "SC4U - Full Highlight",
-        "De'Aaron Fox",
-        "NBA",
-        "Jamaree Bouyea",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Phoenix Suns @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50186240",
-      "title": "Brooklyn Nets vs. Miami Heat: Game Highlights",
-      "summary": "Brooklyn Nets vs. Miami Heat: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50186240/game-highlights",
-      "publishedAt": "2026-10-15T02:25:23+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1015/84f10ac2-d68e-46f3-881f-6beb5cd3ecc5/84f10ac2-d68e-46f3-881f-6beb5cd3ecc5.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "Michael Porter Jr",
-        "Ryan Conwell",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Keshad Johnson",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "Andrew Wiggins",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Brooklyn Nets @ Miami Heat"
       ]
     }
   ]
