@@ -1,14 +1,110 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-19T20:35:05.191786+00:00",
+  "updatedAt": "2026-10-20T00:19:45.717548+00:00",
   "articles": [
+    {
+      "id": "50222332",
+      "title": "Bucks waive assist-leader Kevin Porter Jr. ahead of season opener",
+      "summary": "The Milwaukee Bucks waived guard Kevin Porter Jr. on Monday after a 2025-26 season in which he led the team in assists per game and ranked second in scoring.",
+      "url": "https://www.espn.com/nba/story/_/id/50222332/bucks-waive-assist-leader-kevin-porter-ahead-season-opener",
+      "publishedAt": "2026-10-19T23:52:03+00:00",
+      "image": "https://a.espncdn.com/photo/2025/1023/r1564926_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Milwaukee Bucks",
+        "Kevin Porter Jr",
+        "news"
+      ]
+    },
+    {
+      "id": "50221787",
+      "title": "Sources: Grizzlies waiving former first-round pick Walter Clayton Jr.",
+      "summary": "The Grizzlies are waiving 2025 No. 18 pick Walton Clayton Jr. and Micah Peavy ahead of Monday's roster cut-down deadline.",
+      "url": "https://www.espn.com/nba/story/_/id/50221787/sources-grizzlies-waive-walter-clayton-jr-micah-peavy",
+      "publishedAt": "2026-10-19T23:42:24+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1019/r1733126_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "news",
+        "NBA",
+        "Memphis Grizzlies",
+        "Walter Clayton Jr",
+        "Micah Peavy",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50215522",
+      "title": "Cruel Achilles injury has killed the Ben Simmons comeback Australia was dying to see",
+      "summary": "For the first time in years, Ben Simmons had given us a reason to believe. That's what made the news of his Achilles injury hit so heavily -- he'd started to answer a question that had followed him for half a decade, Olgun Uluc writes.",
+      "url": "https://www.espn.com/nba/story/_/page/TAB4FY26/cruel-achilles-injury-killed-ben-simmons-comeback-australia-was-dying-see",
+      "publishedAt": "2026-10-19T22:39:26+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1019/r1732754_1296x518_5-2.jpg",
+      "author": "Olgun Uluc, ESPN Basketball Insider",
+      "categories": [
+        "NBA",
+        "Sacramento Kings",
+        "Ben Simmons",
+        "news - au olympics"
+      ]
+    },
+    {
+      "id": "50221373",
+      "title": "Hornets, Brandon Miller agree to 5-year, $209M rookie extension",
+      "summary": "The Hornets and forward Brandon Miller agreed to a five-year, $209 million rookie-scale contract extension.",
+      "url": "https://www.espn.com/nba/story/_/id/50221373/hornets-brandon-miller-agree-5-year-209m-rookie-extension",
+      "publishedAt": "2026-10-19T22:22:17+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0122/r1603901_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "Charlotte Hornets",
+        "NBA",
+        "Brandon Miller",
+        "news"
+      ]
+    },
+    {
+      "id": "50221792",
+      "title": "Lakers waive former first-round pick Dalton Knecht",
+      "summary": "The Los Angeles Lakers waived their 2024 first-round pick Dalton Knecht on Monday, the team announced.",
+      "url": "https://www.espn.com/nba/story/_/id/50221792/lakers-waive-former-first-round-pick-dalton-knecht",
+      "publishedAt": "2026-10-19T22:16:29+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0619/r1508512_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Dalton Knecht",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50221305",
+      "title": "Shams: Steph Curry on track to play in Warriors' opener",
+      "summary": "Shams: Steph Curry on track to play in Warriors' opener",
+      "url": "https://www.espn.com/video/clip/_/id/50221305/steph-curry-track-play-warriors-opener",
+      "publishedAt": "2026-10-19T22:02:48+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1019/ss_20261019_165909162_37031491074/ss_20261019_165909162_37031491074.jpg",
+      "author": "",
+      "categories": [
+        "Stephen Curry",
+        "Golden State Warriors",
+        "2 Star Rating",
+        "NBA",
+        "nba highlight",
+        "Verts - Exclude Content",
+        "Shams Charania",
+        "Golden State Warriors @ Los Angeles Lakers"
+      ]
+    },
     {
       "id": "50220689",
       "title": "Warriors expect Steph Curry (ankle) to play in opener vs. Lakers",
       "summary": "The Warriors expect Stephen Curry to be available for Wednesday night's season opener against the Lakers despite tweaking his right ankle during an open scrimmage Sunday.",
       "url": "https://www.espn.com/nba/story/_/id/50220689/warriors-expect-steph-curry-ankle-play-opener-vs-lakers",
-      "publishedAt": "2026-10-19T19:49:20+00:00",
+      "publishedAt": "2026-10-19T22:00:38+00:00",
       "image": "https://a.espncdn.com/photo/2026/1019/r1733043_600x400_3-2.jpg",
       "author": "Anthony Slater",
       "categories": [
@@ -20,11 +116,31 @@
       ]
     },
     {
+      "id": "48957095",
+      "title": "2026 NBA free agency: Grades for offseason signings, extensions",
+      "summary": "We're grading the most important offseason signings, including Cason Wallace's $139 million extension with the Thunder.",
+      "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
+      "publishedAt": "2026-10-19T21:51:21+00:00",
+      "image": "https://a.espncdn.com/photo/2025/1103/r1570397_608x342_16-9.jpg",
+      "author": "Zach Kram",
+      "categories": [
+        "NBA",
+        "nba free agency",
+        "Cason Wallace",
+        "Oklahoma City Thunder",
+        "Boston Celtics",
+        "Payton Pritchard",
+        "Golden State Warriors",
+        "Brandin Podziemski",
+        "Zach Kram"
+      ]
+    },
+    {
       "id": "50028196",
       "title": "NBA buzz: Latest on trades, news, roster moves and intel",
       "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
       "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-19T19:37:16+00:00",
+      "publishedAt": "2026-10-19T21:37:51+00:00",
       "image": "https://a.espncdn.com/photo/2026/1019/r1732871_608x342_16-9.jpg",
       "author": "ESPN staff",
       "categories": [
@@ -108,26 +224,6 @@
       ]
     },
     {
-      "id": "48957095",
-      "title": "2026 NBA free agency: Grades for offseason signings, extensions",
-      "summary": "We're grading the most important offseason signings, including Cason Wallace's $139 million extension with the Thunder.",
-      "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
-      "publishedAt": "2026-10-19T13:31:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0225/r1619906_608x342_16-9.jpg",
-      "author": "Zach Kram",
-      "categories": [
-        "NBA",
-        "nba free agency",
-        "Cason Wallace",
-        "Oklahoma City Thunder",
-        "Boston Celtics",
-        "Payton Pritchard",
-        "Golden State Warriors",
-        "Brandin Podziemski",
-        "Zach Kram"
-      ]
-    },
-    {
       "id": "50217446",
       "title": "Ugonna Onyenso thought his NBA dream was over -- then the Detroit Pistons called him up",
       "summary": "Detroit Pistons center Ugonna Onyenso was surprised to hear his name called out 53rd at the 2026 NBA Draft, having once believed his dream of making the league was over, but is now confident he can grow into the sizable shoes left by Isaiah Stewart.",
@@ -184,21 +280,6 @@
         "Sacramento Kings",
         "Ben Simmons",
         "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50215522",
-      "title": "Cruel Achilles injury has killed the Ben Simmons comeback Australia was dying to see",
-      "summary": "For the first time in years, Ben Simmons had given us a reason to believe. That's what made the news of his Achilles injury hit so heavily -- he'd started to answer a question that had followed him for half a decade, Olgun Uluc writes.",
-      "url": "https://www.espn.com/nba/story/_/id/50215522/cruel-achilles-injury-killed-ben-simmons-comeback-australia-was-dying-see",
-      "publishedAt": "2026-10-19T01:30:29+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1019/r1732754_1296x518_5-2.jpg",
-      "author": "Olgun Uluc, ESPN Basketball Insider",
-      "categories": [
-        "NBA",
-        "Sacramento Kings",
-        "Ben Simmons",
-        "news - au olympics"
       ]
     },
     {
@@ -856,98 +937,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Toronto Raptors @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50191473",
-      "title": "Maxey: Healthy Embiid 'changes everything' for Sixers",
-      "summary": "76ers guard Tyrese Maxey said Thursday that having a healthy Joel Embiid \"changes everything\" for the Sixers.",
-      "url": "https://www.espn.com/nba/story/_/id/50191473/maxey-healthy-embiid-changes-everything-sixers",
-      "publishedAt": "2026-10-15T21:43:26+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0511/r1656714_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Joel Embiid",
-        "Tyrese Maxey",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50190258",
-      "title": "Victor Wembanyama, Spurs dominate annual NBA GM survey",
-      "summary": "An annual survey of NBA general managers projects the Spurs to win the NBA title this season, with Victor Wembanyama earning MVP and Defensive Player of the Year honors.",
-      "url": "https://www.espn.com/nba/story/_/id/50190258/victor-wembanyama-spurs-dominate-annual-nba-gm-survey",
-      "publishedAt": "2026-10-15T19:48:07+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0610/r1670790_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "Victor Wembanyama",
-        "San Antonio Spurs",
-        "NBA",
-        "Oklahoma City Thunder",
-        "New York Knicks",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Jaylen Brown",
-        "Nikola Jokic",
-        "Anthony Edwards",
-        "Dylan Harper",
-        "Cooper Flagg",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Minnesota Timberwolves",
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50191249",
-      "title": "Perk declares what he wants to see Wemby improve on this season",
-      "summary": "Perk declares what he wants to see Wemby improve on this season",
-      "url": "https://www.espn.com/video/clip/_/id/50191249/perk-declares-wants-see-wemby-improve-season",
-      "publishedAt": "2026-10-15T19:45:45+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1015/ss_20261015_153912412_3697455941/ss_20261015_153912412_3697455941.jpg",
-      "author": "",
-      "categories": [
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "NBA",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50075156",
-      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-      "publishedAt": "2026-10-15T18:26:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball"
-      ]
-    },
-    {
-      "id": "50184696",
-      "title": "Fantasy basketball roto league mock draft: Cooper Flagg, Derrick White go early",
-      "summary": "The fantasy crew gets together for it's final mock draft before the NBA season tips off.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50184696/fantasy-basketball-mock-draft-8-team-roto-league-2026-2027",
-      "publishedAt": "2026-10-15T18:17:11+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1015/r1731264_1296x729_16-9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "news - fantasy",
-        "NBA",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Derrick White",
-        "Cooper Flagg"
       ]
     }
   ]
