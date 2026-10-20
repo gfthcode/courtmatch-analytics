@@ -1,8 +1,162 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-20T08:32:08.858871+00:00",
+  "updatedAt": "2026-10-20T14:18:15.343271+00:00",
   "articles": [
+    {
+      "id": "50220319",
+      "title": "NBA betting: Our experts' best bets and bets to avoid for 2026-27",
+      "summary": "Which bets stand out most? Which should you avoid? Here's what our experts say.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/50220319/nba-betting-best-bets-2026-2027-season",
+      "publishedAt": "2026-10-20T13:20:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733193_1296x729_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "Sports Betting",
+        "news – sports betting"
+      ]
+    },
+    {
+      "id": "50221526",
+      "title": "How the Knicks celebrated their long-awaited championship in the offseason",
+      "summary": "From Jalen Brunson's SNL appearance to KAT's wedding, it all began with one event that turned into a domino effect: a Knicks title.",
+      "url": "https://www.espn.com/nba/story/_/id/50221526/how-new-york-knicks-celebrated-championship-offseason",
+      "publishedAt": "2026-10-20T12:44:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733188_608x342_16-9.jpg",
+      "author": "J.J. Post and Kalan Hooks",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Josh Hart",
+        "Jalen Brunson",
+        "Karl-Anthony Towns",
+        "OG Anunoby",
+        "Mikal Bridges",
+        "Kalan Hooks"
+      ]
+    },
+    {
+      "id": "39431648",
+      "title": "LeBron James' most notable Madison Square Garden appearances",
+      "summary": "Here are some of LeBron James' memorable performances at the world's most famous arena throughout the years as he faces the Knicks on Tuesday.",
+      "url": "https://www.espn.com/nba/story/_/id/39431648/lebron-james-madison-square-garden-best-performances",
+      "publishedAt": "2026-10-20T12:43:07+00:00",
+      "image": "https://a.espncdn.com/photo/2024/0131/r1285187_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "New York Knicks",
+        "LeBron James",
+        "Philadelphia 76ers",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50224864",
+      "title": "Fantasy basketball: Bold predictions for the 2026-27 season",
+      "summary": "Our fantasy hoops experts for their boldest predictions for the 2026-27 NBA season.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50224864/fantasy-basketball-bold-predictions-nba-2026-2027",
+      "publishedAt": "2026-10-20T12:33:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733280_1296x729_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "NBA",
+        "Kel'el Ware",
+        "Nikola Jokic",
+        "Luka Doncic",
+        "Victor Wembanyama",
+        "Giannis Antetokounmpo",
+        "Julius Randle",
+        "Walker Kessler",
+        "LeBron James",
+        "Anthony Davis",
+        "Trae Young"
+      ]
+    },
+    {
+      "id": "50227385",
+      "title": "Jason Kidd sees the NBA becoming a game without boundaries",
+      "summary": "Jason Kidd believes the NBA has become increasingly global, positionless and versatile.",
+      "url": "https://www.espn.com/nba/story/_/id/50227385/jason-kidd-sees-nba-becoming-game-boundaries",
+      "publishedAt": "2026-10-20T11:51:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733352_1296x729_16-9.jpg",
+      "author": "Miguel Alfonso Caramoan",
+      "categories": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "50112265",
+      "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
+      "summary": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
+      "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
+      "publishedAt": "2026-10-20T11:02:07+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
+      "author": "NBA insiders",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Karl-Anthony Towns",
+        "NBA Insiders"
+      ]
+    },
+    {
+      "id": "50118254",
+      "title": "Jalen Duren, Pistons need each other -- for better or worse",
+      "summary": "After agreeing to a five-year, $200 million deal, how will Duren and Detroit move forward after a monthslong saga?",
+      "url": "https://www.espn.com/nba/story/_/id/50118254/detroit-pistons-jalen-duren-new-contract",
+      "publishedAt": "2026-10-20T11:00:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726894_608x342_16-9.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Jalen Duren",
+        "Cade Cunningham",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50174585",
+      "title": "Wemby, Spurs have 'clarity' after Finals loss but know 'nothing is guaranteed'",
+      "summary": "The Spurs enter the season with expectations to return to the Finals after their loss to the Knicks.",
+      "url": "https://www.espn.com/nba/story/_/id/50174585/san-antonio-spurs-wembanyama-expectations-nba",
+      "publishedAt": "2026-10-20T10:58:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1014/r1730175_1296x729_16-9.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "Stephon Castle",
+        "De'Aaron Fox",
+        "Dylan Harper",
+        "Keldon Johnson",
+        "Victor Wembanyama",
+        "Devin Vassell",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50220047",
+      "title": "Windhorst: What playing at Madison Square Garden means to LeBron James",
+      "summary": "It's only fitting that LeBron opens his final chapter inside \"The World's Most Famous Arena.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50220047/lebron-james-opener-msg-knicks-76ers",
+      "publishedAt": "2026-10-20T10:57:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1019/nba_lebron_msg_love_affair_cr_16x9.jpg",
+      "author": "Brian Windhorst",
+      "categories": [
+        "NBA",
+        "LeBron James",
+        "New York Knicks",
+        "Philadelphia 76ers",
+        "Brian Windhorst"
+      ]
+    },
     {
       "id": "50215522",
       "title": "Cruel Achilles injury has killed the Ben Simmons comeback Australia was dying to see",
@@ -378,23 +532,6 @@
       ]
     },
     {
-      "id": "50199096",
-      "title": "Spurs' 3-guard lineup of Fox, Castle, Harper to start opener vs. Thunder",
-      "summary": "The Spurs will start guards De'Aaron Fox, Stephon Castle and Dylan Harper alongside Devin Vassell and Victor Wembanyama when they face the Thunder in Tuesday's season opener.",
-      "url": "https://www.espn.com/nba/story/_/id/50199096/spurs-start-3-guard-lineup-season-opener-vs-thunder",
-      "publishedAt": "2026-10-17T14:36:47+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0606/r1668885_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "De'Aaron Fox",
-        "Stephon Castle",
-        "Dylan Harper",
-        "Michael C. Wright"
-      ]
-    },
-    {
       "id": "50200909",
       "title": "No. 1 pick AJ Dybantsa injures ankle during Wizards' preseason finale",
       "summary": "First overall pick AJ Dybantsa exited the Wizards' preseason finale after injuring his ankle on an awkward landing and will undergo further evaluation.",
@@ -407,20 +544,6 @@
         "Washington Wizards",
         "NBA",
         "news"
-      ]
-    },
-    {
-      "id": "50199345",
-      "title": "LeBron fires up crowd with monster slam in Sixers home debut",
-      "summary": "LeBron James gave a sellout crowd a glimpse of his \"connection\" with new teammate Tyrese Maxey when James threw down an alley-oop jam in his Sixers home debut.",
-      "url": "https://www.espn.com/nba/story/_/id/50199345/lebron-fires-crowd-monster-slam-sixers-home-debut",
-      "publishedAt": "2026-10-17T11:36:55+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1017/r1731871_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James"
       ]
     },
     {
@@ -533,185 +656,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Minnesota Timberwolves @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50199360",
-      "title": "Miami Heat vs. Orlando Magic: Game Highlights",
-      "summary": "Miami Heat vs. Orlando Magic: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50199360/game-highlights",
-      "publishedAt": "2026-10-17T03:14:05+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/93199d46-6039-4fd8-8878-f5647a25af6d/93199d46-6039-4fd8-8878-f5647a25af6d.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Orlando Magic",
-        "SC4U - Full Highlight",
-        "Paolo Banchero",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Davion Mitchell",
-        "Kylor Kelley",
-        "Simone Fontecchio",
-        "Wendell Carter Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Miami Heat @ Orlando Magic"
-      ]
-    },
-    {
-      "id": "50199342",
-      "title": "Atlanta Hawks vs. Dallas Mavericks: Game Highlights",
-      "summary": "Atlanta Hawks vs. Dallas Mavericks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50199342/game-highlights",
-      "publishedAt": "2026-10-17T02:56:34+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/4ba06f80-5e2f-47e7-820e-adfc3fd7bd39/4ba06f80-5e2f-47e7-820e-adfc3fd7bd39.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Jalen Johnson",
-        "Zaccharie Risacher",
-        "Dallas Mavericks",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "CJ McCollum",
-        "SC4U  - Eligible",
-        "Cooper Flagg",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Dallas Mavericks"
-      ]
-    },
-    {
-      "id": "50199336",
-      "title": "Washington Wizards vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Washington Wizards vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50199336/game-highlights",
-      "publishedAt": "2026-10-17T02:52:54+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/971bac3a-4628-4e5c-b887-f7f33b0b1a60/971bac3a-4628-4e5c-b887-f7f33b0b1a60.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Jeremiah Fears",
-        "Kyshawn George",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Karlo Matkovic",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "Anthony Davis",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Washington Wizards @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50199314",
-      "title": "Sacramento Kings vs. San Antonio Spurs: Game Highlights",
-      "summary": "Sacramento Kings vs. San Antonio Spurs: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50199314/game-highlights",
-      "publishedAt": "2026-10-17T02:52:05+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/5027e38d-cc81-490a-96eb-06555b0fbaf1/5027e38d-cc81-490a-96eb-06555b0fbaf1.jpg",
-      "author": "",
-      "categories": [
-        "Dylan Harper",
-        "Zach LaVine",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Ben Simmons",
-        "SC4U - Full Highlight",
-        "Precious Achiuwa",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Sacramento Kings @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50199226",
-      "title": "Toronto Raptors vs. Detroit Pistons: Game Highlights",
-      "summary": "Toronto Raptors vs. Detroit Pistons: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50199226/game-highlights",
-      "publishedAt": "2026-10-17T02:07:05+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/8aa5ba77-a2f5-4aa5-b3ac-4e86842e8f13/8aa5ba77-a2f5-4aa5-b3ac-4e86842e8f13.jpg",
-      "author": "",
-      "categories": [
-        "Malachi Smith",
-        "Toronto Raptors",
-        "Alijah Martin",
-        "Detroit Pistons",
-        "Nimari Burnett",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Ausar Thompson",
-        "Cade Cunningham",
-        "SC4U  - Eligible",
-        "Ebuka Okorie",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Toronto Raptors @ Detroit Pistons"
-      ]
-    },
-    {
-      "id": "50199171",
-      "title": "Milwaukee Bucks vs. Indiana Pacers: Game Highlights",
-      "summary": "Milwaukee Bucks vs. Indiana Pacers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50199171/game-highlights",
-      "publishedAt": "2026-10-17T02:07:03+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/8665aafd-2049-4e0f-ba9b-dee7f71f4f1a/8665aafd-2049-4e0f-ba9b-dee7f71f4f1a.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Bogoljub Markovic",
-        "Indiana Pacers",
-        "Keba Keita",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Myles Turner",
-        "Kel'el Ware",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Milwaukee Bucks @ Indiana Pacers"
-      ]
-    },
-    {
-      "id": "50199167",
-      "title": "Boston Celtics vs. Philadelphia 76ers: Game Highlights",
-      "summary": "Boston Celtics vs. Philadelphia 76ers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50199167/game-highlights",
-      "publishedAt": "2026-10-17T02:07:02+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1017/621e3ed0-f4b3-4aaf-aebd-f46747dcae8e/621e3ed0-f4b3-4aaf-aebd-f46747dcae8e.jpg",
-      "author": "",
-      "categories": [
-        "Dillon Jones",
-        "Philadelphia 76ers",
-        "Ron Harper Jr",
-        "Boston Celtics",
-        "Justin Edwards",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Boston Celtics @ Philadelphia 76ers"
       ]
     }
   ]
