@@ -1,14 +1,194 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-21T04:46:15.343403+00:00",
+  "updatedAt": "2026-10-21T11:48:38.766963+00:00",
   "articles": [
+    {
+      "id": "50229178",
+      "title": "The 5 biggest questions still facing Luka Doncic and the Lakers",
+      "summary": "After a transformative offseason on the floor and off, there are still massive unanswered questions for this Lakers team.",
+      "url": "https://www.espn.com/nba/story/_/id/50229178/luka-doncic-los-angeles-lakers-questions-nba-season",
+      "publishedAt": "2026-10-21T11:07:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733452_608x342_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Luka Doncic",
+        "Austin Reaves",
+        "Walker Kessler",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50228500",
+      "title": "The Anthony Edwards-LaMelo Ball partnership opens with chemistry and hope",
+      "summary": "The new LaMelo Ball-Anthony Edwards backcourt opens the season with a lot of flash and a renewed joy in Minnesota.",
+      "url": "https://www.espn.com/nba/story/_/id/50228500/anthony-edwards-lamelo-ball-minnesota-timberwolves",
+      "publishedAt": "2026-10-21T11:04:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733410_2_608x342_16-9.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Minnesota Timberwolves",
+        "Anthony Edwards",
+        "LaMelo Ball",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50234172",
+      "title": "LeBron moonlights at center, helps limit Knicks' Towns in winning Sixers debut",
+      "summary": "LeBron James opened his 24th season with 14 points, nine rebounds and seven assists and even had a defensive impact as a center in his Sixers debut.",
+      "url": "https://www.espn.com/nba/story/_/id/50234172/76ers-knicks-lebron-james-debut-championship-night",
+      "publishedAt": "2026-10-21T10:41:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733814_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "LeBron James",
+        "Philadelphia 76ers",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50232192",
+      "title": "Paul George's 38-point debut not enough as Piston rally late to down Celtics",
+      "summary": "Paul George scored 38 points -- the most by a Celtic in his debut, and the fifth most by a player in his first game with an NBA franchise -- in a 121-113 defeat to the Pistons on Tuesday. But as George put it: \"I'm not a moral victory guy.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50232192/paul-george-38-not-enough-pistons-rally-defeat-celtics",
+      "publishedAt": "2026-10-21T10:30:32+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733655_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Boston Celtics",
+        "Paul George",
+        "Javonte Green",
+        "Cade Cunningham",
+        "Jayson Tatum",
+        "Payton Pritchard"
+      ]
+    },
+    {
+      "id": "50235880",
+      "title": "Victor Wembanyama, Giannis Antetokounmpo lead record African heritage presence in NBA",
+      "summary": "Eighteen African countries are represented in the league, with Nigeria accounting for nearly half the number with 29 players of Nigerian origin.",
+      "url": "https://www.espn.com/espn/story/_/id/50235880/victor-wembanyama-giannis-antetokounmpo-lead-record-african-heritage-presence-nba",
+      "publishedAt": "2026-10-21T09:31:10+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733818_1296x729_16-9.jpg",
+      "author": "Colin Udoh",
+      "categories": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "50235597",
+      "title": "BAL to confirm franchises in 2027, but no timeline on new structure - Mark Tatum",
+      "summary": "NBA Deputy Commissioner Mark Tatum said the league plans to announce BAL franchises in 2027, but there is no timeline for a change in the league format.",
+      "url": "https://www.espn.com/espn/story/_/id/50235597/bal-confirm-franchises-2027-no-line-new-structure-mark-tatum",
+      "publishedAt": "2026-10-21T09:22:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733837_1296x729_16-9.jpg",
+      "author": "Leonard Solms",
+      "categories": [
+        "FIBA",
+        "NBA",
+        "news - nba",
+        "news",
+        "200305 COLUMNIST PROFILE Leonard Solms"
+      ]
+    },
+    {
+      "id": "50235327",
+      "title": "Spurs' Victor Wembanyama misses first 12 shots in rough opener vs. Thunder",
+      "summary": "Victor Wembanyama didn't record his first bucket until the end of the third quarter and shot a career-worst 8% from the field as the Thunder got their revenge on the Spurs in Tuesday's Western Conference finals rematch.",
+      "url": "https://www.espn.com/nba/story/_/id/50235327/spurs-victor-wembanyama-misses-first-12-shots-rough-season-opener-vs-thunder",
+      "publishedAt": "2026-10-21T07:38:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733818_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "De'Aaron Fox",
+        "Victor Wembanyama",
+        "Oklahoma City Thunder",
+        "Stephon Castle",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50235276",
+      "title": "Thunder win chippy opener vs. Spurs, throw support behind Chet Holmgren",
+      "summary": "The scrap early in the second quarter of Tuesday night's season opener offered some symbolism for Chet Holmgren and his Thunder teammates. Holmgren landed with a thud. As he got back to his feet, his teammates had his back.",
+      "url": "https://www.espn.com/nba/story/_/id/50235276/thunder-win-chippy-opener-vs-spurs-back-chet-holmgren",
+      "publishedAt": "2026-10-21T07:16:33+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733821_600x400_3-2.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "San Antonio Spurs",
+        "Chet Holmgren",
+        "Shai Gilgeous-Alexander",
+        "Jalen Williams",
+        "Jaylin Williams",
+        "Kenrich Williams",
+        "Victor Wembanyama",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50234914",
+      "title": "Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
+      "summary": "Sixers center Joel Embiid shined in a season-opening win over the Knicks on Tuesday, posting 13 points, 11 rebounds, two steals and three blocks.",
+      "url": "https://www.espn.com/nba/story/_/id/50234914/sixers-joel-embiid-3-blocks-season-opener-vs-knicks",
+      "publishedAt": "2026-10-21T06:20:33+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733812_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Joel Embiid",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50235062",
+      "title": "Mike Brown: Would not have felt good about a win vs. 76ers given Knicks' play",
+      "summary": "Knicks coach Mike Brown would've taken the win against the 76ers -- but wouldn't have been happy with it, acknowledging that relying on late-game magic or the feel-good vibes of ring night wouldn't be enough to start the season on a positive note.",
+      "url": "https://www.espn.com/nba/story/_/id/50235062/mike-brown-not-felt-good-knicks-win-vs-76ers-given-play",
+      "publishedAt": "2026-10-21T06:08:22+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733816_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Jalen Brunson",
+        "Philadelphia 76ers",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50232540",
+      "title": "Knicks celebrate NBA title, add surprise Cup banner",
+      "summary": "The Knicks celebrated their 2025-26 season Tuesday with banners -- two of them -- and rings before hosting the 76ers in this season's opener.",
+      "url": "https://www.espn.com/nba/story/_/id/50232540/knicks-nba-cup-banner-championship-night",
+      "publishedAt": "2026-10-21T05:44:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733703_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "New York Knicks"
+      ]
+    },
     {
       "id": "50220591",
       "title": "NBA opening day: Celtics-Pistons, 76ers-Knicks, Thunder-Spurs results, highlights",
-      "summary": "The 2026-27 season returned with a tripleheader. Here are all the results and highlights from the opening slate.",
+      "summary": "The 2026-27 season commenced with a tripleheader. Here are all the results and highlights from the opening slate.",
       "url": "https://www.espn.com/nba/story/_/id/50220591/nba-opening-day-live-updates-highlights",
-      "publishedAt": "2026-10-21T04:43:47+00:00",
+      "publishedAt": "2026-10-21T04:53:29+00:00",
       "image": "https://a.espncdn.com/photo/2026/1021/r1733756_608x342_16-9.jpg",
       "author": "ESPN staff",
       "categories": [
@@ -49,20 +229,6 @@
       ]
     },
     {
-      "id": "50232540",
-      "title": "Knicks celebrate NBA title, add surprise Cup banner",
-      "summary": "The Knicks celebrated their 2025-26 season Tuesday with banners -- two of them -- and rings before hosting the 76ers in this season's opener.",
-      "url": "https://www.espn.com/nba/story/_/id/50232540/knicks-nba-cup-banner-championship-night",
-      "publishedAt": "2026-10-21T04:22:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733703_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "New York Knicks"
-      ]
-    },
-    {
       "id": "46933211",
       "title": "NBA consecutive scoring streaks: Player records to know",
       "summary": "LeBron James, Kevin Durant, and SGA are among the NBA players with impressive consecutive scoring streaks. Check out other notable records now.",
@@ -75,20 +241,6 @@
         "LeBron James",
         "Shai Gilgeous-Alexander",
         "Kevin Durant"
-      ]
-    },
-    {
-      "id": "50234172",
-      "title": "76ers win in LeBron James' debut, spoil Knicks' ring night",
-      "summary": "LeBron James began his NBA-record 24th season as Philadelphia sent an opening-night message that it will be a contender for New York's NBA title.",
-      "url": "https://www.espn.com/nba/story/_/id/50234172/76ers-knicks-lebron-james-debut-championship-night",
-      "publishedAt": "2026-10-21T02:57:55+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733762_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "LeBron James"
       ]
     },
     {
@@ -131,25 +283,6 @@
         "SC4U  - Eligible",
         "SC4U - Full Highlight",
         "Philadelphia 76ers @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50232192",
-      "title": "Paul George's 38-point debut not enough as Piston rally late to down Celtics",
-      "summary": "Paul George scored 38 points -- the most by a Celtic in his debut, and the fifth most by a player in his first game with an NBA franchise -- in a 121-113 defeat to the Pistons on Tuesday. But as George put it: \"I'm not a moral victory guy.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50232192/paul-george-38-not-enough-pistons-rally-defeat-celtics",
-      "publishedAt": "2026-10-21T01:08:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733655_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Boston Celtics",
-        "Paul George",
-        "Javonte Green",
-        "Cade Cunningham",
-        "Jayson Tatum",
-        "Payton Pritchard"
       ]
     },
     {
@@ -374,22 +507,6 @@
       ]
     },
     {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-20T17:19:35+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1019/r1732871_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
       "id": "50228655",
       "title": "Stephen A. laughs off Windy's claims of Celtics winning the Atlantic Division",
       "summary": "Stephen A. laughs off Windy's claims of Celtics winning the Atlantic Division",
@@ -574,87 +691,6 @@
         "Virginia Cavaliers",
         "University of Virginia",
         "200305 COLUMNIST PROFILE Leonard Solms"
-      ]
-    },
-    {
-      "id": "50075156",
-      "title": "Fantasy basketball draft guide: Rankings, mock drafts, sleepers, projections and analysis",
-      "summary": "We've got everything you need to help you prepare for and execute a successful draft, all in one place.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50075156/fantasy-basketball-draft-guide-rankings-mock-drafts-sleepers-projections-analysis",
-      "publishedAt": "2026-10-20T04:48:54+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/nba_fantasy_basketball_draft_guide_cr_16x9.jpg",
-      "author": "ESPN Fantasy",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball"
-      ]
-    },
-    {
-      "id": "50223341",
-      "title": "Timberwolves agree to 1-year, $40M extension with Jaden McDaniels",
-      "summary": "The Timberwolves and forward Jaden McDaniels agreed to a one-year, $40 million extension that will keep him under contract through 2029-30.",
-      "url": "https://www.espn.com/nba/story/_/id/50223341/timberwolves-agree-1-year-40m-extension-mcdaniels",
-      "publishedAt": "2026-10-20T04:48:24+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0330/r1636063_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "NBA",
-        "news",
-        "Minnesota Timberwolves",
-        "Jaden McDaniels",
-        "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50222332",
-      "title": "Bucks waive assist-leader Kevin Porter Jr. ahead of season opener",
-      "summary": "The Milwaukee Bucks waived guard Kevin Porter Jr. on Monday after a 2025-26 season in which he led the team in assists per game and ranked second in scoring.",
-      "url": "https://www.espn.com/nba/story/_/id/50222332/bucks-waive-assist-leader-kevin-porter-ahead-season-opener",
-      "publishedAt": "2026-10-20T01:27:44+00:00",
-      "image": "https://a.espncdn.com/photo/2025/1023/r1564926_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Milwaukee Bucks",
-        "Kevin Porter Jr",
-        "news"
-      ]
-    },
-    {
-      "id": "50221792",
-      "title": "Lakers waive former first-round pick Dalton Knecht",
-      "summary": "The Los Angeles Lakers waived their 2024 first-round pick Dalton Knecht on Monday, the team announced.",
-      "url": "https://www.espn.com/nba/story/_/id/50221792/lakers-waive-former-first-round-pick-dalton-knecht",
-      "publishedAt": "2026-10-19T22:16:29+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0619/r1508512_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "Dalton Knecht",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "48957095",
-      "title": "2026 NBA free agency: Grades for offseason signings, extensions",
-      "summary": "We're grading the most important offseason signings, including Cason Wallace's $139 million extension with the Thunder.",
-      "url": "https://www.espn.com/nba/story/_/id/48957095/2026-nba-free-agency-grades-offseason-signings-deals-contracts-extensions-depth-charts",
-      "publishedAt": "2026-10-19T21:51:21+00:00",
-      "image": "https://a.espncdn.com/photo/2025/1103/r1570397_608x342_16-9.jpg",
-      "author": "Zach Kram",
-      "categories": [
-        "NBA",
-        "nba free agency",
-        "Cason Wallace",
-        "Oklahoma City Thunder",
-        "Boston Celtics",
-        "Payton Pritchard",
-        "Golden State Warriors",
-        "Brandin Podziemski",
-        "Zach Kram"
       ]
     }
   ]
