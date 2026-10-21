@@ -1,14 +1,183 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-21T11:48:38.766963+00:00",
+  "updatedAt": "2026-10-21T17:12:17.706957+00:00",
   "articles": [
     {
+      "id": "50238339",
+      "title": "LeBron, Savannah James take fans inside their Los Angeles home, showcase valuables",
+      "summary": "From LeBron's trophies to Savannah's heartbeat necklace, the couple talked about the things that meant the most to them.",
+      "url": "https://www.espn.com/nba/story/_/id/50238339/lebron-james-savanna-home-tour",
+      "publishedAt": "2026-10-21T16:30:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733964_1296x729_16-9.png",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "LeBron James",
+        "Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50238836",
+      "title": "Luka Dončić asks Lakers fans to support 'special team' in full-page ad",
+      "summary": "Lakers star Luka Dončić took out a full-page advertisement in the Los Angeles Times, addressing the city and saying \"tonight we start our run for a championship.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50238836/luka-dončić-asks-lakers-fans-support-special-team",
+      "publishedAt": "2026-10-21T16:29:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1009/r1728065_1296x729_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "Los Angeles Lakers",
+        "NBA",
+        "Luka Doncic",
+        "news",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50238842",
+      "title": "Where to watch 'Inside the NBA' throughout the 2026-27 season",
+      "summary": "Ernie Johnson, Charles Barkley, Shaquille O'Neal and Kenny Smith return with 'Inside the NBA.'",
+      "url": "https://www.espn.com/nba/story/_/id/50238842/watch-nba-2026-26-schedule",
+      "publishedAt": "2026-10-21T16:24:16+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/1023/dm_251023_inside_the_nba_promo/dm_251023_inside_the_nba_promo.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "seo h2w"
+      ]
+    },
+    {
+      "id": "50238106",
+      "title": "Stephen A. shares his one concern with the 76ers",
+      "summary": "Stephen A. shares his one concern with the 76ers",
+      "url": "https://www.espn.com/video/clip/_/id/50238106/stephen-shares-one-concern-76ers",
+      "publishedAt": "2026-10-21T14:56:22+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_104626802_3704605652/ss_20261021_104626802_3704605652.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Verts - Exclude Content",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Stephen A. Smith",
+        "First Take"
+      ]
+    },
+    {
+      "id": "50229896",
+      "title": "Takeaways: LeBron at center?! Why the 76ers had to get creative on opening night",
+      "summary": "Brian Windhorst examines a surprising shift for LeBron, plus more takeaways from the NBA's season-opening tripleheader.",
+      "url": "https://www.espn.com/nba/story/_/id/50229896/lebron-knicks-76ers-thunder-spurs-celtics-pistons",
+      "publishedAt": "2026-10-21T14:47:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733826_1296x729_16-9.jpg",
+      "author": "Brian Windhorst",
+      "categories": [
+        "NBA",
+        "LeBron James",
+        "New York Knicks",
+        "Philadelphia 76ers",
+        "Boston Celtics",
+        "Detroit Pistons",
+        "Oklahoma City Thunder",
+        "San Antonio Spurs",
+        "Aday Mara",
+        "Victor Wembanyama",
+        "Tyrese Maxey",
+        "Karl-Anthony Towns",
+        "Brian Windhorst"
+      ]
+    },
+    {
+      "id": "50220519",
+      "title": "2026-27 NBA schedule: Regular season games on ESPN, ABC",
+      "summary": "ESPN's coverage of the 2026-27 NBA season tips off on Wednesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50220519/nba-season-2026-2027-espn-abc-schedule",
+      "publishedAt": "2026-10-21T14:33:59+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1021/e1bb6fe2-937e-45f3-b7f9-bf342c4ecf28/e1bb6fe2-937e-45f3-b7f9-bf342c4ecf28.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "seo h2w"
+      ]
+    },
+    {
+      "id": "50236979",
+      "title": "J-Will: It's championship or bust for the 76ers, LeBron",
+      "summary": "J-Will: It's championship or bust for the 76ers, LeBron",
+      "url": "https://www.espn.com/video/clip/_/id/50236979/championship-bust-76ers-lebron",
+      "publishedAt": "2026-10-21T13:12:57+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_084009379_3704554548/ss_20261021_084009379_3704554548.jpg",
+      "author": "",
+      "categories": [
+        "Philadelphia 76ers",
+        "New York Knicks",
+        "Jalen Brunson",
+        "2 Star Rating",
+        "NBA",
+        "LeBron James",
+        "VJ Edgecombe",
+        "Tyrese Maxey",
+        "Jay Williams",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "fantasy",
+        "Get Up!",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50234914",
+      "title": "Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
+      "summary": "Sixers center Joel Embiid shined in a season-opening win over the Knicks on Tuesday, posting 13 points, 11 rebounds, two steals and three blocks.",
+      "url": "https://www.espn.com/nba/story/_/id/50234914/sixers-joel-embiid-3-blocks-season-opener-vs-knicks",
+      "publishedAt": "2026-10-21T12:51:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733812_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Joel Embiid",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50234172",
+      "title": "LeBron moonlights at center, helps limit Knicks' Towns in winning Sixers debut",
+      "summary": "LeBron James opened his 24th season with 14 points, nine rebounds and seven assists and even had a defensive impact as a center in his Sixers debut.",
+      "url": "https://www.espn.com/nba/story/_/id/50234172/76ers-knicks-lebron-james-debut-championship-night",
+      "publishedAt": "2026-10-21T12:51:25+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733814_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "LeBron James",
+        "Philadelphia 76ers",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50228500",
+      "title": "The Anthony Edwards-LaMelo Ball partnership opens with chemistry and hope",
+      "summary": "The new LaMelo Ball-Anthony Edwards backcourt opens the season with a lot of flash and a renewed joy in Minnesota.",
+      "url": "https://www.espn.com/nba/story/_/id/50228500/anthony-edwards-lamelo-ball-minnesota-timberwolves",
+      "publishedAt": "2026-10-21T12:48:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733410_2_608x342_16-9.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Minnesota Timberwolves",
+        "Anthony Edwards",
+        "LaMelo Ball",
+        "Jamal Collier"
+      ]
+    },
+    {
       "id": "50229178",
-      "title": "The 5 biggest questions still facing Luka Doncic and the Lakers",
+      "title": "The five biggest questions still facing Luka and the Lakers",
       "summary": "After a transformative offseason on the floor and off, there are still massive unanswered questions for this Lakers team.",
       "url": "https://www.espn.com/nba/story/_/id/50229178/luka-doncic-los-angeles-lakers-questions-nba-season",
-      "publishedAt": "2026-10-21T11:07:57+00:00",
+      "publishedAt": "2026-10-21T12:47:55+00:00",
       "image": "https://a.espncdn.com/photo/2026/1020/r1733452_608x342_16-9.jpg",
       "author": "Dave McMenamin",
       "categories": [
@@ -21,35 +190,58 @@
       ]
     },
     {
-      "id": "50228500",
-      "title": "The Anthony Edwards-LaMelo Ball partnership opens with chemistry and hope",
-      "summary": "The new LaMelo Ball-Anthony Edwards backcourt opens the season with a lot of flash and a renewed joy in Minnesota.",
-      "url": "https://www.espn.com/nba/story/_/id/50228500/anthony-edwards-lamelo-ball-minnesota-timberwolves",
-      "publishedAt": "2026-10-21T11:04:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733410_2_608x342_16-9.jpg",
-      "author": "Jamal Collier",
+      "id": "50235062",
+      "title": "Mike Brown: Would not have felt good about a win vs. 76ers given Knicks' play",
+      "summary": "Knicks coach Mike Brown would've taken the win against the 76ers -- but wouldn't have been happy with it, acknowledging that relying on late-game magic or the feel-good vibes of ring night wouldn't be enough to start the season on a positive note.",
+      "url": "https://www.espn.com/nba/story/_/id/50235062/mike-brown-not-felt-good-knicks-win-vs-76ers-given-play",
+      "publishedAt": "2026-10-21T12:26:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733816_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
       "categories": [
         "NBA",
-        "Minnesota Timberwolves",
-        "Anthony Edwards",
-        "LaMelo Ball",
-        "Jamal Collier"
+        "New York Knicks",
+        "Jalen Brunson",
+        "Philadelphia 76ers",
+        "Vincent Goodwill"
       ]
     },
     {
-      "id": "50234172",
-      "title": "LeBron moonlights at center, helps limit Knicks' Towns in winning Sixers debut",
-      "summary": "LeBron James opened his 24th season with 14 points, nine rebounds and seven assists and even had a defensive impact as a center in his Sixers debut.",
-      "url": "https://www.espn.com/nba/story/_/id/50234172/76ers-knicks-lebron-james-debut-championship-night",
-      "publishedAt": "2026-10-21T10:41:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733814_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
+      "id": "50235327",
+      "title": "Spurs' Victor Wembanyama misses first 12 shots in rough opener vs. Thunder",
+      "summary": "Victor Wembanyama didn't record his first bucket until the end of the third quarter and shot a career-worst 8% from the field as the Thunder got their revenge on the Spurs in Tuesday's Western Conference finals rematch.",
+      "url": "https://www.espn.com/nba/story/_/id/50235327/spurs-victor-wembanyama-misses-first-12-shots-rough-season-opener-vs-thunder",
+      "publishedAt": "2026-10-21T12:25:33+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733818_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
       "categories": [
-        "news",
         "NBA",
-        "LeBron James",
-        "Philadelphia 76ers",
-        "Dave McMenamin"
+        "San Antonio Spurs",
+        "De'Aaron Fox",
+        "Victor Wembanyama",
+        "Oklahoma City Thunder",
+        "Stephon Castle",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50235276",
+      "title": "Thunder win chippy opener vs. Spurs, throw support behind Chet Holmgren",
+      "summary": "The scrap early in the second quarter of Tuesday night's season opener offered some symbolism for Chet Holmgren and his Thunder teammates. Holmgren landed with a thud. As he got back to his feet, his teammates had his back.",
+      "url": "https://www.espn.com/nba/story/_/id/50235276/thunder-win-chippy-opener-vs-spurs-back-chet-holmgren",
+      "publishedAt": "2026-10-21T12:01:56+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733821_600x400_3-2.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "San Antonio Spurs",
+        "Chet Holmgren",
+        "Shai Gilgeous-Alexander",
+        "Jalen Williams",
+        "Jaylin Williams",
+        "Kenrich Williams",
+        "Victor Wembanyama",
+        "Tim MacMahon"
       ]
     },
     {
@@ -97,76 +289,6 @@
         "news - nba",
         "news",
         "200305 COLUMNIST PROFILE Leonard Solms"
-      ]
-    },
-    {
-      "id": "50235327",
-      "title": "Spurs' Victor Wembanyama misses first 12 shots in rough opener vs. Thunder",
-      "summary": "Victor Wembanyama didn't record his first bucket until the end of the third quarter and shot a career-worst 8% from the field as the Thunder got their revenge on the Spurs in Tuesday's Western Conference finals rematch.",
-      "url": "https://www.espn.com/nba/story/_/id/50235327/spurs-victor-wembanyama-misses-first-12-shots-rough-season-opener-vs-thunder",
-      "publishedAt": "2026-10-21T07:38:04+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733818_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "De'Aaron Fox",
-        "Victor Wembanyama",
-        "Oklahoma City Thunder",
-        "Stephon Castle",
-        "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50235276",
-      "title": "Thunder win chippy opener vs. Spurs, throw support behind Chet Holmgren",
-      "summary": "The scrap early in the second quarter of Tuesday night's season opener offered some symbolism for Chet Holmgren and his Thunder teammates. Holmgren landed with a thud. As he got back to his feet, his teammates had his back.",
-      "url": "https://www.espn.com/nba/story/_/id/50235276/thunder-win-chippy-opener-vs-spurs-back-chet-holmgren",
-      "publishedAt": "2026-10-21T07:16:33+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733821_600x400_3-2.jpg",
-      "author": "Tim MacMahon",
-      "categories": [
-        "NBA",
-        "Oklahoma City Thunder",
-        "San Antonio Spurs",
-        "Chet Holmgren",
-        "Shai Gilgeous-Alexander",
-        "Jalen Williams",
-        "Jaylin Williams",
-        "Kenrich Williams",
-        "Victor Wembanyama",
-        "Tim MacMahon"
-      ]
-    },
-    {
-      "id": "50234914",
-      "title": "Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
-      "summary": "Sixers center Joel Embiid shined in a season-opening win over the Knicks on Tuesday, posting 13 points, 11 rebounds, two steals and three blocks.",
-      "url": "https://www.espn.com/nba/story/_/id/50234914/sixers-joel-embiid-3-blocks-season-opener-vs-knicks",
-      "publishedAt": "2026-10-21T06:20:33+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733812_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Joel Embiid",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50235062",
-      "title": "Mike Brown: Would not have felt good about a win vs. 76ers given Knicks' play",
-      "summary": "Knicks coach Mike Brown would've taken the win against the 76ers -- but wouldn't have been happy with it, acknowledging that relying on late-game magic or the feel-good vibes of ring night wouldn't be enough to start the season on a positive note.",
-      "url": "https://www.espn.com/nba/story/_/id/50235062/mike-brown-not-felt-good-knicks-win-vs-76ers-given-play",
-      "publishedAt": "2026-10-21T06:08:22+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733816_600x400_3-2.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Jalen Brunson",
-        "Philadelphia 76ers",
-        "Vincent Goodwill"
       ]
     },
     {
