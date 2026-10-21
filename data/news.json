@@ -1,8 +1,127 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-21T17:12:17.706957+00:00",
+  "updatedAt": "2026-10-21T21:42:44.054125+00:00",
   "articles": [
+    {
+      "id": "50239169",
+      "title": "Sources: Warriors exploring options to trade center Kristaps Porzingis",
+      "summary": "The Warriors have begun exploring trade routes for veteran center Kristaps Porzingis, who remains out indefinitely as he deals with a private health issue, league sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50239169/sources-warriors-exploring-trade-options-kristaps-porzingis",
+      "publishedAt": "2026-10-21T21:33:20+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0928/r1722984_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "Golden State Warriors",
+        "Kristaps Porzingis",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50241679",
+      "title": "Sources: Mavericks agree to two-way deal with Walter Clayton Jr.",
+      "summary": "The Mavericks agree to a two-way NBA deal with former first-round pick Walter Clayton Jr., sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50241679/sources-mavericks-agree-deal-walter-clayton-jr",
+      "publishedAt": "2026-10-21T21:23:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1019/r1733126_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Dallas Mavericks",
+        "Walter Clayton Jr"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-21T20:39:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50240837",
+      "title": "What Wilbon needs to see from Luka this season",
+      "summary": "What Wilbon needs to see from Luka this season",
+      "url": "https://www.espn.com/video/clip/_/id/50240837/what-wilbon-needs-see-luka-season",
+      "publishedAt": "2026-10-21T20:07:04+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_155956700_3704833965/ss_20261021_155956700_3704833965.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "NBA Today",
+        "Michael Wilbon",
+        "Malika Andrews",
+        "Iman Shumpert",
+        "Verts - Exclude Content",
+        "Brian Windhorst"
+      ]
+    },
+    {
+      "id": "50238842",
+      "title": "Where to watch 'Inside the NBA' throughout the 2026-27 season",
+      "summary": "Ernie Johnson, Charles Barkley, Shaquille O'Neal and Kenny Smith return with 'Inside the NBA.'",
+      "url": "https://www.espn.com/nba/story/_/id/50238842/watch-nba-2026-27-schedule",
+      "publishedAt": "2026-10-21T18:42:39+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/1023/dm_251023_inside_the_nba_promo/dm_251023_inside_the_nba_promo.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "seo h2w"
+      ]
+    },
+    {
+      "id": "50240111",
+      "title": "Shams: Warriors 'exploring trade routes' for Kristaps Porzingis",
+      "summary": "Shams: Warriors 'exploring trade routes' for Kristaps Porzingis",
+      "url": "https://www.espn.com/video/clip/_/id/50240111/warriors-exploring-trade-routes-kristaps-porzingis",
+      "publishedAt": "2026-10-21T18:35:52+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_143137740_3704753/ss_20261021_143137740_3704753.jpg",
+      "author": "",
+      "categories": [
+        "Kristaps Porzingis",
+        "Golden State Warriors",
+        "2 Star Rating",
+        "NBA",
+        "Shams Charania",
+        "The Pat McAfee Show",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50239689",
+      "title": "Wednesday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Andre Snellings breaks down Wednesday's 11-game slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50239689/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-10-21T18:20:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1734034_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "Kyshawn George",
+        "Jalen Suggs",
+        "Aaron Gordon",
+        "Andre Snellings"
+      ]
+    },
     {
       "id": "50238339",
       "title": "LeBron, Savannah James take fans inside their Los Angeles home, showcase valuables",
@@ -31,19 +150,6 @@
         "Luka Doncic",
         "news",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50238842",
-      "title": "Where to watch 'Inside the NBA' throughout the 2026-27 season",
-      "summary": "Ernie Johnson, Charles Barkley, Shaquille O'Neal and Kenny Smith return with 'Inside the NBA.'",
-      "url": "https://www.espn.com/nba/story/_/id/50238842/watch-nba-2026-26-schedule",
-      "publishedAt": "2026-10-21T16:24:16+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/1023/dm_251023_inside_the_nba_promo/dm_251023_inside_the_nba_promo.jpg",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "seo h2w"
       ]
     },
     {
@@ -562,22 +668,6 @@
       ]
     },
     {
-      "id": "50220047",
-      "title": "Windhorst: What playing at Madison Square Garden means to LeBron James",
-      "summary": "It's only fitting that LeBron opens his final chapter inside \"The World's Most Famous Arena.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50220047/lebron-james-opener-msg-knicks-76ers",
-      "publishedAt": "2026-10-20T18:50:25+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1019/nba_lebron_msg_love_affair_cr_16x9.jpg",
-      "author": "Brian Windhorst",
-      "categories": [
-        "NBA",
-        "LeBron James",
-        "New York Knicks",
-        "Philadelphia 76ers",
-        "Brian Windhorst"
-      ]
-    },
-    {
       "id": "50229362",
       "title": "Why Adam Silver is optimistic about the parity in the NBA this season",
       "summary": "Why Adam Silver is optimistic about the parity in the NBA this season",
@@ -732,87 +822,6 @@
         "LeBron James",
         "Anthony Davis",
         "Trae Young"
-      ]
-    },
-    {
-      "id": "50227385",
-      "title": "Jason Kidd sees the NBA becoming a game without boundaries",
-      "summary": "Jason Kidd believes the NBA has become increasingly global, positionless and versatile.",
-      "url": "https://www.espn.com/nba/story/_/id/50227385/jason-kidd-sees-nba-becoming-game-boundaries",
-      "publishedAt": "2026-10-20T11:51:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733352_1296x729_16-9.jpg",
-      "author": "Miguel Alfonso Caramoan",
-      "categories": [
-        "NBA"
-      ]
-    },
-    {
-      "id": "50112265",
-      "title": "Both sides of the contract divide between Karl-Anthony Towns and the Knicks",
-      "summary": "Karl-Anthony Towns and the Knicks are far apart on extension talks. ESPN insiders break down each side, plus project where this saga is headed.",
-      "url": "https://www.espn.com/nba/story/_/id/50112265/karl-anthony-towns-new-york-knicks-extension-talks-next",
-      "publishedAt": "2026-10-20T11:02:07+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0929/r1723601_1296x729_16-9.jpg",
-      "author": "NBA insiders",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Karl-Anthony Towns",
-        "NBA Insiders"
-      ]
-    },
-    {
-      "id": "50118254",
-      "title": "Jalen Duren, Pistons need each other -- for better or worse",
-      "summary": "After agreeing to a five-year, $200 million deal, how will Duren and Detroit move forward after a monthslong saga?",
-      "url": "https://www.espn.com/nba/story/_/id/50118254/detroit-pistons-jalen-duren-new-contract",
-      "publishedAt": "2026-10-20T11:00:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726894_608x342_16-9.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Jalen Duren",
-        "Cade Cunningham",
-        "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50174585",
-      "title": "Wemby, Spurs have 'clarity' after Finals loss but know 'nothing is guaranteed'",
-      "summary": "The Spurs enter the season with expectations to return to the Finals after their loss to the Knicks.",
-      "url": "https://www.espn.com/nba/story/_/id/50174585/san-antonio-spurs-wembanyama-expectations-nba",
-      "publishedAt": "2026-10-20T10:58:16+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1014/r1730175_1296x729_16-9.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "Stephon Castle",
-        "De'Aaron Fox",
-        "Dylan Harper",
-        "Keldon Johnson",
-        "Victor Wembanyama",
-        "Devin Vassell",
-        "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50217446",
-      "title": "Ugonna Onyenso thought his NBA dream was over -- then the Detroit Pistons called him up",
-      "summary": "Detroit Pistons center Ugonna Onyenso was surprised to hear his name called out 53rd at the 2026 NBA Draft, having once believed his dream of making the league was over, but is now confident he can grow into the sizable shoes left by Isaiah Stewart.",
-      "url": "https://www.espn.com/espn/story/_/id/50217446/ugonna-onyenso-thought-nba-dream-was-detroit-pistons-called-up",
-      "publishedAt": "2026-10-20T06:08:23+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1019/r1732838_1296x729_16-9.jpg",
-      "author": "Leonard Solms",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Ugonna Onyenso",
-        "NCAA Men's Basketball",
-        "Virginia Cavaliers",
-        "University of Virginia",
-        "200305 COLUMNIST PROFILE Leonard Solms"
       ]
     }
   ]
