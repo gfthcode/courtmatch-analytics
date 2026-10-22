@@ -1,8 +1,443 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-21T21:42:44.054125+00:00",
+  "updatedAt": "2026-10-22T04:44:33.708634+00:00",
   "articles": [
+    {
+      "id": "50245215",
+      "title": "Phoenix Suns vs. Portland Trail Blazers: Game Highlights",
+      "summary": "Phoenix Suns vs. Portland Trail Blazers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50245215/game-highlights",
+      "publishedAt": "2026-10-22T04:43:25+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/3f8bcb5b-c6b3-4195-b047-d3fee56e66f2/3f8bcb5b-c6b3-4195-b047-d3fee56e66f2.jpg",
+      "author": "",
+      "categories": [
+        "Portland Trail Blazers",
+        "Donovan Clingan",
+        "Phoenix Suns",
+        "Damian Lillard",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Jamaree Bouyea",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Devin Booker",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Phoenix Suns @ Portland Trail Blazers"
+      ]
+    },
+    {
+      "id": "50244919",
+      "title": "Anthony Edwards joins Chamberlain, Jordan after dropping 40 in another opener",
+      "summary": "Anthony Edwards joined legends Wilt Chamberlain and Michael Jordan as the only players in NBA history with multiple 40-point games in season openers.",
+      "url": "https://www.espn.com/nba/story/_/id/50244919/anthony-edwards-joins-chamberlain-jordan-dropping-40-another-opener",
+      "publishedAt": "2026-10-22T04:39:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734307_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "news",
+        "Minnesota Timberwolves",
+        "Anthony Edwards"
+      ]
+    },
+    {
+      "id": "50245072",
+      "title": "Giannis Antetokounmpo says Heat need to trust each other more after blowout loss",
+      "summary": "Following an opening night blowout loss to the Timberwolves, Giannis Antetokounmpo preached trust as the primary area that needs improvement for the new-look Heat.",
+      "url": "https://www.espn.com/nba/story/_/id/50245072/giannis-antetokounmpo-says-heat-need-trust-other-more-blowout-opening-loss-timberwolves",
+      "publishedAt": "2026-10-22T04:27:54+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734384_600x400_3-2.jpg",
+      "author": "Cameron Wolfe",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Bam Adebayo"
+      ]
+    },
+    {
+      "id": "50244918",
+      "title": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
+      "summary": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50244918/game-highlights",
+      "publishedAt": "2026-10-22T03:49:27+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/db1e897c-b111-4035-a08e-cebee037a4e3/db1e897c-b111-4035-a08e-cebee037a4e3.jpg",
+      "author": "",
+      "categories": [
+        "Kevin Durant",
+        "Reed Sheppard",
+        "Zaccharie Risacher",
+        "Houston Rockets",
+        "Dallas Mavericks",
+        "Morez Johnson Jr",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Cooper Flagg",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Dallas Mavericks @ Houston Rockets"
+      ]
+    },
+    {
+      "id": "50244806",
+      "title": "Anthony Davis gets 'MVP' chants from eager crowd in strong Wizards debut",
+      "summary": "- How starved are the fans in Washington for watchable basketball?",
+      "url": "https://www.espn.com/nba/story/_/id/50244806/anthony-davis-gets-mvp-chants-strong-wizards-debut",
+      "publishedAt": "2026-10-22T03:37:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734372_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "news",
+        "Washington Wizards",
+        "Anthony Davis"
+      ]
+    },
+    {
+      "id": "50244825",
+      "title": "Ty Jerome breaks Grizzlies' opening-night record with 45 points",
+      "summary": "Ty Jerome breaks Grizzlies' opening-night record with 45 points",
+      "url": "https://www.espn.com/video/clip/_/id/50244825/ty-jerome-breaks-grizzlies-opening-night-record-45-points",
+      "publishedAt": "2026-10-22T03:33:41+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_233049324_3705530/ss_20261021_233049324_3705530.jpg",
+      "author": "",
+      "categories": [
+        "Utah Jazz",
+        "Ty Jerome",
+        "Memphis Grizzlies",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Utah Jazz @ Memphis Grizzlies"
+      ]
+    },
+    {
+      "id": "50244707",
+      "title": "Ty Jerome cooks in Grizzlies' win over the Jazz",
+      "summary": "Ty Jerome cooks in Grizzlies' win over the Jazz",
+      "url": "https://www.espn.com/video/clip/_/id/50244707/ty-jerome-cooks-grizzlies-win-jazz",
+      "publishedAt": "2026-10-22T03:28:09+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/caf1f6cfbe724f998f07552ea9a4bc6e1407/caf1f6cfbe724f998f07552ea9a4bc6e1407.jpg",
+      "author": "",
+      "categories": [
+        "Lauri Markkanen",
+        "Utah Jazz",
+        "Ty Jerome",
+        "SC4U - Full Highlight",
+        "Memphis Grizzlies",
+        "NBA",
+        "SC4U  - Eligible",
+        "Keyonte George",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Utah Jazz @ Memphis Grizzlies"
+      ]
+    },
+    {
+      "id": "50244706",
+      "title": "Indiana Pacers vs. New Orleans Pelicans: Game Highlights",
+      "summary": "Indiana Pacers vs. New Orleans Pelicans: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50244706/game-highlights",
+      "publishedAt": "2026-10-22T03:22:10+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/7fc502d1-89db-4607-b7df-5f41aa7fd48a/7fc502d1-89db-4607-b7df-5f41aa7fd48a.jpg",
+      "author": "",
+      "categories": [
+        "Pascal Siakam",
+        "Dejounte Murray",
+        "Indiana Pacers",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "New Orleans Pelicans",
+        "Tyrese Haliburton",
+        "Zion Williamson",
+        "Ivica Zubac",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Indiana Pacers @ New Orleans Pelicans"
+      ]
+    },
+    {
+      "id": "50244737",
+      "title": "Rockets' Tari Eason ejected after shoving Mavericks' P.J. Washington in back",
+      "summary": "Rockets reserve forward Tari Eason was ejected in the first quarter Wednesday night after shoving Mavericks forward P.J. Washington in the back.",
+      "url": "https://www.espn.com/nba/story/_/id/50244737/rockets-tari-eason-ejected-shoving-mavericks-pj-washington-back",
+      "publishedAt": "2026-10-22T03:19:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734368_600x400_3-2.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "Tari Eason",
+        "NBA",
+        "Houston Rockets",
+        "PJ Washington",
+        "Dallas Mavericks",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50244696",
+      "title": "Chicago Bulls vs. Toronto Raptors: Game Highlights",
+      "summary": "Chicago Bulls vs. Toronto Raptors: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50244696/game-highlights",
+      "publishedAt": "2026-10-22T03:18:11+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/a1f56e57-f17e-4dec-ab52-8a7799944b45/a1f56e57-f17e-4dec-ab52-8a7799944b45.jpg",
+      "author": "",
+      "categories": [
+        "Jamison Battle",
+        "Toronto Raptors",
+        "Immanuel Quickley",
+        "SC4U - Full Highlight",
+        "Chicago Bulls",
+        "NBA",
+        "Jalen Smith",
+        "3 Star Rating",
+        "Matas Buzelis",
+        "SC4U  - Eligible",
+        "Norman Powell",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Chicago Bulls @ Toronto Raptors"
+      ]
+    },
+    {
+      "id": "50244547",
+      "title": "Kawhi Leonard scores 23 points in Toronto return as Raptors rout Bulls",
+      "summary": "Kawhi Leonard scored 23 points in his return to Toronto as the Raptors routed the Bulls 135-92 in their regular season opener on Wednesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50244547/kawhi-leonard-scores-23-points-toronto-return-raptors-rout-bulls-135-92",
+      "publishedAt": "2026-10-22T03:10:13+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734364_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Toronto Raptors",
+        "news",
+        "Kawhi Leonard"
+      ]
+    },
+    {
+      "id": "50244043",
+      "title": "Ant-Man vs. The Greek Freak: Edwards & Antetokounmpo combine for 80 PTS | NBA on ESPN",
+      "summary": "Watch the highlights as Anthony Edwards (45 PTS) leads the Minnesota Timberwolves to a 131-106 win in their season opener against Giannis Antetokounmpo (35 PTS) and the Miami Heat.",
+      "url": "https://www.espn.com/video/clip/_/id/50244043/edwards-antetokounmpo-combine-80-pts-nba-espn",
+      "publishedAt": "2026-10-22T02:42:05+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_221653068_37053701359/ss_20261021_221653068_37053701359.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "Minnesota Timberwolves",
+        "Giannis Antetokounmpo",
+        "NBA",
+        "Anthony Edwards",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA"
+      ]
+    },
+    {
+      "id": "50244155",
+      "title": "Charlotte Hornets vs. Brooklyn Nets: Game Highlights",
+      "summary": "Charlotte Hornets vs. Brooklyn Nets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50244155/game-highlights",
+      "publishedAt": "2026-10-22T02:32:11+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/3cf133ee-9c31-45b9-951d-e6d21ba48f91/3cf133ee-9c31-45b9-951d-e6d21ba48f91.jpg",
+      "author": "",
+      "categories": [
+        "Moussa Diabate",
+        "Julius Randle",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Naz Reid",
+        "Charlotte Hornets",
+        "Grayson Allen",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Charlotte Hornets @ Brooklyn Nets"
+      ]
+    },
+    {
+      "id": "50243887",
+      "title": "Milwaukee Bucks vs. Washington Wizards: Game Highlights",
+      "summary": "Milwaukee Bucks vs. Washington Wizards: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50243887/game-highlights",
+      "publishedAt": "2026-10-22T02:26:36+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/8caadc58-e7ca-41a8-9559-baa7cb8c7b30/8caadc58-e7ca-41a8-9559-baa7cb8c7b30.jpg",
+      "author": "",
+      "categories": [
+        "Washington Wizards",
+        "Justin Champagnie",
+        "Bilal Coulibaly",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Brayden Burries",
+        "SC4U  - Eligible",
+        "Anthony Davis",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Milwaukee Bucks @ Washington Wizards"
+      ]
+    },
+    {
+      "id": "50244012",
+      "title": "Edwards, Ball shine as new-look Wolves down Heat",
+      "summary": "Edwards, Ball shine as new-look Wolves down Heat",
+      "url": "https://www.espn.com/video/clip/_/id/50244012/edwards-ball-shine-new-look-wolves-heat",
+      "publishedAt": "2026-10-22T02:17:34+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/5935907f-e8cd-4aa8-8bca-9c8e00a51658/5935907f-e8cd-4aa8-8bca-9c8e00a51658.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "Minnesota Timberwolves",
+        "Giannis Antetokounmpo",
+        "LaMelo Ball",
+        "NBA",
+        "Anthony Edwards",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U - Full Highlight",
+        "SC4U  - Eligible",
+        "Minnesota Timberwolves @ Miami Heat"
+      ]
+    },
+    {
+      "id": "50243989",
+      "title": "Atlanta Hawks vs. Orlando Magic: Game Highlights",
+      "summary": "Atlanta Hawks vs. Orlando Magic: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50243989/game-highlights",
+      "publishedAt": "2026-10-22T02:13:39+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/fa599c40-8947-4317-b326-3132ad6b870c/fa599c40-8947-4317-b326-3132ad6b870c.jpg",
+      "author": "",
+      "categories": [
+        "Nickeil Alexander-Walker",
+        "Orlando Magic",
+        "Onyeka Okongwu",
+        "Atlanta Hawks",
+        "Desmond Bane",
+        "SC4U - Full Highlight",
+        "Paolo Banchero",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Atlanta Hawks @ Orlando Magic"
+      ]
+    },
+    {
+      "id": "50242948",
+      "title": "Tyrese Haliburton pays homage to Triple H's MSG outfit in return to NBA action",
+      "summary": "An avid WWE fan, Tyrese Haliburton wore a denim and leather jacket similar to the one worn by Triple H when he returned from a torn quad.",
+      "url": "https://www.espn.com/nba/story/_/id/50242948/tyrese-haliburton-pacers-triple-h-return",
+      "publishedAt": "2026-10-22T01:15:17+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1734269_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Indiana Pacers",
+        "Tyrese Haliburton",
+        "Pro Wrestling",
+        "WWE",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "28118392",
+      "title": "Senators fans booing Tkachuk reminiscent of previous unpleasant sports returns",
+      "summary": "Brady Tkachuk isn't the first notable sports figure to be met with jeers by fans of his prior team.",
+      "url": "https://www.espn.com/nhl/story/_/id/28118392/athletes-faced-wrath-jilted-fans",
+      "publishedAt": "2026-10-22T00:14:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1734174_1296x729_16-9.jpg",
+      "author": "Tory Barron",
+      "categories": [
+        "NBA",
+        "NFL",
+        "MLB",
+        "NHL",
+        "LeBron James",
+        "Ben Simmons",
+        "New England Patriots",
+        "Kevin Durant",
+        "Jack Eichel",
+        "Columbus Blue Jackets",
+        "Calgary Flames",
+        "NCAA Men's Basketball",
+        "Juan Soto",
+        "Brady Tkachuk",
+        "Ottawa Senators",
+        "Florida Panthers"
+      ]
+    },
+    {
+      "id": "50238339",
+      "title": "LeBron, Savannah James take fans inside their Los Angeles home, showcase valuables",
+      "summary": "From LeBron's trophies to Savannah's heartbeat necklace, the couple talked about the things that meant the most to them.",
+      "url": "https://www.espn.com/nba/story/_/id/50238339/lebron-james-savannah-home-tour",
+      "publishedAt": "2026-10-22T00:11:35+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733964_1296x729_16-9.png",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "LeBron James",
+        "Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50242524",
+      "title": "Shaq on 76ers' Finals hopes: 'They can't do it without Joel Embiid'",
+      "summary": "Shaq on 76ers' Finals hopes: 'They can't do it without Joel Embiid'",
+      "url": "https://www.espn.com/video/clip/_/id/50242524/do-joel-embiid",
+      "publishedAt": "2026-10-21T23:20:27+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_191549502_3705002/ss_20261021_191549502_3705002.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Fantasy NBA",
+        "Shaquille O'Neal",
+        "Joel Embiid",
+        "Tyrese Maxey",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Inside the NBA"
+      ]
+    },
+    {
+      "id": "50242518",
+      "title": "LaMelo: Joining Timberwolves has been 'amazing'",
+      "summary": "LaMelo: Joining Timberwolves has been 'amazing'",
+      "url": "https://www.espn.com/video/clip/_/id/50242518/joining-timberwolves-amazing",
+      "publishedAt": "2026-10-21T23:19:30+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_191331865_3705000/ss_20261021_191331865_3705000.jpg",
+      "author": "",
+      "categories": [
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "2 Star Rating",
+        "NBA",
+        "Anthony Edwards",
+        "Charlotte Hornets",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA"
+      ]
+    },
     {
       "id": "50239169",
       "title": "Sources: Warriors exploring options to trade center Kristaps Porzingis",
@@ -123,20 +558,6 @@
       ]
     },
     {
-      "id": "50238339",
-      "title": "LeBron, Savannah James take fans inside their Los Angeles home, showcase valuables",
-      "summary": "From LeBron's trophies to Savannah's heartbeat necklace, the couple talked about the things that meant the most to them.",
-      "url": "https://www.espn.com/nba/story/_/id/50238339/lebron-james-savanna-home-tour",
-      "publishedAt": "2026-10-21T16:30:16+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733964_1296x729_16-9.png",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "LeBron James",
-        "Philadelphia 76ers"
-      ]
-    },
-    {
       "id": "50238836",
       "title": "Luka Dončić asks Lakers fans to support 'special team' in full-page ad",
       "summary": "Lakers star Luka Dončić took out a full-page advertisement in the Los Angeles Times, addressing the city and saying \"tonight we start our run for a championship.\"",
@@ -232,37 +653,6 @@
       ]
     },
     {
-      "id": "50234914",
-      "title": "Sixers' Joel Embiid has 3 blocks in win over Knicks, eyes All-Defensive season",
-      "summary": "Sixers center Joel Embiid shined in a season-opening win over the Knicks on Tuesday, posting 13 points, 11 rebounds, two steals and three blocks.",
-      "url": "https://www.espn.com/nba/story/_/id/50234914/sixers-joel-embiid-3-blocks-season-opener-vs-knicks",
-      "publishedAt": "2026-10-21T12:51:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733812_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Joel Embiid",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50234172",
-      "title": "LeBron moonlights at center, helps limit Knicks' Towns in winning Sixers debut",
-      "summary": "LeBron James opened his 24th season with 14 points, nine rebounds and seven assists and even had a defensive impact as a center in his Sixers debut.",
-      "url": "https://www.espn.com/nba/story/_/id/50234172/76ers-knicks-lebron-james-debut-championship-night",
-      "publishedAt": "2026-10-21T12:51:25+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733814_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "LeBron James",
-        "Philadelphia 76ers",
-        "Dave McMenamin"
-      ]
-    },
-    {
       "id": "50228500",
       "title": "The Anthony Edwards-LaMelo Ball partnership opens with chemistry and hope",
       "summary": "The new LaMelo Ball-Anthony Edwards backcourt opens the season with a lot of flash and a renewed joy in Minnesota.",
@@ -293,22 +683,6 @@
         "Austin Reaves",
         "Walker Kessler",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50235062",
-      "title": "Mike Brown: Would not have felt good about a win vs. 76ers given Knicks' play",
-      "summary": "Knicks coach Mike Brown would've taken the win against the 76ers -- but wouldn't have been happy with it, acknowledging that relying on late-game magic or the feel-good vibes of ring night wouldn't be enough to start the season on a positive note.",
-      "url": "https://www.espn.com/nba/story/_/id/50235062/mike-brown-not-felt-good-knicks-win-vs-76ers-given-play",
-      "publishedAt": "2026-10-21T12:26:28+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733816_600x400_3-2.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Jalen Brunson",
-        "Philadelphia 76ers",
-        "Vincent Goodwill"
       ]
     },
     {
@@ -351,25 +725,6 @@
       ]
     },
     {
-      "id": "50232192",
-      "title": "Paul George's 38-point debut not enough as Piston rally late to down Celtics",
-      "summary": "Paul George scored 38 points -- the most by a Celtic in his debut, and the fifth most by a player in his first game with an NBA franchise -- in a 121-113 defeat to the Pistons on Tuesday. But as George put it: \"I'm not a moral victory guy.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50232192/paul-george-38-not-enough-pistons-rally-defeat-celtics",
-      "publishedAt": "2026-10-21T10:30:32+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733655_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Boston Celtics",
-        "Paul George",
-        "Javonte Green",
-        "Cade Cunningham",
-        "Jayson Tatum",
-        "Payton Pritchard"
-      ]
-    },
-    {
       "id": "50235880",
       "title": "Victor Wembanyama, Giannis Antetokounmpo lead record African heritage presence in NBA",
       "summary": "Eighteen African countries are represented in the league, with Nigeria accounting for nearly half the number with 29 players of Nigerian origin.",
@@ -395,433 +750,6 @@
         "news - nba",
         "news",
         "200305 COLUMNIST PROFILE Leonard Solms"
-      ]
-    },
-    {
-      "id": "50232540",
-      "title": "Knicks celebrate NBA title, add surprise Cup banner",
-      "summary": "The Knicks celebrated their 2025-26 season Tuesday with banners -- two of them -- and rings before hosting the 76ers in this season's opener.",
-      "url": "https://www.espn.com/nba/story/_/id/50232540/knicks-nba-cup-banner-championship-night",
-      "publishedAt": "2026-10-21T05:44:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733703_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "New York Knicks"
-      ]
-    },
-    {
-      "id": "50220591",
-      "title": "NBA opening day: Celtics-Pistons, 76ers-Knicks, Thunder-Spurs results, highlights",
-      "summary": "The 2026-27 season commenced with a tripleheader. Here are all the results and highlights from the opening slate.",
-      "url": "https://www.espn.com/nba/story/_/id/50220591/nba-opening-day-live-updates-highlights",
-      "publishedAt": "2026-10-21T04:53:29+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733756_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "Boston Celtics",
-        "Detroit Pistons",
-        "New York Knicks",
-        "Philadelphia 76ers",
-        "Oklahoma City Thunder",
-        "San Antonio Spurs",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50234757",
-      "title": "Thunder start season with impressive win over the Spurs",
-      "summary": "Thunder start season with impressive win over the Spurs",
-      "url": "https://www.espn.com/video/clip/_/id/50234757/thunder-start-season-impressive-win-spurs",
-      "publishedAt": "2026-10-21T04:35:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1021/df9c18f4-c11b-44cf-ad13-db824f3ebcaa/df9c18f4-c11b-44cf-ad13-db824f3ebcaa.jpg",
-      "author": "",
-      "categories": [
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Chet Holmgren",
-        "Jared McCain",
-        "Oklahoma City Thunder",
-        "NBA",
-        "Keldon Johnson",
-        "Aday Mara",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Oklahoma City Thunder @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "46933211",
-      "title": "NBA consecutive scoring streaks: Player records to know",
-      "summary": "LeBron James, Kevin Durant, and SGA are among the NBA players with impressive consecutive scoring streaks. Check out other notable records now.",
-      "url": "https://www.espn.com/nba/story/_/id/46933211/nba-consecutive-scoring-streaks-player-records-know",
-      "publishedAt": "2026-10-21T03:58:09+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0614/r1506460_608x342_16-9.jpg",
-      "author": "Keith Jenkins",
-      "categories": [
-        "NBA",
-        "LeBron James",
-        "Shai Gilgeous-Alexander",
-        "Kevin Durant"
-      ]
-    },
-    {
-      "id": "50233539",
-      "title": "Pistons kick off season vs. Celtics with NBA's largest opening day comeback",
-      "summary": "The Pistons rallied from a 22-point deficit against the Celtics to pull off the largest comeback on the first day of an NBA season in the play-by-play era.",
-      "url": "https://www.espn.com/nba/story/_/id/50233539/pistons-open-season-22-point-comeback-vs-celtics",
-      "publishedAt": "2026-10-21T02:38:58+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733731_600x400_3-2.jpg",
-      "author": "Eric Woodyard",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Boston Celtics",
-        "Jalen Duren",
-        "Cade Cunningham",
-        "Eric Woodyard"
-      ]
-    },
-    {
-      "id": "50234135",
-      "title": "76ers spoil Knicks' ring night with win at the Garden",
-      "summary": "76ers spoil Knicks' ring night with win at the Garden",
-      "url": "https://www.espn.com/video/clip/_/id/50234135/76ers-spoil-knicks-ring-night-win-garden",
-      "publishedAt": "2026-10-21T02:19:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1021/e1bb6fe2-937e-45f3-b7f9-bf342c4ecf28/e1bb6fe2-937e-45f3-b7f9-bf342c4ecf28.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "Karl-Anthony Towns",
-        "New York Knicks",
-        "Jalen Brunson",
-        "NBA",
-        "LeBron James",
-        "Tyrese Maxey",
-        "Jaylen Brown",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Philadelphia 76ers @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50233339",
-      "title": "Warriors' Brandin Podziemski to miss opener vs. Lakers with back soreness",
-      "summary": "The Warriors will be without Brandin Podziemski for their season opener against the Lakers because of a back issue, a surprise scratch for the durable 23-year-old.",
-      "url": "https://www.espn.com/nba/story/_/id/50233339/warriors-guard-podziemski-vs-lakers-back-soreness",
-      "publishedAt": "2026-10-21T00:59:00+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733709_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Golden State Warriors",
-        "Los Angeles Lakers",
-        "Brandin Podziemski",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50232351",
-      "title": "JJ Redick says Lakers' 'biggest unknown' is how they will deal with adversity",
-      "summary": "JJ Redick said the Lakers' \"biggest unknown\" is how his new-look roster sans LeBron James will deal with adversity.",
-      "url": "https://www.espn.com/nba/story/_/id/50232351/redick-lakers-biggest-test-dealing-adversity",
-      "publishedAt": "2026-10-20T22:45:07+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0411/r1641743_600x400_3-2.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50232313",
-      "title": "Boston Celtics vs. Detroit Pistons: Game Highlights",
-      "summary": "Boston Celtics vs. Detroit Pistons: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50232313/game-highlights",
-      "publishedAt": "2026-10-20T22:07:39+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1020/64082d05-d539-4106-a2bf-3a0223a08711/64082d05-d539-4106-a2bf-3a0223a08711.jpg",
-      "author": "",
-      "categories": [
-        "Paul George",
-        "Boston Celtics",
-        "Detroit Pistons",
-        "NBA",
-        "Cade Cunningham",
-        "Ausar Thompson",
-        "Payton Pritchard",
-        "Mitchell Robinson",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U - Full Highlight",
-        "SC4U  - Eligible",
-        "Boston Celtics @ Detroit Pistons"
-      ]
-    },
-    {
-      "id": "50231767",
-      "title": "Kon Knueppel, Coby White out for Hornets' season opener",
-      "summary": "The Hornets will be without guards Kon Knueppel and Coby White as well as veteran forward Grant Williams as they open their season Wednesday at Brooklyn.",
-      "url": "https://www.espn.com/nba/story/_/id/50231767/hornets-opener-kon-knueppel-coby-white-grant-williams",
-      "publishedAt": "2026-10-20T21:10:19+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0403/r1637873_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Charlotte Hornets",
-        "Kon Knueppel",
-        "Coby White",
-        "Grant Williams"
-      ]
-    },
-    {
-      "id": "50230164",
-      "title": "NBA championship and MVP odds: Spurs, Thunder tied entering season; Wemby ahead of SGA",
-      "summary": "Each team's odds to win the NBA title, conference and division, plus MVP odds.",
-      "url": "https://www.espn.com/espn/betting/story/_/id/50230164/nba-championship-mvp-betting-odds-2026-2027",
-      "publishedAt": "2026-10-20T19:59:17+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733499_1296x729_16-9.jpg",
-      "author": "Doug Greenberg",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "New York Knicks",
-        "San Antonio Spurs",
-        "Oklahoma City Thunder",
-        "Philadelphia 76ers",
-        "Cleveland Cavaliers",
-        "Houston Rockets",
-        "Boston Celtics",
-        "Sacramento Kings",
-        "Golden State Warriors",
-        "Los Angeles Lakers",
-        "LA Clippers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Utah Jazz",
-        "Dallas Mavericks",
-        "New Orleans Pelicans",
-        "Orlando Magic",
-        "Miami Heat",
-        "Atlanta Hawks",
-        "Washington Wizards",
-        "Charlotte Hornets",
-        "Brooklyn Nets",
-        "Indiana Pacers",
-        "Minnesota Timberwolves",
-        "Chicago Bulls",
-        "Milwaukee Bucks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Toronto Raptors",
-        "Memphis Grizzlies",
-        "Doug Greenberg"
-      ]
-    },
-    {
-      "id": "50230331",
-      "title": "Silver: LeBron's helicopter travel 'perfectly appropriate'",
-      "summary": "The helicopter used by Philadelphia 76ers forward LeBron James to commute from New York is \"perfectly appropriate,\" NBA commissioner Adam Silver said on \"The Pat McAfee Show\" on Tuesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50230331/silver-lebron-helicopter-travel-perfectly-appropriate",
-      "publishedAt": "2026-10-20T19:33:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1009/r1728114_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50230543",
-      "title": "Adam Silver: LeBron's helicopter travel 'perfectly appropriate'",
-      "summary": "Adam Silver: LeBron's helicopter travel 'perfectly appropriate'",
-      "url": "https://www.espn.com/video/clip/_/id/50230543/lebron-helicopter-travel-perfectly-appropriate",
-      "publishedAt": "2026-10-20T19:28:37+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1020/ss_20261020_152350629_3703764/ss_20261020_152350629_3703764.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "NBA",
-        "LeBron James",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Pat McAfee",
-        "The Pat McAfee Show",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50229362",
-      "title": "Why Adam Silver is optimistic about the parity in the NBA this season",
-      "summary": "Why Adam Silver is optimistic about the parity in the NBA this season",
-      "url": "https://www.espn.com/video/clip/_/id/50229362/why-adam-silver-optimistic-parity-nba-season",
-      "publishedAt": "2026-10-20T17:36:17+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1020/ss_20261020_130459642_3703694790/ss_20261020_130459642_3703694790.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Pat McAfee",
-        "The Pat McAfee Show",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50228665",
-      "title": "Who to add in fantasy and the bets to make when the NBA season tips off Tuesday",
-      "summary": "Eric Moody breaks down Tuesday's NBA action as the NBA tips off with three games, highlighting the players to add in fantasy and the bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50228665/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-10-20T17:34:52+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733424_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "San Antonio Spurs",
-        "Oklahoma City Thunder",
-        "Philadelphia 76ers",
-        "New York Knicks",
-        "Detroit Pistons",
-        "Boston Celtics"
-      ]
-    },
-    {
-      "id": "50229436",
-      "title": "Wizards' AJ Dybantsa (ankle) to miss season opener",
-      "summary": "AJ Dybantsa, the No. 1 pick in the NBA draft, will miss the Wizards' season opener Wednesday because of an ankle injury.",
-      "url": "https://www.espn.com/nba/story/_/id/50229436/wizards-aj-dybantsa-ankle-miss-season-opener",
-      "publishedAt": "2026-10-20T17:27:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733453_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Washington Wizards",
-        "AJ Dybantsa"
-      ]
-    },
-    {
-      "id": "50228655",
-      "title": "Stephen A. laughs off Windy's claims of Celtics winning the Atlantic Division",
-      "summary": "Stephen A. laughs off Windy's claims of Celtics winning the Atlantic Division",
-      "url": "https://www.espn.com/video/clip/_/id/50228655/stephen-laughs-windy-claims-celtics-winning-atlantic-division",
-      "publishedAt": "2026-10-20T16:10:26+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1020/dm_261020_Celtics/dm_261020_Celtics.jpg",
-      "author": "",
-      "categories": [
-        "Boston Celtics",
-        "First Take",
-        "Jaylen Brown",
-        "Jayson Tatum",
-        "NBA",
-        "Philadelphia 76ers",
-        "Stephen A. Smith",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50228876",
-      "title": "NBA to make big investment into European basketball league",
-      "summary": "The NBA will make what it calls the biggest investment ever into European basketball when it starts a league there in 2027, deputy commissioner Mark Tatum said.",
-      "url": "https://www.espn.com/nba/story/_/id/50228876/nba-make-big-investment-european-basketball-league",
-      "publishedAt": "2026-10-20T16:09:33+00:00",
-      "image": "https://a.espncdn.com/photo/2024/0724/r1362724_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA"
-      ]
-    },
-    {
-      "id": "50220319",
-      "title": "NBA betting: Our experts' best bets and bets to avoid for 2026-27",
-      "summary": "Which bets stand out most? Which should you avoid? Here's what our experts say.",
-      "url": "https://www.espn.com/espn/betting/story/_/id/50220319/nba-betting-best-bets-2026-2027-season",
-      "publishedAt": "2026-10-20T13:20:16+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733193_1296x729_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "Sports Betting",
-        "news – sports betting"
-      ]
-    },
-    {
-      "id": "50221526",
-      "title": "How the Knicks celebrated their long-awaited championship in the offseason",
-      "summary": "From Jalen Brunson's SNL appearance to KAT's wedding, it all began with one event that turned into a domino effect: a Knicks title.",
-      "url": "https://www.espn.com/nba/story/_/id/50221526/how-new-york-knicks-celebrated-championship-offseason",
-      "publishedAt": "2026-10-20T12:44:34+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733188_608x342_16-9.jpg",
-      "author": "J.J. Post and Kalan Hooks",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Josh Hart",
-        "Jalen Brunson",
-        "Karl-Anthony Towns",
-        "OG Anunoby",
-        "Mikal Bridges",
-        "Kalan Hooks"
-      ]
-    },
-    {
-      "id": "39431648",
-      "title": "LeBron James' most notable Madison Square Garden appearances",
-      "summary": "Here are some of LeBron James' memorable performances at the world's most famous arena throughout the years as he faces the Knicks on Tuesday.",
-      "url": "https://www.espn.com/nba/story/_/id/39431648/lebron-james-madison-square-garden-best-performances",
-      "publishedAt": "2026-10-20T12:43:07+00:00",
-      "image": "https://a.espncdn.com/photo/2024/0131/r1285187_608x342_16-9.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "New York Knicks",
-        "LeBron James",
-        "Philadelphia 76ers",
-        "Anthony Gharib"
-      ]
-    },
-    {
-      "id": "50224864",
-      "title": "Fantasy basketball: Bold predictions for the 2026-27 season",
-      "summary": "Our fantasy hoops experts for their boldest predictions for the 2026-27 NBA season.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50224864/fantasy-basketball-bold-predictions-nba-2026-2027",
-      "publishedAt": "2026-10-20T12:33:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1020/r1733280_1296x729_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "NBA",
-        "Kel'el Ware",
-        "Nikola Jokic",
-        "Luka Doncic",
-        "Victor Wembanyama",
-        "Giannis Antetokounmpo",
-        "Julius Randle",
-        "Walker Kessler",
-        "LeBron James",
-        "Anthony Davis",
-        "Trae Young"
       ]
     }
   ]
