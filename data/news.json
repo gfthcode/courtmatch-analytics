@@ -1,8 +1,85 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-22T17:10:28.523436+00:00",
+  "updatedAt": "2026-10-22T21:35:31.343868+00:00",
   "articles": [
+    {
+      "id": "50251603",
+      "title": "President Trump criticizes 76ers' LeBron James for actions amid national anthem",
+      "summary": "President Donald Trump has accused LeBron James of disrespecting the U.S. after the 76ers star appeared to continue his warmups during the national anthem.",
+      "url": "https://www.espn.com/nba/story/_/id/50251603/president-trump-criticizes-lebron-james-anthem-actions",
+      "publishedAt": "2026-10-22T20:19:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734683_600x600_1-1.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "news"
+      ]
+    },
+    {
+      "id": "50251415",
+      "title": "Why Michael Wilbon loved testy matchup between Luka and Yaxel",
+      "summary": "Why Michael Wilbon loved testy matchup between Luka and Yaxel",
+      "url": "https://www.espn.com/video/clip/_/id/50251415/why-michael-wilbon-loved-testy-matchup-luka-yaxel",
+      "publishedAt": "2026-10-22T19:47:08+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_152812315_3706009937/ss_20261022_152812315_3706009937.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Los Angeles Lakers",
+        "Michael Wilbon",
+        "Brian Windhorst",
+        "Malika Andrews",
+        "NBA Today",
+        "Yaxel Lendeborg",
+        "Luka Doncic",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50250900",
+      "title": "LaMelo Ball obviously traveled on way to 3-pointer, NBA refs confirm",
+      "summary": "The association that represents NBA referees confirmed that LaMelo Ball took two steps too many and traveled in a widely seen clip from Wednesday night's win over Miami.",
+      "url": "https://www.espn.com/nba/story/_/id/50250900/lamelo-ball-really-did-travel-en-route-3-point-attempt-nba-refs-confirm",
+      "publishedAt": "2026-10-22T19:02:11+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734623_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "news",
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "Miami Heat"
+      ]
+    },
+    {
+      "id": "50245413",
+      "title": "Sacramento Kings vs. LA Clippers: Game Highlights",
+      "summary": "Sacramento Kings vs. LA Clippers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50245413/game-highlights",
+      "publishedAt": "2026-10-22T17:13:07+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/53b3d88d-b55b-4bb7-baac-bfd489ee472c/53b3d88d-b55b-4bb7-baac-bfd489ee472c.jpg",
+      "author": "",
+      "categories": [
+        "Zach LaVine",
+        "Domantas Sabonis",
+        "Isaiah Jackson",
+        "SC4U - Full Highlight",
+        "Darius Garland",
+        "Daeqwon Plowden",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "LA Clippers",
+        "Derrick Jones Jr",
+        "nba highlight",
+        "Sacramento Kings",
+        "Sacramento Kings @ LA Clippers"
+      ]
+    },
     {
       "id": "50239219",
       "title": "How Sam Presti's 'slow and steady' trust in SGA created a two-time MVP",
@@ -297,32 +374,6 @@
       "categories": [
         "Ben Simmons",
         "NBA"
-      ]
-    },
-    {
-      "id": "50245413",
-      "title": "Sacramento Kings vs. LA Clippers: Game Highlights",
-      "summary": "Sacramento Kings vs. LA Clippers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50245413/game-highlights",
-      "publishedAt": "2026-10-22T05:08:19+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/53b3d88d-b55b-4bb7-baac-bfd489ee472c/53b3d88d-b55b-4bb7-baac-bfd489ee472c.jpg",
-      "author": "",
-      "categories": [
-        "Zach LaVine",
-        "Domantas Sabonis",
-        "Isaiah Jackson",
-        "SC4U - Full Highlight",
-        "Darius Garland",
-        "Daeqwon Plowden",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "LA Clippers",
-        "Derrick Jones Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Sacramento Kings @ LA Clippers"
       ]
     },
     {
