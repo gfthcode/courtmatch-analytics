@@ -1,14 +1,222 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-22T11:52:13.793936+00:00",
+  "updatedAt": "2026-10-22T17:10:28.523436+00:00",
   "articles": [
+    {
+      "id": "50239219",
+      "title": "How Sam Presti's 'slow and steady' trust in SGA created a two-time MVP",
+      "summary": "The Thunder GM and the two-time MVP have created a partnership that fueled OKC's rise.",
+      "url": "https://www.espn.com/nba/story/_/id/50239219/shai-gilgeous-alexander-sam-presti-bond-okc-thunder",
+      "publishedAt": "2026-10-22T16:58:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1734002_608x342_16-9.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "Shai Gilgeous-Alexander",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50240277",
+      "title": "Thursday's fantasy basketball adds and bets we like in the NBA",
+      "summary": "Eric Moody breaks down Thursday's games, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50240277/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-10-22T16:50:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734530_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "Aaron Gordon",
+        "Jared McCain",
+        "Tyrese Maxey",
+        "Anfernee Simons",
+        "Christian Braun",
+        "news - fantasy basketball"
+      ]
+    },
+    {
+      "id": "50239883",
+      "title": "Inside Caleb Williams' group of famous Chicago sports friends",
+      "summary": "Bears QB Caleb Williams is part of a trio of young Chicago athletes whose friendship transcends sports.",
+      "url": "https://www.espn.com/nfl/story/_/id/50239883/bears-qb-caleb-williams-cubs-pca",
+      "publishedAt": "2026-10-22T16:22:45+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1019/nfl_caleb_chicago_cr_16x9.jpg",
+      "author": "Courtney Cronin",
+      "categories": [
+        "NFL",
+        "Chicago Bears",
+        "Caleb Williams",
+        "MLB",
+        "Chicago Cubs",
+        "Pete Crow-Armstrong",
+        "NBA",
+        "Chicago Bulls",
+        "Matas Buzelis",
+        "Courtney Cronin"
+      ]
+    },
+    {
+      "id": "50248901",
+      "title": "Why Stephen A. says we should 'all be rooting for the Timberwolves'",
+      "summary": "Why Stephen A. says we should 'all be rooting for the Timberwolves'",
+      "url": "https://www.espn.com/video/clip/_/id/50248901/why-stephen-says-all-rooting-timberwolves",
+      "publishedAt": "2026-10-22T14:27:44+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_101343390_3705781624/ss_20261022_101343390_3705781624.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Stephen A. Smith",
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "Anthony Edwards",
+        "First Take"
+      ]
+    },
+    {
+      "id": "50248610",
+      "title": "Yaxel Lendeborg: I lost all respect for Luka Doncic",
+      "summary": "Yaxel Lendeborg: I lost all respect for Luka Doncic",
+      "url": "https://www.espn.com/video/clip/_/id/50248610/lost-all-respect-luka-doncic",
+      "publishedAt": "2026-10-22T14:03:25+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_094013393_3705765/ss_20261022_094013393_3705765.jpg",
+      "author": "",
+      "categories": [
+        "Golden State Warriors",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Yaxel Lendeborg",
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "Verts - Exclude Content",
+        "Golden State Warriors @ Los Angeles Lakers"
+      ]
+    },
+    {
+      "id": "50245902",
+      "title": "Warriors' Yaxel Lendeborg: 'Lost all respect' for Luka Doncic",
+      "summary": "Yaxel Lendeborg said it was an \"interesting first game for me\" after defending the Lakers superstar in his professional debut.",
+      "url": "https://www.espn.com/nba/story/_/id/50245902/warriors-yaxel-lendeborg-lost-all-respect-luka-doncic",
+      "publishedAt": "2026-10-22T13:45:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734401_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "Golden State Warriors",
+        "Los Angeles Lakers",
+        "Yaxel Lendeborg",
+        "Luka Doncic",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50248348",
+      "title": "LaMelo comically fends off travel claims on 'SportsCenter'",
+      "summary": "LaMelo comically fends off travel claims on 'SportsCenter'",
+      "url": "https://www.espn.com/video/clip/_/id/50248348/lamelo-comically-fends-travel-claims-sportscenter",
+      "publishedAt": "2026-10-22T12:58:07+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_085058477_3705747/ss_20261022_085058477_3705747.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SportsCenter",
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50246805",
+      "title": "Why Warriors-Lakers was the quiet end of an incredible NBA era",
+      "summary": "For more than a decade, LeBron James shaped a massive rivalry with Stephen Curry and the Warriors. Now he's gone. Left in his wake are two teams, each in dramatic transformation.",
+      "url": "https://www.espn.com/nba/story/_/id/50246805/warriors-lakers-lebron-james-luka-doncic",
+      "publishedAt": "2026-10-22T12:51:27+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734424_576x324_16-9.jpg",
+      "author": "Ramona Shelburne",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Luka Doncic",
+        "Austin Reaves",
+        "LeBron James",
+        "Golden State Warriors",
+        "Stephen Curry",
+        "Ramona Shelburne"
+      ]
+    },
+    {
+      "id": "50248177",
+      "title": "'Steph Curry, what have you signed up for?' Goodwill's concern for Warriors' season",
+      "summary": "'Steph Curry, what have you signed up for?' Goodwill's concern for Warriors' season",
+      "url": "https://www.espn.com/video/clip/_/id/50248177/steph-curry-signed-goodwill-concern-warriors-season",
+      "publishedAt": "2026-10-22T12:36:31+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_082317971_3705736513/ss_20261022_082317971_3705736513.jpg",
+      "author": "",
+      "categories": [
+        "Stephen Curry",
+        "Golden State Warriors",
+        "2 Star Rating",
+        "NBA",
+        "fantasy",
+        "Jimmy Butler III",
+        "Moses Moody",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50247063",
+      "title": "Luka Doncic embraces lead role, pairs with Kessler to dominate Warriors",
+      "summary": "For the Lakers, who have installed Luka Doncic as the heir to LeBron James and rebuilt their roster around him, the early results in a 127-105 win over the Warriors were a promising sign of things to come.",
+      "url": "https://www.espn.com/nba/story/_/id/50247063/luka-doncic-embraces-being-new-face-lakers",
+      "publishedAt": "2026-10-22T12:21:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734433_2_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "NBA",
+        "news",
+        "Walker Kessler",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50246419",
+      "title": "Kyrie Irving explains offer to pay Al-Shaair's eye black fine",
+      "summary": "Azeez Al-Shaair was fined after he wore the name Hind Rajab on his eye black during the Texans' season opener.",
+      "url": "https://www.espn.com/nba/story/_/id/50246419/kyrie-irving-azeez-al-shaair-hind-rajab-eye-black-fine",
+      "publishedAt": "2026-10-22T12:12:33+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734397_2_600x400_3-2.jpg",
+      "author": "DJ Bien-Aime",
+      "categories": [
+        "news",
+        "NBA",
+        "Dallas Mavericks",
+        "Kyrie Irving",
+        "NFL",
+        "Houston Texans",
+        "Azeez Al-Shaair",
+        "DJ Bien-Aime"
+      ]
+    },
     {
       "id": "50247214",
       "title": "Clippers open season without owner Steve Ballmer, rout Kings",
       "summary": "The Clippers are determined to stay together in the absence of banned owner Steve Ballmer and started the season by routing the Kings 121-96.",
       "url": "https://www.espn.com/nba/story/_/id/50247214/clippers-open-season-owner-steve-ballmer-rout-kings",
-      "publishedAt": "2026-10-22T11:29:16+00:00",
+      "publishedAt": "2026-10-22T12:06:06+00:00",
       "image": "https://a.espncdn.com/photo/2026/1022/r1734438_1296x729_16-9.jpg",
       "author": "",
       "categories": [
@@ -32,77 +240,6 @@
       ]
     },
     {
-      "id": "50239219",
-      "title": "How Sam Presti's 'slow and steady' trust in SGA created a two-time MVP",
-      "summary": "The Thunder GM and the two-time MVP have created a partnership that fueled OKC's rise.",
-      "url": "https://www.espn.com/nba/story/_/id/50239219/shai-gilgeous-alexander-sam-presti-bond-okc-thunder",
-      "publishedAt": "2026-10-22T10:29:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1734002_608x342_16-9.jpg",
-      "author": "Tim MacMahon",
-      "categories": [
-        "NBA",
-        "Oklahoma City Thunder",
-        "Shai Gilgeous-Alexander",
-        "Tim MacMahon"
-      ]
-    },
-    {
-      "id": "50247063",
-      "title": "Luka Doncic embraces lead role, pairs with Kessler to dominate Warriors",
-      "summary": "For the Lakers, who have installed Luka Doncic as the heir to LeBron James and rebuilt their roster around him, the early results in a 127-105 win over the Warriors were a promising sign of things to come.",
-      "url": "https://www.espn.com/nba/story/_/id/50247063/luka-doncic-embraces-being-new-face-lakers",
-      "publishedAt": "2026-10-22T10:29:07+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734433_2_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "Luka Doncic",
-        "Los Angeles Lakers",
-        "NBA",
-        "news",
-        "Walker Kessler",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50245902",
-      "title": "Warriors' Yaxel Lendeborg: 'Lost all respect' for Luka Doncic",
-      "summary": "Yaxel Lendeborg said it was an \"interesting first game for me\" after defending the Lakers superstar in his professional debut.",
-      "url": "https://www.espn.com/nba/story/_/id/50245902/warriors-yaxel-lendeborg-lost-all-respect-luka-doncic",
-      "publishedAt": "2026-10-22T10:17:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734401_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Golden State Warriors",
-        "Los Angeles Lakers",
-        "Yaxel Lendeborg",
-        "Luka Doncic",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50239883",
-      "title": "Inside Caleb Williams' group of famous Chicago sports friends",
-      "summary": "Bears QB Caleb Williams is part of a trio of young Chicago athletes whose friendship transcends sports.",
-      "url": "https://www.espn.com/nfl/story/_/id/50239883/bears-qb-caleb-williams-cubs-pca",
-      "publishedAt": "2026-10-22T10:00:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1019/nfl_caleb_chicago_cr_16x9.jpg",
-      "author": "Courtney Cronin",
-      "categories": [
-        "NFL",
-        "Chicago Bears",
-        "Caleb Williams",
-        "MLB",
-        "Chicago Cubs",
-        "Pete Crow-Armstrong",
-        "NBA",
-        "Chicago Bulls",
-        "Matas Buzelis",
-        "Courtney Cronin"
-      ]
-    },
-    {
       "id": "50245548",
       "title": "Kyrie Irving hounded by Rockets in return, held in check in Mavs' blowout loss",
       "summary": "With the Rockets focused on trapping him, Kyrie Irving was held to 15 points in his first regular-season game since March 2025 and the Mavs fell 128-110.",
@@ -116,25 +253,6 @@
         "Kyrie Irving",
         "Houston Rockets",
         "Tim MacMahon"
-      ]
-    },
-    {
-      "id": "50246419",
-      "title": "Kyrie Irving explains offer to pay Al-Shaair's eye black fine",
-      "summary": "Azeez Al-Shaair was fined after he wore the name Hind Rajab on his eye black during the Texans' season opener.",
-      "url": "https://www.espn.com/nba/story/_/id/50246419/kyrie-irving-azeez-al-shaair-hind-rajab-eye-black-fine",
-      "publishedAt": "2026-10-22T08:22:47+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734397_2_600x400_3-2.jpg",
-      "author": "DJ Bien-Aime",
-      "categories": [
-        "news",
-        "NBA",
-        "Dallas Mavericks",
-        "Kyrie Irving",
-        "NFL",
-        "Houston Texans",
-        "Azeez Al-Shaair",
-        "DJ Bien-Aime"
       ]
     },
     {
@@ -451,97 +569,6 @@
         "Toronto Raptors",
         "news",
         "Kawhi Leonard"
-      ]
-    },
-    {
-      "id": "50244043",
-      "title": "Ant-Man vs. The Greek Freak: Edwards & Antetokounmpo combine for 80 PTS | NBA on ESPN",
-      "summary": "Watch the highlights as Anthony Edwards (45 PTS) leads the Minnesota Timberwolves to a 131-106 win in their season opener against Giannis Antetokounmpo (35 PTS) and the Miami Heat.",
-      "url": "https://www.espn.com/video/clip/_/id/50244043/edwards-antetokounmpo-combine-80-pts-nba-espn",
-      "publishedAt": "2026-10-22T02:42:05+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_221653068_37053701359/ss_20261021_221653068_37053701359.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Minnesota Timberwolves",
-        "Giannis Antetokounmpo",
-        "NBA",
-        "Anthony Edwards",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA"
-      ]
-    },
-    {
-      "id": "50244155",
-      "title": "Charlotte Hornets vs. Brooklyn Nets: Game Highlights",
-      "summary": "Charlotte Hornets vs. Brooklyn Nets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50244155/game-highlights",
-      "publishedAt": "2026-10-22T02:32:11+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/3cf133ee-9c31-45b9-951d-e6d21ba48f91/3cf133ee-9c31-45b9-951d-e6d21ba48f91.jpg",
-      "author": "",
-      "categories": [
-        "Moussa Diabate",
-        "Julius Randle",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Naz Reid",
-        "Charlotte Hornets",
-        "Grayson Allen",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Charlotte Hornets @ Brooklyn Nets"
-      ]
-    },
-    {
-      "id": "50244012",
-      "title": "Edwards, Ball shine as new-look Wolves down Heat",
-      "summary": "Edwards, Ball shine as new-look Wolves down Heat",
-      "url": "https://www.espn.com/video/clip/_/id/50244012/edwards-ball-shine-new-look-wolves-heat",
-      "publishedAt": "2026-10-22T02:17:34+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/5935907f-e8cd-4aa8-8bca-9c8e00a51658/5935907f-e8cd-4aa8-8bca-9c8e00a51658.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Minnesota Timberwolves",
-        "Giannis Antetokounmpo",
-        "LaMelo Ball",
-        "NBA",
-        "Anthony Edwards",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U - Full Highlight",
-        "SC4U  - Eligible",
-        "Minnesota Timberwolves @ Miami Heat"
-      ]
-    },
-    {
-      "id": "50243989",
-      "title": "Atlanta Hawks vs. Orlando Magic: Game Highlights",
-      "summary": "Atlanta Hawks vs. Orlando Magic: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50243989/game-highlights",
-      "publishedAt": "2026-10-22T02:13:39+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/fa599c40-8947-4317-b326-3132ad6b870c/fa599c40-8947-4317-b326-3132ad6b870c.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Orlando Magic",
-        "Onyeka Okongwu",
-        "Atlanta Hawks",
-        "Desmond Bane",
-        "SC4U - Full Highlight",
-        "Paolo Banchero",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Orlando Magic"
       ]
     }
   ]
