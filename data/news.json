@@ -1,20 +1,38 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-23T17:06:39.132806+00:00",
+  "updatedAt": "2026-10-23T21:24:21.157712+00:00",
   "articles": [
     {
-      "id": "50256038",
-      "title": "Charles Barkley 'clearly didn't do his homework'",
-      "summary": "Charles Barkley might want to hit the books after a seriously rough outing on Inside the NBA's 'who he play for?'",
-      "url": "https://www.espn.com/video/clip/_/id/50256038/charles-barkley-clearly-do-homework",
-      "publishedAt": "2026-10-23T17:05:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/dm_261023_Basketball_Highlight_Charles_Barkley_clearly_didnt_do_his_homework_20261023/dm_261023_Basketball_Highlight_Charles_Barkley_clearly_didnt_do_his_homework_20261023.jpg",
+      "id": "50258240",
+      "title": "Phishing email to Knicks employees an 'unfortunate mistake,' MSG spokesman says",
+      "summary": "A Madison Square Garden spokesman admitted fault that employees in Knicks business operations and at the arena received a phishing email posing as an opportunity to claim an NBA championship ring, calling the incident \"an unfortunate mistake.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50258240/report-knicks-coaches-get-empty-ring-boxes-staff-phished",
+      "publishedAt": "2026-10-23T18:59:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1021/r1733703_1296x729_16-9.jpg",
       "author": "",
       "categories": [
         "NBA",
-        "Inside the NBA",
-        "D+ Eligible"
+        "New York Knicks",
+        "news"
+      ]
+    },
+    {
+      "id": "50259421",
+      "title": "'Can you be any worse?' Eisen sounds off on Dolan for phishing test",
+      "summary": "'Can you be any worse?' Eisen sounds off on Dolan for phishing test",
+      "url": "https://www.espn.com/video/clip/_/id/50259421/can-worse-eisen-sounds-dolan-phishing-test",
+      "publishedAt": "2026-10-23T18:15:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/ss_20261023_140520562_3706889/ss_20261023_140520562_3706889.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "Fantasy NBA",
+        "New York Knicks",
+        "Verts - Exclude Content",
+        "The Rich Eisen Show",
+        "Rich Eisen"
       ]
     },
     {
@@ -22,7 +40,7 @@
       "title": "Friday's fantasy basketball adds and bets we like in the NBA",
       "summary": "Andre Snellings breaks down Friday's games, highlighting the fantasy streamers to add and bets to make.",
       "url": "https://www.espn.com/fantasy/basketball/story/_/id/50258585/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-10-23T17:02:39+00:00",
+      "publishedAt": "2026-10-23T18:10:15+00:00",
       "image": "https://a.espncdn.com/photo/2026/1023/r1735039_1296x729_16-9.jpg",
       "author": "Andre Snellings",
       "categories": [
@@ -41,17 +59,17 @@
       ]
     },
     {
-      "id": "50258240",
-      "title": "Knicks coaches waiting on rings; staffers hit by phishing offer, per report",
-      "summary": "Knicks assistant coaches did not receive their championship rings during Tuesday's title ceremony, a source confirmed to ESPN, while a number of team employees were targeted by a phishing scam and will not receive rings at all, according to a report.",
-      "url": "https://www.espn.com/nba/story/_/id/50258240/report-knicks-coaches-get-empty-ring-boxes-staff-phished",
-      "publishedAt": "2026-10-23T16:44:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1021/r1733703_1296x729_16-9.jpg",
+      "id": "50256038",
+      "title": "Charles Barkley 'clearly didn't do his homework'",
+      "summary": "Charles Barkley might want to hit the books after a seriously rough outing on Inside the NBA's 'who he play for?'",
+      "url": "https://www.espn.com/video/clip/_/id/50256038/charles-barkley-clearly-do-homework",
+      "publishedAt": "2026-10-23T17:05:15+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/dm_261023_Basketball_Highlight_Charles_Barkley_clearly_didnt_do_his_homework_20261023/dm_261023_Basketball_Highlight_Charles_Barkley_clearly_didnt_do_his_homework_20261023.jpg",
       "author": "",
       "categories": [
         "NBA",
-        "New York Knicks",
-        "news"
+        "Inside the NBA",
+        "D+ Eligible"
       ]
     },
     {
