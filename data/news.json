@@ -1,14 +1,69 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-22T21:35:31.343868+00:00",
+  "updatedAt": "2026-10-23T04:48:49.497228+00:00",
   "articles": [
     {
+      "id": "50253148",
+      "title": "Cavs coach Atkinson 'depressed' when LeBron deal fell through",
+      "summary": "When the Cleveland Cavaliers opened their season Thursday against the Philadelphia 76ers, it didn't just mean excitement for the start of something new for Cavs coach Kenny Atkinson.",
+      "url": "https://www.espn.com/nba/story/_/id/50253148/cavs-coach-atkinson-depressed-lebron-deal-fell-through",
+      "publishedAt": "2026-10-23T04:47:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734797_1296x729_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Cleveland Cavaliers",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50255311",
+      "title": "Thunder take down Nuggets 96-84 in home opener",
+      "summary": "Thunder take down Nuggets 96-84 in home opener",
+      "url": "https://www.espn.com/video/clip/_/id/50255311/thunder-take-nuggets-96-84-home-opener",
+      "publishedAt": "2026-10-23T04:35:50+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/0de8050e7dbe49d5b1f8ba6d8d55ba5434/0de8050e7dbe49d5b1f8ba6d8d55ba5434.jpg",
+      "author": "",
+      "categories": [
+        "Jalen Williams",
+        "Chet Holmgren",
+        "Denver Nuggets",
+        "Oklahoma City Thunder",
+        "NBA",
+        "Nikola Jokic",
+        "Shai Gilgeous-Alexander",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U - Full Highlight",
+        "SC4U  - Eligible",
+        "Denver Nuggets @ Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "46933211",
+      "title": "NBA consecutive scoring streaks: Player records to know",
+      "summary": "LeBron James, Kevin Durant, and SGA are among the NBA players with impressive consecutive scoring streaks. Check out other notable records now.",
+      "url": "https://www.espn.com/nba/story/_/id/46933211/nba-consecutive-scoring-streaks-player-records-know",
+      "publishedAt": "2026-10-23T04:22:55+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0614/r1506460_608x342_16-9.jpg",
+      "author": "Keith Jenkins",
+      "categories": [
+        "NBA",
+        "LeBron James",
+        "Shai Gilgeous-Alexander",
+        "Kevin Durant"
+      ]
+    },
+    {
       "id": "50251603",
-      "title": "President Trump criticizes 76ers' LeBron James for actions amid national anthem",
-      "summary": "President Donald Trump has accused LeBron James of disrespecting the U.S. after the 76ers star appeared to continue his warmups during the national anthem.",
+      "title": "76ers' LeBron James after President Trump's anthem criticism: 'Slow news day'",
+      "summary": "LeBron James responded to President Trump's criticism by calling it a \"slow news day at the office.\"",
       "url": "https://www.espn.com/nba/story/_/id/50251603/president-trump-criticizes-lebron-james-anthem-actions",
-      "publishedAt": "2026-10-22T20:19:42+00:00",
+      "publishedAt": "2026-10-23T04:07:57+00:00",
       "image": "https://a.espncdn.com/photo/2026/1022/r1734683_600x600_1-1.jpg",
       "author": "",
       "categories": [
@@ -16,6 +71,107 @@
         "Philadelphia 76ers",
         "LeBron James",
         "news"
+      ]
+    },
+    {
+      "id": "50254359",
+      "title": "76ers mount stunning 29-point comeback to beat Cavs in home opener",
+      "summary": "76ers mount stunning 29-point comeback to beat Cavs in home opener",
+      "url": "https://www.espn.com/video/clip/_/id/50254359/76ers-mount-stunning-29-point-comeback-beat-cavs-home-opener",
+      "publishedAt": "2026-10-23T02:18:46+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1023/87977234-c597-474a-b44c-be1d9d6d9099/87977234-c597-474a-b44c-be1d9d6d9099.jpg",
+      "author": "",
+      "categories": [
+        "Jarrett Allen",
+        "Donovan Mitchell",
+        "Philadelphia 76ers",
+        "Cleveland Cavaliers",
+        "NBA",
+        "VJ Edgecombe",
+        "LeBron James",
+        "Tyrese Maxey",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers @ Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50252916",
+      "title": "Co-defendant denies Billups gave him info, pleads guilty in NBA gambling case",
+      "summary": "Eric Earnest pleaded guilty to conspiracy to commit wire fraud Thursday but denied receiving inside information from former NBA player and coach Chauncey Billups.",
+      "url": "https://www.espn.com/nba/story/_/id/50252916/co-defendant-denies-billups-gave-info-nba-gambling-case",
+      "publishedAt": "2026-10-23T00:27:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0305/r1623688_600x400_3-2.jpg",
+      "author": "Michael Rothstein",
+      "categories": [
+        "NBA",
+        "Michael Rothstein"
+      ]
+    },
+    {
+      "id": "50252942",
+      "title": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
+      "summary": "Jason Kidd on Luka-Yaxel drama: 'I love it'",
+      "url": "https://www.espn.com/video/clip/_/id/50252942/love-it",
+      "publishedAt": "2026-10-23T00:08:18+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_185138065_37061461207/ss_20261022_185138065_37061461207.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50252633",
+      "title": "Tony Kornheiser and Michael Wilbon kick off PTI 25 with their top headlines",
+      "summary": "Tony Kornheiser and Michael Wilbon kick off PTI 25 with their top headlines",
+      "url": "https://www.espn.com/video/clip/_/id/50252633/tony-kornheiser-michael-wilbon-kick-pti-25-their-top-headlines",
+      "publishedAt": "2026-10-22T23:10:03+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_180106815_3706111/ss_20261022_180106815_3706111.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "NHL",
+        "NFL",
+        "PGA Tour",
+        "MLB"
+      ]
+    },
+    {
+      "id": "50252919",
+      "title": "'Inside the NBA' crew breaks down why Cavs are being overlooked",
+      "summary": "'Inside the NBA' crew breaks down why Cavs are being overlooked",
+      "url": "https://www.espn.com/video/clip/_/id/50252919/inside-nba-crew-breaks-why-cavs-being-overlooked",
+      "publishedAt": "2026-10-22T23:06:03+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_184517794_37061451143/ss_20261022_184517794_37061451143.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "nba highlight",
+        "Cleveland Cavaliers",
+        "Inside the NBA"
+      ]
+    },
+    {
+      "id": "50252559",
+      "title": "Tony Reali clocks PTI's biggest errors and omissions over the past 25 years",
+      "summary": "Tony Reali clocks PTI's biggest errors and omissions over the past 25 years",
+      "url": "https://www.espn.com/video/clip/_/id/50252559/tony-reali-clocks-pti-biggest-errors-omissions-25-years",
+      "publishedAt": "2026-10-22T22:27:15+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1022/ss_20261022_174354266_37061041087/ss_20261022_174354266_37061041087.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Tony Reali",
+        "Tony Kornheiser",
+        "Michael Wilbon",
+        "PTI"
       ]
     },
     {
@@ -437,189 +593,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Phoenix Suns @ Portland Trail Blazers"
-      ]
-    },
-    {
-      "id": "50244919",
-      "title": "Anthony Edwards joins Chamberlain, Jordan after dropping 40 in another opener",
-      "summary": "Anthony Edwards joined legends Wilt Chamberlain and Michael Jordan as the only players in NBA history with multiple 40-point games in season openers.",
-      "url": "https://www.espn.com/nba/story/_/id/50244919/anthony-edwards-joins-chamberlain-jordan-dropping-40-another-opener",
-      "publishedAt": "2026-10-22T04:39:57+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734307_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news",
-        "Minnesota Timberwolves",
-        "Anthony Edwards"
-      ]
-    },
-    {
-      "id": "50244918",
-      "title": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
-      "summary": "Dallas Mavericks vs. Houston Rockets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50244918/game-highlights",
-      "publishedAt": "2026-10-22T03:49:27+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/db1e897c-b111-4035-a08e-cebee037a4e3/db1e897c-b111-4035-a08e-cebee037a4e3.jpg",
-      "author": "",
-      "categories": [
-        "Kevin Durant",
-        "Reed Sheppard",
-        "Zaccharie Risacher",
-        "Houston Rockets",
-        "Dallas Mavericks",
-        "Morez Johnson Jr",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Cooper Flagg",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Dallas Mavericks @ Houston Rockets"
-      ]
-    },
-    {
-      "id": "50244806",
-      "title": "Anthony Davis gets 'MVP' chants from eager crowd in strong Wizards debut",
-      "summary": "- How starved are the fans in Washington for watchable basketball?",
-      "url": "https://www.espn.com/nba/story/_/id/50244806/anthony-davis-gets-mvp-chants-strong-wizards-debut",
-      "publishedAt": "2026-10-22T03:37:16+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734372_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news",
-        "Washington Wizards",
-        "Anthony Davis"
-      ]
-    },
-    {
-      "id": "50244825",
-      "title": "Ty Jerome breaks Grizzlies' opening-night record with 45 points",
-      "summary": "Ty Jerome breaks Grizzlies' opening-night record with 45 points",
-      "url": "https://www.espn.com/video/clip/_/id/50244825/ty-jerome-breaks-grizzlies-opening-night-record-45-points",
-      "publishedAt": "2026-10-22T03:33:41+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/ss_20261021_233049324_3705530/ss_20261021_233049324_3705530.jpg",
-      "author": "",
-      "categories": [
-        "Utah Jazz",
-        "Ty Jerome",
-        "Memphis Grizzlies",
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Utah Jazz @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50244707",
-      "title": "Ty Jerome cooks in Grizzlies' win over the Jazz",
-      "summary": "Ty Jerome cooks in Grizzlies' win over the Jazz",
-      "url": "https://www.espn.com/video/clip/_/id/50244707/ty-jerome-cooks-grizzlies-win-jazz",
-      "publishedAt": "2026-10-22T03:28:09+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1021/caf1f6cfbe724f998f07552ea9a4bc6e1407/caf1f6cfbe724f998f07552ea9a4bc6e1407.jpg",
-      "author": "",
-      "categories": [
-        "Lauri Markkanen",
-        "Utah Jazz",
-        "Ty Jerome",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "SC4U  - Eligible",
-        "Keyonte George",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Utah Jazz @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50244706",
-      "title": "Indiana Pacers vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Indiana Pacers vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50244706/game-highlights",
-      "publishedAt": "2026-10-22T03:22:10+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/7fc502d1-89db-4607-b7df-5f41aa7fd48a/7fc502d1-89db-4607-b7df-5f41aa7fd48a.jpg",
-      "author": "",
-      "categories": [
-        "Pascal Siakam",
-        "Dejounte Murray",
-        "Indiana Pacers",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Tyrese Haliburton",
-        "Zion Williamson",
-        "Ivica Zubac",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Indiana Pacers @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50244737",
-      "title": "Rockets' Tari Eason ejected after shoving Mavericks' P.J. Washington in back",
-      "summary": "Rockets reserve forward Tari Eason was ejected in the first quarter Wednesday night after shoving Mavericks forward P.J. Washington in the back.",
-      "url": "https://www.espn.com/nba/story/_/id/50244737/rockets-tari-eason-ejected-shoving-mavericks-pj-washington-back",
-      "publishedAt": "2026-10-22T03:19:53+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734368_600x400_3-2.jpg",
-      "author": "Tim MacMahon",
-      "categories": [
-        "Tari Eason",
-        "NBA",
-        "Houston Rockets",
-        "PJ Washington",
-        "Dallas Mavericks",
-        "Tim MacMahon"
-      ]
-    },
-    {
-      "id": "50244696",
-      "title": "Chicago Bulls vs. Toronto Raptors: Game Highlights",
-      "summary": "Chicago Bulls vs. Toronto Raptors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50244696/game-highlights",
-      "publishedAt": "2026-10-22T03:18:11+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1022/a1f56e57-f17e-4dec-ab52-8a7799944b45/a1f56e57-f17e-4dec-ab52-8a7799944b45.jpg",
-      "author": "",
-      "categories": [
-        "Jamison Battle",
-        "Toronto Raptors",
-        "Immanuel Quickley",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "Jalen Smith",
-        "3 Star Rating",
-        "Matas Buzelis",
-        "SC4U  - Eligible",
-        "Norman Powell",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Toronto Raptors"
-      ]
-    },
-    {
-      "id": "50244547",
-      "title": "Kawhi Leonard scores 23 points in Toronto return as Raptors rout Bulls",
-      "summary": "Kawhi Leonard scored 23 points in his return to Toronto as the Raptors routed the Bulls 135-92 in their regular season opener on Wednesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50244547/kawhi-leonard-scores-23-points-toronto-return-raptors-rout-bulls-135-92",
-      "publishedAt": "2026-10-22T03:10:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734364_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Toronto Raptors",
-        "news",
-        "Kawhi Leonard"
       ]
     }
   ]
