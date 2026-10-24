@@ -1,8 +1,90 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-24T15:56:36.546410+00:00",
+  "updatedAt": "2026-10-24T20:49:17.938980+00:00",
   "articles": [
+    {
+      "id": "50267528",
+      "title": "Mavericks' Cooper Flagg out for home opener with mild left shoulder sprain",
+      "summary": "Mavericks star forward Cooper Flagg had an MRI that revealed a mild left shoulder sprain, the team announced. He will not play against the Spurs.",
+      "url": "https://www.espn.com/nba/story/_/id/50267528/mavericks-flagg-home-opener-mild-left-shoulder-sprain",
+      "publishedAt": "2026-10-24T18:44:27+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735292_600x400_3-2.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks",
+        "Cooper Flagg",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50266620",
+      "title": "Magic's Paolo Banchero has ankle sprain; out multiple weeks, sources say",
+      "summary": "Magic star Paolo Banchero has sustained a low-grade high ankle sprain, the team announced, with sources telling ESPN that the forward will miss multiple weeks.",
+      "url": "https://www.espn.com/nba/story/_/id/50266620/sources-magic-banchero-multiple-weeks-ankle-sprain",
+      "publishedAt": "2026-10-24T18:24:29+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735465_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Orlando Magic",
+        "Paolo Banchero"
+      ]
+    },
+    {
+      "id": "50267484",
+      "title": "76ers' LeBron James to sit vs. Bucks in first game of back-to-back",
+      "summary": "LeBron James will miss the Sixers' game against the Bucks to manage low back pain/sciatica. It will be his first missed game of the season.",
+      "url": "https://www.espn.com/nba/story/_/id/50267484/76ers-lebron-james-sit-vs-bucks-1st-back-back",
+      "publishedAt": "2026-10-24T18:19:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735508_1296x729_16-9.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "news",
+        "LeBron James",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50263923",
+      "title": "Warriors implode late as Grizzlies' 17-0 run caps stunning comeback",
+      "summary": "The Warriors appeared to be in control before \"pretty much everything went wrong\" in the final four minutes, when the Grizzlies rallied from 12 down to win 111-108.",
+      "url": "https://www.espn.com/nba/story/_/id/50263923/warriors-implode-grizzlies-17-0-run-caps-stunning-comeback",
+      "publishedAt": "2026-10-24T16:49:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735346_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Memphis Grizzlies",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50266109",
+      "title": "Saturday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Jim McCormick breaks down Saturday's slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50266109/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-10-24T16:13:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735448_1296x729_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Davion Mitchell",
+        "Jalen Smith",
+        "PJ Washington",
+        "Naji Marshall",
+        "Jim McCormick"
+      ]
+    },
     {
       "id": "50265720",
       "title": "Ex-NBA player Malik Beasley negotiating plea deal in gambling case",
@@ -52,21 +134,6 @@
         "Jayson Tatum",
         "Jaylen Brown",
         "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50263923",
-      "title": "Warriors implode late as Grizzlies' 17-0 run caps stunning comeback",
-      "summary": "The Warriors appeared to be in control before \"pretty much everything went wrong\" in the final four minutes, when the Grizzlies rallied from 12 down to win 111-108.",
-      "url": "https://www.espn.com/nba/story/_/id/50263923/warriors-implode-grizzlies-17-0-run-caps-stunning-comeback",
-      "publishedAt": "2026-10-24T12:22:07+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735346_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Memphis Grizzlies",
-        "Anthony Slater"
       ]
     },
     {
@@ -451,84 +518,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Toronto Raptors @ Washington Wizards"
-      ]
-    },
-    {
-      "id": "50260331",
-      "title": "New York couple names son Knickson Fyve after Knicks title chant",
-      "summary": "Vance and Yvonne Bradford's newborn son is named for the popular chant that filled the streets of New York after the Knicks' first title in over 50 years.",
-      "url": "https://www.espn.com/nba/story/_/id/50260331/new-york-couple-son-knicks-chant",
-      "publishedAt": "2026-10-24T01:05:00+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1735167_608x342_16-9.png",
-      "author": "J.J. Post",
-      "categories": [
-        "NBA",
-        "New York Knicks"
-      ]
-    },
-    {
-      "id": "50261290",
-      "title": "Chicago Bulls vs. Milwaukee Bucks: Game Highlights",
-      "summary": "Chicago Bulls vs. Milwaukee Bucks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50261290/game-highlights",
-      "publishedAt": "2026-10-24T00:00:54+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1023/025d6124-8d57-45cb-86da-8b0ae509f856/025d6124-8d57-45cb-86da-8b0ae509f856.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "Jalen Smith",
-        "Jaime Jaquez Jr",
-        "SC4U  - Eligible",
-        "Norman Powell",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50259421",
-      "title": "'Can you be any worse?' Eisen sounds off on Dolan for phishing test",
-      "summary": "'Can you be any worse?' Eisen sounds off on Dolan for phishing test",
-      "url": "https://www.espn.com/video/clip/_/id/50259421/can-worse-eisen-sounds-dolan-phishing-test",
-      "publishedAt": "2026-10-23T18:15:32+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1023/ss_20261023_140520562_3706889/ss_20261023_140520562_3706889.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "Fantasy NBA",
-        "New York Knicks",
-        "Verts - Exclude Content",
-        "The Rich Eisen Show",
-        "Rich Eisen"
-      ]
-    },
-    {
-      "id": "50258585",
-      "title": "Friday's fantasy basketball adds and bets we like in the NBA",
-      "summary": "Andre Snellings breaks down Friday's games, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50258585/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-10-23T18:10:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1023/r1735039_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "Sports Betting",
-        "news – sports betting",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Keaton Wagler",
-        "Yves Missi",
-        "Jonathan Kuminga",
-        "Moussa Diabate",
-        "Andre Snellings"
       ]
     }
   ]
