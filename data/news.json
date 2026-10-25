@@ -1,8 +1,234 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-24T23:13:58.271233+00:00",
+  "updatedAt": "2026-10-25T04:40:48.866150+00:00",
   "articles": [
+    {
+      "id": "50273329",
+      "title": "76ers' Brown claims no beef, but says Tatum should 'stay ready at all times'",
+      "summary": "In the latest turn in the relationship between former teammates, Jaylen Brown said Jayson Tatum should \"stay ready at all time\" while denying the two have beef.",
+      "url": "https://www.espn.com/nba/story/_/id/50273329/76ers-brown-claims-no-beef-says-tatum-stay-ready-all-s",
+      "publishedAt": "2026-10-25T04:34:00+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1735775_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Boston Celtics",
+        "Jaylen Brown",
+        "Jayson Tatum",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50273990",
+      "title": "New Orleans Pelicans vs. Denver Nuggets: Game Highlights",
+      "summary": "New Orleans Pelicans vs. Denver Nuggets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50273990/game-highlights",
+      "publishedAt": "2026-10-25T04:29:01+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/f1203573-afbd-4a15-af5f-59741cce1ec2/f1203573-afbd-4a15-af5f-59741cce1ec2.jpg",
+      "author": "",
+      "categories": [
+        "Aaron Gordon",
+        "Trevon Brazile",
+        "Jamal Murray",
+        "Denver Nuggets",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Nikola Jokic",
+        "SC4U  - Eligible",
+        "New Orleans Pelicans",
+        "Zion Williamson",
+        "4 Star Rating",
+        "Trey Murphy III",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "New Orleans Pelicans @ Denver Nuggets"
+      ]
+    },
+    {
+      "id": "50273986",
+      "title": "Houston Rockets vs. Atlanta Hawks: Game Highlights",
+      "summary": "Houston Rockets vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50273986/game-highlights",
+      "publishedAt": "2026-10-25T04:26:08+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/c7f2ad70-5fd6-464a-b3ea-bf265b786393/c7f2ad70-5fd6-464a-b3ea-bf265b786393.jpg",
+      "author": "",
+      "categories": [
+        "Jalen Johnson",
+        "Kevin Durant",
+        "Jabari Smith Jr",
+        "Houston Rockets",
+        "Atlanta Hawks",
+        "SC4U - Full Highlight",
+        "Amen Thompson",
+        "NBA",
+        "SC4U  - Eligible",
+        "Alperen Sengun",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Houston Rockets @ Atlanta Hawks"
+      ]
+    },
+    {
+      "id": "50273349",
+      "title": "Washington Wizards vs. Chicago Bulls: Game Highlights",
+      "summary": "Washington Wizards vs. Chicago Bulls: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50273349/game-highlights",
+      "publishedAt": "2026-10-25T04:11:47+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/60bac3f3-26da-4343-9531-bdb579928207/60bac3f3-26da-4343-9531-bdb579928207.jpg",
+      "author": "",
+      "categories": [
+        "Washington Wizards",
+        "Caleb Wilson",
+        "Trae Young",
+        "Bilal Coulibaly",
+        "SC4U - Full Highlight",
+        "Chicago Bulls",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Washington Wizards @ Chicago Bulls"
+      ]
+    },
+    {
+      "id": "50273608",
+      "title": "Houston Rockets vs. Atlanta Hawks: Game Highlights",
+      "summary": "Houston Rockets vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50273608/game-highlights",
+      "publishedAt": "2026-10-25T04:11:21+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/6a8e0517-295f-4317-903c-3e666a4ec534/6a8e0517-295f-4317-903c-3e666a4ec534.jpg",
+      "author": "",
+      "categories": [
+        "Jalen Johnson",
+        "Kevin Durant",
+        "Houston Rockets",
+        "Atlanta Hawks",
+        "SC4U - Full Highlight",
+        "NBA",
+        "CJ McCollum",
+        "SC4U  - Eligible",
+        "Alperen Sengun",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Houston Rockets @ Atlanta Hawks"
+      ]
+    },
+    {
+      "id": "50272945",
+      "title": "Embiid posts triple-double as LeBron-less Sixers stay unbeaten",
+      "summary": "Joel Embiid had a triple-double with LeBron James out, Jaylen Brown scored 27 points and the 76ers remained undefeated with a 127-116 win over the Bucks.",
+      "url": "https://www.espn.com/nba/story/_/id/50272945/embiid-posts-triple-double-james-less-76ers-stay-unbeaten",
+      "publishedAt": "2026-10-25T03:59:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1735764_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Milwaukee Bucks",
+        "news",
+        "Joel Embiid",
+        "Jaylen Brown",
+        "Tyrese Maxey"
+      ]
+    },
+    {
+      "id": "50272348",
+      "title": "Giannis Antetokounmpo fouls out vs. Hornets as Heat tumble to 0-3",
+      "summary": "The Heat fell to 0-3 after a 115-110 loss to the undermanned Hornets in which Giannis Antetokounmpo scored just 14 points before fouling out.",
+      "url": "https://www.espn.com/nba/story/_/id/50272348/giannis-antetokounmpo-fouls-4th-heat-tumble-0-3",
+      "publishedAt": "2026-10-25T02:43:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1735731_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Miami Heat",
+        "Charlotte Hornets",
+        "Giannis Antetokounmpo"
+      ]
+    },
+    {
+      "id": "50273118",
+      "title": "Brooklyn Nets vs. Cleveland Cavaliers: Game Highlights",
+      "summary": "Brooklyn Nets vs. Cleveland Cavaliers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50273118/game-highlights",
+      "publishedAt": "2026-10-25T02:43:27+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/feed8ea9-35ff-4205-9d71-65ea92877453/feed8ea9-35ff-4205-9d71-65ea92877453.jpg",
+      "author": "",
+      "categories": [
+        "Donovan Mitchell",
+        "Peyton Watson",
+        "Michael Porter Jr",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "Sam Merrill",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Brooklyn Nets @ Cleveland Cavaliers"
+      ]
+    },
+    {
+      "id": "50272923",
+      "title": "Milwaukee Bucks vs. Philadelphia 76ers: Game Highlights",
+      "summary": "Milwaukee Bucks vs. Philadelphia 76ers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50272923/game-highlights",
+      "publishedAt": "2026-10-25T02:31:35+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/326dc6cb-b068-4d78-a373-e5b12dc4db32/326dc6cb-b068-4d78-a373-e5b12dc4db32.jpg",
+      "author": "",
+      "categories": [
+        "Philadelphia 76ers",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Jaime Jaquez Jr",
+        "SC4U  - Eligible",
+        "Tyrese Maxey",
+        "Kyle Kuzma",
+        "Joel Embiid",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Milwaukee Bucks @ Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50272109",
+      "title": "Miami Heat vs. Charlotte Hornets: Game Highlights",
+      "summary": "Miami Heat vs. Charlotte Hornets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50272109/game-highlights",
+      "publishedAt": "2026-10-25T01:22:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/99144690-6925-444d-9d16-1ad5f52a59a2/99144690-6925-444d-9d16-1ad5f52a59a2.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Davion Mitchell",
+        "Charlotte Hornets",
+        "Brandon Miller",
+        "4 Star Rating",
+        "Grayson Allen",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Miami Heat @ Charlotte Hornets"
+      ]
+    },
     {
       "id": "50267528",
       "title": "Mavericks' Cooper Flagg out for home opener with mild left shoulder sprain",
@@ -155,20 +381,6 @@
       ]
     },
     {
-      "id": "50262849",
-      "title": "Pelicans center Yves Missi helped off court vs. Jazz with knee injury",
-      "summary": "Pelicans starting center Yves Missi injured his left knee in the second quarter of Friday night's game at Utah and had to be helped to the locker room.",
-      "url": "https://www.espn.com/nba/story/_/id/50262849/pelicans-yves-missi-exits-jazz-game-left-leg-injury",
-      "publishedAt": "2026-10-24T05:45:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735320_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New Orleans Pelicans",
-        "Yves Missi"
-      ]
-    },
-    {
       "id": "50263545",
       "title": "Darius Acuff Jr. delivers 33-point performance for Kings in loss to Blazers",
       "summary": "Darius Acuff Jr. delivers 33-point performance for Kings in loss to Blazers",
@@ -280,20 +492,6 @@
       ]
     },
     {
-      "id": "50263163",
-      "title": "Giannis Antetokounmpo stays hot with 36 in loss, confident 0-2 Heat will click",
-      "summary": "Giannis Antetokounmpo scored 36 points Friday, giving him 71 through the first two games, and stayed hopeful the Heat would rebound from their winless start.",
-      "url": "https://www.espn.com/nba/story/_/id/50263163/giannis-antetokounmpo-stays-hot-confident-0-2-heat-click",
-      "publishedAt": "2026-10-24T04:41:45+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735332_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "Giannis Antetokounmpo"
-      ]
-    },
-    {
       "id": "50263408",
       "title": "Rockets move to 2-0 after win over the Spurs",
       "summary": "Rockets move to 2-0 after win over the Spurs",
@@ -341,183 +539,6 @@
         "nba highlight",
         "Fantasy NBA",
         "New Orleans Pelicans @ Utah Jazz"
-      ]
-    },
-    {
-      "id": "50262142",
-      "title": "Mavericks' Cooper Flagg lands on shoulder after hard foul, exits win vs. Pacers",
-      "summary": "Mavericks forward Cooper Flagg did not play in the second half Friday night at Indiana after landing hard on his left shoulder after Aaron Nesmith tried to block his shot from behind to prevent a breakaway dunk.",
-      "url": "https://www.espn.com/nba/story/_/id/50262142/mavericks-cooper-flagg-exits-vs-pacers-left-shoulder-soreness",
-      "publishedAt": "2026-10-24T04:05:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735327_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Dallas Mavericks",
-        "Indiana Pacers",
-        "Cooper Flagg"
-      ]
-    },
-    {
-      "id": "50262746",
-      "title": "Detroit Pistons vs. Miami Heat: Game Highlights",
-      "summary": "Detroit Pistons vs. Miami Heat: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50262746/game-highlights",
-      "publishedAt": "2026-10-24T03:01:13+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/910aa0ea-ed76-4e53-9d21-059160af104a/910aa0ea-ed76-4e53-9d21-059160af104a.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "John Collins",
-        "Giannis Antetokounmpo",
-        "Detroit Pistons",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Ausar Thompson",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Detroit Pistons @ Miami Heat"
-      ]
-    },
-    {
-      "id": "50262690",
-      "title": "Minnesota Timberwolves vs. Orlando Magic: Game Highlights",
-      "summary": "Minnesota Timberwolves vs. Orlando Magic: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50262690/game-highlights",
-      "publishedAt": "2026-10-24T02:40:39+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/038cf5f1-84ed-4e9f-a15b-96d37bb37752/038cf5f1-84ed-4e9f-a15b-96d37bb37752.jpg",
-      "author": "",
-      "categories": [
-        "Orlando Magic",
-        "Minnesota Timberwolves",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Jaden McDaniels",
-        "3 Star Rating",
-        "Jalen Suggs",
-        "SC4U  - Eligible",
-        "Wendell Carter Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Minnesota Timberwolves @ Orlando Magic"
-      ]
-    },
-    {
-      "id": "50262238",
-      "title": "Atlanta Hawks vs. Charlotte Hornets: Game Highlights",
-      "summary": "Atlanta Hawks vs. Charlotte Hornets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50262238/game-highlights",
-      "publishedAt": "2026-10-24T02:27:32+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/045d4064-df99-454c-9527-83812913e7aa/045d4064-df99-454c-9527-83812913e7aa.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Johnson",
-        "Atlanta Hawks",
-        "Corey Kispert",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Naz Reid",
-        "Charlotte Hornets",
-        "Grayson Allen",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Charlotte Hornets"
-      ]
-    },
-    {
-      "id": "50262518",
-      "title": "Dyson Daniels grabs seven steals in dominant performance vs. Hornets",
-      "summary": "Dyson Daniels lived up to his billing as the \"Great Barrier Thief'' as he and masked warrior Jock Landale helped the Atlanta Hawks extend their winning start to the NBA season.",
-      "url": "https://www.espn.com/nba/story/_/id/50262518/nba-atlanta-hawks-dyson-daniels-grabs-seven-steals-dominant-performance-vs-charlotte-hornets",
-      "publishedAt": "2026-10-24T02:14:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735298_1296x729_16-9.jpg",
-      "author": "AAP",
-      "categories": [
-        "NBA",
-        "Dyson Daniels"
-      ]
-    },
-    {
-      "id": "50262487",
-      "title": "New York Knicks vs. Boston Celtics: Game Highlights",
-      "summary": "New York Knicks vs. Boston Celtics: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50262487/game-highlights",
-      "publishedAt": "2026-10-24T02:11:06+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/70b7d23e-7307-46ab-9444-adc57951396b/70b7d23e-7307-46ab-9444-adc57951396b.jpg",
-      "author": "",
-      "categories": [
-        "Jayson Tatum",
-        "Karl-Anthony Towns",
-        "Boston Celtics",
-        "New York Knicks",
-        "Jalen Brunson",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Mitchell Robinson",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New York Knicks @ Boston Celtics"
-      ]
-    },
-    {
-      "id": "50262480",
-      "title": "Dallas Mavericks vs. Indiana Pacers: Game Highlights",
-      "summary": "Dallas Mavericks vs. Indiana Pacers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50262480/game-highlights",
-      "publishedAt": "2026-10-24T02:11:00+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/a8bb2bef-0460-4710-9552-6547be2010a1/a8bb2bef-0460-4710-9552-6547be2010a1.jpg",
-      "author": "",
-      "categories": [
-        "Kyrie Irving",
-        "Pascal Siakam",
-        "Dallas Mavericks",
-        "Indiana Pacers",
-        "SC4U - Full Highlight",
-        "Obi Toppin",
-        "NBA",
-        "SC4U  - Eligible",
-        "Max Christie",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Dallas Mavericks @ Indiana Pacers"
-      ]
-    },
-    {
-      "id": "50262386",
-      "title": "Toronto Raptors vs. Washington Wizards: Game Highlights",
-      "summary": "Toronto Raptors vs. Washington Wizards: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50262386/game-highlights",
-      "publishedAt": "2026-10-24T01:58:44+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/01bc138b-5044-42bd-b653-748ef339bb43/01bc138b-5044-42bd-b653-748ef339bb43.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Toronto Raptors",
-        "Trae Young",
-        "RJ Barrett",
-        "Justin Champagnie",
-        "Bilal Coulibaly",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Scottie Barnes",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Toronto Raptors @ Washington Wizards"
       ]
     }
   ]
