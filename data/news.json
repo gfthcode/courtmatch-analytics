@@ -1,14 +1,28 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-25T04:40:48.866150+00:00",
+  "updatedAt": "2026-10-25T11:28:19.495922+00:00",
   "articles": [
     {
+      "id": "50274046",
+      "title": "Nikola Jokic rallies Nuggets from 23 down, says booing fans 'not welcome anymore'",
+      "summary": "Nikola Jokic racked up his 199th career triple-double, dropping 35 points, 15 rebounds and 10 assists as the Nuggets rallied from 23 down to beat the Pelicans.",
+      "url": "https://www.espn.com/nba/story/_/id/50274046/nikola-jokic-says-booing-nuggets-fans-not-welcome-anymore",
+      "publishedAt": "2026-10-25T06:00:24+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1735801_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Denver Nuggets",
+        "Nikola Jokic"
+      ]
+    },
+    {
       "id": "50273329",
-      "title": "76ers' Brown claims no beef, but says Tatum should 'stay ready at all times'",
-      "summary": "In the latest turn in the relationship between former teammates, Jaylen Brown said Jayson Tatum should \"stay ready at all time\" while denying the two have beef.",
+      "title": "76ers' Brown claims no beef, but says Tatum has 'hell of a PR team'",
+      "summary": "In the latest turn in the relationship between former teammates, Jaylen Brown said Jayson Tatum should \"stay ready at all times\" while denying the two have beef.",
       "url": "https://www.espn.com/nba/story/_/id/50273329/76ers-brown-claims-no-beef-says-tatum-stay-ready-all-s",
-      "publishedAt": "2026-10-25T04:34:00+00:00",
+      "publishedAt": "2026-10-25T05:47:34+00:00",
       "image": "https://a.espncdn.com/photo/2026/1025/r1735775_600x400_3-2.jpg",
       "author": "Kris Rhim",
       "categories": [
@@ -19,6 +33,51 @@
         "Jaylen Brown",
         "Jayson Tatum",
         "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50273099",
+      "title": "Dylan Harper rocks the rim in Spurs' win over Mavs",
+      "summary": "Dylan Harper rocks the rim in Spurs' win over Mavs",
+      "url": "https://www.espn.com/video/clip/_/id/50273099/dylan-harper-rocks-rim-spurs-win-mavs",
+      "publishedAt": "2026-10-25T05:37:17+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/249f0fa5bb31497b8f899d337afa5b5668/249f0fa5bb31497b8f899d337afa5b5668.jpg",
+      "author": "",
+      "categories": [
+        "Dylan Harper",
+        "San Antonio Spurs",
+        "Dallas Mavericks",
+        "NBA",
+        "3 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "San Antonio Spurs @ Dallas Mavericks"
+      ]
+    },
+    {
+      "id": "50274268",
+      "title": "Golden State Warriors vs. Phoenix Suns: Game Highlights",
+      "summary": "Golden State Warriors vs. Phoenix Suns: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50274268/game-highlights",
+      "publishedAt": "2026-10-25T05:04:59+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/d0377b91-23ec-4207-bfd4-299b5f063f8d/d0377b91-23ec-4207-bfd4-299b5f063f8d.jpg",
+      "author": "",
+      "categories": [
+        "Charles Bassey",
+        "De'Anthony Melton",
+        "Collin Gillespie",
+        "Phoenix Suns",
+        "SC4U - Full Highlight",
+        "Golden State Warriors",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Devin Booker",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Golden State Warriors @ Phoenix Suns"
       ]
     },
     {
@@ -396,149 +455,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Portland Trail Blazers @ Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50263514",
-      "title": "Cam Boozer's 25-point double-double helps Grizzlies complete comeback win vs. Warriors",
-      "summary": "Cam Boozer's 25-point double-double helps Grizzlies complete comeback win vs. Warriors",
-      "url": "https://www.espn.com/video/clip/_/id/50263514/cam-boozer-25-point-double-double-helps-grizzlies-complete-comeback-win-vs-warriors",
-      "publishedAt": "2026-10-24T05:16:55+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/1da0ef3b-6027-45bc-8229-a7a2daad9fad/1da0ef3b-6027-45bc-8229-a7a2daad9fad.jpg",
-      "author": "",
-      "categories": [
-        "Golden State Warriors",
-        "Memphis Grizzlies",
-        "NBA",
-        "Cameron Boozer",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Memphis Grizzlies @ Golden State Warriors"
-      ]
-    },
-    {
-      "id": "50263522",
-      "title": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
-      "summary": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50263522/game-highlights",
-      "publishedAt": "2026-10-24T05:04:52+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/513fc294-0a02-430c-8cdb-351fc31882e6/513fc294-0a02-430c-8cdb-351fc31882e6.jpg",
-      "author": "",
-      "categories": [
-        "Darius Acuff Jr",
-        "Deni Avdija",
-        "Portland Trail Blazers",
-        "Robert Williams III",
-        "SC4U - Full Highlight",
-        "Precious Achiuwa",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Toumani Camara",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Portland Trail Blazers @ Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50263505",
-      "title": "Grizzlies erase late deficit and beat the Warriors",
-      "summary": "Grizzlies erase late deficit and beat the Warriors",
-      "url": "https://www.espn.com/video/clip/_/id/50263505/grizzlies-erase-late-deficit-beat-warriors",
-      "publishedAt": "2026-10-24T05:01:19+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/b4bcb648-97ee-432e-8eec-e2697439c978/b4bcb648-97ee-432e-8eec-e2697439c978.jpg",
-      "author": "",
-      "categories": [
-        "Stephen Curry",
-        "Jerami Grant",
-        "Yaxel Lendeborg",
-        "Ty Jerome",
-        "Golden State Warriors",
-        "Memphis Grizzlies",
-        "NBA",
-        "Cameron Boozer",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies @ Golden State Warriors"
-      ]
-    },
-    {
-      "id": "50263447",
-      "title": "LA Clippers vs. Los Angeles Lakers: Game Highlights",
-      "summary": "LA Clippers vs. Los Angeles Lakers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50263447/game-highlights",
-      "publishedAt": "2026-10-24T04:46:57+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/4c7d2f48-d174-4d09-b91d-a1cccd112856/4c7d2f48-d174-4d09-b91d-a1cccd112856.jpg",
-      "author": "",
-      "categories": [
-        "Luka Doncic",
-        "Los Angeles Lakers",
-        "SC4U - Full Highlight",
-        "Austin Reaves",
-        "Darius Garland",
-        "NBA",
-        "SC4U  - Eligible",
-        "LA Clippers",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "LA Clippers @ Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50263408",
-      "title": "Rockets move to 2-0 after win over the Spurs",
-      "summary": "Rockets move to 2-0 after win over the Spurs",
-      "url": "https://www.espn.com/video/clip/_/id/50263408/rockets-move-2-0-win-spurs",
-      "publishedAt": "2026-10-24T04:40:47+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/4ffa0472-eb8b-4b87-ac25-eb3269972db3/4ffa0472-eb8b-4b87-ac25-eb3269972db3.jpg",
-      "author": "",
-      "categories": [
-        "Kevin Durant",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Houston Rockets",
-        "Amen Thompson",
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Houston Rockets @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50263334",
-      "title": "New Orleans Pelicans vs. Utah Jazz: Game Highlights",
-      "summary": "New Orleans Pelicans vs. Utah Jazz: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50263334/game-highlights",
-      "publishedAt": "2026-10-24T04:25:25+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1024/a27748fa-de0c-4f58-b7e7-226519f750d7/a27748fa-de0c-4f58-b7e7-226519f750d7.jpg",
-      "author": "",
-      "categories": [
-        "Jaren Jackson Jr",
-        "Ace Bailey",
-        "Utah Jazz",
-        "Dejounte Murray",
-        "Jeremiah Fears",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "Keyonte George",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New Orleans Pelicans @ Utah Jazz"
       ]
     }
   ]
