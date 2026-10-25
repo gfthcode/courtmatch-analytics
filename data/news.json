@@ -1,8 +1,39 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-25T20:50:40.231140+00:00",
+  "updatedAt": "2026-10-25T23:16:20.721484+00:00",
   "articles": [
+    {
+      "id": "50277066",
+      "title": "Pistons C Jalen Duren out at least two weeks with hamstring strain",
+      "summary": "Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
+      "url": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks",
+      "publishedAt": "2026-10-25T22:47:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726894_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Jalen Duren",
+        "news"
+      ]
+    },
+    {
+      "id": "50281331",
+      "title": "Raptors' Kawhi Leonard to miss Wolves game with knee swelling",
+      "summary": "Raptors star Kawhi Leonard is out for Sunday night's game against the Timberwolves due to left knee swelling.",
+      "url": "https://www.espn.com/nba/story/_/id/50281331/kawhi-leonard-miss-timberwolves-game-knee-swelling",
+      "publishedAt": "2026-10-25T22:29:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Toronto Raptors",
+        "Minnesota Timberwolves",
+        "Kawhi Leonard"
+      ]
+    },
     {
       "id": "50279725",
       "title": "Sixers overrule Embiid, sit center with plantar fasciitis management",
@@ -60,21 +91,6 @@
         "Walker Kessler",
         "Jaylen Brown",
         "Jim McCormick"
-      ]
-    },
-    {
-      "id": "50277066",
-      "title": "Pistons C Jalen Duren out at least two weeks with hamstring strain",
-      "summary": "Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
-      "url": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks",
-      "publishedAt": "2026-10-25T14:59:55+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1006/r1726894_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Jalen Duren",
-        "news"
       ]
     },
     {
