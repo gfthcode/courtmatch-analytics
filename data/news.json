@@ -1,14 +1,29 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-25T11:28:19.495922+00:00",
+  "updatedAt": "2026-10-25T16:18:30.674630+00:00",
   "articles": [
+    {
+      "id": "50277066",
+      "title": "Pistons C Jalen Duren out at least two weeks with hamstring strain",
+      "summary": "Pistons center Jalen Duren, who signed a five-year extension earlier this month, will be out at least two weeks with a right hamstring strain.",
+      "url": "https://www.espn.com/nba/story/_/id/50277066/pistons-jalen-duren-hamstring-strain-least-2-weeks",
+      "publishedAt": "2026-10-25T14:59:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1006/r1726894_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Jalen Duren",
+        "news"
+      ]
+    },
     {
       "id": "50274046",
       "title": "Nikola Jokic rallies Nuggets from 23 down, says booing fans 'not welcome anymore'",
-      "summary": "Nikola Jokic racked up his 199th career triple-double, dropping 35 points, 15 rebounds and 10 assists as the Nuggets rallied from 23 down to beat the Pelicans.",
+      "summary": "Nikola Jokic racked up his 199th career triple-double, dropping 35 points, 15 rebounds and 10 assists as the Nuggets rallied from 23 down to beat the Pelicans, before chastising booing Denver fans.",
       "url": "https://www.espn.com/nba/story/_/id/50274046/nikola-jokic-says-booing-nuggets-fans-not-welcome-anymore",
-      "publishedAt": "2026-10-25T06:00:24+00:00",
+      "publishedAt": "2026-10-25T14:16:32+00:00",
       "image": "https://a.espncdn.com/photo/2026/1025/r1735801_600x400_3-2.jpg",
       "author": "",
       "categories": [
@@ -19,10 +34,10 @@
     },
     {
       "id": "50273329",
-      "title": "76ers' Brown claims no beef, but says Tatum has 'hell of a PR team'",
+      "title": "76ers' Jaylen Brown claims no beef but says Jayson Tatum has 'hell of a PR team'",
       "summary": "In the latest turn in the relationship between former teammates, Jaylen Brown said Jayson Tatum should \"stay ready at all times\" while denying the two have beef.",
       "url": "https://www.espn.com/nba/story/_/id/50273329/76ers-brown-claims-no-beef-says-tatum-stay-ready-all-s",
-      "publishedAt": "2026-10-25T05:47:34+00:00",
+      "publishedAt": "2026-10-25T12:51:46+00:00",
       "image": "https://a.espncdn.com/photo/2026/1025/r1735775_600x400_3-2.jpg",
       "author": "Kris Rhim",
       "categories": [
@@ -437,24 +452,6 @@
         "National Basketball League",
         "news - au nbl",
         "South East Melbourne Phoenix"
-      ]
-    },
-    {
-      "id": "50263545",
-      "title": "Darius Acuff Jr. delivers 33-point performance for Kings in loss to Blazers",
-      "summary": "Darius Acuff Jr. delivers 33-point performance for Kings in loss to Blazers",
-      "url": "https://www.espn.com/video/clip/_/id/50263545/darius-acuff-jr-delivers-33-point-performance-kings-loss-blazers",
-      "publishedAt": "2026-10-24T05:27:22+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1024/cdf471aa0e2b42efbf35aa043adb66d785/cdf471aa0e2b42efbf35aa043adb66d785.jpg",
-      "author": "",
-      "categories": [
-        "Darius Acuff Jr",
-        "Portland Trail Blazers",
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Portland Trail Blazers @ Sacramento Kings"
       ]
     }
   ]
