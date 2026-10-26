@@ -1,14 +1,102 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-26T04:46:41.725087+00:00",
+  "updatedAt": "2026-10-26T13:01:56.351594+00:00",
   "articles": [
+    {
+      "id": "50272822",
+      "title": "NBA breakout players: 30 ready for the next step (yes, even Wemby and Luka)",
+      "summary": "Steady starter to an All-Star lock? Top-10 talent to an MVP? Breakout seasons take many forms in the NBA. Ben Golliver identifies 30 players primed to take the next step.",
+      "url": "https://www.espn.com/nba/story/_/id/50272822/breakout-players-flagg-maxey-luka-rookies",
+      "publishedAt": "2026-10-26T12:39:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1024/r1735345_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Cleveland Cavaliers",
+        "Denver Nuggets",
+        "Houston Rockets",
+        "San Antonio Spurs",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Dallas Mavericks",
+        "Golden State Warriors",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards",
+        "Atlanta Hawks",
+        "Detroit Pistons",
+        "NBA Draft",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50259828",
+      "title": "How Payton Pritchard became Boston's unlikely iso king",
+      "summary": "The sixth man supreme doggedly sharpens his game in brutal summer practices. That's an edge the C's will need.",
+      "url": "https://www.espn.com/nba/story/_/id/50259828/payton-pritchard-celtics-iso-king",
+      "publishedAt": "2026-10-26T11:56:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734715_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "Payton Pritchard",
+        "Boston Celtics",
+        "NBA"
+      ]
+    },
+    {
+      "id": "50283862",
+      "title": "Thunder star Jalen Williams taken off court on stretcher with significant injury",
+      "summary": "There was no immediate diagnosis from the Thunder on Jalen Williams' injury, with coach Mark Daigneault saying the team would be briefed Monday morning.",
+      "url": "https://www.espn.com/nba/story/_/id/50283862/thunder-g-jalen-williams-taken-significant-injury",
+      "publishedAt": "2026-10-26T11:31:20+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736344_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Oklahoma City Thunder",
+        "Jalen Williams"
+      ]
+    },
+    {
+      "id": "50284920",
+      "title": "Jalen Brunson: Knicks' sputtering offense 'falls on my shoulders' amid 0-3 start",
+      "summary": "The Knicks lost their third straight game Sunday against the Magic, becoming the first defending champion to open a season 0-3 since the 2011-12 Mavs. \"Everything falls on my shoulders,\" Jalen Brunson said in reference to the team's sputtering offense.",
+      "url": "https://www.espn.com/nba/story/_/id/50284920/jalen-brunson-knicks-sputtering-offense-amid-0-3-start-says-everything-falls-my-shoulders",
+      "publishedAt": "2026-10-26T05:40:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736369_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Jalen Brunson",
+        "Vincent Goodwill"
+      ]
+    },
     {
       "id": "50284757",
       "title": "LeBron James hopeful 76ers won't need him to start at center often",
-      "summary": "LeBron James started at center for the shorthanded 76ers on Sunday vs. the Pistons, a role he hopes he won't have to occupy much this season.",
+      "summary": "LeBron James started at center for the short-handed 76ers on Sunday vs. the Pistons, a role he hopes he won't have to occupy much this season.",
       "url": "https://www.espn.com/nba/story/_/id/50284757/lebron-james-hopeful-76ers-need-start-center",
-      "publishedAt": "2026-10-26T04:34:15+00:00",
+      "publishedAt": "2026-10-26T05:29:21+00:00",
       "image": "https://a.espncdn.com/photo/2026/1026/r1736354_600x400_3-2.jpg",
       "author": "Kris Rhim",
       "categories": [
@@ -17,6 +105,34 @@
         "Philadelphia 76ers",
         "news",
         "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50283907",
+      "title": "Orlando Magic vs. New York Knicks: Game Highlights",
+      "summary": "Orlando Magic vs. New York Knicks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50283907/game-highlights",
+      "publishedAt": "2026-10-26T05:11:30+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/f101f2453a9c408c9654bed9259c3bc971/f101f2453a9c408c9654bed9259c3bc971.jpg",
+      "author": "",
+      "categories": [
+        "OG Anunoby",
+        "New York Knicks",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Anthony Black",
+        "Jase Richardson",
+        "Karl-Anthony Towns",
+        "Orlando Magic",
+        "Desmond Bane",
+        "Jalen Brunson",
+        "Franz Wagner",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Orlando Magic @ New York Knicks"
       ]
     },
     {
@@ -42,21 +158,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Memphis Grizzlies @ Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50283862",
-      "title": "Thunder G Jalen Williams taken off with significant injury",
-      "summary": "There was no immediate diagnosis from the Thunder on Jalen Williams' injury, with coach Mark Daigneault saying the team would be briefed Monday morning.",
-      "url": "https://www.espn.com/nba/story/_/id/50283862/thunder-g-jalen-williams-taken-significant-injury",
-      "publishedAt": "2026-10-26T04:05:34+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736344_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Oklahoma City Thunder",
-        "Jalen Williams"
       ]
     },
     {
@@ -172,34 +273,6 @@
       ]
     },
     {
-      "id": "50283907",
-      "title": "Orlando Magic vs. New York Knicks: Game Highlights",
-      "summary": "Orlando Magic vs. New York Knicks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50283907/game-highlights",
-      "publishedAt": "2026-10-26T01:59:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1026/f101f245-3a9c-408c-9654-bed9259c3bc9/f101f245-3a9c-408c-9654-bed9259c3bc9.jpg",
-      "author": "",
-      "categories": [
-        "OG Anunoby",
-        "New York Knicks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Anthony Black",
-        "Jase Richardson",
-        "Karl-Anthony Towns",
-        "Orlando Magic",
-        "Desmond Bane",
-        "Jalen Brunson",
-        "Franz Wagner",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ New York Knicks"
-      ]
-    },
-    {
       "id": "50283816",
       "title": "Toronto Raptors vs. Minnesota Timberwolves: Game Highlights",
       "summary": "Toronto Raptors vs. Minnesota Timberwolves: Game Highlights",
@@ -292,24 +365,6 @@
       ]
     },
     {
-      "id": "50272945",
-      "title": "Joel Embiid posts triple-double as LeBron-less Sixers stay unbeaten",
-      "summary": "Joel Embiid had a triple-double with LeBron James out, Jaylen Brown scored 27 points, and the 76ers remained undefeated with a 127-116 win over the Bucks.",
-      "url": "https://www.espn.com/nba/story/_/id/50272945/embiid-posts-triple-double-james-less-76ers-stay-unbeaten",
-      "publishedAt": "2026-10-25T19:26:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735764_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Milwaukee Bucks",
-        "news",
-        "Joel Embiid",
-        "Jaylen Brown",
-        "Tyrese Maxey"
-      ]
-    },
-    {
       "id": "50275279",
       "title": "Sunday's fantasy basketball adds and bets to make in the NBA",
       "summary": "Jim McCormick breaks down Sunday's slate, highlighting the fantasy streamers to add and bets to make.",
@@ -363,26 +418,6 @@
         "Jaylen Brown",
         "Jayson Tatum",
         "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50273099",
-      "title": "Dylan Harper rocks the rim in Spurs' win over Mavs",
-      "summary": "Dylan Harper rocks the rim in Spurs' win over Mavs",
-      "url": "https://www.espn.com/video/clip/_/id/50273099/dylan-harper-rocks-rim-spurs-win-mavs",
-      "publishedAt": "2026-10-25T05:37:17+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1025/249f0fa5bb31497b8f899d337afa5b5668/249f0fa5bb31497b8f899d337afa5b5668.jpg",
-      "author": "",
-      "categories": [
-        "Dylan Harper",
-        "San Antonio Spurs",
-        "Dallas Mavericks",
-        "NBA",
-        "3 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "San Antonio Spurs @ Dallas Mavericks"
       ]
     },
     {
@@ -510,94 +545,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Houston Rockets @ Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50272348",
-      "title": "Giannis Antetokounmpo fouls out vs. Hornets as Heat tumble to 0-3",
-      "summary": "The Heat fell to 0-3 after a 115-110 loss to the undermanned Hornets in which Giannis Antetokounmpo scored just 14 points before fouling out.",
-      "url": "https://www.espn.com/nba/story/_/id/50272348/giannis-antetokounmpo-fouls-4th-heat-tumble-0-3",
-      "publishedAt": "2026-10-25T02:43:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735731_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Miami Heat",
-        "Charlotte Hornets",
-        "Giannis Antetokounmpo"
-      ]
-    },
-    {
-      "id": "50273118",
-      "title": "Brooklyn Nets vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "Brooklyn Nets vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50273118/game-highlights",
-      "publishedAt": "2026-10-25T02:43:27+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/feed8ea9-35ff-4205-9d71-65ea92877453/feed8ea9-35ff-4205-9d71-65ea92877453.jpg",
-      "author": "",
-      "categories": [
-        "Donovan Mitchell",
-        "Peyton Watson",
-        "Michael Porter Jr",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "Sam Merrill",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Brooklyn Nets @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50272923",
-      "title": "Milwaukee Bucks vs. Philadelphia 76ers: Game Highlights",
-      "summary": "Milwaukee Bucks vs. Philadelphia 76ers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50272923/game-highlights",
-      "publishedAt": "2026-10-25T02:31:35+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/326dc6cb-b068-4d78-a373-e5b12dc4db32/326dc6cb-b068-4d78-a373-e5b12dc4db32.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Jaime Jaquez Jr",
-        "SC4U  - Eligible",
-        "Tyrese Maxey",
-        "Kyle Kuzma",
-        "Joel Embiid",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Milwaukee Bucks @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50272109",
-      "title": "Miami Heat vs. Charlotte Hornets: Game Highlights",
-      "summary": "Miami Heat vs. Charlotte Hornets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50272109/game-highlights",
-      "publishedAt": "2026-10-25T01:22:32+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/99144690-6925-444d-9d16-1ad5f52a59a2/99144690-6925-444d-9d16-1ad5f52a59a2.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Davion Mitchell",
-        "Charlotte Hornets",
-        "Brandon Miller",
-        "4 Star Rating",
-        "Grayson Allen",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Miami Heat @ Charlotte Hornets"
       ]
     }
   ]
