@@ -1,14 +1,88 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-26T13:01:56.351594+00:00",
+  "updatedAt": "2026-10-26T20:28:56.864516+00:00",
   "articles": [
+    {
+      "id": "50288799",
+      "title": "Dream, Valkyries to play Game 6, WNBA Finals at State Farm as Thursday matinee",
+      "summary": "Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at State Farm Arena in Atlanta. The start time of Cavs-Hawks will be pushed back to 8 p.m. ET.",
+      "url": "https://www.espn.com/wnba/story/_/id/50288799/dream-valkyries-play-g6-wnba-finals-state-farm",
+      "publishedAt": "2026-10-26T19:36:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736000_1296x729_16-9.jpg",
+      "author": "Ramona Shelburne",
+      "categories": [
+        "WNBA",
+        "Atlanta Dream",
+        "Golden State Valkyries",
+        "NBA",
+        "Atlanta Hawks",
+        "Cleveland Cavaliers",
+        "Ramona Shelburne"
+      ]
+    },
+    {
+      "id": "50289490",
+      "title": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+      "summary": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
+      "url": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
+      "publishedAt": "2026-10-26T19:36:11+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_152455500_3712232932/ss_20261026_152455500_3712232932.jpg",
+      "author": "",
+      "categories": [
+        "Ramona Shelburne",
+        "2 Star Rating",
+        "NBA",
+        "WNBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Golden State Valkyries",
+        "Atlanta Dream",
+        "Verts - Exclude Content",
+        "Golden State Valkyries @ Atlanta Dream"
+      ]
+    },
+    {
+      "id": "50289181",
+      "title": "Jayson Tatum vs. Jaylen Brown: Is it beef or is it nothing?",
+      "summary": "On Big Day with Peter Schrager, Peter Schrager, Domonique Foxworth, Steve Smith Sr. and Brian Windhorst weigh in on the Jaylen Brown and Jayson Tatum drama and the New York Knicks being 0-3 to start the season.",
+      "url": "https://www.espn.com/video/clip/_/id/50289181/beef-nothing",
+      "publishedAt": "2026-10-26T19:21:14+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_143507972_3712203919/ss_20261026_143507972_3712203919.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Boston Celtics",
+        "Philadelphia 76ers",
+        "Jayson Tatum",
+        "Jaylen Brown"
+      ]
+    },
+    {
+      "id": "50289397",
+      "title": "Magic's Jalen Suggs out at least 2 weeks with knee injury",
+      "summary": "Magic guard Jalen Suggs suffered a mild bone bruise in his right knee and will miss at least the next two weeks.",
+      "url": "https://www.espn.com/nba/story/_/id/50289397/magic-jalen-suggs-least-2-weeks-knee-injury",
+      "publishedAt": "2026-10-26T19:09:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736599_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Orlando Magic",
+        "news",
+        "Jalen Suggs"
+      ]
+    },
     {
       "id": "50272822",
       "title": "NBA breakout players: 30 ready for the next step (yes, even Wemby and Luka)",
       "summary": "Steady starter to an All-Star lock? Top-10 talent to an MVP? Breakout seasons take many forms in the NBA. Ben Golliver identifies 30 players primed to take the next step.",
       "url": "https://www.espn.com/nba/story/_/id/50272822/breakout-players-flagg-maxey-luka-rookies",
-      "publishedAt": "2026-10-26T12:39:48+00:00",
+      "publishedAt": "2026-10-26T17:56:35+00:00",
       "image": "https://a.espncdn.com/photo/2026/1024/r1735345_1296x729_16-9.jpg",
       "author": "Ben Golliver",
       "categories": [
@@ -48,17 +122,128 @@
       ]
     },
     {
+      "id": "50288219",
+      "title": "Monday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Andre Snellings breaks down Monday's nine-game slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50288219/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-10-26T17:38:26+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736543_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Davion Mitchell",
+        "Ajay Mitchell",
+        "Jaxson Hayes",
+        "Jaylen Wells",
+        "Jonathan Kuminga",
+        "Andre Snellings"
+      ]
+    },
+    {
       "id": "50259828",
       "title": "How Payton Pritchard became Boston's unlikely iso king",
       "summary": "The sixth man supreme doggedly sharpens his game in brutal summer practices. That's an edge the C's will need.",
       "url": "https://www.espn.com/nba/story/_/id/50259828/payton-pritchard-celtics-iso-king",
-      "publishedAt": "2026-10-26T11:56:16+00:00",
+      "publishedAt": "2026-10-26T16:43:01+00:00",
       "image": "https://a.espncdn.com/photo/2026/1022/r1734715_1296x729_16-9.jpg",
-      "author": "",
+      "author": "Hallie Grossman",
       "categories": [
         "Payton Pritchard",
         "Boston Celtics",
-        "NBA"
+        "NBA",
+        "Hallie Grossman"
+      ]
+    },
+    {
+      "id": "50287760",
+      "title": "Fantasy risers and fallers: Time to trade away Ty Jerome, drop Draymond Green?",
+      "summary": "Ty Jerome's fantasy stock is seemingly on a rocket ship, but should fantasy basketball managers keep the faith in Myles Turner and Onyeka Okongwu?",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50287760/fantasy-basketball-risers-fallers-keep-cut-add-today",
+      "publishedAt": "2026-10-26T16:37:08+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736521_1296x729_16-9.jpg",
+      "author": "Steve Alexander",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Ty Jerome",
+        "Jalen Smith",
+        "Dennis Schroder",
+        "Draymond Green",
+        "Myles Turner",
+        "Onyeka Okongwu",
+        "Steve Alexander"
+      ]
+    },
+    {
+      "id": "50288053",
+      "title": "U.S. senators call on NBA to reevaluate Rwanda partnership",
+      "summary": "Two U.S. senators called on the NBA to reevaluate a partnership with Rwanda and its dictator Paul Kagame, citing the American government's changing policy toward the small African nation.",
+      "url": "https://www.espn.com/nba/story/_/id/50288053/us-senators-call-nba-reevaluate-rwanda-partnership",
+      "publishedAt": "2026-10-26T16:36:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736092_600x400_3-2.jpg",
+      "author": "Mark Fainaru-Wada",
+      "categories": [
+        "NBA",
+        "Mark Fainaru-Wada"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-26T14:54:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50287555",
+      "title": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
+      "summary": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
+      "url": "https://www.espn.com/video/clip/_/id/50287555/jalen-williams-injury-big-blow-thunder-championship-hopes",
+      "publishedAt": "2026-10-26T14:52:37+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_104206792_3712041/ss_20261026_104206792_3712041.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "nba highlight",
+        "Oklahoma City Thunder",
+        "Jalen Williams",
+        "Stephen A. Smith",
+        "First Take",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50280364",
+      "title": "NBA partners with Kalshi and Polymarket amid regulation fight",
+      "summary": "The NBA announced Monday that it's partnering with prediction markets Kalshi and Polymarket and expanding its DraftKings deal to include a prediction market offering.",
+      "url": "https://www.espn.com/nba/story/_/id/50280364/nba-prediction-markets-kalshi-polymarket-partnership",
+      "publishedAt": "2026-10-26T14:31:29+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736092_1296x729_16-9.jpg",
+      "author": "David Purdum",
+      "categories": [
+        "news",
+        "news – sports betting",
+        "NBA",
+        "Sports Betting",
+        "David Purdum"
       ]
     },
     {
@@ -389,38 +574,6 @@
       ]
     },
     {
-      "id": "50274046",
-      "title": "Nikola Jokic rallies Nuggets from 23 down, says booing fans 'not welcome anymore'",
-      "summary": "Nikola Jokic racked up his 199th career triple-double, dropping 35 points, 15 rebounds and 10 assists as the Nuggets rallied from 23 down to beat the Pelicans, before chastising booing Denver fans.",
-      "url": "https://www.espn.com/nba/story/_/id/50274046/nikola-jokic-says-booing-nuggets-fans-not-welcome-anymore",
-      "publishedAt": "2026-10-25T14:16:32+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735801_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Denver Nuggets",
-        "Nikola Jokic"
-      ]
-    },
-    {
-      "id": "50273329",
-      "title": "76ers' Jaylen Brown claims no beef but says Jayson Tatum has 'hell of a PR team'",
-      "summary": "In the latest turn in the relationship between former teammates, Jaylen Brown said Jayson Tatum should \"stay ready at all times\" while denying the two have beef.",
-      "url": "https://www.espn.com/nba/story/_/id/50273329/76ers-brown-claims-no-beef-says-tatum-stay-ready-all-s",
-      "publishedAt": "2026-10-25T12:51:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1735775_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Boston Celtics",
-        "Jaylen Brown",
-        "Jayson Tatum",
-        "Kris Rhim"
-      ]
-    },
-    {
       "id": "50274268",
       "title": "Golden State Warriors vs. Phoenix Suns: Game Highlights",
       "summary": "Golden State Warriors vs. Phoenix Suns: Game Highlights",
@@ -443,108 +596,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Golden State Warriors @ Phoenix Suns"
-      ]
-    },
-    {
-      "id": "50273990",
-      "title": "New Orleans Pelicans vs. Denver Nuggets: Game Highlights",
-      "summary": "New Orleans Pelicans vs. Denver Nuggets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50273990/game-highlights",
-      "publishedAt": "2026-10-25T04:29:01+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/f1203573-afbd-4a15-af5f-59741cce1ec2/f1203573-afbd-4a15-af5f-59741cce1ec2.jpg",
-      "author": "",
-      "categories": [
-        "Aaron Gordon",
-        "Trevon Brazile",
-        "Jamal Murray",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Nikola Jokic",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "4 Star Rating",
-        "Trey Murphy III",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New Orleans Pelicans @ Denver Nuggets"
-      ]
-    },
-    {
-      "id": "50273986",
-      "title": "Houston Rockets vs. Atlanta Hawks: Game Highlights",
-      "summary": "Houston Rockets vs. Atlanta Hawks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50273986/game-highlights",
-      "publishedAt": "2026-10-25T04:26:08+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/c7f2ad70-5fd6-464a-b3ea-bf265b786393/c7f2ad70-5fd6-464a-b3ea-bf265b786393.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Johnson",
-        "Kevin Durant",
-        "Jabari Smith Jr",
-        "Houston Rockets",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "Amen Thompson",
-        "NBA",
-        "SC4U  - Eligible",
-        "Alperen Sengun",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50273349",
-      "title": "Washington Wizards vs. Chicago Bulls: Game Highlights",
-      "summary": "Washington Wizards vs. Chicago Bulls: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50273349/game-highlights",
-      "publishedAt": "2026-10-25T04:11:47+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/60bac3f3-26da-4343-9531-bdb579928207/60bac3f3-26da-4343-9531-bdb579928207.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Caleb Wilson",
-        "Trae Young",
-        "Bilal Coulibaly",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Washington Wizards @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50273608",
-      "title": "Houston Rockets vs. Atlanta Hawks: Game Highlights",
-      "summary": "Houston Rockets vs. Atlanta Hawks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50273608/game-highlights",
-      "publishedAt": "2026-10-25T04:11:21+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/6a8e0517-295f-4317-903c-3e666a4ec534/6a8e0517-295f-4317-903c-3e666a4ec534.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Johnson",
-        "Kevin Durant",
-        "Houston Rockets",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "CJ McCollum",
-        "SC4U  - Eligible",
-        "Alperen Sengun",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Atlanta Hawks"
       ]
     }
   ]
