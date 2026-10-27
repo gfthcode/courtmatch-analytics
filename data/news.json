@@ -1,35 +1,139 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-27T15:21:21.391176+00:00",
+  "updatedAt": "2026-10-27T22:13:49.082565+00:00",
   "articles": [
     {
-      "id": "50297902",
-      "title": "Bam Adebayo says critics 'make me the scapegoat' for Heat's winless start",
-      "summary": "Bam Adebayo says he is being singled out as the \"scapegoat\" for the new-look Heat's worst start to a season in nearly two decades.",
-      "url": "https://www.espn.com/nba/story/_/id/50297902/bam-adebayo-says-scapegoat-heat-0-4-start",
-      "publishedAt": "2026-10-27T15:17:00+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736988_1296x729_16-9.jpg",
-      "author": "",
+      "id": "50301040",
+      "title": "Ex-NBA player Malik Beasley agrees to plead guilty in sports betting case",
+      "summary": "Malik Beasley is scheduled to change his plea at a Dec. 9 hearing in Brooklyn.",
+      "url": "https://www.espn.com/nba/story/_/id/50301040/malik-beasley-agrees-plead-guilty-sports-betting-case",
+      "publishedAt": "2026-10-27T22:12:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0701/r1683045_600x400_3-2.jpg",
+      "author": "Tom Schad",
       "categories": [
+        "news",
         "NBA",
-        "Miami Heat",
-        "Bam Adebayo",
-        "Giannis Antetokounmpo",
-        "news"
+        "Milwaukee Bucks",
+        "Malik Beasley",
+        "news – sports betting",
+        "Sports Betting",
+        "Tom Schad"
       ]
     },
     {
-      "id": "50297844",
-      "title": "Behrens, who developed NBA Cares, to leave league office",
-      "summary": "Kathy Behrens, who became one of the highest-ranking women in the NBA office, has decided to leave the league office after 26 years.",
-      "url": "https://www.espn.com/nba/story/_/id/50297844/behrens-developed-nba-cares-leave-league-office",
-      "publishedAt": "2026-10-27T15:09:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737013_600x400_3-2.jpg",
-      "author": "",
+      "id": "50299852",
+      "title": "Karabell's notebook: Murray's hot start, Adebayo's struggles, other early trends",
+      "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA, and what it means for fantasy.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50299852/fantasy-basketball-trends-nba-2026-2027",
+      "publishedAt": "2026-10-27T21:14:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737097_1296x729_16-9.jpg",
+      "author": "Eric Karabell",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Dejounte Murray",
+        "Jalen Johnson",
+        "Anthony Black",
+        "LeBron James",
+        "Jaylen Brown",
+        "Bam Adebayo",
+        "Domantas Sabonis",
+        "Darius Acuff Jr",
+        "Cedric Coward",
+        "Eric Karabell"
+      ]
+    },
+    {
+      "id": "49960162",
+      "title": "Fantasy basketball points league rankings update: George, Jerome on the rise",
+      "summary": "Updated fantasy basketball rankings for points leagues, with Ty Jerome, Paul George and Davion Mitchell among the biggest risers.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-10-27T21:09:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736711_2_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Ty Jerome",
+        "Paul George",
+        "Davion Mitchell",
+        "Andre Snellings",
+        "NBA"
+      ]
+    },
+    {
+      "id": "49959975",
+      "title": "Fantasy basketball H2H Category and Roto rankings: Daniels, Kessler on the rise",
+      "summary": "Updated fantasy basketball rankings for H2H category and roto leagues, with Dyson Daniels and Walker Kessler on the rise.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-10-27T21:06:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737135_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "Fantasy NBA",
+        "NBA",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50300264",
+      "title": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say",
+      "summary": "Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
+      "url": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say",
+      "publishedAt": "2026-10-27T20:59:07+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737121_1296x729_16-9.jpg",
+      "author": "Tim MacMahon and Shams Charania",
       "categories": [
         "NBA",
-        "espnw"
+        "Utah Jazz",
+        "news",
+        "Jaren Jackson Jr",
+        "Lauri Markkanen",
+        "Jusuf Nurkic",
+        "Tim MacMahon",
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50299731",
+      "title": "Hornets to retire Muggsy Bogues' No. 1 jersey",
+      "summary": "The Hornets will retire Muggsy Bogues' No. 1 jersey on Feb. 11. Bogues, the shortest player in NBA history, is the franchise leader in assists, steals and minutes.",
+      "url": "https://www.espn.com/nba/story/_/id/50299731/hornets-retire-muggsy-bogues-no-1-jersey",
+      "publishedAt": "2026-10-27T20:40:44+00:00",
+      "image": "https://a.espncdn.com/photo/2014/0520/sn_g_mbts_1296x729.jpg",
+      "author": "Shams Charania",
+      "categories": [
+        "NBA",
+        "Charlotte Hornets",
+        "news",
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50299185",
+      "title": "Tuesday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Eric Moody breaks down Tuesday's four-game slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50299185/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-10-27T17:55:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737063_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Devin Vassell",
+        "Paul Reed",
+        "Daniss Jenkins",
+        "Keon Ellis"
       ]
     },
     {
@@ -37,7 +141,7 @@
       "title": "Inside the stunning 72-hour Lakers sale -- and the uncertainty that still looms",
       "summary": "Three days of secret talks resulted in Mark Walter flipping the Lakers -- and reignited yet another round of bickering among the six Buss siblings.",
       "url": "https://www.espn.com/nba/story/_/id/50287529/los-angeles-lakers-sale-mark-walter-iger-kushner-luka",
-      "publishedAt": "2026-10-27T14:53:28+00:00",
+      "publishedAt": "2026-10-27T17:27:56+00:00",
       "image": "https://a.espncdn.com/photo/2026/1023/nba_lakers2_16x9.jpg",
       "author": "Ramona Shelburne",
       "categories": [
@@ -53,7 +157,7 @@
       "title": "NBA season 2026-27: Best and worst from the first week",
       "summary": "Our insiders break down standout moments and answer the biggest questions from the first days of the NBA season.",
       "url": "https://www.espn.com/nba/story/_/id/50260679/nba-first-week-best-worst-moments-2026-27",
-      "publishedAt": "2026-10-27T14:30:21+00:00",
+      "publishedAt": "2026-10-27T16:49:29+00:00",
       "image": "https://a.espncdn.com/photo/2026/1023/r1735228_608x342_16-9.jpg",
       "author": "NBA Insiders",
       "categories": [
@@ -73,6 +177,104 @@
         "San Antonio Spurs",
         "Toronto Raptors",
         "NBA Insiders"
+      ]
+    },
+    {
+      "id": "50298441",
+      "title": "Raptors' Kawhi Leonard out weeks due to knee, sources say",
+      "summary": "Kawhi Leonard is expected to miss a period of weeks due to swelling in his left knee, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50298441/raptors-kawhi-leonard-weeks-due-knee-sources-say",
+      "publishedAt": "2026-10-27T16:41:14+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737030_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Toronto Raptors",
+        "news",
+        "Kawhi Leonard"
+      ]
+    },
+    {
+      "id": "50298555",
+      "title": "Stephen A. goes on epic rant over Kawhi's latest injury",
+      "summary": "Stephen A. goes on epic rant over Kawhi's latest injury",
+      "url": "https://www.espn.com/video/clip/_/id/50298555/stephen-goes-epic-rant-kawhi-latest-injury",
+      "publishedAt": "2026-10-27T16:11:14+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/ss_20261027_120535881_3713088/ss_20261027_120535881_3713088.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Stephen A. Smith",
+        "First Take",
+        "Kawhi Leonard",
+        "Verts - Exclude Content",
+        "Toronto Raptors",
+        "Team Boost"
+      ]
+    },
+    {
+      "id": "50297844",
+      "title": "Behrens, who developed NBA Cares, to leave league office",
+      "summary": "Kathy Behrens, who became one of the highest-ranking women in the NBA office, has decided to leave the league office after 26 years.",
+      "url": "https://www.espn.com/nba/story/_/id/50297844/behrens-developed-nba-cares-leave-league-office",
+      "publishedAt": "2026-10-27T16:03:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737036_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "espnw"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-27T15:57:32+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50297902",
+      "title": "Bam Adebayo says critics 'make me the scapegoat' for Heat's winless start",
+      "summary": "Bam Adebayo says he is being singled out as the \"scapegoat\" for the new-look Heat's worst start to a season in nearly two decades.",
+      "url": "https://www.espn.com/nba/story/_/id/50297902/bam-adebayo-says-scapegoat-heat-0-4-start",
+      "publishedAt": "2026-10-27T15:46:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1736988_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Bam Adebayo",
+        "Giannis Antetokounmpo",
+        "news"
+      ]
+    },
+    {
+      "id": "50298259",
+      "title": "'C'mon bro!': Stephen A. pleads with Bam Adebayo to stop complaining about media",
+      "summary": "'C'mon bro!': Stephen A. pleads with Bam Adebayo to stop complaining about media",
+      "url": "https://www.espn.com/video/clip/_/id/50298259/stephen-pleads-bam-adebayo-stop-complaining-media",
+      "publishedAt": "2026-10-27T15:45:35+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1027/ss_20261027_113830284_3713075703/ss_20261027_113830284_3713075703.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Verts - Exclude Content",
+        "Stephen A. Smith",
+        "First Take",
+        "Bam Adebayo",
+        "Miami Heat"
       ]
     },
     {
@@ -236,24 +438,6 @@
         "NBA",
         "Oklahoma City Thunder",
         "Alex Caruso"
-      ]
-    },
-    {
-      "id": "50288799",
-      "title": "Dream, Valkyries to play Game 6, WNBA Finals at State Farm as Thursday matinee",
-      "summary": "Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at State Farm Arena in Atlanta. The start time of Cavs-Hawks will be pushed back to 8 p.m. ET.",
-      "url": "https://www.espn.com/wnba/story/_/id/50288799/dream-valkyries-play-g6-wnba-finals-state-farm",
-      "publishedAt": "2026-10-27T03:35:21+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736000_1296x729_16-9.jpg",
-      "author": "Ramona Shelburne",
-      "categories": [
-        "WNBA",
-        "Atlanta Dream",
-        "Golden State Valkyries",
-        "NBA",
-        "Atlanta Hawks",
-        "Cleveland Cavaliers",
-        "Ramona Shelburne"
       ]
     },
     {
@@ -432,22 +616,6 @@
       ]
     },
     {
-      "id": "50290179",
-      "title": "OKC's Jalen Williams (ankle), Cason Wallace (shoulder) to undergo surgery",
-      "summary": "Thunder guards Jalen Williams and Cason Wallace will both be sidelined indefinitely after undergoing ankle and shoulder surgery, respectively.",
-      "url": "https://www.espn.com/nba/story/_/id/50290179/thunder-jalen-williams-cason-wallace-undergo-surgery",
-      "publishedAt": "2026-10-27T01:50:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736470_600x400_3-2.jpg",
-      "author": "Tim MacMahon",
-      "categories": [
-        "news",
-        "Oklahoma City Thunder",
-        "Jalen Williams",
-        "NBA",
-        "Tim MacMahon"
-      ]
-    },
-    {
       "id": "50293022",
       "title": "Washington Wizards vs. Charlotte Hornets: Game Highlights",
       "summary": "Washington Wizards vs. Charlotte Hornets: Game Highlights",
@@ -469,171 +637,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Washington Wizards @ Charlotte Hornets"
-      ]
-    },
-    {
-      "id": "50292072",
-      "title": "Pacers' Ben Sheppard to undergo surgery for torn meniscus",
-      "summary": "Indiana guard Ben Sheppard will undergo surgery for a torn meniscus on Wednesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50292072/pacers-ben-sheppard-surgery-torn-meniscus",
-      "publishedAt": "2026-10-27T00:39:38+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0603/r1501774_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Indiana Pacers",
-        "Ben Sheppard"
-      ]
-    },
-    {
-      "id": "50287191",
-      "title": "Jalen Williams, Cason Wallace injured: What's next for the OKC Thunder?",
-      "summary": "The Thunder will be without two starting guards for months. Could they make a trade to try to replace Jalen Williams and Cason Wallace?",
-      "url": "https://www.espn.com/nba/story/_/id/50287191/jalen-williams-cason-wallace-injured-next-thunder",
-      "publishedAt": "2026-10-26T22:38:25+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736471_608x342_16-9.jpg",
-      "author": "NBA Insiders",
-      "categories": [
-        "NBA",
-        "Oklahoma City Thunder",
-        "Jalen Williams",
-        "Cason Wallace",
-        "NBA Insiders"
-      ]
-    },
-    {
-      "id": "49960162",
-      "title": "Fantasy basketball points league rankings update: George, Jerome on the rise",
-      "summary": "Updated fantasy basketball rankings for points leagues, with Ty Jerome, Paul George and Davion Mitchell among the biggest risers.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-10-26T22:21:47+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736711_2_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Ty Jerome",
-        "Paul George",
-        "Davion Mitchell",
-        "Andre Snellings",
-        "NBA"
-      ]
-    },
-    {
-      "id": "50288053",
-      "title": "U.S. senators call on NBA to reevaluate Rwanda partnership",
-      "summary": "Two U.S. senators called on the NBA to reevaluate a partnership with Rwanda and its dictator Paul Kagame, citing the American government's changing policy toward the small African nation.",
-      "url": "https://www.espn.com/nba/story/_/id/50288053/us-senators-call-nba-reevaluate-rwanda-partnership",
-      "publishedAt": "2026-10-26T22:08:25+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736092_600x400_3-2.jpg",
-      "author": "Mark Fainaru-Wada",
-      "categories": [
-        "NBA",
-        "Mark Fainaru-Wada"
-      ]
-    },
-    {
-      "id": "50289490",
-      "title": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
-      "summary": "Shelburne: Updated WNBA Finals Game 6 logistics 'the best of bad options'",
-      "url": "https://www.espn.com/video/clip/_/id/50289490/updated-wnba-finals-game-6-logistics-best-bad-options",
-      "publishedAt": "2026-10-26T19:36:11+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_152455500_3712232932/ss_20261026_152455500_3712232932.jpg",
-      "author": "",
-      "categories": [
-        "Ramona Shelburne",
-        "2 Star Rating",
-        "NBA",
-        "WNBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Valkyries",
-        "Atlanta Dream",
-        "Verts - Exclude Content",
-        "Golden State Valkyries @ Atlanta Dream"
-      ]
-    },
-    {
-      "id": "50289181",
-      "title": "Jayson Tatum vs. Jaylen Brown: Is it beef or is it nothing?",
-      "summary": "On Big Day with Peter Schrager, Peter Schrager, Domonique Foxworth, Steve Smith Sr. and Brian Windhorst weigh in on the Jaylen Brown and Jayson Tatum drama and the New York Knicks being 0-3 to start the season.",
-      "url": "https://www.espn.com/video/clip/_/id/50289181/beef-nothing",
-      "publishedAt": "2026-10-26T19:21:14+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_143507972_3712203919/ss_20261026_143507972_3712203919.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Boston Celtics",
-        "Philadelphia 76ers",
-        "Jayson Tatum",
-        "Jaylen Brown"
-      ]
-    },
-    {
-      "id": "50289397",
-      "title": "Magic's Jalen Suggs out at least 2 weeks with knee injury",
-      "summary": "Magic guard Jalen Suggs suffered a mild bone bruise in his right knee and will miss at least the next two weeks.",
-      "url": "https://www.espn.com/nba/story/_/id/50289397/magic-jalen-suggs-least-2-weeks-knee-injury",
-      "publishedAt": "2026-10-26T19:09:01+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736599_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Orlando Magic",
-        "news",
-        "Jalen Suggs"
-      ]
-    },
-    {
-      "id": "50288219",
-      "title": "Monday's fantasy basketball adds and bets to make in the NBA",
-      "summary": "Andre Snellings breaks down Monday's nine-game slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50288219/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-10-26T17:38:26+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736543_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Davion Mitchell",
-        "Ajay Mitchell",
-        "Jaxson Hayes",
-        "Jaylen Wells",
-        "Jonathan Kuminga",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50287760",
-      "title": "Fantasy risers and fallers: Time to trade away Ty Jerome, drop Draymond Green?",
-      "summary": "Ty Jerome's fantasy stock is seemingly on a rocket ship, but should fantasy basketball managers keep the faith in Myles Turner and Onyeka Okongwu?",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50287760/fantasy-basketball-risers-fallers-keep-cut-add-today",
-      "publishedAt": "2026-10-26T16:37:08+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736521_1296x729_16-9.jpg",
-      "author": "Steve Alexander",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Ty Jerome",
-        "Jalen Smith",
-        "Dennis Schroder",
-        "Draymond Green",
-        "Myles Turner",
-        "Onyeka Okongwu",
-        "Steve Alexander"
       ]
     }
   ]
