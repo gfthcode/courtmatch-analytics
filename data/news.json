@@ -1,14 +1,30 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-26T20:28:56.864516+00:00",
+  "updatedAt": "2026-10-27T00:25:39.490456+00:00",
   "articles": [
+    {
+      "id": "50290179",
+      "title": "OKC's Jalen Williams (ankle), Cason Wallace (shoulder) to undergo surgery",
+      "summary": "Thunder guards Jalen Williams and Cason Wallace will both be sidelined indefinitely after undergoing ankle and shoulder surgery, respectively.",
+      "url": "https://www.espn.com/nba/story/_/id/50290179/thunder-jalen-williams-cason-wallace-undergo-surgery",
+      "publishedAt": "2026-10-26T23:47:56+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736470_600x400_3-2.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "news",
+        "Oklahoma City Thunder",
+        "Jalen Williams",
+        "NBA",
+        "Tim MacMahon"
+      ]
+    },
     {
       "id": "50288799",
       "title": "Dream, Valkyries to play Game 6, WNBA Finals at State Farm as Thursday matinee",
       "summary": "Game 6 of the WNBA Finals will be played Thursday at 12:30 p.m. ET at State Farm Arena in Atlanta. The start time of Cavs-Hawks will be pushed back to 8 p.m. ET.",
       "url": "https://www.espn.com/wnba/story/_/id/50288799/dream-valkyries-play-g6-wnba-finals-state-farm",
-      "publishedAt": "2026-10-26T19:36:58+00:00",
+      "publishedAt": "2026-10-26T23:35:10+00:00",
       "image": "https://a.espncdn.com/photo/2026/1025/r1736000_1296x729_16-9.jpg",
       "author": "Ramona Shelburne",
       "categories": [
@@ -19,6 +35,54 @@
         "Atlanta Hawks",
         "Cleveland Cavaliers",
         "Ramona Shelburne"
+      ]
+    },
+    {
+      "id": "50287191",
+      "title": "Jalen Williams, Cason Wallace injured: What's next for the OKC Thunder?",
+      "summary": "The Thunder will be without two starting guards for months. Could they make a trade to try to replace Jalen Williams and Cason Wallace?",
+      "url": "https://www.espn.com/nba/story/_/id/50287191/jalen-williams-cason-wallace-injured-next-thunder",
+      "publishedAt": "2026-10-26T22:38:25+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736471_608x342_16-9.jpg",
+      "author": "NBA Insiders",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "Jalen Williams",
+        "Cason Wallace",
+        "NBA Insiders"
+      ]
+    },
+    {
+      "id": "49960162",
+      "title": "Fantasy basketball points league rankings update: George, Jerome on the rise",
+      "summary": "Updated fantasy basketball rankings for points leagues, with Ty Jerome, Paul George and Davion Mitchell among the biggest risers.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-10-26T22:21:47+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736711_2_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Ty Jerome",
+        "Paul George",
+        "Davion Mitchell",
+        "Andre Snellings",
+        "NBA"
+      ]
+    },
+    {
+      "id": "50288053",
+      "title": "U.S. senators call on NBA to reevaluate Rwanda partnership",
+      "summary": "Two U.S. senators called on the NBA to reevaluate a partnership with Rwanda and its dictator Paul Kagame, citing the American government's changing policy toward the small African nation.",
+      "url": "https://www.espn.com/nba/story/_/id/50288053/us-senators-call-nba-reevaluate-rwanda-partnership",
+      "publishedAt": "2026-10-26T22:08:25+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736092_600x400_3-2.jpg",
+      "author": "Mark Fainaru-Wada",
+      "categories": [
+        "NBA",
+        "Mark Fainaru-Wada"
       ]
     },
     {
@@ -180,19 +244,6 @@
         "Myles Turner",
         "Onyeka Okongwu",
         "Steve Alexander"
-      ]
-    },
-    {
-      "id": "50288053",
-      "title": "U.S. senators call on NBA to reevaluate Rwanda partnership",
-      "summary": "Two U.S. senators called on the NBA to reevaluate a partnership with Rwanda and its dictator Paul Kagame, citing the American government's changing policy toward the small African nation.",
-      "url": "https://www.espn.com/nba/story/_/id/50288053/us-senators-call-nba-reevaluate-rwanda-partnership",
-      "publishedAt": "2026-10-26T16:36:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736092_600x400_3-2.jpg",
-      "author": "Mark Fainaru-Wada",
-      "categories": [
-        "NBA",
-        "Mark Fainaru-Wada"
       ]
     },
     {
@@ -571,31 +622,6 @@
         "Walker Kessler",
         "Jaylen Brown",
         "Jim McCormick"
-      ]
-    },
-    {
-      "id": "50274268",
-      "title": "Golden State Warriors vs. Phoenix Suns: Game Highlights",
-      "summary": "Golden State Warriors vs. Phoenix Suns: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50274268/game-highlights",
-      "publishedAt": "2026-10-25T05:04:59+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1025/d0377b91-23ec-4207-bfd4-299b5f063f8d/d0377b91-23ec-4207-bfd4-299b5f063f8d.jpg",
-      "author": "",
-      "categories": [
-        "Charles Bassey",
-        "De'Anthony Melton",
-        "Collin Gillespie",
-        "Phoenix Suns",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Devin Booker",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors @ Phoenix Suns"
       ]
     }
   ]
