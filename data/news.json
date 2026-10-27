@@ -1,14 +1,104 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-27T08:59:15.407671+00:00",
+  "updatedAt": "2026-10-27T15:21:21.391176+00:00",
   "articles": [
+    {
+      "id": "50297902",
+      "title": "Bam Adebayo says critics 'make me the scapegoat' for Heat's winless start",
+      "summary": "Bam Adebayo says he is being singled out as the \"scapegoat\" for the new-look Heat's worst start to a season in nearly two decades.",
+      "url": "https://www.espn.com/nba/story/_/id/50297902/bam-adebayo-says-scapegoat-heat-0-4-start",
+      "publishedAt": "2026-10-27T15:17:00+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1736988_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Bam Adebayo",
+        "Giannis Antetokounmpo",
+        "news"
+      ]
+    },
+    {
+      "id": "50297844",
+      "title": "Behrens, who developed NBA Cares, to leave league office",
+      "summary": "Kathy Behrens, who became one of the highest-ranking women in the NBA office, has decided to leave the league office after 26 years.",
+      "url": "https://www.espn.com/nba/story/_/id/50297844/behrens-developed-nba-cares-leave-league-office",
+      "publishedAt": "2026-10-27T15:09:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737013_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "espnw"
+      ]
+    },
+    {
+      "id": "50287529",
+      "title": "Inside the stunning 72-hour Lakers sale -- and the uncertainty that still looms",
+      "summary": "Three days of secret talks resulted in Mark Walter flipping the Lakers -- and reignited yet another round of bickering among the six Buss siblings.",
+      "url": "https://www.espn.com/nba/story/_/id/50287529/los-angeles-lakers-sale-mark-walter-iger-kushner-luka",
+      "publishedAt": "2026-10-27T14:53:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1023/nba_lakers2_16x9.jpg",
+      "author": "Ramona Shelburne",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Luka Doncic",
+        "Austin Reaves",
+        "Ramona Shelburne"
+      ]
+    },
+    {
+      "id": "50260679",
+      "title": "NBA season 2026-27: Best and worst from the first week",
+      "summary": "Our insiders break down standout moments and answer the biggest questions from the first days of the NBA season.",
+      "url": "https://www.espn.com/nba/story/_/id/50260679/nba-first-week-best-worst-moments-2026-27",
+      "publishedAt": "2026-10-27T14:30:21+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1023/r1735228_608x342_16-9.jpg",
+      "author": "NBA Insiders",
+      "categories": [
+        "NBA",
+        "Boston Celtics",
+        "Cleveland Cavaliers",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Houston Rockets",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Minnesota Timberwolves",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "NBA Insiders"
+      ]
+    },
+    {
+      "id": "50294283",
+      "title": "Milwaukee Bucks poke fun at Rays' World Series loss, Heat's 0-4 start in postgame jab",
+      "summary": "The Bucks' neighbors, the Brewers, defeated the Rays in Game 3 of the World Series on Monday, and the Heat fell to 0-4.",
+      "url": "https://www.espn.com/nba/story/_/id/50294283/milwaukee-bucks-troll-rays-heat",
+      "publishedAt": "2026-10-27T14:09:22+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1736872_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Milwaukee Bucks",
+        "Miami Heat",
+        "MLB",
+        "Milwaukee Brewers",
+        "Tampa Bay Rays",
+        "Anthony Gharib"
+      ]
+    },
     {
       "id": "50294832",
       "title": "Yaxel Lendeborg has 31 points, 12 rebounds as Warriors blow out Nuggets on road",
       "summary": "In his fourth game, Warriors rookie Yaxel Lendeborg put up 31 points, 12 rebounds and six assists in a blowout road win over the Nuggets on Monday night.",
       "url": "https://www.espn.com/nba/story/_/id/50294832/yaxel-lendeborg-31-points-12-rebounds-warriors-beat-nuggets-first-win",
-      "publishedAt": "2026-10-27T07:01:45+00:00",
+      "publishedAt": "2026-10-27T13:08:40+00:00",
       "image": "https://a.espncdn.com/photo/2026/1027/r1736886_600x400_3-2.jpg",
       "author": "Anthony Slater",
       "categories": [
@@ -17,6 +107,22 @@
         "Golden State Warriors",
         "Denver Nuggets",
         "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50294142",
+      "title": "Jalen Brunson shows Peyton and Eli his special painting",
+      "summary": "Jalen Brunson shows Peyton and Eli his special painting",
+      "url": "https://www.espn.com/video/clip/_/id/50294142/jalen-brunson-shows-peyton-eli-special-painting",
+      "publishedAt": "2026-10-27T12:22:33+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_brunson_mannngcast/dm_261026_brunson_mannngcast.jpg",
+      "author": "",
+      "categories": [
+        "Jalen Brunson",
+        "League Boost",
+        "NBA",
+        "NFL",
+        "New York Knicks"
       ]
     },
     {
@@ -75,24 +181,6 @@
       ]
     },
     {
-      "id": "50294283",
-      "title": "Milwaukee Bucks poke fun at Rays' World Series loss, Heat's 0-4 start in postgame jab",
-      "summary": "The Bucks' neighbors, the Brewers, defeated the Rays in Game 3 of the World Series on Monday, and the Heat fell to 0-4.",
-      "url": "https://www.espn.com/nba/story/_/id/50294283/milwaukee-bucks-troll-rays-heat",
-      "publishedAt": "2026-10-27T04:34:35+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736872_608x342_16-9.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "NBA",
-        "Milwaukee Bucks",
-        "Miami Heat",
-        "MLB",
-        "Milwaukee Brewers",
-        "Tampa Bay Rays",
-        "Anthony Gharib"
-      ]
-    },
-    {
       "id": "50293411",
       "title": "Rep for Sixers' Jaylen Brown denies report he demanded trade from Celtics",
       "summary": "Jaylen Brown denied a report that he demanded a trade from the Boston Celtics or gave them a list of demands, according to a representative from Brown's team.",
@@ -133,22 +221,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Memphis Grizzlies @ Utah Jazz"
-      ]
-    },
-    {
-      "id": "50294142",
-      "title": "Jalen Brunson shows Peyton and Eli his special painting",
-      "summary": "Jalen Brunson shows Peyton and Eli his special painting",
-      "url": "https://www.espn.com/video/clip/_/id/50294142/jalen-brunson-shows-peyton-eli-special-painting",
-      "publishedAt": "2026-10-27T03:50:08+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_brunson_mannngcast/dm_261026_brunson_mannngcast.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Brunson",
-        "League Boost",
-        "NBA",
-        "NFL",
-        "New York Knicks"
       ]
     },
     {
@@ -542,21 +614,6 @@
       ]
     },
     {
-      "id": "50259828",
-      "title": "How Payton Pritchard became Boston's unlikely iso king",
-      "summary": "The sixth man supreme doggedly sharpens his game in brutal summer practices. That's an edge the C's will need.",
-      "url": "https://www.espn.com/nba/story/_/id/50259828/payton-pritchard-celtics-iso-king",
-      "publishedAt": "2026-10-26T16:43:01+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/r1734715_1296x729_16-9.jpg",
-      "author": "Hallie Grossman",
-      "categories": [
-        "Payton Pritchard",
-        "Boston Celtics",
-        "NBA",
-        "Hallie Grossman"
-      ]
-    },
-    {
       "id": "50287760",
       "title": "Fantasy risers and fallers: Time to trade away Ty Jerome, drop Draymond Green?",
       "summary": "Ty Jerome's fantasy stock is seemingly on a rocket ship, but should fantasy basketball managers keep the faith in Myles Turner and Onyeka Okongwu?",
@@ -577,57 +634,6 @@
         "Myles Turner",
         "Onyeka Okongwu",
         "Steve Alexander"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-26T14:54:51+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50287555",
-      "title": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
-      "summary": "Stephen A.: Jalen Williams injury a big blow to Thunder's championship hopes",
-      "url": "https://www.espn.com/video/clip/_/id/50287555/jalen-williams-injury-big-blow-thunder-championship-hopes",
-      "publishedAt": "2026-10-26T14:52:37+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/ss_20261026_104206792_3712041/ss_20261026_104206792_3712041.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "nba highlight",
-        "Oklahoma City Thunder",
-        "Jalen Williams",
-        "Stephen A. Smith",
-        "First Take",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50280364",
-      "title": "NBA partners with Kalshi and Polymarket amid regulation fight",
-      "summary": "The NBA announced Monday that it's partnering with prediction markets Kalshi and Polymarket and expanding its DraftKings deal to include a prediction market offering.",
-      "url": "https://www.espn.com/nba/story/_/id/50280364/nba-prediction-markets-kalshi-polymarket-partnership",
-      "publishedAt": "2026-10-26T14:31:29+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736092_1296x729_16-9.jpg",
-      "author": "David Purdum",
-      "categories": [
-        "news",
-        "news – sports betting",
-        "NBA",
-        "Sports Betting",
-        "David Purdum"
       ]
     }
   ]
