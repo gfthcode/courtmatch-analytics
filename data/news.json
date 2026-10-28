@@ -1,8 +1,224 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-28T05:41:39.263720+00:00",
+  "updatedAt": "2026-10-28T12:54:07.772224+00:00",
   "articles": [
+    {
+      "id": "50307102",
+      "title": "Davis hot starts puts out Wildcats",
+      "summary": "It was Kendric Davis' first has blitz that helped the Sydney Kings defeat a stubborn Perth Wildcats side in the NBL Ignite Cup",
+      "url": "https://www.espn.com/video/clip/_/id/50307102/davis-hot-starts-puts-wildcats",
+      "publishedAt": "2026-10-28T12:36:56+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/dm_261028_NBL_Highlight_Davis_hot_starts_puts_out_Wildcats_20261028_PACRIM_AND_US_ONLY/dm_261028_NBL_Highlight_Davis_hot_starts_puts_out_Wildcats_20261028_PACRIM_AND_US_ONLY.jpg",
+      "author": "",
+      "categories": [
+        "Golden State Warriors",
+        "Kendric Davis",
+        "Memphis Tigers",
+        "University of Memphis",
+        "NBA",
+        "NBA G League",
+        "NCAA Men's Basketball",
+        "National Basketball League",
+        "news - au nbl",
+        "Santa Cruz Warriors",
+        "Sydney Kings"
+      ]
+    },
+    {
+      "id": "50306196",
+      "title": "Ja Morant to appeal as three flopping techs given at end of Blazers-Lakers",
+      "summary": "Trail Blazers star Ja Morant says he plans to appeal a technical foul he received for flopping, one of three handed out late in Portland's 136-129 win over the Lakers.",
+      "url": "https://www.espn.com/nba/story/_/id/50306196/ja-morant-says-appeal-flopping-technical",
+      "publishedAt": "2026-10-28T12:32:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737419_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "news",
+        "NBA",
+        "Portland Trail Blazers",
+        "Los Angeles Lakers",
+        "Ja Morant",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50299136",
+      "title": "What are the Warriors' options as Kristaps Porzingis remains away from the team?",
+      "summary": "Can the Warriors find a trade partner? Void Kristaps Porzingis' contract? Here's everything we know about the situation, and what could come next.",
+      "url": "https://www.espn.com/nba/story/_/id/50299136/golden-state-warriors-kristaps-porzingis-options-trade",
+      "publishedAt": "2026-10-28T12:25:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737056_608x342_16-9.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Kristaps Porzingis",
+        "Golden State Warriors",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50290392",
+      "title": "NBA Power Rankings: How all 30 teams stack up after one week",
+      "summary": "Here's where all 30 NBA teams rank after one week of the 2026-27 regular season, plus the most surprising statistic or trend for each franchise.",
+      "url": "https://www.espn.com/nba/story/_/id/50290392/nba-power-rankings-30-teams-rank-one-week-stat-trend",
+      "publishedAt": "2026-10-28T12:21:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/nba_power_rankings_26_10_28_16x9_1296x729.jpg",
+      "author": "NBA Insiders",
+      "categories": [
+        "NBA",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Washington Wizards",
+        "Utah Jazz",
+        "NBA Insiders"
+      ]
+    },
+    {
+      "id": "50297902",
+      "title": "Bam Adebayo says critics 'make me the scapegoat' for Heat's winless start",
+      "summary": "Bam Adebayo says he is being singled out as the \"scapegoat\" for the new-look Heat's worst start to a season in nearly two decades.",
+      "url": "https://www.espn.com/nba/story/_/id/50297902/bam-adebayo-says-scapegoat-heat-0-4-start",
+      "publishedAt": "2026-10-28T11:25:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1736988_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Bam Adebayo",
+        "Giannis Antetokounmpo",
+        "news"
+      ]
+    },
+    {
+      "id": "50298441",
+      "title": "Raptors' Kawhi Leonard out weeks due to knee, sources say",
+      "summary": "Kawhi Leonard is expected to miss a period of weeks due to swelling in his left knee, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50298441/raptors-kawhi-leonard-weeks-due-knee-sources-say",
+      "publishedAt": "2026-10-28T11:24:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737030_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Toronto Raptors",
+        "news",
+        "Kawhi Leonard"
+      ]
+    },
+    {
+      "id": "50300264",
+      "title": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say",
+      "summary": "Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
+      "url": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say",
+      "publishedAt": "2026-10-28T11:24:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737121_1296x729_16-9.jpg",
+      "author": "Tim MacMahon and Shams Charania",
+      "categories": [
+        "NBA",
+        "Utah Jazz",
+        "news",
+        "Jaren Jackson Jr",
+        "Lauri Markkanen",
+        "Jusuf Nurkic",
+        "Tim MacMahon",
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50302115",
+      "title": "Timberwolves' Anthony Edwards (knee) to miss up to 2 months, sources say",
+      "summary": "Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee Thursday that will sideline him up to two months, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50302115/timberwolves-anthony-edwards-miss-2-months-arthroscopic-knee-procedure",
+      "publishedAt": "2026-10-28T11:23:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737262_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "Anthony Edwards",
+        "NBA",
+        "Minnesota Timberwolves",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50298824",
+      "title": "Kyrie Irving has found new purpose in Dallas alongside Cooper Flagg",
+      "summary": "Irving and the Mavericks host the Oklahoma City Thunder on Wednesday at 9:30 p.m. ET on ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50298824/kyrie-irving-cooper-flagg-dallas-mavericks-new-line",
+      "publishedAt": "2026-10-28T11:15:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737042_608x342_16-9.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks",
+        "Kyrie Irving",
+        "Cooper Flagg",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50305071",
+      "title": "Knicks 'focus on little things,' beat Pistons for first win of season",
+      "summary": "The Knicks ended their three-game losing streak to begin the season by defeating the Pistons 111-97, overcoming an opponent that has given New York recent trouble.",
+      "url": "https://www.espn.com/nba/story/_/id/50305071/knicks-focus-little-things-earn-first-win-season",
+      "publishedAt": "2026-10-28T06:10:56+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737393_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "news",
+        "NBA",
+        "New York Knicks",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50305097",
+      "title": "Portland Trail Blazers vs. Los Angeles Lakers: Game Highlights",
+      "summary": "Portland Trail Blazers vs. Los Angeles Lakers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50305097/game-highlights",
+      "publishedAt": "2026-10-28T06:03:00+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1028/d9c8dfda-3481-4116-90c5-0d64391fa5e8/d9c8dfda-3481-4116-90c5-0d64391fa5e8.jpg",
+      "author": "",
+      "categories": [
+        "Deni Avdija",
+        "Portland Trail Blazers",
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "Robert Williams III",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U - Full Highlight",
+        "SC4U  - Eligible",
+        "Portland Trail Blazers @ Los Angeles Lakers"
+      ]
+    },
     {
       "id": "50303702",
       "title": "Celtics' Jayson Tatum caps 40-point night with buzzer-beater in OT vs. Nets",
@@ -16,21 +232,6 @@
         "Boston Celtics",
         "news",
         "Jayson Tatum"
-      ]
-    },
-    {
-      "id": "50302115",
-      "title": "Timberwolves' Anthony Edwards (knee) to miss up to 2 months, sources say",
-      "summary": "Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee Thursday that will sideline him up to two months, sources told ESPN's Shams Charania.",
-      "url": "https://www.espn.com/nba/story/_/id/50302115/timberwolves-anthony-edwards-miss-2-months-arthroscopic-knee-procedure",
-      "publishedAt": "2026-10-28T03:57:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737262_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "Anthony Edwards",
-        "NBA",
-        "Minnesota Timberwolves",
-        "Jamal Collier"
       ]
     },
     {
@@ -248,25 +449,6 @@
       ]
     },
     {
-      "id": "50300264",
-      "title": "Jazz's Jaren Jackson Jr. (knee) out 6-8 weeks, sources say",
-      "summary": "Utah will be down two more of its bigs as Jaren Jackson Jr. has a torn MCL in his right knee and will miss at least six weeks, while Lauri Markkanen is day-to-day with a sprained wrist.",
-      "url": "https://www.espn.com/nba/story/_/id/50300264/jazz-jaren-jackson-jr-knee-6-8-weeks-sources-say",
-      "publishedAt": "2026-10-27T20:59:07+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737121_1296x729_16-9.jpg",
-      "author": "Tim MacMahon and Shams Charania",
-      "categories": [
-        "NBA",
-        "Utah Jazz",
-        "news",
-        "Jaren Jackson Jr",
-        "Lauri Markkanen",
-        "Jusuf Nurkic",
-        "Tim MacMahon",
-        "Shams Charania"
-      ]
-    },
-    {
       "id": "50299731",
       "title": "Hornets to retire Muggsy Bogues' No. 1 jersey",
       "summary": "The Hornets will retire Muggsy Bogues' No. 1 jersey on Feb. 11. Bogues, the shortest player in NBA history, is the franchise leader in assists, steals and minutes.",
@@ -325,21 +507,6 @@
       ]
     },
     {
-      "id": "50298441",
-      "title": "Raptors' Kawhi Leonard out weeks due to knee, sources say",
-      "summary": "Kawhi Leonard is expected to miss a period of weeks due to swelling in his left knee, sources told ESPN's Shams Charania.",
-      "url": "https://www.espn.com/nba/story/_/id/50298441/raptors-kawhi-leonard-weeks-due-knee-sources-say",
-      "publishedAt": "2026-10-27T16:41:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737030_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Toronto Raptors",
-        "news",
-        "Kawhi Leonard"
-      ]
-    },
-    {
       "id": "50298555",
       "title": "Stephen A. goes on epic rant over Kawhi's latest injury",
       "summary": "Stephen A. goes on epic rant over Kawhi's latest injury",
@@ -374,22 +541,6 @@
       ]
     },
     {
-      "id": "50297902",
-      "title": "Bam Adebayo says critics 'make me the scapegoat' for Heat's winless start",
-      "summary": "Bam Adebayo says he is being singled out as the \"scapegoat\" for the new-look Heat's worst start to a season in nearly two decades.",
-      "url": "https://www.espn.com/nba/story/_/id/50297902/bam-adebayo-says-scapegoat-heat-0-4-start",
-      "publishedAt": "2026-10-27T15:46:34+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736988_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "Bam Adebayo",
-        "Giannis Antetokounmpo",
-        "news"
-      ]
-    },
-    {
       "id": "50298259",
       "title": "'C'mon bro!': Stephen A. pleads with Bam Adebayo to stop complaining about media",
       "summary": "'C'mon bro!': Stephen A. pleads with Bam Adebayo to stop complaining about media",
@@ -407,24 +558,6 @@
       ]
     },
     {
-      "id": "50294283",
-      "title": "Milwaukee Bucks poke fun at Rays' World Series loss, Heat's 0-4 start in postgame jab",
-      "summary": "The Bucks' neighbors, the Brewers, defeated the Rays in Game 3 of the World Series on Monday, and the Heat fell to 0-4.",
-      "url": "https://www.espn.com/nba/story/_/id/50294283/milwaukee-bucks-troll-rays-heat",
-      "publishedAt": "2026-10-27T14:09:22+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736872_608x342_16-9.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "NBA",
-        "Milwaukee Bucks",
-        "Miami Heat",
-        "MLB",
-        "Milwaukee Brewers",
-        "Tampa Bay Rays",
-        "Anthony Gharib"
-      ]
-    },
-    {
       "id": "50294832",
       "title": "Yaxel Lendeborg has 31 points, 12 rebounds as Warriors blow out Nuggets on road",
       "summary": "In his fourth game, Warriors rookie Yaxel Lendeborg put up 31 points, 12 rebounds and six assists in a blowout road win over the Nuggets on Monday night.",
@@ -438,22 +571,6 @@
         "Golden State Warriors",
         "Denver Nuggets",
         "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50294142",
-      "title": "Jalen Brunson shows Peyton and Eli his special painting",
-      "summary": "Jalen Brunson shows Peyton and Eli his special painting",
-      "url": "https://www.espn.com/video/clip/_/id/50294142/jalen-brunson-shows-peyton-eli-special-painting",
-      "publishedAt": "2026-10-27T12:22:33+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1026/dm_261026_brunson_mannngcast/dm_261026_brunson_mannngcast.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Brunson",
-        "League Boost",
-        "NBA",
-        "NFL",
-        "New York Knicks"
       ]
     },
     {
@@ -479,163 +596,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Golden State Warriors @ Denver Nuggets"
-      ]
-    },
-    {
-      "id": "50293720",
-      "title": "Jazz's Lauri Markkanen (wrist), Jaren Jackson Jr. (knee) exit vs. Grizzlies",
-      "summary": "Jazz forwards Lauri Markkanen (wrist) and Jaren Jackson Jr. (knee) both exited with injuries early in the first half of Monday night's loss to the Grizzlies.",
-      "url": "https://www.espn.com/nba/story/_/id/50293720/jazz-lauri-markkanen-jaren-jackson-jr-exit-early-vs-grizzlies",
-      "publishedAt": "2026-10-27T04:40:19+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736864_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Utah Jazz",
-        "Lauri Markkanen",
-        "Jaren Jackson Jr"
-      ]
-    },
-    {
-      "id": "50294276",
-      "title": "Cavaliers credit Meleek Thomas for sparking OT win over Wolves in NBA debut",
-      "summary": "Meleek Thomas' 16 points in 19 minutes helped rally the Cavaliers to a 127-125 overtime win over the Timberwolves in his NBA debut.",
-      "url": "https://www.espn.com/nba/story/_/id/50294276/cavaliers-credit-meleek-thomas-sparking-win-nba-debut",
-      "publishedAt": "2026-10-27T04:39:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736874_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news",
-        "Cleveland Cavaliers",
-        "Meleek Thomas"
-      ]
-    },
-    {
-      "id": "50294160",
-      "title": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
-      "summary": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50294160/game-highlights",
-      "publishedAt": "2026-10-27T03:59:01+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/8667a5b2-bfef-4589-9a76-a52582f40aed/8667a5b2-bfef-4589-9a76-a52582f40aed.jpg",
-      "author": "",
-      "categories": [
-        "Utah Jazz",
-        "Cedric Coward",
-        "Mo Bamba",
-        "Ty Jerome",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "SC4U  - Eligible",
-        "Keyonte George",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Memphis Grizzlies @ Utah Jazz"
-      ]
-    },
-    {
-      "id": "50293882",
-      "title": "Atlanta Hawks vs. Houston Rockets: Game Highlights",
-      "summary": "Atlanta Hawks vs. Houston Rockets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50293882/game-highlights",
-      "publishedAt": "2026-10-27T03:15:00+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/91e030da-fe63-44c9-99d6-fb06d2a9f908/91e030da-fe63-44c9-99d6-fb06d2a9f908.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Jalen Johnson",
-        "Reed Sheppard",
-        "Jabari Smith Jr",
-        "Houston Rockets",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Alperen Sengun",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Houston Rockets"
-      ]
-    },
-    {
-      "id": "50293664",
-      "title": "Indiana Pacers vs. Milwaukee Bucks: Game Highlights",
-      "summary": "Indiana Pacers vs. Milwaukee Bucks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50293664/game-highlights",
-      "publishedAt": "2026-10-27T02:59:45+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/8243d3c5-dcc2-47ea-a875-4f2cde4f7bdf/8243d3c5-dcc2-47ea-a875-4f2cde4f7bdf.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Indiana Pacers",
-        "Kasparas Jakucionis",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Myles Turner",
-        "Jay Huff",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Tyrese Haliburton",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Indiana Pacers @ Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50293648",
-      "title": "Phoenix Suns vs. Oklahoma City Thunder: Game Highlights",
-      "summary": "Phoenix Suns vs. Oklahoma City Thunder: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50293648/game-highlights",
-      "publishedAt": "2026-10-27T02:59:40+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/06bae917-bc2d-4206-9ae7-d65e22e1253f/06bae917-bc2d-4206-9ae7-d65e22e1253f.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Green",
-        "Khaman Maluach",
-        "Ajay Mitchell",
-        "Miles Bridges",
-        "Phoenix Suns",
-        "Oklahoma City Thunder",
-        "Isaiah Hartenstein",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Phoenix Suns @ Oklahoma City Thunder"
-      ]
-    },
-    {
-      "id": "50293414",
-      "title": "Minnesota Timberwolves vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "Minnesota Timberwolves vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50293414/game-highlights",
-      "publishedAt": "2026-10-27T02:46:50+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/fdfe06e6-a3a0-4071-9cd5-90b33e248452/fdfe06e6-a3a0-4071-9cd5-90b33e248452.jpg",
-      "author": "",
-      "categories": [
-        "Donovan Mitchell",
-        "Peyton Watson",
-        "Minnesota Timberwolves",
-        "LaMelo Ball",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Anthony Edwards",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Minnesota Timberwolves @ Cleveland Cavaliers"
       ]
     }
   ]
