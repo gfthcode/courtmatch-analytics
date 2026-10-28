@@ -29,7 +29,7 @@ const summaryChoices = [
 
 export function HomePage({ onSearch }: { onSearch: () => void }) {
   const data = useData();
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const season = data.seasons[0];
   const [chartMetric, setChartMetric] = useState<ChartMetric>('offense');
   const chartConfig = {
@@ -62,7 +62,7 @@ export function HomePage({ onSearch }: { onSearch: () => void }) {
         <div className="hero-copy">
           <p className="eyebrow">BASKETBALL, UNDER THE SURFACE.</p>
           <h1>{t('读懂每一次')}<br /><em>{t('正面对位。')}</em></h1>
-          <p className="hero-description">{t('用直接对位数据，看清谁在攻防回合中真正占据上风。')}</p>
+          <p className="hero-description">{language === 'en' ? 'CourtMatch is an NBA direct-matchup analysis tool for comparing player performance in recorded defensive possessions. Scattered data and inconsistent definitions make comparisons hard to trust, while small samples can overstate chance differences. It brings matchup, possession and efficiency evidence together so you can check the sample before interpreting the result.' : 'NBA 直接对位分析工具，比较球员在具体防守回合中的表现。对位数据分散、口径不一，小样本也容易放大偶然差异；CourtMatch 把对位对象、回合样本与效率指标放在一起，帮助你先核对证据再解读表现。'}</p>
           <Button variant="default" className="hero-search" onClick={onSearch}>
             <Search size={19} />
             <span>{t('搜索球员，开始探索')}<small>Search a player</small></span>
