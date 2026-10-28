@@ -1,14 +1,180 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-27T22:13:49.082565+00:00",
+  "updatedAt": "2026-10-28T05:41:39.263720+00:00",
   "articles": [
+    {
+      "id": "50303702",
+      "title": "Celtics' Jayson Tatum caps 40-point night with buzzer-beater in OT vs. Nets",
+      "summary": "Jayson Tatum buried a 17-foot jumper at the overtime buzzer in his first 40-point performance since his return from a torn Achilles as the C's beat the Nets.",
+      "url": "https://www.espn.com/nba/story/_/id/50303702/celtics-jayson-tatum-40-points-buzzer-beater-ot-nets",
+      "publishedAt": "2026-10-28T05:16:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737360_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Boston Celtics",
+        "news",
+        "Jayson Tatum"
+      ]
+    },
+    {
+      "id": "50302115",
+      "title": "Timberwolves' Anthony Edwards (knee) to miss up to 2 months, sources say",
+      "summary": "Timberwolves star Anthony Edwards will undergo an arthroscopic procedure on his ailing right knee Thursday that will sideline him up to two months, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50302115/timberwolves-anthony-edwards-miss-2-months-arthroscopic-knee-procedure",
+      "publishedAt": "2026-10-28T03:57:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737262_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "Anthony Edwards",
+        "NBA",
+        "Minnesota Timberwolves",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50303851",
+      "title": "Detroit Pistons vs. New York Knicks: Game Highlights",
+      "summary": "Detroit Pistons vs. New York Knicks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50303851/game-highlights",
+      "publishedAt": "2026-10-28T03:24:42+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1028/ddf06a15-09ee-4c6a-8077-c082dc64c610/ddf06a15-09ee-4c6a-8077-c082dc64c610.jpg",
+      "author": "",
+      "categories": [
+        "Karl-Anthony Towns",
+        "Paul Reed",
+        "New York Knicks",
+        "Detroit Pistons",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Detroit Pistons @ New York Knicks"
+      ]
+    },
+    {
+      "id": "50303813",
+      "title": "Brooklyn Nets vs. Boston Celtics: Game Highlights",
+      "summary": "Brooklyn Nets vs. Boston Celtics: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50303813/game-highlights",
+      "publishedAt": "2026-10-28T03:19:28+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1028/12b19468-5c04-462f-81df-f6836b589cda/12b19468-5c04-462f-81df-f6836b589cda.jpg",
+      "author": "",
+      "categories": [
+        "Jayson Tatum",
+        "Mikel Brown Jr",
+        "Boston Celtics",
+        "Michael Porter Jr",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "5 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Brooklyn Nets @ Boston Celtics"
+      ]
+    },
+    {
+      "id": "50303472",
+      "title": "Sacramento Kings vs. San Antonio Spurs: Game Highlights",
+      "summary": "Sacramento Kings vs. San Antonio Spurs: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50303472/game-highlights",
+      "publishedAt": "2026-10-28T02:45:50+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1028/9e6d12bd-4535-4cc2-8db8-b216863c36e7/9e6d12bd-4535-4cc2-8db8-b216863c36e7.jpg",
+      "author": "",
+      "categories": [
+        "Harrison Barnes",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "De'Andre Hunter",
+        "Julian Champagnie",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Sacramento Kings @ San Antonio Spurs"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-28T01:49:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "Zach Kram",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "Zach Kram"
+      ]
+    },
+    {
+      "id": "50301789",
+      "title": "Ayesha Curry to star in holiday rom-com 'Second Chance Holiday,' premiering on Roku",
+      "summary": "The wife of Stephen Curry will make her debut in a feature film leading role with Roku's \"Second Chance Holiday.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50301789/ayesha-stephen-curry-roku-holiday-rom-com",
+      "publishedAt": "2026-10-28T01:24:38+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737210_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Stephen Curry",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50302780",
+      "title": "Sources: Knicks assistant coach Chris Jent steps away for personal reasons",
+      "summary": "New York Knicks assistant coach Chris Jent will be away from the team for an undisclosed amount of time due to personal reasons, sources tell ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50302780/knicks-assistant-coach-chris-jent-takes-personal-leave",
+      "publishedAt": "2026-10-28T01:03:38+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737300_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50299185",
+      "title": "Tuesday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Eric Moody breaks down Tuesday's four-game slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50299185/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-10-27T22:55:54+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737063_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Devin Vassell",
+        "Paul Reed",
+        "Daniss Jenkins",
+        "Keon Ellis"
+      ]
+    },
     {
       "id": "50301040",
       "title": "Ex-NBA player Malik Beasley agrees to plead guilty in sports betting case",
       "summary": "Malik Beasley is scheduled to change his plea at a Dec. 9 hearing in Brooklyn.",
       "url": "https://www.espn.com/nba/story/_/id/50301040/malik-beasley-agrees-plead-guilty-sports-betting-case",
-      "publishedAt": "2026-10-27T22:12:04+00:00",
+      "publishedAt": "2026-10-27T22:15:50+00:00",
       "image": "https://a.espncdn.com/photo/2026/0701/r1683045_600x400_3-2.jpg",
       "author": "Tom Schad",
       "categories": [
@@ -116,27 +282,6 @@
       ]
     },
     {
-      "id": "50299185",
-      "title": "Tuesday's fantasy basketball adds and bets to make in the NBA",
-      "summary": "Eric Moody breaks down Tuesday's four-game slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50299185/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-10-27T17:55:04+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737063_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Devin Vassell",
-        "Paul Reed",
-        "Daniss Jenkins",
-        "Keon Ellis"
-      ]
-    },
-    {
       "id": "50287529",
       "title": "Inside the stunning 72-hour Lakers sale -- and the uncertainty that still looms",
       "summary": "Three days of secret talks resulted in Mark Walter flipping the Lakers -- and reignited yet another round of bickering among the six Buss siblings.",
@@ -226,22 +371,6 @@
       "categories": [
         "NBA",
         "espnw"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-27T15:57:32+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -383,24 +512,6 @@
       ]
     },
     {
-      "id": "50293411",
-      "title": "Rep for Sixers' Jaylen Brown denies report he demanded trade from Celtics",
-      "summary": "Jaylen Brown denied a report that he demanded a trade from the Boston Celtics or gave them a list of demands, according to a representative from Brown's team.",
-      "url": "https://www.espn.com/nba/story/_/id/50293411/sixers-jaylen-brown-denies-report-saying-demanded-trade-celtics",
-      "publishedAt": "2026-10-27T04:09:39+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736831_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "news",
-        "Philadelphia 76ers",
-        "NBA",
-        "Jaylen Brown",
-        "Boston Celtics",
-        "Jayson Tatum",
-        "Kris Rhim"
-      ]
-    },
-    {
       "id": "50294160",
       "title": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
       "summary": "Memphis Grizzlies vs. Utah Jazz: Game Highlights",
@@ -423,21 +534,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Memphis Grizzlies @ Utah Jazz"
-      ]
-    },
-    {
-      "id": "50293075",
-      "title": "Suddenly thin Thunder lose Alex Caruso to ankle sprain",
-      "summary": "The already-thin Oklahoma City Thunder lost guard Alex Caruso to a right ankle sprain in Monday night's game vs. the Suns.",
-      "url": "https://www.espn.com/nba/story/_/id/50293075/suddenly-thin-thunder-lose-alex-caruso-ankle-sprain",
-      "publishedAt": "2026-10-27T03:47:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706834_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Oklahoma City Thunder",
-        "Alex Caruso"
       ]
     },
     {
@@ -540,103 +636,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Minnesota Timberwolves @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50293342",
-      "title": "Dallas Mavericks vs. Miami Heat: Game Highlights",
-      "summary": "Dallas Mavericks vs. Miami Heat: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50293342/game-highlights",
-      "publishedAt": "2026-10-27T02:26:40+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/1ec1d330-28aa-4217-826b-272f42d00a03/1ec1d330-28aa-4217-826b-272f42d00a03.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Dallas Mavericks",
-        "Giannis Antetokounmpo",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Cooper Flagg",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Dallas Mavericks @ Miami Heat"
-      ]
-    },
-    {
-      "id": "50293248",
-      "title": "Chicago Bulls vs. Boston Celtics: Game Highlights",
-      "summary": "Chicago Bulls vs. Boston Celtics: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50293248/game-highlights",
-      "publishedAt": "2026-10-27T02:26:36+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/9ee1c5e9-bad6-4123-881f-6d65d5929206/9ee1c5e9-bad6-4123-881f-6d65d5929206.jpg",
-      "author": "",
-      "categories": [
-        "Boston Celtics",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "Hugo Gonzalez",
-        "SC4U  - Eligible",
-        "Norman Powell",
-        "Derrick White",
-        "Mitchell Robinson",
-        "Payton Pritchard",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Boston Celtics"
-      ]
-    },
-    {
-      "id": "50232827",
-      "title": "Jay-Z's greatest sports lyrics, ranked ahead of his Super Bowl show",
-      "summary": "The Super Bowl headliner's catalog is packed with sports references -- here are the ones that top our list.",
-      "url": "https://www.espn.com/espn/story/_/id/50232827/jayz-best-sports-references-sofi-stadium",
-      "publishedAt": "2026-10-27T01:52:27+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1022/and_jay-z_Jay-Z's_best_athlete_references_ranked_cr_16x9.jpg",
-      "author": "David Dennis Jr. and Justin Tinsley",
-      "categories": [
-        "NBA",
-        "NFL",
-        "LeBron James",
-        "Motor Sports",
-        "Philadelphia Eagles",
-        "Minnesota Vikings",
-        "espys",
-        "Boxing",
-        "MLB",
-        "New York Yankees",
-        "Portland Trail Blazers",
-        "Chicago Bulls",
-        "Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50293022",
-      "title": "Washington Wizards vs. Charlotte Hornets: Game Highlights",
-      "summary": "Washington Wizards vs. Charlotte Hornets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50293022/game-highlights",
-      "publishedAt": "2026-10-27T01:40:58+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/ef015ac1-1742-4b07-be94-4b560a0b3e85/ef015ac1-1742-4b07-be94-4b560a0b3e85.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Naz Reid",
-        "Charlotte Hornets",
-        "Brandon Miller",
-        "Anthony Davis",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Washington Wizards @ Charlotte Hornets"
       ]
     }
   ]
