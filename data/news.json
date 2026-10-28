@@ -1,8 +1,327 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-28T12:54:07.772224+00:00",
+  "updatedAt": "2026-10-28T20:16:15.582351+00:00",
   "articles": [
+    {
+      "id": "44679680",
+      "title": "Updated NBA championship and MVP odds: Spurs take control; Thunder lose ground",
+      "summary": "The San Antonio Spurs are the early favorites to win the NBA championship, with Victor Wembanyama the fave to take home MVP honors.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+      "publishedAt": "2026-10-28T20:04:47+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737614_1296x729_16-9.jpg",
+      "author": "Doug Greenberg",
+      "categories": [
+        "NBA",
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "Doug Greenberg"
+      ]
+    },
+    {
+      "id": "50309868",
+      "title": "Ernie Johnson says this is his final season as 'Inside the NBA' host",
+      "summary": "Ernie Johnson will retire as host of \"Inside the NBA\" after the season, saying it was his decision to step away and that \"it's just time.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50309868/ernie-johnson-leaving-nba-host-season",
+      "publishedAt": "2026-10-28T20:03:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737637_2_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "news"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-28T19:18:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50309151",
+      "title": "Wizards upgrade No. 1 pick AJ Dybantsa to available vs. Cavaliers",
+      "summary": "Wizards rookie AJ Dybantsa, who has missed the first four games of the season with an ankle injury, has been upgraded to available for Wednesday's matchup against the Cavaliers.",
+      "url": "https://www.espn.com/nba/story/_/id/50309151/wizards-upgrade-no-1-pick-aj-dybantsa-available-vs-cavs",
+      "publishedAt": "2026-10-28T18:47:21+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1020/r1733453_600x400_3-2.jpg",
+      "author": "ESPN",
+      "categories": [
+        "news",
+        "NBA",
+        "Washington Wizards",
+        "AJ Dybantsa"
+      ]
+    },
+    {
+      "id": "50309718",
+      "title": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
+      "summary": "Shams confirms AJ Dybantsa making season debut tonight vs. Cavs",
+      "url": "https://www.espn.com/video/clip/_/id/50309718/shams-confirms-aj-dybantsa-making-season-debut-tonight-vs-cavs",
+      "publishedAt": "2026-10-28T18:36:57+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_142813065_3714279871/ss_20261028_142813065_3714279871.jpg",
+      "author": "",
+      "categories": [
+        "Washington Wizards",
+        "NBA",
+        "Shams Charania",
+        "AJ Dybantsa",
+        "Verts - Exclude Content",
+        "Washington Wizards @ Cleveland Cavaliers"
+      ]
+    },
+    {
+      "id": "50309755",
+      "title": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
+      "summary": "Ernie Johnson announces this will be his last year on 'Inside the NBA'",
+      "url": "https://www.espn.com/video/clip/_/id/50309755/ernie-johnson-announces-his-last-year-nba",
+      "publishedAt": "2026-10-28T18:33:05+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/dm_261028_ernie_johnson_announcement/dm_261028_ernie_johnson_announcement.jpg",
+      "author": "",
+      "categories": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "50309485",
+      "title": "Sources: Pacers' Tyrese Haliburton (hamstring) to miss time",
+      "summary": "Pacers star Tyrese Haliburton has a strained left hamstring and will miss time, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50309485/sources-pacers-tyrese-haliburton-hamstring-miss",
+      "publishedAt": "2026-10-28T18:32:14+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737595_1296x729_16-9.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "Tyrese Haliburton",
+        "Indiana Pacers",
+        "NBA",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50309551",
+      "title": "Shams to McAfee: Haliburton to miss time with strained hamstring",
+      "summary": "Shams to McAfee: Haliburton to miss time with strained hamstring",
+      "url": "https://www.espn.com/video/clip/_/id/50309551/haliburton-miss-strained-hamstring",
+      "publishedAt": "2026-10-28T18:11:46+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_135156342_3714251844/ss_20261028_135156342_3714251844.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "Shams Charania",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Tyrese Haliburton",
+        "Indiana Pacers",
+        "Pat McAfee",
+        "The Pat McAfee Show",
+        "Verts - Exclude Content",
+        "Philadelphia 76ers @ Indiana Pacers"
+      ]
+    },
+    {
+      "id": "50308698",
+      "title": "Wednesday's fantasy hoops adds and bets to make in the NBA: Look to Shannon Jr.",
+      "summary": "Andre Snellings breaks down Wednesday's huge NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50308698/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-10-28T17:01:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737546_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Terrence Shannon Jr",
+        "Anthony Black",
+        "Jared McCain",
+        "Mo Bamba",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50298824",
+      "title": "Kyrie Irving has found new purpose in Dallas alongside Cooper Flagg",
+      "summary": "Irving and the Mavericks host the Oklahoma City Thunder on Wednesday at 9:30 p.m. ET on ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50298824/kyrie-irving-cooper-flagg-dallas-mavericks-new-line",
+      "publishedAt": "2026-10-28T16:55:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737042_608x342_16-9.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks",
+        "Kyrie Irving",
+        "Cooper Flagg",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50309216",
+      "title": "Mavericks CEO Welts retiring again, to be replaced by team president Casson",
+      "summary": "Mavericks CEO Rick Welts is retiring for the second time, almost two years after he joined the franchise to help shepherd a new arena plan as he had done previously with the Warriors.",
+      "url": "https://www.espn.com/nba/story/_/id/50309216/mavericks-ceo-welts-retiring-again-replaced-casson",
+      "publishedAt": "2026-10-28T16:50:01+00:00",
+      "image": "https://a.espncdn.com/photo/2021/0408/r837632_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks"
+      ]
+    },
+    {
+      "id": "50290392",
+      "title": "NBA Power Rankings: How all 30 teams stack up after one week",
+      "summary": "Here's where all 30 NBA teams rank after one week of the 2026-27 regular season, plus the most surprising statistic or trend for each franchise.",
+      "url": "https://www.espn.com/nba/story/_/id/50290392/nba-power-rankings-30-teams-rank-one-week-stat-trend",
+      "publishedAt": "2026-10-28T16:37:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/nba_power_rankings_26_10_28_16x9_1296x729.jpg",
+      "author": "NBA Insiders",
+      "categories": [
+        "NBA",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Washington Wizards",
+        "Utah Jazz",
+        "NBA Insiders"
+      ]
+    },
+    {
+      "id": "49959975",
+      "title": "Fantasy basketball H2H Category and Roto rankings: Daniels, Kessler on the rise",
+      "summary": "Updated fantasy basketball rankings for H2H category and roto leagues, with Dyson Daniels and Walker Kessler on the rise.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-10-28T15:34:22+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737135_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "Fantasy NBA",
+        "NBA",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "49960162",
+      "title": "Fantasy basketball points league rankings update: George, Jerome on the rise",
+      "summary": "Updated fantasy basketball rankings for points leagues, with Ty Jerome, Paul George and Davion Mitchell among the biggest risers.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-10-28T15:33:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736711_2_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Ty Jerome",
+        "Paul George",
+        "Davion Mitchell",
+        "Andre Snellings",
+        "NBA"
+      ]
+    },
+    {
+      "id": "50308295",
+      "title": "Stephen A.: Anthony Edwards injury devastating for Timberwolves",
+      "summary": "Stephen A.: Anthony Edwards injury devastating for Timberwolves",
+      "url": "https://www.espn.com/video/clip/_/id/50308295/anthony-edwards-injury-devastating-timberwolves",
+      "publishedAt": "2026-10-28T14:54:14+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/ss_20261028_103714080_3714119647/ss_20261028_103714080_3714119647.jpg",
+      "author": "",
+      "categories": [
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "2 Star Rating",
+        "NBA",
+        "Anthony Edwards",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Stephen A. Smith",
+        "First Take",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50307850",
+      "title": "Fantasy Hoops: The Timberwolves players to add in wake of Anthony Edwards injury",
+      "summary": "The Timberwolves to add as Anthony Edwards' injury opens up a lot of minutes and opportunity for teammates.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50307850/fantasy-basketball-anthony-edwards-injury",
+      "publishedAt": "2026-10-28T14:27:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737491_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "NBA",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "news - fantasy",
+        "Minnesota Timberwolves",
+        "Anthony Edwards",
+        "LaMelo Ball",
+        "Ayo Dosunmu",
+        "Terrence Shannon Jr",
+        "Jaden McDaniels",
+        "Jonathan Kuminga",
+        "Bones Hyland"
+      ]
+    },
+    {
+      "id": "42377368",
+      "title": "LeBron, Durant headline NBA draft classes of the early 2000s",
+      "summary": "The aughts are over? Here's a look at the players who remain from the early 2000s draft classes.",
+      "url": "https://www.espn.com/nba/story/_/id/42377368/nba-fewest-active-players-respective-drafts",
+      "publishedAt": "2026-10-28T14:21:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737261_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "LeBron James",
+        "Philadelphia 76ers",
+        "Houston Rockets",
+        "Kevin Durant",
+        "Boston Celtics",
+        "Paul George",
+        "Anthony Gharib"
+      ]
+    },
     {
       "id": "50307102",
       "title": "Davis hot starts puts out Wildcats",
@@ -58,46 +377,21 @@
       ]
     },
     {
-      "id": "50290392",
-      "title": "NBA Power Rankings: How all 30 teams stack up after one week",
-      "summary": "Here's where all 30 NBA teams rank after one week of the 2026-27 regular season, plus the most surprising statistic or trend for each franchise.",
-      "url": "https://www.espn.com/nba/story/_/id/50290392/nba-power-rankings-30-teams-rank-one-week-stat-trend",
-      "publishedAt": "2026-10-28T12:21:34+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/nba_power_rankings_26_10_28_16x9_1296x729.jpg",
-      "author": "NBA Insiders",
+      "id": "50301485",
+      "title": "What's Cooper Flagg's ceiling in Year 2? Our fantasy experts weigh in",
+      "summary": "Andre Snellings and Eric Moody explain what to expect from the young Mavericks star -- and how good he can be -- in his second NBA season.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50301485/fantasy-basketball-cooper-flagg-improve-2026-2027",
+      "publishedAt": "2026-10-28T11:43:47+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737225_1296x729_16-9.jpg",
+      "author": "Andre Snellings and Eric Moody",
       "categories": [
+        "Fantasy NBA",
         "NBA",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Washington Wizards",
-        "Utah Jazz",
-        "NBA Insiders"
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Cooper Flagg",
+        "Andre Snellings"
       ]
     },
     {
@@ -163,22 +457,6 @@
         "NBA",
         "Minnesota Timberwolves",
         "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50298824",
-      "title": "Kyrie Irving has found new purpose in Dallas alongside Cooper Flagg",
-      "summary": "Irving and the Mavericks host the Oklahoma City Thunder on Wednesday at 9:30 p.m. ET on ESPN.",
-      "url": "https://www.espn.com/nba/story/_/id/50298824/kyrie-irving-cooper-flagg-dallas-mavericks-new-line",
-      "publishedAt": "2026-10-28T11:15:57+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737042_608x342_16-9.jpg",
-      "author": "Tim MacMahon",
-      "categories": [
-        "NBA",
-        "Dallas Mavericks",
-        "Kyrie Irving",
-        "Cooper Flagg",
-        "Tim MacMahon"
       ]
     },
     {
@@ -305,22 +583,6 @@
       ]
     },
     {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-28T01:49:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "Zach Kram",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "Zach Kram"
-      ]
-    },
-    {
       "id": "50301789",
       "title": "Ayesha Curry to star in holiday rom-com 'Second Chance Holiday,' premiering on Roku",
       "summary": "The wife of Stephen Curry will make her debut in a feature film leading role with Roku's \"Second Chance Holiday.\"",
@@ -415,40 +677,6 @@
       ]
     },
     {
-      "id": "49960162",
-      "title": "Fantasy basketball points league rankings update: George, Jerome on the rise",
-      "summary": "Updated fantasy basketball rankings for points leagues, with Ty Jerome, Paul George and Davion Mitchell among the biggest risers.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-10-27T21:09:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736711_2_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Ty Jerome",
-        "Paul George",
-        "Davion Mitchell",
-        "Andre Snellings",
-        "NBA"
-      ]
-    },
-    {
-      "id": "49959975",
-      "title": "Fantasy basketball H2H Category and Roto rankings: Daniels, Kessler on the rise",
-      "summary": "Updated fantasy basketball rankings for H2H category and roto leagues, with Dyson Daniels and Walker Kessler on the rise.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-10-27T21:06:51+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737135_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "Fantasy NBA",
-        "NBA",
-        "Andre Snellings"
-      ]
-    },
-    {
       "id": "50299731",
       "title": "Hornets to retire Muggsy Bogues' No. 1 jersey",
       "summary": "The Hornets will retire Muggsy Bogues' No. 1 jersey on Feb. 11. Bogues, the shortest player in NBA history, is the franchise leader in assists, steals and minutes.",
@@ -461,22 +689,6 @@
         "Charlotte Hornets",
         "news",
         "Shams Charania"
-      ]
-    },
-    {
-      "id": "50287529",
-      "title": "Inside the stunning 72-hour Lakers sale -- and the uncertainty that still looms",
-      "summary": "Three days of secret talks resulted in Mark Walter flipping the Lakers -- and reignited yet another round of bickering among the six Buss siblings.",
-      "url": "https://www.espn.com/nba/story/_/id/50287529/los-angeles-lakers-sale-mark-walter-iger-kushner-luka",
-      "publishedAt": "2026-10-27T17:27:56+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1023/nba_lakers2_16x9.jpg",
-      "author": "Ramona Shelburne",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "Luka Doncic",
-        "Austin Reaves",
-        "Ramona Shelburne"
       ]
     },
     {
@@ -555,47 +767,6 @@
         "First Take",
         "Bam Adebayo",
         "Miami Heat"
-      ]
-    },
-    {
-      "id": "50294832",
-      "title": "Yaxel Lendeborg has 31 points, 12 rebounds as Warriors blow out Nuggets on road",
-      "summary": "In his fourth game, Warriors rookie Yaxel Lendeborg put up 31 points, 12 rebounds and six assists in a blowout road win over the Nuggets on Monday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50294832/yaxel-lendeborg-31-points-12-rebounds-warriors-beat-nuggets-first-win",
-      "publishedAt": "2026-10-27T13:08:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736886_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "Yaxel Lendeborg",
-        "NBA",
-        "Golden State Warriors",
-        "Denver Nuggets",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50294421",
-      "title": "Golden State Warriors vs. Denver Nuggets: Game Highlights",
-      "summary": "Golden State Warriors vs. Denver Nuggets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50294421/game-highlights",
-      "publishedAt": "2026-10-27T05:06:35+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1027/dbc2eff8-9b7d-4246-97f5-caf43efe6687/dbc2eff8-9b7d-4246-97f5-caf43efe6687.jpg",
-      "author": "",
-      "categories": [
-        "Trevon Brazile",
-        "DeMar DeRozan",
-        "Denver Nuggets",
-        "Yaxel Lendeborg",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "Nikola Jokic",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors @ Denver Nuggets"
       ]
     }
   ]
