@@ -1,14 +1,106 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-30T00:58:53.018264+00:00",
+  "updatedAt": "2026-10-30T10:00:07.402146+00:00",
   "articles": [
+    {
+      "id": "50325662",
+      "title": "Trail Blazers' Ja Morant exits first game vs. Grizzlies with hamstring injury",
+      "summary": "Ja Morant exited his first game against his former team in the fourth quarter Thursday night because of a left hamstring injury.",
+      "url": "https://www.espn.com/nba/story/_/id/50325662/trail-blazers-ja-morant-exit-grizzlies-hamstring-injury",
+      "publishedAt": "2026-10-30T05:56:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738473_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Portland Trail Blazers",
+        "Memphis Grizzlies",
+        "Ja Morant"
+      ]
+    },
+    {
+      "id": "50325289",
+      "title": "Cam Boozer shines as Grizzlies move to 5-0",
+      "summary": "Cam Boozer shines as Grizzlies move to 5-0",
+      "url": "https://www.espn.com/video/clip/_/id/50325289/cam-boozer-shines-grizzlies-move-5-0",
+      "publishedAt": "2026-10-30T04:53:46+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/951bc673-0990-4440-a474-1c39e85ca577/951bc673-0990-4440-a474-1c39e85ca577.jpg",
+      "author": "",
+      "categories": [
+        "Ja Morant",
+        "Portland Trail Blazers",
+        "Zach Edey",
+        "Jerami Grant",
+        "Isaiah Stewart",
+        "Memphis Grizzlies",
+        "NBA",
+        "Cameron Boozer",
+        "Toumani Camara",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "Memphis Grizzlies @ Portland Trail Blazers"
+      ]
+    },
+    {
+      "id": "50324587",
+      "title": "Cleveland Cavaliers vs. Atlanta Hawks: Game Highlights",
+      "summary": "Cleveland Cavaliers vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50324587/game-highlights",
+      "publishedAt": "2026-10-30T02:57:45+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/d592186b-8182-4220-a73c-190bb93dc373/d592186b-8182-4220-a73c-190bb93dc373.jpg",
+      "author": "",
+      "categories": [
+        "Nickeil Alexander-Walker",
+        "Donovan Mitchell",
+        "Onyeka Okongwu",
+        "Atlanta Hawks",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "James Harden",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Cleveland Cavaliers @ Atlanta Hawks"
+      ]
+    },
+    {
+      "id": "50324469",
+      "title": "Sacramento Kings vs. New Orleans Pelicans: Game Highlights",
+      "summary": "Sacramento Kings vs. New Orleans Pelicans: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50324469/game-highlights",
+      "publishedAt": "2026-10-30T02:39:51+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/a3756bda-4518-4131-bb4a-eacc8b6d5f95/a3756bda-4518-4131-bb4a-eacc8b6d5f95.jpg",
+      "author": "",
+      "categories": [
+        "Darius Acuff Jr",
+        "Jeremiah Fears",
+        "SC4U - Full Highlight",
+        "Precious Achiuwa",
+        "NBA",
+        "Karlo Matkovic",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "New Orleans Pelicans",
+        "De'Andre Hunter",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Sacramento Kings @ New Orleans Pelicans"
+      ]
+    },
     {
       "id": "50323505",
       "title": "Knicks' Jose Alvarado (ankle) to miss fourth straight vs. 76ers",
       "summary": "Knicks reserve guard Jose Alvarado will miss Friday's NBA Cup game against the 76ers because of a right ankle injury.",
       "url": "https://www.espn.com/nba/story/_/id/50323505/knicks-jose-alvarado-ankle-injury-76ers",
-      "publishedAt": "2026-10-30T00:52:17+00:00",
+      "publishedAt": "2026-10-30T01:22:15+00:00",
       "image": "https://a.espncdn.com/photo/2026/0626/r1680192_600x400_3-2.jpg",
       "author": "Vincent Goodwill",
       "categories": [
@@ -117,24 +209,6 @@
         "news",
         "Giannis Antetokounmpo",
         "Bam Adebayo"
-      ]
-    },
-    {
-      "id": "50312726",
-      "title": "Steve Kerr, Chris Finch want NBA to alter how it calls flopping techs",
-      "summary": "Chris Finch and Steve Kerr expressed a desire for the league to alter the way it calls flopping violations, saying it should focus more on offense.",
-      "url": "https://www.espn.com/nba/story/_/id/50312726/kerr-finch-want-nba-alter-how-calls-flopping-techs",
-      "publishedAt": "2026-10-29T11:12:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1029/r1737852_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Minnesota Timberwolves",
-        "Golden State Warriors",
-        "Los Angeles Lakers",
-        "Portland Trail Blazers",
-        "Anthony Slater"
       ]
     },
     {
@@ -271,21 +345,6 @@
       ]
     },
     {
-      "id": "50313096",
-      "title": "Top pick AJ Dybantsa scores 19 points in NBA debut for Wizards",
-      "summary": "AJ Dybantsa, the No. 1 pick in the June draft, led the Washington Wizards with 19 points in his NBA debut Wednesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50313096/top-pick-aj-dybantsa-scores-19-points-debut-wizards",
-      "publishedAt": "2026-10-29T03:48:28+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1029/r1737860_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Washington Wizards",
-        "AJ Dybantsa"
-      ]
-    },
-    {
       "id": "50313630",
       "title": "Jalen Brunson takes over with 38-point performance in Knicks' win",
       "summary": "Jalen Brunson takes over with 38-point performance in Knicks' win",
@@ -415,142 +474,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Denver Nuggets @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50313301",
-      "title": "Orlando Magic vs. Toronto Raptors: Game Highlights",
-      "summary": "Orlando Magic vs. Toronto Raptors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50313301/game-highlights",
-      "publishedAt": "2026-10-29T02:21:03+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/6995b506-47d2-4dc5-a085-ee6a64f09220/6995b506-47d2-4dc5-a085-ee6a64f09220.jpg",
-      "author": "",
-      "categories": [
-        "Tristan da Silva",
-        "Toronto Raptors",
-        "Orlando Magic",
-        "SC4U - Full Highlight",
-        "Franz Wagner",
-        "NBA",
-        "Scottie Barnes",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Toronto Raptors"
-      ]
-    },
-    {
-      "id": "50313143",
-      "title": "Tyrese Maxey, 76ers take down Pacers in thriller",
-      "summary": "Tyrese Maxey, 76ers take down Pacers in thriller",
-      "url": "https://www.espn.com/video/clip/_/id/50313143/tyrese-maxey-76ers-take-pacers-thriller",
-      "publishedAt": "2026-10-29T02:19:40+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/8be075ffa1a149cc944bb304f1bc49b81339/8be075ffa1a149cc944bb304f1bc49b81339.jpg",
-      "author": "",
-      "categories": [
-        "Pascal Siakam",
-        "Philadelphia 76ers",
-        "Indiana Pacers",
-        "NBA",
-        "VJ Edgecombe",
-        "Tyrese Maxey",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U - Full Highlight",
-        "SC4U  - Eligible",
-        "Philadelphia 76ers @ Indiana Pacers"
-      ]
-    },
-    {
-      "id": "50313063",
-      "title": "Charlotte Hornets vs. Detroit Pistons: Game Highlights",
-      "summary": "Charlotte Hornets vs. Detroit Pistons: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50313063/game-highlights",
-      "publishedAt": "2026-10-29T01:53:54+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/228bf1fd-0ed7-49f4-aacf-494c30ae5a53/228bf1fd-0ed7-49f4-aacf-494c30ae5a53.jpg",
-      "author": "",
-      "categories": [
-        "Duncan Robinson",
-        "Detroit Pistons",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Cade Cunningham",
-        "SC4U  - Eligible",
-        "Charlotte Hornets",
-        "Brandon Miller",
-        "Daniss Jenkins",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Charlotte Hornets @ Detroit Pistons"
-      ]
-    },
-    {
-      "id": "50312931",
-      "title": "Miami Heat vs. Atlanta Hawks: Game Highlights",
-      "summary": "Miami Heat vs. Atlanta Hawks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50312931/game-highlights",
-      "publishedAt": "2026-10-29T01:53:31+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/b8580b89-ef49-4989-8ea9-54db072dd0a2/b8580b89-ef49-4989-8ea9-54db072dd0a2.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Nikola Jovic",
-        "4 Star Rating",
-        "Andrew Wiggins",
-        "Kingston Flemings",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Miami Heat @ Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50313027",
-      "title": "Washington Wizards vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "Washington Wizards vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50313027/game-highlights",
-      "publishedAt": "2026-10-29T01:53:28+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/9fb09c77-028c-432a-994f-1accb57e64ee/9fb09c77-028c-432a-994f-1accb57e64ee.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Evan Mobley",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Meleek Thomas",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Washington Wizards @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50312370",
-      "title": "Thunder's Jalen Williams has surgery, to be reevaluated before end of season",
-      "summary": "Thunder star Jalen Williams underwent successful surgery Wednesday and will be reevaluated before the end of the 2026-27 season.",
-      "url": "https://www.espn.com/nba/story/_/id/50312370/thunder-jalen-williams-surgery-reevaluated-end-season",
-      "publishedAt": "2026-10-29T00:29:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0521/r1661286_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Oklahoma City Thunder",
-        "Jalen Williams"
       ]
     }
   ]
