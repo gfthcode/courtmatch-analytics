@@ -1,20 +1,85 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-30T17:59:57.806482+00:00",
+  "updatedAt": "2026-10-30T22:19:28.095909+00:00",
   "articles": [
+    {
+      "id": "50329588",
+      "title": "Ja Morant out at least 4 weeks with hamstring strain suffered against Grizzlies",
+      "summary": "Trail Blazers guard Ja Morant sustained a left hamstring strain in his first game against the Grizzlies, his former team, and will be out at least four weeks.",
+      "url": "https://www.espn.com/nba/story/_/id/50329588/ja-morant-least-four-weeks-injury-vs-grizzlies",
+      "publishedAt": "2026-10-30T20:36:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738441_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "Ja Morant",
+        "Portland Trail Blazers",
+        "NBA",
+        "news",
+        "Memphis Grizzlies",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50329901",
+      "title": "Source: Fever hires Blazers' Sheri Sam as assistant GM",
+      "summary": "Sheri Sam, who was the scouting manager for the Trail Blazers, has been hired as assistant general manager of the WNBA's Fever, a source told ESPN.",
+      "url": "https://www.espn.com/wnba/story/_/id/50329901/source-fever-hires-blazers-sheri-sam-assistant-gm",
+      "publishedAt": "2026-10-30T20:02:38+00:00",
+      "image": "https://a.espncdn.com/photo/2023/1209/r1264312_2_1296x729_16-9.jpg",
+      "author": "Kareem Copeland",
+      "categories": [
+        "Indiana Fever",
+        "WNBA",
+        "espnw",
+        "Portland Trail Blazers",
+        "NBA",
+        "Kareem Copeland"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-30T18:46:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
     {
       "id": "50328871",
       "title": "Heat unveil updated Dwyane Wade statue after original's face was panned",
       "summary": "Dwyane Wade has a new face -- on his statue.",
       "url": "https://www.espn.com/nba/story/_/id/50328871/heat-unveil-updated-dwyane-wade-statue-original-face-was-panned",
-      "publishedAt": "2026-10-30T17:13:56+00:00",
+      "publishedAt": "2026-10-30T18:22:03+00:00",
       "image": "https://a.espncdn.com/photo/2024/1027/r1406810_600x400_3-2.jpg",
       "author": "",
       "categories": [
         "NBA",
         "Miami Heat",
         "Dwyane Wade"
+      ]
+    },
+    {
+      "id": "50329298",
+      "title": "Sources: Thunder signing Agbaji to fill roster after Williams, Wallace injuries",
+      "summary": "The Thunder are signing forward Ochai Agbaji to fill their open roster spot in the wake of major injuries suffered to starting wings Jalen Williams and Cason Wallace, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50329298/sources-thunder-signing-ochai-agbaji-fill-open-roster-spot",
+      "publishedAt": "2026-10-30T18:15:00+00:00",
+      "image": "https://a.espncdn.com/photo/2016/0429/r78607_600x400_3-2.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "Ochai Agbaji",
+        "Tim MacMahon"
       ]
     },
     {
@@ -38,22 +103,6 @@
         "Dillon Brooks",
         "Terrence Shannon Jr",
         "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-10-30T15:27:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -472,25 +521,6 @@
         "nba highlight",
         "Fantasy NBA",
         "San Antonio Spurs @ Utah Jazz"
-      ]
-    },
-    {
-      "id": "50313630",
-      "title": "Jalen Brunson takes over with 38-point performance in Knicks' win",
-      "summary": "Jalen Brunson takes over with 38-point performance in Knicks' win",
-      "url": "https://www.espn.com/video/clip/_/id/50313630/jalen-brunson-takes-38-point-performance-knicks-win",
-      "publishedAt": "2026-10-29T03:12:35+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1028/9d7c77f2cdeb44d99669de85febc56151391/9d7c77f2cdeb44d99669de85febc56151391.jpg",
-      "author": "",
-      "categories": [
-        "New York Knicks",
-        "Jalen Brunson",
-        "Chicago Bulls",
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New York Knicks @ Chicago Bulls"
       ]
     },
     {
