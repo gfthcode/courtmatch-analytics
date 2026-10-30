@@ -1,8 +1,138 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-30T10:00:07.402146+00:00",
+  "updatedAt": "2026-10-30T17:59:57.806482+00:00",
   "articles": [
+    {
+      "id": "50328871",
+      "title": "Heat unveil updated Dwyane Wade statue after original's face was panned",
+      "summary": "Dwyane Wade has a new face -- on his statue.",
+      "url": "https://www.espn.com/nba/story/_/id/50328871/heat-unveil-updated-dwyane-wade-statue-original-face-was-panned",
+      "publishedAt": "2026-10-30T17:13:56+00:00",
+      "image": "https://a.espncdn.com/photo/2024/1027/r1406810_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Dwyane Wade"
+      ]
+    },
+    {
+      "id": "50324957",
+      "title": "Friday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Andre Snellings breaks down Friday's games, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50324957/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-10-30T17:03:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738596_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Sports Betting",
+        "news – sports betting",
+        "Paul Reed",
+        "Ja'Kobe Walter",
+        "Dillon Brooks",
+        "Terrence Shannon Jr",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-10-30T15:27:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50308763",
+      "title": "Kevin Durant reflects on his eight seasons with the Oklahoma City Thunder",
+      "summary": "After the most acrimonious exit of his career, Durant reveals how much he appreciates Oklahoma City and shares his feelings as the team tries to create a dynasty.",
+      "url": "https://www.espn.com/nba/story/_/id/50308763/kevin-durant-oklahoma-city-thunder-reflection",
+      "publishedAt": "2026-10-30T11:00:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736528_608x342_16-9.jpg",
+      "author": "Baxter Holmes and David Seronick",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "Kevin Durant",
+        "Houston Rockets",
+        "Baxter Holmes"
+      ]
+    },
+    {
+      "id": "50322550",
+      "title": "A trade? More cost-cutting? Where OKC could be headed this season",
+      "summary": "What should OKC do after two season-altering injuries? Brian Windhorst and Tim MacMahon take the pulse of the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50322550/thunder-trade-jalen-williams-cason-wallace",
+      "publishedAt": "2026-10-30T10:57:03+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1030/r1738480_1296x729_16-9.jpg",
+      "author": "Brian Windhorst and Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "Sacramento Kings",
+        "New Orleans Pelicans",
+        "Brian Windhorst",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "49577473",
+      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament.",
+      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+      "publishedAt": "2026-10-30T10:55:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0811/r1700475_1296x729_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "event",
+        "daily",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
+      ]
+    },
     {
       "id": "50325662",
       "title": "Trail Blazers' Ja Morant exits first game vs. Grizzlies with hamstring injury",
@@ -410,70 +540,6 @@
         "nba highlight",
         "Fantasy NBA",
         "New York Knicks @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50313575",
-      "title": "Houston Rockets vs. Milwaukee Bucks: Game Highlights",
-      "summary": "Houston Rockets vs. Milwaukee Bucks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50313575/game-highlights",
-      "publishedAt": "2026-10-29T02:57:22+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/450ddedf-3559-4e2e-85e4-b5550d533e39/450ddedf-3559-4e2e-85e4-b5550d533e39.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Houston Rockets",
-        "SC4U - Full Highlight",
-        "Amen Thompson",
-        "NBA",
-        "Fred VanVleet",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50313376",
-      "title": "Hornets bench Naz Reid at half for not meeting 'our standards'",
-      "summary": "Hornets newly acquired forward Naz Reid was benched at halftime of Wednesday's loss to the Pistons for not meeting the team's standards.",
-      "url": "https://www.espn.com/nba/story/_/id/50313376/hornets-bench-reid-half-not-meeting-our-standards",
-      "publishedAt": "2026-10-29T02:43:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1029/r1737879_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "Charlotte Hornets",
-        "Naz Reid",
-        "NBA"
-      ]
-    },
-    {
-      "id": "50313476",
-      "title": "Denver Nuggets vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Denver Nuggets vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50313476/game-highlights",
-      "publishedAt": "2026-10-29T02:35:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1029/ec2b0936-437b-4dd4-8da5-6a4f556fd52b/ec2b0936-437b-4dd4-8da5-6a4f556fd52b.jpg",
-      "author": "",
-      "categories": [
-        "Aaron Gordon",
-        "Jamal Murray",
-        "DeMar DeRozan",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "DeAndre Jordan",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Denver Nuggets @ New Orleans Pelicans"
       ]
     }
   ]
