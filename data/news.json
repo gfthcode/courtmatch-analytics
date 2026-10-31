@@ -1,14 +1,14 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-10-31T05:40:03.908300+00:00",
+  "updatedAt": "2026-10-31T12:28:12.209747+00:00",
   "articles": [
     {
       "id": "50333418",
       "title": "LeBron James shines vs. Knicks in 'his best game' with 76ers",
-      "summary": "LeBron James rescued Philly late Friday night in what coach Nick Nurse called his best game as a Sixer.",
+      "summary": "LeBron James rescued Philadelphia late against the Knicks in what coach Nick Nurse called his best game as a Sixer.",
       "url": "https://www.espn.com/nba/story/_/id/50333418/lebron-james-shines-vs-knicks-best-game-76ers",
-      "publishedAt": "2026-10-31T05:37:09+00:00",
+      "publishedAt": "2026-10-31T12:13:21+00:00",
       "image": "https://a.espncdn.com/photo/2026/1031/r1738850_600x600_1-1.jpg",
       "author": "Kris Rhim",
       "categories": [
@@ -17,6 +17,35 @@
         "LeBron James",
         "news",
         "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50333810",
+      "title": "Curry's ankle-breaker on Luka highlights Warriors' stunning 25-point comeback",
+      "summary": "Behind a theatrical 31 points from Stephen Curry late Friday night, the Golden State Warriors roared back for a 112-95 win over the Los Angeles Lakers.",
+      "url": "https://www.espn.com/nba/story/_/id/50333810/stephen-curry-leads-warriors-25-point-comeback-lakers",
+      "publishedAt": "2026-10-31T11:49:27+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1031/r1738862_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50333460",
+      "title": "Dillon Brooks ejected from Suns' loss after flagrant foul 2 in third quarter",
+      "summary": "Phoenix Suns forward Dillon Brooks was ejected Friday night in a 127-120 loss to the Denver Nuggets for kicking guard Jamal Murray in the groin, an infraction that officials upgraded to a Flagrant 2 foul, which is an automatic ejection.",
+      "url": "https://www.espn.com/nba/story/_/id/50333460/suns-forward-dillon-brooks-ejected-third-quarter-loss",
+      "publishedAt": "2026-10-31T05:55:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1031/r1738851_600x600_1-1.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Phoenix Suns",
+        "Denver Nuggets",
+        "Dillon Brooks"
       ]
     },
     {
@@ -75,21 +104,6 @@
         "NBA",
         "New York Knicks",
         "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50333460",
-      "title": "Dillon Brooks ejected from Suns' loss after Flagrant 2 foul in third quarter",
-      "summary": "Phoenix Suns forward Dillon Brooks was ejected Friday night in a 127-120 loss to the Denver Nuggets for kicking guard Jamal Murray in the groin, an infraction that officials upgraded to a Flagrant 2 foul, which is an automatic ejection.",
-      "url": "https://www.espn.com/nba/story/_/id/50333460/suns-forward-dillon-brooks-ejected-third-quarter-loss",
-      "publishedAt": "2026-10-31T05:14:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1031/r1738851_600x600_1-1.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Phoenix Suns",
-        "Denver Nuggets",
-        "Dillon Brooks"
       ]
     },
     {
@@ -566,113 +580,6 @@
         "Portland Trail Blazers",
         "Memphis Grizzlies",
         "Ja Morant"
-      ]
-    },
-    {
-      "id": "50325289",
-      "title": "Cam Boozer shines as Grizzlies move to 5-0",
-      "summary": "Cam Boozer shines as Grizzlies move to 5-0",
-      "url": "https://www.espn.com/video/clip/_/id/50325289/cam-boozer-shines-grizzlies-move-5-0",
-      "publishedAt": "2026-10-30T04:53:46+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/951bc673-0990-4440-a474-1c39e85ca577/951bc673-0990-4440-a474-1c39e85ca577.jpg",
-      "author": "",
-      "categories": [
-        "Ja Morant",
-        "Portland Trail Blazers",
-        "Zach Edey",
-        "Jerami Grant",
-        "Isaiah Stewart",
-        "Memphis Grizzlies",
-        "NBA",
-        "Cameron Boozer",
-        "Toumani Camara",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies @ Portland Trail Blazers"
-      ]
-    },
-    {
-      "id": "50324587",
-      "title": "Cleveland Cavaliers vs. Atlanta Hawks: Game Highlights",
-      "summary": "Cleveland Cavaliers vs. Atlanta Hawks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50324587/game-highlights",
-      "publishedAt": "2026-10-30T02:57:45+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/d592186b-8182-4220-a73c-190bb93dc373/d592186b-8182-4220-a73c-190bb93dc373.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Donovan Mitchell",
-        "Onyeka Okongwu",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "James Harden",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Cleveland Cavaliers @ Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50324469",
-      "title": "Sacramento Kings vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Sacramento Kings vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50324469/game-highlights",
-      "publishedAt": "2026-10-30T02:39:51+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1030/a3756bda-4518-4131-bb4a-eacc8b6d5f95/a3756bda-4518-4131-bb4a-eacc8b6d5f95.jpg",
-      "author": "",
-      "categories": [
-        "Darius Acuff Jr",
-        "Jeremiah Fears",
-        "SC4U - Full Highlight",
-        "Precious Achiuwa",
-        "NBA",
-        "Karlo Matkovic",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "De'Andre Hunter",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Sacramento Kings @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50323505",
-      "title": "Knicks' Jose Alvarado (ankle) to miss fourth straight vs. 76ers",
-      "summary": "Knicks reserve guard Jose Alvarado will miss Friday's NBA Cup game against the 76ers because of a right ankle injury.",
-      "url": "https://www.espn.com/nba/story/_/id/50323505/knicks-jose-alvarado-ankle-injury-76ers",
-      "publishedAt": "2026-10-30T01:22:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0626/r1680192_600x400_3-2.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "news",
-        "NBA",
-        "New York Knicks",
-        "Jose Alvarado",
-        "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50320717",
-      "title": "Timberwolves' Anthony Edwards undergoes successful knee scope",
-      "summary": "Timberwolves star Anthony Edwards underwent a \"successful\" arthroscopic procedure on his ailing right knee at the Mayo Clinic on Thursday, the team announced.",
-      "url": "https://www.espn.com/nba/story/_/id/50320717/timberwolves-anthony-edwards-undergoes-successful-knee-scope",
-      "publishedAt": "2026-10-29T19:21:19+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737262_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Minnesota Timberwolves",
-        "Anthony Edwards"
       ]
     }
   ]
