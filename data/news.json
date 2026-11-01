@@ -1,8 +1,25 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-01T06:03:42.375659+00:00",
+  "updatedAt": "2026-11-01T13:23:55.391406+00:00",
   "articles": [
+    {
+      "id": "50345575",
+      "title": "Here's what fans need to know in the sports world today",
+      "summary": "Check out some of the top news of the day from the WNBA, CFB and NBA.",
+      "url": "https://www.espn.com/video/clip/_/id/50345575/here-fans-need-know-sports-world-today",
+      "publishedAt": "2026-11-01T06:15:54+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1101/dm_261101_SC4U_16x9_WUN2K_10-31/dm_261101_SC4U_16x9_WUN2K_10-31.jpg",
+      "author": "",
+      "categories": [
+        "WNBA",
+        "NCAA Football",
+        "NBA",
+        "SC4U  - Eligible",
+        "SC4U - InstantAnalysis",
+        "SC4U - What U Need 2 Know"
+      ]
+    },
     {
       "id": "50344505",
       "title": "Spurs' Victor Wembanyama notches 43 points on career-best 34 shots in win",
@@ -235,8 +252,7 @@
         "news",
         "LeBron James",
         "Joel Embiid",
-        "Jaylen Brown",
-        "Kris Rhim"
+        "Jaylen Brown"
       ]
     },
     {
@@ -322,8 +338,7 @@
         "NBA",
         "Philadelphia 76ers",
         "LeBron James",
-        "news",
-        "Kris Rhim"
+        "news"
       ]
     },
     {
@@ -452,128 +467,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Indiana Pacers @ Miami Heat"
-      ]
-    },
-    {
-      "id": "50332599",
-      "title": "Detroit Pistons vs. Brooklyn Nets: Game Highlights",
-      "summary": "Detroit Pistons vs. Brooklyn Nets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50332599/game-highlights",
-      "publishedAt": "2026-10-31T02:44:54+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/4418e772-71a4-49ce-99b3-661b44722365/4418e772-71a4-49ce-99b3-661b44722365.jpg",
-      "author": "",
-      "categories": [
-        "Chaney Johnson",
-        "Moritz Wagner",
-        "Detroit Pistons",
-        "Ronald Holland II",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Cade Cunningham",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Detroit Pistons @ Brooklyn Nets"
-      ]
-    },
-    {
-      "id": "50332874",
-      "title": "LA Clippers vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "LA Clippers vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50332874/game-highlights",
-      "publishedAt": "2026-10-31T02:44:34+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/f1d243d2-4a45-423f-ba6e-dbad40564603/f1d243d2-4a45-423f-ba6e-dbad40564603.jpg",
-      "author": "",
-      "categories": [
-        "Rudy Gobert",
-        "Minnesota Timberwolves",
-        "LaMelo Ball",
-        "SC4U - Full Highlight",
-        "Darius Garland",
-        "NBA",
-        "Jaden McDaniels",
-        "SC4U  - Eligible",
-        "LA Clippers",
-        "Derrick Jones Jr",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "LA Clippers @ Minnesota Timberwolves"
-      ]
-    },
-    {
-      "id": "50332718",
-      "title": "Maxey, LeBron propel 76ers over Knicks in NBA Cup thriller",
-      "summary": "Maxey, LeBron propel 76ers over Knicks in NBA Cup thriller",
-      "url": "https://www.espn.com/video/clip/_/id/50332718/maxey-lebron-propel-76ers-knicks-nba-cup-thriller",
-      "publishedAt": "2026-10-31T02:26:07+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/b0f29a3f-a9f8-4391-8571-bdf2cf9386ad/b0f29a3f-a9f8-4391-8571-bdf2cf9386ad.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "Karl-Anthony Towns",
-        "New York Knicks",
-        "NBA",
-        "VJ Edgecombe",
-        "LeBron James",
-        "Tyrese Maxey",
-        "nba highlight",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "New York Knicks @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50332687",
-      "title": "Orlando Magic vs. Toronto Raptors: Game Highlights",
-      "summary": "Orlando Magic vs. Toronto Raptors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50332687/game-highlights",
-      "publishedAt": "2026-10-31T02:25:22+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/cf86b21e-d91c-43cb-9a18-afe94ef40898/cf86b21e-d91c-43cb-9a18-afe94ef40898.jpg",
-      "author": "",
-      "categories": [
-        "Toronto Raptors",
-        "Orlando Magic",
-        "Desmond Bane",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Scottie Barnes",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Allen Graves",
-        "Anthony Black",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Toronto Raptors"
-      ]
-    },
-    {
-      "id": "50332742",
-      "title": "Chicago Bulls vs. Boston Celtics: Game Highlights",
-      "summary": "Chicago Bulls vs. Boston Celtics: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50332742/game-highlights",
-      "publishedAt": "2026-10-31T02:25:08+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/31cd3994-8303-432f-8859-04a7fa55520a/31cd3994-8303-432f-8859-04a7fa55520a.jpg",
-      "author": "",
-      "categories": [
-        "Jayson Tatum",
-        "Caleb Wilson",
-        "Boston Celtics",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "Tre Jones",
-        "NBA",
-        "SC4U  - Eligible",
-        "Payton Pritchard",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Boston Celtics"
       ]
     }
   ]
