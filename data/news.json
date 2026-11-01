@@ -1,8 +1,44 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-01T13:23:55.391406+00:00",
+  "updatedAt": "2026-11-01T19:39:51.756150+00:00",
   "articles": [
+    {
+      "id": "50344218",
+      "title": "Jalen Brunson joins Harry Styles on stage to cap Styles' MSG residency",
+      "summary": "The superstar singer-songwriter was joined on stage by Brunson, who presented Styles with a commemorative banner for his 30-show Madison Square Garden residency.",
+      "url": "https://www.espn.com/nba/story/_/id/50344218/jalen-brunson-harry-styles-madison-square-garden",
+      "publishedAt": "2026-11-01T16:21:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739324_608x342_16-9.jpg",
+      "author": "J.J. Post",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Jalen Brunson"
+      ]
+    },
+    {
+      "id": "50347044",
+      "title": "Sunday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Jim McCormick breaks down Sunday's slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50347044/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-01T15:35:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739481_576x324_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Anthony Black",
+        "Isaiah Jackson",
+        "De'Anthony Melton",
+        "Yaxel Lendeborg",
+        "Jim McCormick"
+      ]
+    },
     {
       "id": "50345575",
       "title": "Here's what fans need to know in the sports world today",
@@ -252,7 +288,8 @@
         "news",
         "LeBron James",
         "Joel Embiid",
-        "Jaylen Brown"
+        "Jaylen Brown",
+        "Kris Rhim"
       ]
     },
     {
@@ -338,7 +375,8 @@
         "NBA",
         "Philadelphia 76ers",
         "LeBron James",
-        "news"
+        "news",
+        "Kris Rhim"
       ]
     },
     {
@@ -440,33 +478,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Houston Rockets @ Dallas Mavericks"
-      ]
-    },
-    {
-      "id": "50332897",
-      "title": "Indiana Pacers vs. Miami Heat: Game Highlights",
-      "summary": "Indiana Pacers vs. Miami Heat: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50332897/game-highlights",
-      "publishedAt": "2026-10-31T02:54:58+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/241803e6-b6bc-4f3c-a2d5-b92b60e13214/241803e6-b6bc-4f3c-a2d5-b92b60e13214.jpg",
-      "author": "",
-      "categories": [
-        "Quenton Jackson",
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "Indiana Pacers",
-        "Larry Nance Jr",
-        "Ryan Conwell",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Bam Adebayo",
-        "Kobe Brown",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Indiana Pacers @ Miami Heat"
       ]
     }
   ]
