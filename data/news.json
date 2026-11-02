@@ -1,8 +1,49 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-01T19:39:51.756150+00:00",
+  "updatedAt": "2026-11-02T00:44:16.378863+00:00",
   "articles": [
+    {
+      "id": "50352414",
+      "title": "Boston Celtics vs. Orlando Magic: Game Highlights",
+      "summary": "Boston Celtics vs. Orlando Magic: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50352414/game-highlights",
+      "publishedAt": "2026-11-01T23:20:21+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1101/31ef5d5d-9929-447a-959e-66d30724278f/31ef5d5d-9929-447a-959e-66d30724278f.jpg",
+      "author": "",
+      "categories": [
+        "Jase Richardson",
+        "Jayson Tatum",
+        "Paul George",
+        "Tristan da Silva",
+        "Orlando Magic",
+        "Boston Celtics",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Payton Pritchard",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Boston Celtics @ Orlando Magic"
+      ]
+    },
+    {
+      "id": "50344505",
+      "title": "Spurs' Victor Wembanyama notches 43 points on career-high 34 shots in win",
+      "summary": "Victor Wembanyama launched a career-high 34 shots for a season-high 43 points to propel the Spurs to a 121-111 win over the Timberwolves.",
+      "url": "https://www.espn.com/nba/story/_/id/50344505/spurs-victor-wembanyama-notches-43-points-career-best-34-shots-win",
+      "publishedAt": "2026-11-01T20:24:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1101/r1739328_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "Michael C. Wright"
+      ]
+    },
     {
       "id": "50344218",
       "title": "Jalen Brunson joins Harry Styles on stage to cap Styles' MSG residency",
@@ -54,21 +95,6 @@
         "SC4U  - Eligible",
         "SC4U - InstantAnalysis",
         "SC4U - What U Need 2 Know"
-      ]
-    },
-    {
-      "id": "50344505",
-      "title": "Spurs' Victor Wembanyama notches 43 points on career-best 34 shots in win",
-      "summary": "Spurs star Victor Wembanyama launched a career-high 34 shots for a season-high 43 points Saturday to propel a 121-111 win over the Timberwolves.",
-      "url": "https://www.espn.com/nba/story/_/id/50344505/spurs-victor-wembanyama-notches-43-points-career-best-43-shots-win",
-      "publishedAt": "2026-11-01T05:04:30+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1101/r1739328_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Michael C. Wright"
       ]
     },
     {
@@ -454,30 +480,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Denver Nuggets @ Phoenix Suns"
-      ]
-    },
-    {
-      "id": "50332952",
-      "title": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
-      "summary": "Houston Rockets vs. Dallas Mavericks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50332952/game-highlights",
-      "publishedAt": "2026-10-31T02:58:44+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1031/76301baf-10f9-4a48-b077-261754da813d/76301baf-10f9-4a48-b077-261754da813d.jpg",
-      "author": "",
-      "categories": [
-        "Daniel Gafford",
-        "Kevin Durant",
-        "Kyrie Irving",
-        "Dallas Mavericks",
-        "Houston Rockets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Dallas Mavericks"
       ]
     }
   ]
