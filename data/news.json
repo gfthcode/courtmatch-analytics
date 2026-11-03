@@ -1,14 +1,148 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-03T17:02:28.247560+00:00",
+  "updatedAt": "2026-11-03T23:23:41.303918+00:00",
   "articles": [
+    {
+      "id": "50371176",
+      "title": "Dumonts take over as controlling owners of Mavericks",
+      "summary": "Sivan and Patrick Dumont purchased Miriam Adelson's shares of the Mavericks last month, making the Dumont family the controlling owners of the franchise.",
+      "url": "https://www.espn.com/nba/story/_/id/50371176/dumonts-take-controlling-owners-mavericks",
+      "publishedAt": "2026-11-03T20:03:50+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740637_1296x729_16-9.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50370129",
+      "title": "Karabell's notebook: Gobert's slow start, Zion's steals, and five other nuggets",
+      "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50370129/fantasy-basketball-trends-nba-2026-2027",
+      "publishedAt": "2026-11-03T19:07:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740586_1296x729_16-9.jpg",
+      "author": "Eric Karabell",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Cam Spencer",
+        "Zion Williamson",
+        "Rudy Gobert",
+        "Bam Adebayo",
+        "Mikal Bridges",
+        "Ja Morant",
+        "Brandon Ingram",
+        "Eric Karabell"
+      ]
+    },
+    {
+      "id": "50359904",
+      "title": "NBA Contract Year All-Stars: 12 playing for a payday -- and what each might get",
+      "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer of 2027.",
+      "url": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
+      "publishedAt": "2026-11-03T18:47:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740365_1296x729_16-9.jpg",
+      "author": "Bobby Marks",
+      "categories": [
+        "NBA",
+        "Houston Rockets",
+        "San Antonio Spurs",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "LA Clippers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Oklahoma City Thunder",
+        "Toronto Raptors",
+        "Detroit Pistons",
+        "NBA Draft",
+        "Bobby Marks"
+      ]
+    },
+    {
+      "id": "50370515",
+      "title": "Shams to McAfee: Luka Doncic has been a treat to watch",
+      "summary": "Shams to McAfee: Luka Doncic has been a treat to watch",
+      "url": "https://www.espn.com/video/clip/_/id/50370515/luka-doncic-treat-watch",
+      "publishedAt": "2026-11-03T18:19:28+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1103/ss_20261103_131334448_3723833797/ss_20261103_131334448_3723833797.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "Philadelphia 76ers",
+        "San Antonio Spurs",
+        "Giannis Antetokounmpo",
+        "Detroit Pistons",
+        "NBA",
+        "LeBron James",
+        "Shams Charania",
+        "Shai Gilgeous-Alexander",
+        "Jayson Tatum",
+        "Luka Doncic",
+        "Victor Wembanyama",
+        "Boston Celtics",
+        "Los Angeles Lakers",
+        "Oklahoma City Thunder",
+        "2 Star Rating",
+        "Cade Cunningham",
+        "Tyrese Maxey",
+        "Jaylen Brown",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Pat McAfee",
+        "The Pat McAfee Show",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50370258",
+      "title": "NBA defends Rwanda partnership in letter to concerned senators",
+      "summary": "NBA deputy commissioner Mark Tatum cited the removal of a military-backed team from the Basketball Africa League as evidence the NBA has adapted to changing U.S. policies toward the East African nation.",
+      "url": "https://www.espn.com/nba/story/_/id/50370258/nba-defends-rwanda-partnership-letter-concerned-senators",
+      "publishedAt": "2026-11-03T18:01:04+00:00",
+      "image": "https://a.espncdn.com/photo/2021/0928/r915775_600x400_3-2.jpg",
+      "author": "Mark Fainaru-Wada",
+      "categories": [
+        "NBA",
+        "Mark Fainaru-Wada"
+      ]
+    },
+    {
+      "id": "50369931",
+      "title": "Will Draymond be a detriment to Warriors' success? Perk, Stephen A. debate",
+      "summary": "Will Draymond be a detriment to Warriors' success? Perk, Stephen A. debate",
+      "url": "https://www.espn.com/video/clip/_/id/50369931/will-draymond-detriment-warriors-success-perk-stephen-debate",
+      "publishedAt": "2026-11-03T17:35:52+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1103/ss_20261103_121205306_3723787749/ss_20261103_121205306_3723787749.jpg",
+      "author": "",
+      "categories": [
+        "Stephen Curry",
+        "Draymond Green",
+        "Golden State Warriors",
+        "2 Star Rating",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Stephen A. Smith",
+        "First Take",
+        "Verts - Exclude Content"
+      ]
+    },
     {
       "id": "49960162",
       "title": "Fantasy basketball points league rankings update: Doncic, Flagg on the rise",
-      "summary": "Updated fantasy basketball rankings for points leagues, with Luka Doncic and Cooper Flagg both on the rise.",
+      "summary": "Updated fantasy basketball rankings for points leagues, with Luka Doncic and Cooper Flagg both moving on up.",
       "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-11-03T17:01:18+00:00",
+      "publishedAt": "2026-11-03T17:28:10+00:00",
       "image": "https://a.espncdn.com/photo/2026/1103/r1740559_1296x729_16-9.jpg",
       "author": "Andre Snellings",
       "categories": [
@@ -22,11 +156,27 @@
       ]
     },
     {
+      "id": "49959975",
+      "title": "Fantasy basketball H2H Category and Roto rankings: Tyrese Maxey cracks the top 5",
+      "summary": "Updated fantasy basketball rankings for H2H category and roto leagues, with Tyrese Maxey in the top 5.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-11-03T17:25:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740567_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "Fantasy NBA",
+        "NBA",
+        "Tyrese Maxey",
+        "Andre Snellings"
+      ]
+    },
+    {
       "id": "50360774",
       "title": "How the Knicks' season, title defense got chaotic -- fast",
       "summary": "New York has stayed in the headlines -- for all the wrong reasons. Can the 2026 champs bounce back?",
       "url": "https://www.espn.com/nba/story/_/id/50360774/new-york-knicks-rings-contracts-losses",
-      "publishedAt": "2026-11-03T15:34:23+00:00",
+      "publishedAt": "2026-11-03T17:05:15+00:00",
       "image": "https://a.espncdn.com/photo/2026/1102/nba_knicks-the-hunted_16x9.jpg",
       "author": "Vincent Goodwill",
       "categories": [
@@ -54,31 +204,6 @@
       ]
     },
     {
-      "id": "50359904",
-      "title": "NBA Contract Year All-Stars: 12 playing for a payday -- and what each might get",
-      "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer of 2027.",
-      "url": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
-      "publishedAt": "2026-11-03T14:07:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740365_1296x729_16-9.jpg",
-      "author": "Bobby Marks",
-      "categories": [
-        "NBA",
-        "Houston Rockets",
-        "San Antonio Spurs",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "LA Clippers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Oklahoma City Thunder",
-        "Toronto Raptors",
-        "Detroit Pistons",
-        "NBA Draft",
-        "Bobby Marks"
-      ]
-    },
-    {
       "id": "50366202",
       "title": "Phoenix Suns vs. Golden State Warriors: Game Highlights",
       "summary": "Phoenix Suns vs. Golden State Warriors: Game Highlights",
@@ -90,7 +215,6 @@
         "Stephen Curry",
         "Collin Gillespie",
         "Phoenix Suns",
-        "SC4U - Full Highlight",
         "Golden State Warriors",
         "Georges Niang",
         "NBA",
@@ -151,7 +275,6 @@
         "Kobe Sanders",
         "Toronto Raptors",
         "Immanuel Quickley",
-        "SC4U - Full Highlight",
         "NBA",
         "Collin Murray-Boyles",
         "Scottie Barnes",
@@ -194,7 +317,6 @@
         "Giannis Antetokounmpo",
         "Los Angeles Lakers",
         "Collin Sexton",
-        "SC4U - Full Highlight",
         "NBA",
         "3 Star Rating",
         "SC4U  - Eligible",
@@ -203,21 +325,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Miami Heat @ Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50364213",
-      "title": "Missing 11 players, Pacers play just six in loss to Hawks",
-      "summary": "With 11 players on the sideline Monday, the Pacers had just six log minutes in their 108-104 loss to the Hawks.",
-      "url": "https://www.espn.com/nba/story/_/id/50364213/missing-11-players-pacers-play-just-six-loss-hawks",
-      "publishedAt": "2026-11-03T05:33:54+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740350_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Indiana Pacers",
-        "Atlanta Hawks",
-        "news"
       ]
     },
     {
@@ -233,7 +340,6 @@
         "Darius Acuff Jr",
         "Zach LaVine",
         "Dallas Mavericks",
-        "SC4U - Full Highlight",
         "Precious Achiuwa",
         "NBA",
         "3 Star Rating",
@@ -259,7 +365,6 @@
         "Portland Trail Blazers",
         "Chris Youngblood",
         "Denver Nuggets",
-        "SC4U - Full Highlight",
         "NBA",
         "3 Star Rating",
         "SC4U  - Eligible",
@@ -282,7 +387,6 @@
         "Reed Sheppard",
         "Houston Rockets",
         "Boston Celtics",
-        "SC4U - Full Highlight",
         "Amen Thompson",
         "NBA",
         "3 Star Rating",
@@ -309,7 +413,6 @@
         "San Antonio Spurs",
         "Utah Jazz",
         "Victor Wembanyama",
-        "SC4U - Full Highlight",
         "NBA",
         "SC4U  - Eligible",
         "Stephon Castle",
@@ -332,7 +435,6 @@
         "Saddiq Bey",
         "Jeremiah Fears",
         "Ty Jerome",
-        "SC4U - Full Highlight",
         "Memphis Grizzlies",
         "NBA",
         "Karlo Matkovic",
@@ -360,7 +462,6 @@
         "Minnesota Timberwolves",
         "LaMelo Ball",
         "Jonathan Kuminga",
-        "SC4U - Full Highlight",
         "NBA",
         "3 Star Rating",
         "SC4U  - Eligible",
@@ -382,7 +483,6 @@
         "Darius Acuff Jr",
         "Zach LaVine",
         "Dallas Mavericks",
-        "SC4U - Full Highlight",
         "Marcus Sasser",
         "NBA",
         "Walter Clayton Jr",
@@ -408,7 +508,6 @@
       "author": "",
       "categories": [
         "Detroit Pistons",
-        "SC4U - Full Highlight",
         "NBA",
         "Cade Cunningham",
         "Kevin Huerter",
@@ -437,7 +536,6 @@
         "New York Knicks",
         "Jalen Brunson",
         "Julius Randle",
-        "SC4U - Full Highlight",
         "NBA",
         "3 Star Rating",
         "SC4U  - Eligible",
@@ -462,7 +560,6 @@
         "Quenton Jackson",
         "Indiana Pacers",
         "Atlanta Hawks",
-        "SC4U - Full Highlight",
         "NBA",
         "Jay Huff",
         "3 Star Rating",
@@ -485,7 +582,6 @@
       "categories": [
         "Philadelphia 76ers",
         "Caleb Wilson",
-        "SC4U - Full Highlight",
         "Chicago Bulls",
         "NBA",
         "LeBron James",
@@ -497,30 +593,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Chicago Bulls @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50364429",
-      "title": "Washington Wizards vs. Orlando Magic: Game Highlights",
-      "summary": "Washington Wizards vs. Orlando Magic: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50364429/game-highlights",
-      "publishedAt": "2026-11-03T03:25:39+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/70bdc06a-22be-4b2d-9c2e-8968447ca7d7/70bdc06a-22be-4b2d-9c2e-8968447ca7d7.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Orlando Magic",
-        "Kyshawn George",
-        "SC4U - Full Highlight",
-        "Franz Wagner",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Anthony Davis",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Washington Wizards @ Orlando Magic"
       ]
     }
   ]
