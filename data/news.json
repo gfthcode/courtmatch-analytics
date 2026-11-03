@@ -1,22 +1,81 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-03T06:47:03.614976+00:00",
+  "updatedAt": "2026-11-03T17:02:28.247560+00:00",
   "articles": [
     {
-      "id": "50365914",
-      "title": "Warriors' Draymond Green ejected after scuffle with Suns",
-      "summary": "Draymond Green was ejected for the first time this season -- and 31st time of his career -- after receiving two technical fouls in the same sequence vs. the Suns.",
-      "url": "https://www.espn.com/nba/story/_/id/50365914/warriors-draymond-green-ejected-scuffle-suns",
-      "publishedAt": "2026-11-03T06:35:34+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740382_600x600_1-1.jpg",
-      "author": "Anthony Slater",
+      "id": "49960162",
+      "title": "Fantasy basketball points league rankings update: Doncic, Flagg on the rise",
+      "summary": "Updated fantasy basketball rankings for points leagues, with Luka Doncic and Cooper Flagg both on the rise.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-11-03T17:01:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740559_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Luka Doncic",
+        "Cooper Flagg",
+        "Andre Snellings",
+        "NBA"
+      ]
+    },
+    {
+      "id": "50360774",
+      "title": "How the Knicks' season, title defense got chaotic -- fast",
+      "summary": "New York has stayed in the headlines -- for all the wrong reasons. Can the 2026 champs bounce back?",
+      "url": "https://www.espn.com/nba/story/_/id/50360774/new-york-knicks-rings-contracts-losses",
+      "publishedAt": "2026-11-03T15:34:23+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1102/nba_knicks-the-hunted_16x9.jpg",
+      "author": "Vincent Goodwill",
       "categories": [
         "NBA",
-        "Golden State Warriors",
-        "Draymond Green",
+        "New York Knicks",
+        "Jalen Brunson",
+        "Karl-Anthony Towns",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50368707",
+      "title": "Sources: Injury-plagued Thunder agree to 2-year deal with veteran Dalen Terry",
+      "summary": "Dalen Terry has agreed to a two-year deal with the Thunder, sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50368707/sources-thunder-agree-2-year-deal-dalen-terry",
+      "publishedAt": "2026-11-03T14:42:22+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740488_1296x729_16-9.jpg",
+      "author": "Shams Charania",
+      "categories": [
+        "NBA",
+        "Oklahoma City Thunder",
+        "Dalen Terry",
         "news",
-        "Anthony Slater"
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50359904",
+      "title": "NBA Contract Year All-Stars: 12 playing for a payday -- and what each might get",
+      "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer of 2027.",
+      "url": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
+      "publishedAt": "2026-11-03T14:07:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740365_1296x729_16-9.jpg",
+      "author": "Bobby Marks",
+      "categories": [
+        "NBA",
+        "Houston Rockets",
+        "San Antonio Spurs",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "LA Clippers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Oklahoma City Thunder",
+        "Toronto Raptors",
+        "Detroit Pistons",
+        "NBA Draft",
+        "Bobby Marks"
       ]
     },
     {
@@ -24,7 +83,7 @@
       "title": "Phoenix Suns vs. Golden State Warriors: Game Highlights",
       "summary": "Phoenix Suns vs. Golden State Warriors: Game Highlights",
       "url": "https://www.espn.com/video/clip/_/id/50366202/game-highlights",
-      "publishedAt": "2026-11-03T06:11:58+00:00",
+      "publishedAt": "2026-11-03T14:03:14+00:00",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/d1b0409e-6902-47ae-a9a4-565cca42c1dc/d1b0409e-6902-47ae-a9a4-565cca42c1dc.jpg",
       "author": "",
       "categories": [
@@ -42,6 +101,42 @@
         "nba highlight",
         "Fantasy NBA",
         "Phoenix Suns @ Golden State Warriors"
+      ]
+    },
+    {
+      "id": "50366831",
+      "title": "Luka scores 42 points, earns high praise from Giannis as hot streak continues",
+      "summary": "Luka Doncic's volcanic scoring spree continued Monday with 42 points in the Lakers' 138-117 win over the Heat, prompting Giannis Antetokounmpo to call him \"one of the best scorers to play this game.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50366831/luka-doncic-earns-praise-giannis-antetokounmpo-hot-streak-continues-lakers-win-vs-heat",
+      "publishedAt": "2026-11-03T08:27:08+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740399_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Milwaukee Bucks",
+        "Luka Doncic",
+        "Giannis Antetokounmpo",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50365914",
+      "title": "Draymond Green ejected after scuffle with Suns as Warriors rally for win",
+      "summary": "Draymond Green was ejected for the first time this season -- and 31st time of his career -- after receiving two technical fouls in the same sequence vs. the Suns.",
+      "url": "https://www.espn.com/nba/story/_/id/50365914/warriors-draymond-green-ejected-scuffle-suns",
+      "publishedAt": "2026-11-03T08:07:11+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740397_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Draymond Green",
+        "news",
+        "Phoenix Suns",
+        "Dillon Brooks",
+        "Khaman Maluach",
+        "Anthony Slater"
       ]
     },
     {
@@ -175,20 +270,6 @@
       ]
     },
     {
-      "id": "50364171",
-      "title": "Short-handed Thunder bounce back, hand Cavaliers first loss at home",
-      "summary": "Shai Gilgeous-Alexander scored a season-high 43 points and made a go-ahead 3-pointer with 32.6 seconds remaining as the Oklahoma City Thunder defeated the Cleveland Cavaliers 117-112 on Monday night at Rocket Arena in the first of a two-game set.",
-      "url": "https://www.espn.com/nba/story/_/id/50364171/thunder-bounce-back-hand-cavaliers-first-loss-home",
-      "publishedAt": "2026-11-03T04:47:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740335_600x600_1-1.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Oklahoma City Thunder",
-        "Cleveland Cavaliers"
-      ]
-    },
-    {
       "id": "50365182",
       "title": "Boston Celtics vs. Houston Rockets: Game Highlights",
       "summary": "Boston Celtics vs. Houston Rockets: Game Highlights",
@@ -263,21 +344,6 @@
         "nba highlight",
         "Fantasy NBA",
         "New Orleans Pelicans @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50362034",
-      "title": "Coby White returns for Hornets, Kon Knueppel 'right around the corner'",
-      "summary": "Coby White made his season debut for the Hornets on Monday vs. the Pistons and second-year guard Kon Kneuppel's return is also expected soon.",
-      "url": "https://www.espn.com/nba/story/_/id/50362034/coby-white-returns-hornets-kon-knueppel-right-corner",
-      "publishedAt": "2026-11-03T03:55:29+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0615/r1673749_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news",
-        "Charlotte Hornets",
-        "Coby White"
       ]
     },
     {
@@ -455,217 +521,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Washington Wizards @ Orlando Magic"
-      ]
-    },
-    {
-      "id": "50363991",
-      "title": "Oklahoma City Thunder vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "Oklahoma City Thunder vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50363991/game-highlights",
-      "publishedAt": "2026-11-03T03:08:00+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/2073c3d0-4977-4643-9609-31ef1ee1abd2/2073c3d0-4977-4643-9609-31ef1ee1abd2.jpg",
-      "author": "",
-      "categories": [
-        "Jarrett Allen",
-        "Donovan Mitchell",
-        "Oklahoma City Thunder",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Oklahoma City Thunder @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50360086",
-      "title": "Wilbon taking leave of absence from ESPN to address health issues",
-      "summary": "Michael Wilbon, the longtime ESPN commentator and co-host of \"Pardon the Interruption,\" is taking a leave of absence to address health issues.",
-      "url": "https://www.espn.com/nba/story/_/id/50360086/wilbon-taking-leave-absence-espn-address-health-issues",
-      "publishedAt": "2026-11-02T23:40:08+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740152_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news"
-      ]
-    },
-    {
-      "id": "50359641",
-      "title": "Jaylen Brown's favorite purchase? An 18th century harp",
-      "summary": "The Sixers guard's Boston apartment contains possession of some rare pieces.",
-      "url": "https://www.espn.com/nba/story/_/id/50359641/jaylen-brown-keeping-boston-apartment",
-      "publishedAt": "2026-11-02T22:36:08+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740127_608x342_16-9.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Jaylen Brown",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50361039",
-      "title": "ESPN presents: 'Portrait of an Artist' Stephen Curry captures the shooting artistry of the NBA legend",
-      "summary": "ESPN presents: 'Portrait of an Artist' Stephen Curry captures the shooting artistry of the NBA legend",
-      "url": "https://www.espn.com/video/clip/_/id/50361039/portrait-artist-stephen-curry-captures-shooting-artistry-nba-legend",
-      "publishedAt": "2026-11-02T21:26:55+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1102/dm_261102_ESPN_Curry_artist/dm_261102_ESPN_Curry_artist.jpg",
-      "author": "",
-      "categories": [
-        "NBA"
-      ]
-    },
-    {
-      "id": "50360248",
-      "title": "Thunder to retire Russell Westbrook's No. 0",
-      "summary": "The Thunder will retire Russell Westbrook's No. 0 this season. The former MVP played the first 11 of his 18 seasons in Oklahoma City.",
-      "url": "https://www.espn.com/nba/story/_/id/50360248/thunder-retire-russell-westbrook-no-0",
-      "publishedAt": "2026-11-02T20:47:31+00:00",
-      "image": "https://a.espncdn.com/photo/2019/0712/r569183_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Oklahoma City Thunder",
-        "news",
-        "Russell Westbrook"
-      ]
-    },
-    {
-      "id": "50360535",
-      "title": "Michael Jordan congratulates Valykries star Gabby Williams after WNBA title",
-      "summary": "His Airness had a simple message for the Golden State Valkyries star after her 30-point performance in Game 7.",
-      "url": "https://www.espn.com/wnba/story/_/id/50360535/gabby-williams-michael-jordan-wnba-finals",
-      "publishedAt": "2026-11-02T20:44:22+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740185_1296x729_16-9.jpg",
-      "author": "Kendra Andrews",
-      "categories": [
-        "WNBA",
-        "Golden State Valkyries",
-        "Gabby Williams",
-        "NBA",
-        "Chicago Bulls",
-        "Michael Jordan",
-        "Kendra Andrews"
-      ]
-    },
-    {
-      "id": "50359329",
-      "title": "Fantasy hoops category specialists: Risacher, Robinson among players to add",
-      "summary": "Steve Alexander looks at category specialists that might be available to add, including some who fill multiple voids.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50359329/fantasy-basketball-category-specialist-waiver-additions",
-      "publishedAt": "2026-11-02T18:52:35+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740121_1296x729_16-9.jpg",
-      "author": "Steve Alexander",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Duncan Robinson",
-        "Grayson Allen",
-        "Pelle Larsson",
-        "Moussa Diabate",
-        "Jalen Smith",
-        "Wendell Carter Jr",
-        "Davion Mitchell",
-        "Isaiah Collier",
-        "Kris Dunn",
-        "Collin Gillespie",
-        "Christian Braun",
-        "Jaxson Hayes",
-        "Aday Mara",
-        "Zaccharie Risacher",
-        "Toumani Camara",
-        "Julian Champagnie",
-        "Tristan da Silva",
-        "Daniel Gafford",
-        "Paul Reed",
-        "Steve Alexander"
-      ]
-    },
-    {
-      "id": "50359221",
-      "title": "Monday's fantasy hoops adds, NBA bets to make: How to bet Tatum, Jokic and more",
-      "summary": "Andre Snellings breaks down Monday's full NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50359221/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-02T17:45:28+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1102/r1740102_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Anthony Black",
-        "Jeremiah Fears",
-        "Paul Reed",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-02T16:30:39+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50329551",
-      "title": "How NBA title, MVP race has become wide open in two weeks",
-      "summary": "The NBA season is still young, but injuries and surprising developments have already changed narratives.",
-      "url": "https://www.espn.com/nba/story/_/id/50329551/finals-title-race-injuries-2026-27",
-      "publishedAt": "2026-11-02T13:20:26+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0414/r1643510_608x342_16-9.jpg",
-      "author": "Zach Kram",
-      "categories": [
-        "NBA",
-        "Oklahoma City Thunder",
-        "San Antonio Spurs",
-        "New York Knicks",
-        "Houston Rockets",
-        "Denver Nuggets",
-        "Nikola Jokic",
-        "Jalen Williams",
-        "Cason Wallace",
-        "Alex Caruso",
-        "Coby White",
-        "Kon Knueppel",
-        "Cameron Johnson",
-        "Jalen Duren",
-        "Tyrese Haliburton",
-        "Ivica Zubac",
-        "Ja Morant",
-        "Anthony Edwards",
-        "Paolo Banchero",
-        "Jalen Suggs",
-        "Kawhi Leonard",
-        "Lauri Markkanen",
-        "Jaren Jackson Jr",
-        "Victor Wembanyama",
-        "Cade Cunningham",
-        "Jayson Tatum",
-        "Jalen Brunson",
-        "LeBron James",
-        "Cooper Flagg",
-        "Zach Kram"
       ]
     }
   ]
