@@ -1,8 +1,51 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-03T23:23:41.303918+00:00",
+  "updatedAt": "2026-11-04T06:21:52.971303+00:00",
   "articles": [
+    {
+      "id": "50374485",
+      "title": "Lakers' Luka Doncic has 2nd tech of season rescinded by NBA",
+      "summary": "The technical foul assessed to Los Angeles Lakers star Luka Doncic late in the second quarter of Monday's 138-117 win over the Miami Heat was rescinded, the NBA announced.",
+      "url": "https://www.espn.com/nba/story/_/id/50374485/lakers-luka-doncic-2nd-technical-season-rescinded-nba",
+      "publishedAt": "2026-11-04T02:48:10+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1104/r1740826_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Luka Doncic",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50373620",
+      "title": "Raptors' Kawhi Leonard completes knee treatment, begins 'return to play process'",
+      "summary": "Kawhi Leonard has completed a treatment to address left knee swelling and is beginning the \"return to play process\" in Toronto, the Raptors announced.",
+      "url": "https://www.espn.com/nba/story/_/id/50373620/kawhi-leonard-finishes-knee-treatment-begins-return-process",
+      "publishedAt": "2026-11-04T02:13:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Toronto Raptors",
+        "Kawhi Leonard"
+      ]
+    },
+    {
+      "id": "50370258",
+      "title": "NBA defends Rwanda partnership in letter to concerned senators",
+      "summary": "NBA deputy commissioner Mark Tatum cited the removal of a military-backed team from the Basketball Africa League as evidence the NBA has adapted to changing U.S. policies toward the East African nation.",
+      "url": "https://www.espn.com/nba/story/_/id/50370258/nba-defends-rwanda-partnership-letter-concerned-senators",
+      "publishedAt": "2026-11-04T02:01:59+00:00",
+      "image": "https://a.espncdn.com/photo/2021/0928/r915775_600x400_3-2.jpg",
+      "author": "Mark Fainaru-Wada",
+      "categories": [
+        "NBA",
+        "Mark Fainaru-Wada"
+      ]
+    },
     {
       "id": "50371176",
       "title": "Dumonts take over as controlling owners of Mavericks",
@@ -100,19 +143,6 @@
         "Pat McAfee",
         "The Pat McAfee Show",
         "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50370258",
-      "title": "NBA defends Rwanda partnership in letter to concerned senators",
-      "summary": "NBA deputy commissioner Mark Tatum cited the removal of a military-backed team from the Basketball Africa League as evidence the NBA has adapted to changing U.S. policies toward the East African nation.",
-      "url": "https://www.espn.com/nba/story/_/id/50370258/nba-defends-rwanda-partnership-letter-concerned-senators",
-      "publishedAt": "2026-11-03T18:01:04+00:00",
-      "image": "https://a.espncdn.com/photo/2021/0928/r915775_600x400_3-2.jpg",
-      "author": "Mark Fainaru-Wada",
-      "categories": [
-        "NBA",
-        "Mark Fainaru-Wada"
       ]
     },
     {
@@ -215,6 +245,7 @@
         "Stephen Curry",
         "Collin Gillespie",
         "Phoenix Suns",
+        "SC4U - Full Highlight",
         "Golden State Warriors",
         "Georges Niang",
         "NBA",
@@ -275,6 +306,7 @@
         "Kobe Sanders",
         "Toronto Raptors",
         "Immanuel Quickley",
+        "SC4U - Full Highlight",
         "NBA",
         "Collin Murray-Boyles",
         "Scottie Barnes",
@@ -317,6 +349,7 @@
         "Giannis Antetokounmpo",
         "Los Angeles Lakers",
         "Collin Sexton",
+        "SC4U - Full Highlight",
         "NBA",
         "3 Star Rating",
         "SC4U  - Eligible",
@@ -340,6 +373,7 @@
         "Darius Acuff Jr",
         "Zach LaVine",
         "Dallas Mavericks",
+        "SC4U - Full Highlight",
         "Precious Achiuwa",
         "NBA",
         "3 Star Rating",
@@ -365,6 +399,7 @@
         "Portland Trail Blazers",
         "Chris Youngblood",
         "Denver Nuggets",
+        "SC4U - Full Highlight",
         "NBA",
         "3 Star Rating",
         "SC4U  - Eligible",
@@ -387,6 +422,7 @@
         "Reed Sheppard",
         "Houston Rockets",
         "Boston Celtics",
+        "SC4U - Full Highlight",
         "Amen Thompson",
         "NBA",
         "3 Star Rating",
@@ -413,6 +449,7 @@
         "San Antonio Spurs",
         "Utah Jazz",
         "Victor Wembanyama",
+        "SC4U - Full Highlight",
         "NBA",
         "SC4U  - Eligible",
         "Stephon Castle",
@@ -435,6 +472,7 @@
         "Saddiq Bey",
         "Jeremiah Fears",
         "Ty Jerome",
+        "SC4U - Full Highlight",
         "Memphis Grizzlies",
         "NBA",
         "Karlo Matkovic",
@@ -462,6 +500,7 @@
         "Minnesota Timberwolves",
         "LaMelo Ball",
         "Jonathan Kuminga",
+        "SC4U - Full Highlight",
         "NBA",
         "3 Star Rating",
         "SC4U  - Eligible",
@@ -483,6 +522,7 @@
         "Darius Acuff Jr",
         "Zach LaVine",
         "Dallas Mavericks",
+        "SC4U - Full Highlight",
         "Marcus Sasser",
         "NBA",
         "Walter Clayton Jr",
@@ -508,6 +548,7 @@
       "author": "",
       "categories": [
         "Detroit Pistons",
+        "SC4U - Full Highlight",
         "NBA",
         "Cade Cunningham",
         "Kevin Huerter",
@@ -536,6 +577,7 @@
         "New York Knicks",
         "Jalen Brunson",
         "Julius Randle",
+        "SC4U - Full Highlight",
         "NBA",
         "3 Star Rating",
         "SC4U  - Eligible",
@@ -545,54 +587,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Brooklyn Nets @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50364479",
-      "title": "Atlanta Hawks vs. Indiana Pacers: Game Highlights",
-      "summary": "Atlanta Hawks vs. Indiana Pacers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50364479/game-highlights",
-      "publishedAt": "2026-11-03T03:29:20+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/aa0797b6-6fe3-44a3-9733-0e1a123c8823/aa0797b6-6fe3-44a3-9733-0e1a123c8823.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Quenton Jackson",
-        "Indiana Pacers",
-        "Atlanta Hawks",
-        "NBA",
-        "Jay Huff",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Braden Smith",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Indiana Pacers"
-      ]
-    },
-    {
-      "id": "50364505",
-      "title": "Chicago Bulls vs. Philadelphia 76ers: Game Highlights",
-      "summary": "Chicago Bulls vs. Philadelphia 76ers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50364505/game-highlights",
-      "publishedAt": "2026-11-03T03:29:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/a3bc26ad-f1b6-446e-bd7f-dbdb3a4acaf8/a3bc26ad-f1b6-446e-bd7f-dbdb3a4acaf8.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "Caleb Wilson",
-        "Chicago Bulls",
-        "NBA",
-        "LeBron James",
-        "SC4U  - Eligible",
-        "Tyrese Maxey",
-        "Jaylen Brown",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Philadelphia 76ers"
       ]
     }
   ]
