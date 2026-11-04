@@ -1,14 +1,80 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-04T17:14:45.914913+00:00",
+  "updatedAt": "2026-11-04T23:39:47.293277+00:00",
   "articles": [
+    {
+      "id": "44679680",
+      "title": "Updated NBA championship, MVP odds: Rockets' odds shorten; Doncic leads for MVP",
+      "summary": "San Antonio remains the favorite to win the NBA championship, but fast starts by Houston and Philadelphia have seen their odds shorten.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+      "publishedAt": "2026-11-04T23:14:24+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1104/r1741195_1296x729_16-9.jpg",
+      "author": "Doug Greenberg",
+      "categories": [
+        "NBA",
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "Houston Rockets",
+        "Philadelphia 76ers",
+        "Luka Doncic",
+        "Doug Greenberg"
+      ]
+    },
+    {
+      "id": "50382263",
+      "title": "NBA Wednesday Teaser",
+      "summary": "NBA Wednesday Teaser",
+      "url": "https://www.espn.com/video/clip/_/id/50382263/nba-wednesday-teaser",
+      "publishedAt": "2026-11-04T21:45:55+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1104/dm_261104_nba_promo/dm_261104_nba_promo.jpg",
+      "author": "",
+      "categories": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "50379460",
+      "title": "Warriors withholding payments to Porzingis, sources say",
+      "summary": "The Golden State Warriors are not delivering semimonthly payments to veteran center Kristaps Porzingis on his $20 million salary, league sources told ESPN, ruling that the currently absent center is not rendering his services.",
+      "url": "https://www.espn.com/nba/story/_/id/50379460/warriors-not-making-payments-porzingis-sources-say",
+      "publishedAt": "2026-11-04T20:34:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1012/r1729848_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Kristaps Porzingis",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50381574",
+      "title": "Shams Charania: Warriors will withhold payments from Kristaps Porzingis",
+      "summary": "Shams Charania: Warriors will withhold payments from Kristaps Porzingis",
+      "url": "https://www.espn.com/video/clip/_/id/50381574/warriors-withhold-payments-kristaps-porzingis",
+      "publishedAt": "2026-11-04T20:33:41+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1104/ss_20261104_152654067_3724903/ss_20261104_152654067_3724903.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Golden State Warriors",
+        "Kristaps Porzingis",
+        "Shams Charania",
+        "NBA Today"
+      ]
+    },
     {
       "id": "50028196",
       "title": "NBA buzz: Latest on trades, news, roster moves and intel",
       "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
       "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-04T17:12:15+00:00",
+      "publishedAt": "2026-11-04T19:58:31+00:00",
       "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
       "author": "ESPN staff",
       "categories": [
@@ -20,17 +86,79 @@
       ]
     },
     {
-      "id": "50379460",
-      "title": "Warriors withholding payments to Porzingis, sources say",
-      "summary": "The Golden State Warriors are not delivering semimonthly payments to veteran center Kristaps Porzingis on his $20 million salary, league sources told ESPN, ruling that the currently absent center is not rendering his services.",
-      "url": "https://www.espn.com/nba/story/_/id/50379460/warriors-not-making-payments-porzingis-sources-say",
-      "publishedAt": "2026-11-04T16:34:23+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729848_600x400_3-2.jpg",
+      "id": "50359904",
+      "title": "NBA Contract Year All-Stars: 12 playing for a payday -- and what each might get",
+      "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer of 2027.",
+      "url": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
+      "publishedAt": "2026-11-04T19:03:19+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1104/nba_bmarks-allstar-contracts2_16x9.jpg",
+      "author": "Bobby Marks",
+      "categories": [
+        "NBA",
+        "Houston Rockets",
+        "San Antonio Spurs",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "LA Clippers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Oklahoma City Thunder",
+        "Toronto Raptors",
+        "Detroit Pistons",
+        "NBA Draft",
+        "Bobby Marks"
+      ]
+    },
+    {
+      "id": "50379954",
+      "title": "Wednesday's fantasy hoops adds, NBA bets to make: Jerome, Maxey bets stand out",
+      "summary": "Andre Snellings breaks down Wednesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50379954/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-04T18:51:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1104/r1741065_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Jeremiah Fears",
+        "Christian Braun",
+        "Precious Achiuwa",
+        "Duncan Robinson",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50380187",
+      "title": "Warriors owner Joe Lacob ecstatic with early Yaxel Lendeborg returns",
+      "summary": "Warriors owner Joe Lacob is already convinced the team nailed its drafting of Yaxel Lendeborg, saying \"we got this one right.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50380187/joe-lacob-thinks-warriors-nailed-drafting-yaxel-lendeborg",
+      "publishedAt": "2026-11-04T18:18:00+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1736886_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "Yaxel Lendeborg",
+        "Golden State Warriors",
+        "NBA",
+        "news"
+      ]
+    },
+    {
+      "id": "50299136",
+      "title": "What are the Warriors' options as Kristaps Porzingis remains away from the team?",
+      "summary": "Can the Warriors find a trade partner? Void Kristaps Porzingis' contract? Here's everything we know about the situation, and what could come next.",
+      "url": "https://www.espn.com/nba/story/_/id/50299136/golden-state-warriors-kristaps-porzingis-options-trade",
+      "publishedAt": "2026-11-04T17:16:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1737056_608x342_16-9.jpg",
       "author": "Anthony Slater",
       "categories": [
         "NBA",
-        "Golden State Warriors",
         "Kristaps Porzingis",
+        "Golden State Warriors",
         "Anthony Slater"
       ]
     },
@@ -234,31 +362,6 @@
       ]
     },
     {
-      "id": "50359904",
-      "title": "NBA Contract Year All-Stars: 12 playing for a payday -- and what each might get",
-      "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer of 2027.",
-      "url": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
-      "publishedAt": "2026-11-03T18:47:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740365_1296x729_16-9.jpg",
-      "author": "Bobby Marks",
-      "categories": [
-        "NBA",
-        "Houston Rockets",
-        "San Antonio Spurs",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "LA Clippers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Oklahoma City Thunder",
-        "Toronto Raptors",
-        "Detroit Pistons",
-        "NBA Draft",
-        "Bobby Marks"
-      ]
-    },
-    {
       "id": "50370515",
       "title": "Shams to McAfee: Luka Doncic has been a treat to watch",
       "summary": "Shams to McAfee: Luka Doncic has been a treat to watch",
@@ -459,31 +562,6 @@
       ]
     },
     {
-      "id": "50364816",
-      "title": "Sacramento Kings vs. Dallas Mavericks: Game Highlights",
-      "summary": "Sacramento Kings vs. Dallas Mavericks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50364816/game-highlights",
-      "publishedAt": "2026-11-03T05:26:43+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/daad3187-e7c6-47d8-9200-b4c01c38ed86/daad3187-e7c6-47d8-9200-b4c01c38ed86.jpg",
-      "author": "",
-      "categories": [
-        "Daniel Gafford",
-        "Darius Acuff Jr",
-        "Zach LaVine",
-        "Dallas Mavericks",
-        "SC4U - Full Highlight",
-        "Precious Achiuwa",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Walter Clayton Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Sacramento Kings @ Dallas Mavericks"
-      ]
-    },
-    {
       "id": "50365405",
       "title": "Portland Trail Blazers vs. Denver Nuggets: Game Highlights",
       "summary": "Portland Trail Blazers vs. Denver Nuggets: Game Highlights",
@@ -556,56 +634,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Utah Jazz @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50364839",
-      "title": "New Orleans Pelicans vs. Memphis Grizzlies: Game Highlights",
-      "summary": "New Orleans Pelicans vs. Memphis Grizzlies: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50364839/game-highlights",
-      "publishedAt": "2026-11-03T04:02:54+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/bee59d88-b028-42c4-8829-4310aa027595/bee59d88-b028-42c4-8829-4310aa027595.jpg",
-      "author": "",
-      "categories": [
-        "Saddiq Bey",
-        "Jeremiah Fears",
-        "Ty Jerome",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "Karlo Matkovic",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New Orleans Pelicans @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50364763",
-      "title": "Milwaukee Bucks vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "Milwaukee Bucks vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50364763/game-highlights",
-      "publishedAt": "2026-11-03T03:54:50+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1103/4488d5cb-3492-406d-bbcd-78db72ee785f/4488d5cb-3492-406d-bbcd-78db72ee785f.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Rudy Gobert",
-        "Minnesota Timberwolves",
-        "LaMelo Ball",
-        "Jonathan Kuminga",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Milwaukee Bucks @ Minnesota Timberwolves"
       ]
     }
   ]
