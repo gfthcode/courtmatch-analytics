@@ -1,23 +1,288 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-05T06:45:58.623410+00:00",
+  "updatedAt": "2026-11-05T17:23:41.574171+00:00",
   "articles": [
     {
-      "id": "50385858",
-      "title": "Shaq on Wemby's big night: 'We've never seen a player like him'",
-      "summary": "Shaq on Wemby's big night: 'We've never seen a player like him'",
-      "url": "https://www.espn.com/video/clip/_/id/50385858/never-seen-player-him",
-      "publishedAt": "2026-11-05T06:40:44+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_013340112_3725936/ss_20261105_013340112_3725936.jpg",
+      "id": "50386480",
+      "title": "Luka Doncic again puts up 40 as torrid stretch continues in Lakers' win",
+      "summary": "By dropping another 40 points Wednesday, Luka Doncic joined Kobe Bryant and Elgin Baylor as the only Lakers to ever score 35-plus points in six straight games.",
+      "url": "https://www.espn.com/nba/story/_/id/50386480/luka-doncic-40-points-hot-streak-lakers-kings",
+      "publishedAt": "2026-11-05T16:59:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741388_2_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "NBA",
+        "Los Angeles Lakers",
+        "Luka Doncic",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50385564",
+      "title": "LeBron James: 'Too early to be talking Finals' after 76ers' blistering start",
+      "summary": "LeBron James is cautioning against any proclamations the 76ers are NBA Finals-bound despite a blistering 8-1 start.",
+      "url": "https://www.espn.com/nba/story/_/id/50385564/lebron-says-too-early-talking-finals-8-1-start",
+      "publishedAt": "2026-11-05T16:48:24+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741385_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "news",
+        "Philadelphia 76ers",
+        "NBA",
+        "LeBron James",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50389158",
+      "title": "Thursday's fantasy hoops adds, NBA bets to make: Black, da Silva worth streaming",
+      "summary": "Eric Moody breaks down Thursday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50389158/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-05T16:20:21+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741518_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Anthony Black",
+        "Dillon Brooks",
+        "Pelle Larsson",
+        "Tristan da Silva",
+        "Devin Booker"
+      ]
+    },
+    {
+      "id": "50389305",
+      "title": "Stephen A.: 76ers will win it all if Embiid is healthy",
+      "summary": "Stephen A.: 76ers will win it all if Embiid is healthy",
+      "url": "https://www.espn.com/video/clip/_/id/50389305/76ers-win-all-embiid-healthy",
+      "publishedAt": "2026-11-05T15:40:42+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_103632835_3726060/ss_20261105_103632835_3726060.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Stephen A. Smith",
+        "First Take",
+        "Skip Bayless",
+        "Joel Embiid",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50389252",
+      "title": "Stephen A. calls out Skip Bayless for his indifference to Wemby's performance",
+      "summary": "Stephen A. calls out Skip Bayless for his indifference to Wemby's performance",
+      "url": "https://www.espn.com/video/clip/_/id/50389252/stephen-calls-skip-bayless-indifference-wemby-performance",
+      "publishedAt": "2026-11-05T15:38:01+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_103335296_3726059/ss_20261105_103335296_3726059.jpg",
       "author": "",
       "categories": [
         "2 Star Rating",
         "NBA",
         "San Antonio Spurs",
         "Victor Wembanyama",
-        "Inside the NBA",
+        "Stephen A. Smith",
+        "First Take",
+        "Skip Bayless"
+      ]
+    },
+    {
+      "id": "50388613",
+      "title": "Wemby goes off for career-high 52 points in win over Mavs",
+      "summary": "Wemby goes off for career-high 52 points in win over Mavs",
+      "url": "https://www.espn.com/video/clip/_/id/50388613/wemby-goes-career-high-52-points-win-mavs",
+      "publishedAt": "2026-11-05T14:44:42+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_092708143_3726024580/ss_20261105_092708143_3726024580.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Victor Wembanyama",
+        "San Antonio Spurs",
+        "fantasy",
+        "nba highlight",
         "Dallas Mavericks @ San Antonio Spurs"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-05T14:29:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50383545",
+      "title": "Fantasy basketball rookie watch: Who's standing out and who's worth monitoring",
+      "summary": "Eric Moody highlights which rookies are standing out in the early part of the NBA season, and which are worth rostering now or down the road.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50383545/fantasy-basketball-rookie-watch-nba-2026-2027",
+      "publishedAt": "2026-11-05T13:38:37+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741331_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Caleb Wilson",
+        "Cameron Boozer",
+        "Darius Acuff Jr",
+        "Yaxel Lendeborg",
+        "AJ Dybantsa",
+        "Darryn Peterson",
+        "Keaton Wagler",
+        "Mikel Brown Jr",
+        "Meleek Thomas",
+        "Aday Mara",
+        "Kingston Flemings",
+        "Trevon Brazile",
+        "Brayden Burries",
+        "Nate Ament",
+        "Morez Johnson Jr"
+      ]
+    },
+    {
+      "id": "50385705",
+      "title": "Wembanyama has career night with 52 points, 24 rebounds, 8 blocks in Spurs' win",
+      "summary": "Victor Wembanyama had career highs of 52 points and 24 rebounds along with eight blocks to power the Spurs past the Mavericks on Wednesday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50385705/wembanyama-52-points-24-rebounds-8-blocks-spurs-mavs",
+      "publishedAt": "2026-11-05T13:22:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741386_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "news",
+        "NBA",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50387296",
+      "title": "Heat's Klay Thompson hits eight 3s, but none as dramatic as game winner",
+      "summary": "The Heat engulfed Klay Thompson in a jubilant celebration after his corner 3 -- his eighth of the game -- went in with one second left in overtime of Miami's 117-116 victory over the Clippers.",
+      "url": "https://www.espn.com/nba/story/_/id/50387296/klay-thompson-hits-game-winner-miami-heat-comeback",
+      "publishedAt": "2026-11-05T13:09:09+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741417_600x400_3-2.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "news",
+        "Miami Heat",
+        "Klay Thompson",
+        "NBA",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50371585",
+      "title": "Could Denver overcome a 'down' year from Nikola Jokic? Absolutely not",
+      "summary": "Denver's roster was never built to overcome any slippage from its three-time MVP.",
+      "url": "https://www.espn.com/nba/story/_/id/50371585/nikola-jokic-mvp-denver-nuggets-struggles",
+      "publishedAt": "2026-11-05T12:22:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740690_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Denver Nuggets",
+        "NBA Draft",
+        "Nikola Jokic",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50379717",
+      "title": "2027 NBA draft big board rankings: Top 100 prospects",
+      "summary": "Which top prospects lead in Jeremy Woo's debut rankings? Here's our top 100 big board for the 2027 class.",
+      "url": "https://www.espn.com/nba/story/_/id/50379717/2027-nba-draft-rankings-top-100-prospects",
+      "publishedAt": "2026-11-05T12:06:19+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1102/nba_draft_big_board_rankings_cr_16x9.jpg",
+      "author": "Jeremy Woo",
+      "categories": [
+        "NBA Draft",
+        "NBA",
+        "NCAA Men's Basketball",
+        "Duke Blue Devils",
+        "Duke University",
+        "UConn Huskies",
+        "University of Connecticut",
+        "Arizona Wildcats",
+        "University of Arizona",
+        "Michigan Wolverines",
+        "University of Michigan",
+        "North Carolina Tar Heels",
+        "University of North Carolina",
+        "Kansas Jayhawks",
+        "University of Kansas",
+        "BYU Cougars",
+        "Brigham Young University",
+        "Kentucky Wildcats",
+        "University of Kentucky",
+        "Florida Gators",
+        "University of Florida",
+        "Arkansas Razorbacks",
+        "University of Arkansas",
+        "Alabama Crimson Tide",
+        "University of Alabama",
+        "Illinois Fighting Illini",
+        "University of Illinois",
+        "Texas Longhorns",
+        "University of Texas",
+        "Louisville Cardinals",
+        "University of Louisville",
+        "USC Trojans",
+        "University of Southern California",
+        "Villanova Wildcats",
+        "Villanova University",
+        "Vanderbilt Commodores",
+        "Vanderbilt University",
+        "West Virginia Mountaineers",
+        "West Virginia University",
+        "Maryland Terrapins",
+        "University of Maryland",
+        "St. John's Red Storm",
+        "St. John's University (NY)",
+        "Gonzaga Bulldogs",
+        "Gonzaga University",
+        "Providence Friars",
+        "Providence College",
+        "Houston Cougars",
+        "University of Houston",
+        "LSU Tigers",
+        "Louisiana State University",
+        "Nebraska Cornhuskers",
+        "University of Nebraska",
+        "TCU Horned Frogs",
+        "Texas Christian University",
+        "Arizona State Sun Devils",
+        "Arizona State University",
+        "Auburn Tigers",
+        "Auburn",
+        "Baylor Bears",
+        "Baylor University",
+        "Texas Tech Red Raiders",
+        "Texas Tech University",
+        "Utah State Aggies",
+        "Utah State University"
       ]
     },
     {
@@ -25,7 +290,7 @@
       "title": "Miami Heat vs. LA Clippers: Game Highlights",
       "summary": "Miami Heat vs. LA Clippers: Game Highlights",
       "url": "https://www.espn.com/video/clip/_/id/50385864/game-highlights",
-      "publishedAt": "2026-11-05T06:40:37+00:00",
+      "publishedAt": "2026-11-05T06:50:05+00:00",
       "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/e38c6479-f0fd-45cf-80b5-a57562dd036e/e38c6479-f0fd-45cf-80b5-a57562dd036e.jpg",
       "author": "",
       "categories": [
@@ -46,18 +311,20 @@
       ]
     },
     {
-      "id": "50385705",
-      "title": "Wembanyama has career night with 52 points, 24 rebounds, 8 blocks in Spurs' win",
-      "summary": "Victor Wembanyama had career highs of 52 points and 24 rebounds along with eight blocks to power the Spurs past the Mavericks on Wednesday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50385705/wembanyama-52-points-24-rebounds-8-blocks-spurs-mavs",
-      "publishedAt": "2026-11-05T06:39:56+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741386_600x400_3-2.jpg",
+      "id": "50385858",
+      "title": "Shaq on Wemby's big night: 'We've never seen a player like him'",
+      "summary": "Shaq on Wemby's big night: 'We've never seen a player like him'",
+      "url": "https://www.espn.com/video/clip/_/id/50385858/never-seen-player-him",
+      "publishedAt": "2026-11-05T06:40:44+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_013340112_3725936/ss_20261105_013340112_3725936.jpg",
       "author": "",
       "categories": [
-        "news",
+        "2 Star Rating",
         "NBA",
         "San Antonio Spurs",
-        "Victor Wembanyama"
+        "Victor Wembanyama",
+        "Inside the NBA",
+        "Dallas Mavericks @ San Antonio Spurs"
       ]
     },
     {
@@ -85,22 +352,6 @@
       ]
     },
     {
-      "id": "50385564",
-      "title": "LeBron James: 'Too early to be talking Finals' after 76ers' blistering start",
-      "summary": "LeBron James is cautioning against any proclamations the 76ers are NBA Finals-bound despite a blistering 8-1 start.",
-      "url": "https://www.espn.com/nba/story/_/id/50385564/lebron-says-too-early-talking-finals-8-1-start",
-      "publishedAt": "2026-11-05T06:09:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741385_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "news",
-        "Philadelphia 76ers",
-        "NBA",
-        "LeBron James",
-        "Kris Rhim"
-      ]
-    },
-    {
       "id": "50385659",
       "title": "Dallas Mavericks vs. San Antonio Spurs: Game Highlights",
       "summary": "Dallas Mavericks vs. San Antonio Spurs: Game Highlights",
@@ -120,31 +371,6 @@
         "SC4U - Full Highlight",
         "SC4U  - Eligible",
         "Dallas Mavericks @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50359904",
-      "title": "NBA Contract Year All-Stars: 12 playing for a payday -- and what each might get",
-      "summary": "Bobby Marks selects a roster full of players with contract decisions that could shape the trade deadline and summer 2027.",
-      "url": "https://www.espn.com/nba/story/_/id/50359904/ty-jerome-vanvleet-mitchell-contract-predictions",
-      "publishedAt": "2026-11-05T05:47:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1104/nba_bmarks-allstar-contracts2_16x9.jpg",
-      "author": "Bobby Marks",
-      "categories": [
-        "NBA",
-        "Houston Rockets",
-        "San Antonio Spurs",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "LA Clippers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Oklahoma City Thunder",
-        "Toronto Raptors",
-        "Detroit Pistons",
-        "NBA Draft",
-        "Bobby Marks"
       ]
     },
     {
@@ -220,21 +446,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Portland Trail Blazers @ Phoenix Suns"
-      ]
-    },
-    {
-      "id": "50384048",
-      "title": "Hornets' Kon Knueppel exits 6 minutes into season debut with leg soreness",
-      "summary": "Charlotte Hornets guard Kon Knueppel exited his season debut after appearing to aggravate the left hamstring injury that had sidelined him to start the year.",
-      "url": "https://www.espn.com/nba/story/_/id/50384048/hornets-knueppel-exits-season-debut-left-leg-injury",
-      "publishedAt": "2026-11-05T04:52:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741339_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Kon Knueppel",
-        "Charlotte Hornets"
       ]
     },
     {
@@ -405,392 +616,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Milwaukee Bucks @ Boston Celtics"
-      ]
-    },
-    {
-      "id": "50384397",
-      "title": "Atlanta Hawks vs. Washington Wizards: Game Highlights",
-      "summary": "Atlanta Hawks vs. Washington Wizards: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50384397/game-highlights",
-      "publishedAt": "2026-11-05T02:40:07+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/092c8b9a-6543-463b-b91a-a71b6310efaf/092c8b9a-6543-463b-b91a-a71b6310efaf.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Washington Wizards",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Zuby Ejiofor",
-        "Anthony Davis",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Washington Wizards"
-      ]
-    },
-    {
-      "id": "44679680",
-      "title": "Updated NBA championship, MVP odds: Rockets' odds shorten; Doncic leads for MVP",
-      "summary": "San Antonio remains the favorite to win the NBA championship, but fast starts by Houston and Philadelphia have seen their odds shorten.",
-      "url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
-      "publishedAt": "2026-11-05T00:26:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1741195_1296x729_16-9.jpg",
-      "author": "Doug Greenberg",
-      "categories": [
-        "NBA",
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "Houston Rockets",
-        "Philadelphia 76ers",
-        "Luka Doncic",
-        "Doug Greenberg"
-      ]
-    },
-    {
-      "id": "50379460",
-      "title": "Warriors withholding payments to Porzingis, sources say",
-      "summary": "The Golden State Warriors are not delivering semimonthly payments to veteran center Kristaps Porzingis on his $20 million salary, league sources told ESPN, ruling that the currently absent center is not rendering his services.",
-      "url": "https://www.espn.com/nba/story/_/id/50379460/warriors-not-making-payments-porzingis-sources-say",
-      "publishedAt": "2026-11-04T20:34:58+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1012/r1729848_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Kristaps Porzingis",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50381574",
-      "title": "Shams Charania: Warriors will withhold payments from Kristaps Porzingis",
-      "summary": "Shams Charania: Warriors will withhold payments from Kristaps Porzingis",
-      "url": "https://www.espn.com/video/clip/_/id/50381574/warriors-withhold-payments-kristaps-porzingis",
-      "publishedAt": "2026-11-04T20:33:41+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1104/ss_20261104_152654067_3724903/ss_20261104_152654067_3724903.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors",
-        "Kristaps Porzingis",
-        "Shams Charania",
-        "NBA Today"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-04T19:58:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50379954",
-      "title": "Wednesday's fantasy hoops adds, NBA bets to make: Jerome, Maxey bets stand out",
-      "summary": "Andre Snellings breaks down Wednesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50379954/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-04T18:51:58+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1741065_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Jeremiah Fears",
-        "Christian Braun",
-        "Precious Achiuwa",
-        "Duncan Robinson",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50380187",
-      "title": "Warriors owner Joe Lacob ecstatic with early Yaxel Lendeborg returns",
-      "summary": "Warriors owner Joe Lacob is already convinced the team nailed its drafting of Yaxel Lendeborg, saying \"we got this one right.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50380187/joe-lacob-thinks-warriors-nailed-drafting-yaxel-lendeborg",
-      "publishedAt": "2026-11-04T18:18:00+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1736886_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "Yaxel Lendeborg",
-        "Golden State Warriors",
-        "NBA",
-        "news"
-      ]
-    },
-    {
-      "id": "50299136",
-      "title": "What are the Warriors' options as Kristaps Porzingis remains away from the team?",
-      "summary": "Can the Warriors find a trade partner? Void Kristaps Porzingis' contract? Here's everything we know about the situation, and what could come next.",
-      "url": "https://www.espn.com/nba/story/_/id/50299136/golden-state-warriors-kristaps-porzingis-options-trade",
-      "publishedAt": "2026-11-04T17:16:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1027/r1737056_608x342_16-9.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Kristaps Porzingis",
-        "Golden State Warriors",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50371792",
-      "title": "Why Devin Vassell has become a quiet constant for the Spurs",
-      "summary": "Devin Vassell has quietly evolved into the veteran presence for the San Antonio Spurs.",
-      "url": "https://www.espn.com/nba/story/_/id/50371792/san-antonio-spurs-devin-vassell-consistent",
-      "publishedAt": "2026-11-04T16:08:21+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740644_1296x729_16-9.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "De'Aaron Fox",
-        "Devin Vassell",
-        "Carter Bryant",
-        "Stephon Castle",
-        "Julian Champagnie",
-        "Dylan Harper",
-        "Tobias Harris",
-        "Harrison Barnes",
-        "Victor Wembanyama",
-        "Keldon Johnson",
-        "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50371604",
-      "title": "NBA Power Rankings: Summing up all 30 teams' starts",
-      "summary": "Here's where all 30 NBA teams rank after two weeks of action, plus the four words used to describe how each team has started the season.",
-      "url": "https://www.espn.com/nba/story/_/id/50371604/nba-power-rankings-30-teams-rank-week-two-describe-season",
-      "publishedAt": "2026-11-04T13:48:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/nba_power_rankings_26_11_04_16x9_608x342.jpg",
-      "author": "NBA Insiders",
-      "categories": [
-        "NBA",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Washington Wizards",
-        "Utah Jazz",
-        "NBA Insiders"
-      ]
-    },
-    {
-      "id": "50371176",
-      "title": "Dumonts take over as controlling owners of Mavericks",
-      "summary": "Sivan and Patrick Dumont purchased Miriam Adelson's shares of the Mavericks last month, making the Dumont family the controlling owners of the franchise.",
-      "url": "https://www.espn.com/nba/story/_/id/50371176/dumonts-take-controlling-owners-mavericks",
-      "publishedAt": "2026-11-04T11:55:26+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740637_1296x729_16-9.jpg",
-      "author": "Tim MacMahon",
-      "categories": [
-        "NBA",
-        "Dallas Mavericks",
-        "Tim MacMahon"
-      ]
-    },
-    {
-      "id": "50374485",
-      "title": "Lakers' Luka Doncic has 2nd tech of season rescinded by NBA",
-      "summary": "The technical foul assessed to Los Angeles Lakers star Luka Doncic late in the second quarter of Monday's 138-117 win over the Miami Heat was rescinded, the NBA announced.",
-      "url": "https://www.espn.com/nba/story/_/id/50374485/lakers-luka-doncic-2nd-technical-season-rescinded-nba",
-      "publishedAt": "2026-11-04T11:55:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1104/r1740826_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "Luka Doncic",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50373620",
-      "title": "Raptors' Kawhi Leonard completes knee treatment, begins 'return to play process'",
-      "summary": "Kawhi Leonard has completed a treatment to address left knee swelling and is beginning the \"return to play process\" in Toronto, the Raptors announced.",
-      "url": "https://www.espn.com/nba/story/_/id/50373620/kawhi-leonard-finishes-knee-treatment-begins-return-process",
-      "publishedAt": "2026-11-04T11:54:32+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Toronto Raptors",
-        "Kawhi Leonard"
-      ]
-    },
-    {
-      "id": "50370258",
-      "title": "NBA defends Rwanda partnership in letter to concerned senators",
-      "summary": "NBA deputy commissioner Mark Tatum cited the removal of a military-backed team from the Basketball Africa League as evidence the NBA has adapted to changing U.S. policies toward the East African nation.",
-      "url": "https://www.espn.com/nba/story/_/id/50370258/nba-defends-rwanda-partnership-letter-concerned-senators",
-      "publishedAt": "2026-11-04T02:01:59+00:00",
-      "image": "https://a.espncdn.com/photo/2021/0928/r915775_600x400_3-2.jpg",
-      "author": "Mark Fainaru-Wada",
-      "categories": [
-        "NBA",
-        "Mark Fainaru-Wada"
-      ]
-    },
-    {
-      "id": "50370129",
-      "title": "Karabell's notebook: Gobert's slow start, Zion's steals, and five other nuggets",
-      "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50370129/fantasy-basketball-trends-nba-2026-2027",
-      "publishedAt": "2026-11-03T19:07:41+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740586_1296x729_16-9.jpg",
-      "author": "Eric Karabell",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Cam Spencer",
-        "Zion Williamson",
-        "Rudy Gobert",
-        "Bam Adebayo",
-        "Mikal Bridges",
-        "Ja Morant",
-        "Brandon Ingram",
-        "Eric Karabell"
-      ]
-    },
-    {
-      "id": "50370515",
-      "title": "Shams to McAfee: Luka Doncic has been a treat to watch",
-      "summary": "Shams to McAfee: Luka Doncic has been a treat to watch",
-      "url": "https://www.espn.com/video/clip/_/id/50370515/luka-doncic-treat-watch",
-      "publishedAt": "2026-11-03T18:19:28+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1103/ss_20261103_131334448_3723833797/ss_20261103_131334448_3723833797.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Philadelphia 76ers",
-        "San Antonio Spurs",
-        "Giannis Antetokounmpo",
-        "Detroit Pistons",
-        "NBA",
-        "LeBron James",
-        "Shams Charania",
-        "Shai Gilgeous-Alexander",
-        "Jayson Tatum",
-        "Luka Doncic",
-        "Victor Wembanyama",
-        "Boston Celtics",
-        "Los Angeles Lakers",
-        "Oklahoma City Thunder",
-        "2 Star Rating",
-        "Cade Cunningham",
-        "Tyrese Maxey",
-        "Jaylen Brown",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Pat McAfee",
-        "The Pat McAfee Show",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50369931",
-      "title": "Will Draymond be a detriment to Warriors' success? Perk, Stephen A. debate",
-      "summary": "Will Draymond be a detriment to Warriors' success? Perk, Stephen A. debate",
-      "url": "https://www.espn.com/video/clip/_/id/50369931/will-draymond-detriment-warriors-success-perk-stephen-debate",
-      "publishedAt": "2026-11-03T17:35:52+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1103/ss_20261103_121205306_3723787749/ss_20261103_121205306_3723787749.jpg",
-      "author": "",
-      "categories": [
-        "Stephen Curry",
-        "Draymond Green",
-        "Golden State Warriors",
-        "2 Star Rating",
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Stephen A. Smith",
-        "First Take",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "49960162",
-      "title": "Fantasy basketball points league rankings update: Doncic, Flagg on the rise",
-      "summary": "Updated fantasy basketball rankings for points leagues, with Luka Doncic and Cooper Flagg both moving on up.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-11-03T17:28:10+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740559_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Luka Doncic",
-        "Cooper Flagg",
-        "Andre Snellings",
-        "NBA"
-      ]
-    },
-    {
-      "id": "49959975",
-      "title": "Fantasy basketball H2H Category and Roto rankings: Tyrese Maxey cracks the top 5",
-      "summary": "Updated fantasy basketball rankings for H2H category and roto leagues, with Tyrese Maxey in the top 5.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-11-03T17:25:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740567_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "Fantasy NBA",
-        "NBA",
-        "Tyrese Maxey",
-        "Andre Snellings"
       ]
     }
   ]
