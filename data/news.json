@@ -1,8 +1,76 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-05T17:23:41.574171+00:00",
+  "updatedAt": "2026-11-05T23:37:55.835779+00:00",
   "articles": [
+    {
+      "id": "50391857",
+      "title": "Bronny James assigned to Coachella Valley Lakers in G League",
+      "summary": "The Los Angeles Lakers have used Bronny James sparingly during their 7-2 start and on Thursday assigned him to their G League affiliate, the Coachella Valley Lakers.",
+      "url": "https://www.espn.com/nba/story/_/id/50391857/bronny-james-sent-lakers-g-league-affiliate",
+      "publishedAt": "2026-11-05T21:40:58+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0713/r1518344_1296x729_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Los Angeles Lakers",
+        "Bronny James",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-05T21:13:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50392002",
+      "title": "Jason Kidd: Luka Doncic is on a different level this season",
+      "summary": "Jason Kidd: Luka Doncic is on a different level this season",
+      "url": "https://www.espn.com/video/clip/_/id/50392002/luka-doncic-different-level-season",
+      "publishedAt": "2026-11-05T21:00:46+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_155443430_3726325/ss_20261105_155443430_3726325.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "Jason Kidd",
+        "NBA Today",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50390289",
+      "title": "LeBron James' reps send cease-and-desist letter to 'Bron AI' sports betting app",
+      "summary": "LeBron James is aiming to get a sports betting app to stop using his likeness without authorization, a spokesperson for the 76ers star told Front Office Sports.",
+      "url": "https://www.espn.com/nba/story/_/id/50390289/lebron-james-reps-send-cease-desist-bron-ai-app",
+      "publishedAt": "2026-11-05T19:36:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1026/r1736380_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "news – sports betting",
+        "news"
+      ]
+    },
     {
       "id": "50386480",
       "title": "Luka Doncic again puts up 40 as torrid stretch continues in Lakers' win",
@@ -112,22 +180,6 @@
         "fantasy",
         "nba highlight",
         "Dallas Mavericks @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-05T14:29:16+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -570,52 +622,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Chicago Bulls @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50384569",
-      "title": "Philadelphia 76ers vs. Detroit Pistons: Game Highlights",
-      "summary": "Philadelphia 76ers vs. Detroit Pistons: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50384569/game-highlights",
-      "publishedAt": "2026-11-05T03:15:36+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/ba3907ea-7188-4d98-a61a-3c1a0ad68d65/ba3907ea-7188-4d98-a61a-3c1a0ad68d65.jpg",
-      "author": "",
-      "categories": [
-        "Duncan Robinson",
-        "Philadelphia 76ers",
-        "Detroit Pistons",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Jaylen Brown",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Philadelphia 76ers @ Detroit Pistons"
-      ]
-    },
-    {
-      "id": "50384571",
-      "title": "Milwaukee Bucks vs. Boston Celtics: Game Highlights",
-      "summary": "Milwaukee Bucks vs. Boston Celtics: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50384571/game-highlights",
-      "publishedAt": "2026-11-05T03:13:07+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/1d778b11-0938-48d7-8888-94de45a34d83/1d778b11-0938-48d7-8888-94de45a34d83.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Paul George",
-        "Boston Celtics",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Neemias Queta",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Milwaukee Bucks @ Boston Celtics"
       ]
     }
   ]
