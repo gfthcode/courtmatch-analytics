@@ -1,8 +1,71 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-05T23:37:55.835779+00:00",
+  "updatedAt": "2026-11-06T06:44:24.618179+00:00",
   "articles": [
+    {
+      "id": "50396635",
+      "title": "Orlando Magic vs. Phoenix Suns: Game Highlights",
+      "summary": "Orlando Magic vs. Phoenix Suns: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50396635/game-highlights",
+      "publishedAt": "2026-11-06T06:02:40+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/7817467c-c940-48c3-bec1-501a5601f76b/7817467c-c940-48c3-bec1-501a5601f76b.jpg",
+      "author": "",
+      "categories": [
+        "Miles Bridges",
+        "Phoenix Suns",
+        "Orlando Magic",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Devin Booker",
+        "Wendell Carter Jr",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Orlando Magic @ Phoenix Suns"
+      ]
+    },
+    {
+      "id": "50397141",
+      "title": "Warriors win sixth in a row after taking down the Heat at home",
+      "summary": "Warriors win sixth in a row after taking down the Heat at home",
+      "url": "https://www.espn.com/video/clip/_/id/50397141/warriors-win-sixth-row-taking-heat-home",
+      "publishedAt": "2026-11-06T05:48:26+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/49c22f8e-05ce-4324-a6f9-94c412aaec28/49c22f8e-05ce-4324-a6f9-94c412aaec28.jpg",
+      "author": "",
+      "categories": [
+        "Stephen Curry",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Klay Thompson",
+        "Golden State Warriors",
+        "NBA",
+        "Al Horford",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "Miami Heat @ Golden State Warriors"
+      ]
+    },
+    {
+      "id": "49967701",
+      "title": "Jalen Brunson guest stars on 'Law & Order: SVU' alongside Mariska Hargitay",
+      "summary": "The New York Knicks' star made his \"Law & Order: SVU\" appearance official Thursday.",
+      "url": "https://www.espn.com/nba/story/_/id/49967701/new-york-knicks-jalen-brunson-law-order-svu-guest-appearance-mariska-hargitay",
+      "publishedAt": "2026-11-06T04:12:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1106/r1741896_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Jalen Brunson",
+        "ESPN Staff Profile"
+      ]
+    },
     {
       "id": "50391857",
       "title": "Bronny James assigned to Coachella Valley Lakers in G League",
@@ -547,81 +610,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Cleveland Cavaliers @ Oklahoma City Thunder"
-      ]
-    },
-    {
-      "id": "50384818",
-      "title": "Indiana Pacers vs. Memphis Grizzlies: Game Highlights",
-      "summary": "Indiana Pacers vs. Memphis Grizzlies: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50384818/game-highlights",
-      "publishedAt": "2026-11-05T03:56:38+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/6016fb80-890b-4382-80f9-565f63e80059/6016fb80-890b-4382-80f9-565f63e80059.jpg",
-      "author": "",
-      "categories": [
-        "Indiana Pacers",
-        "Ty Jerome",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "3 Star Rating",
-        "Cameron Boozer",
-        "SC4U  - Eligible",
-        "Andrew Nembhard",
-        "Aaron Nesmith",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Indiana Pacers @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50384738",
-      "title": "Charlotte Hornets vs. Brooklyn Nets: Game Highlights",
-      "summary": "Charlotte Hornets vs. Brooklyn Nets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50384738/game-highlights",
-      "publishedAt": "2026-11-05T03:53:16+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/463c5981-026c-4b51-8ef3-eced13e87c9f/463c5981-026c-4b51-8ef3-eced13e87c9f.jpg",
-      "author": "",
-      "categories": [
-        "Mikel Brown Jr",
-        "Danny Wolf",
-        "Michael Porter Jr",
-        "Julius Randle",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Naz Reid",
-        "Charlotte Hornets",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Charlotte Hornets @ Brooklyn Nets"
-      ]
-    },
-    {
-      "id": "50384675",
-      "title": "Chicago Bulls vs. New York Knicks: Game Highlights",
-      "summary": "Chicago Bulls vs. New York Knicks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50384675/game-highlights",
-      "publishedAt": "2026-11-05T03:16:34+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/5c85199c-fefb-4848-83a5-3aa6976e165e/5c85199c-fefb-4848-83a5-3aa6976e165e.jpg",
-      "author": "",
-      "categories": [
-        "OG Anunoby",
-        "New York Knicks",
-        "Jalen Brunson",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "Tre Jones",
-        "NBA",
-        "3 Star Rating",
-        "Dailyn Swain",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ New York Knicks"
       ]
     }
   ]
