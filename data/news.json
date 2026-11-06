@@ -1,8 +1,162 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-06T06:44:24.618179+00:00",
+  "updatedAt": "2026-11-06T16:45:22.773124+00:00",
   "articles": [
+    {
+      "id": "50399276",
+      "title": "Doc Rivers: Giannis 'didn't want to be the bad guy' when seeking Bucks exit",
+      "summary": "Former Bucks coach Doc Rivers said Giannis Antetokounmpo \"didn't want to be the bad guy\" when he was trying to seek a trade out of Milwaukee last season.",
+      "url": "https://www.espn.com/nba/story/_/id/50399276/doc-rivers-giannis-antetokounmpo-bucks-exit-coaching-star",
+      "publishedAt": "2026-11-06T16:01:02+00:00",
+      "image": "https://a.espncdn.com/photo/2024/0906/r1382887_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Milwaukee Bucks",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "news"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-06T15:58:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50399783",
+      "title": "Stephen A. reacts to Doc Rivers saying Giannis is 'not easy' to coach",
+      "summary": "Stephen A. reacts to Doc Rivers saying Giannis is 'not easy' to coach",
+      "url": "https://www.espn.com/video/clip/_/id/50399783/stephen-reacts-doc-rivers-saying-giannis-not-easy-coach",
+      "publishedAt": "2026-11-06T15:44:51+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1106/ss_20261106_103611947_3727589643/ss_20261106_103611947_3727589643.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "2 Star Rating",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Stephen A. Smith",
+        "First Take",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "42078248",
+      "title": "LeBron James vs. Cleveland: Top performances against Cavaliers",
+      "summary": "James holds a 9-4 record with averages of 29.6 points, 8.5 rebounds and 6.9 assists per game on 54% shooting in Cleveland as an opponent.",
+      "url": "https://www.espn.com/nba/story/_/id/42078248/lebron-james-notable-games-opponent-cleveland",
+      "publishedAt": "2026-11-06T14:44:12+00:00",
+      "image": "https://a.espncdn.com/photo/2024/1029/r1407704_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Cleveland Cavaliers",
+        "daily",
+        "culture",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50371973",
+      "title": "Windhorst & MacMahon: What league insiders are seeing from Philly's 8-1 start",
+      "summary": "Brian Windhorst and Tim MacMahon canvass the league for early superteam intel, the staying power of Memphis and next steps in Sacramento.",
+      "url": "https://www.espn.com/nba/story/_/id/50371973/lebron-76ers-embiid-maxey-ty-jerome-grizzlies",
+      "publishedAt": "2026-11-06T14:20:29+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1106/r1741892_1296x729_16-9.jpg",
+      "author": "Brian Windhorst and Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Golden State Warriors",
+        "LeBron James",
+        "Memphis Grizzlies",
+        "Ty Jerome",
+        "Brian Windhorst",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50371585",
+      "title": "Could Denver overcome a 'down' year from Nikola Jokic? Absolutely not",
+      "summary": "Denver's roster was never built to overcome any slippage from its three-time MVP.",
+      "url": "https://www.espn.com/nba/story/_/id/50371585/nikola-jokic-mvp-denver-nuggets-struggles",
+      "publishedAt": "2026-11-06T14:18:50+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1103/r1740690_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Denver Nuggets",
+        "NBA Draft",
+        "Nikola Jokic",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50398268",
+      "title": "Jamal Crawford says NBA's potential return to Seattle 'feels different' this time",
+      "summary": "Retired NBA great Jamal Crawford said he has been working as an adviser with the group led by Kraken owner Samantha Holloway in expansion talks.",
+      "url": "https://www.espn.com/nba/story/_/id/50398268/jamal-crawford-advising-lead-bidders-seattle-nba-expansion-attempt",
+      "publishedAt": "2026-11-06T12:51:56+00:00",
+      "image": "https://a.espncdn.com/photo/2018/0921/r434572_600x400_3-2.jpg",
+      "author": "Ramona Shelburne",
+      "categories": [
+        "news",
+        "NBA",
+        "Jamal Crawford",
+        "Ramona Shelburne"
+      ]
+    },
+    {
+      "id": "50390769",
+      "title": "Fantasy basketball's biggest surprise: What to make of Ty Jerome's hot start",
+      "summary": "Andre Snellings examines whether Ty Jerome is likely to keep up his tremendous start to the season.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50390769/fantasy-basketball-ty-jerome-surprises-scoring-breakout",
+      "publishedAt": "2026-11-06T12:24:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741726_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50389727",
+      "title": "Inside LeBron's first game in Philly -- more than two decades ago",
+      "summary": "Nearly 25 years ago, LeBron won over Philly for the first time -- inside one of the most iconic basketball arenas in the world.",
+      "url": "https://www.espn.com/nba/story/_/id/50389727/lebron-james-palestra-maureece-rice-philadelphia",
+      "publishedAt": "2026-11-06T11:48:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/nba_james3_16x9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Cleveland Cavaliers",
+        "LeBron James",
+        "Dave McMenamin"
+      ]
+    },
     {
       "id": "50396635",
       "title": "Orlando Magic vs. Phoenix Suns: Game Highlights",
@@ -80,22 +234,6 @@
         "Los Angeles Lakers",
         "Bronny James",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-05T21:13:01+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -309,22 +447,6 @@
       ]
     },
     {
-      "id": "50371585",
-      "title": "Could Denver overcome a 'down' year from Nikola Jokic? Absolutely not",
-      "summary": "Denver's roster was never built to overcome any slippage from its three-time MVP.",
-      "url": "https://www.espn.com/nba/story/_/id/50371585/nikola-jokic-mvp-denver-nuggets-struggles",
-      "publishedAt": "2026-11-05T12:22:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740690_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Denver Nuggets",
-        "NBA Draft",
-        "Nikola Jokic",
-        "Ben Golliver"
-      ]
-    },
-    {
       "id": "50379717",
       "title": "2027 NBA draft big board rankings: Top 100 prospects",
       "summary": "Which top prospects lead in Jeremy Woo's debut rankings? Here's our top 100 big board for the 2027 class.",
@@ -486,130 +608,6 @@
         "SC4U - Full Highlight",
         "SC4U  - Eligible",
         "Dallas Mavericks @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50385137",
-      "title": "Utah Jazz vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Utah Jazz vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50385137/game-highlights",
-      "publishedAt": "2026-11-05T04:57:56+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/34914a35-6f59-4b80-b70c-f24881d8a408/34914a35-6f59-4b80-b70c-f24881d8a408.jpg",
-      "author": "",
-      "categories": [
-        "Lauri Markkanen",
-        "Saddiq Bey",
-        "Utah Jazz",
-        "Dejounte Murray",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Keyonte George",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Utah Jazz @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50385309",
-      "title": "Toronto Raptors vs. Denver Nuggets: Game Highlights",
-      "summary": "Toronto Raptors vs. Denver Nuggets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50385309/game-highlights",
-      "publishedAt": "2026-11-05T04:57:52+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/e965d7e7-a1e1-4bce-b3cf-92e9a5815cfc/e965d7e7-a1e1-4bce-b3cf-92e9a5815cfc.jpg",
-      "author": "",
-      "categories": [
-        "Trevon Brazile",
-        "Jamal Murray",
-        "Toronto Raptors",
-        "Denver Nuggets",
-        "RJ Barrett",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Nikola Jokic",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "Tyus Jones",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Toronto Raptors @ Denver Nuggets"
-      ]
-    },
-    {
-      "id": "50385343",
-      "title": "Portland Trail Blazers vs. Phoenix Suns: Game Highlights",
-      "summary": "Portland Trail Blazers vs. Phoenix Suns: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50385343/game-highlights",
-      "publishedAt": "2026-11-05T04:57:48+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/a917ffcb-22e5-41f5-89d0-69d0d145575e/a917ffcb-22e5-41f5-89d0-69d0d145575e.jpg",
-      "author": "",
-      "categories": [
-        "Portland Trail Blazers",
-        "Miles Bridges",
-        "Phoenix Suns",
-        "Damian Lillard",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Devin Booker",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Portland Trail Blazers @ Phoenix Suns"
-      ]
-    },
-    {
-      "id": "50385130",
-      "title": "Minnesota Timberwolves vs. Houston Rockets: Game Highlights",
-      "summary": "Minnesota Timberwolves vs. Houston Rockets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50385130/game-highlights",
-      "publishedAt": "2026-11-05T04:45:26+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/aaa6f976-5f10-4fce-96ca-84c131eee524/aaa6f976-5f10-4fce-96ca-84c131eee524.jpg",
-      "author": "",
-      "categories": [
-        "Reed Sheppard",
-        "Kevin Durant",
-        "Houston Rockets",
-        "Minnesota Timberwolves",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Bones Hyland",
-        "Ayo Dosunmu",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Minnesota Timberwolves @ Houston Rockets"
-      ]
-    },
-    {
-      "id": "50384885",
-      "title": "Cleveland Cavaliers vs. Oklahoma City Thunder: Game Highlights",
-      "summary": "Cleveland Cavaliers vs. Oklahoma City Thunder: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50384885/game-highlights",
-      "publishedAt": "2026-11-05T04:09:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/8d7ae229-aece-48c5-aac0-bff0ed47820e/8d7ae229-aece-48c5-aac0-bff0ed47820e.jpg",
-      "author": "",
-      "categories": [
-        "Donovan Mitchell",
-        "Ajay Mitchell",
-        "Oklahoma City Thunder",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Cleveland Cavaliers @ Oklahoma City Thunder"
       ]
     }
   ]
