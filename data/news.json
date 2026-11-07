@@ -1,14 +1,29 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-07T05:57:33.130025+00:00",
+  "updatedAt": "2026-11-07T12:59:46.641469+00:00",
   "articles": [
+    {
+      "id": "50406079",
+      "title": "Luka Doncic's 53-point explosion pushes scoring average past 40 as Lakers roll",
+      "summary": "Luka Doncic poured in a season-high 53 points in Friday's 124-118 win over the Blazers, raising his scoring average to 40.1.",
+      "url": "https://www.espn.com/nba/story/_/id/50406079/luka-doncic-stays-hot-scores-53-lead-lakers-blazers",
+      "publishedAt": "2026-11-07T08:15:00+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742320_600x400_3-2.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Luka Doncic",
+        "Ben Golliver"
+      ]
+    },
     {
       "id": "50405401",
       "title": "In Cleveland return, LeBron James struggles to find 'good rhythm' in 76ers' loss",
-      "summary": "Returning to Cleveland as the opposition for the third time in a different NBA uniform, LeBron James struggled Friday night. finishing with eight points on 3-for-12 shooting with seven turnovers in Philadelphia's 119-96 NBA Cup game loss to the Cavaliers.",
+      "summary": "Returning to Cleveland as the opposition for the third time in a different NBA uniform, LeBron James struggled Friday night. finishing with eight points on 3-for-12 shooting with six turnovers in Philadelphia's 119-96 NBA Cup game loss to the Cavaliers.",
       "url": "https://www.espn.com/nba/story/_/id/50405401/lebron-james-find-good-rhythm-cleveland-return",
-      "publishedAt": "2026-11-07T05:52:52+00:00",
+      "publishedAt": "2026-11-07T07:09:32+00:00",
       "image": "https://a.espncdn.com/photo/2026/1107/r1742313_600x600_1-1.jpg",
       "author": "Kris Rhim",
       "categories": [
@@ -16,6 +31,102 @@
         "Philadelphia 76ers",
         "Cleveland Cavaliers",
         "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50401522",
+      "title": "Knicks 'appreciative' of Taylor Swift after Kolek, McBride question fandom",
+      "summary": "The Knicks have come to the defense of Taylor Swift and say they are \"incredibly appreciative\" of her support after Tyler Kolek and Miles \"Deuce\" McBride named her as the fakest celebrity fan at games.",
+      "url": "https://www.espn.com/nba/story/_/id/50401522/knicks-appreciative-taylor-swift-players-comments",
+      "publishedAt": "2026-11-07T06:36:08+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0611/r1671292_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Tyler Kolek",
+        "Miles McBride",
+        "news"
+      ]
+    },
+    {
+      "id": "50405740",
+      "title": "Tyler Kolek questions Taylor Swift's Knicks fandom",
+      "summary": "Tyler Kolek questions Taylor Swift's Knicks fandom",
+      "url": "https://www.espn.com/video/clip/_/id/50405740/tyler-kolek-questions-taylor-swift-knicks-fandom",
+      "publishedAt": "2026-11-07T06:35:01+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/dm_261107_KOLEK_1/dm_261107_KOLEK_1.jpg",
+      "author": "",
+      "categories": [
+        "League Boost",
+        "NBA",
+        "New York Knicks"
+      ]
+    },
+    {
+      "id": "50405444",
+      "title": "Portland Trail Blazers vs. Los Angeles Lakers: Game Highlights",
+      "summary": "Portland Trail Blazers vs. Los Angeles Lakers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50405444/game-highlights",
+      "publishedAt": "2026-11-07T06:29:04+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/6e7c6354ac0f43e7a255673e1fbc5ff885/6e7c6354ac0f43e7a255673e1fbc5ff885.jpg",
+      "author": "",
+      "categories": [
+        "Portland Trail Blazers",
+        "Damian Lillard",
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "NBA",
+        "Toumani Camara",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U - Full Highlight",
+        "SC4U  - Eligible",
+        "Portland Trail Blazers @ Los Angeles Lakers"
+      ]
+    },
+    {
+      "id": "50405530",
+      "title": "Luka goes off for 53 points to lead Lakers past Trail Blazers",
+      "summary": "Luka goes off for 53 points to lead Lakers past Trail Blazers",
+      "url": "https://www.espn.com/video/clip/_/id/50405530/luka-goes-53-points-lead-lakers-trail-blazers",
+      "publishedAt": "2026-11-07T06:17:50+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1107/1660134dbd7148eebd16862a5c79448e77/1660134dbd7148eebd16862a5c79448e77.jpg",
+      "author": "",
+      "categories": [
+        "Portland Trail Blazers",
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "League Boost",
+        "Portland Trail Blazers @ Los Angeles Lakers"
+      ]
+    },
+    {
+      "id": "50405461",
+      "title": "Spurs win their 7th in a row after downing the Kings",
+      "summary": "Spurs win their 7th in a row after downing the Kings",
+      "url": "https://www.espn.com/video/clip/_/id/50405461/spurs-win-their-7th-row-downing-kings",
+      "publishedAt": "2026-11-07T06:04:47+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/d454bdd9-c0fc-413e-94dc-fd875aa6c349/d454bdd9-c0fc-413e-94dc-fd875aa6c349.jpg",
+      "author": "",
+      "categories": [
+        "Zach LaVine",
+        "Domantas Sabonis",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "NBA",
+        "Stephon Castle",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "San Antonio Spurs @ Sacramento Kings"
       ]
     },
     {
@@ -31,50 +142,6 @@
         "Washington Wizards",
         "Atlanta Hawks",
         "Trae Young"
-      ]
-    },
-    {
-      "id": "49577473",
-      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
-      "summary": "Here's everything you need to know about the fourth annual in-season tournament.",
-      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
-      "publishedAt": "2026-11-07T04:55:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1107/r1742299_608x342_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "event",
-        "daily",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards"
       ]
     },
     {
@@ -315,22 +382,6 @@
       ]
     },
     {
-      "id": "50401522",
-      "title": "Knicks 'appreciative' of Taylor Swift after Kolek, McBride question fandom",
-      "summary": "The Knicks have come to the defense of Taylor Swift and say they are \"incredibly appreciative\" of her support after Tyler Kolek and Miles \"Deuce\" McBride named her as the fakest celebrity fan at games.",
-      "url": "https://www.espn.com/nba/story/_/id/50401522/knicks-appreciative-taylor-swift-players-comments",
-      "publishedAt": "2026-11-06T20:37:35+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0611/r1671292_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Tyler Kolek",
-        "Miles McBride",
-        "news"
-      ]
-    },
-    {
       "id": "50401300",
       "title": "Knicks defend Taylor Swift's fandom after Tyler Kolek, Miles McBride weigh in",
       "summary": "Swift's history at Madison Square Garden includes courtside appearances dating back to 2014 and her July wedding to Travis Kelce.",
@@ -476,22 +527,6 @@
       ]
     },
     {
-      "id": "50371585",
-      "title": "Could Denver overcome a 'down' year from Nikola Jokic? Absolutely not",
-      "summary": "Denver's roster was never built to overcome any slippage from its three-time MVP.",
-      "url": "https://www.espn.com/nba/story/_/id/50371585/nikola-jokic-mvp-denver-nuggets-struggles",
-      "publishedAt": "2026-11-06T14:18:50+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1103/r1740690_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Denver Nuggets",
-        "NBA Draft",
-        "Nikola Jokic",
-        "Ben Golliver"
-      ]
-    },
-    {
       "id": "50398268",
       "title": "Jamal Crawford says NBA's potential return to Seattle 'feels different' this time",
       "summary": "Retired NBA great Jamal Crawford said he has been working as an adviser with the group led by Kraken owner Samantha Holloway in expansion talks.",
@@ -521,307 +556,6 @@
         "news - fantasy basketball",
         "news - nba",
         "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50396635",
-      "title": "Orlando Magic vs. Phoenix Suns: Game Highlights",
-      "summary": "Orlando Magic vs. Phoenix Suns: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50396635/game-highlights",
-      "publishedAt": "2026-11-06T06:02:40+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/7817467c-c940-48c3-bec1-501a5601f76b/7817467c-c940-48c3-bec1-501a5601f76b.jpg",
-      "author": "",
-      "categories": [
-        "Miles Bridges",
-        "Phoenix Suns",
-        "Orlando Magic",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Devin Booker",
-        "Wendell Carter Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Phoenix Suns"
-      ]
-    },
-    {
-      "id": "50397141",
-      "title": "Warriors win sixth in a row after taking down the Heat at home",
-      "summary": "Warriors win sixth in a row after taking down the Heat at home",
-      "url": "https://www.espn.com/video/clip/_/id/50397141/warriors-win-sixth-row-taking-heat-home",
-      "publishedAt": "2026-11-06T05:48:26+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1106/49c22f8e-05ce-4324-a6f9-94c412aaec28/49c22f8e-05ce-4324-a6f9-94c412aaec28.jpg",
-      "author": "",
-      "categories": [
-        "Stephen Curry",
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "Klay Thompson",
-        "Golden State Warriors",
-        "NBA",
-        "Al Horford",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Miami Heat @ Golden State Warriors"
-      ]
-    },
-    {
-      "id": "49967701",
-      "title": "Jalen Brunson guest stars on 'Law & Order: SVU' alongside Mariska Hargitay",
-      "summary": "The New York Knicks' star made his \"Law & Order: SVU\" appearance official Thursday.",
-      "url": "https://www.espn.com/nba/story/_/id/49967701/new-york-knicks-jalen-brunson-law-order-svu-guest-appearance-mariska-hargitay",
-      "publishedAt": "2026-11-06T04:12:06+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1106/r1741896_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Jalen Brunson",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50391857",
-      "title": "Bronny James assigned to Coachella Valley Lakers in G League",
-      "summary": "The Los Angeles Lakers have used Bronny James sparingly during their 7-2 start and on Thursday assigned him to their G League affiliate, the Coachella Valley Lakers.",
-      "url": "https://www.espn.com/nba/story/_/id/50391857/bronny-james-sent-lakers-g-league-affiliate",
-      "publishedAt": "2026-11-05T21:40:58+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0713/r1518344_1296x729_16-9.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "Bronny James",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50392002",
-      "title": "Jason Kidd: Luka Doncic is on a different level this season",
-      "summary": "Jason Kidd: Luka Doncic is on a different level this season",
-      "url": "https://www.espn.com/video/clip/_/id/50392002/luka-doncic-different-level-season",
-      "publishedAt": "2026-11-05T21:00:46+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_155443430_3726325/ss_20261105_155443430_3726325.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Luka Doncic",
-        "Los Angeles Lakers",
-        "Jason Kidd",
-        "NBA Today",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50390289",
-      "title": "LeBron James' reps send cease-and-desist letter to 'Bron AI' sports betting app",
-      "summary": "LeBron James is aiming to get a sports betting app to stop using his likeness without authorization, a spokesperson for the 76ers star told Front Office Sports.",
-      "url": "https://www.espn.com/nba/story/_/id/50390289/lebron-james-reps-send-cease-desist-bron-ai-app",
-      "publishedAt": "2026-11-05T19:36:41+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1026/r1736380_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "news – sports betting",
-        "news"
-      ]
-    },
-    {
-      "id": "50389158",
-      "title": "Thursday's fantasy hoops adds, NBA bets to make: Black, da Silva worth streaming",
-      "summary": "Eric Moody breaks down Thursday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50389158/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-05T16:20:21+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741518_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Anthony Black",
-        "Dillon Brooks",
-        "Pelle Larsson",
-        "Tristan da Silva",
-        "Devin Booker"
-      ]
-    },
-    {
-      "id": "50389305",
-      "title": "Stephen A.: 76ers will win it all if Embiid is healthy",
-      "summary": "Stephen A.: 76ers will win it all if Embiid is healthy",
-      "url": "https://www.espn.com/video/clip/_/id/50389305/76ers-win-all-embiid-healthy",
-      "publishedAt": "2026-11-05T15:40:42+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_103632835_3726060/ss_20261105_103632835_3726060.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Stephen A. Smith",
-        "First Take",
-        "Skip Bayless",
-        "Joel Embiid",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50389252",
-      "title": "Stephen A. calls out Skip Bayless for his indifference to Wemby's performance",
-      "summary": "Stephen A. calls out Skip Bayless for his indifference to Wemby's performance",
-      "url": "https://www.espn.com/video/clip/_/id/50389252/stephen-calls-skip-bayless-indifference-wemby-performance",
-      "publishedAt": "2026-11-05T15:38:01+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_103335296_3726059/ss_20261105_103335296_3726059.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Stephen A. Smith",
-        "First Take",
-        "Skip Bayless"
-      ]
-    },
-    {
-      "id": "50388613",
-      "title": "Wemby goes off for career-high 52 points in win over Mavs",
-      "summary": "Wemby goes off for career-high 52 points in win over Mavs",
-      "url": "https://www.espn.com/video/clip/_/id/50388613/wemby-goes-career-high-52-points-win-mavs",
-      "publishedAt": "2026-11-05T14:44:42+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_092708143_3726024580/ss_20261105_092708143_3726024580.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Victor Wembanyama",
-        "San Antonio Spurs",
-        "fantasy",
-        "nba highlight",
-        "Dallas Mavericks @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50383545",
-      "title": "Fantasy basketball rookie watch: Who's standing out and who's worth monitoring",
-      "summary": "Eric Moody highlights which rookies are standing out in the early part of the NBA season, and which are worth rostering now or down the road.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50383545/fantasy-basketball-rookie-watch-nba-2026-2027",
-      "publishedAt": "2026-11-05T13:38:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741331_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Caleb Wilson",
-        "Cameron Boozer",
-        "Darius Acuff Jr",
-        "Yaxel Lendeborg",
-        "AJ Dybantsa",
-        "Darryn Peterson",
-        "Keaton Wagler",
-        "Mikel Brown Jr",
-        "Meleek Thomas",
-        "Aday Mara",
-        "Kingston Flemings",
-        "Trevon Brazile",
-        "Brayden Burries",
-        "Nate Ament",
-        "Morez Johnson Jr"
-      ]
-    },
-    {
-      "id": "50379717",
-      "title": "2027 NBA draft big board rankings: Top 100 prospects",
-      "summary": "Which top prospects lead in Jeremy Woo's debut rankings? Here's our top 100 big board for the 2027 class.",
-      "url": "https://www.espn.com/nba/story/_/id/50379717/2027-nba-draft-rankings-top-100-prospects",
-      "publishedAt": "2026-11-05T12:06:19+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1102/nba_draft_big_board_rankings_cr_16x9.jpg",
-      "author": "Jeremy Woo",
-      "categories": [
-        "NBA Draft",
-        "NBA",
-        "NCAA Men's Basketball",
-        "Duke Blue Devils",
-        "Duke University",
-        "UConn Huskies",
-        "University of Connecticut",
-        "Arizona Wildcats",
-        "University of Arizona",
-        "Michigan Wolverines",
-        "University of Michigan",
-        "North Carolina Tar Heels",
-        "University of North Carolina",
-        "Kansas Jayhawks",
-        "University of Kansas",
-        "BYU Cougars",
-        "Brigham Young University",
-        "Kentucky Wildcats",
-        "University of Kentucky",
-        "Florida Gators",
-        "University of Florida",
-        "Arkansas Razorbacks",
-        "University of Arkansas",
-        "Alabama Crimson Tide",
-        "University of Alabama",
-        "Illinois Fighting Illini",
-        "University of Illinois",
-        "Texas Longhorns",
-        "University of Texas",
-        "Louisville Cardinals",
-        "University of Louisville",
-        "USC Trojans",
-        "University of Southern California",
-        "Villanova Wildcats",
-        "Villanova University",
-        "Vanderbilt Commodores",
-        "Vanderbilt University",
-        "West Virginia Mountaineers",
-        "West Virginia University",
-        "Maryland Terrapins",
-        "University of Maryland",
-        "St. John's Red Storm",
-        "St. John's University (NY)",
-        "Gonzaga Bulldogs",
-        "Gonzaga University",
-        "Providence Friars",
-        "Providence College",
-        "Houston Cougars",
-        "University of Houston",
-        "LSU Tigers",
-        "Louisiana State University",
-        "Nebraska Cornhuskers",
-        "University of Nebraska",
-        "TCU Horned Frogs",
-        "Texas Christian University",
-        "Arizona State Sun Devils",
-        "Arizona State University",
-        "Auburn Tigers",
-        "Auburn",
-        "Baylor Bears",
-        "Baylor University",
-        "Texas Tech Red Raiders",
-        "Texas Tech University",
-        "Utah State Aggies",
-        "Utah State University"
       ]
     }
   ]
