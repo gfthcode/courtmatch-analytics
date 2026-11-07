@@ -1,14 +1,263 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-06T23:07:39.911649+00:00",
+  "updatedAt": "2026-11-07T05:57:33.130025+00:00",
   "articles": [
+    {
+      "id": "50405401",
+      "title": "In Cleveland return, LeBron James struggles to find 'good rhythm' in 76ers' loss",
+      "summary": "Returning to Cleveland as the opposition for the third time in a different NBA uniform, LeBron James struggled Friday night. finishing with eight points on 3-for-12 shooting with seven turnovers in Philadelphia's 119-96 NBA Cup game loss to the Cavaliers.",
+      "url": "https://www.espn.com/nba/story/_/id/50405401/lebron-james-find-good-rhythm-cleveland-return",
+      "publishedAt": "2026-11-07T05:52:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742313_600x600_1-1.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Cleveland Cavaliers",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50405029",
+      "title": "Wiz's Trae Young calls Atlanta return a 'cool' experience despite loss",
+      "summary": "Trae Young has faced his former team, the Atlanta Hawks, on the court in Atlanta for the first time since joining the Washington Wizards.",
+      "url": "https://www.espn.com/nba/story/_/id/50405029/wizards-trae-young-returns-atlanta-vs-hawks-says-experience-was-different",
+      "publishedAt": "2026-11-07T05:42:09+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742311_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Washington Wizards",
+        "Atlanta Hawks",
+        "Trae Young"
+      ]
+    },
+    {
+      "id": "49577473",
+      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament.",
+      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+      "publishedAt": "2026-11-07T04:55:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742299_608x342_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "event",
+        "daily",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
+      ]
+    },
+    {
+      "id": "50404767",
+      "title": "Minnesota Timberwolves vs. New Orleans Pelicans: Game Highlights",
+      "summary": "Minnesota Timberwolves vs. New Orleans Pelicans: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50404767/game-highlights",
+      "publishedAt": "2026-11-07T04:07:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/0290d852-2b2f-4752-8125-6136ee41f2c5/0290d852-2b2f-4752-8125-6136ee41f2c5.jpg",
+      "author": "",
+      "categories": [
+        "Saddiq Bey",
+        "Minnesota Timberwolves",
+        "Jeremiah Fears",
+        "LaMelo Ball",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "New Orleans Pelicans",
+        "Ayo Dosunmu",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Minnesota Timberwolves @ New Orleans Pelicans"
+      ]
+    },
+    {
+      "id": "50404695",
+      "title": "Toronto Raptors vs. Milwaukee Bucks: Game Highlights",
+      "summary": "Toronto Raptors vs. Milwaukee Bucks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50404695/game-highlights",
+      "publishedAt": "2026-11-07T03:56:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/a8a1bfbd-f803-4b76-88e3-7c0d80ee3690/a8a1bfbd-f803-4b76-88e3-7c0d80ee3690.jpg",
+      "author": "",
+      "categories": [
+        "Jakob Poeltl",
+        "Tyler Herro",
+        "Toronto Raptors",
+        "Alijah Martin",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Kel'el Ware",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "AJ Green",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Toronto Raptors @ Milwaukee Bucks"
+      ]
+    },
+    {
+      "id": "50404607",
+      "title": "Oklahoma City Thunder vs. Memphis Grizzlies: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. Memphis Grizzlies: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50404607/game-highlights",
+      "publishedAt": "2026-11-07T03:41:52+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/3b820889-f3a1-4daf-b19c-a22d967ed578/3b820889-f3a1-4daf-b19c-a22d967ed578.jpg",
+      "author": "",
+      "categories": [
+        "Ajay Mitchell",
+        "Oklahoma City Thunder",
+        "Ty Jerome",
+        "SC4U - Full Highlight",
+        "Memphis Grizzlies",
+        "NBA",
+        "SC4U  - Eligible",
+        "Aday Mara",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Oklahoma City Thunder @ Memphis Grizzlies"
+      ]
+    },
+    {
+      "id": "50404582",
+      "title": "Utah Jazz vs. Dallas Mavericks: Game Highlights",
+      "summary": "Utah Jazz vs. Dallas Mavericks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50404582/game-highlights",
+      "publishedAt": "2026-11-07T03:40:38+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/4bd10399-84bf-4fa6-a256-c6eb65f95996/4bd10399-84bf-4fa6-a256-c6eb65f95996.jpg",
+      "author": "",
+      "categories": [
+        "Daniel Gafford",
+        "Lauri Markkanen",
+        "Utah Jazz",
+        "Dallas Mavericks",
+        "PJ Washington",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "Cooper Flagg",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Utah Jazz @ Dallas Mavericks"
+      ]
+    },
+    {
+      "id": "50404448",
+      "title": "Cavs win big at home over the 76ers",
+      "summary": "Cavs win big at home over the 76ers",
+      "url": "https://www.espn.com/video/clip/_/id/50404448/cavs-win-big-home-76ers",
+      "publishedAt": "2026-11-07T03:22:49+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/e644f0ee-8356-4f52-ba26-0a6098e21d50/e644f0ee-8356-4f52-ba26-0a6098e21d50.jpg",
+      "author": "",
+      "categories": [
+        "Donovan Mitchell",
+        "Philadelphia 76ers",
+        "Evan Mobley",
+        "Cleveland Cavaliers",
+        "NBA",
+        "LeBron James",
+        "VJ Edgecombe",
+        "James Harden",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "Philadelphia 76ers @ Cleveland Cavaliers"
+      ]
+    },
+    {
+      "id": "50404100",
+      "title": "Washington Wizards vs. Atlanta Hawks: Game Highlights",
+      "summary": "Washington Wizards vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50404100/game-highlights",
+      "publishedAt": "2026-11-07T02:35:26+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/7b7b5337-cb38-4508-a564-0839e2128de2/7b7b5337-cb38-4508-a564-0839e2128de2.jpg",
+      "author": "",
+      "categories": [
+        "Nickeil Alexander-Walker",
+        "Washington Wizards",
+        "Luguentz Dort",
+        "Kyshawn George",
+        "Trae Young",
+        "Atlanta Hawks",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Washington Wizards @ Atlanta Hawks"
+      ]
+    },
+    {
+      "id": "50404082",
+      "title": "Boston Celtics vs. Charlotte Hornets: Game Highlights",
+      "summary": "Boston Celtics vs. Charlotte Hornets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50404082/game-highlights",
+      "publishedAt": "2026-11-07T02:28:28+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/061e0ba3-d216-44e3-abf9-b901a5a65589/061e0ba3-d216-44e3-abf9-b901a5a65589.jpg",
+      "author": "",
+      "categories": [
+        "Jayson Tatum",
+        "Boston Celtics",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Naz Reid",
+        "Charlotte Hornets",
+        "Mitchell Robinson",
+        "Payton Pritchard",
+        "Luka Garza",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Boston Celtics @ Charlotte Hornets"
+      ]
+    },
     {
       "id": "50402041",
       "title": "Warriors' Kristaps Porzingis to 'step away,' prioritize health",
       "summary": "Kristaps Porzingis has announced that he will \"step away\" from the NBA to prioritize his health. He has not played for the Warriors this season.",
       "url": "https://www.espn.com/nba/story/_/id/50402041/warriors-kristaps-porzingis-step-away-prioritize-health",
-      "publishedAt": "2026-11-06T22:35:31+00:00",
+      "publishedAt": "2026-11-06T23:57:17+00:00",
       "image": "https://a.espncdn.com/photo/2026/0928/r1722984_1296x729_16-9.jpg",
       "author": "Anthony Slater",
       "categories": [
@@ -390,22 +639,6 @@
       ]
     },
     {
-      "id": "50386480",
-      "title": "Luka Doncic again puts up 40 as torrid stretch continues in Lakers' win",
-      "summary": "By dropping another 40 points Wednesday, Luka Doncic joined Kobe Bryant and Elgin Baylor as the only Lakers to ever score 35-plus points in six straight games.",
-      "url": "https://www.espn.com/nba/story/_/id/50386480/luka-doncic-40-points-hot-streak-lakers-kings",
-      "publishedAt": "2026-11-05T16:59:55+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741388_2_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "Luka Doncic",
-        "Anthony Slater"
-      ]
-    },
-    {
       "id": "50389158",
       "title": "Thursday's fantasy hoops adds, NBA bets to make: Black, da Silva worth streaming",
       "summary": "Eric Moody breaks down Thursday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
@@ -516,38 +749,6 @@
       ]
     },
     {
-      "id": "50385705",
-      "title": "Wembanyama has career night with 52 points, 24 rebounds, 8 blocks in Spurs' win",
-      "summary": "Victor Wembanyama had career highs of 52 points and 24 rebounds along with eight blocks to power the Spurs past the Mavericks on Wednesday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50385705/wembanyama-52-points-24-rebounds-8-blocks-spurs-mavs",
-      "publishedAt": "2026-11-05T13:22:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741386_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "news",
-        "NBA",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50387296",
-      "title": "Heat's Klay Thompson hits eight 3s, but none as dramatic as game winner",
-      "summary": "The Heat engulfed Klay Thompson in a jubilant celebration after his corner 3 -- his eighth of the game -- went in with one second left in overtime of Miami's 117-116 victory over the Clippers.",
-      "url": "https://www.espn.com/nba/story/_/id/50387296/klay-thompson-hits-game-winner-miami-heat-comeback",
-      "publishedAt": "2026-11-05T13:09:09+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741417_600x400_3-2.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "news",
-        "Miami Heat",
-        "Klay Thompson",
-        "NBA",
-        "Ben Golliver"
-      ]
-    },
-    {
       "id": "50379717",
       "title": "2027 NBA draft big board rankings: Top 100 prospects",
       "summary": "Which top prospects lead in Jeremy Woo's debut rankings? Here's our top 100 big board for the 2027 class.",
@@ -621,48 +822,6 @@
         "Texas Tech University",
         "Utah State Aggies",
         "Utah State University"
-      ]
-    },
-    {
-      "id": "50385864",
-      "title": "Miami Heat vs. LA Clippers: Game Highlights",
-      "summary": "Miami Heat vs. LA Clippers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50385864/game-highlights",
-      "publishedAt": "2026-11-05T06:50:05+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1105/e38c6479-f0fd-45cf-80b5-a57562dd036e/e38c6479-f0fd-45cf-80b5-a57562dd036e.jpg",
-      "author": "",
-      "categories": [
-        "Kobe Sanders",
-        "Miami Heat",
-        "Klay Thompson",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Bam Adebayo",
-        "LA Clippers",
-        "Rui Hachimura",
-        "5 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Miami Heat @ LA Clippers"
-      ]
-    },
-    {
-      "id": "50385858",
-      "title": "Shaq on Wemby's big night: 'We've never seen a player like him'",
-      "summary": "Shaq on Wemby's big night: 'We've never seen a player like him'",
-      "url": "https://www.espn.com/video/clip/_/id/50385858/never-seen-player-him",
-      "publishedAt": "2026-11-05T06:40:44+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1105/ss_20261105_013340112_3725936/ss_20261105_013340112_3725936.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Inside the NBA",
-        "Dallas Mavericks @ San Antonio Spurs"
       ]
     }
   ]
