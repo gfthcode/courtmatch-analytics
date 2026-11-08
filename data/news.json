@@ -1,19 +1,35 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-07T19:25:36.918877+00:00",
+  "updatedAt": "2026-11-08T00:35:11.837781+00:00",
   "articles": [
+    {
+      "id": "50412162",
+      "title": "Warriors' Yaxel Lendeborg surprises mom with new home to fulfill 'lifelong goal'",
+      "summary": "The Golden State Warriors rookie has credited his mother for saving his life with her support and love.",
+      "url": "https://www.espn.com/nba/story/_/id/50412162/yaxel-lendeborg-warriors-gifts-mom-home",
+      "publishedAt": "2026-11-07T22:16:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742601_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Yaxel Lendeborg",
+        "Anthony Gharib"
+      ]
+    },
     {
       "id": "50410292",
       "title": "Man arrested on stalking charges at LeBron James' home in Los Angeles",
-      "summary": "A man was arrested on Friday night at LeBron James' Brentwood, California home, a Los Angeles Police Department spokesperson confirmed to ESPN on Saturday.",
+      "summary": "A man was arrested on Friday night at LeBron James' Brentwood, California, home, a Los Angeles Police Department spokesperson confirmed to ESPN on Saturday.",
       "url": "https://www.espn.com/nba/story/_/id/50410292/man-arrested-stalking-charges-lebron-james-home-la",
-      "publishedAt": "2026-11-07T19:20:47+00:00",
+      "publishedAt": "2026-11-07T20:25:58+00:00",
       "image": "https://a.espncdn.com/photo/2026/1024/r1735508_600x400_3-2.jpg",
       "author": "Dave McMenamin",
       "categories": [
         "NBA",
         "LeBron James",
+        "Philadelphia 76ers",
         "Dave McMenamin"
       ]
     },
@@ -478,25 +494,6 @@
         "Jrue Holiday",
         "Saddiq Bey",
         "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50371973",
-      "title": "Windhorst & MacMahon: What league insiders are seeing from Philly's 8-1 start",
-      "summary": "Brian Windhorst and Tim MacMahon canvass the league for early superteam intel, the staying power of Memphis and next steps in Sacramento.",
-      "url": "https://www.espn.com/nba/story/_/id/50371973/lebron-76ers-embiid-maxey-ty-jerome-grizzlies",
-      "publishedAt": "2026-11-06T17:40:38+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1106/r1741892_1296x729_16-9.jpg",
-      "author": "Brian Windhorst and Tim MacMahon",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Golden State Warriors",
-        "LeBron James",
-        "Memphis Grizzlies",
-        "Ty Jerome",
-        "Brian Windhorst",
-        "Tim MacMahon"
       ]
     },
     {
