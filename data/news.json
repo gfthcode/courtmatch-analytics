@@ -1,14 +1,14 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-08T10:22:07.262438+00:00",
+  "updatedAt": "2026-11-08T17:55:31.522143+00:00",
   "articles": [
     {
       "id": "50417316",
-      "title": "'Remarkable' Curry's latest history-making night keeps Warriors rolling",
-      "summary": "Golden State Warriors star Stephen Curry scored 17 of his 41 points in the final seven minutes of Saturday night's 126-119 overtime win over the Orlando Magic, setting another late-career NBA record.",
+      "title": "Stephen Curry's latest history-making night keeps Warriors rolling",
+      "summary": "Warriors star Stephen Curry scored 17 of his 41 points in the final seven minutes of a 126-119 overtime win over the Magic, setting another late-career NBA record.",
       "url": "https://www.espn.com/nba/story/_/id/50417316/remarkable-curry-latest-history-making-night-keeps-warriors-rolling",
-      "publishedAt": "2026-11-08T07:10:37+00:00",
+      "publishedAt": "2026-11-08T16:50:37+00:00",
       "image": "https://a.espncdn.com/photo/2026/1108/r1742836_600x400_3-2.jpg",
       "author": "Anthony Slater",
       "categories": [
@@ -16,6 +16,44 @@
         "Golden State Warriors",
         "Stephen Curry",
         "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50392857",
+      "title": "Sunday's fantasy hoops adds, NBA bets to make: Nets, Clippers offer value",
+      "summary": "Jim McCormick breaks down Sunday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50392857/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-08T16:22:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1108/r1742952_1296x729_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Day'Ron Sharpe",
+        "Nolan Traore",
+        "PJ Washington",
+        "Rui Hachimura",
+        "Jim McCormick"
+      ]
+    },
+    {
+      "id": "50401786",
+      "title": "Making sense of Jaylen Brown's previous impact with Celtics",
+      "summary": "Ahead of the 76ers-Celtics game, we dive into the gap between Brown and on/off statistics.",
+      "url": "https://www.espn.com/nba/story/_/id/50401786/nba-data-jaylen-brown-celtics-76ers",
+      "publishedAt": "2026-11-08T12:09:17+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1108/r1742789_608x342_16-9.jpg",
+      "author": "Zach Kram",
+      "categories": [
+        "NBA",
+        "Boston Celtics",
+        "Philadelphia 76ers",
+        "Jaylen Brown",
+        "Zach Kram"
       ]
     },
     {
@@ -87,8 +125,7 @@
         "Dillon Brooks",
         "fantasy",
         "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Phoenix Suns"
+        "Fantasy NBA"
       ]
     },
     {
@@ -439,30 +476,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Toronto Raptors @ Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50404607",
-      "title": "Oklahoma City Thunder vs. Memphis Grizzlies: Game Highlights",
-      "summary": "Oklahoma City Thunder vs. Memphis Grizzlies: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50404607/game-highlights",
-      "publishedAt": "2026-11-07T03:41:52+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1107/3b820889-f3a1-4daf-b19c-a22d967ed578/3b820889-f3a1-4daf-b19c-a22d967ed578.jpg",
-      "author": "",
-      "categories": [
-        "Ajay Mitchell",
-        "Oklahoma City Thunder",
-        "Ty Jerome",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "SC4U  - Eligible",
-        "Aday Mara",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Oklahoma City Thunder @ Memphis Grizzlies"
       ]
     }
   ]
