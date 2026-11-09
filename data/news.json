@@ -1,8 +1,183 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-09T06:27:17.478511+00:00",
+  "updatedAt": "2026-11-09T19:48:30.726275+00:00",
   "articles": [
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-09T19:26:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50426497",
+      "title": "Nuggets upgrade starters to probable vs. Rockets after delayed arrival",
+      "summary": "Hampered by plane delays leaving Mexico City, the Nuggets have listed their entire starting lineup as questionable for Monday's game in Houston.",
+      "url": "https://www.espn.com/nba/story/_/id/50426497/nuggets-starters-questionable-vs-rockets-plane-delays",
+      "publishedAt": "2026-11-09T19:25:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1108/r1743325_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "news",
+        "Denver Nuggets",
+        "NBA",
+        "Houston Rockets",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50427885",
+      "title": "Jaylen Brown says 'nothing to talk about' with Tatum ahead of Celtics-76ers",
+      "summary": "Jaylen Brown said \"it's nothing to talk about\" when asked what he planned to say to Jayson Tatum when the Sixers face the Celtics on Tuesday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50427885/jaylen-brown-says-talk-tatum-ahead-76ers-celtics",
+      "publishedAt": "2026-11-09T19:09:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1109/r1743379_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Boston Celtics",
+        "Jaylen Brown",
+        "Jayson Tatum",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50434463",
+      "title": "Sources: NBA finalizing Miami as 2028 All-Star Weekend host",
+      "summary": "The NBA is finalizing Miami as host of the 2028 All-Star Weekend, sources told ESPN's Shams Charania on Monday.",
+      "url": "https://www.espn.com/nba/story/_/id/50434463/nba-finalizing-miami-2028-all-star-weekend-host",
+      "publishedAt": "2026-11-09T18:59:48+00:00",
+      "image": "",
+      "author": "",
+      "categories": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "50434186",
+      "title": "Monday's fantasy hoops adds, NBA bets to make: Ty Jerome primed for a big game",
+      "summary": "Andre Snellings breaks down Monday's eight-game NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50434186/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-09T18:49:13+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1109/r1743633_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Jakob Poeltl",
+        "Saddiq Bey",
+        "PJ Washington",
+        "Quenton Jackson",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50430300",
+      "title": "Fantasy risers and fallers: Add Burries, give more time to struggling Buzelis?",
+      "summary": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50430300/fantasy-basketball-risers-fallers-keep-cut-add-today",
+      "publishedAt": "2026-11-09T16:40:47+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1109/r1743460_1296x729_16-9.jpg",
+      "author": "Steve Alexander",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Aday Mara",
+        "Kingston Flemings",
+        "Duncan Robinson",
+        "Mikel Brown Jr",
+        "Grayson Allen",
+        "Cam Spencer",
+        "Brayden Burries",
+        "Matas Buzelis",
+        "Kel'el Ware",
+        "Andrew Wiggins",
+        "Steve Alexander"
+      ]
+    },
+    {
+      "id": "50425453",
+      "title": "What's fueling the rocky start for Giannis Antetokounmpo and the Miami Heat",
+      "summary": "At 4-6, the Heat aren't pointing fingers -- yet. But with each loss, the pressure rises on this season and next -- with Giannis' free agency looming.",
+      "url": "https://www.espn.com/nba/story/_/id/50425453/miami-heat-giannis-antetokounmpo-erik-spoelstra",
+      "publishedAt": "2026-11-09T16:01:19+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1109/r1743497_576x324_16-9.jpg",
+      "author": "Ramona Shelburne",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Bam Adebayo",
+        "Ramona Shelburne"
+      ]
+    },
+    {
+      "id": "50427876",
+      "title": "Bobby Marks' NBA core danger tiers: 19 teams with major decisions looming",
+      "summary": "With tax and apron penalties lurking everywhere, Bobby Marks examines 19 teams barreling toward core-altering decisions.",
+      "url": "https://www.espn.com/nba/story/_/id/50427876/heat-lakers-knicks-76ers-roster-decisions",
+      "publishedAt": "2026-11-09T15:26:08+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1022/r1734384_1296x729_16-9.jpg",
+      "author": "Bobby Marks",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Oklahoma City Thunder",
+        "Toronto Raptors",
+        "Detroit Pistons",
+        "NBA Draft",
+        "Boston Celtics",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Golden State Warriors",
+        "Indiana Pacers",
+        "Los Angeles Lakers",
+        "Minnesota Timberwolves",
+        "New York Knicks",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "San Antonio Spurs",
+        "Washington Wizards",
+        "Bobby Marks"
+      ]
+    },
+    {
+      "id": "50432359",
+      "title": "Giannis Antetokounmpo 'speechless' over Doc Rivers barbs, warns against 'bitterness or pettiness'",
+      "summary": "Giannis Antetokounmpo said he was \"speechless\" over Doc Rivers' recent comments, adding that athletes should not be dismayed by \"bitterness or pettiness.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50432359/giannis-antetokounmpo-speechless-doc-rivers-criticism",
+      "publishedAt": "2026-11-09T13:26:49+00:00",
+      "image": "https://a.espncdn.com/photo/2024/0225/r1295834_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Giannis Antetokounmpo",
+        "news"
+      ]
+    },
     {
       "id": "50423627",
       "title": "2026-27 NBA trade grades: Thunder acquire Nique Clifford from Kings",
@@ -31,22 +206,6 @@
         "NBA",
         "Golden State Warriors",
         "Will Richard"
-      ]
-    },
-    {
-      "id": "50426497",
-      "title": "Nuggets' starters all questionable vs. Rockets after delays leaving Mexico",
-      "summary": "Hampered by plane delays leaving Mexico City, the Nuggets have listed their entire starting lineup as questionable for Monday's game in Houston.",
-      "url": "https://www.espn.com/nba/story/_/id/50426497/nuggets-starters-questionable-vs-rockets-plane-delays",
-      "publishedAt": "2026-11-09T05:15:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1743325_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "Denver Nuggets",
-        "NBA",
-        "Houston Rockets",
-        "Anthony Slater"
       ]
     },
     {
@@ -181,24 +340,6 @@
       ]
     },
     {
-      "id": "50427885",
-      "title": "Jaylen Brown says 'nothing to talk about' with Tatum ahead of Celtics-76ers",
-      "summary": "Jaylen Brown said \"it's nothing to talk about\" when asked what he planned to say to Jayson Tatum when the Sixers face the Celtics on Tuesday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50427885/jaylen-brown-says-talk-tatum-ahead-76ers-celtics",
-      "publishedAt": "2026-11-09T03:14:03+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1109/r1743379_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Boston Celtics",
-        "Jaylen Brown",
-        "Jayson Tatum",
-        "Kris Rhim"
-      ]
-    },
-    {
       "id": "50428774",
       "title": "Utah Jazz vs. Minnesota Timberwolves: Game Highlights",
       "summary": "Utah Jazz vs. Minnesota Timberwolves: Game Highlights",
@@ -247,21 +388,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Los Angeles Lakers @ Detroit Pistons"
-      ]
-    },
-    {
-      "id": "50410292",
-      "title": "Man arrested on stalking charges at LeBron James' home in Los Angeles",
-      "summary": "A man was arrested on Friday night at LeBron James' Brentwood, California, home, a Los Angeles Police Department spokesperson confirmed to ESPN on Saturday.",
-      "url": "https://www.espn.com/nba/story/_/id/50410292/man-arrested-stalking-charges-lebron-james-home-la",
-      "publishedAt": "2026-11-09T00:15:45+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1024/r1735508_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "LeBron James",
-        "Philadelphia 76ers",
-        "Dave McMenamin"
       ]
     },
     {
@@ -352,22 +478,6 @@
       ]
     },
     {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-08T18:57:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
       "id": "50422499",
       "title": "Luka Doncic to sit out vs. Pistons due to lower back tightness",
       "summary": "Luka Doncic's historically great start to the season has been slowed for Sunday as he was ruled out against the Pistons due to lower back tightness.",
@@ -443,192 +553,6 @@
         "nba highlight",
         "Fantasy NBA",
         "San Antonio Spurs @ Portland Trail Blazers"
-      ]
-    },
-    {
-      "id": "50417013",
-      "title": "Orlando Magic vs. Golden State Warriors: Game Highlights",
-      "summary": "Orlando Magic vs. Golden State Warriors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50417013/game-highlights",
-      "publishedAt": "2026-11-08T04:52:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/8326a759-88d9-4d7b-8559-24760ddb0eb5/8326a759-88d9-4d7b-8559-24760ddb0eb5.jpg",
-      "author": "",
-      "categories": [
-        "Stephen Curry",
-        "Orlando Magic",
-        "Yaxel Lendeborg",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Wendell Carter Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Golden State Warriors"
-      ]
-    },
-    {
-      "id": "50416909",
-      "title": "Houston Rockets vs. Phoenix Suns: Game Highlights",
-      "summary": "Houston Rockets vs. Phoenix Suns: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50416909/game-highlights",
-      "publishedAt": "2026-11-08T04:40:05+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/456eaa84-5d7e-4061-a04b-5c59cf60cf9d/456eaa84-5d7e-4061-a04b-5c59cf60cf9d.jpg",
-      "author": "",
-      "categories": [
-        "Kevin Durant",
-        "Phoenix Suns",
-        "Houston Rockets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Devin Booker",
-        "Dillon Brooks",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Phoenix Suns"
-      ]
-    },
-    {
-      "id": "50416229",
-      "title": "Washington Wizards vs. Oklahoma City Thunder: Game Highlights",
-      "summary": "Washington Wizards vs. Oklahoma City Thunder: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50416229/game-highlights",
-      "publishedAt": "2026-11-08T03:52:25+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/d944982b-263d-442a-b40c-15f307b18ed7/d944982b-263d-442a-b40c-15f307b18ed7.jpg",
-      "author": "",
-      "categories": [
-        "Tre Johnson",
-        "Kenrich Williams",
-        "Washington Wizards",
-        "Bennett Stirtz",
-        "Oklahoma City Thunder",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Aday Mara",
-        "4 Star Rating",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Washington Wizards @ Oklahoma City Thunder"
-      ]
-    },
-    {
-      "id": "50416318",
-      "title": "New York Knicks vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "New York Knicks vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50416318/game-highlights",
-      "publishedAt": "2026-11-08T03:36:57+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/38e32011-4888-401e-94c8-fe703e18a228/38e32011-4888-401e-94c8-fe703e18a228.jpg",
-      "author": "",
-      "categories": [
-        "Donovan Mitchell",
-        "New York Knicks",
-        "Jalen Brunson",
-        "Evan Mobley",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Landry Shamet",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New York Knicks @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50416193",
-      "title": "Brooklyn Nets vs. Atlanta Hawks: Game Highlights",
-      "summary": "Brooklyn Nets vs. Atlanta Hawks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50416193/game-highlights",
-      "publishedAt": "2026-11-08T03:26:36+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/e957b793-fec3-491b-8584-4ca781ea7506/e957b793-fec3-491b-8584-4ca781ea7506.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Johnson",
-        "Aaron Wiggins",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Day'Ron Sharpe",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Brooklyn Nets @ Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50414938",
-      "title": "Denver Nuggets vs. Indiana Pacers: Game Highlights",
-      "summary": "Denver Nuggets vs. Indiana Pacers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50414938/game-highlights",
-      "publishedAt": "2026-11-08T01:22:33+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1108/f2a6fedd-b1cd-4852-86fd-d0daac74fd82/f2a6fedd-b1cd-4852-86fd-d0daac74fd82.jpg",
-      "author": "",
-      "categories": [
-        "Jamal Murray",
-        "Pascal Siakam",
-        "Cameron Johnson",
-        "Indiana Pacers",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "Obi Toppin",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Denver Nuggets @ Indiana Pacers"
-      ]
-    },
-    {
-      "id": "50412162",
-      "title": "Warriors' Yaxel Lendeborg surprises mom with new home to fulfill 'lifelong goal'",
-      "summary": "The Golden State Warriors rookie has credited his mother for saving his life with her support and love.",
-      "url": "https://www.espn.com/nba/story/_/id/50412162/yaxel-lendeborg-warriors-gifts-mom-home",
-      "publishedAt": "2026-11-07T22:16:52+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1107/r1742601_608x342_16-9.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Yaxel Lendeborg",
-        "Anthony Gharib"
-      ]
-    },
-    {
-      "id": "50392774",
-      "title": "Saturday's fantasy hoops adds, NBA bets to make: Traore, Eason among top options",
-      "summary": "Jim McCormick breaks down Saturday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50392774/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-07T16:22:30+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1107/r1742411_1296x729_16-9.jpg",
-      "author": "Jim McCormick",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Anthony Black",
-        "Alperen Sengun",
-        "Nolan Traore",
-        "Quenton Jackson",
-        "Tari Eason",
-        "Mario Hezonja",
-        "Jim McCormick"
       ]
     }
   ]
