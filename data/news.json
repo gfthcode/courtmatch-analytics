@@ -1,14 +1,175 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-09T19:48:30.726275+00:00",
+  "updatedAt": "2026-11-10T03:34:04.692839+00:00",
   "articles": [
+    {
+      "id": "50436573",
+      "title": "Luka Doncic returns for Lakers; Austin Reaves, Quentin Grimes out vs. Hawks",
+      "summary": "Luka Doncic returned for the Lakers on Monday at Atlanta, but the team was without Austin Reaves (illness) and Quentin Grimes (sprained finger).",
+      "url": "https://www.espn.com/nba/story/_/id/50436573/lakers-luka-doncic-returns-vs-hawks-austin-reaves-quentin-grimes-out",
+      "publishedAt": "2026-11-10T03:18:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1109/r1743772_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "Austin Reaves",
+        "Luka Doncic",
+        "NBA",
+        "Los Angeles Lakers",
+        "Quentin Grimes",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50438450",
+      "title": "Washington Wizards vs. Detroit Pistons: Game Highlights",
+      "summary": "Washington Wizards vs. Detroit Pistons: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50438450/game-highlights",
+      "publishedAt": "2026-11-10T03:04:09+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/71721c9d-dbfc-4279-850a-20eb49ec4447/71721c9d-dbfc-4279-850a-20eb49ec4447.jpg",
+      "author": "",
+      "categories": [
+        "Duncan Robinson",
+        "Washington Wizards",
+        "John Collins",
+        "Detroit Pistons",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Anthony Davis",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Washington Wizards @ Detroit Pistons"
+      ]
+    },
+    {
+      "id": "50438265",
+      "title": "Los Angeles Lakers vs. Atlanta Hawks: Game Highlights",
+      "summary": "Los Angeles Lakers vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50438265/game-highlights",
+      "publishedAt": "2026-11-10T02:38:07+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/ce0e586d-5849-411f-94e0-2dbb921ad652/ce0e586d-5849-411f-94e0-2dbb921ad652.jpg",
+      "author": "",
+      "categories": [
+        "Nickeil Alexander-Walker",
+        "Luka Doncic",
+        "Atlanta Hawks",
+        "Los Angeles Lakers",
+        "Collin Sexton",
+        "SC4U - Full Highlight",
+        "NBA",
+        "CJ McCollum",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Los Angeles Lakers @ Atlanta Hawks"
+      ]
+    },
+    {
+      "id": "50438211",
+      "title": "Cleveland Cavaliers vs. Charlotte Hornets: Game Highlights",
+      "summary": "Cleveland Cavaliers vs. Charlotte Hornets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50438211/game-highlights",
+      "publishedAt": "2026-11-10T02:33:15+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/a739ce17-b600-46fa-b672-19d1177e2287/a739ce17-b600-46fa-b672-19d1177e2287.jpg",
+      "author": "",
+      "categories": [
+        "Evan Mobley",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Naz Reid",
+        "Charlotte Hornets",
+        "Meleek Thomas",
+        "Royce O'Neale",
+        "Grayson Allen",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Cleveland Cavaliers @ Charlotte Hornets"
+      ]
+    },
+    {
+      "id": "50437538",
+      "title": "Cooper Flagg breaks down in-game peanut butter and jelly sandwich",
+      "summary": "Dallas Mavericks star Cooper Flagg has recently started eating an in-game peanut butter and jelly sandwich.",
+      "url": "https://www.espn.com/nba/story/_/id/50437538/cooper-flagg-peanut-butter-jelly",
+      "publishedAt": "2026-11-10T02:23:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1110/r1743809_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Dallas Mavericks",
+        "Cooper Flagg",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50436679",
+      "title": "Doc Rivers says he apologized to Giannis Antetokounmpo while clarifying critique",
+      "summary": "Doc Rivers said he reached out to apologize to Giannis Antetokounmpo for questioning the Miami Heat star's basketball IQ, saying he meant more that the force Antetokounmpo plays with can get \"in the way of his feel.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50436679/doc-rivers-apologized-antetokounmpo-clarifies-critiques",
+      "publishedAt": "2026-11-10T01:31:25+00:00",
+      "image": "https://a.espncdn.com/photo/2024/0906/r1382887_600x400_3-2.jpg",
+      "author": "Marc J. Spears",
+      "categories": [
+        "news",
+        "NBA",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Giannis Antetokounmpo",
+        "Marc J. Spears"
+      ]
+    },
+    {
+      "id": "50436025",
+      "title": "Bronny James gets into verbal exchange with Pistons fans during Lakers' win",
+      "summary": "Lakers guard Bronny James was captured getting into a verbal exchange with fans at Little Caesars Arena on Sunday night during L.A.'s win over the Pistons.",
+      "url": "https://www.espn.com/nba/story/_/id/50436025/bronny-james-gets-verbal-exchange-pistons-fans-lakers-win",
+      "publishedAt": "2026-11-09T23:19:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1109/r1743745_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "news",
+        "Los Angeles Lakers",
+        "Bronny James"
+      ]
+    },
+    {
+      "id": "50434186",
+      "title": "Monday's fantasy hoops adds, NBA bets to make: Ty Jerome primed for a big game",
+      "summary": "Andre Snellings breaks down Monday's eight-game NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50434186/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-09T21:27:07+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1109/r1743633_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Jakob Poeltl",
+        "Saddiq Bey",
+        "PJ Washington",
+        "Quenton Jackson",
+        "Andre Snellings"
+      ]
+    },
     {
       "id": "50028196",
       "title": "NBA buzz: Latest on trades, news, roster moves and intel",
       "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
       "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-09T19:26:44+00:00",
+      "publishedAt": "2026-11-09T20:55:38+00:00",
       "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
       "author": "ESPN staff",
       "categories": [
@@ -24,7 +185,7 @@
       "title": "Nuggets upgrade starters to probable vs. Rockets after delayed arrival",
       "summary": "Hampered by plane delays leaving Mexico City, the Nuggets have listed their entire starting lineup as questionable for Monday's game in Houston.",
       "url": "https://www.espn.com/nba/story/_/id/50426497/nuggets-starters-questionable-vs-rockets-plane-delays",
-      "publishedAt": "2026-11-09T19:25:05+00:00",
+      "publishedAt": "2026-11-09T20:00:01+00:00",
       "image": "https://a.espncdn.com/photo/2026/1108/r1743325_600x400_3-2.jpg",
       "author": "Anthony Slater",
       "categories": [
@@ -63,28 +224,6 @@
       "author": "",
       "categories": [
         "NBA"
-      ]
-    },
-    {
-      "id": "50434186",
-      "title": "Monday's fantasy hoops adds, NBA bets to make: Ty Jerome primed for a big game",
-      "summary": "Andre Snellings breaks down Monday's eight-game NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50434186/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-09T18:49:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1109/r1743633_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Jakob Poeltl",
-        "Saddiq Bey",
-        "PJ Washington",
-        "Quenton Jackson",
-        "Andre Snellings"
       ]
     },
     {
@@ -430,22 +569,6 @@
       ]
     },
     {
-      "id": "50401786",
-      "title": "Making sense of Jaylen Brown's previous impact with Celtics",
-      "summary": "Ahead of the 76ers-Celtics game, we dive into the gap between Brown and on/off statistics.",
-      "url": "https://www.espn.com/nba/story/_/id/50401786/nba-data-jaylen-brown-celtics-76ers",
-      "publishedAt": "2026-11-08T22:56:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1742789_608x342_16-9.jpg",
-      "author": "Zach Kram",
-      "categories": [
-        "NBA",
-        "Boston Celtics",
-        "Philadelphia 76ers",
-        "Jaylen Brown",
-        "Zach Kram"
-      ]
-    },
-    {
       "id": "50425681",
       "title": "Hornets' Kon Knueppel out at least 4 weeks with latest hamstring strain",
       "summary": "Charlotte Hornets second-year guard Kon Knueppel has a left hamstring strain and will be out for at least four weeks before he is reevaluated.",
@@ -475,84 +598,6 @@
         "news",
         "Nique Clifford",
         "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50422499",
-      "title": "Luka Doncic to sit out vs. Pistons due to lower back tightness",
-      "summary": "Luka Doncic's historically great start to the season has been slowed for Sunday as he was ruled out against the Pistons due to lower back tightness.",
-      "url": "https://www.espn.com/nba/story/_/id/50422499/luka-doncic-ruled-vs-pistons-back-tightness",
-      "publishedAt": "2026-11-08T18:49:22+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0825/r1706830_1296x729_16-9.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "Luka Doncic",
-        "news",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50417316",
-      "title": "Stephen Curry's latest history-making night keeps Warriors rolling",
-      "summary": "Warriors star Stephen Curry scored 17 of his 41 points in the final seven minutes of a 126-119 overtime win over the Magic, setting another late-career NBA record.",
-      "url": "https://www.espn.com/nba/story/_/id/50417316/remarkable-curry-latest-history-making-night-keeps-warriors-rolling",
-      "publishedAt": "2026-11-08T17:55:40+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1742836_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Stephen Curry",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50392857",
-      "title": "Sunday's fantasy hoops adds, NBA bets to make: Nets, Clippers offer value",
-      "summary": "Jim McCormick breaks down Sunday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50392857/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-08T16:22:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1108/r1742952_1296x729_16-9.jpg",
-      "author": "Jim McCormick",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Day'Ron Sharpe",
-        "Nolan Traore",
-        "PJ Washington",
-        "Rui Hachimura",
-        "Jim McCormick"
-      ]
-    },
-    {
-      "id": "50417459",
-      "title": "Spurs win 8 in a row after knocking off the Blazers on the road",
-      "summary": "Spurs win 8 in a row after knocking off the Blazers on the road",
-      "url": "https://www.espn.com/video/clip/_/id/50417459/spurs-win-8-row-knocking-blazers-road",
-      "publishedAt": "2026-11-08T05:53:08+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1108/dee6f3b58db243cbb4534483f6c3d40b52/dee6f3b58db243cbb4534483f6c3d40b52.jpg",
-      "author": "",
-      "categories": [
-        "Deni Avdija",
-        "Tarris Reed Jr",
-        "Portland Trail Blazers",
-        "Donovan Clingan",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "San Antonio Spurs @ Portland Trail Blazers"
       ]
     }
   ]
