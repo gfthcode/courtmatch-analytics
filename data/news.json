@@ -1,14 +1,116 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-11T17:07:38.510087+00:00",
+  "updatedAt": "2026-11-12T00:43:15.605842+00:00",
   "articles": [
+    {
+      "id": "50456501",
+      "title": "Chuck fumes over Austin Reaves-Larry Bird comparison",
+      "summary": "Chuck fumes over Austin Reaves-Larry Bird comparison",
+      "url": "https://www.espn.com/video/clip/_/id/50456501/chuck-fumes-austin-reaves-larry-bird-comparison",
+      "publishedAt": "2026-11-12T00:20:54+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/ss_20261111_191539829_3737053/ss_20261111_191539829_3737053.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "Austin Reaves",
+        "Los Angeles Lakers",
+        "Inside the NBA",
+        "League Boost"
+      ]
+    },
+    {
+      "id": "50456230",
+      "title": "Chuck: 'The Cavs suck'",
+      "summary": "Chuck: 'The Cavs suck'",
+      "url": "https://www.espn.com/video/clip/_/id/50456230/cavs-suck",
+      "publishedAt": "2026-11-11T23:54:01+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/ss_20261111_184702445_3737027/ss_20261111_184702445_3737027.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "nba highlight",
+        "Cleveland Cavaliers",
+        "Inside the NBA",
+        "League Boost"
+      ]
+    },
+    {
+      "id": "50453516",
+      "title": "Fantasy basketball adds and NBA bets: Take Warriors and the points at Houston?",
+      "summary": "Andre Snellings breaks down Wednesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50453516/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-11T23:42:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1111/r1744455_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Jakob Poeltl",
+        "Jamal Shead",
+        "Jared McCain",
+        "Day'Ron Sharpe",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50455735",
+      "title": "Curry confronts critics over comments about wife Ayesha",
+      "summary": "Warriors star Stephen Curry took to social media Wednesday to address criticisms of wife Ayesha's acting role in \"Second Chance Holiday.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50455735/curry-confronts-critics-comments-wife-ayesha",
+      "publishedAt": "2026-11-11T22:59:50+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0715/r1689812_600x400_3-2.jpg",
+      "author": "Kalan Hooks",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Stephen Curry",
+        "Kalan Hooks"
+      ]
+    },
+    {
+      "id": "50455132",
+      "title": "Donovan Mitchell details Coco Jones wedding, music passion on 'The Tonight Show'",
+      "summary": "The Cavs guard revealed wedding details and a new hobby in his appearance on \"The Tonight Show.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50455132/donovan-mitchell-tonight-show",
+      "publishedAt": "2026-11-11T22:45:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1111/r1744550_608x342_16-9.jpg",
+      "author": "Kalan Hooks",
+      "categories": [
+        "NBA",
+        "Cleveland Cavaliers",
+        "Donovan Mitchell",
+        "Kalan Hooks"
+      ]
+    },
+    {
+      "id": "50455162",
+      "title": "NBA Wednesday Night Doubleheader Teaser",
+      "summary": "NBA Wednesday Night Doubleheader Teaser",
+      "url": "https://www.espn.com/video/clip/_/id/50455162/nba-wednesday-night-doubleheader-teaser",
+      "publishedAt": "2026-11-11T21:49:02+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/dm_261111_NBA976/dm_261111_NBA976.jpg",
+      "author": "",
+      "categories": [
+        "Cleveland Cavaliers",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "NBA",
+        "New York Knicks"
+      ]
+    },
     {
       "id": "50443607",
       "title": "NBA Power Rankings: 1-30 poll, plus the best newcomer on all 30 teams",
       "summary": "Which NBA teams rise and which fall in this week's Power Rankings? Plus, the top newcomer for each team in the league.",
       "url": "https://www.espn.com/nba/story/_/id/50443607/nba-power-rankings-30-teams-best-newcomer",
-      "publishedAt": "2026-11-11T17:06:31+00:00",
+      "publishedAt": "2026-11-11T21:06:59+00:00",
       "image": "https://a.espncdn.com/photo/2026/1109/nba_power5_cr_16x9_608x342.jpg",
       "author": "ESPN Insiders",
       "categories": [
@@ -46,11 +148,98 @@
       ]
     },
     {
+      "id": "50447068",
+      "title": "Inside a $200 G League tryout, where 140 players took their shot",
+      "summary": "For three hours in Wilmington, former college players, content creators and even some Sixers fans chased the same opportunity to get noticed by the Delaware Blue Coats.",
+      "url": "https://www.espn.com/video/clip/_/id/50447068/inside-200-g-league-tryout-where-140-players-took-their-shot",
+      "publishedAt": "2026-11-11T20:58:11+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1110/40b180de-a297-462b-93b3-0d191f139e2d/40b180de-a297-462b-93b3-0d191f139e2d.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Delaware Blue Coats",
+        "NBA G League",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50453889",
+      "title": "NBA awards watch: The latest on the MVP, Rookie of the Year and other races",
+      "summary": "Andre Snellings looks at the updated odds, and explains which bets to make and which to avoid.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/50453889/nba-awards-watch-mvp-rookie-year-2026-2027",
+      "publishedAt": "2026-11-11T20:37:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1111/r1744497_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "NBA",
+        "news - nba",
+        "Sports Betting",
+        "Luka Doncic",
+        "Victor Wembanyama",
+        "Payton Pritchard",
+        "Yaxel Lendeborg",
+        "Ty Jerome",
+        "Darius Acuff Jr",
+        "Cameron Boozer",
+        "Aday Mara",
+        "Mikel Brown Jr",
+        "Keaton Wagler",
+        "Brayden Burries",
+        "Kingston Flemings",
+        "AJ Dybantsa",
+        "Caleb Wilson",
+        "Darryn Peterson",
+        "Shai Gilgeous-Alexander",
+        "Jayson Tatum",
+        "Nikola Jokic",
+        "Giannis Antetokounmpo",
+        "Tyrese Maxey",
+        "Cade Cunningham",
+        "Stephen Curry",
+        "Jrue Holiday",
+        "CJ McCollum",
+        "Jared McCain",
+        "Aaron Wiggins",
+        "Anthony Black",
+        "Scottie Barnes",
+        "Ausar Thompson",
+        "Rudy Gobert",
+        "Ajay Mitchell",
+        "Dylan Harper",
+        "Brandon Miller",
+        "Jaden McDaniels",
+        "Davion Mitchell",
+        "Walker Kessler",
+        "Ayo Dosunmu",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "44679680",
+      "title": "Updated NBA championship, MVP odds: Celtics rise, Lakers surge, Doncic leads",
+      "summary": "The Spurs remain the favorite to win the NBA championship, but the Celtics and Lakers are both making a push.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+      "publishedAt": "2026-11-11T19:11:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1111/r1744474_1296x729_16-9.jpg",
+      "author": "Doug Greenberg",
+      "categories": [
+        "NBA",
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "Philadelphia 76ers",
+        "Luka Doncic",
+        "Boston Celtics",
+        "Los Angeles Lakers",
+        "Doug Greenberg"
+      ]
+    },
+    {
       "id": "50028196",
       "title": "NBA buzz: Latest on trades, news, roster moves and intel",
       "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
       "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-11T16:08:25+00:00",
+      "publishedAt": "2026-11-11T18:49:51+00:00",
       "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
       "author": "ESPN staff",
       "categories": [
@@ -59,6 +248,23 @@
         "nba free agency",
         "news - frontpage",
         "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50454130",
+      "title": "Sources: Jazz star Lauri Markkanen out at least 1 month with fractured hand",
+      "summary": "Jazz star Lauri Markkanen has a non-displaced fracture in his right hand and will be sidelined at least a month, sources told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50454130/sources-jazz-star-lauri-markkanen-least-1-month",
+      "publishedAt": "2026-11-11T18:40:13+00:00",
+      "image": "https://a.espncdn.com/photo/2025/1105/r1571351_1296x729_16-9.jpg",
+      "author": "Shams Charania and Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Utah Jazz",
+        "Lauri Markkanen",
+        "news",
+        "Shams Charania",
+        "Tim MacMahon"
       ]
     },
     {
@@ -411,22 +617,6 @@
       ]
     },
     {
-      "id": "50439821",
-      "title": "Warriors blow out Pelicans by 51 points for 8th straight win",
-      "summary": "Stephen Curry scored 25 points in 20-plus minutes, Yaxel Lendeborg added 23 points, and the Warriors won their eighth straight game by 51 points against the short-handed Pelicans on Monday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50439821/warriors-beat-pelicans-51-points-8th-straight-win",
-      "publishedAt": "2026-11-10T21:33:03+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1110/r1743878_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "New Orleans Pelicans",
-        "Stephen Curry",
-        "Yaxel Lendeborg"
-      ]
-    },
-    {
       "id": "50442265",
       "title": "Where to watch 'Portrait of an Artist: Stephen Curry' documentary",
       "summary": "Here's what to know about the new documentary.",
@@ -506,25 +696,6 @@
       ]
     },
     {
-      "id": "50443540",
-      "title": "Why Stephen A. 'can't wait' for the Tatum-Brown matchup",
-      "summary": "Why Stephen A. 'can't wait' for the Tatum-Brown matchup",
-      "url": "https://www.espn.com/video/clip/_/id/50443540/why-stephen-wait-tatum-brown-matchup",
-      "publishedAt": "2026-11-10T17:12:02+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/ss_20261110_120616110_3735348/ss_20261110_120616110_3735348.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Stephen A. Smith",
-        "First Take",
-        "Jaylen Brown",
-        "Philadelphia 76ers",
-        "Boston Celtics",
-        "Jayson Tatum",
-        "Verts - Exclude Content"
-      ]
-    },
-    {
       "id": "50401325",
       "title": "As Jaylen Brown faces the Celtics for the first time, familiar questions linger",
       "summary": "Jaylen Brown and the Philadelphia 76ers host Jayson Tatum and the Boston Celtics on Tuesday night.",
@@ -570,47 +741,6 @@
         "NBA",
         "Victor Wembanyama",
         "San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50440099",
-      "title": "'Unbelievable' Flagg finishes with 43 points as Mavericks outlast Pacers",
-      "summary": "Dallas star Cooper Flagg, 19, authored one of the finest efforts of his young career on Monday night, stuffing the box score with 43 points, 10 rebounds, six assists, three steals and a block in the Dallas Mavericks' 125-122 win over the Indiana Pacers.",
-      "url": "https://www.espn.com/nba/story/_/id/50440099/flagg-finishes-43-points-mavericks-outlast-pacers",
-      "publishedAt": "2026-11-10T08:00:04+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1110/r1743881_600x600_1-1.jpg",
-      "author": "Tim MacMahon",
-      "categories": [
-        "NBA",
-        "Dallas Mavericks",
-        "Cooper Flagg",
-        "Kyrie Irving",
-        "Tim MacMahon"
-      ]
-    },
-    {
-      "id": "50439744",
-      "title": "New Orleans Pelicans vs. Golden State Warriors: Game Highlights",
-      "summary": "New Orleans Pelicans vs. Golden State Warriors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50439744/game-highlights",
-      "publishedAt": "2026-11-10T06:26:39+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/d54cbdd555714824a9ae044cc4513f3c86/d54cbdd555714824a9ae044cc4513f3c86.jpg",
-      "author": "",
-      "categories": [
-        "Charles Bassey",
-        "De'Anthony Melton",
-        "Bryce McGowens",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Derik Queen",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New Orleans Pelicans @ Golden State Warriors"
       ]
     }
   ]
