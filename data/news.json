@@ -1,8 +1,93 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-12T19:53:38.087528+00:00",
+  "updatedAt": "2026-11-13T01:49:27.872738+00:00",
   "articles": [
+    {
+      "id": "50465316",
+      "title": "Rockets' Marcus Smart suspended three games for punch",
+      "summary": "The NBA on Thursday suspended Rockets guard Marcus Smart three games without pay for throwing a punch at Warriors center Charles Bassey.",
+      "url": "https://www.espn.com/nba/story/_/id/50465316/rockets-marcus-smart-suspended-three-games-punch",
+      "publishedAt": "2026-11-13T00:10:45+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1112/r1744704_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Marcus Smart",
+        "Charles Bassey"
+      ]
+    },
+    {
+      "id": "50464091",
+      "title": "Sources: Bulls' Caleb Wilson to have surgery on fractured hand, miss 4-6 weeks",
+      "summary": "Bulls rookie Caleb Wilson will undergo surgery for a fractured right hand and miss four to six weeks, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50464091/sources-bulls-wilson-surgery-hand-4-6-weeks",
+      "publishedAt": "2026-11-12T22:21:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741331_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "Caleb Wilson",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50464264",
+      "title": "Tim MacMahon: Yaxel Lendeborg needs to be 'go-to guy' with Steph out",
+      "summary": "Tim MacMahon: Yaxel Lendeborg needs to be 'go-to guy' with Steph out",
+      "url": "https://www.espn.com/video/clip/_/id/50464264/yaxel-lendeborg-needs-go-guy-steph-out",
+      "publishedAt": "2026-11-12T21:05:22+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/ss_20261112_155457408_3738341960/ss_20261112_155457408_3738341960.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Yaxel Lendeborg",
+        "Tim MacMahon",
+        "NBA Today",
+        "Verts - Exclude Content",
+        "Golden State Warriors @ San Antonio Spurs"
+      ]
+    },
+    {
+      "id": "50463994",
+      "title": "Shams: Steph Curry to be sidelined for 2-4 weeks",
+      "summary": "Shams: Steph Curry to be sidelined for 2-4 weeks",
+      "url": "https://www.espn.com/video/clip/_/id/50463994/steph-curry-sidelined-2-4-weeks",
+      "publishedAt": "2026-11-12T20:42:53+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/ss_20261112_151539223_3738294/ss_20261112_151539223_3738294.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Verts - Exclude Content",
+        "Stephen Curry",
+        "Golden State Warriors",
+        "NBA Today",
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50462899",
+      "title": "Warriors' Stephen Curry out at least 2 weeks with oblique tear",
+      "summary": "Stephen Curry will miss at least two weeks with an oblique abdominal tear, but sources told ESPN that the Warriors are bracing for him to be out closer to a month.",
+      "url": "https://www.espn.com/nba/story/_/id/50462899/warriors-stephen-curry-least-2-weeks-oblique-tear",
+      "publishedAt": "2026-11-12T20:24:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1112/r1744663_1296x729_16-9.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "Stephen Curry",
+        "Golden State Warriors",
+        "NBA",
+        "Anthony Slater"
+      ]
+    },
     {
       "id": "50463008",
       "title": "76ers Joel Embiid (foot) questionable, LeBron James (back) out vs. Raptors",
@@ -30,21 +115,6 @@
         "NBA G League",
         "NBA",
         "seo h2w"
-      ]
-    },
-    {
-      "id": "50462899",
-      "title": "Warriors' Stephen Curry out at least 2 weeks with oblique tear",
-      "summary": "Warriors star Stephen Curry has an oblique abdominal tear and will be reevaluated in two weeks.",
-      "url": "https://www.espn.com/nba/story/_/id/50462899/warriors-stephen-curry-least-2-weeks-oblique-tear",
-      "publishedAt": "2026-11-12T17:36:47+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744663_1296x729_16-9.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "Stephen Curry",
-        "Golden State Warriors",
-        "NBA",
-        "Anthony Slater"
       ]
     },
     {
@@ -522,70 +592,6 @@
         "NBA",
         "Sacramento Kings",
         "Mason Plumlee"
-      ]
-    },
-    {
-      "id": "50456501",
-      "title": "Chuck fumes over Austin Reaves-Larry Bird comparison",
-      "summary": "Chuck fumes over Austin Reaves-Larry Bird comparison",
-      "url": "https://www.espn.com/video/clip/_/id/50456501/chuck-fumes-austin-reaves-larry-bird-comparison",
-      "publishedAt": "2026-11-12T00:20:54+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/ss_20261111_191539829_3737053/ss_20261111_191539829_3737053.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "Austin Reaves",
-        "Los Angeles Lakers",
-        "Inside the NBA",
-        "League Boost"
-      ]
-    },
-    {
-      "id": "50456230",
-      "title": "Chuck: 'The Cavs suck'",
-      "summary": "Chuck: 'The Cavs suck'",
-      "url": "https://www.espn.com/video/clip/_/id/50456230/cavs-suck",
-      "publishedAt": "2026-11-11T23:54:01+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/ss_20261111_184702445_3737027/ss_20261111_184702445_3737027.jpg",
-      "author": "",
-      "categories": [
-        "2 Star Rating",
-        "NBA",
-        "nba highlight",
-        "Cleveland Cavaliers",
-        "Inside the NBA",
-        "League Boost"
-      ]
-    },
-    {
-      "id": "50455735",
-      "title": "Curry confronts critics over comments about wife Ayesha",
-      "summary": "Warriors star Stephen Curry took to social media Wednesday to address criticisms of wife Ayesha's acting role in \"Second Chance Holiday.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50455735/curry-confronts-critics-comments-wife-ayesha",
-      "publishedAt": "2026-11-11T22:59:50+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0715/r1689812_600x400_3-2.jpg",
-      "author": "Kalan Hooks",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Stephen Curry",
-        "Kalan Hooks"
-      ]
-    },
-    {
-      "id": "50455132",
-      "title": "Donovan Mitchell details Coco Jones wedding, music passion on 'The Tonight Show'",
-      "summary": "The Cavs guard revealed wedding details and a new hobby in his appearance on \"The Tonight Show.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50455132/donovan-mitchell-tonight-show",
-      "publishedAt": "2026-11-11T22:45:04+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1111/r1744550_608x342_16-9.jpg",
-      "author": "Kalan Hooks",
-      "categories": [
-        "NBA",
-        "Cleveland Cavaliers",
-        "Donovan Mitchell",
-        "Kalan Hooks"
       ]
     }
   ]
