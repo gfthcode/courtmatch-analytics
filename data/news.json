@@ -1,8 +1,137 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-13T10:57:57.536088+00:00",
+  "updatedAt": "2026-11-13T19:41:32.662342+00:00",
   "articles": [
+    {
+      "id": "50472807",
+      "title": "Prosecutors: Text shows Rozier, friend planned to bet unders on Hornets teammate",
+      "summary": "A co-defendant in an NBA betting case told a gambler that he and Terry Rozier were planning a wagering scheme centered on another Hornets player, federal prosecutors alleged in a court filing.",
+      "url": "https://www.espn.com/nba/story/_/id/50472807/terry-rozier-unders-bet-hornets-teammate",
+      "publishedAt": "2026-11-13T19:06:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745307_1296x729_16-9.jpg",
+      "author": "David Purdum",
+      "categories": [
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "Charlotte Hornets",
+        "Terry Rozier",
+        "David Purdum"
+      ]
+    },
+    {
+      "id": "50473335",
+      "title": "Ex-lottery pick Doug McDermott retires after 12 NBA seasons",
+      "summary": "Three-point specialist Doug McDermott has retired from the NBA after 12 seasons spent with seven teams.",
+      "url": "https://www.espn.com/nba/story/_/id/50473335/ex-lottery-pick-doug-mcdermott-retires-12-nba-seasons",
+      "publishedAt": "2026-11-13T18:56:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745362_1296x729_16-9.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "Oklahoma City Thunder",
+        "New York Knicks",
+        "Dallas Mavericks",
+        "Indiana Pacers",
+        "San Antonio Spurs",
+        "Sacramento Kings",
+        "Doug McDermott",
+        "Creighton Bluejays",
+        "Creighton University",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50472823",
+      "title": "Fantasy adds, NBA bets to make for Friday: Points aplenty in Grizzlies-Pelicans",
+      "summary": "Andre Snellings breaks down Friday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50472823/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-13T17:58:33+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745312_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Sports Betting",
+        "news – sports betting",
+        "Aaron Wiggins",
+        "De'Anthony Melton",
+        "Jared McCain",
+        "Jalen Smith",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50472453",
+      "title": "Stephen A., Perk debate what Draymond needs to do in Steph's absence",
+      "summary": "Stephen A., Perk debate what Draymond needs to do in Steph's absence",
+      "url": "https://www.espn.com/video/clip/_/id/50472453/stephen-perk-debate-draymond-needs-do-steph-absence",
+      "publishedAt": "2026-11-13T16:17:49+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/ss_20261113_111252745_3739361/ss_20261113_111252745_3739361.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Verts - Exclude Content",
+        "Golden State Warriors",
+        "Draymond Green"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-13T16:11:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50463020",
+      "title": "Donovan Mitchell's renewed faith in Cleveland fuels the Cavs' future",
+      "summary": "Mitchell made two commitments this summer: his marriage and his extension with the Cavs. Now it's up to him to keep pushing Cleveland forward.",
+      "url": "https://www.espn.com/nba/story/_/id/50463020/donovan-mitchell-cleveland-cavaliers-extension",
+      "publishedAt": "2026-11-13T14:39:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1112/r1744889_608x342_16-9.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Cleveland Cavaliers",
+        "Donovan Mitchell",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50463999",
+      "title": "Michael Jordan, Bugs Bunny and the lasting legacy of 'Space Jam' at 30",
+      "summary": "Three decades after its release, the basketball-meets-Looney Tunes adventure remains a pop culture staple.",
+      "url": "https://www.espn.com/nba/story/_/id/50463999/space-jam-30-year-anniversary-influence",
+      "publishedAt": "2026-11-13T12:37:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1112/r1745021_1296x729_16-9.jpg",
+      "author": "David Dennis Jr.",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "New York Knicks",
+        "Phoenix Suns",
+        "Charlotte Hornets",
+        "Brooklyn Nets"
+      ]
+    },
     {
       "id": "50469006",
       "title": "Cade drops 52 in Thursday's NBA Recap",
@@ -502,82 +631,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Orlando Magic @ Utah Jazz"
-      ]
-    },
-    {
-      "id": "50458494",
-      "title": "Brooklyn Nets vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Brooklyn Nets vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50458494/game-highlights",
-      "publishedAt": "2026-11-12T03:52:09+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/1b2e4b9f-3317-4815-9269-2baf1f2c9233/1b2e4b9f-3317-4815-9269-2baf1f2c9233.jpg",
-      "author": "",
-      "categories": [
-        "Saddiq Bey",
-        "Michael Porter Jr",
-        "Egor Demin",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Herbert Jones",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Brooklyn Nets @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50458449",
-      "title": "Los Angeles Lakers vs. Milwaukee Bucks: Game Highlights",
-      "summary": "Los Angeles Lakers vs. Milwaukee Bucks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50458449/game-highlights",
-      "publishedAt": "2026-11-12T03:51:31+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/573781f8-b1b2-4bab-b85d-2da207d1f516/573781f8-b1b2-4bab-b85d-2da207d1f516.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Luka Doncic",
-        "Walker Kessler",
-        "Los Angeles Lakers",
-        "SC4U - Full Highlight",
-        "Austin Reaves",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Los Angeles Lakers @ Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50458346",
-      "title": "Denver Nuggets vs. Memphis Grizzlies: Game Highlights",
-      "summary": "Denver Nuggets vs. Memphis Grizzlies: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50458346/game-highlights",
-      "publishedAt": "2026-11-12T03:40:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/56ae5367-9e38-4db5-87a1-46bee7a4d53b/56ae5367-9e38-4db5-87a1-46bee7a4d53b.jpg",
-      "author": "",
-      "categories": [
-        "Jaylen Wells",
-        "Jamal Murray",
-        "GG Jackson",
-        "Denver Nuggets",
-        "Christian Braun",
-        "Ty Jerome",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "Cameron Boozer",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Denver Nuggets @ Memphis Grizzlies"
       ]
     }
   ]
