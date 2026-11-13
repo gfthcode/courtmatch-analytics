@@ -1,8 +1,152 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-13T01:49:27.872738+00:00",
+  "updatedAt": "2026-11-13T10:57:57.536088+00:00",
   "articles": [
+    {
+      "id": "50469006",
+      "title": "Cade drops 52 in Thursday's NBA Recap",
+      "summary": "Cade Cunningham scores a career-high 52 points, the Sixers rally past the Raptors and the Timberwolves cruise past the Mavericks.",
+      "url": "https://www.espn.com/video/clip/_/id/50469006/cade-drops-52-thursday-nba-recap",
+      "publishedAt": "2026-11-13T05:48:22+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/dm_261113_Watchfolder_NBA_Recap_123/dm_261113_Watchfolder_NBA_Recap_123.jpg",
+      "author": "",
+      "categories": [
+        "Detroit Pistons",
+        "Minnesota Timberwolves",
+        "NBA",
+        "Philadelphia 76ers",
+        "SC4U  - Eligible",
+        "SC4U - League Recap - Highlights"
+      ]
+    },
+    {
+      "id": "50468039",
+      "title": "Cade Cunningham's historic night puts Pistons past Wizards in 2OT thriller",
+      "summary": "Cade Cunningham had 52 points, 11 assists and no turnovers as the Pistons outlasted the Wizards in double overtime Thursday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50468039/cade-cunningham-ausar-thompson-power-pistons-wizards",
+      "publishedAt": "2026-11-13T05:37:50+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745154_600x600_1-1.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Cade Cunningham"
+      ]
+    },
+    {
+      "id": "50468852",
+      "title": "Charlotte Hornets vs. Phoenix Suns: Game Highlights",
+      "summary": "Charlotte Hornets vs. Phoenix Suns: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50468852/game-highlights",
+      "publishedAt": "2026-11-13T05:23:35+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/adf19ffb-73f8-4fa4-896f-47d191733181/adf19ffb-73f8-4fa4-896f-47d191733181.jpg",
+      "author": "",
+      "categories": [
+        "Collin Gillespie",
+        "Phoenix Suns",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Coby White",
+        "SC4U  - Eligible",
+        "Naz Reid",
+        "Charlotte Hornets",
+        "Devin Booker",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Charlotte Hornets @ Phoenix Suns"
+      ]
+    },
+    {
+      "id": "50468770",
+      "title": "Cunningham goes for 52 as Pistons down Wizards in double OT",
+      "summary": "Cunningham goes for 52 as Pistons down Wizards in double OT",
+      "url": "https://www.espn.com/video/clip/_/id/50468770/cunningham-goes-52-pistons-wizards-double-ot",
+      "publishedAt": "2026-11-13T05:06:23+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/413f8562-ebcd-4948-b591-3565712da6e0/413f8562-ebcd-4948-b591-3565712da6e0.jpg",
+      "author": "",
+      "categories": [
+        "Washington Wizards",
+        "Trae Young",
+        "Detroit Pistons",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Cade Cunningham",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Detroit Pistons @ Washington Wizards"
+      ]
+    },
+    {
+      "id": "50467884",
+      "title": "Dallas Mavericks vs. Minnesota Timberwolves: Game Highlights",
+      "summary": "Dallas Mavericks vs. Minnesota Timberwolves: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50467884/game-highlights",
+      "publishedAt": "2026-11-13T03:45:53+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/edf2f709-3f7c-4acc-b819-16cb1fbf4eeb/edf2f709-3f7c-4acc-b819-16cb1fbf4eeb.jpg",
+      "author": "",
+      "categories": [
+        "Zaccharie Risacher",
+        "Minnesota Timberwolves",
+        "Dallas Mavericks",
+        "LaMelo Ball",
+        "Jonathan Kuminga",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Bones Hyland",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Dallas Mavericks @ Minnesota Timberwolves"
+      ]
+    },
+    {
+      "id": "50464091",
+      "title": "Bulls' Caleb Wilson has successful surgery on fractured right hand",
+      "summary": "Bulls rookie Caleb Wilson had successful surgery on his fractured right hand and will be reevaluated in three weeks, the team announced on Thursday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50464091/sources-bulls-wilson-surgery-hand-4-6-weeks",
+      "publishedAt": "2026-11-13T03:07:38+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/r1741331_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "Caleb Wilson",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50467208",
+      "title": "Toronto Raptors vs. Philadelphia 76ers: Game Highlights",
+      "summary": "Toronto Raptors vs. Philadelphia 76ers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50467208/game-highlights",
+      "publishedAt": "2026-11-13T02:38:36+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/19a83711-ee4e-4d76-8d5a-bd34c0be5a22/19a83711-ee4e-4d76-8d5a-bd34c0be5a22.jpg",
+      "author": "",
+      "categories": [
+        "Philadelphia 76ers",
+        "Toronto Raptors",
+        "RJ Barrett",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Collin Murray-Boyles",
+        "SC4U  - Eligible",
+        "Tyrese Maxey",
+        "Joel Embiid",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Toronto Raptors @ Philadelphia 76ers"
+      ]
+    },
     {
       "id": "50465316",
       "title": "Rockets' Marcus Smart suspended three games for punch",
@@ -18,21 +162,6 @@
         "Houston Rockets",
         "Marcus Smart",
         "Charles Bassey"
-      ]
-    },
-    {
-      "id": "50464091",
-      "title": "Sources: Bulls' Caleb Wilson to have surgery on fractured hand, miss 4-6 weeks",
-      "summary": "Bulls rookie Caleb Wilson will undergo surgery for a fractured right hand and miss four to six weeks, sources told ESPN's Shams Charania.",
-      "url": "https://www.espn.com/nba/story/_/id/50464091/sources-bulls-wilson-surgery-hand-4-6-weeks",
-      "publishedAt": "2026-11-12T22:21:16+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741331_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "NBA",
-        "Chicago Bulls",
-        "Caleb Wilson",
-        "Jamal Collier"
       ]
     },
     {
@@ -216,22 +345,6 @@
         "Jalen Brunson",
         "news",
         "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50458218",
-      "title": "Stephen Curry hurts abdomen, heads for MRI with Warriors' concern level 'high'",
-      "summary": "Stephen Curry injured his right abdomen in the first quarter, with Steve Kerr saying after the game that the \"concern is high\" as they await test results.",
-      "url": "https://www.espn.com/nba/story/_/id/50458218/curry-exits-vs-rockets-ruled-abdominal-soreness",
-      "publishedAt": "2026-11-12T11:25:52+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744674_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Golden State Warriors",
-        "Stephen Curry",
-        "Anthony Slater"
       ]
     },
     {
@@ -465,133 +578,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Denver Nuggets @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50458238",
-      "title": "San Antonio Spurs vs. Chicago Bulls: Game Highlights",
-      "summary": "San Antonio Spurs vs. Chicago Bulls: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50458238/game-highlights",
-      "publishedAt": "2026-11-12T03:30:19+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/8fb5b6dc-cbeb-402f-b29f-df54f6094060/8fb5b6dc-cbeb-402f-b29f-df54f6094060.jpg",
-      "author": "",
-      "categories": [
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "Jalen Smith",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "San Antonio Spurs @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50458163",
-      "title": "Tyrese Proctor lights up the Garden in huge Cavs win",
-      "summary": "Aussie Tyrese Proctor's 15 points helps the Cleveland Cavaliers to a 115-107 win over the New York Knicks at Madison Square Garden.",
-      "url": "https://www.espn.com/video/clip/_/id/50458163/tyrese-proctor-lights-garden-huge-cavs-win",
-      "publishedAt": "2026-11-12T03:22:59+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1111/dm_261111_NBA_Highlight_Tyrese_Proctor_lights_up_the_Garden_in_huge_Cavs_win_20261112_PACRIM/dm_261111_NBA_Highlight_Tyrese_Proctor_lights_up_the_Garden_in_huge_Cavs_win_20261112_PACRIM.jpg",
-      "author": "",
-      "categories": [
-        "NBA"
-      ]
-    },
-    {
-      "id": "50457926",
-      "title": "Cleveland Cavaliers vs. New York Knicks: Game Highlights",
-      "summary": "Cleveland Cavaliers vs. New York Knicks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50457926/game-highlights",
-      "publishedAt": "2026-11-12T03:04:58+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/e529b57f-cf5a-461c-93c3-9783026bc6c2/e529b57f-cf5a-461c-93c3-9783026bc6c2.jpg",
-      "author": "",
-      "categories": [
-        "OG Anunoby",
-        "Jarrett Allen",
-        "Donovan Mitchell",
-        "Peyton Watson",
-        "Karl-Anthony Towns",
-        "New York Knicks",
-        "Evan Mobley",
-        "Cleveland Cavaliers",
-        "NBA",
-        "James Harden",
-        "nba highlight",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50457859",
-      "title": "Boston Celtics vs. Toronto Raptors: Game Highlights",
-      "summary": "Boston Celtics vs. Toronto Raptors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50457859/game-highlights",
-      "publishedAt": "2026-11-12T02:51:58+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/42ed8a75-4af1-49cb-b239-c674fab683b3/42ed8a75-4af1-49cb-b239-c674fab683b3.jpg",
-      "author": "",
-      "categories": [
-        "Jayson Tatum",
-        "Baylor Scheierman",
-        "Toronto Raptors",
-        "Boston Celtics",
-        "SC4U - Full Highlight",
-        "Ja'Kobe Walter",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Derrick White",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Boston Celtics @ Toronto Raptors"
-      ]
-    },
-    {
-      "id": "50457748",
-      "title": "Washington Wizards vs. Indiana Pacers: Game Highlights",
-      "summary": "Washington Wizards vs. Indiana Pacers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50457748/game-highlights",
-      "publishedAt": "2026-11-12T02:37:08+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/217f423a-2f7c-4f66-ac28-1bc45e7f72c5/217f423a-2f7c-4f66-ac28-1bc45e7f72c5.jpg",
-      "author": "",
-      "categories": [
-        "Pascal Siakam",
-        "Washington Wizards",
-        "Kyshawn George",
-        "Indiana Pacers",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "Kelly Oubre Jr",
-        "TJ McConnell",
-        "SC4U  - Eligible",
-        "Andrew Nembhard",
-        "Anthony Davis",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Washington Wizards @ Indiana Pacers"
-      ]
-    },
-    {
-      "id": "50457114",
-      "title": "Veteran center Mason Plumlee signing with Kings",
-      "summary": "Mason Plumlee, who is entering his 14th NBA season, is signing a deal with Sacramento, his representatives told ESPN's Shams Charania.",
-      "url": "https://www.espn.com/nba/story/_/id/50457114/veteran-center-mason-plumlee-signing-sacramento-kings",
-      "publishedAt": "2026-11-12T01:46:40+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0614/r1506639_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Sacramento Kings",
-        "Mason Plumlee"
       ]
     }
   ]
