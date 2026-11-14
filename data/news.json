@@ -1,14 +1,182 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-13T19:41:32.662342+00:00",
+  "updatedAt": "2026-11-14T01:26:37.459024+00:00",
   "articles": [
+    {
+      "id": "49577473",
+      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament.",
+      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+      "publishedAt": "2026-11-14T00:54:09+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742315_608x342_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "event",
+        "daily",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
+      ]
+    },
+    {
+      "id": "50475090",
+      "title": "Lakers' Austin Reaves day-to-day with left heel bruise",
+      "summary": "Lakers guard Austin Reaves is considered day-to-day as he deals with a left heel bruise, coach JJ Redick said Friday.",
+      "url": "https://www.espn.com/nba/story/_/id/50475090/lakers-austin-reaves-day-day-left-heel-bruise",
+      "publishedAt": "2026-11-13T23:14:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745465_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "Austin Reaves",
+        "NBA",
+        "Los Angeles Lakers",
+        "Quentin Grimes",
+        "Collin Sexton",
+        "Luka Doncic",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50473732",
+      "title": "Dejounte Murray wants trade from Pelicans; both sides working on resolution",
+      "summary": "Pelicans guard Dejounte Murray wants a trade from the franchise, and his agent, Klutch Sports CEO Rich Paul, and team officials have started working on a resolution.",
+      "url": "https://www.espn.com/nba/story/_/id/50473732/sources-dejounte-murray-wants-trade-pelicans",
+      "publishedAt": "2026-11-13T22:49:00+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0302/r1622171_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New Orleans Pelicans",
+        "Dejounte Murray"
+      ]
+    },
+    {
+      "id": "50456190",
+      "title": "Expert fantasy hoops roundtable: Is Wemby No. 1? Plus early surprises and more",
+      "summary": "The fantasy basketball crew gets together to answer the biggest questions from the early part of the season.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50456190/fantasy-basketball-early-season-takeaways-nba",
+      "publishedAt": "2026-11-13T21:20:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1112/r1744617_1296x729_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Victor Wembanyama",
+        "Anthony Black",
+        "Andrew Nembhard",
+        "Ayo Dosunmu",
+        "Precious Achiuwa",
+        "Franz Wagner",
+        "Jalen Green",
+        "Rudy Gobert",
+        "Evan Mobley",
+        "Norman Powell",
+        "Amen Thompson",
+        "Matas Buzelis",
+        "Kel'el Ware",
+        "Yaxel Lendeborg",
+        "Paul George",
+        "Darius Acuff Jr",
+        "Kyshawn George",
+        "Ty Jerome",
+        "Davion Mitchell"
+      ]
+    },
+    {
+      "id": "50472823",
+      "title": "Fantasy adds, NBA bets to make for Friday: Points aplenty in Grizzlies-Pelicans",
+      "summary": "Andre Snellings breaks down Friday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50472823/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-13T21:19:35+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745312_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Sports Betting",
+        "news – sports betting",
+        "Aaron Wiggins",
+        "De'Anthony Melton",
+        "Jared McCain",
+        "Jalen Smith",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50473956",
+      "title": "Shams: Dejounte Murray has requested a trade from the Pelicans",
+      "summary": "Shams: Dejounte Murray has requested a trade from the Pelicans",
+      "url": "https://www.espn.com/video/clip/_/id/50473956/dejounte-murray-requested-trade-pelicans",
+      "publishedAt": "2026-11-13T21:01:26+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/ss_20261113_152101365_3739563/ss_20261113_152101365_3739563.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "nba highlight",
+        "NBA Today",
+        "Verts - Exclude Content",
+        "Shams Charania",
+        "Dejounte Murray",
+        "New Orleans Pelicans"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-13T20:06:17+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
     {
       "id": "50472807",
       "title": "Prosecutors: Text shows Rozier, friend planned to bet unders on Hornets teammate",
       "summary": "A co-defendant in an NBA betting case told a gambler that he and Terry Rozier were planning a wagering scheme centered on another Hornets player, federal prosecutors alleged in a court filing.",
       "url": "https://www.espn.com/nba/story/_/id/50472807/terry-rozier-unders-bet-hornets-teammate",
-      "publishedAt": "2026-11-13T19:06:52+00:00",
+      "publishedAt": "2026-11-13T20:01:58+00:00",
       "image": "https://a.espncdn.com/photo/2026/1113/r1745307_1296x729_16-9.jpg",
       "author": "David Purdum",
       "categories": [
@@ -18,6 +186,25 @@
         "Charlotte Hornets",
         "Terry Rozier",
         "David Purdum"
+      ]
+    },
+    {
+      "id": "50473517",
+      "title": "Fantasy hoops managers are giving up on Mikal Bridges, here's why you shouldn't",
+      "summary": "Andre explains why Mikal Bridges continues to hold fantasy value despite the poor start to his season.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50473517/fantasy-basketball-nba-analytics-consistency-bridges",
+      "publishedAt": "2026-11-13T19:56:25+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745374_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Mikal Bridges",
+        "New York Knicks",
+        "Andre Snellings"
       ]
     },
     {
@@ -44,29 +231,6 @@
       ]
     },
     {
-      "id": "50472823",
-      "title": "Fantasy adds, NBA bets to make for Friday: Points aplenty in Grizzlies-Pelicans",
-      "summary": "Andre Snellings breaks down Friday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50472823/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-13T17:58:33+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745312_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Sports Betting",
-        "news – sports betting",
-        "Aaron Wiggins",
-        "De'Anthony Melton",
-        "Jared McCain",
-        "Jalen Smith",
-        "Andre Snellings"
-      ]
-    },
-    {
       "id": "50472453",
       "title": "Stephen A., Perk debate what Draymond needs to do in Steph's absence",
       "summary": "Stephen A., Perk debate what Draymond needs to do in Steph's absence",
@@ -82,22 +246,6 @@
         "Verts - Exclude Content",
         "Golden State Warriors",
         "Draymond Green"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-13T16:11:44+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0301/r1621468_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -426,41 +574,6 @@
       ]
     },
     {
-      "id": "50456190",
-      "title": "Expert fantasy hoops roundtable: Is Wemby No. 1? Plus early surprises and more",
-      "summary": "The fantasy basketball crew gets together to answer the biggest questions from the early part of the season.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50456190/fantasy-basketball-early-season-takeaways-nba",
-      "publishedAt": "2026-11-12T13:38:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744617_1296x729_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Victor Wembanyama",
-        "Anthony Black",
-        "Andrew Nembhard",
-        "Ayo Dosunmu",
-        "Precious Achiuwa",
-        "Franz Wagner",
-        "Jalen Green",
-        "Rudy Gobert",
-        "Evan Mobley",
-        "Norman Powell",
-        "Amen Thompson",
-        "Matas Buzelis",
-        "Kel'el Ware",
-        "Yaxel Lendeborg",
-        "Paul George",
-        "Darius Acuff Jr",
-        "Kyshawn George",
-        "Ty Jerome",
-        "Davion Mitchell"
-      ]
-    },
-    {
       "id": "50459253",
       "title": "Knicks' Mike Brown questions FT disparity, Jalen Brunson's zero attempts in loss",
       "summary": "Mike Brown wasn't pleased with the free throw disparity in the Knicks' 115-107 loss to the Cavaliers, calling Jalen Brunson's lack of attempts \"alarming.\"",
@@ -507,24 +620,6 @@
         "NBA",
         "New Orleans Pelicans",
         "Zion Williamson"
-      ]
-    },
-    {
-      "id": "50459125",
-      "title": "Rockets' Marcus Smart ejected for throwing punch at Warriors' Charles Bassey",
-      "summary": "Rockets guard Marcus Smart threw a right hook Wednesday night that grazed the nose of Warriors center Charles Bassey in the third quarter of Houston's win.",
-      "url": "https://www.espn.com/nba/story/_/id/50459125/rockets-marcus-smart-ejected-punch-warriors-bassey",
-      "publishedAt": "2026-11-12T06:25:22+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744704_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "news",
-        "NBA",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Marcus Smart",
-        "Charles Bassey",
-        "Michael C. Wright"
       ]
     },
     {
@@ -576,61 +671,6 @@
         "SC4U  - Eligible",
         "SC4U - Full Highlight",
         "Golden State Warriors @ Houston Rockets"
-      ]
-    },
-    {
-      "id": "50458667",
-      "title": "James Harden ends slow start with season-high 32 points to lead Cavs past Knicks",
-      "summary": "After coming into Wednesday night averaging just 15.3 points through 11 games, James Harden turned in a throwback performance with a season-high 32 points to lead the Cavaliers to a 115-107 victory over the Knicks.",
-      "url": "https://www.espn.com/nba/story/_/id/50458667/cavaliers-james-harden-ends-slow-start-season-high-32-points-beat-knicks",
-      "publishedAt": "2026-11-12T05:06:09+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744692_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Cleveland Cavaliers",
-        "James Harden"
-      ]
-    },
-    {
-      "id": "50458612",
-      "title": "Bulls rookie Caleb Wilson leaves loss to Spurs with right hand injury",
-      "summary": "Bulls first-round pick Caleb Wilson injured his right hand in the third quarter quarter of Wednesday's loss to the Spurs and did not finish the game.",
-      "url": "https://www.espn.com/nba/story/_/id/50458612/bulls-rookie-caleb-wilson-leaves-game-right-hand-injury",
-      "publishedAt": "2026-11-12T05:04:26+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744681_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Chicago Bulls",
-        "Caleb Wilson"
-      ]
-    },
-    {
-      "id": "50458698",
-      "title": "Orlando Magic vs. Utah Jazz: Game Highlights",
-      "summary": "Orlando Magic vs. Utah Jazz: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50458698/game-highlights",
-      "publishedAt": "2026-11-12T04:44:43+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/5acdb119-01b0-4f26-8886-f87a602afbd7/5acdb119-01b0-4f26-8886-f87a602afbd7.jpg",
-      "author": "",
-      "categories": [
-        "Darryn Peterson",
-        "Utah Jazz",
-        "Orlando Magic",
-        "Desmond Bane",
-        "SC4U - Full Highlight",
-        "Franz Wagner",
-        "NBA",
-        "SC4U  - Eligible",
-        "Anthony Black",
-        "4 Star Rating",
-        "Wendell Carter Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Utah Jazz"
       ]
     }
   ]
