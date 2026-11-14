@@ -1,8 +1,39 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-14T18:00:09.349849+00:00",
+  "updatedAt": "2026-11-14T22:23:44.996535+00:00",
   "articles": [
+    {
+      "id": "50477867",
+      "title": "Giannis Antetokounmpo, Bam Adebayo showcase Heat's potential in win vs. Cavs",
+      "summary": "Giannis Antetokounmpo and Bam Adebayo each scored 37 points to help the Heat top the Cavaliers for their sixth win in eight games.",
+      "url": "https://www.espn.com/nba/story/_/id/50477867/giannis-antetokounmpo-bam-adebayo-shine-heat-take-cavs",
+      "publishedAt": "2026-11-14T20:04:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1114/r1745581_600x400_3-2.jpg",
+      "author": "Cameron Wolfe",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Bam Adebayo"
+      ]
+    },
+    {
+      "id": "50478016",
+      "title": "Warriors' Yaxel Lendeborg (1-for-13) 'flustered' in blowout loss to Spurs",
+      "summary": "In his first game as the primary offensive engine in place of the injured Stephen Curry, Warriors rookie Yaxel Lendeborg went 1-of-13 shooting in a 123-85 blowout loss to the Spurs. \"I was flustered the entire game,\" he said. \"Couldn't make a damn layup.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50478016/warriors-yaxel-lendeborg-struggles-blowout-loss-spurs-says-was-flustered-entire-game",
+      "publishedAt": "2026-11-14T19:23:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1114/r1745582_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "Yaxel Lendeborg",
+        "NBA",
+        "Golden State Warriors",
+        "San Antonio Spurs",
+        "Anthony Slater"
+      ]
+    },
     {
       "id": "50478136",
       "title": "Victor Wembanyama, Spurs open on 18-0 run, rout Warriors for 11th straight win",
@@ -148,37 +179,6 @@
         "news - nba g league",
         "Philadelphia 76ers",
         "Kalan Hooks"
-      ]
-    },
-    {
-      "id": "50478016",
-      "title": "Warriors' Yaxel Lendeborg (1-for-13) 'flustered' in blowout loss to Spurs",
-      "summary": "In his first game as the primary offensive engine in place of the injured Stephen Curry, Warriors rookie Yaxel Lendeborg went 1-of-13 shooting in a 123-85 blowout loss to the Spurs. \"I was flustered the entire game,\" he said. \"Couldn't make a damn layup.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50478016/warriors-yaxel-lendeborg-struggles-blowout-loss-spurs-says-was-flustered-entire-game",
-      "publishedAt": "2026-11-14T07:17:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1114/r1745582_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "Yaxel Lendeborg",
-        "NBA",
-        "Golden State Warriors",
-        "San Antonio Spurs",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50477867",
-      "title": "Giannis Antetokounmpo, Bam Adebayo help showcase Heat's potential in win vs. Cavs",
-      "summary": "Giannis Antetokounmpo and Bam Adebayo each scored 37 points to help the Heat top the Cavs for their sixth win in eight games.",
-      "url": "https://www.espn.com/nba/story/_/id/50477867/giannis-antetokounmpo-bam-adebayo-shine-heat-take-cavs",
-      "publishedAt": "2026-11-14T06:38:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1114/r1745581_600x400_3-2.jpg",
-      "author": "Cameron Wolfe",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "Bam Adebayo"
       ]
     },
     {
