@@ -1,15 +1,61 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-14T01:26:37.459024+00:00",
+  "updatedAt": "2026-11-14T10:25:17.046309+00:00",
   "articles": [
+    {
+      "id": "50478016",
+      "title": "Warriors' Yaxel Lendeborg (1-for-13) 'flustered' in blowout loss to Spurs",
+      "summary": "In his first game as the primary offensive engine in place of the injured Stephen Curry, Warriors rookie Yaxel Lendeborg went 1-of-13 shooting in a 123-85 blowout loss to the Spurs. \"I was flustered the entire game,\" he said. \"Couldn't make a damn layup.\"",
+      "url": "https://www.espn.com/nba/story/_/id/50478016/warriors-yaxel-lendeborg-struggles-blowout-loss-spurs-says-was-flustered-entire-game",
+      "publishedAt": "2026-11-14T07:17:59+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1114/r1745582_600x400_3-2.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "Yaxel Lendeborg",
+        "NBA",
+        "Golden State Warriors",
+        "San Antonio Spurs",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50478136",
+      "title": "Victor Wembanyama, Spurs open on 18-0 run, rout Warriors for 11th straight win",
+      "summary": "Victor Wembanyama and the Spurs pounced on the Warriors with an 18-0 opening run and went on to win 123-85.",
+      "url": "https://www.espn.com/nba/story/_/id/50478136/victor-wembanyama-spurs-rout-warriors-11th-straight-win",
+      "publishedAt": "2026-11-14T07:15:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1114/r1745584_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50477867",
+      "title": "Giannis Antetokounmpo, Bam Adebayo help showcase Heat's potential in win vs. Cavs",
+      "summary": "Giannis Antetokounmpo and Bam Adebayo each scored 37 points to help the Heat top the Cavs for their sixth win in eight games.",
+      "url": "https://www.espn.com/nba/story/_/id/50477867/giannis-antetokounmpo-bam-adebayo-shine-heat-take-cavs",
+      "publishedAt": "2026-11-14T06:38:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1114/r1745581_600x400_3-2.jpg",
+      "author": "Cameron Wolfe",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Bam Adebayo"
+      ]
+    },
     {
       "id": "49577473",
       "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
-      "summary": "Here's everything you need to know about the fourth annual in-season tournament.",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent wins from the Pacers and the Spurs.",
       "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
-      "publishedAt": "2026-11-14T00:54:09+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1107/r1742315_608x342_16-9.jpg",
+      "publishedAt": "2026-11-14T06:29:36+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1114/r1745554_608x342_16-9.jpg",
       "author": "ESPN",
       "categories": [
         "NBA",
@@ -48,6 +94,373 @@
       ]
     },
     {
+      "id": "50475169",
+      "title": "FAA ground stop throws sports world into travel chaos ahead of weekend games",
+      "summary": "Travel plans for multiple sports have been disrupted by the FAA's nationwide ground stop of all flights because of communications problems.",
+      "url": "https://www.espn.com/college-football/story/_/id/50475169/faa-ground-stop-disrupting-travel-college-football-teams",
+      "publishedAt": "2026-11-14T06:24:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745477_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "Baylor Bears",
+        "Baylor University",
+        "Kansas State Wildcats",
+        "Kansas State University",
+        "Utah Utes",
+        "University of Utah",
+        "Arizona State Sun Devils",
+        "Arizona State University",
+        "Minnesota Golden Gophers",
+        "University of Minnesota",
+        "Purdue Boilermakers",
+        "Purdue University",
+        "Washington Huskies",
+        "University of Washington",
+        "Ole Miss Rebels",
+        "University of Mississippi",
+        "Texas Longhorns",
+        "University of Texas",
+        "Tennessee Volunteers",
+        "University of Tennessee",
+        "NCAA Football",
+        "Oregon State Beavers",
+        "Oregon State University",
+        "Boise State Broncos",
+        "Boise State University",
+        "Texas A&M Aggies",
+        "Texas A&M University",
+        "LSU Tigers",
+        "Louisiana State University",
+        "Arizona Wildcats",
+        "University of Arizona",
+        "Iowa Hawkeyes",
+        "University of Iowa",
+        "North Texas Mean Green",
+        "University of North Texas",
+        "UTSA Roadrunners",
+        "UTSA",
+        "Wyoming Cowboys",
+        "University of Wyoming",
+        "Auburn Tigers",
+        "Auburn",
+        "Mississippi State Bulldogs",
+        "Mississippi State University",
+        "Georgia Bulldogs",
+        "University of Georgia",
+        "Colorado State Rams",
+        "Colorado State University",
+        "Washington State Cougars",
+        "Washington State University",
+        "UTEP Miners",
+        "University of Texas-El Paso",
+        "UCF Knights",
+        "University of Central Florida",
+        "NBA",
+        "NHL",
+        "NCAA Women's Basketball"
+      ]
+    },
+    {
+      "id": "50477831",
+      "title": "Oklahoma City Thunder vs. LA Clippers: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. LA Clippers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50477831/game-highlights",
+      "publishedAt": "2026-11-14T06:14:31+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/cea3cb10-f73a-400e-9411-f342a2ff6597/cea3cb10-f73a-400e-9411-f342a2ff6597.jpg",
+      "author": "",
+      "categories": [
+        "Keaton Wagler",
+        "Oklahoma City Thunder",
+        "Isaiah Hartenstein",
+        "SC4U - Full Highlight",
+        "Darius Garland",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "LA Clippers",
+        "Shai Gilgeous-Alexander",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Oklahoma City Thunder @ LA Clippers"
+      ]
+    },
+    {
+      "id": "50477761",
+      "title": "G League's Keyshawn Bryant leapfrogs opponent for dunk-of-the-year contender",
+      "summary": "G League's Keyshawn Bryant leapfrogs opponent for dunk-of-the-year contender",
+      "url": "https://www.espn.com/video/clip/_/id/50477761/g-league-keyshawn-bryant-leapfrogs-opponent-dunk-year-contender",
+      "publishedAt": "2026-11-14T05:54:15+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1114/dm_261114_Watchfolder_Aqua_for_Copp_dunk_16x9/dm_261114_Watchfolder_Aqua_for_Copp_dunk_16x9.jpg",
+      "author": "",
+      "categories": [
+        "College Park Skyhawks",
+        "Keyshawn Bryant",
+        "League Boost",
+        "NBA",
+        "NBA G League"
+      ]
+    },
+    {
+      "id": "50477713",
+      "title": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
+      "summary": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50477713/game-highlights",
+      "publishedAt": "2026-11-14T05:51:30+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/b686094b-5c53-4035-b4c4-7ebcb440b43e/b686094b-5c53-4035-b4c4-7ebcb440b43e.jpg",
+      "author": "",
+      "categories": [
+        "Deni Avdija",
+        "Portland Trail Blazers",
+        "Donovan Clingan",
+        "Domantas Sabonis",
+        "Damian Lillard",
+        "SC4U - Full Highlight",
+        "Sidy Cissoko",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Portland Trail Blazers @ Sacramento Kings"
+      ]
+    },
+    {
+      "id": "50477468",
+      "title": "Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
+      "summary": "Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
+      "url": "https://www.espn.com/video/clip/_/id/50477468/alperen-sengun-43-point-double-double-lifts-rockets-jazz",
+      "publishedAt": "2026-11-14T05:16:29+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/f1ed5e02-24f4-42d4-8fc4-6672c85917f0/f1ed5e02-24f4-42d4-8fc4-6672c85917f0.jpg",
+      "author": "",
+      "categories": [
+        "Utah Jazz",
+        "Houston Rockets",
+        "NBA",
+        "Alperen Sengun",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Team Boost",
+        "Utah Jazz @ Houston Rockets"
+      ]
+    },
+    {
+      "id": "50477438",
+      "title": "Spurs blowout Curry-less Warriors 123-85",
+      "summary": "Spurs blowout Curry-less Warriors 123-85",
+      "url": "https://www.espn.com/video/clip/_/id/50477438/spurs-blowout-curry-less-warriors-123-85",
+      "publishedAt": "2026-11-14T05:07:47+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/627f1100-1434-414a-9623-7c73d28f2155/627f1100-1434-414a-9623-7c73d28f2155.jpg",
+      "author": "",
+      "categories": [
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "Golden State Warriors",
+        "NBA",
+        "Luke Kornet",
+        "Stephon Castle",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U - Full Highlight",
+        "SC4U  - Eligible",
+        "Golden State Warriors @ San Antonio Spurs"
+      ]
+    },
+    {
+      "id": "50477411",
+      "title": "Giddey's triple-double guides Bulls home",
+      "summary": "A breakthrough triple double for Josh Giddey snaps the Chicago Bulls' eight-game losing streak in an overtime win over Dyson Daniels' Atlanta Hawks.",
+      "url": "https://www.espn.com/video/clip/_/id/50477411/giddey-triple-double-guides-bulls-home",
+      "publishedAt": "2026-11-14T04:55:28+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/dm_261113_NBA_Highlight_Giddeys_triple_double_guides_Bulls_home_20261114_PACRIM/dm_261113_NBA_Highlight_Giddeys_triple_double_guides_Bulls_home_20261114_PACRIM.jpg",
+      "author": "",
+      "categories": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "50477275",
+      "title": "Utah Jazz vs. Houston Rockets: Game Highlights",
+      "summary": "Utah Jazz vs. Houston Rockets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50477275/game-highlights",
+      "publishedAt": "2026-11-14T04:39:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/f7cb3f80-5e7c-4458-8f5c-e3a419722358/f7cb3f80-5e7c-4458-8f5c-e3a419722358.jpg",
+      "author": "",
+      "categories": [
+        "Darryn Peterson",
+        "Tari Eason",
+        "Utah Jazz",
+        "Houston Rockets",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Alperen Sengun",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Utah Jazz @ Houston Rockets"
+      ]
+    },
+    {
+      "id": "50477145",
+      "title": "Atlanta Hawks vs. Chicago Bulls: Game Highlights",
+      "summary": "Atlanta Hawks vs. Chicago Bulls: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50477145/game-highlights",
+      "publishedAt": "2026-11-14T03:59:28+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/260c609c-47ab-4e76-9b4e-722f11cc0df7/260c609c-47ab-4e76-9b4e-722f11cc0df7.jpg",
+      "author": "",
+      "categories": [
+        "Jalen Johnson",
+        "Atlanta Hawks",
+        "SC4U - Full Highlight",
+        "Chicago Bulls",
+        "NBA",
+        "3 Star Rating",
+        "Matas Buzelis",
+        "SC4U  - Eligible",
+        "Norman Powell",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Atlanta Hawks @ Chicago Bulls"
+      ]
+    },
+    {
+      "id": "50477128",
+      "title": "Cleveland Cavaliers vs. Miami Heat: Game Highlights",
+      "summary": "Cleveland Cavaliers vs. Miami Heat: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50477128/game-highlights",
+      "publishedAt": "2026-11-14T03:59:20+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/7391825c-bea5-4b63-9749-e298f2a32b53/7391825c-bea5-4b63-9749-e298f2a32b53.jpg",
+      "author": "",
+      "categories": [
+        "Donovan Mitchell",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "NBA",
+        "SC4U  - Eligible",
+        "Bam Adebayo",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Cleveland Cavaliers @ Miami Heat"
+      ]
+    },
+    {
+      "id": "50477092",
+      "title": "Memphis Grizzlies vs. New Orleans Pelicans: Game Highlights",
+      "summary": "Memphis Grizzlies vs. New Orleans Pelicans: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50477092/game-highlights",
+      "publishedAt": "2026-11-14T03:49:22+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/1aa1ef6e-1cfd-4925-81a8-0299ff09f608/1aa1ef6e-1cfd-4925-81a8-0299ff09f608.jpg",
+      "author": "",
+      "categories": [
+        "Saddiq Bey",
+        "Jerami Grant",
+        "Ty Jerome",
+        "Isaiah Stewart",
+        "SC4U - Full Highlight",
+        "Memphis Grizzlies",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "New Orleans Pelicans",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Memphis Grizzlies @ New Orleans Pelicans"
+      ]
+    },
+    {
+      "id": "50476842",
+      "title": "New York Knicks vs. Indiana Pacers: Game Highlights",
+      "summary": "New York Knicks vs. Indiana Pacers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50476842/game-highlights",
+      "publishedAt": "2026-11-14T03:21:02+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/e0a82d9c-465b-478d-b2f0-ea98f50ef58c/e0a82d9c-465b-478d-b2f0-ea98f50ef58c.jpg",
+      "author": "",
+      "categories": [
+        "Pascal Siakam",
+        "Karl-Anthony Towns",
+        "New York Knicks",
+        "Indiana Pacers",
+        "NBA",
+        "Kelly Oubre Jr",
+        "Mikal Bridges",
+        "Ivica Zubac",
+        "Aaron Nesmith",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "New York Knicks @ Indiana Pacers"
+      ]
+    },
+    {
+      "id": "50476620",
+      "title": "Milwaukee Bucks vs. Orlando Magic: Game Highlights",
+      "summary": "Milwaukee Bucks vs. Orlando Magic: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50476620/game-highlights",
+      "publishedAt": "2026-11-14T03:07:20+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/1d8edfd3-07c8-4a05-9752-b762f407ebe4/1d8edfd3-07c8-4a05-9752-b762f407ebe4.jpg",
+      "author": "",
+      "categories": [
+        "Orlando Magic",
+        "SC4U - Full Highlight",
+        "Franz Wagner",
+        "NBA",
+        "Jaime Jaquez Jr",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "Wendell Carter Jr",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Milwaukee Bucks @ Orlando Magic"
+      ]
+    },
+    {
+      "id": "50476558",
+      "title": "Franz Wagner drops 35-point double-double to fuel Magic past Bucks",
+      "summary": "Franz Wagner drops 35-point double-double to fuel Magic past Bucks",
+      "url": "https://www.espn.com/video/clip/_/id/50476558/franz-wagner-drops-35-point-double-double-fuel-magic-bucks",
+      "publishedAt": "2026-11-14T02:58:24+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/3d396961-8d29-4e8d-9740-ae3514d9a6b7/3d396961-8d29-4e8d-9740-ae3514d9a6b7.jpg",
+      "author": "",
+      "categories": [
+        "Orlando Magic",
+        "Franz Wagner",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Team Boost",
+        "Milwaukee Bucks @ Orlando Magic"
+      ]
+    },
+    {
+      "id": "50473732",
+      "title": "Dejounte Murray wants trade from Pelicans; both sides working on resolution",
+      "summary": "Pelicans guard Dejounte Murray wants a trade from the franchise, and his agent, Klutch Sports CEO Rich Paul, and team officials have started working on a resolution.",
+      "url": "https://www.espn.com/nba/story/_/id/50473732/sources-dejounte-murray-wants-trade-pelicans",
+      "publishedAt": "2026-11-14T02:06:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0302/r1622171_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "New Orleans Pelicans",
+        "Dejounte Murray"
+      ]
+    },
+    {
       "id": "50475090",
       "title": "Lakers' Austin Reaves day-to-day with left heel bruise",
       "summary": "Lakers guard Austin Reaves is considered day-to-day as he deals with a left heel bruise, coach JJ Redick said Friday.",
@@ -63,55 +476,6 @@
         "Collin Sexton",
         "Luka Doncic",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50473732",
-      "title": "Dejounte Murray wants trade from Pelicans; both sides working on resolution",
-      "summary": "Pelicans guard Dejounte Murray wants a trade from the franchise, and his agent, Klutch Sports CEO Rich Paul, and team officials have started working on a resolution.",
-      "url": "https://www.espn.com/nba/story/_/id/50473732/sources-dejounte-murray-wants-trade-pelicans",
-      "publishedAt": "2026-11-13T22:49:00+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0302/r1622171_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "New Orleans Pelicans",
-        "Dejounte Murray"
-      ]
-    },
-    {
-      "id": "50456190",
-      "title": "Expert fantasy hoops roundtable: Is Wemby No. 1? Plus early surprises and more",
-      "summary": "The fantasy basketball crew gets together to answer the biggest questions from the early part of the season.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50456190/fantasy-basketball-early-season-takeaways-nba",
-      "publishedAt": "2026-11-13T21:20:01+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744617_1296x729_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Victor Wembanyama",
-        "Anthony Black",
-        "Andrew Nembhard",
-        "Ayo Dosunmu",
-        "Precious Achiuwa",
-        "Franz Wagner",
-        "Jalen Green",
-        "Rudy Gobert",
-        "Evan Mobley",
-        "Norman Powell",
-        "Amen Thompson",
-        "Matas Buzelis",
-        "Kel'el Ware",
-        "Yaxel Lendeborg",
-        "Paul George",
-        "Darius Acuff Jr",
-        "Kyshawn George",
-        "Ty Jerome",
-        "Davion Mitchell"
       ]
     },
     {
@@ -249,21 +613,6 @@
       ]
     },
     {
-      "id": "50463020",
-      "title": "Donovan Mitchell's renewed faith in Cleveland fuels the Cavs' future",
-      "summary": "Mitchell made two commitments this summer: his marriage and his extension with the Cavs. Now it's up to him to keep pushing Cleveland forward.",
-      "url": "https://www.espn.com/nba/story/_/id/50463020/donovan-mitchell-cleveland-cavaliers-extension",
-      "publishedAt": "2026-11-13T14:39:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744889_608x342_16-9.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "NBA",
-        "Cleveland Cavaliers",
-        "Donovan Mitchell",
-        "Jamal Collier"
-      ]
-    },
-    {
       "id": "50463999",
       "title": "Michael Jordan, Bugs Bunny and the lasting legacy of 'Space Jam' at 30",
       "summary": "Three decades after its release, the basketball-meets-Looney Tunes adventure remains a pop culture staple.",
@@ -278,399 +627,6 @@
         "Phoenix Suns",
         "Charlotte Hornets",
         "Brooklyn Nets"
-      ]
-    },
-    {
-      "id": "50469006",
-      "title": "Cade drops 52 in Thursday's NBA Recap",
-      "summary": "Cade Cunningham scores a career-high 52 points, the Sixers rally past the Raptors and the Timberwolves cruise past the Mavericks.",
-      "url": "https://www.espn.com/video/clip/_/id/50469006/cade-drops-52-thursday-nba-recap",
-      "publishedAt": "2026-11-13T05:48:22+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/dm_261113_Watchfolder_NBA_Recap_123/dm_261113_Watchfolder_NBA_Recap_123.jpg",
-      "author": "",
-      "categories": [
-        "Detroit Pistons",
-        "Minnesota Timberwolves",
-        "NBA",
-        "Philadelphia 76ers",
-        "SC4U  - Eligible",
-        "SC4U - League Recap - Highlights"
-      ]
-    },
-    {
-      "id": "50468039",
-      "title": "Cade Cunningham's historic night puts Pistons past Wizards in 2OT thriller",
-      "summary": "Cade Cunningham had 52 points, 11 assists and no turnovers as the Pistons outlasted the Wizards in double overtime Thursday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50468039/cade-cunningham-ausar-thompson-power-pistons-wizards",
-      "publishedAt": "2026-11-13T05:37:50+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745154_600x600_1-1.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Cade Cunningham"
-      ]
-    },
-    {
-      "id": "50468852",
-      "title": "Charlotte Hornets vs. Phoenix Suns: Game Highlights",
-      "summary": "Charlotte Hornets vs. Phoenix Suns: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50468852/game-highlights",
-      "publishedAt": "2026-11-13T05:23:35+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/adf19ffb-73f8-4fa4-896f-47d191733181/adf19ffb-73f8-4fa4-896f-47d191733181.jpg",
-      "author": "",
-      "categories": [
-        "Collin Gillespie",
-        "Phoenix Suns",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Coby White",
-        "SC4U  - Eligible",
-        "Naz Reid",
-        "Charlotte Hornets",
-        "Devin Booker",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Charlotte Hornets @ Phoenix Suns"
-      ]
-    },
-    {
-      "id": "50468770",
-      "title": "Cunningham goes for 52 as Pistons down Wizards in double OT",
-      "summary": "Cunningham goes for 52 as Pistons down Wizards in double OT",
-      "url": "https://www.espn.com/video/clip/_/id/50468770/cunningham-goes-52-pistons-wizards-double-ot",
-      "publishedAt": "2026-11-13T05:06:23+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/413f8562-ebcd-4948-b591-3565712da6e0/413f8562-ebcd-4948-b591-3565712da6e0.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Trae Young",
-        "Detroit Pistons",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Cade Cunningham",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Detroit Pistons @ Washington Wizards"
-      ]
-    },
-    {
-      "id": "50467884",
-      "title": "Dallas Mavericks vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "Dallas Mavericks vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50467884/game-highlights",
-      "publishedAt": "2026-11-13T03:45:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/edf2f709-3f7c-4acc-b819-16cb1fbf4eeb/edf2f709-3f7c-4acc-b819-16cb1fbf4eeb.jpg",
-      "author": "",
-      "categories": [
-        "Zaccharie Risacher",
-        "Minnesota Timberwolves",
-        "Dallas Mavericks",
-        "LaMelo Ball",
-        "Jonathan Kuminga",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Bones Hyland",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Dallas Mavericks @ Minnesota Timberwolves"
-      ]
-    },
-    {
-      "id": "50464091",
-      "title": "Bulls' Caleb Wilson has successful surgery on fractured right hand",
-      "summary": "Bulls rookie Caleb Wilson had successful surgery on his fractured right hand and will be reevaluated in three weeks, the team announced on Thursday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50464091/sources-bulls-wilson-surgery-hand-4-6-weeks",
-      "publishedAt": "2026-11-13T03:07:38+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/r1741331_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "NBA",
-        "Chicago Bulls",
-        "Caleb Wilson",
-        "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50467208",
-      "title": "Toronto Raptors vs. Philadelphia 76ers: Game Highlights",
-      "summary": "Toronto Raptors vs. Philadelphia 76ers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50467208/game-highlights",
-      "publishedAt": "2026-11-13T02:38:36+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1113/19a83711-ee4e-4d76-8d5a-bd34c0be5a22/19a83711-ee4e-4d76-8d5a-bd34c0be5a22.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "Toronto Raptors",
-        "RJ Barrett",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Collin Murray-Boyles",
-        "SC4U  - Eligible",
-        "Tyrese Maxey",
-        "Joel Embiid",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Toronto Raptors @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50465316",
-      "title": "Rockets' Marcus Smart suspended three games for punch",
-      "summary": "The NBA on Thursday suspended Rockets guard Marcus Smart three games without pay for throwing a punch at Warriors center Charles Bassey.",
-      "url": "https://www.espn.com/nba/story/_/id/50465316/rockets-marcus-smart-suspended-three-games-punch",
-      "publishedAt": "2026-11-13T00:10:45+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744704_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Marcus Smart",
-        "Charles Bassey"
-      ]
-    },
-    {
-      "id": "50464264",
-      "title": "Tim MacMahon: Yaxel Lendeborg needs to be 'go-to guy' with Steph out",
-      "summary": "Tim MacMahon: Yaxel Lendeborg needs to be 'go-to guy' with Steph out",
-      "url": "https://www.espn.com/video/clip/_/id/50464264/yaxel-lendeborg-needs-go-guy-steph-out",
-      "publishedAt": "2026-11-12T21:05:22+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/ss_20261112_155457408_3738341960/ss_20261112_155457408_3738341960.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Yaxel Lendeborg",
-        "Tim MacMahon",
-        "NBA Today",
-        "Verts - Exclude Content",
-        "Golden State Warriors @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50463994",
-      "title": "Shams: Steph Curry to be sidelined for 2-4 weeks",
-      "summary": "Shams: Steph Curry to be sidelined for 2-4 weeks",
-      "url": "https://www.espn.com/video/clip/_/id/50463994/steph-curry-sidelined-2-4-weeks",
-      "publishedAt": "2026-11-12T20:42:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1112/ss_20261112_151539223_3738294/ss_20261112_151539223_3738294.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Verts - Exclude Content",
-        "Stephen Curry",
-        "Golden State Warriors",
-        "NBA Today",
-        "Shams Charania"
-      ]
-    },
-    {
-      "id": "50462899",
-      "title": "Warriors' Stephen Curry out at least 2 weeks with oblique tear",
-      "summary": "Stephen Curry will miss at least two weeks with an oblique abdominal tear, but sources told ESPN that the Warriors are bracing for him to be out closer to a month.",
-      "url": "https://www.espn.com/nba/story/_/id/50462899/warriors-stephen-curry-least-2-weeks-oblique-tear",
-      "publishedAt": "2026-11-12T20:24:51+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744663_1296x729_16-9.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "Stephen Curry",
-        "Golden State Warriors",
-        "NBA",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50463008",
-      "title": "76ers Joel Embiid (foot) questionable, LeBron James (back) out vs. Raptors",
-      "summary": "76ers center Joel Embiid is questionable for Thursday night's game against the Raptors with right foot plantar fascia management. LeBron James is out with lower back/sciatica management.",
-      "url": "https://www.espn.com/nba/story/_/id/50463008/76ers-joel-embiid-lebron-james-questionable-vs-raptors",
-      "publishedAt": "2026-11-12T18:36:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1031/r1739014_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Joel Embiid",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50462110",
-      "title": "Where to watch NBA G League for the 2026-27 season",
-      "summary": "The NBA G League season is off and running.",
-      "url": "https://www.espn.com/nba/story/_/id/50462110/where-nba-g-league-2026-27-season",
-      "publishedAt": "2026-11-12T17:48:06+00:00",
-      "image": "",
-      "author": "ESPN",
-      "categories": [
-        "NBA G League",
-        "NBA",
-        "seo h2w"
-      ]
-    },
-    {
-      "id": "50435461",
-      "title": "Thursday's fantasy hoops adds, top NBA bets: Ride hot streaks of Jenkins, Allen",
-      "summary": "Eric Moody breaks down Thursday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50435461/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-12T17:23:39+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744872_608x342_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Jakob Poeltl",
-        "Paul Reed",
-        "Grayson Allen",
-        "Daniss Jenkins",
-        "Ja'Kobe Walter",
-        "Sion James",
-        "Duncan Robinson",
-        "Kyrie Irving",
-        "LaMelo Ball"
-      ]
-    },
-    {
-      "id": "50434044",
-      "title": "NBA trade deadline: Big questions for Knicks, Thunder and other top teams",
-      "summary": "With the NBA trade deadline looming, which title contenders should -- and could -- make a deal to improve?",
-      "url": "https://www.espn.com/nba/story/_/id/50434044/early-nba-trade-deadline-questions-top-contenders",
-      "publishedAt": "2026-11-12T16:08:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1031/r1738848_1296x729_16-9.jpg",
-      "author": "NBA insiders",
-      "categories": [
-        "NBA",
-        "Boston Celtics",
-        "Cleveland Cavaliers",
-        "Detroit Pistons",
-        "Houston Rockets",
-        "Los Angeles Lakers",
-        "Minnesota Timberwolves",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Philadelphia 76ers",
-        "San Antonio Spurs",
-        "nba trade deadline",
-        "NBA Insiders"
-      ]
-    },
-    {
-      "id": "50459253",
-      "title": "Knicks' Mike Brown questions FT disparity, Jalen Brunson's zero attempts in loss",
-      "summary": "Mike Brown wasn't pleased with the free throw disparity in the Knicks' 115-107 loss to the Cavaliers, calling Jalen Brunson's lack of attempts \"alarming.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50459253/knicks-mike-brown-questions-jalen-brunson-zero-ft-tries",
-      "publishedAt": "2026-11-12T11:56:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744701_600x600_1-1.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Jalen Brunson",
-        "news",
-        "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50459249",
-      "title": "Austin Reaves exits with heel injury as banged-up Lakers win 7th straight",
-      "summary": "Lakers guard Austin Reaves exited Wednesday's win because of a left heel injury. Initial X-rays came back negative and he will undergo further evaluation.",
-      "url": "https://www.espn.com/nba/story/_/id/50459249/reaves-exits-heel-injury-banged-lakers-win-again",
-      "publishedAt": "2026-11-12T06:27:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744703_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "Austin Reaves",
-        "Luka Doncic",
-        "Collin Sexton",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50459408",
-      "title": "Zion Williamson calls out Pelicans for another 'unacceptable' blowout loss",
-      "summary": "Zion Williamson called for accountability after the Pelicans lost their fourth straight game, saying the team needed to look itself in the mirror.",
-      "url": "https://www.espn.com/nba/story/_/id/50459408/zion-williamson-calls-pelicans-another-unacceptable-blowout-loss",
-      "publishedAt": "2026-11-12T06:26:32+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1112/r1744705_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "New Orleans Pelicans",
-        "Zion Williamson"
-      ]
-    },
-    {
-      "id": "50459273",
-      "title": "Oklahoma City Thunder vs. Portland Trail Blazers: Game Highlights",
-      "summary": "Oklahoma City Thunder vs. Portland Trail Blazers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50459273/game-highlights",
-      "publishedAt": "2026-11-12T05:40:57+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/dc2c3c75-bbc7-41cd-a337-241d8e0756ae/dc2c3c75-bbc7-41cd-a337-241d8e0756ae.jpg",
-      "author": "",
-      "categories": [
-        "Deni Avdija",
-        "Portland Trail Blazers",
-        "Oklahoma City Thunder",
-        "Isaiah Hartenstein",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Oklahoma City Thunder @ Portland Trail Blazers"
-      ]
-    },
-    {
-      "id": "50459196",
-      "title": "Rockets outlast Warriors as Steph gets injured early",
-      "summary": "Rockets outlast Warriors as Steph gets injured early",
-      "url": "https://www.espn.com/video/clip/_/id/50459196/rockets-outlast-warriors-steph-gets-injured-early",
-      "publishedAt": "2026-11-12T05:26:13+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1112/58bcc080-4388-45ed-b2fe-ab3daf4839c9/58bcc080-4388-45ed-b2fe-ab3daf4839c9.jpg",
-      "author": "",
-      "categories": [
-        "Stephen Curry",
-        "Kevin Durant",
-        "Reed Sheppard",
-        "Jabari Smith Jr",
-        "Houston Rockets",
-        "Yaxel Lendeborg",
-        "Golden State Warriors",
-        "Amen Thompson",
-        "NBA",
-        "Fred VanVleet",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Golden State Warriors @ Houston Rockets"
       ]
     }
   ]
