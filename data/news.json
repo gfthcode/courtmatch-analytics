@@ -1,8 +1,48 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-15T06:31:15.702420+00:00",
+  "updatedAt": "2026-11-15T16:21:16.384312+00:00",
   "articles": [
+    {
+      "id": "50489700",
+      "title": "Sunday's fantasy basketball adds and bets to make in the NBA",
+      "summary": "Jim McCormick breaks down Sunday's slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50489700/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-15T15:57:00+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746088_576x324_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Brook Lopez",
+        "Sandro Mamukelashvili",
+        "Kelly Oubre Jr",
+        "Naji Marshall",
+        "Darryn Peterson",
+        "Darius Acuff Jr",
+        "Jim McCormick"
+      ]
+    },
+    {
+      "id": "50475653",
+      "title": "Inside the Jordan Dome, where 'Space Jam' pickup games helped MJ get his game back",
+      "summary": "Thirty years after \"Space Jam,\" those who shared the summer with Jordan remember the basketball that unfolded offscreen.",
+      "url": "https://www.espn.com/nba/story/_/id/50475653/revisit-jordan-dome-space-jam-30-year-anniversary",
+      "publishedAt": "2026-11-15T15:42:56+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745424_2_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "UCLA Bruins",
+        "University of California at Los Angeles",
+        "Anthony Gharib"
+      ]
+    },
     {
       "id": "50487152",
       "title": "Tyrese Proctor explodes for maiden triple-double",
@@ -444,78 +484,6 @@
       "author": "",
       "categories": [
         "NBA"
-      ]
-    },
-    {
-      "id": "50477275",
-      "title": "Utah Jazz vs. Houston Rockets: Game Highlights",
-      "summary": "Utah Jazz vs. Houston Rockets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50477275/game-highlights",
-      "publishedAt": "2026-11-14T04:39:32+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/f7cb3f80-5e7c-4458-8f5c-e3a419722358/f7cb3f80-5e7c-4458-8f5c-e3a419722358.jpg",
-      "author": "",
-      "categories": [
-        "Darryn Peterson",
-        "Tari Eason",
-        "Utah Jazz",
-        "Houston Rockets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Alperen Sengun",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Utah Jazz @ Houston Rockets"
-      ]
-    },
-    {
-      "id": "50477145",
-      "title": "Atlanta Hawks vs. Chicago Bulls: Game Highlights",
-      "summary": "Atlanta Hawks vs. Chicago Bulls: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50477145/game-highlights",
-      "publishedAt": "2026-11-14T03:59:28+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/260c609c-47ab-4e76-9b4e-722f11cc0df7/260c609c-47ab-4e76-9b4e-722f11cc0df7.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Johnson",
-        "Atlanta Hawks",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "3 Star Rating",
-        "Matas Buzelis",
-        "SC4U  - Eligible",
-        "Norman Powell",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50477128",
-      "title": "Cleveland Cavaliers vs. Miami Heat: Game Highlights",
-      "summary": "Cleveland Cavaliers vs. Miami Heat: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50477128/game-highlights",
-      "publishedAt": "2026-11-14T03:59:20+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/7391825c-bea5-4b63-9749-e298f2a32b53/7391825c-bea5-4b63-9749-e298f2a32b53.jpg",
-      "author": "",
-      "categories": [
-        "Donovan Mitchell",
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "SC4U  - Eligible",
-        "Bam Adebayo",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Cleveland Cavaliers @ Miami Heat"
       ]
     }
   ]
