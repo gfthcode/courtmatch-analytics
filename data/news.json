@@ -1,8 +1,82 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-15T16:21:16.384312+00:00",
+  "updatedAt": "2026-11-15T22:48:01.336594+00:00",
   "articles": [
+    {
+      "id": "50493152",
+      "title": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
+      "summary": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
+      "url": "https://www.espn.com/nba/story/_/id/50493152/lebron-james-passes-jason-kidd-nba-assists-list",
+      "publishedAt": "2026-11-15T22:43:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746252_1296x729_16-9.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "LeBron James",
+        "NBA",
+        "Philadelphia 76ers",
+        "news",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50493088",
+      "title": "Indiana Pacers vs. Philadelphia 76ers: Game Highlights",
+      "summary": "Indiana Pacers vs. Philadelphia 76ers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50493088/game-highlights",
+      "publishedAt": "2026-11-15T21:49:13+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/f2404072-73da-4886-a505-6515ba61634b/f2404072-73da-4886-a505-6515ba61634b.jpg",
+      "author": "",
+      "categories": [
+        "Pascal Siakam",
+        "Philadelphia 76ers",
+        "Indiana Pacers",
+        "SC4U - Full Highlight",
+        "NBA",
+        "LeBron James",
+        "SC4U  - Eligible",
+        "Jaylen Brown",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Indiana Pacers @ Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50475653",
+      "title": "Inside the Jordan Dome, where 'Space Jam' pickup games helped MJ get his game back",
+      "summary": "Thirty years after \"Space Jam,\" those who shared the summer with Jordan remember the basketball that unfolded offscreen.",
+      "url": "https://www.espn.com/nba/story/_/id/50475653/revisit-jordan-dome-space-jam-30-year-anniversary",
+      "publishedAt": "2026-11-15T20:56:14+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745424_2_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "UCLA Bruins",
+        "University of California at Los Angeles",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50487187",
+      "title": "USMNT's Balogun does 'Dame Time' celebration after goal vs. Haiti",
+      "summary": "After the star forward found the back of the net against Haiti, he had a specific celebration in mind: Damian Lillard's iconic \"Dame Time\" motion.",
+      "url": "https://www.espn.com/soccer/story/_/id/50487187/usmnt-folarin-balogun-dame-celebration",
+      "publishedAt": "2026-11-15T17:30:29+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1745990_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "Soccer",
+        "Folarin Balogun",
+        "United States",
+        "NBA",
+        "Portland Trail Blazers",
+        "Damian Lillard",
+        "ESPN Staff Profile"
+      ]
+    },
     {
       "id": "50489700",
       "title": "Sunday's fantasy basketball adds and bets to make in the NBA",
@@ -25,22 +99,6 @@
         "Darryn Peterson",
         "Darius Acuff Jr",
         "Jim McCormick"
-      ]
-    },
-    {
-      "id": "50475653",
-      "title": "Inside the Jordan Dome, where 'Space Jam' pickup games helped MJ get his game back",
-      "summary": "Thirty years after \"Space Jam,\" those who shared the summer with Jordan remember the basketball that unfolded offscreen.",
-      "url": "https://www.espn.com/nba/story/_/id/50475653/revisit-jordan-dome-space-jam-30-year-anniversary",
-      "publishedAt": "2026-11-15T15:42:56+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745424_2_608x342_16-9.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "NBA",
-        "Chicago Bulls",
-        "UCLA Bruins",
-        "University of California at Los Angeles",
-        "Anthony Gharib"
       ]
     },
     {
@@ -449,41 +507,6 @@
         "Fantasy NBA",
         "Team Boost",
         "Utah Jazz @ Houston Rockets"
-      ]
-    },
-    {
-      "id": "50477438",
-      "title": "Spurs blowout Curry-less Warriors 123-85",
-      "summary": "Spurs blowout Curry-less Warriors 123-85",
-      "url": "https://www.espn.com/video/clip/_/id/50477438/spurs-blowout-curry-less-warriors-123-85",
-      "publishedAt": "2026-11-14T05:07:47+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/627f1100-1434-414a-9623-7c73d28f2155/627f1100-1434-414a-9623-7c73d28f2155.jpg",
-      "author": "",
-      "categories": [
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Golden State Warriors",
-        "NBA",
-        "Luke Kornet",
-        "Stephon Castle",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U - Full Highlight",
-        "SC4U  - Eligible",
-        "Golden State Warriors @ San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "50477411",
-      "title": "Giddey's triple-double guides Bulls home",
-      "summary": "A breakthrough triple double for Josh Giddey snaps the Chicago Bulls' eight-game losing streak in an overtime win over Dyson Daniels' Atlanta Hawks.",
-      "url": "https://www.espn.com/video/clip/_/id/50477411/giddey-triple-double-guides-bulls-home",
-      "publishedAt": "2026-11-14T04:55:28+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1113/dm_261113_NBA_Highlight_Giddeys_triple_double_guides_Bulls_home_20261114_PACRIM/dm_261113_NBA_Highlight_Giddeys_triple_double_guides_Bulls_home_20261114_PACRIM.jpg",
-      "author": "",
-      "categories": [
-        "NBA"
       ]
     }
   ]
