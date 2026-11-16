@@ -1,14 +1,178 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-16T06:28:44.708088+00:00",
+  "updatedAt": "2026-11-16T19:36:04.726009+00:00",
   "articles": [
+    {
+      "id": "50503255",
+      "title": "76ers star LeBron James ruled out vs. Nets due to lower back management",
+      "summary": "LeBron James will miss Monday's game against the Nets as the 76ers continue to manage his lower back.",
+      "url": "https://www.espn.com/nba/story/_/id/50503255/lebron-james-ruled-vs-nets-due-lower-back-management",
+      "publishedAt": "2026-11-16T18:53:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746252_1296x729_16-9.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Joel Embiid",
+        "news",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50502778",
+      "title": "Fantasy basketball adds and NBA bets: All eyes on Tyrese Maxey on Monday",
+      "summary": "Andre Snellings breaks down Monday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50502778/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-16T18:51:01+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746730_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Day'Ron Sharpe",
+        "Bones Hyland",
+        "Baylor Scheierman",
+        "Cam Spencer",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50502886",
+      "title": "Bulls' Buzelis, Nets' Minott fined $25K each after making obscene gestures",
+      "summary": "Bulls forward Matas Buzelis and Nets forward Josh Minott have each been fined $25,000 for making obscene gestures toward the stands during their games Saturday.",
+      "url": "https://www.espn.com/nba/story/_/id/50502886/bulls-buzelis-nets-minott-fined-25k-obscene-gestures",
+      "publishedAt": "2026-11-16T17:58:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1001/r1724627_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Matas Buzelis",
+        "Josh Minott",
+        "Chicago Bulls",
+        "Brooklyn Nets"
+      ]
+    },
+    {
+      "id": "50502739",
+      "title": "Grizzlies' GG Jackson to miss time with left foot fracture",
+      "summary": "Grizzlies reserve GG Jackson will miss time after breaking a bone in his left foot. He is scheduled to have surgery on the injury.",
+      "url": "https://www.espn.com/nba/story/_/id/50502739/grizzlies-gg-jackson-miss-left-foot-fracture",
+      "publishedAt": "2026-11-16T17:54:25+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746686_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Memphis Grizzlies",
+        "news",
+        "GG Jackson"
+      ]
+    },
+    {
+      "id": "50502266",
+      "title": "Fantasy risers and fallers: Pelicans' Fears provides hope; Harden's numbers down",
+      "summary": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50502266/fantasy-basketball-risers-fallers-keep-cut-add-today",
+      "publishedAt": "2026-11-16T17:49:29+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746670_1296x729_16-9.jpg",
+      "author": "Steve Alexander",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "James Harden",
+        "Jeremiah Fears",
+        "Mikal Bridges",
+        "Trey Murphy III",
+        "Daniss Jenkins",
+        "Sandro Mamukelashvili",
+        "Aday Mara",
+        "Klay Thompson",
+        "Ausar Thompson",
+        "Steve Alexander"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-16T17:21:45+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50458796",
+      "title": "NBA transaction glossary: Trade, free agency, extension, CBA terms to know",
+      "summary": "The world of NBA transactions is often difficult to decipher. Our resident GM is here to help.﻿",
+      "url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
+      "publishedAt": "2026-11-16T16:37:29+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0724/nba_fact-or-fiction2_16x9_1296x729.jpg",
+      "author": "Bobby Marks",
+      "categories": [
+        "NBA",
+        "NBA Draft",
+        "nba free agency",
+        "nba trade deadline",
+        "Bobby Marks"
+      ]
+    },
+    {
+      "id": "50493152",
+      "title": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
+      "summary": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
+      "url": "https://www.espn.com/nba/story/_/id/50493152/lebron-james-passes-jason-kidd-nba-assists-list",
+      "publishedAt": "2026-11-16T15:23:24+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746252_1296x729_16-9.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "LeBron James",
+        "NBA",
+        "Philadelphia 76ers",
+        "news",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50490202",
+      "title": "What's working -- and not working -- for LeBron James, Philadelphia 76ers",
+      "summary": "We talked to several coaches, executives and scouts about the 11-3 Sixers in an attempt to get a consensus opinion on their start.",
+      "url": "https://www.espn.com/nba/story/_/id/50490202/lebron-76ers-start-execs-big-questions",
+      "publishedAt": "2026-11-16T15:04:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1115/r1746063_608x342_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Tyrese Maxey",
+        "Joel Embiid",
+        "VJ Edgecombe",
+        "Jaylen Brown",
+        "nba trade deadline",
+        "Dave McMenamin"
+      ]
+    },
     {
       "id": "50498985",
       "title": "Rockets hold Wizards' Trae Young scoreless for first time in his NBA career",
       "summary": "The Rockets scored a season-high 147 points against the Wizards on Sunday in their win, during which they also held Trae Young scoreless for the first time in his NBA career.",
       "url": "https://www.espn.com/nba/story/_/id/50498985/rockets-hold-wizards-trae-young-scoreless-first-nba-career",
-      "publishedAt": "2026-11-16T06:25:32+00:00",
+      "publishedAt": "2026-11-16T06:37:25+00:00",
       "image": "https://a.espncdn.com/photo/2026/1116/r1746515_600x400_3-2.jpg",
       "author": "",
       "categories": [
@@ -23,7 +187,7 @@
       "title": "Spurs stretch winning streak to 12, hand Jazz 12th straight defeat",
       "summary": "Dylan Harper had a game-high 31 points to keep the Spurs rolling with their 12th straight win while sending the Jazz to their 12th straight loss.",
       "url": "https://www.espn.com/nba/story/_/id/50498894/spurs-stretch-winning-streak-12-hand-jazz-12th-straight-defeat",
-      "publishedAt": "2026-11-16T06:16:49+00:00",
+      "publishedAt": "2026-11-16T06:34:56+00:00",
       "image": "https://a.espncdn.com/photo/2026/1116/r1746512_600x400_3-2.jpg",
       "author": "",
       "categories": [
@@ -291,22 +455,6 @@
       ]
     },
     {
-      "id": "50493152",
-      "title": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
-      "summary": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
-      "url": "https://www.espn.com/nba/story/_/id/50493152/lebron-james-passes-jason-kidd-nba-assists-list",
-      "publishedAt": "2026-11-15T22:58:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1746252_1296x729_16-9.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "LeBron James",
-        "NBA",
-        "Philadelphia 76ers",
-        "news",
-        "Kris Rhim"
-      ]
-    },
-    {
       "id": "50493088",
       "title": "Indiana Pacers vs. Philadelphia 76ers: Game Highlights",
       "summary": "Indiana Pacers vs. Philadelphia 76ers: Game Highlights",
@@ -385,31 +533,6 @@
       ]
     },
     {
-      "id": "50486860",
-      "title": "Chicago Bulls vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "Chicago Bulls vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50486860/game-highlights",
-      "publishedAt": "2026-11-15T04:09:09+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/641116c4-a34a-44af-8033-5b70be541558/641116c4-a34a-44af-8033-5b70be541558.jpg",
-      "author": "",
-      "categories": [
-        "Minnesota Timberwolves",
-        "Jonathan Kuminga",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "Tre Jones",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Norman Powell",
-        "Ayo Dosunmu",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Minnesota Timberwolves"
-      ]
-    },
-    {
       "id": "50487005",
       "title": "Detroit Pistons vs. Miami Heat: Game Highlights",
       "summary": "Detroit Pistons vs. Miami Heat: Game Highlights",
@@ -431,177 +554,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Detroit Pistons @ Miami Heat"
-      ]
-    },
-    {
-      "id": "50486867",
-      "title": "Brooklyn Nets vs. Memphis Grizzlies: Game Highlights",
-      "summary": "Brooklyn Nets vs. Memphis Grizzlies: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50486867/game-highlights",
-      "publishedAt": "2026-11-15T04:09:00+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/534ca69f-5a28-4eaa-8c7f-1f828ef2fe49/534ca69f-5a28-4eaa-8c7f-1f828ef2fe49.jpg",
-      "author": "",
-      "categories": [
-        "Chaney Johnson",
-        "Cedric Coward",
-        "Julius Randle",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Brooklyn Nets @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50485303",
-      "title": "Cavaliers overcome short turnaround, missing starters to beat Mavericks",
-      "summary": "The Cavaliers were without their entire starting lineup Saturday against the Mavericks after four players were ruled out following travel difficulties.",
-      "url": "https://www.espn.com/nba/story/_/id/50485303/cavaliers-starting-five-vs-mavs-flight-delay",
-      "publishedAt": "2026-11-15T03:59:41+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1745939_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news",
-        "Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50486565",
-      "title": "Dallas Mavericks vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "Dallas Mavericks vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50486565/game-highlights",
-      "publishedAt": "2026-11-15T03:30:42+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/335f8d79-03d3-40c0-9a5f-305dcd527abf/335f8d79-03d3-40c0-9a5f-305dcd527abf.jpg",
-      "author": "",
-      "categories": [
-        "Tyrese Proctor",
-        "Kyrie Irving",
-        "Dallas Mavericks",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "NBA",
-        "SC4U  - Eligible",
-        "Meleek Thomas",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Dallas Mavericks @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50486124",
-      "title": "Denver Nuggets vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Denver Nuggets vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50486124/game-highlights",
-      "publishedAt": "2026-11-15T02:46:56+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/ab914744-01c6-4795-8aeb-1c2ee0d42f49/ab914744-01c6-4795-8aeb-1c2ee0d42f49.jpg",
-      "author": "",
-      "categories": [
-        "Jamal Murray",
-        "Denver Nuggets",
-        "Christian Braun",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Nikola Jokic",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Denver Nuggets @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50485143",
-      "title": "Lakers' Austin Reaves (heel bruise) to sit out vs. Suns",
-      "summary": "Los Angeles Lakers guard Austin Reaves will not play against the Phoenix Suns on Sunday because of a left heel bruise, the team announced.",
-      "url": "https://www.espn.com/nba/story/_/id/50485143/lakers-austin-reaves-heel-bruise-sit-vs-suns",
-      "publishedAt": "2026-11-15T01:06:25+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1109/r1743768_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "Austin Reaves",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50484216",
-      "title": "76ers' Joel Embiid out vs. Pacers due to plantar fascia management",
-      "summary": "The Philadelphia 76ers ruled out center Joel Embiid for Sunday's game against the Indiana Pacers with right foot plantar fascia management, the team announced Saturday.",
-      "url": "https://www.espn.com/nba/story/_/id/50484216/76ers-joel-embiid-vs-pacers-due-plantar-fascia-management",
-      "publishedAt": "2026-11-14T23:30:11+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1009/r1728117_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Joel Embiid",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50480388",
-      "title": "Fantasy basketball adds and NBA bets: Fire up Fears, Bey on Saturday",
-      "summary": "Jim McCormick breaks down Saturday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50480388/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-14T17:09:28+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1114/r1745701_1296x729_16-9.jpg",
-      "author": "Jim McCormick",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Saddiq Bey",
-        "Day'Ron Sharpe",
-        "Daniss Jenkins",
-        "Bones Hyland",
-        "Jim McCormick"
-      ]
-    },
-    {
-      "id": "50480516",
-      "title": "Josh Hart searching for answers after zero-point outing in Knicks loss",
-      "summary": "Knicks wing Josh Hart said he is \"not in a good headspace\" after he was held scoreless and benched for the fourth quarter of Friday's 106-104 NBA Cup loss to the Pacers.",
-      "url": "https://www.espn.com/nba/story/_/id/50480516/josh-hart-seeking-answers-zero-points-knicks-loss",
-      "publishedAt": "2026-11-14T17:06:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0522/r1661789_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Josh Hart",
-        "New York Knicks",
-        "Mikal Bridges",
-        "OG Anunoby",
-        "news"
-      ]
-    },
-    {
-      "id": "50463046",
-      "title": "The price of a pro hoop dream starts with a $200 G League tryout",
-      "summary": "Former college players, content creators and even some Sixers fans chased the same opportunity to get noticed by the Delaware Blue Coats.",
-      "url": "https://www.espn.com/nba/story/_/id/50463046/nba-g-league-delaware-blue-coats-200-dollar-tryout",
-      "publishedAt": "2026-11-14T13:18:19+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1113/nba_g-league_16x9.jpg",
-      "author": "Kalan Hooks",
-      "categories": [
-        "NBA G League",
-        "NBA",
-        "news - nba g league",
-        "Philadelphia 76ers",
-        "Kalan Hooks"
       ]
     }
   ]
