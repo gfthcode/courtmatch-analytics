@@ -36,6 +36,7 @@ const routes = [
   ['impact', '攻防影响 | CourtMatch', '比较 NBA 球员进攻产出、防守压制与当前联盟基准。'],
   ['onoff', '攻防影响 | CourtMatch', '比较 NBA 球员进攻产出、防守压制与当前联盟基准。'],
   ['daily', '每日最佳 | CourtMatch', '查看最近一次可用 NBA 对位数据摘要。'],
+  ['schedule', '2026–27 赛季赛程 | CourtMatch', '按北京时间浏览 2026–27 NBA 常规赛对阵、主客场和开赛时间。'],
   ['countries', '球员国家 | CourtMatch', '查看球员国家字段映射状态与未映射报告。'],
   ['country', '球员国家 | CourtMatch', '查看球员国家字段映射状态与未映射报告。'],
   ['changelog', '更新日志 | CourtMatch', '查看 CourtMatch 数据版本、更新时间和发布状态。'],

@@ -9,6 +9,12 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.season-total-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;margin:16px 0;background:var(--line);border:1px solid var(--line)}
+.season-total-grid article{display:grid;gap:6px;min-width:0;padding:15px;background:var(--panel)}
+.season-total-grid article>span{color:var(--muted);font-size:11px;font-weight:700}
+.season-total-grid article>strong{color:var(--accent);font:800 30px/.95 'Barlow Condensed';font-variant-numeric:tabular-nums}
+.season-total-grid article>small{overflow:hidden;color:var(--text);font-size:11px;text-overflow:ellipsis;white-space:nowrap}
+
 .player-stats-section {
   min-width: 0;
   padding: 0;
@@ -321,6 +327,7 @@ html[data-theme='dark'] .player-stat-value.tone-low { color: #ff9277; }
 
 @media (max-width: 720px) {
   .player-stats-page { padding-bottom: max(78px, calc(72px + env(safe-area-inset-bottom))); }
+  .season-total-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .player-stats-toolbar { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
   .player-stats-toolbar .field { min-width: 0; }
   .player-stats-section-head { align-items: flex-start; gap: 12px; padding: 15px 13px; }

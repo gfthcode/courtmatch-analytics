@@ -13,6 +13,7 @@ name: Sync validated NBA data
       - 'scripts/import_team_playtypes.py'
       - 'scripts/import_team_stats.py'
       - 'scripts/import_player_playtypes.py'
+      - 'scripts/import_pbpstats_season.py'
       - 'scripts/finalize_data_quality.py'
       - 'scripts/sync_data.py'
       - 'scripts/validate-data.mjs'
@@ -48,6 +49,10 @@ jobs:
         run: python scripts/sync_data.py 2>&1 | tee "$RUNNER_TEMP/courtmatch-sync.log"
         env:
           COURTMATCH_PUBLISHED_DATA_DIR: data
+      - name: Refresh current season totals from PBPStats
+        run: python scripts/import_pbpstats_season.py
+        env:
+          COURTMATCH_PUBLISHED_DATA_DIR: data
       - run: node scripts/validate-data.mjs data
       - name: Publish refresh and quality summary
         if: success()
@@ -63,6 +68,7 @@ jobs:
           print(f"- 数据状态：**{manifest['status']}**；刷新模式：**{manifest.get('refreshMode', api.get('refreshMode', 'unknown'))}**")
           print(f"- 最近成功发布：{manifest['lastUpdated']}；NBA Stats 记录日期：{api.get('lastGameDate', '未知')}")
           print(f"- 球员/对位：{manifest['playerCount']} / {manifest['matchupRecordCount']:,}；位置映射：{manifest.get('positionMappingRate', 0):.1f}%")
+          print(f"- 新赛季统计：{manifest.get('playerStatsSeason', '未发布')} · {manifest.get('playerStatsSource', '未指定')} · {manifest.get('playerStatsRecordCount', 0)} 位球员 · {manifest.get('playerStatsSeasonSourceUpdatedAt', manifest.get('playerStatsSourceUpdatedAt', '未知'))}")
           print(f"- 球员目录：{'实时来源' if directory.get('officialDirectoryAvailable') else '已验证缓存'}；未映射位置：{directory.get('positionUnknownCount', '未知')}")
           reasons = manifest.get('staleReasons', [])
           print(f"- 质量提示：{'；'.join(reasons) if reasons else '无'}")

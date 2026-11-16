@@ -13,6 +13,7 @@ const modules: Module[] = [
     { label: '球员比较', href: '/comparison', detail: '并排比较球员表现' },
     { label: '打法类型', href: '/playtypes', detail: '查看 Synergy 进攻方式' },
     { label: '每日最佳', href: '/daily', detail: '按比赛日期浏览球员表现' },
+    { label: '2026–27 赛季赛程', href: '/schedule', detail: '按北京时间查看主客场与开赛时间' },
     { label: '新闻', href: '/news', detail: '浏览场内外新闻与中文摘要' },
     { label: '球员国家', href: '/country', detail: '查看已核验的球员来源字段' },
   ] },

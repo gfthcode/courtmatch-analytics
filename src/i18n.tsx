@@ -21,7 +21,7 @@ const translations: Record<string, string> = {
   '球员数据': 'Player data', '球队数据': 'Team data', '对位杀手': 'Matchup lab', '薪金仓库': 'Salary vault', '未来展望': 'Future outlook',
   '球员总览': 'Player overview', '球队对比': 'Team comparison', '联盟散点': 'League scatter', '球队攻防': 'Team offense & defense', '赛季涨幅': 'Season trends',
   '球员对位': 'Player matchup', '薪资总览': 'Salary overview', '球员页面': 'Player page', '球员对比': 'Player comparison',
-  '球员展望': 'Player outlook', '攻防影响': 'Impact', '每日最佳': 'Daily leaders', '球员国家': 'Player countries', '更新日志': 'Changelog', '数据状态': 'Data status',
+  '球员展望': 'Player outlook', '攻防影响': 'Impact', '每日最佳': 'Daily leaders', '新赛季赛程': '2026–27 schedule', '2026–27 赛季赛程': '2026–27 schedule', '按北京时间查看主客场与开赛时间': 'View home/away teams and tip-off in Beijing time', '球员国家': 'Player countries', '更新日志': 'Changelog', '数据状态': 'Data status',
   '支持 CourtMatch': 'Support CourtMatch', '反馈与建议': 'Feedback & suggestions', '社交媒体': 'Social media', '按 Escape 关闭导航': 'Press Escape to close navigation',
   '主页板块': 'Home sections', '选择功能入口': 'CHOOSE A MODULE', '球员数据表': 'Player stats table', '赛季基础与高阶数据表': 'Season base and advanced stats', '并排比较球员表现': 'Compare player performance side by side', '进攻打法': 'Offensive play types', '查看 Synergy 进攻方式': 'Explore Synergy play types', '按比赛日期浏览球员表现': 'Browse player performances by game date', '查看已核验的球员来源字段': 'View verified player origin fields',
   '球队目录': 'Team directory', '搜索球队并进入球队档案': 'Search teams and open team profiles', '浏览球队效率分布': 'Explore team efficiency distribution', '切换进攻、防守与回合类型': 'Switch offense, defense and play types', '对照两支球队的已发布指标': 'Compare published metrics for two teams', '按指标与样本门槛筛选': 'Filter by metric and sample threshold',

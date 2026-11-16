@@ -1,4 +1,4 @@
-import { Activity, BarChart3, Home, Newspaper, UsersRound, UserRoundSearch } from 'lucide-react';
+import { Activity, BarChart3, CalendarDays, Home, Newspaper, UsersRound, UserRoundSearch } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 import { useLanguage } from '../i18n';
 import './core-quick-navigation.css';
@@ -10,6 +10,7 @@ const shortcuts = [
   { label: '球员比较', href: '/comparison', icon: UsersRound },
   { label: '排行榜', href: '/rankings', icon: BarChart3 },
   { label: '新闻', href: '/news', icon: Newspaper },
+  { label: '新赛季赛程', href: '/schedule', icon: CalendarDays },
 ];
 
 export function CoreQuickNavigation() {

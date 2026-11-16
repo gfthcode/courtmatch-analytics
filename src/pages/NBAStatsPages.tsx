@@ -24,13 +24,13 @@ const displayStatLabel = (label: string, en: boolean) => en ? label : statLabels
 
 function PlayerStatDistribution({ column, rows, selectedPlayerId, onClose, en }: {
   column: PlayerColumn;
-  rows: { stat: PlayerStats; player: Player }[];
+  rows: { stat: PlayerStats; player?: Player }[];
   selectedPlayerId: string | null;
   onClose: () => void;
   en: boolean;
 }) {
   const label = displayStatLabel(column.label, en);
-  const points = rows.map(({ stat, player }) => ({ player, value: column.value(stat) })).filter((item): item is { player: Player; value: number } => item.value != null);
+  const points = rows.map(({ stat, player }) => ({ player, stat, value: column.value(stat) })).filter((item): item is { player: Player | undefined; stat: PlayerStats; value: number } => item.value != null);
   const values = points.map((point) => point.value);
   const min = values.length ? Math.min(...values) : 0;
   const max = values.length ? Math.max(...values) : 0;
@@ -49,7 +49,7 @@ function PlayerStatDistribution({ column, rows, selectedPlayerId, onClose, en }:
     <header><div><span>{en ? 'LEAGUE DISTRIBUTION' : '联盟分布'}</span><h3>{label}</h3></div><button type="button" onClick={onClose} aria-label={en ? 'Close distribution' : '关闭分布图'}><X size={18}/></button></header>
     <p>{en ? 'Each dot is a player in the current filters.' : '每个圆点代表当前筛选范围内的一名球员。'}</p>
     <div className="player-stat-swarm" role="img" aria-label={en ? `${points.length} players; range ${number(min)} to ${number(max)}; median ${number(median)}` : `${points.length} 位球员；区间 ${number(min)} 至 ${number(max)}；中位数 ${number(median)}`}>
-      {dots.map(({ player, value, left, bottom }) => <i key={player.id} className={player.id === selectedPlayerId ? 'is-selected' : ''} style={{ left: `${left}%`, bottom: `${bottom}px` }} title={`${player.name}: ${number(value)}${column.percent ? '%' : ''}`} />)}
+      {dots.map(({ player, stat, value, left, bottom }) => <i key={stat.playerId} className={player?.id === selectedPlayerId ? 'is-selected' : ''} style={{ left: `${left}%`, bottom: `${bottom}px` }} title={`${player?.name ?? stat.playerName ?? stat.playerId}: ${number(value)}${column.percent ? '%' : ''}`} />)}
     </div>
     <div className="player-stat-swarm-axis"><span>{number(min)}</span><span>{en ? `Median ${number(median)}` : `中位数 ${number(median)}`}</span><span>{number(max)}</span></div>
     <small>{en ? `${points.length} players · current season and filters` : `${points.length} 位球员 · 当前赛季与筛选条件`}</small>
@@ -65,13 +65,14 @@ export function NBAPlayerStatsPage() {
   const [distributionOpen, setDistributionOpen] = useState(false);
   const [distributionDismissed, setDistributionDismissed] = useState(false);
   const [params, setParams] = useSearchParams();
-  const season = params.get('season') ?? data.seasons[0] ?? '2025-26';
+  const playerSeasons = [...new Set(data.playerStats.map((row) => row.season))].sort((a, b) => b.localeCompare(a));
+  const season = params.get('season') ?? playerSeasons[0] ?? data.seasons[0] ?? '2025-26';
   const type = params.get('type') === 'playoffs' ? 'playoffs' : 'regular';
   const category: Category = categories.includes(params.get('category') as Category) ? params.get('category') as Category : 'perGame';
   const query = params.get('q') ?? '';
   const team = params.get('team') ?? '';
   const page = Math.max(1, Number(params.get('page') ?? '1'));
-  const minMinutes = Math.max(0, Number(params.get('minMinutes') ?? '500'));
+  const minMinutes = Math.max(0, Number(params.get('minMinutes') ?? (season === '2026-27' ? '0' : '500')));
   const direction = params.get('order') === 'asc' ? -1 : 1;
   const sort = params.get('sort') ?? (category === 'per36' ? 'PTS/36' : category === 'efficiency' ? 'TS%' : 'PTS');
   const set = (key: string, value: string) => { const next = new URLSearchParams(params); if (value) next.set(key, value); else next.delete(key); next.delete('page'); if (key === 'category') { next.delete('sort'); next.delete('order'); } setParams(next, { replace: true }); };
@@ -85,12 +86,12 @@ export function NBAPlayerStatsPage() {
   }, [category, data.playerStats]);
   const activeSort = columns.find(column => column.label === sort) ?? columns[0];
   const players = new Map(data.players.map(player => [player.id, player]));
-  const rows = data.playerStats.filter(stat => stat.season === season && stat.seasonType === type && stat.gamesPlayed > 0 && (stat.minutesPerGame ?? 0) * stat.gamesPlayed >= minMinutes).map(stat => ({ stat, player: players.get(stat.playerId) })).filter((row): row is {stat:typeof data.playerStats[number];player:typeof data.players[number]} => !!row.player && (!team || row.player.teamId === team) && (!query || [row.player.name,row.player.chineseName,row.player.teamAbbreviation].some(value=>value.toLowerCase().includes(query.toLowerCase())))).sort((a,b)=>{const av=activeSort.value(a.stat),bv=activeSort.value(b.stat);if(av==null)return bv==null?0:1;if(bv==null)return -1;return (bv-av)*direction;});
+  const rows = data.playerStats.filter(stat => stat.season === season && stat.seasonType === type && stat.gamesPlayed > 0 && (stat.minutesPerGame ?? 0) * stat.gamesPlayed >= minMinutes).map(stat => ({ stat, player: players.get(stat.playerId) })).filter(({stat,player}) => (!team || (player?.teamId ?? stat.teamId) === team) && (!query || [player?.name ?? stat.playerName ?? '',player?.chineseName ?? '',player?.teamAbbreviation ?? stat.teamAbbreviation ?? ''].some(value=>value.toLowerCase().includes(query.toLowerCase())))).sort((a,b)=>{const av=activeSort.value(a.stat),bv=activeSort.value(b.stat);if(av==null)return bv==null?0:1;if(bv==null)return -1;return (bv-av)*direction;});
   const rowsPage = rows.slice((page-1)*25,page*25);
   const exportCsv = () => {
     const quote = (value: unknown) => `"${String(value ?? '').replace(/"/g, '""')}"`;
     const header = [en?'Player':'球员',en?'Team':'球队',en?'Position':'位置',en?'Season':'赛季',en?'Season type':'赛段',...columns.map(column=>displayStatLabel(column.label,en))];
-    const body = rows.map(({stat,player})=>[player.name,player.teamAbbreviation,player.position,stat.season,stat.seasonType,...columns.map(column=>{const value=column.value(stat);return value==null?'':column.percent?(value*100).toFixed(1):value.toFixed(1);})]);
+    const body = rows.map(({stat,player})=>[player?.name ?? stat.playerName ?? stat.playerId,player?.teamAbbreviation ?? stat.teamAbbreviation ?? '',player?.position ?? '',stat.season,stat.seasonType,...columns.map(column=>{const value=column.value(stat);return value==null?'':column.percent?(value*100).toFixed(1):value.toFixed(1);})]);
     const csv = `\uFEFF${[header,...body].map(line=>line.map(quote).join(',')).join('\r\n')}`;
     const url = URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
     const anchor = document.createElement('a'); anchor.href=url; anchor.download=`nba-player-stats-${season}-${type}.csv`; anchor.click(); window.setTimeout(()=>URL.revokeObjectURL(url),1000);
@@ -112,13 +113,24 @@ export function NBAPlayerStatsPage() {
   const toggleSelection = (playerId: string) => setSelectedPlayerId(current=>current===playerId?null:playerId);
   const selectedPlayer=selectedPlayerId?data.players.find(player=>player.id===selectedPlayerId):undefined;
   const showDistribution=distributionOpen&&!distributionDismissed&&distributionColumn!=null;
-  const tableRows=rowsPage.map(({stat,player},index)=><tr key={stat.playerId+'-'+stat.seasonType} className={selectedPlayerId===player.id?'is-selected':''} aria-selected={selectedPlayerId===player.id} tabIndex={0} onClick={event=>{if((event.target as HTMLElement).closest('a,button'))return;toggleSelection(player.id);}} onKeyDown={event=>{if(event.target!==event.currentTarget)return;if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleSelection(player.id);}}}>
-    <td>{(page-1)*25+index+1}</td><td><PlayerLink player={player}/></td><td>{player.teamAbbreviation}</td><td>{player.position==='Unknown'&&!en?'未核验':player.position}</td>
+  const tableRows=rowsPage.map(({stat,player},index)=><tr key={stat.playerId+'-'+stat.seasonType} className={player&&selectedPlayerId===player.id?'is-selected':''} aria-selected={!!player&&selectedPlayerId===player.id} tabIndex={player?0:-1} onClick={event=>{if((event.target as HTMLElement).closest('a,button')||!player)return;toggleSelection(player.id);}} onKeyDown={event=>{if(event.target!==event.currentTarget||!player)return;if(event.key==='Enter'||event.key===' '){event.preventDefault();toggleSelection(player.id);}}}>
+    <td>{(page-1)*25+index+1}</td><td>{player?<PlayerLink player={player}/>:<strong>{stat.playerName ?? stat.playerId}</strong>}</td><td>{player?.teamAbbreviation ?? stat.teamAbbreviation ?? '—'}</td><td>{player?(player.position==='Unknown'&&!en?'未核验':player.position):(en?'—':'未核验')}</td>
     {columns.map(column=>{const value=column.value(stat);return <td key={column.label}><span className={`player-stat-value tone-${toneFor(column,value)}`}>{value==null?'—':column.percent?`${(value*100).toFixed(1)}%`:value.toFixed(1)}</span></td>;})}
   </tr>);
-  return <div className="player-stats-page"><PageHead eyebrow="NBA STATS · OFFICIAL" title={en?'NBA Player Stats':'NBA 球员统计榜'} description={en?'Official NBA Stats season leaders, sortable distribution, row selection and filtered CSV export.':'NBA Stats 官方赛季统计：支持场均、每36分钟和效率榜，并可排序、查看分布、选择球员与下载筛选结果。'} />
-    <section className="directory-toolbar player-stats-toolbar"><label className="field"><span>{en?'Season':'赛季'}</span><select value={season} onChange={e=>set('season',e.target.value)}>{data.seasons.map(value=><option key={value}>{value}</option>)}</select></label><label className="field"><span>{en?'Season type':'赛段'}</span><select value={type} onChange={e=>set('type',e.target.value)}><option value="regular">{en?'Regular season':'常规赛'}</option><option value="playoffs">{en?'Playoffs':'季后赛'}</option></select></label><label className="field"><span>{en?'Category':'统计口径'}</span><select value={category} onChange={e=>set('category',e.target.value)}><option value="perGame">{en?'Per game':'场均'}</option><option value="per36">{en?'Per 36 minutes':'每36分钟'}</option><option value="efficiency">{en?'Efficiency':'效率'}</option></select></label><label className="field"><span>{en?'Team':'球队'}</span><select value={team} onChange={e=>set('team',e.target.value)}><option value="">{en?'All teams':'全部球队'}</option>{data.teams.map(value=><option key={value.id} value={value.id}>{value.abbreviation}</option>)}</select></label><label className="field"><span><Search size={14}/>{en?'Search':'搜索球员'}</span><input value={query} onChange={e=>set('q',e.target.value)} placeholder={en?'Player / team':'姓名或球队'} /></label><label className="field"><span>{en?'Minimum season minutes':'最低赛季分钟'}</span><input type="number" min="0" value={minMinutes} onChange={e=>set('minMinutes',e.target.value)} /></label></section>
-    <section className="section table-section player-stats-section"><header className="player-stats-section-head"><div><h2>{en?`${season} Player Stats`:`NBA ${season} 赛季球员数据表`}</h2><p>{en?'Click a stat heading to sort and view its distribution. Select a row; select again to clear.':'点击数值列排序并切换分布指标；点击表格行选中球员，再次点击取消。'}</p><small>{rows.length} {en?'players':'位球员'} · NBA Stats API · {data.manifest.playerStatsSourceUpdatedAt?.slice(0,10)??data.updatedAt.slice(0,10)} · {data.manifest.status==='live'?'LIVE':en?'verified cache / stale':'已验证缓存 / 数据陈旧'}</small><small>{en?'Color indicates relative rank within current filters, not an overall grade.':'颜色仅表示当前筛选范围内的相对分位，不代表综合评分。'}</small></div><button className="player-stats-download" type="button" onClick={exportCsv}><Download size={16}/>{en?'Download CSV':'下载数据'}</button></header>
+  const isPbpSeason = season === data.manifest.playerStatsSeason && data.manifest.playerStatsSource === 'PBPStats';
+  const totals = isPbpSeason ? [
+    { label: en ? 'Season points' : '赛季总得分', field: 'pointsTotal' as const },
+    { label: en ? 'Season rebounds' : '赛季总篮板', field: 'reboundsTotal' as const },
+    { label: en ? 'Season assists' : '赛季总助攻', field: 'assistsTotal' as const },
+    { label: en ? 'Made threes' : '赛季三分命中', field: 'threePointersMadeTotal' as const },
+  ].map(({label,field}) => {
+    const leader = rows.reduce<(typeof rows)[number] | undefined>((best,row) => (row.stat[field] ?? -1) > (best?.stat[field] ?? -1) ? row : best, undefined);
+    return { label, value: leader?.stat[field], player: leader?.player?.name ?? leader?.stat.playerName ?? '—' };
+  }) : [];
+  return <div className="player-stats-page"><PageHead eyebrow="NBA STATS · PLAYER SEASON DATA" title={en?'NBA Player Stats':'NBA 球员统计榜'} description={en?'Season totals and per-game rates, sortable league distribution, team filters and CSV export.':'赛季累计与场均数据，支持效率榜、联盟分布、球队筛选和 CSV 导出。'} />
+    <section className="directory-toolbar player-stats-toolbar"><label className="field"><span>{en?'Season':'赛季'}</span><select value={season} onChange={e=>set('season',e.target.value)}>{playerSeasons.map(value=><option key={value}>{value}</option>)}</select></label><label className="field"><span>{en?'Season type':'赛段'}</span><select value={type} onChange={e=>set('type',e.target.value)}><option value="regular">{en?'Regular season':'常规赛'}</option><option value="playoffs">{en?'Playoffs':'季后赛'}</option></select></label><label className="field"><span>{en?'Category':'统计口径'}</span><select value={category} onChange={e=>set('category',e.target.value)}><option value="perGame">{en?'Per game':'场均'}</option><option value="per36">{en?'Per 36 minutes':'每36分钟'}</option><option value="efficiency">{en?'Efficiency':'效率'}</option></select></label><label className="field"><span>{en?'Team':'球队'}</span><select value={team} onChange={e=>set('team',e.target.value)}><option value="">{en?'All teams':'全部球队'}</option>{data.teams.map(value=><option key={value.id} value={value.id}>{value.abbreviation}</option>)}</select></label><label className="field"><span><Search size={14}/>{en?'Search':'搜索球员'}</span><input value={query} onChange={e=>set('q',e.target.value)} placeholder={en?'Player / team':'姓名或球队'} /></label><label className="field"><span>{en?'Minimum season minutes':'最低赛季分钟'}</span><input type="number" min="0" value={minMinutes} onChange={e=>set('minMinutes',e.target.value)} /></label></section>
+    {totals.length > 0 && <section className="season-total-grid" aria-label={en?'Season leaders':'赛季数据领跑者'}>{totals.map((item) => <article key={item.label}><span>{item.label}</span><strong>{item.value?.toLocaleString(en?'en-US':'zh-CN') ?? '—'}</strong><small>{item.player}</small></article>)}</section>}
+    <section className="section table-section player-stats-section"><header className="player-stats-section-head"><div><h2>{en?`${season} Player Stats`:`NBA ${season} 赛季球员数据表`}</h2><p>{en?'Click a stat heading to sort and view its distribution. Select a row; select again to clear.':'点击数值列排序并切换分布指标；点击表格行选中球员，再次点击取消。'}</p><small>{rows.length} {en?'players':'位球员'} · {isPbpSeason?'PBP Stats': 'NBA Stats API'} · {(isPbpSeason?data.manifest.playerStatsSeasonSourceUpdatedAt:data.manifest.playerStatsSourceUpdatedAt)?.slice(0,10)??data.updatedAt.slice(0,10)} · {en?'season feed':'赛季数据流'} {isPbpSeason && <a href="https://api.pbpstats.com/get-totals/nba?Season=2026-27&SeasonType=Regular%2BSeason&StartType=All&Type=Player" target="_blank" rel="noreferrer">{en?'Source ↗':'数据源 ↗'}</a>}</small><small>{en?'Color indicates relative rank within current filters, not an overall grade.':'颜色仅表示当前筛选范围内的相对分位，不代表综合评分。'} {isPbpSeason && (en?'TS% = points per shooting possession; eFG% credits the added value of threes; USG% estimates used possessions.':'TS% 综合衡量投篮与罚球得分效率；eFG% 体现三分额外价值；USG% 表示球员进攻回合使用占比。')}</small></div><button className="player-stats-download" type="button" onClick={exportCsv}><Download size={16}/>{en?'Download CSV':'下载数据'}</button></header>
       {selectedPlayer&&<div className="player-selection-note" role="status"><span>{en?'Selected':'已选球员'}：<PlayerLink player={selectedPlayer}/></span><button type="button" onClick={()=>setSelectedPlayerId(null)}>{en?'Clear':'取消选择'} <X size={14}/></button></div>}
       <div className={`player-stats-results${showDistribution?' has-distribution':''}`}>
         <div className="table-scroll player-stats-table-scroll"><table className="player-stats-table"><thead><tr><th>{en?'Rank':'排名'}</th><th>{en?'Player':'球员'}</th><th>{en?'Team':'球队'}</th><th>{en?'Position':'位置'}</th>{columns.map(column=><th key={column.label}><button className={`text-button${sort===column.label?' is-current':''}`} aria-pressed={sort===column.label} onClick={()=>sortBy(column)}>{displayStatLabel(column.label,en)}{sort===column.label?(direction===-1?' ↑':' ↓'):''}</button></th>)}</tr></thead><tbody>{tableRows}</tbody></table></div>
