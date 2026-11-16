@@ -1,14 +1,301 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-15T22:48:01.336594+00:00",
+  "updatedAt": "2026-11-16T06:28:44.708088+00:00",
   "articles": [
+    {
+      "id": "50498985",
+      "title": "Rockets hold Wizards' Trae Young scoreless for first time in his NBA career",
+      "summary": "The Rockets scored a season-high 147 points against the Wizards on Sunday in their win, during which they also held Trae Young scoreless for the first time in his NBA career.",
+      "url": "https://www.espn.com/nba/story/_/id/50498985/rockets-hold-wizards-trae-young-scoreless-first-nba-career",
+      "publishedAt": "2026-11-16T06:25:32+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746515_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Washington Wizards",
+        "Houston Rockets",
+        "Trae Young"
+      ]
+    },
+    {
+      "id": "50498894",
+      "title": "Spurs stretch winning streak to 12, hand Jazz 12th straight defeat",
+      "summary": "Dylan Harper had a game-high 31 points to keep the Spurs rolling with their 12th straight win while sending the Jazz to their 12th straight loss.",
+      "url": "https://www.espn.com/nba/story/_/id/50498894/spurs-stretch-winning-streak-12-hand-jazz-12th-straight-defeat",
+      "publishedAt": "2026-11-16T06:16:49+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746512_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Utah Jazz",
+        "San Antonio Spurs"
+      ]
+    },
+    {
+      "id": "47987750",
+      "title": "Which NBA players have the most triple-doubles of all time?",
+      "summary": "Russell Westbrook holds the NBA record for most triple-doubles in a career. See who else joins him on the list.",
+      "url": "https://www.espn.com/nba/story/_/id/47987750/which-nba-players-most-triple-doubles-all",
+      "publishedAt": "2026-11-16T05:57:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0220/r1617781_608x342_16-9.jpg",
+      "author": "Keith Jenkins",
+      "categories": [
+        "NBA",
+        "Nikola Jokic",
+        "Luka Doncic",
+        "LeBron James",
+        "James Harden",
+        "Giannis Antetokounmpo",
+        "Draymond Green",
+        "seo explainer"
+      ]
+    },
+    {
+      "id": "50498499",
+      "title": "Oklahoma City Thunder vs. Sacramento Kings: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. Sacramento Kings: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50498499/game-highlights",
+      "publishedAt": "2026-11-16T04:40:24+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/83698192-3da8-40d9-af9d-950c96158af9/83698192-3da8-40d9-af9d-950c96158af9.jpg",
+      "author": "",
+      "categories": [
+        "Darius Acuff Jr",
+        "Ajay Mitchell",
+        "Oklahoma City Thunder",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Shai Gilgeous-Alexander",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Oklahoma City Thunder @ Sacramento Kings"
+      ]
+    },
+    {
+      "id": "50498136",
+      "title": "Hawks send the Bucks to their 10th-straight loss",
+      "summary": "Hawks send the Bucks to their 10th-straight loss",
+      "url": "https://www.espn.com/video/clip/_/id/50498136/hawks-send-bucks-their-10th-straight-loss",
+      "publishedAt": "2026-11-16T03:47:37+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/88e42a7505e94cfd81b7f8b08c827df21367/88e42a7505e94cfd81b7f8b08c827df21367.jpg",
+      "author": "",
+      "categories": [
+        "Nickeil Alexander-Walker",
+        "Atlanta Hawks",
+        "Kasparas Jakucionis",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "CJ McCollum",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Atlanta Hawks @ Milwaukee Bucks"
+      ]
+    },
+    {
+      "id": "50497718",
+      "title": "Houston Rockets vs. Washington Wizards: Game Highlights",
+      "summary": "Houston Rockets vs. Washington Wizards: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50497718/game-highlights",
+      "publishedAt": "2026-11-16T02:51:15+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/19e34e64-04d7-46f8-be18-9173239bd32a/19e34e64-04d7-46f8-be18-9173239bd32a.jpg",
+      "author": "",
+      "categories": [
+        "Washington Wizards",
+        "Houston Rockets",
+        "Alex Sarr",
+        "SC4U - Full Highlight",
+        "Amen Thompson",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Houston Rockets @ Washington Wizards"
+      ]
+    },
+    {
+      "id": "50475653",
+      "title": "Inside the Jordan Dome, where 'Space Jam' pickup games helped MJ get his game back",
+      "summary": "Thirty years after \"Space Jam,\" those who shared the summer with Jordan remember the basketball that unfolded offscreen.",
+      "url": "https://www.espn.com/nba/story/_/id/50475653/revisit-jordan-dome-space-jam-30-year-anniversary",
+      "publishedAt": "2026-11-16T02:45:14+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1113/r1745424_2_608x342_16-9.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "UCLA Bruins",
+        "University of California at Los Angeles",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50496245",
+      "title": "Celtics set franchise mark with 42-9 lead over Mavericks after one quarter",
+      "summary": "The Celtics led the Mavericks 42-9 at the end of the first quarter Sunday, the largest scoring margin in a quarter since 1987.",
+      "url": "https://www.espn.com/nba/story/_/id/50496245/celtics-set-franchise-mark-42-9-lead-mavericks-one-quarter",
+      "publishedAt": "2026-11-16T02:40:40+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746430_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "news",
+        "Boston Celtics",
+        "Dallas Mavericks"
+      ]
+    },
+    {
+      "id": "50497484",
+      "title": "New York Knicks vs. Toronto Raptors: Game Highlights",
+      "summary": "New York Knicks vs. Toronto Raptors: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50497484/game-highlights",
+      "publishedAt": "2026-11-16T02:15:58+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/f80399c1-98e8-4c06-905f-1ece3a38b0bc/f80399c1-98e8-4c06-905f-1ece3a38b0bc.jpg",
+      "author": "",
+      "categories": [
+        "Karl-Anthony Towns",
+        "Toronto Raptors",
+        "New York Knicks",
+        "Jalen Brunson",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Scottie Barnes",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "New York Knicks @ Toronto Raptors"
+      ]
+    },
+    {
+      "id": "50497306",
+      "title": "Celtics set franchise record for largest lead at end of a first period vs. Mavs",
+      "summary": "Celtics set franchise record for largest lead at end of a first period vs. Mavs",
+      "url": "https://www.espn.com/video/clip/_/id/50497306/celtics-set-franchise-record-largest-lead-end-first-period-vs-mavs",
+      "publishedAt": "2026-11-16T01:52:52+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/ss_20261115_204818661_3744717/ss_20261115_204818661_3744717.jpg",
+      "author": "",
+      "categories": [
+        "Paul George",
+        "Jayson Tatum",
+        "Boston Celtics",
+        "Dallas Mavericks",
+        "Jordan Walsh",
+        "Sam Hauser",
+        "NBA",
+        "Derrick White",
+        "Neemias Queta",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "Team Boost",
+        "Dallas Mavericks @ Boston Celtics"
+      ]
+    },
+    {
+      "id": "50497271",
+      "title": "Matisse Thybulle stuffs the stat sheet for the Lakers",
+      "summary": "Matisse Thybulle puts on a defensive clinic in Los Angeles' win over Phoenix, posting 12 points, 8 rebounds, 3 steals and 2 blocks.",
+      "url": "https://www.espn.com/video/clip/_/id/50497271/matisse-thybulle-stuffs-stat-sheet-lakers",
+      "publishedAt": "2026-11-16T01:45:27+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/dm_261115_NBA_Highlight__Matisse_Thybulle_stuffs_the_stat_sheet_for_the_Lakers__20261116_PACRIM/dm_261115_NBA_Highlight__Matisse_Thybulle_stuffs_the_stat_sheet_for_the_Lakers__20261116_PACRIM.jpg",
+      "author": "",
+      "categories": [
+        "Los Angeles Lakers",
+        "NBA",
+        "Phoenix Suns",
+        "Los Angeles Lakers @ Phoenix Suns"
+      ]
+    },
+    {
+      "id": "50496592",
+      "title": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
+      "summary": "San Antonio Spurs vs. Utah Jazz: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50496592/game-highlights",
+      "publishedAt": "2026-11-16T00:36:49+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/8df0dd5d-51f5-4e6e-96ff-ea8fe46c398b/8df0dd5d-51f5-4e6e-96ff-ea8fe46c398b.jpg",
+      "author": "",
+      "categories": [
+        "Dylan Harper",
+        "Utah Jazz",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "Mo Bamba",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "San Antonio Spurs @ Utah Jazz"
+      ]
+    },
+    {
+      "id": "50496227",
+      "title": "Charlotte Hornets vs. LA Clippers: Game Highlights",
+      "summary": "Charlotte Hornets vs. LA Clippers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50496227/game-highlights",
+      "publishedAt": "2026-11-16T00:25:21+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/82b6d918-2c2c-473a-9bff-29835de34c47/82b6d918-2c2c-473a-9bff-29835de34c47.jpg",
+      "author": "",
+      "categories": [
+        "Moussa Diabate",
+        "Max Strus",
+        "SC4U - Full Highlight",
+        "Darius Garland",
+        "NBA",
+        "Coby White",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "LA Clippers",
+        "Charlotte Hornets",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Charlotte Hornets @ LA Clippers"
+      ]
+    },
+    {
+      "id": "50496112",
+      "title": "Los Angeles Lakers vs. Phoenix Suns: Game Highlights",
+      "summary": "Los Angeles Lakers vs. Phoenix Suns: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50496112/game-highlights",
+      "publishedAt": "2026-11-16T00:01:28+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1115/5fbafced-be06-420a-933e-0d097e1b13ef/5fbafced-be06-420a-933e-0d097e1b13ef.jpg",
+      "author": "",
+      "categories": [
+        "Collin Gillespie",
+        "Khaman Maluach",
+        "Phoenix Suns",
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Los Angeles Lakers @ Phoenix Suns"
+      ]
+    },
     {
       "id": "50493152",
       "title": "LeBron James dishes 11 assists in 76ers win, passing Kidd for third in NBA ranks",
       "summary": "LeBron James moved past Hall of Fame point guard Jason Kidd for third on the NBA's career assists list with 12,092.",
       "url": "https://www.espn.com/nba/story/_/id/50493152/lebron-james-passes-jason-kidd-nba-assists-list",
-      "publishedAt": "2026-11-15T22:43:02+00:00",
+      "publishedAt": "2026-11-15T22:58:36+00:00",
       "image": "https://a.espncdn.com/photo/2026/1115/r1746252_1296x729_16-9.jpg",
       "author": "Kris Rhim",
       "categories": [
@@ -41,22 +328,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Indiana Pacers @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50475653",
-      "title": "Inside the Jordan Dome, where 'Space Jam' pickup games helped MJ get his game back",
-      "summary": "Thirty years after \"Space Jam,\" those who shared the summer with Jordan remember the basketball that unfolded offscreen.",
-      "url": "https://www.espn.com/nba/story/_/id/50475653/revisit-jordan-dome-space-jam-30-year-anniversary",
-      "publishedAt": "2026-11-15T20:56:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1113/r1745424_2_608x342_16-9.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "NBA",
-        "Chicago Bulls",
-        "UCLA Bruins",
-        "University of California at Los Angeles",
-        "Anthony Gharib"
       ]
     },
     {
@@ -279,52 +550,6 @@
       ]
     },
     {
-      "id": "50477867",
-      "title": "Giannis Antetokounmpo, Bam Adebayo showcase Heat's potential in win vs. Cavs",
-      "summary": "Giannis Antetokounmpo and Bam Adebayo each scored 37 points to help the Heat top the Cavaliers for their sixth win in eight games.",
-      "url": "https://www.espn.com/nba/story/_/id/50477867/giannis-antetokounmpo-bam-adebayo-shine-heat-take-cavs",
-      "publishedAt": "2026-11-14T20:04:42+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1114/r1745581_600x400_3-2.jpg",
-      "author": "Cameron Wolfe",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "Giannis Antetokounmpo",
-        "Bam Adebayo"
-      ]
-    },
-    {
-      "id": "50478016",
-      "title": "Warriors' Yaxel Lendeborg (1-for-13) 'flustered' in blowout loss to Spurs",
-      "summary": "In his first game as the primary offensive engine in place of the injured Stephen Curry, Warriors rookie Yaxel Lendeborg went 1-of-13 shooting in a 123-85 blowout loss to the Spurs. \"I was flustered the entire game,\" he said. \"Couldn't make a damn layup.\"",
-      "url": "https://www.espn.com/nba/story/_/id/50478016/warriors-yaxel-lendeborg-struggles-blowout-loss-spurs-says-was-flustered-entire-game",
-      "publishedAt": "2026-11-14T19:23:28+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1114/r1745582_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "Yaxel Lendeborg",
-        "NBA",
-        "Golden State Warriors",
-        "San Antonio Spurs",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50478136",
-      "title": "Victor Wembanyama, Spurs open on 18-0 run, rout Warriors for 11th straight win",
-      "summary": "Victor Wembanyama and the Spurs pounced on the Warriors with an 18-0 opening run and went on to win 123-85.",
-      "url": "https://www.espn.com/nba/story/_/id/50478136/victor-wembanyama-spurs-rout-warriors-11th-straight-win",
-      "publishedAt": "2026-11-14T17:19:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1114/r1745584_600x400_3-2.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "Michael C. Wright"
-      ]
-    },
-    {
       "id": "50480388",
       "title": "Fantasy basketball adds and NBA bets: Fire up Fears, Bey on Saturday",
       "summary": "Jim McCormick breaks down Saturday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
@@ -377,136 +602,6 @@
         "news - nba g league",
         "Philadelphia 76ers",
         "Kalan Hooks"
-      ]
-    },
-    {
-      "id": "49577473",
-      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
-      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent wins from the Pacers and the Spurs.",
-      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
-      "publishedAt": "2026-11-14T06:29:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1114/r1745554_608x342_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "event",
-        "daily",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards"
-      ]
-    },
-    {
-      "id": "50477831",
-      "title": "Oklahoma City Thunder vs. LA Clippers: Game Highlights",
-      "summary": "Oklahoma City Thunder vs. LA Clippers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50477831/game-highlights",
-      "publishedAt": "2026-11-14T06:14:31+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/cea3cb10-f73a-400e-9411-f342a2ff6597/cea3cb10-f73a-400e-9411-f342a2ff6597.jpg",
-      "author": "",
-      "categories": [
-        "Keaton Wagler",
-        "Oklahoma City Thunder",
-        "Isaiah Hartenstein",
-        "SC4U - Full Highlight",
-        "Darius Garland",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "LA Clippers",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Oklahoma City Thunder @ LA Clippers"
-      ]
-    },
-    {
-      "id": "50477761",
-      "title": "G League's Keyshawn Bryant leapfrogs opponent for dunk-of-the-year contender",
-      "summary": "G League's Keyshawn Bryant leapfrogs opponent for dunk-of-the-year contender",
-      "url": "https://www.espn.com/video/clip/_/id/50477761/g-league-keyshawn-bryant-leapfrogs-opponent-dunk-year-contender",
-      "publishedAt": "2026-11-14T05:54:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1114/dm_261114_Watchfolder_Aqua_for_Copp_dunk_16x9/dm_261114_Watchfolder_Aqua_for_Copp_dunk_16x9.jpg",
-      "author": "",
-      "categories": [
-        "College Park Skyhawks",
-        "Keyshawn Bryant",
-        "League Boost",
-        "NBA",
-        "NBA G League"
-      ]
-    },
-    {
-      "id": "50477713",
-      "title": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
-      "summary": "Portland Trail Blazers vs. Sacramento Kings: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50477713/game-highlights",
-      "publishedAt": "2026-11-14T05:51:30+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/b686094b-5c53-4035-b4c4-7ebcb440b43e/b686094b-5c53-4035-b4c4-7ebcb440b43e.jpg",
-      "author": "",
-      "categories": [
-        "Deni Avdija",
-        "Portland Trail Blazers",
-        "Donovan Clingan",
-        "Domantas Sabonis",
-        "Damian Lillard",
-        "SC4U - Full Highlight",
-        "Sidy Cissoko",
-        "NBA",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Portland Trail Blazers @ Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50477468",
-      "title": "Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
-      "summary": "Alperen Sengun's 43-point double-double lifts Rockets over Jazz",
-      "url": "https://www.espn.com/video/clip/_/id/50477468/alperen-sengun-43-point-double-double-lifts-rockets-jazz",
-      "publishedAt": "2026-11-14T05:16:29+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1114/f1ed5e02-24f4-42d4-8fc4-6672c85917f0/f1ed5e02-24f4-42d4-8fc4-6672c85917f0.jpg",
-      "author": "",
-      "categories": [
-        "Utah Jazz",
-        "Houston Rockets",
-        "NBA",
-        "Alperen Sengun",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Team Boost",
-        "Utah Jazz @ Houston Rockets"
       ]
     }
   ]
