@@ -1,14 +1,151 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-17T03:53:15.433744+00:00",
+  "updatedAt": "2026-11-17T15:59:02.803211+00:00",
   "articles": [
+    {
+      "id": "50502518",
+      "title": "What the NBA's first month has revealed about all 30 teams",
+      "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams.",
+      "url": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+      "publishedAt": "2026-11-17T13:13:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/nba_30-teams_16x9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Cleveland Cavaliers",
+        "Denver Nuggets",
+        "Houston Rockets",
+        "San Antonio Spurs",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Dallas Mavericks",
+        "Golden State Warriors",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards",
+        "Atlanta Hawks",
+        "Detroit Pistons",
+        "NBA Draft",
+        "Ben Golliver"
+      ]
+    },
+    {
+      "id": "50503111",
+      "title": "The clock is ticking on Steph Curry's final act with the Warriors",
+      "summary": "At 38, Curry is still brilliant -- but managing his body has become the biggest battle of his career.",
+      "url": "https://www.espn.com/nba/story/_/id/50503111/steph-curry-warriors-race-injuries",
+      "publishedAt": "2026-11-17T12:04:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746718_608x342_16-9.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "Golden State Warriors",
+        "Stephen Curry",
+        "Yaxel Lendeborg",
+        "NBA",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50508305",
+      "title": "Jaylen Brown banged up but combines with Joel Embiid to lead 76ers past Nets",
+      "summary": "Joel Embiid (37 points) and Jaylen Brown (31) both turned in season highs Monday night as the 76ers beat the Nets with LeBron James sidelined to improve to 12-3.",
+      "url": "https://www.espn.com/nba/story/_/id/50508305/joel-embiid-jaylen-brown-combine-lead-76ers-nets-lebron-james-out",
+      "publishedAt": "2026-11-17T08:29:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1746989_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "LeBron James",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50508081",
+      "title": "Shannon carries Wolves with Edwards out, Ball struggling in show of versatility",
+      "summary": "The Timberwolves keep finding ways to win despite the absence of star Anthony Edwards, getting 34 points from Terrence Shannon Jr. in a win over the Blazers.",
+      "url": "https://www.espn.com/nba/story/_/id/50508081/shannon-carries-wolves-edwards-ball-struggling-show-depth",
+      "publishedAt": "2026-11-17T06:16:54+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1746984_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "news",
+        "NBA",
+        "Minnesota Timberwolves",
+        "Terrence Shannon Jr",
+        "LaMelo Ball",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50506501",
+      "title": "Lakers rule Austin Reaves, Walker Kessler out vs. Hornets",
+      "summary": "The Lakers will be without Austin Reaves (left heel bruise) and Walker Kessler (lower leg soreness) for Tuesday's game against the Hornets.",
+      "url": "https://www.espn.com/nba/story/_/id/50506501/lakers-rule-austin-reaves-walker-kessler-vs-hornets",
+      "publishedAt": "2026-11-17T05:04:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1746936_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Los Angeles Lakers",
+        "Austin Reaves",
+        "Walker Kessler",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50507879",
+      "title": "Phoenix Suns vs. Denver Nuggets: Game Highlights",
+      "summary": "Phoenix Suns vs. Denver Nuggets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50507879/game-highlights",
+      "publishedAt": "2026-11-17T04:59:38+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/35506235-e5cf-4811-81a5-5c29fb9b245a/35506235-e5cf-4811-81a5-5c29fb9b245a.jpg",
+      "author": "",
+      "categories": [
+        "Jamal Murray",
+        "Miles Bridges",
+        "Phoenix Suns",
+        "Denver Nuggets",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Nikola Jokic",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Devin Booker",
+        "Dillon Brooks",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Phoenix Suns @ Denver Nuggets"
+      ]
+    },
     {
       "id": "50507278",
       "title": "Heat pull Bam Adebayo (hip) early in win, don't expect long-term issue",
       "summary": "Heat star Bam Adebayo did not play in the second half of Monday's win over the Rockets due to hip tightness, but the team doesn't expect a long-term issue.",
       "url": "https://www.espn.com/nba/story/_/id/50507278/heat-star-bam-adebayo-exits-win-early-hip-tightness",
-      "publishedAt": "2026-11-17T03:51:57+00:00",
+      "publishedAt": "2026-11-17T04:11:56+00:00",
       "image": "https://a.espncdn.com/photo/2026/1117/r1746973_600x400_3-2.jpg",
       "author": "Cameron Wolfe",
       "categories": [
@@ -205,23 +342,6 @@
       ]
     },
     {
-      "id": "50506501",
-      "title": "Lakers rule Austin Reaves, Walker Kessler out vs. Hornets",
-      "summary": "The Lakers will be without Austin Reaves (left heel bruise) and Walker Kessler (right lower leg bruise) for Tuesday's game against the Hornets.",
-      "url": "https://www.espn.com/nba/story/_/id/50506501/lakers-rule-austin-reaves-walker-kessler-vs-hornets",
-      "publishedAt": "2026-11-17T01:40:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1746936_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "Austin Reaves",
-        "Walker Kessler",
-        "Dave McMenamin"
-      ]
-    },
-    {
       "id": "50505177",
       "title": "Cavaliers' Evan Mobley sidelined another 7-10 days with sprained toe",
       "summary": "Cavaliers forward Evan Mobley will miss at least another seven to 10 days while he recovers from a sprained right great toe.",
@@ -382,189 +502,6 @@
         "nba free agency",
         "nba trade deadline",
         "Bobby Marks"
-      ]
-    },
-    {
-      "id": "50498985",
-      "title": "Rockets hold Wizards' Trae Young scoreless for first time in his NBA career",
-      "summary": "The Rockets scored a season-high 147 points against the Wizards on Sunday in their win, during which they also held Trae Young scoreless for the first time in his NBA career.",
-      "url": "https://www.espn.com/nba/story/_/id/50498985/rockets-hold-wizards-trae-young-scoreless-first-nba-career",
-      "publishedAt": "2026-11-16T06:37:25+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1116/r1746515_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Washington Wizards",
-        "Houston Rockets",
-        "Trae Young"
-      ]
-    },
-    {
-      "id": "50498894",
-      "title": "Spurs stretch winning streak to 12, hand Jazz 12th straight defeat",
-      "summary": "Dylan Harper had a game-high 31 points to keep the Spurs rolling with their 12th straight win while sending the Jazz to their 12th straight loss.",
-      "url": "https://www.espn.com/nba/story/_/id/50498894/spurs-stretch-winning-streak-12-hand-jazz-12th-straight-defeat",
-      "publishedAt": "2026-11-16T06:34:56+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1116/r1746512_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Utah Jazz",
-        "San Antonio Spurs"
-      ]
-    },
-    {
-      "id": "47987750",
-      "title": "Which NBA players have the most triple-doubles of all time?",
-      "summary": "Russell Westbrook holds the NBA record for most triple-doubles in a career. See who else joins him on the list.",
-      "url": "https://www.espn.com/nba/story/_/id/47987750/which-nba-players-most-triple-doubles-all",
-      "publishedAt": "2026-11-16T05:57:58+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0220/r1617781_608x342_16-9.jpg",
-      "author": "Keith Jenkins",
-      "categories": [
-        "NBA",
-        "Nikola Jokic",
-        "Luka Doncic",
-        "LeBron James",
-        "James Harden",
-        "Giannis Antetokounmpo",
-        "Draymond Green",
-        "seo explainer"
-      ]
-    },
-    {
-      "id": "50498499",
-      "title": "Oklahoma City Thunder vs. Sacramento Kings: Game Highlights",
-      "summary": "Oklahoma City Thunder vs. Sacramento Kings: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50498499/game-highlights",
-      "publishedAt": "2026-11-16T04:40:24+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/83698192-3da8-40d9-af9d-950c96158af9/83698192-3da8-40d9-af9d-950c96158af9.jpg",
-      "author": "",
-      "categories": [
-        "Darius Acuff Jr",
-        "Ajay Mitchell",
-        "Oklahoma City Thunder",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Oklahoma City Thunder @ Sacramento Kings"
-      ]
-    },
-    {
-      "id": "50498136",
-      "title": "Hawks send the Bucks to their 10th-straight loss",
-      "summary": "Hawks send the Bucks to their 10th-straight loss",
-      "url": "https://www.espn.com/video/clip/_/id/50498136/hawks-send-bucks-their-10th-straight-loss",
-      "publishedAt": "2026-11-16T03:47:37+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/88e42a7505e94cfd81b7f8b08c827df21367/88e42a7505e94cfd81b7f8b08c827df21367.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Atlanta Hawks",
-        "Kasparas Jakucionis",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "CJ McCollum",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50497718",
-      "title": "Houston Rockets vs. Washington Wizards: Game Highlights",
-      "summary": "Houston Rockets vs. Washington Wizards: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50497718/game-highlights",
-      "publishedAt": "2026-11-16T02:51:15+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/19e34e64-04d7-46f8-be18-9173239bd32a/19e34e64-04d7-46f8-be18-9173239bd32a.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Houston Rockets",
-        "Alex Sarr",
-        "SC4U - Full Highlight",
-        "Amen Thompson",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Washington Wizards"
-      ]
-    },
-    {
-      "id": "50497484",
-      "title": "New York Knicks vs. Toronto Raptors: Game Highlights",
-      "summary": "New York Knicks vs. Toronto Raptors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50497484/game-highlights",
-      "publishedAt": "2026-11-16T02:15:58+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1116/f80399c1-98e8-4c06-905f-1ece3a38b0bc/f80399c1-98e8-4c06-905f-1ece3a38b0bc.jpg",
-      "author": "",
-      "categories": [
-        "Karl-Anthony Towns",
-        "Toronto Raptors",
-        "New York Knicks",
-        "Jalen Brunson",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Scottie Barnes",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New York Knicks @ Toronto Raptors"
-      ]
-    },
-    {
-      "id": "50497306",
-      "title": "Celtics set franchise record for largest lead at end of a first period vs. Mavs",
-      "summary": "Celtics set franchise record for largest lead at end of a first period vs. Mavs",
-      "url": "https://www.espn.com/video/clip/_/id/50497306/celtics-set-franchise-record-largest-lead-end-first-period-vs-mavs",
-      "publishedAt": "2026-11-16T01:52:52+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/ss_20261115_204818661_3744717/ss_20261115_204818661_3744717.jpg",
-      "author": "",
-      "categories": [
-        "Paul George",
-        "Jayson Tatum",
-        "Boston Celtics",
-        "Dallas Mavericks",
-        "Jordan Walsh",
-        "Sam Hauser",
-        "NBA",
-        "Derrick White",
-        "Neemias Queta",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "SC4U  - Eligible",
-        "SC4U - Full Highlight",
-        "Team Boost",
-        "Dallas Mavericks @ Boston Celtics"
-      ]
-    },
-    {
-      "id": "50497271",
-      "title": "Matisse Thybulle stuffs the stat sheet for the Lakers",
-      "summary": "Matisse Thybulle puts on a defensive clinic in Los Angeles' win over Phoenix, posting 12 points, 8 rebounds, 3 steals and 2 blocks.",
-      "url": "https://www.espn.com/video/clip/_/id/50497271/matisse-thybulle-stuffs-stat-sheet-lakers",
-      "publishedAt": "2026-11-16T01:45:27+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1115/dm_261115_NBA_Highlight__Matisse_Thybulle_stuffs_the_stat_sheet_for_the_Lakers__20261116_PACRIM/dm_261115_NBA_Highlight__Matisse_Thybulle_stuffs_the_stat_sheet_for_the_Lakers__20261116_PACRIM.jpg",
-      "author": "",
-      "categories": [
-        "Los Angeles Lakers",
-        "NBA",
-        "Phoenix Suns",
-        "Los Angeles Lakers @ Phoenix Suns"
       ]
     }
   ]
