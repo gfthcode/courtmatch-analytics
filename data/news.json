@@ -1,14 +1,202 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-17T15:59:02.803211+00:00",
+  "updatedAt": "2026-11-18T00:57:09.144974+00:00",
   "articles": [
+    {
+      "id": "50515349",
+      "title": "Trail Blazers rule star Deni Avdija out vs. Timberwolves with sore foot",
+      "summary": "The Trail Blazers ruled out star Deni Avdija for Tuesday night's game against the Timberwolves due to a sore left foot.",
+      "url": "https://www.espn.com/nba/story/_/id/50515349/blazers-rule-star-deni-avdija-vs-wolves-sore-foot",
+      "publishedAt": "2026-11-18T00:55:23+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747379_600x400_3-2.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "news",
+        "NBA",
+        "Portland Trail Blazers",
+        "Minnesota Timberwolves",
+        "Deni Avdija",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50513416",
+      "title": "Terry Rozier co-defendant signals intent to change plea in NBA betting case",
+      "summary": "Deniro Laster, a co-defendant in the federal sports betting case involving NBA player Terry Rozier, has signaled his intent to plead guilty.",
+      "url": "https://www.espn.com/nba/story/_/id/50513416/deniro-laster-terry-rozier-friend-change-plea-nba-betting",
+      "publishedAt": "2026-11-18T00:52:22+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1747306_1296x729_16-9.jpg",
+      "author": "Tom Schad",
+      "categories": [
+        "news",
+        "news - nba",
+        "news – sports betting",
+        "NBA",
+        "Terry Rozier",
+        "Tom Schad"
+      ]
+    },
+    {
+      "id": "50514699",
+      "title": "76ers' LeBron James sues makers of AI sports-betting app 'Bron'",
+      "summary": "NBA superstar LeBron James sued the makers of an AI sports-betting app Tuesday, saying they have deliberately violated his publicity rights and trademarks by calling it \"Bron\" and using artificially generated images of him in their marketing.",
+      "url": "https://www.espn.com/nba/story/_/id/50514699/76ers-lebron-james-sues-makers-ai-sports-betting-app-bron",
+      "publishedAt": "2026-11-18T00:46:27+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1747324_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "LeBron James",
+        "NBA",
+        "Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50085674",
+      "title": "Miami Heat unveil 'A Night in Vice City' court, activities ahead of GTA VI release",
+      "summary": "With Grand Theft Auto VI's long-awaited release date Thursday, the Heat are partnering with Rockstar Games to offer a topical lead-up event the night before.",
+      "url": "https://www.espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game",
+      "publishedAt": "2026-11-18T00:19:35+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1002/r1725012_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50514320",
+      "title": "76ers' Jaylen Brown (hamstring) to miss Wednesday's game vs. Magic",
+      "summary": "Philadelphia 76ers forward Jaylen Brown will miss Wednesday's game against the Orlando Magic with a left hamstring strain, the Sixers announced Tuesday afternoon.",
+      "url": "https://www.espn.com/nba/story/_/id/50514320/76ers-brown-hamstring-miss-wednesday-game-vs-magic",
+      "publishedAt": "2026-11-17T23:40:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1027/r1736831_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Jaylen Brown",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50514496",
+      "title": "Raptors say Kawhi Leonard progressing but out at least another week",
+      "summary": "The Raptors said Tuesday that while Kawhi Leonard is progressing in his recovery from left knee swelling, he will remain out for at least another week.",
+      "url": "https://www.espn.com/nba/story/_/id/50514496/raptors-kawhi-leonard-progressing-another-week",
+      "publishedAt": "2026-11-17T23:23:13+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Toronto Raptors",
+        "Kawhi Leonard"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-17T22:29:08+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50513506",
+      "title": "Hawks lose guard CJ McCollum for at least 4 weeks with calf strain",
+      "summary": "Atlanta Hawks guard CJ McCollum will miss at least four weeks with a left calf strain, the team announced Tuesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50513506/hawks-lose-cj-mccollum-least-4-weeks-calf-strain",
+      "publishedAt": "2026-11-17T21:43:09+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0501/r1651721_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Atlanta Hawks",
+        "CJ McCollum",
+        "Asa Newell"
+      ]
+    },
+    {
+      "id": "50513477",
+      "title": "Why Perk credits Klay Thompson for the Heat's recent surge",
+      "summary": "Why Perk credits Klay Thompson for the Heat's recent surge",
+      "url": "https://www.espn.com/video/clip/_/id/50513477/why-perk-credits-klay-thompson-heat-recent-surge",
+      "publishedAt": "2026-11-17T21:30:01+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1117/ss_20261117_162231762_3746548/ss_20261117_162231762_3746548.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Klay Thompson",
+        "2 Star Rating",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50513461",
+      "title": "Perk: Warriors cannot waste Steph's 'greatness'",
+      "summary": "Perk: Warriors cannot waste Steph's 'greatness'",
+      "url": "https://www.espn.com/video/clip/_/id/50513461/warriors-cannot-waste-steph-greatness",
+      "publishedAt": "2026-11-17T21:25:45+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1117/ss_20261117_161820272_3746546/ss_20261117_161820272_3746546.jpg",
+      "author": "",
+      "categories": [
+        "2 Star Rating",
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "NBA Today",
+        "Kendrick Perkins",
+        "Verts - Exclude Content"
+      ]
+    },
+    {
+      "id": "50511865",
+      "title": "Fantasy basketball adds and NBA bets: Ride with Doncic and Grimes on Tuesday",
+      "summary": "Eric Moody breaks down Tuesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50511865/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-17T20:54:34+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1747140_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Kris Dunn",
+        "Quentin Grimes",
+        "Mo Bamba",
+        "Derrick Jones Jr",
+        "Kevin Huerter",
+        "Landry Shamet",
+        "Terrence Shannon Jr",
+        "Luka Doncic"
+      ]
+    },
     {
       "id": "50502518",
       "title": "What the NBA's first month has revealed about all 30 teams",
       "summary": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams.",
       "url": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
-      "publishedAt": "2026-11-17T13:13:34+00:00",
+      "publishedAt": "2026-11-17T20:07:30+00:00",
       "image": "https://a.espncdn.com/photo/2026/1116/nba_30-teams_16x9.jpg",
       "author": "Ben Golliver",
       "categories": [
@@ -48,11 +236,51 @@
       ]
     },
     {
+      "id": "50512244",
+      "title": "Fantasy notebook: Karabell on Walker Kessler, Joel Embiid, Davion Mitchell, more",
+      "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50512244/fantasy-basketball-trends-nba-2026-2027",
+      "publishedAt": "2026-11-17T18:52:57+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1747171_1296x729_16-9.jpg",
+      "author": "Eric Karabell",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Klay Thompson",
+        "Walker Kessler",
+        "Joel Embiid",
+        "Davion Mitchell",
+        "Dejounte Murray",
+        "Mo Bamba",
+        "Isaiah Hartenstein",
+        "Eric Karabell"
+      ]
+    },
+    {
+      "id": "50512067",
+      "title": "Pistons' Duncan Robinson (quad), Ron Holland II (knee) out vs. Spurs",
+      "summary": "The Pistons will be without guard Duncan Robinson and forward Ronald Holland II against the Spurs on Tuesday night because of injuries.",
+      "url": "https://www.espn.com/nba/story/_/id/50512067/pistons-robinson-quad-holland-knee-tuesday-vs-spurs",
+      "publishedAt": "2026-11-17T18:04:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1747153_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Detroit Pistons",
+        "Duncan Robinson",
+        "Ronald Holland II"
+      ]
+    },
+    {
       "id": "50503111",
       "title": "The clock is ticking on Steph Curry's final act with the Warriors",
       "summary": "At 38, Curry is still brilliant -- but managing his body has become the biggest battle of his career.",
       "url": "https://www.espn.com/nba/story/_/id/50503111/steph-curry-warriors-race-injuries",
-      "publishedAt": "2026-11-17T12:04:58+00:00",
+      "publishedAt": "2026-11-17T16:58:52+00:00",
       "image": "https://a.espncdn.com/photo/2026/1116/r1746718_608x342_16-9.jpg",
       "author": "Anthony Slater",
       "categories": [
@@ -357,26 +585,6 @@
       ]
     },
     {
-      "id": "50490202",
-      "title": "What's working -- and not working -- for LeBron James, Philadelphia 76ers",
-      "summary": "We talked to several coaches, executives and scouts about the 11-3 Sixers in an attempt to get a consensus opinion on their start.",
-      "url": "https://www.espn.com/nba/story/_/id/50490202/lebron-76ers-start-execs-big-questions",
-      "publishedAt": "2026-11-16T20:11:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1746063_608x342_16-9.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Tyrese Maxey",
-        "Joel Embiid",
-        "VJ Edgecombe",
-        "Jaylen Brown",
-        "nba trade deadline",
-        "Dave McMenamin"
-      ]
-    },
-    {
       "id": "50503255",
       "title": "76ers star LeBron James ruled out vs. Nets due to lower back management",
       "summary": "LeBron James will miss Monday's game against the Nets as the 76ers continue to manage his lower back.",
@@ -429,79 +637,6 @@
         "Josh Minott",
         "Chicago Bulls",
         "Brooklyn Nets"
-      ]
-    },
-    {
-      "id": "50502739",
-      "title": "Grizzlies' GG Jackson to miss time with left foot fracture",
-      "summary": "Grizzlies reserve GG Jackson will miss time after breaking a bone in his left foot. He is scheduled to have surgery on the injury.",
-      "url": "https://www.espn.com/nba/story/_/id/50502739/grizzlies-gg-jackson-miss-left-foot-fracture",
-      "publishedAt": "2026-11-16T17:54:25+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1116/r1746686_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Memphis Grizzlies",
-        "news",
-        "GG Jackson"
-      ]
-    },
-    {
-      "id": "50502266",
-      "title": "Fantasy risers and fallers: Pelicans' Fears provides hope; Harden's numbers down",
-      "summary": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50502266/fantasy-basketball-risers-fallers-keep-cut-add-today",
-      "publishedAt": "2026-11-16T17:49:29+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1116/r1746670_1296x729_16-9.jpg",
-      "author": "Steve Alexander",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "James Harden",
-        "Jeremiah Fears",
-        "Mikal Bridges",
-        "Trey Murphy III",
-        "Daniss Jenkins",
-        "Sandro Mamukelashvili",
-        "Aday Mara",
-        "Klay Thompson",
-        "Ausar Thompson",
-        "Steve Alexander"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-16T17:21:45+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50458796",
-      "title": "NBA transaction glossary: Trade, free agency, extension, CBA terms to know",
-      "summary": "The world of NBA transactions is often difficult to decipher. Our resident GM is here to help.﻿",
-      "url": "https://www.espn.com/nba/story/_/id/50458796/trades-free-agency-draft-apron-cba",
-      "publishedAt": "2026-11-16T16:37:29+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0724/nba_fact-or-fiction2_16x9_1296x729.jpg",
-      "author": "Bobby Marks",
-      "categories": [
-        "NBA",
-        "NBA Draft",
-        "nba free agency",
-        "nba trade deadline",
-        "Bobby Marks"
       ]
     }
   ]
