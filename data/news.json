@@ -1,8 +1,220 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-18T00:57:09.144974+00:00",
+  "updatedAt": "2026-11-18T11:41:06.633616+00:00",
   "articles": [
+    {
+      "id": "50519611",
+      "title": "'I was too open': Lakers' Quentin Grimes nails game-winner vs. Hornets",
+      "summary": "After Quentin Grimes had already singlehandedly outscored the Hornets 18-17 in the fourth quarter, he hit the game-winning 3 in the final three seconds.",
+      "url": "https://www.espn.com/nba/story/_/id/50519611/los-angeles-lakers-guard-quentin-grimes-nails-game-winner-vs-charlotte-hornets",
+      "publishedAt": "2026-11-18T11:16:55+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747544_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Los Angeles Lakers",
+        "Charlotte Hornets",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50518350",
+      "title": "Charlotte Hornets vs. Los Angeles Lakers: Game Highlights",
+      "summary": "Charlotte Hornets vs. Los Angeles Lakers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50518350/game-highlights",
+      "publishedAt": "2026-11-18T07:36:03+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1118/b6e50ced59314a3b952141a0c5f8e21e154/b6e50ced59314a3b952141a0c5f8e21e154.jpg",
+      "author": "",
+      "categories": [
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "NBA",
+        "Coby White",
+        "Matisse Thybulle",
+        "Charlotte Hornets",
+        "Quentin Grimes",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U - Full Highlight",
+        "SC4U  - Eligible",
+        "Charlotte Hornets @ Los Angeles Lakers"
+      ]
+    },
+    {
+      "id": "50518136",
+      "title": "Kansas' Tyran Stokes to undergo MRI after early exit vs. UNLV",
+      "summary": "Kansas freshman Tyran Stokes, the projected No. 1 pick in the 2027 NBA draft, left Tuesday's win at UNLV early in the second half.",
+      "url": "https://www.espn.com/mens-college-basketball/story/_/id/50518136/kansas-tyran-stokes-mri-leg-injury-early-exit-unlv",
+      "publishedAt": "2026-11-18T07:32:04+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747511_600x400_3-2.jpg",
+      "author": "Jeff Borzello",
+      "categories": [
+        "news",
+        "NCAA Men's Basketball",
+        "Kansas Jayhawks",
+        "University of Kansas",
+        "Tyran Stokes",
+        "NBA Draft",
+        "NBA",
+        "Jeff Borzello"
+      ]
+    },
+    {
+      "id": "50085674",
+      "title": "Miami Heat unveil 'A Night in Vice City' court, activities ahead of GTA VI release",
+      "summary": "With Grand Theft Auto VI's long-awaited release date Thursday, the Heat are partnering with Rockstar Games to offer a topical lead-up event the night before.",
+      "url": "https://www.espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game",
+      "publishedAt": "2026-11-18T06:53:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1002/r1725012_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50518068",
+      "title": "Utah Jazz vs. LA Clippers: Game Highlights",
+      "summary": "Utah Jazz vs. LA Clippers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50518068/game-highlights",
+      "publishedAt": "2026-11-18T06:07:57+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/e5340672-2fc3-4430-a55e-16ab2b73743c/e5340672-2fc3-4430-a55e-16ab2b73743c.jpg",
+      "author": "",
+      "categories": [
+        "Svi Mykhailiuk",
+        "Utah Jazz",
+        "Mo Bamba",
+        "Brice Sensabaugh",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Brook Lopez",
+        "SC4U  - Eligible",
+        "LA Clippers",
+        "Josh Okogie",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Utah Jazz @ LA Clippers"
+      ]
+    },
+    {
+      "id": "50517203",
+      "title": "Spurs guard Dylan Harper limps off in pain after slip on court",
+      "summary": "Spurs second-year guard Dylan Harper limped off in pain after appearing to slip on the court late in Tuesday's loss to the Pistons.",
+      "url": "https://www.espn.com/nba/story/_/id/50517203/spurs-dylan-harper-limps-pain-slip-court",
+      "publishedAt": "2026-11-18T05:02:07+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747478_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "news",
+        "NBA",
+        "San Antonio Spurs",
+        "Dylan Harper",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50517393",
+      "title": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
+      "summary": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50517393/game-highlights",
+      "publishedAt": "2026-11-18T04:19:23+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/0f9bcacd-c83f-49b2-8ac0-f2c4eddccca4/0f9bcacd-c83f-49b2-8ac0-f2c4eddccca4.jpg",
+      "author": "",
+      "categories": [
+        "Portland Trail Blazers",
+        "Damian Lillard",
+        "Minnesota Timberwolves",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Jaden McDaniels",
+        "SC4U  - Eligible",
+        "Ayo Dosunmu",
+        "Toumani Camara",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Portland Trail Blazers @ Minnesota Timberwolves"
+      ]
+    },
+    {
+      "id": "50507562",
+      "title": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
+      "summary": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50507562/game-highlights",
+      "publishedAt": "2026-11-18T04:14:02+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/62ad5440-ccd5-4496-8795-9fa9ee5e72ac/62ad5440-ccd5-4496-8795-9fa9ee5e72ac.jpg",
+      "author": "",
+      "categories": [
+        "Deni Avdija",
+        "Rudy Gobert",
+        "Portland Trail Blazers",
+        "Minnesota Timberwolves",
+        "SC4U - Full Highlight",
+        "Terrence Shannon Jr",
+        "NBA",
+        "Jaden McDaniels",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Portland Trail Blazers @ Minnesota Timberwolves"
+      ]
+    },
+    {
+      "id": "50517178",
+      "title": "Detroit Pistons vs. San Antonio Spurs: Game Highlights",
+      "summary": "Detroit Pistons vs. San Antonio Spurs: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50517178/game-highlights",
+      "publishedAt": "2026-11-18T04:00:31+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/b32a508f-53ea-49a7-87d1-7f5a19b3dba7/b32a508f-53ea-49a7-87d1-7f5a19b3dba7.jpg",
+      "author": "",
+      "categories": [
+        "Dylan Harper",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "Detroit Pistons",
+        "NBA",
+        "Cade Cunningham",
+        "Ausar Thompson",
+        "Daniss Jenkins",
+        "nba highlight",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "Detroit Pistons @ San Antonio Spurs"
+      ]
+    },
+    {
+      "id": "50516726",
+      "title": "New York Knicks vs. Toronto Raptors: Game Highlights",
+      "summary": "New York Knicks vs. Toronto Raptors: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50516726/game-highlights",
+      "publishedAt": "2026-11-18T03:09:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1118/4f45d450-f247-4a64-a035-5ef328b8ea53/4f45d450-f247-4a64-a035-5ef328b8ea53.jpg",
+      "author": "",
+      "categories": [
+        "OG Anunoby",
+        "Toronto Raptors",
+        "New York Knicks",
+        "Jalen Brunson",
+        "SC4U - Full Highlight",
+        "Ja'Kobe Walter",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "New York Knicks @ Toronto Raptors"
+      ]
+    },
     {
       "id": "50515349",
       "title": "Trail Blazers rule star Deni Avdija out vs. Timberwolves with sore foot",
@@ -49,20 +261,6 @@
         "LeBron James",
         "NBA",
         "Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50085674",
-      "title": "Miami Heat unveil 'A Night in Vice City' court, activities ahead of GTA VI release",
-      "summary": "With Grand Theft Auto VI's long-awaited release date Thursday, the Heat are partnering with Rockstar Games to offer a topical lead-up event the night before.",
-      "url": "https://www.espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game",
-      "publishedAt": "2026-11-18T00:19:35+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1002/r1725012_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -326,23 +524,6 @@
       ]
     },
     {
-      "id": "50506501",
-      "title": "Lakers rule Austin Reaves, Walker Kessler out vs. Hornets",
-      "summary": "The Lakers will be without Austin Reaves (left heel bruise) and Walker Kessler (lower leg soreness) for Tuesday's game against the Hornets.",
-      "url": "https://www.espn.com/nba/story/_/id/50506501/lakers-rule-austin-reaves-walker-kessler-vs-hornets",
-      "publishedAt": "2026-11-17T05:04:53+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1746936_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "Austin Reaves",
-        "Walker Kessler",
-        "Dave McMenamin"
-      ]
-    },
-    {
       "id": "50507879",
       "title": "Phoenix Suns vs. Denver Nuggets: Game Highlights",
       "summary": "Phoenix Suns vs. Denver Nuggets: Game Highlights",
@@ -421,31 +602,6 @@
       ]
     },
     {
-      "id": "50507562",
-      "title": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507562/game-highlights",
-      "publishedAt": "2026-11-17T03:44:28+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/62ad5440-ccd5-4496-8795-9fa9ee5e72ac/62ad5440-ccd5-4496-8795-9fa9ee5e72ac.jpg",
-      "author": "",
-      "categories": [
-        "Deni Avdija",
-        "Rudy Gobert",
-        "Portland Trail Blazers",
-        "Minnesota Timberwolves",
-        "SC4U - Full Highlight",
-        "Terrence Shannon Jr",
-        "NBA",
-        "Jaden McDaniels",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Portland Trail Blazers @ Minnesota Timberwolves"
-      ]
-    },
-    {
       "id": "50507462",
       "title": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
       "summary": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
@@ -516,127 +672,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Orlando Magic @ Boston Celtics"
-      ]
-    },
-    {
-      "id": "50507209",
-      "title": "Chicago Bulls vs. Cleveland Cavaliers: Game Highlights",
-      "summary": "Chicago Bulls vs. Cleveland Cavaliers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507209/game-highlights",
-      "publishedAt": "2026-11-17T02:45:58+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/231d4c31-c9ed-424d-b73a-76a262554150/231d4c31-c9ed-424d-b73a-76a262554150.jpg",
-      "author": "",
-      "categories": [
-        "Donovan Mitchell",
-        "SC4U - Full Highlight",
-        "Cleveland Cavaliers",
-        "Chicago Bulls",
-        "NBA",
-        "Jalen Smith",
-        "SC4U  - Eligible",
-        "Norman Powell",
-        "Josh Giddey",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Chicago Bulls @ Cleveland Cavaliers"
-      ]
-    },
-    {
-      "id": "50507145",
-      "title": "Memphis Grizzlies vs. Washington Wizards: Game Highlights",
-      "summary": "Memphis Grizzlies vs. Washington Wizards: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507145/game-highlights",
-      "publishedAt": "2026-11-17T02:41:39+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/3f5c035a-c04e-4507-acc7-4f95ab1020e9/3f5c035a-c04e-4507-acc7-4f95ab1020e9.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Trae Young",
-        "Alex Sarr",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "3 Star Rating",
-        "Cameron Boozer",
-        "SC4U  - Eligible",
-        "Anthony Davis",
-        "Cam Spencer",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Memphis Grizzlies @ Washington Wizards"
-      ]
-    },
-    {
-      "id": "50505177",
-      "title": "Cavaliers' Evan Mobley sidelined another 7-10 days with sprained toe",
-      "summary": "Cavaliers forward Evan Mobley will miss at least another seven to 10 days while he recovers from a sprained right great toe.",
-      "url": "https://www.espn.com/nba/story/_/id/50505177/evan-mobley-sidelined-another-7-10-days-sprained-toe",
-      "publishedAt": "2026-11-16T22:25:27+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1116/r1746870_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "Evan Mobley",
-        "Cleveland Cavaliers",
-        "NBA"
-      ]
-    },
-    {
-      "id": "50503255",
-      "title": "76ers star LeBron James ruled out vs. Nets due to lower back management",
-      "summary": "LeBron James will miss Monday's game against the Nets as the 76ers continue to manage his lower back.",
-      "url": "https://www.espn.com/nba/story/_/id/50503255/lebron-james-ruled-vs-nets-due-lower-back-management",
-      "publishedAt": "2026-11-16T18:53:06+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1115/r1746252_1296x729_16-9.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Joel Embiid",
-        "news",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50502778",
-      "title": "Fantasy basketball adds and NBA bets: All eyes on Tyrese Maxey on Monday",
-      "summary": "Andre Snellings breaks down Monday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50502778/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-16T18:51:01+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1116/r1746730_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Day'Ron Sharpe",
-        "Bones Hyland",
-        "Baylor Scheierman",
-        "Cam Spencer",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50502886",
-      "title": "Bulls' Buzelis, Nets' Minott fined $25K each after making obscene gestures",
-      "summary": "Bulls forward Matas Buzelis and Nets forward Josh Minott have each been fined $25,000 for making obscene gestures toward the stands during their games Saturday.",
-      "url": "https://www.espn.com/nba/story/_/id/50502886/bulls-buzelis-nets-minott-fined-25k-obscene-gestures",
-      "publishedAt": "2026-11-16T17:58:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1001/r1724627_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Matas Buzelis",
-        "Josh Minott",
-        "Chicago Bulls",
-        "Brooklyn Nets"
       ]
     }
   ]
