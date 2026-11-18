@@ -1,14 +1,199 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-18T11:41:06.633616+00:00",
+  "updatedAt": "2026-11-18T20:30:08.331554+00:00",
   "articles": [
     {
+      "id": "50523313",
+      "title": "Fantasy basketball adds and NBA bets: Ride the hot hand with Klay Thompson",
+      "summary": "Andre Snellings breaks down Wednesday's big NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50523313/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-18T20:29:05+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747803_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Day'Ron Sharpe",
+        "Cam Spencer",
+        "Klay Thompson",
+        "Saddiq Bey",
+        "Quentin Grimes",
+        "Jalen Smith",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50522225",
+      "title": "Fantasy hoops: Using the ESPN Player Rater to uncover 16 roto and category stars",
+      "summary": "Use the Player Rater to your advantage and fill out your fantasy basketball lineup with these roto and category stars.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50522225/fantasy-basketball-category-stars-espn-player-rater-pickups",
+      "publishedAt": "2026-11-18T19:50:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747699_1296x729_16-9.jpg",
+      "author": "Jim McCormick",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Darius Acuff Jr",
+        "Wendell Carter Jr",
+        "Brook Lopez",
+        "Grayson Allen",
+        "Matas Buzelis",
+        "Cam Spencer",
+        "Jabari Smith Jr",
+        "Kyshawn George",
+        "Isaiah Hartenstein",
+        "Anthony Black",
+        "Jamal Shead",
+        "VJ Edgecombe",
+        "Jalen Smith",
+        "Aday Mara",
+        "Peyton Watson",
+        "Tyrese Proctor",
+        "Jim McCormick"
+      ]
+    },
+    {
+      "id": "44679680",
+      "title": "Updated NBA championship and MVP odds: Heat on the rise, Wemby ahead of Luka",
+      "summary": "The Heat have bounced back from a rough start to the season, while Victor Wembanyama is now the leader for MVP just ahead of Luka Doncic.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+      "publishedAt": "2026-11-18T19:00:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747757_1296x729_16-9.jpg",
+      "author": "Doug Greenberg",
+      "categories": [
+        "NBA",
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "Luka Doncic",
+        "Victor Wembanyama",
+        "Miami Heat",
+        "San Antonio Spurs",
+        "Oklahoma City Thunder",
+        "Doug Greenberg"
+      ]
+    },
+    {
+      "id": "50522801",
+      "title": "Miami Heat players receive GTA VI care packages from Rockstar Games",
+      "summary": "Heat players received a custom game-themed care package complete with custom controllers, consoles and, of course, a copy of the game.",
+      "url": "https://www.espn.com/nba/story/_/id/50522801/gta-vi-miami-heat-davion-mitchell-nick-richards",
+      "publishedAt": "2026-11-18T18:58:36+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747751_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Davion Mitchell",
+        "Nick Richards",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50521964",
+      "title": "Where to watch 'A Night in Vice City': Bucks vs. Heat",
+      "summary": "Giannis faces off against his former team as the Heat transform Miami into \"Vice City\" for Grand Theft Auto VI.",
+      "url": "https://www.espn.com/nba/story/_/id/50521964/bucks-heat-gta-6-vice-city-game-watch",
+      "publishedAt": "2026-11-18T18:50:41+00:00",
+      "image": "",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "seo h2w"
+      ]
+    },
+    {
+      "id": "50513109",
+      "title": "NBA Power Rankings: One wild stat for all 30 teams",
+      "summary": "Here's where all 30 teams rank this week -- along with one remarkable stat that has fueled each franchise through one month of the season.",
+      "url": "https://www.espn.com/nba/story/_/id/50513109/nba-power-rankings-wild-stats-spurs-lakers",
+      "publishedAt": "2026-11-18T16:14:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/nba_power_rankings_26_11_18_16x9_576x324.jpg",
+      "author": "NBA Insiders",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Boston Celtics",
+        "Detroit Pistons",
+        "Atlanta Hawks",
+        "New York Knicks",
+        "Toronto Raptors",
+        "Cleveland Cavaliers",
+        "Miami Heat",
+        "Charlotte Hornets",
+        "Washington Wizards",
+        "Indiana Pacers",
+        "Orlando Magic",
+        "Brooklyn Nets",
+        "Chicago Bulls",
+        "Milwaukee Bucks",
+        "Los Angeles Lakers",
+        "San Antonio Spurs",
+        "Oklahoma City Thunder",
+        "Golden State Warriors",
+        "Minnesota Timberwolves",
+        "Houston Rockets",
+        "Memphis Grizzlies",
+        "Portland Trail Blazers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "New Orleans Pelicans",
+        "Phoenix Suns",
+        "LA Clippers",
+        "Sacramento Kings",
+        "Utah Jazz",
+        "NBA Insiders"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-18T15:25:22+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50518136",
+      "title": "Kansas' Tyran Stokes to undergo MRI after early exit vs. UNLV",
+      "summary": "Kansas freshman Tyran Stokes, the projected No. 1 pick in the 2027 NBA draft, left Tuesday's win at UNLV early in the second half.",
+      "url": "https://www.espn.com/mens-college-basketball/story/_/id/50518136/kansas-tyran-stokes-mri-leg-injury-early-exit-unlv",
+      "publishedAt": "2026-11-18T14:31:45+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747511_600x400_3-2.jpg",
+      "author": "Jeff Borzello",
+      "categories": [
+        "news",
+        "NCAA Men's Basketball",
+        "Kansas Jayhawks",
+        "University of Kansas",
+        "Tyran Stokes",
+        "NBA Draft",
+        "NBA",
+        "Jeff Borzello"
+      ]
+    },
+    {
       "id": "50519611",
-      "title": "'I was too open': Lakers' Quentin Grimes nails game-winner vs. Hornets",
-      "summary": "After Quentin Grimes had already singlehandedly outscored the Hornets 18-17 in the fourth quarter, he hit the game-winning 3 in the final three seconds.",
-      "url": "https://www.espn.com/nba/story/_/id/50519611/los-angeles-lakers-guard-quentin-grimes-nails-game-winner-vs-charlotte-hornets",
-      "publishedAt": "2026-11-18T11:16:55+00:00",
+      "title": "Quentin Grimes becomes 2nd in Lakers history to hit 10 or more 3s in single game",
+      "summary": "Quentin Grimes went 16-for-24 overall and 10-for-14 from the 3, becoming the second player in Lakers history to hit 10 or more 3s in a single game in L.A.'s 118-114 win over Charlotte.",
+      "url": "https://www.espn.com/nba/story/_/id/50519611/quentin-grimes-2nd-laker-hit-10-3s-single-game",
+      "publishedAt": "2026-11-18T13:18:57+00:00",
       "image": "https://a.espncdn.com/photo/2026/1118/r1747544_600x400_3-2.jpg",
       "author": "Dave McMenamin",
       "categories": [
@@ -16,7 +201,47 @@
         "NBA",
         "Los Angeles Lakers",
         "Charlotte Hornets",
+        "Luka Doncic",
+        "Quentin Grimes",
+        "Austin Reaves",
+        "Walker Kessler",
+        "Collin Sexton",
+        "Kevon Looney",
+        "Jarred Vanderbilt",
+        "Carson Cooper",
+        "Matisse Thybulle",
         "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50513378",
+      "title": "Giannis changed everything, including Miami's margin for error",
+      "summary": "The Heat landed their superstar, but it's the rest of their roster that could define their season.",
+      "url": "https://www.espn.com/nba/story/_/id/50513378/miami-heat-giannis-antetokounmpo-blueprint",
+      "publishedAt": "2026-11-18T13:16:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1747235_608x342_16-9.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Bam Adebayo",
+        "Giannis Antetokounmpo",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "50514699",
+      "title": "76ers' LeBron James sues makers of AI sports-betting app 'Bron'",
+      "summary": "NBA superstar LeBron James sued the makers of an AI sports-betting app Tuesday, saying they have deliberately violated his publicity rights and trademarks by calling it \"Bron\" and using artificially generated images of him in their marketing.",
+      "url": "https://www.espn.com/nba/story/_/id/50514699/76ers-lebron-james-sues-makers-ai-sports-betting-app-bron",
+      "publishedAt": "2026-11-18T11:53:28+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1117/r1747324_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "LeBron James",
+        "NBA",
+        "Philadelphia 76ers",
+        "news – sports betting"
       ]
     },
     {
@@ -41,25 +266,6 @@
         "SC4U - Full Highlight",
         "SC4U  - Eligible",
         "Charlotte Hornets @ Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50518136",
-      "title": "Kansas' Tyran Stokes to undergo MRI after early exit vs. UNLV",
-      "summary": "Kansas freshman Tyran Stokes, the projected No. 1 pick in the 2027 NBA draft, left Tuesday's win at UNLV early in the second half.",
-      "url": "https://www.espn.com/mens-college-basketball/story/_/id/50518136/kansas-tyran-stokes-mri-leg-injury-early-exit-unlv",
-      "publishedAt": "2026-11-18T07:32:04+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1118/r1747511_600x400_3-2.jpg",
-      "author": "Jeff Borzello",
-      "categories": [
-        "news",
-        "NCAA Men's Basketball",
-        "Kansas Jayhawks",
-        "University of Kansas",
-        "Tyran Stokes",
-        "NBA Draft",
-        "NBA",
-        "Jeff Borzello"
       ]
     },
     {
@@ -136,31 +342,6 @@
         "SC4U  - Eligible",
         "Ayo Dosunmu",
         "Toumani Camara",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Portland Trail Blazers @ Minnesota Timberwolves"
-      ]
-    },
-    {
-      "id": "50507562",
-      "title": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "Portland Trail Blazers vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507562/game-highlights",
-      "publishedAt": "2026-11-18T04:14:02+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/62ad5440-ccd5-4496-8795-9fa9ee5e72ac/62ad5440-ccd5-4496-8795-9fa9ee5e72ac.jpg",
-      "author": "",
-      "categories": [
-        "Deni Avdija",
-        "Rudy Gobert",
-        "Portland Trail Blazers",
-        "Minnesota Timberwolves",
-        "SC4U - Full Highlight",
-        "Terrence Shannon Jr",
-        "NBA",
-        "Jaden McDaniels",
-        "SC4U  - Eligible",
         "4 Star Rating",
         "fantasy",
         "nba highlight",
@@ -250,20 +431,6 @@
       ]
     },
     {
-      "id": "50514699",
-      "title": "76ers' LeBron James sues makers of AI sports-betting app 'Bron'",
-      "summary": "NBA superstar LeBron James sued the makers of an AI sports-betting app Tuesday, saying they have deliberately violated his publicity rights and trademarks by calling it \"Bron\" and using artificially generated images of him in their marketing.",
-      "url": "https://www.espn.com/nba/story/_/id/50514699/76ers-lebron-james-sues-makers-ai-sports-betting-app-bron",
-      "publishedAt": "2026-11-18T00:46:27+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1747324_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "LeBron James",
-        "NBA",
-        "Philadelphia 76ers"
-      ]
-    },
-    {
       "id": "50514320",
       "title": "76ers' Jaylen Brown (hamstring) to miss Wednesday's game vs. Magic",
       "summary": "Philadelphia 76ers forward Jaylen Brown will miss Wednesday's game against the Orlando Magic with a left hamstring strain, the Sixers announced Tuesday afternoon.",
@@ -291,22 +458,6 @@
         "NBA",
         "Toronto Raptors",
         "Kawhi Leonard"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-17T22:29:08+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -487,191 +638,6 @@
         "Yaxel Lendeborg",
         "NBA",
         "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50508305",
-      "title": "Jaylen Brown banged up but combines with Joel Embiid to lead 76ers past Nets",
-      "summary": "Joel Embiid (37 points) and Jaylen Brown (31) both turned in season highs Monday night as the 76ers beat the Nets with LeBron James sidelined to improve to 12-3.",
-      "url": "https://www.espn.com/nba/story/_/id/50508305/joel-embiid-jaylen-brown-combine-lead-76ers-nets-lebron-james-out",
-      "publishedAt": "2026-11-17T08:29:05+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1746989_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Jaylen Brown",
-        "Joel Embiid",
-        "LeBron James",
-        "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50508081",
-      "title": "Shannon carries Wolves with Edwards out, Ball struggling in show of versatility",
-      "summary": "The Timberwolves keep finding ways to win despite the absence of star Anthony Edwards, getting 34 points from Terrence Shannon Jr. in a win over the Blazers.",
-      "url": "https://www.espn.com/nba/story/_/id/50508081/shannon-carries-wolves-edwards-ball-struggling-show-depth",
-      "publishedAt": "2026-11-17T06:16:54+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1746984_600x400_3-2.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "news",
-        "NBA",
-        "Minnesota Timberwolves",
-        "Terrence Shannon Jr",
-        "LaMelo Ball",
-        "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50507879",
-      "title": "Phoenix Suns vs. Denver Nuggets: Game Highlights",
-      "summary": "Phoenix Suns vs. Denver Nuggets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507879/game-highlights",
-      "publishedAt": "2026-11-17T04:59:38+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/35506235-e5cf-4811-81a5-5c29fb9b245a/35506235-e5cf-4811-81a5-5c29fb9b245a.jpg",
-      "author": "",
-      "categories": [
-        "Jamal Murray",
-        "Miles Bridges",
-        "Phoenix Suns",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Nikola Jokic",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Devin Booker",
-        "Dillon Brooks",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Phoenix Suns @ Denver Nuggets"
-      ]
-    },
-    {
-      "id": "50507278",
-      "title": "Heat pull Bam Adebayo (hip) early in win, don't expect long-term issue",
-      "summary": "Heat star Bam Adebayo did not play in the second half of Monday's win over the Rockets due to hip tightness, but the team doesn't expect a long-term issue.",
-      "url": "https://www.espn.com/nba/story/_/id/50507278/heat-star-bam-adebayo-exits-win-early-hip-tightness",
-      "publishedAt": "2026-11-17T04:11:56+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1117/r1746973_600x400_3-2.jpg",
-      "author": "Cameron Wolfe",
-      "categories": [
-        "news",
-        "Miami Heat",
-        "NBA",
-        "Bam Adebayo"
-      ]
-    },
-    {
-      "id": "50507554",
-      "title": "Golden State Warriors vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Golden State Warriors vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507554/game-highlights",
-      "publishedAt": "2026-11-17T03:45:41+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/104662c7-880d-4832-b199-613858a0c9ce/104662c7-880d-4832-b199-613858a0c9ce.jpg",
-      "author": "",
-      "categories": [
-        "Saddiq Bey",
-        "Yaxel Lendeborg",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "Yves Missi",
-        "Karlo Matkovic",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50507598",
-      "title": "Proctor drops 17, downs Giddey",
-      "summary": "Tyrese Proctor continues his breakout season for the Cleveland Cavaliers, dropping 17 points in a win over Josh Giddey and the Chicago Bulls.",
-      "url": "https://www.espn.com/video/clip/_/id/50507598/proctor-drops-17-downs-giddey",
-      "publishedAt": "2026-11-17T03:45:36+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1116/dm_261116_NBA_Highlight_Proctor_drops_17_downs_Giddey_20261117_PACRIM/dm_261116_NBA_Highlight_Proctor_drops_17_downs_Giddey_20261117_PACRIM.jpg",
-      "author": "",
-      "categories": [
-        "NBA"
-      ]
-    },
-    {
-      "id": "50507462",
-      "title": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
-      "summary": "Philadelphia 76ers vs. Brooklyn Nets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507462/game-highlights",
-      "publishedAt": "2026-11-17T03:29:40+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/6d566a5c-7e13-4f09-8854-6613bae9190b/6d566a5c-7e13-4f09-8854-6613bae9190b.jpg",
-      "author": "",
-      "categories": [
-        "Philadelphia 76ers",
-        "Egor Demin",
-        "Michael Porter Jr",
-        "Julius Randle",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Joel Embiid",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Philadelphia 76ers @ Brooklyn Nets"
-      ]
-    },
-    {
-      "id": "50507360",
-      "title": "Houston Rockets vs. Miami Heat: Game Highlights",
-      "summary": "Houston Rockets vs. Miami Heat: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507360/game-highlights",
-      "publishedAt": "2026-11-17T03:09:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/6d92444f-be46-440a-8dc2-f831150d181d/6d92444f-be46-440a-8dc2-f831150d181d.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Houston Rockets",
-        "Giannis Antetokounmpo",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Bam Adebayo",
-        "Alperen Sengun",
-        "Davion Mitchell",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Miami Heat"
-      ]
-    },
-    {
-      "id": "50507253",
-      "title": "Orlando Magic vs. Boston Celtics: Game Highlights",
-      "summary": "Orlando Magic vs. Boston Celtics: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50507253/game-highlights",
-      "publishedAt": "2026-11-17T02:46:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1117/345c40a7-9846-4342-a2cf-d892795a50cb/345c40a7-9846-4342-a2cf-d892795a50cb.jpg",
-      "author": "",
-      "categories": [
-        "Jayson Tatum",
-        "Boston Celtics",
-        "Orlando Magic",
-        "Desmond Bane",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Anthony Black",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Boston Celtics"
       ]
     }
   ]
