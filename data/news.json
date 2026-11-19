@@ -1,14 +1,44 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-18T20:30:08.331554+00:00",
+  "updatedAt": "2026-11-19T02:34:12.860243+00:00",
   "articles": [
+    {
+      "id": "50525193",
+      "title": "Sixers' Tyrese Maxey (foot) late scratch vs. Magic",
+      "summary": "Already without Jaylen Brown, the Sixers also won't have guard Tyrese Maxey for Wednesday's game against the Magic because of right foot soreness.",
+      "url": "https://www.espn.com/nba/story/_/id/50525193/sixers-tyrese-maxey-late-scratch-wednesday-game-vs-magic",
+      "publishedAt": "2026-11-19T01:35:22+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1116/r1746730_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Tyrese Maxey",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50525196",
+      "title": "Spurs rule Dylan Harper out with hip soreness after slip on court",
+      "summary": "The Spurs ruled guard Dylan Harper out for Thursday's game against the Clippers due to left hip soreness following his slip on the court Tuesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50525196/spurs-rule-harper-hip-soreness-slip-court",
+      "publishedAt": "2026-11-19T00:16:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747823_3_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "San Antonio Spurs",
+        "Dylan Harper"
+      ]
+    },
     {
       "id": "50523313",
       "title": "Fantasy basketball adds and NBA bets: Ride the hot hand with Klay Thompson",
       "summary": "Andre Snellings breaks down Wednesday's big NBA slate, highlighting the fantasy streamers to add and bets to make.",
       "url": "https://www.espn.com/fantasy/basketball/story/_/id/50523313/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-18T20:29:05+00:00",
+      "publishedAt": "2026-11-18T22:31:56+00:00",
       "image": "https://a.espncdn.com/photo/2026/1118/r1747803_1296x729_16-9.jpg",
       "author": "Andre Snellings",
       "categories": [
