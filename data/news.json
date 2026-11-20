@@ -1,8 +1,200 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-20T11:38:55.878716+00:00",
+  "updatedAt": "2026-11-20T20:18:41.745187+00:00",
   "articles": [
+    {
+      "id": "50541753",
+      "title": "Should fantasy hoops managers expect a return to dominance from Nikola Jokic?",
+      "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
+      "publishedAt": "2026-11-20T19:47:49+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748619_608x342_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Nikola Jokic",
+        "Victor Wembanyama",
+        "Luka Doncic",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50538678",
+      "title": "NBA betting roundtable: Experts weigh in on MVP, Rookie of the Year and more",
+      "summary": "The NBA betting experts share their favorite future bets, including Rookie of the Year, MVP and more.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/50538678/nba-betting-mvp-rookie-year-playoff-longshots-2026-2027",
+      "publishedAt": "2026-11-20T19:44:43+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748454_1296x729_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "news - nba",
+        "Sports Betting"
+      ]
+    },
+    {
+      "id": "50541974",
+      "title": "Fantasy adds, NBA bets to make for Friday: Jazz keep red-hot Bamba in lineup",
+      "summary": "Andre Snellings breaks down Friday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50541974/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-20T18:37:13+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748594_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "Sports Betting",
+        "news - fantasy basketball",
+        "news - nba",
+        "news – sports betting",
+        "Tyrese Proctor",
+        "Jalen Smith",
+        "Mo Bamba",
+        "Quentin Grimes",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-20T17:19:35+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50528417",
+      "title": "76ers rally vs. Magic, improve to 11-0 in clutch games",
+      "summary": "The 76ers improved to 11-0 in clutch games after overcoming a 17-point deficit to beat the Magic on Wednesday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50528417/76ers-rally-vs-magic-improve-11-0-clutch-games",
+      "publishedAt": "2026-11-20T16:09:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1119/r1747979_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50524821",
+      "title": "Fred VanVleet's 'fresh slate' is driving Houston's early season success",
+      "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important.",
+      "url": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+      "publishedAt": "2026-11-20T15:28:14+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747856_1296x729_16-9.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "Houston Rockets",
+        "Fred VanVleet",
+        "Kevin Durant",
+        "Alperen Sengun",
+        "Reed Sheppard",
+        "Jabari Smith Jr",
+        "Amen Thompson",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50534111",
+      "title": "Windhorst and MacMahon: League execs, scouts examine nine rookie starts",
+      "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league.",
+      "url": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
+      "publishedAt": "2026-11-20T13:34:23+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1119/r1748266_1296x729_16-9.jpg",
+      "author": "Brian Windhorst and Tim MacMahon",
+      "categories": [
+        "NBA",
+        "Golden State Warriors",
+        "Memphis Grizzlies",
+        "Washington Wizards",
+        "Utah Jazz",
+        "Chicago Bulls",
+        "LA Clippers",
+        "Atlanta Hawks",
+        "Brooklyn Nets",
+        "Sacramento Kings",
+        "Brian Windhorst",
+        "Tim MacMahon"
+      ]
+    },
+    {
+      "id": "49960162",
+      "title": "Fantasy basketball points league rankings update: Lendeborg, Acuff Jr. on the rise",
+      "summary": "Updated fantasy basketball rankings for points leagues, with several rookies on the rise.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-11-20T11:54:02+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748435_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Fantasy NBA",
+        "Yaxel Lendeborg",
+        "Darius Acuff Jr",
+        "Andre Snellings",
+        "NBA"
+      ]
+    },
+    {
+      "id": "50533958",
+      "title": "Play the long game: Trade for these fantasy hoops players before they heat up",
+      "summary": "Be ahead of the curve, and boost your fantasy basketball lineup with these trades or adds while the value is right.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50533958/fantasy-basketball-players-trade-waivers-pickups",
+      "publishedAt": "2026-11-20T11:52:36+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1119/r1748251_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Jalen Suggs",
+        "Jared McCain",
+        "Devin Vassell",
+        "Jalen Smith",
+        "Coby White",
+        "Josh Hart",
+        "Ivica Zubac",
+        "Brandon Miller",
+        "Jalen Johnson",
+        "Trae Young"
+      ]
+    },
+    {
+      "id": "49959975",
+      "title": "Fantasy basketball Category and Roto rankings: Jokic on top, Murray in top 15",
+      "summary": "Updated fantasy basketball rankings for H2H category and roto leagues, with Nikola Jokic on top and teammate Jamal Murray on the rise.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
+      "publishedAt": "2026-11-20T11:50:37+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748443_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "news - fantasy",
+        "Fantasy NBA",
+        "NBA",
+        "Nikola Jokic",
+        "Jamal Murray",
+        "Andre Snellings"
+      ]
+    },
     {
       "id": "50538526",
       "title": "Lillard scores 33 in return to Milwaukee, lifts Blazers past Bucks",
@@ -157,22 +349,6 @@
         "NBA",
         "San Antonio Spurs",
         "Dylan Harper"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-19T20:34:09+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
       ]
     },
     {
@@ -377,21 +553,6 @@
       ]
     },
     {
-      "id": "50528417",
-      "title": "76ers rally vs. Magic, improve to 11-0 in clutch games",
-      "summary": "The 76ers improved to 11-0 in clutch games after overcoming a 17-point deficit to beat the Magic on Wednesday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50528417/76ers-rally-vs-magic-improve-11-0-clutch-games",
-      "publishedAt": "2026-11-19T06:28:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1747979_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Kris Rhim"
-      ]
-    },
-    {
       "id": "50528365",
       "title": "Phoenix Suns vs. Sacramento Kings: Game Highlights",
       "summary": "Phoenix Suns vs. Sacramento Kings: Game Highlights",
@@ -437,94 +598,6 @@
         "SC4U - Full Highlight",
         "SC4U  - Eligible",
         "Boston Celtics @ Denver Nuggets"
-      ]
-    },
-    {
-      "id": "50527618",
-      "title": "Detroit Pistons vs. New Orleans Pelicans: Game Highlights",
-      "summary": "Detroit Pistons vs. New Orleans Pelicans: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50527618/game-highlights",
-      "publishedAt": "2026-11-19T03:42:21+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/8b4cd40d-8b70-4b15-a663-73b1b1b6abe7/8b4cd40d-8b70-4b15-a663-73b1b1b6abe7.jpg",
-      "author": "",
-      "categories": [
-        "John Collins",
-        "Detroit Pistons",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Kevin Huerter",
-        "Yves Missi",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "New Orleans Pelicans",
-        "Zion Williamson",
-        "Javonte Green",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Detroit Pistons @ New Orleans Pelicans"
-      ]
-    },
-    {
-      "id": "50527514",
-      "title": "Golden State Warriors vs. Dallas Mavericks: Game Highlights",
-      "summary": "Golden State Warriors vs. Dallas Mavericks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50527514/game-highlights",
-      "publishedAt": "2026-11-19T03:35:31+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/8148e474-6770-4210-8719-28b66debfc88/8148e474-6770-4210-8719-28b66debfc88.jpg",
-      "author": "",
-      "categories": [
-        "Will Richard",
-        "Dallas Mavericks",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Naji Marshall",
-        "Cooper Flagg",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors @ Dallas Mavericks"
-      ]
-    },
-    {
-      "id": "50527415",
-      "title": "Atlanta Hawks vs. Oklahoma City Thunder: Game Highlights",
-      "summary": "Atlanta Hawks vs. Oklahoma City Thunder: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50527415/game-highlights",
-      "publishedAt": "2026-11-19T03:35:19+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/d6b0f9fb-366e-4ad3-8b3f-594c8d64e7d7/d6b0f9fb-366e-4ad3-8b3f-594c8d64e7d7.jpg",
-      "author": "",
-      "categories": [
-        "Jalen Johnson",
-        "Luguentz Dort",
-        "Onyeka Okongwu",
-        "Atlanta Hawks",
-        "Oklahoma City Thunder",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Atlanta Hawks @ Oklahoma City Thunder"
-      ]
-    },
-    {
-      "id": "50527404",
-      "title": "Giddey's near triple-double leads Bulls to victory over Brooklyn",
-      "summary": "Josh Giddey was one assist shy of a triple-double, putting up 18 points, 14 rebounds, and 9 assists in a huge win for the Chicago Bulls over the Brooklyn Nets.",
-      "url": "https://www.espn.com/video/clip/_/id/50527404/giddey-triple-double-leads-bulls-victory-brooklyn",
-      "publishedAt": "2026-11-19T03:25:16+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1118/dm_261118_NBA_Highlight_Giddeys_near_triple_double_leads_Bulls_to_victory_over_Brooklyn_20261119_PACRIM/dm_261118_NBA_Highlight_Giddeys_near_triple_double_leads_Bulls_to_victory_over_Brooklyn_20261119_PACRIM.jpg",
-      "author": "",
-      "categories": [
-        "Chicago Bulls",
-        "NBA"
       ]
     }
   ]
