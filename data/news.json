@@ -1,8 +1,347 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-21T02:13:48.420487+00:00",
+  "updatedAt": "2026-11-21T11:00:11.393431+00:00",
   "articles": [
+    {
+      "id": "50548223",
+      "title": "Carmelo Anthony calls out Ravens' Humphrey over Baltimore 'criminals' remark",
+      "summary": "Former NBA star Carmelo Anthony addressed Ravens CB Marlon Humphrey on Friday, challenging him to do more than apologize after he said Baltimore was \"best at making criminals.\"",
+      "url": "https://www.espn.com/nfl/story/_/id/50548223/carmelo-anthony-calls-ravens-humphrey-baltimore-remark",
+      "publishedAt": "2026-11-21T09:14:19+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1013/r1729943_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NFL",
+        "Baltimore Ravens",
+        "Marlon Humphrey",
+        "Carmelo Anthony",
+        "NBA",
+        "New York Knicks"
+      ]
+    },
+    {
+      "id": "50547994",
+      "title": "Lakers rally after JJ Redick rips team's lack of fight vs. last-place Kings",
+      "summary": "Lakers coach JJ Redick ripped into the team's lack of fight after trailing the last-place Kings at halftime, and L.A. went on to eke out a 106-104 win Friday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50547994/jj-redick-half-rant-fuels-lakers-last-place-kings",
+      "publishedAt": "2026-11-21T08:20:11+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1748866_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "49577473",
+      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent win by the Nuggets.",
+      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+      "publishedAt": "2026-11-21T06:34:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1748853_608x342_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "event",
+        "daily",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
+      ]
+    },
+    {
+      "id": "50547522",
+      "title": "Nuggets protect home court with win over the Rockets",
+      "summary": "Nuggets protect home court with win over the Rockets",
+      "url": "https://www.espn.com/video/clip/_/id/50547522/nuggets-protect-home-court-win-rockets",
+      "publishedAt": "2026-11-21T05:55:05+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1121/a1dc03999dde4c2da6cdb6c2743fc58854/a1dc03999dde4c2da6cdb6c2743fc58854.jpg",
+      "author": "",
+      "categories": [
+        "Houston Rockets",
+        "Denver Nuggets",
+        "SC4U - Full Highlight",
+        "Amen Thompson",
+        "NBA",
+        "Nikola Jokic",
+        "Marvin Bagley III",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Alperen Sengun",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Houston Rockets @ Denver Nuggets"
+      ]
+    },
+    {
+      "id": "50546191",
+      "title": "James Harden explodes for 51, passes Kobe for third-most 50-point games all time",
+      "summary": "James Harden posted the 26th 50-point game of his career, passing the late Kobe Bryant for third-most 50-point games in NBA history.",
+      "url": "https://www.espn.com/nba/story/_/id/50546191/james-harden-explodes-51-points-propels-cavs-pacers",
+      "publishedAt": "2026-11-21T05:42:50+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1748814_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Cleveland Cavaliers",
+        "James Harden"
+      ]
+    },
+    {
+      "id": "50547415",
+      "title": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
+      "summary": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50547415/game-highlights",
+      "publishedAt": "2026-11-21T05:33:21+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/8cfddd4c-5049-4f21-b01f-81d8fb8a9c21/8cfddd4c-5049-4f21-b01f-81d8fb8a9c21.jpg",
+      "author": "",
+      "categories": [
+        "Zach LaVine",
+        "Luka Doncic",
+        "Los Angeles Lakers",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "De'Andre Hunter",
+        "Quentin Grimes",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Sacramento Kings @ Los Angeles Lakers"
+      ]
+    },
+    {
+      "id": "50547253",
+      "title": "Phoenix Suns vs. Utah Jazz: Game Highlights",
+      "summary": "Phoenix Suns vs. Utah Jazz: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50547253/game-highlights",
+      "publishedAt": "2026-11-21T05:20:31+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/00f6ac11-2f1d-4b3a-bcba-a8239324a5d2/00f6ac11-2f1d-4b3a-bcba-a8239324a5d2.jpg",
+      "author": "",
+      "categories": [
+        "Jaxson Hayes",
+        "Collin Gillespie",
+        "Utah Jazz",
+        "Phoenix Suns",
+        "Mo Bamba",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Devin Booker",
+        "Dillon Brooks",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Phoenix Suns @ Utah Jazz"
+      ]
+    },
+    {
+      "id": "50546351",
+      "title": "New Orleans Pelicans vs. Oklahoma City Thunder: Game Highlights",
+      "summary": "New Orleans Pelicans vs. Oklahoma City Thunder: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50546351/game-highlights",
+      "publishedAt": "2026-11-21T03:49:57+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/3a77b330-64e2-45a3-8c27-9c3b2ff12f14/3a77b330-64e2-45a3-8c27-9c3b2ff12f14.jpg",
+      "author": "",
+      "categories": [
+        "Jeremiah Fears",
+        "Oklahoma City Thunder",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "New Orleans Pelicans",
+        "Aday Mara",
+        "Shai Gilgeous-Alexander",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "New Orleans Pelicans @ Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "50546360",
+      "title": "Washington Wizards vs. Chicago Bulls: Game Highlights",
+      "summary": "Washington Wizards vs. Chicago Bulls: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50546360/game-highlights",
+      "publishedAt": "2026-11-21T03:43:59+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/8d9b9645-e290-42aa-a0cf-30db9a33970b/8d9b9645-e290-42aa-a0cf-30db9a33970b.jpg",
+      "author": "",
+      "categories": [
+        "Washington Wizards",
+        "SC4U - Full Highlight",
+        "Chicago Bulls",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Norman Powell",
+        "Anthony Davis",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Washington Wizards @ Chicago Bulls"
+      ]
+    },
+    {
+      "id": "50546359",
+      "title": "Dyson Daniels nears triple-double in win over Hornets",
+      "summary": "Dyson Daniels finishes with 11 points, 10 assists and eight rebounds as the Atlanta Hawks eliminate the Charlotte Hornets from the NBA Cup.",
+      "url": "https://www.espn.com/video/clip/_/id/50546359/dyson-daniels-nears-triple-double-win-hornets",
+      "publishedAt": "2026-11-21T03:37:59+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/dm_261120_NBA_Highlight_Dyson_Daniels_nears_triple_double_in_win_over_Hornets_20261121_PACRIM/dm_261120_NBA_Highlight_Dyson_Daniels_nears_triple_double_in_win_over_Hornets_20261121_PACRIM.jpg",
+      "author": "",
+      "categories": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "50546253",
+      "title": "Orlando Magic vs. Brooklyn Nets: Game Highlights",
+      "summary": "Orlando Magic vs. Brooklyn Nets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50546253/game-highlights",
+      "publishedAt": "2026-11-21T03:30:12+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/08b133fe-dca4-4b1a-84e3-a341806adae4/08b133fe-dca4-4b1a-84e3-a341806adae4.jpg",
+      "author": "",
+      "categories": [
+        "Orlando Magic",
+        "Desmond Bane",
+        "Julius Randle",
+        "SC4U - Full Highlight",
+        "Franz Wagner",
+        "NBA",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Orlando Magic @ Brooklyn Nets"
+      ]
+    },
+    {
+      "id": "50546213",
+      "title": "Indiana Pacers vs. Cleveland Cavaliers: Game Highlights",
+      "summary": "Indiana Pacers vs. Cleveland Cavaliers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50546213/game-highlights",
+      "publishedAt": "2026-11-21T03:19:02+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/0befae05-20ce-4878-8731-d55ad5676b09/0befae05-20ce-4878-8731-d55ad5676b09.jpg",
+      "author": "",
+      "categories": [
+        "Peyton Watson",
+        "Indiana Pacers",
+        "Larry Nance Jr",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "James Harden",
+        "Ivica Zubac",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Indiana Pacers @ Cleveland Cavaliers"
+      ]
+    },
+    {
+      "id": "50546226",
+      "title": "Toronto Raptors vs. Detroit Pistons: Game Highlights",
+      "summary": "Toronto Raptors vs. Detroit Pistons: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50546226/game-highlights",
+      "publishedAt": "2026-11-21T03:16:32+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/b3f7241e-c622-4726-aa90-80dc0ba0ca88/b3f7241e-c622-4726-aa90-80dc0ba0ca88.jpg",
+      "author": "",
+      "categories": [
+        "Jakob Poeltl",
+        "Toronto Raptors",
+        "Detroit Pistons",
+        "Immanuel Quickley",
+        "NBA",
+        "Kevin Huerter",
+        "Cade Cunningham",
+        "Scottie Barnes",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U - Full Highlight",
+        "SC4U  - Eligible",
+        "Toronto Raptors @ Detroit Pistons"
+      ]
+    },
+    {
+      "id": "50546177",
+      "title": "James Harden cooks the Pacers for 51 points in Cavs win",
+      "summary": "James Harden cooks the Pacers for 51 points in Cavs win",
+      "url": "https://www.espn.com/video/clip/_/id/50546177/james-harden-cooks-pacers-51-points-cavs-win",
+      "publishedAt": "2026-11-21T03:16:31+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/6c00e937d7b04fd79b4ebf4cf9a928311333/6c00e937d7b04fd79b4ebf4cf9a928311333.jpg",
+      "author": "",
+      "categories": [
+        "Indiana Pacers",
+        "Cleveland Cavaliers",
+        "NBA",
+        "James Harden",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Indiana Pacers @ Cleveland Cavaliers"
+      ]
+    },
+    {
+      "id": "50545810",
+      "title": "Charlotte Hornets vs. Atlanta Hawks: Game Highlights",
+      "summary": "Charlotte Hornets vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50545810/game-highlights",
+      "publishedAt": "2026-11-21T02:37:26+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/c872325b-bbc8-4245-836b-6f7068c59ca0/c872325b-bbc8-4245-836b-6f7068c59ca0.jpg",
+      "author": "",
+      "categories": [
+        "Jalen Johnson",
+        "Moussa Diabate",
+        "Atlanta Hawks",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Zuby Ejiofor",
+        "Charlotte Hornets",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Charlotte Hornets @ Atlanta Hawks"
+      ]
+    },
     {
       "id": "50545258",
       "title": "Caleb Wilson's hand injuries not connected as Bulls rookie deals with 'bad luck'",
@@ -162,21 +501,6 @@
         "Mo Bamba",
         "Quentin Grimes",
         "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50528417",
-      "title": "76ers rally vs. Magic, improve to 11-0 in clutch games",
-      "summary": "The 76ers improved to 11-0 in clutch games after overcoming a 17-point deficit to beat the Magic on Wednesday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50528417/76ers-rally-vs-magic-improve-11-0-clutch-games",
-      "publishedAt": "2026-11-20T16:09:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1747979_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Kris Rhim"
       ]
     },
     {
@@ -451,167 +775,6 @@
         "Minnesota Timberwolves",
         "Anthony Edwards",
         "Vincent Goodwill"
-      ]
-    },
-    {
-      "id": "50532035",
-      "title": "JJ Redick not overreacting to bad offensive night",
-      "summary": "JJ Redick not overreacting to bad offensive night",
-      "url": "https://www.espn.com/video/clip/_/id/50532035/jj-redick-not-overreacting-bad-offensive-night",
-      "publishedAt": "2026-11-19T18:21:22+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/c4cec399-d9b6-4544-9816-99ad4187d202/c4cec399-d9b6-4544-9816-99ad4187d202.jpg",
-      "author": "",
-      "categories": [
-        "Los Angeles Lakers",
-        "NBA",
-        "3 Star Rating",
-        "JJ Redick",
-        "SC4U  - Eligible",
-        "SC4U - PressConference",
-        "Utah Jazz @ Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50532037",
-      "title": "Luka: No excuses, I have to play better",
-      "summary": "Luka: No excuses, I have to play better",
-      "url": "https://www.espn.com/video/clip/_/id/50532037/no-excuses-play-better",
-      "publishedAt": "2026-11-19T18:21:02+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/eef2f490-de27-4ecc-9d94-702bde274015/eef2f490-de27-4ecc-9d94-702bde274015.jpg",
-      "author": "",
-      "categories": [
-        "Luka Doncic",
-        "Los Angeles Lakers",
-        "2 Star Rating",
-        "NBA",
-        "SC4U  - Eligible",
-        "SC4U - PressConference",
-        "Utah Jazz @ Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50529118",
-      "title": "Luka Doncic's shot goes cold as Jazz end Lakers' winning streak at 9",
-      "summary": "Luka Doncic said his performance in Wednesday's loss to Utah, in which he shot 10-of-28 and had nine turnovers, was \"unacceptable\" as the Lakers' win streak ended at nine.",
-      "url": "https://www.espn.com/nba/story/_/id/50529118/luka-doncic-struggles-jazz-end-lakers-winning-streak-9",
-      "publishedAt": "2026-11-19T17:56:59+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1747992_600x400_3-2.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Los Angeles Lakers",
-        "Luka Doncic",
-        "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50446164",
-      "title": "Thursday's fantasy hoops adds, NBA bets to make: Spencer, Champagnie worth playing",
-      "summary": "Eric Moody breaks down Thursday's NBA slate, highlighting the fantasy streamers to add and his favorite bets.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50446164/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-19T17:21:45+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1748145_608x342_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Sports Betting",
-        "news – sports betting",
-        "news - nba",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Julian Champagnie",
-        "Cam Spencer",
-        "Terrence Shannon Jr",
-        "Kasparas Jakucionis",
-        "Javon Small",
-        "Landry Shamet",
-        "Jaden McDaniels",
-        "Jalen Brunson",
-        "Keaton Wagler",
-        "Cedric Coward",
-        "Yaxel Lendeborg"
-      ]
-    },
-    {
-      "id": "50526626",
-      "title": "Revisiting sports and pop culture from GTA V's launch",
-      "summary": "\"Grand Theft Auto VI\" was released Thursday following a 13-year wait since GTA V.",
-      "url": "https://www.espn.com/nba/story/_/id/50526626/gta-sports-pop-culture-look-back",
-      "publishedAt": "2026-11-19T15:21:54+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1747923_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "NFL",
-        "WNBA",
-        "MLB",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50522350",
-      "title": "Historic usage rates are fueling Luka Doncic and the Lakers' offense",
-      "summary": "Doncic is pushing the boundaries of basketball production. But could that actually hurt the Lakers' title hopes?",
-      "url": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
-      "publishedAt": "2026-11-19T13:46:53+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1747981_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Luka Doncic",
-        "Los Angeles Lakers",
-        "Utah Jazz",
-        "Austin Reaves",
-        "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50528505",
-      "title": "Utah Jazz vs. Los Angeles Lakers: Game Highlights",
-      "summary": "Utah Jazz vs. Los Angeles Lakers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50528505/game-highlights",
-      "publishedAt": "2026-11-19T13:03:40+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/13847fff-7504-4610-a352-135db399d1ee/13847fff-7504-4610-a352-135db399d1ee.jpg",
-      "author": "",
-      "categories": [
-        "Utah Jazz",
-        "Luka Doncic",
-        "Josh Green",
-        "Los Angeles Lakers",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Keyonte George",
-        "Quentin Grimes",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Utah Jazz @ Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50528368",
-      "title": "Boston Celtics vs. Denver Nuggets: Game Highlights",
-      "summary": "Boston Celtics vs. Denver Nuggets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50528368/game-highlights",
-      "publishedAt": "2026-11-19T05:32:46+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/21baa789-c57f-4141-a3ab-df16e8ed76b1/21baa789-c57f-4141-a3ab-df16e8ed76b1.jpg",
-      "author": "",
-      "categories": [
-        "Aaron Gordon",
-        "Jamal Murray",
-        "Jayson Tatum",
-        "Boston Celtics",
-        "Denver Nuggets",
-        "NBA",
-        "Nikola Jokic",
-        "Payton Pritchard",
-        "Neemias Queta",
-        "nba highlight",
-        "SC4U - Full Highlight",
-        "SC4U  - Eligible",
-        "Boston Celtics @ Denver Nuggets"
       ]
     }
   ]
