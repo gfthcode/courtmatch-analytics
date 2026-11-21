@@ -1,8 +1,126 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-20T20:18:41.745187+00:00",
+  "updatedAt": "2026-11-21T02:13:48.420487+00:00",
   "articles": [
+    {
+      "id": "50545258",
+      "title": "Caleb Wilson's hand injuries not connected as Bulls rookie deals with 'bad luck'",
+      "summary": "Caleb Wilson has sustained three hand-related injuries in the past year, but the Chicago Bulls rookie said doctors told him they're not connected and that it's a case of \"bad luck,\" he told reporters before his team's game against the Washington Wizards.",
+      "url": "https://www.espn.com/nba/story/_/id/50545258/bulls-rookie-caleb-wilson-hand-injuries-run-bad-luck",
+      "publishedAt": "2026-11-21T01:51:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1748780_600x600_1-1.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Washington Wizards",
+        "Chicago Bulls",
+        "Caleb Wilson",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-20T21:06:33+00:00",
+      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50524821",
+      "title": "Fred VanVleet's 'fresh slate' is driving Houston's early season success",
+      "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important.",
+      "url": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+      "publishedAt": "2026-11-20T20:55:27+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1118/r1747856_1296x729_16-9.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "NBA",
+        "Houston Rockets",
+        "Fred VanVleet",
+        "Kevin Durant",
+        "Alperen Sengun",
+        "Reed Sheppard",
+        "Jabari Smith Jr",
+        "Amen Thompson",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50543371",
+      "title": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
+      "summary": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
+      "url": "https://www.espn.com/video/clip/_/id/50543371/fred-vanvleet-brings-sense-calm-rockets",
+      "publishedAt": "2026-11-20T20:54:46+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/ss_20261120_154907835_3751400/ss_20261120_154907835_3751400.jpg",
+      "author": "",
+      "categories": [
+        "Houston Rockets",
+        "2 Star Rating",
+        "NBA",
+        "Fred VanVleet",
+        "NBA Today",
+        "Verts - Exclude Content",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50542985",
+      "title": "Sources: Brandon Ingram (Achilles) expected to Clippers debut vs. Rockets",
+      "summary": "After recovering from Achilles surgery, Brandon Ingram is set to make his Clippers debut Monday against the Rockets, sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50542985/sources-clippers-brandon-ingram-make-season-team-debut",
+      "publishedAt": "2026-11-20T20:51:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748650_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "LA Clippers",
+        "news",
+        "Brandon Ingram"
+      ]
+    },
+    {
+      "id": "50543306",
+      "title": "Shams: Brandon Ingram will make Clippers debut Monday",
+      "summary": "Shams: Brandon Ingram will make Clippers debut Monday",
+      "url": "https://www.espn.com/video/clip/_/id/50543306/brandon-ingram-make-clippers-debut-monday",
+      "publishedAt": "2026-11-20T20:49:55+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/ss_20261120_154334744_3751382947/ss_20261120_154334744_3751382947.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Verts - Exclude Content",
+        "Shams Charania",
+        "Brandon Ingram",
+        "LA Clippers"
+      ]
+    },
+    {
+      "id": "50538678",
+      "title": "NBA betting roundtable: Experts weigh in on MVP, Rookie of the Year and more",
+      "summary": "The NBA betting experts share their favorite future bets, including Rookie of the Year, MVP and more.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/50538678/nba-betting-mvp-rookie-year-playoff-longshots-2026-2027",
+      "publishedAt": "2026-11-20T20:31:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1120/r1748454_1296x729_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "news - nba",
+        "Sports Betting"
+      ]
+    },
     {
       "id": "50541753",
       "title": "Should fantasy hoops managers expect a return to dominance from Nikola Jokic?",
@@ -21,20 +139,6 @@
         "Victor Wembanyama",
         "Luka Doncic",
         "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50538678",
-      "title": "NBA betting roundtable: Experts weigh in on MVP, Rookie of the Year and more",
-      "summary": "The NBA betting experts share their favorite future bets, including Rookie of the Year, MVP and more.",
-      "url": "https://www.espn.com/espn/betting/story/_/id/50538678/nba-betting-mvp-rookie-year-playoff-longshots-2026-2027",
-      "publishedAt": "2026-11-20T19:44:43+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748454_1296x729_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "news - nba",
-        "Sports Betting"
       ]
     },
     {
@@ -61,22 +165,6 @@
       ]
     },
     {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-20T17:19:35+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
       "id": "50528417",
       "title": "76ers rally vs. Magic, improve to 11-0 in clutch games",
       "summary": "The 76ers improved to 11-0 in clutch games after overcoming a 17-point deficit to beat the Magic on Wednesday night.",
@@ -89,26 +177,6 @@
         "NBA",
         "Philadelphia 76ers",
         "Kris Rhim"
-      ]
-    },
-    {
-      "id": "50524821",
-      "title": "Fred VanVleet's 'fresh slate' is driving Houston's early season success",
-      "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important.",
-      "url": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
-      "publishedAt": "2026-11-20T15:28:14+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1118/r1747856_1296x729_16-9.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "Houston Rockets",
-        "Fred VanVleet",
-        "Kevin Durant",
-        "Alperen Sengun",
-        "Reed Sheppard",
-        "Jabari Smith Jr",
-        "Amen Thompson",
-        "Michael C. Wright"
       ]
     },
     {
@@ -465,20 +533,6 @@
       ]
     },
     {
-      "id": "50527820",
-      "title": "Randle sounds off after Bulls rout Nets: 'That was embarrassing'",
-      "summary": "After a 30-point drubbing at the hands of the Bulls, veteran Julius Randle called the Nets' effort \"embarrassing\" and called out the team's pride and effort.",
-      "url": "https://www.espn.com/nba/story/_/id/50527820/randle-sounds-bulls-rout-nets-was-embarrassing",
-      "publishedAt": "2026-11-19T16:23:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1747966_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "Brooklyn Nets",
-        "NBA"
-      ]
-    },
-    {
       "id": "50526626",
       "title": "Revisiting sports and pop culture from GTA V's launch",
       "summary": "\"Grand Theft Auto VI\" was released Thursday following a 13-year wait since GTA V.",
@@ -534,46 +588,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Utah Jazz @ Los Angeles Lakers"
-      ]
-    },
-    {
-      "id": "50528238",
-      "title": "Giannis Antetokounmpo, Bam Adebayo put Bucks drama aside as Heat hold on",
-      "summary": "Heat star Giannis Antetokounmpo said Wednesday night's win over the Bucks was like any other night, while Bam Adebayo said he has moved past his issues with Tyler Herro.",
-      "url": "https://www.espn.com/nba/story/_/id/50528238/giannis-bam-adebayo-put-drama-aside-heat-hold-bucks",
-      "publishedAt": "2026-11-19T06:45:16+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1747975_600x400_3-2.jpg",
-      "author": "Cameron Wolfe",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Giannis Antetokounmpo",
-        "Bam Adebayo"
-      ]
-    },
-    {
-      "id": "50528365",
-      "title": "Phoenix Suns vs. Sacramento Kings: Game Highlights",
-      "summary": "Phoenix Suns vs. Sacramento Kings: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50528365/game-highlights",
-      "publishedAt": "2026-11-19T05:44:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1119/7f6141fb-1b55-4dee-9c32-694210f68ce2/7f6141fb-1b55-4dee-9c32-694210f68ce2.jpg",
-      "author": "",
-      "categories": [
-        "Darius Acuff Jr",
-        "Ryan Dunn",
-        "Phoenix Suns",
-        "SC4U - Full Highlight",
-        "NBA",
-        "SC4U  - Eligible",
-        "Devin Booker",
-        "4 Star Rating",
-        "Dillon Brooks",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Phoenix Suns @ Sacramento Kings"
       ]
     },
     {
