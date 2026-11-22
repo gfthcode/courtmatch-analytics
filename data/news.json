@@ -1,8 +1,46 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-21T19:15:10.619092+00:00",
+  "updatedAt": "2026-11-22T01:18:30.295334+00:00",
   "articles": [
+    {
+      "id": "50555316",
+      "title": "76ers survive in clutch again despite Herro's 50: 'Got to finish better'",
+      "summary": "The 76ers survived 50 points from Tyler Herro, nearly blowing a 10-point lead late, before once again coming out on top in the clutch.",
+      "url": "https://www.espn.com/nba/story/_/id/50555316/76ers-survive-clutch-again-tyler-herro-50",
+      "publishedAt": "2026-11-22T00:54:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1749277_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50553416",
+      "title": "Milwaukee Bucks vs. Philadelphia 76ers: Game Highlights",
+      "summary": "Milwaukee Bucks vs. Philadelphia 76ers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50553416/game-highlights",
+      "publishedAt": "2026-11-21T22:56:30+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/0ae8873c-42b8-4286-b751-404cd307a63f/0ae8873c-42b8-4286-b751-404cd307a63f.jpg",
+      "author": "",
+      "categories": [
+        "Tyler Herro",
+        "Philadelphia 76ers",
+        "SC4U - Full Highlight",
+        "NBA",
+        "LeBron James",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Joel Embiid",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Milwaukee Bucks @ Philadelphia 76ers"
+      ]
+    },
     {
       "id": "50550017",
       "title": "76ers' Jaylen Brown, Dean Wade out, Tyrese Maxey starting vs. Bucks",
@@ -672,54 +710,6 @@
       ]
     },
     {
-      "id": "50537242",
-      "title": "Portland Trail Blazers vs. Milwaukee Bucks: Game Highlights",
-      "summary": "Portland Trail Blazers vs. Milwaukee Bucks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50537242/game-highlights",
-      "publishedAt": "2026-11-20T04:24:41+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/3ae45a57-2dce-423c-9d6c-3de95dbce24e/3ae45a57-2dce-423c-9d6c-3de95dbce24e.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Portland Trail Blazers",
-        "Damian Lillard",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Jrue Holiday",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Toumani Camara",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Portland Trail Blazers @ Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50537245",
-      "title": "LA Clippers vs. San Antonio Spurs: Game Highlights",
-      "summary": "LA Clippers vs. San Antonio Spurs: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50537245/game-highlights",
-      "publishedAt": "2026-11-20T04:24:20+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/f24882ed-4260-4c0b-b72d-e3da90985b96/f24882ed-4260-4c0b-b72d-e3da90985b96.jpg",
-      "author": "",
-      "categories": [
-        "San Antonio Spurs",
-        "Victor Wembanyama",
-        "SC4U - Full Highlight",
-        "Darius Garland",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "LA Clippers",
-        "Julian Champagnie",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "LA Clippers @ San Antonio Spurs"
-      ]
-    },
-    {
       "id": "50537250",
       "title": "Golden State Warriors vs. Memphis Grizzlies: Game Highlights",
       "summary": "Golden State Warriors vs. Memphis Grizzlies: Game Highlights",
@@ -741,31 +731,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Golden State Warriors @ Memphis Grizzlies"
-      ]
-    },
-    {
-      "id": "50537184",
-      "title": "New York Knicks vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "New York Knicks vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50537184/game-highlights",
-      "publishedAt": "2026-11-20T04:04:40+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/fb6b114a-1799-4f79-860b-cc08a407b2ad/fb6b114a-1799-4f79-860b-cc08a407b2ad.jpg",
-      "author": "",
-      "categories": [
-        "OG Anunoby",
-        "Karl-Anthony Towns",
-        "Minnesota Timberwolves",
-        "New York Knicks",
-        "LaMelo Ball",
-        "Jonathan Kuminga",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "New York Knicks @ Minnesota Timberwolves"
       ]
     }
   ]
