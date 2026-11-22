@@ -1,8 +1,158 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-22T01:18:30.295334+00:00",
+  "updatedAt": "2026-11-22T11:23:48.566390+00:00",
   "articles": [
+    {
+      "id": "50559927",
+      "title": "Mikal Bridges shakes off slump, hits buzzer-beater to save Knicks vs. Blazers",
+      "summary": "Mired in a shooting slump, Mikal Bridges delivered a buzzer-beating 3-pointer to lift the Knicks past Portland after they squandered a 26-point lead.",
+      "url": "https://www.espn.com/nba/story/_/id/50559927/knicks-mikal-bridges-shakes-slump-3-buzzer-tops-blazers",
+      "publishedAt": "2026-11-22T07:44:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1122/r1749469_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Mikal Bridges",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50559763",
+      "title": "Wembanyama makes history in 18 minutes, finishes game with 50 points",
+      "summary": "Victor Wembanyama had his third career 50-point outing in Sunday's win vs. the Pelicans, to go along with 19 rebounds, five blocks and four steals.",
+      "url": "https://www.espn.com/nba/story/_/id/50559763/victor-wembanyama-shows-50-point-5-block-performance",
+      "publishedAt": "2026-11-22T06:38:19+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1122/r1749474_600x400_3-2.jpg",
+      "author": "Michael C. Wright",
+      "categories": [
+        "news",
+        "NBA",
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "Michael C. Wright"
+      ]
+    },
+    {
+      "id": "50559624",
+      "title": "Boston Celtics vs. Sacramento Kings: Game Highlights",
+      "summary": "Boston Celtics vs. Sacramento Kings: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50559624/game-highlights",
+      "publishedAt": "2026-11-22T05:58:21+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/d5b5e925-ccb0-47b8-90e9-9ee404701eb4/d5b5e925-ccb0-47b8-90e9-9ee404701eb4.jpg",
+      "author": "",
+      "categories": [
+        "Domantas Sabonis",
+        "Boston Celtics",
+        "Mike Conley",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Keegan Murray",
+        "SC4U  - Eligible",
+        "De'Andre Hunter",
+        "Payton Pritchard",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Boston Celtics @ Sacramento Kings"
+      ]
+    },
+    {
+      "id": "50558303",
+      "title": "Wemby leads Spurs to victory with 50-point, 19-rebound night",
+      "summary": "Wemby leads Spurs to victory with 50-point, 19-rebound night",
+      "url": "https://www.espn.com/video/clip/_/id/50558303/wemby-leads-spurs-victory-50-point-19-rebound-night",
+      "publishedAt": "2026-11-22T05:38:49+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1121/db23de61c0aa4974b451b8d88fe1f5701364/db23de61c0aa4974b451b8d88fe1f5701364.jpg",
+      "author": "",
+      "categories": [
+        "San Antonio Spurs",
+        "Victor Wembanyama",
+        "NBA",
+        "New Orleans Pelicans",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "League Boost",
+        "New Orleans Pelicans @ San Antonio Spurs"
+      ]
+    },
+    {
+      "id": "50558379",
+      "title": "LA Clippers vs. Dallas Mavericks: Game Highlights",
+      "summary": "LA Clippers vs. Dallas Mavericks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50558379/game-highlights",
+      "publishedAt": "2026-11-22T03:44:05+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/718103b4-ce44-4a76-afa5-b6084671de44/718103b4-ce44-4a76-afa5-b6084671de44.jpg",
+      "author": "",
+      "categories": [
+        "Daniel Gafford",
+        "Kyrie Irving",
+        "Dallas Mavericks",
+        "Cam Christie",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Brook Lopez",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "LA Clippers",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "LA Clippers @ Dallas Mavericks"
+      ]
+    },
+    {
+      "id": "50558212",
+      "title": "Memphis Grizzlies vs. Minnesota Timberwolves: Game Highlights",
+      "summary": "Memphis Grizzlies vs. Minnesota Timberwolves: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50558212/game-highlights",
+      "publishedAt": "2026-11-22T03:30:22+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/25a0638f-3882-4c44-a9eb-f9da99561a9b/25a0638f-3882-4c44-a9eb-f9da99561a9b.jpg",
+      "author": "",
+      "categories": [
+        "Cedric Coward",
+        "Minnesota Timberwolves",
+        "Jonathan Kuminga",
+        "Ty Jerome",
+        "SC4U - Full Highlight",
+        "Memphis Grizzlies",
+        "NBA",
+        "Jaden McDaniels",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Memphis Grizzlies @ Minnesota Timberwolves"
+      ]
+    },
+    {
+      "id": "50558028",
+      "title": "Portland Trail Blazers vs. New York Knicks: Game Highlights",
+      "summary": "Portland Trail Blazers vs. New York Knicks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50558028/game-highlights",
+      "publishedAt": "2026-11-22T03:18:36+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/076ee9fd-6506-4a4c-a771-5d9d37fc75ee/076ee9fd-6506-4a4c-a771-5d9d37fc75ee.jpg",
+      "author": "",
+      "categories": [
+        "Portland Trail Blazers",
+        "Donovan Clingan",
+        "New York Knicks",
+        "Jalen Brunson",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Mikal Bridges",
+        "5 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Portland Trail Blazers @ New York Knicks"
+      ]
+    },
     {
       "id": "50555316",
       "title": "76ers survive in clutch again despite Herro's 50: 'Got to finish better'",
@@ -482,26 +632,6 @@
       ]
     },
     {
-      "id": "50524821",
-      "title": "Fred VanVleet's 'fresh slate' is driving Houston's early season success",
-      "summary": "A healthy Fred VanVleet is commanding the surging Rockets after an ACL injury derailed his 2025-26 season. Here's why he's so important.",
-      "url": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
-      "publishedAt": "2026-11-20T20:55:27+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1118/r1747856_1296x729_16-9.jpg",
-      "author": "Michael C. Wright",
-      "categories": [
-        "NBA",
-        "Houston Rockets",
-        "Fred VanVleet",
-        "Kevin Durant",
-        "Alperen Sengun",
-        "Reed Sheppard",
-        "Jabari Smith Jr",
-        "Amen Thompson",
-        "Michael C. Wright"
-      ]
-    },
-    {
       "id": "50543371",
       "title": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
       "summary": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
@@ -593,144 +723,6 @@
         "Mo Bamba",
         "Quentin Grimes",
         "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50534111",
-      "title": "Windhorst and MacMahon: League execs, scouts examine nine rookie starts",
-      "summary": "How has the first month unfolded for nine first-year stars? Brian Windhorst and Tim MacMahon canvass the league.",
-      "url": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
-      "publishedAt": "2026-11-20T13:34:23+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1748266_1296x729_16-9.jpg",
-      "author": "Brian Windhorst and Tim MacMahon",
-      "categories": [
-        "NBA",
-        "Golden State Warriors",
-        "Memphis Grizzlies",
-        "Washington Wizards",
-        "Utah Jazz",
-        "Chicago Bulls",
-        "LA Clippers",
-        "Atlanta Hawks",
-        "Brooklyn Nets",
-        "Sacramento Kings",
-        "Brian Windhorst",
-        "Tim MacMahon"
-      ]
-    },
-    {
-      "id": "49960162",
-      "title": "Fantasy basketball points league rankings update: Lendeborg, Acuff Jr. on the rise",
-      "summary": "Updated fantasy basketball rankings for points leagues, with several rookies on the rise.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49960162/fantasy-basketball-points-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-11-20T11:54:02+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748435_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "news - fantasy basketball",
-        "Fantasy NBA",
-        "Yaxel Lendeborg",
-        "Darius Acuff Jr",
-        "Andre Snellings",
-        "NBA"
-      ]
-    },
-    {
-      "id": "50533958",
-      "title": "Play the long game: Trade for these fantasy hoops players before they heat up",
-      "summary": "Be ahead of the curve, and boost your fantasy basketball lineup with these trades or adds while the value is right.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50533958/fantasy-basketball-players-trade-waivers-pickups",
-      "publishedAt": "2026-11-20T11:52:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1119/r1748251_1296x729_16-9.jpg",
-      "author": "Eric Moody",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Jalen Suggs",
-        "Jared McCain",
-        "Devin Vassell",
-        "Jalen Smith",
-        "Coby White",
-        "Josh Hart",
-        "Ivica Zubac",
-        "Brandon Miller",
-        "Jalen Johnson",
-        "Trae Young"
-      ]
-    },
-    {
-      "id": "49959975",
-      "title": "Fantasy basketball Category and Roto rankings: Jokic on top, Murray in top 15",
-      "summary": "Updated fantasy basketball rankings for H2H category and roto leagues, with Nikola Jokic on top and teammate Jamal Murray on the rise.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/49959975/fantasy-basketball-roto-category-league-rankings-2026-27-nba-season",
-      "publishedAt": "2026-11-20T11:50:37+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748443_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "news - fantasy",
-        "Fantasy NBA",
-        "NBA",
-        "Nikola Jokic",
-        "Jamal Murray",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50538526",
-      "title": "Lillard scores 33 in return to Milwaukee, lifts Blazers past Bucks",
-      "summary": "Portland's Damian Lillard played at Milwaukee for the first time since the Bucks waived him in 2025 and gave Bucks fans a taste of what they're missing by scoring a season-high 33 points in the Trail Blazers' 124-114 victory on Thursday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50538526/lillard-scores-33-return-milwaukee-lifts-blazers-bucks",
-      "publishedAt": "2026-11-20T06:37:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748447_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Portland Trail Blazers",
-        "Damian Lillard",
-        "Milwaukee Bucks"
-      ]
-    },
-    {
-      "id": "50538594",
-      "title": "Spurs' Victor Wembanyama says new-look 'shunk' done because of blister on hand",
-      "summary": "Victor Wembanyama said his new-look \"shunk\" was done because of a blister former from actually dunking.",
-      "url": "https://www.espn.com/nba/story/_/id/50538594/spurs-victor-wembanyama-shunk-done-due-blister",
-      "publishedAt": "2026-11-20T06:28:19+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748434_600x600_1-1.jpg",
-      "author": "Michael Wright",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "news",
-        "Victor Wembanyama"
-      ]
-    },
-    {
-      "id": "50537250",
-      "title": "Golden State Warriors vs. Memphis Grizzlies: Game Highlights",
-      "summary": "Golden State Warriors vs. Memphis Grizzlies: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50537250/game-highlights",
-      "publishedAt": "2026-11-20T04:05:42+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1120/b6dc36c5-a99b-464a-b491-6cc3a4044a9c/b6dc36c5-a99b-464a-b491-6cc3a4044a9c.jpg",
-      "author": "",
-      "categories": [
-        "Charles Bassey",
-        "Jaylen Wells",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "Golden State Warriors",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Taylor Hendricks",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Golden State Warriors @ Memphis Grizzlies"
       ]
     }
   ]
