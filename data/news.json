@@ -1,8 +1,105 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-22T19:39:03.626301+00:00",
+  "updatedAt": "2026-11-23T01:42:10.905993+00:00",
   "articles": [
+    {
+      "id": "50568089",
+      "title": "Oklahoma City Thunder vs. Miami Heat: Game Highlights",
+      "summary": "Oklahoma City Thunder vs. Miami Heat: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50568089/game-highlights",
+      "publishedAt": "2026-11-23T01:31:29+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1123/2c2a8bd4-a25b-451f-882b-672bb7fff492/2c2a8bd4-a25b-451f-882b-672bb7fff492.jpg",
+      "author": "",
+      "categories": [
+        "Miami Heat",
+        "Ajay Mitchell",
+        "Bennett Stirtz",
+        "Oklahoma City Thunder",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "Bam Adebayo",
+        "Simone Fontecchio",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Oklahoma City Thunder @ Miami Heat"
+      ]
+    },
+    {
+      "id": "50567550",
+      "title": "Klay Thompson blows out shoe in Heat's win over Thunder",
+      "summary": "Klay Thompson blew out part of a shoe while defending a fast break in the Heat's game against the Thunder on Sunday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50567550/klay-thompson-blows-shoe-heat-thunder",
+      "publishedAt": "2026-11-23T01:31:20+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1749941_2_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Miami Heat",
+        "Klay Thompson"
+      ]
+    },
+    {
+      "id": "50564049",
+      "title": "Bulls G Norman Powell sidelined by mild hamstring injury",
+      "summary": "Bulls guard Norman Powell was ruled out against the Nuggets and will be reevaluated later in the week because of a mild right hamstring strain.",
+      "url": "https://www.espn.com/nba/story/_/id/50564049/bulls-g-norman-powell-sidelined-mild-hamstring-injury",
+      "publishedAt": "2026-11-22T23:43:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1122/r1749738_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Chicago Bulls",
+        "Norman Powell",
+        "news"
+      ]
+    },
+    {
+      "id": "50566482",
+      "title": "Detroit Pistons vs. Atlanta Hawks: Game Highlights",
+      "summary": "Detroit Pistons vs. Atlanta Hawks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50566482/game-highlights",
+      "publishedAt": "2026-11-22T23:19:34+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/d3c5c9f3-58db-46ec-b88e-88ea435ecc5f/d3c5c9f3-58db-46ec-b88e-88ea435ecc5f.jpg",
+      "author": "",
+      "categories": [
+        "Nickeil Alexander-Walker",
+        "Luguentz Dort",
+        "Atlanta Hawks",
+        "Detroit Pistons",
+        "Isaiah Joe",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Kevin Huerter",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "Kingston Flemings",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Detroit Pistons @ Atlanta Hawks"
+      ]
+    },
+    {
+      "id": "50564924",
+      "title": "Sources: Free agent Gabe Vincent, Kings finalizing deal",
+      "summary": "Gabe Vincent is finalizing a deal with the Kings to fill their 15th roster spot, league sources told ESPN's Shams Charania.",
+      "url": "https://www.espn.com/nba/story/_/id/50564924/sources-free-agent-gabe-vincent-kings-finalizing-deal",
+      "publishedAt": "2026-11-22T21:12:48+00:00",
+      "image": "https://a.espncdn.com/photo/2024/0401/r1312689_600x600_1-1.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Sacramento Kings",
+        "Gabe Vincent",
+        "news",
+        "Anthony Slater"
+      ]
+    },
     {
       "id": "50559927",
       "title": "Mikal Bridges shakes off slump, hits buzzer-beater to save Knicks vs. Blazers",
@@ -318,21 +415,6 @@
       ]
     },
     {
-      "id": "50542985",
-      "title": "Sources: Brandon Ingram (Achilles) expected to make Clippers debut vs. Rockets",
-      "summary": "After recovering from Achilles surgery, Brandon Ingram is set to make his Clippers debut Monday against the Rockets, sources told ESPN's Shams Charania.",
-      "url": "https://www.espn.com/nba/story/_/id/50542985/sources-clippers-brandon-ingram-make-season-team-debut",
-      "publishedAt": "2026-11-21T13:07:55+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748650_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "LA Clippers",
-        "news",
-        "Brandon Ingram"
-      ]
-    },
-    {
       "id": "49577473",
       "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
       "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent win by the Nuggets.",
@@ -624,118 +706,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Charlotte Hornets @ Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50545258",
-      "title": "Caleb Wilson's hand injuries not connected as Bulls rookie deals with 'bad luck'",
-      "summary": "Caleb Wilson has sustained three hand-related injuries in the past year, but the Chicago Bulls rookie said doctors told him they're not connected and that it's a case of \"bad luck,\" he told reporters before his team's game against the Washington Wizards.",
-      "url": "https://www.espn.com/nba/story/_/id/50545258/bulls-rookie-caleb-wilson-hand-injuries-run-bad-luck",
-      "publishedAt": "2026-11-21T01:51:31+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1121/r1748780_600x600_1-1.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "NBA",
-        "Washington Wizards",
-        "Chicago Bulls",
-        "Caleb Wilson",
-        "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-20T21:06:33+00:00",
-      "image": "https://a.espncdn.com/photo/2025/0121/r1441247_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50543371",
-      "title": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
-      "summary": "Michael C. Wright: Fred VanVleet brings 'sense of calm' to Rockets",
-      "url": "https://www.espn.com/video/clip/_/id/50543371/fred-vanvleet-brings-sense-calm-rockets",
-      "publishedAt": "2026-11-20T20:54:46+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/ss_20261120_154907835_3751400/ss_20261120_154907835_3751400.jpg",
-      "author": "",
-      "categories": [
-        "Houston Rockets",
-        "2 Star Rating",
-        "NBA",
-        "Fred VanVleet",
-        "NBA Today",
-        "Verts - Exclude Content",
-        "Michael C. Wright"
-      ]
-    },
-    {
-      "id": "50543306",
-      "title": "Shams: Brandon Ingram will make Clippers debut Monday",
-      "summary": "Shams: Brandon Ingram will make Clippers debut Monday",
-      "url": "https://www.espn.com/video/clip/_/id/50543306/brandon-ingram-make-clippers-debut-monday",
-      "publishedAt": "2026-11-20T20:49:55+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1120/ss_20261120_154334744_3751382947/ss_20261120_154334744_3751382947.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Verts - Exclude Content",
-        "Shams Charania",
-        "Brandon Ingram",
-        "LA Clippers"
-      ]
-    },
-    {
-      "id": "50541753",
-      "title": "Should fantasy hoops managers expect a return to dominance from Nikola Jokic?",
-      "summary": "Nikola Jokic's numbers are down from his typical norm, but has he been passed by Wemby or Luka as the top player in fantasy?",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
-      "publishedAt": "2026-11-20T19:47:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748619_608x342_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Nikola Jokic",
-        "Victor Wembanyama",
-        "Luka Doncic",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50541974",
-      "title": "Fantasy adds, NBA bets to make for Friday: Jazz keep red-hot Bamba in lineup",
-      "summary": "Andre Snellings breaks down Friday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50541974/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-20T18:37:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1120/r1748594_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "Sports Betting",
-        "news - fantasy basketball",
-        "news - nba",
-        "news – sports betting",
-        "Tyrese Proctor",
-        "Jalen Smith",
-        "Mo Bamba",
-        "Quentin Grimes",
-        "Andre Snellings"
       ]
     }
   ]
