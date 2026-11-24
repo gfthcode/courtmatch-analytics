@@ -1,18 +1,125 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-23T12:38:41.462025+00:00",
+  "updatedAt": "2026-11-24T02:12:12.127345+00:00",
   "articles": [
     {
-      "id": "50558987",
-      "title": "Too-early NBA All-Star picks: The 24 most-deserving players right now",
-      "summary": "So what if the All-Star Game is three months away? We're picking locks and position battles to watch across both conferences.",
-      "url": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
-      "publishedAt": "2026-11-23T12:31:01+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1749989_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
+      "id": "50577588",
+      "title": "Grizzlies' Cameron Boozer (ankle) to be reevaluated in 4 weeks",
+      "summary": "Grizzlies rookie forward Cameron Boozer has a sprained right ankle that will sideline him for at least a month.",
+      "url": "https://www.espn.com/nba/story/_/id/50577588/grizzlies-cameron-boozer-ankle-reevaluated-4-weeks",
+      "publishedAt": "2026-11-24T00:41:48+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1750412_600x400_3-2.jpg",
+      "author": "Anthony Gharib",
       "categories": [
         "NBA",
+        "Memphis Grizzlies",
+        "Cameron Boozer",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50577428",
+      "title": "76ers rule out Joel Embiid (illness) for game vs. Trail Blazers",
+      "summary": "The 76ers said Joel Embiid will sit out Monday's game against the Trail Blazers because of an illness.",
+      "url": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
+      "publishedAt": "2026-11-23T23:53:39+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1750407_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "Joel Embiid",
+        "NBA",
+        "Philadelphia 76ers",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50564924",
+      "title": "Veteran guard Gabe Vincent signs deal with Kings",
+      "summary": "Guard Gabe Vincent signed a deal with the Sacramento Kings to fill their 15th roster spot, it was announced on Monday.",
+      "url": "https://www.espn.com/nba/story/_/id/50564924/sources-free-agent-gabe-vincent-kings-finalizing-deal",
+      "publishedAt": "2026-11-23T21:49:52+00:00",
+      "image": "https://a.espncdn.com/photo/2024/0401/r1312689_600x600_1-1.jpg",
+      "author": "Anthony Slater",
+      "categories": [
+        "NBA",
+        "Sacramento Kings",
+        "Gabe Vincent",
+        "news",
+        "Anthony Slater"
+      ]
+    },
+    {
+      "id": "50573843",
+      "title": "Fantasy adds, NBA bets to make for Monday: Pick up Brook Lopez, Quentin Grimes",
+      "summary": "Andre Snellings breaks down Monday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50573843/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-23T21:15:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1750201_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Jalen Smith",
+        "Quentin Grimes",
+        "Brook Lopez",
+        "Cam Spencer",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50575130",
+      "title": "Fantasy risers and fallers: Trade Davion Mitchell? Move on from De'Aaron Fox?",
+      "summary": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50575130/fantasy-basketball-risers-fallers-keep-cut-add-today",
+      "publishedAt": "2026-11-23T21:00:09+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1750302_1296x729_16-9.jpg",
+      "author": "Steve Alexander",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Davion Mitchell",
+        "Quentin Grimes",
+        "Cedric Coward",
+        "Kel'el Ware",
+        "Jalen Green",
+        "De'Aaron Fox",
+        "Steve Alexander"
+      ]
+    },
+    {
+      "id": "50559927",
+      "title": "Mikal Bridges shakes off slump, hits buzzer-beater to save Knicks vs. Blazers",
+      "summary": "Mired in a shooting slump, Mikal Bridges delivered a buzzer-beating 3-pointer to lift the Knicks past the Trail Blazers after they squandered a 26-point lead.",
+      "url": "https://www.espn.com/nba/story/_/id/50559927/knicks-mikal-bridges-shakes-slump-3-buzzer-tops-blazers",
+      "publishedAt": "2026-11-23T19:59:26+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1122/r1749469_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "NBA",
+        "New York Knicks",
+        "Mikal Bridges",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "49577473",
+      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent win by the Nuggets.",
+      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+      "publishedAt": "2026-11-23T19:44:13+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1121/r1748853_608x342_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "event",
+        "daily",
         "Atlanta Hawks",
         "Boston Celtics",
         "Brooklyn Nets",
@@ -42,7 +149,64 @@
         "San Antonio Spurs",
         "Toronto Raptors",
         "Utah Jazz",
-        "Washington Wizards",
+        "Washington Wizards"
+      ]
+    },
+    {
+      "id": "50568682",
+      "title": "Bam Adebayo's triple-double ignites Heat's 123-113 victory over Thunder",
+      "summary": "In a game that did not feature Oklahoma City's Shai Gilgeous-Alexander or Miami's Giannis Antetokounmpo, Bam Adebayo swiped the spotlight, scoring 24 points en route to a triple-double, as the surging Heat defeated the Thunder 123-113 on Sunday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50568682/adebayo-triple-double-sparks-shorthanded-heat-victory",
+      "publishedAt": "2026-11-23T18:25:13+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1749970_600x600_1-1.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Miami Heat",
+        "Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "50573732",
+      "title": "Nets' Nolan Traore has hamstring strain, to be reevaluated in 8-10 weeks",
+      "summary": "Nets guard Nolan Traore has been diagnosed with a right hamstring strain and will be reevaluated in eight to 10 weeks, the team announced Monday.",
+      "url": "https://www.espn.com/nba/story/_/id/50573732/nets-nolan-traore-hamstring-reevaluated-8-10-weeks",
+      "publishedAt": "2026-11-23T18:24:21+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1107/r1742411_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Brooklyn Nets",
+        "Nolan Traore"
+      ]
+    },
+    {
+      "id": "50558987",
+      "title": "Too-early NBA All-Star picks: The 24 most deserving players right now",
+      "summary": "So what if the All-Star Game is three months away? We're picking locks and position battles to watch across both conferences.",
+      "url": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
+      "publishedAt": "2026-11-23T13:25:58+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1749989_1296x729_16-9.jpg",
+      "author": "Ben Golliver",
+      "categories": [
+        "NBA",
+        "Boston Celtics",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Minnesota Timberwolves",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "San Antonio Spurs",
         "Ben Golliver"
       ]
     },
@@ -187,20 +351,6 @@
       ]
     },
     {
-      "id": "50568682",
-      "title": "Bam Adebayo's triple-double ignites Heat's 123-113 victory over Thunder",
-      "summary": "In a game that did not feature Oklahoma City's Shai Gilgeous-Alexander or Miami's Giannis Antetokounmpo, Bam Adebayo swiped the spotlight, scoring 24 points en route to a triple-double, as the surging Heat defeated the Thunder 123-113 on Sunday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50568682/adebayo-triple-double-sparks-shorthanded-heat-victory",
-      "publishedAt": "2026-11-23T02:47:08+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1749970_600x600_1-1.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "Oklahoma City Thunder"
-      ]
-    },
-    {
       "id": "50568768",
       "title": "Orlando Magic vs. Washington Wizards: Game Highlights",
       "summary": "Orlando Magic vs. Washington Wizards: Game Highlights",
@@ -314,37 +464,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Detroit Pistons @ Atlanta Hawks"
-      ]
-    },
-    {
-      "id": "50564924",
-      "title": "Sources: Free agent Gabe Vincent, Kings finalizing deal",
-      "summary": "Gabe Vincent is finalizing a deal with the Kings to fill their 15th roster spot, league sources told ESPN's Shams Charania.",
-      "url": "https://www.espn.com/nba/story/_/id/50564924/sources-free-agent-gabe-vincent-kings-finalizing-deal",
-      "publishedAt": "2026-11-22T21:12:48+00:00",
-      "image": "https://a.espncdn.com/photo/2024/0401/r1312689_600x600_1-1.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Sacramento Kings",
-        "Gabe Vincent",
-        "news",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50559927",
-      "title": "Mikal Bridges shakes off slump, hits buzzer-beater to save Knicks vs. Blazers",
-      "summary": "Mired in a shooting slump, Mikal Bridges delivered a buzzer-beating 3-pointer to lift the Knicks past the Trail Blazers after they squandered a 26-point lead.",
-      "url": "https://www.espn.com/nba/story/_/id/50559927/knicks-mikal-bridges-shakes-slump-3-buzzer-tops-blazers",
-      "publishedAt": "2026-11-22T17:52:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1122/r1749469_600x400_3-2.jpg",
-      "author": "Vincent Goodwill",
-      "categories": [
-        "NBA",
-        "New York Knicks",
-        "Mikal Bridges",
-        "Vincent Goodwill"
       ]
     },
     {
@@ -630,99 +749,6 @@
         "NBA",
         "Houston Rockets",
         "news"
-      ]
-    },
-    {
-      "id": "49577473",
-      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
-      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent win by the Nuggets.",
-      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
-      "publishedAt": "2026-11-21T06:34:12+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1121/r1748853_608x342_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "event",
-        "daily",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards"
-      ]
-    },
-    {
-      "id": "50547522",
-      "title": "Nuggets protect home court with win over the Rockets",
-      "summary": "Nuggets protect home court with win over the Rockets",
-      "url": "https://www.espn.com/video/clip/_/id/50547522/nuggets-protect-home-court-win-rockets",
-      "publishedAt": "2026-11-21T05:55:05+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1121/a1dc03999dde4c2da6cdb6c2743fc58854/a1dc03999dde4c2da6cdb6c2743fc58854.jpg",
-      "author": "",
-      "categories": [
-        "Houston Rockets",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "Amen Thompson",
-        "NBA",
-        "Nikola Jokic",
-        "Marvin Bagley III",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Alperen Sengun",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Houston Rockets @ Denver Nuggets"
-      ]
-    },
-    {
-      "id": "50547415",
-      "title": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
-      "summary": "Sacramento Kings vs. Los Angeles Lakers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50547415/game-highlights",
-      "publishedAt": "2026-11-21T05:33:21+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1121/8cfddd4c-5049-4f21-b01f-81d8fb8a9c21/8cfddd4c-5049-4f21-b01f-81d8fb8a9c21.jpg",
-      "author": "",
-      "categories": [
-        "Zach LaVine",
-        "Luka Doncic",
-        "Los Angeles Lakers",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "De'Andre Hunter",
-        "Quentin Grimes",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Sacramento Kings @ Los Angeles Lakers"
       ]
     }
   ]
