@@ -1,8 +1,159 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-24T13:42:26.210387+00:00",
+  "updatedAt": "2026-11-24T23:53:29.377587+00:00",
   "articles": [
+    {
+      "id": "50587249",
+      "title": "Kawhi Leonard's return from knee swelling still at least week away",
+      "summary": "The Raptors say Kawhi Leonard's status will be revisted in a week as he recovers from knee swelling.",
+      "url": "https://www.espn.com/nba/story/_/id/50587249/kawhi-leonard-return-knee-swelling-least-week-away",
+      "publishedAt": "2026-11-24T23:50:41+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "Kawhi Leonard",
+        "Toronto Raptors",
+        "NBA",
+        "news",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50586828",
+      "title": "Tyrese, Jade Haliburton announce they are expecting their first child",
+      "summary": "The couple wed in August after seven years of dating and announced the news that they're expecting on Instagram.",
+      "url": "https://www.espn.com/nba/story/_/id/50586828/tyrese-jade-haliburton-expecting-first-child",
+      "publishedAt": "2026-11-24T23:41:03+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750843_580x327_16-9.png",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "Indiana Pacers",
+        "Tyrese Haliburton",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50586890",
+      "title": "Jalen Duren to begin rehab assignment in next step to return from injury",
+      "summary": "Pistons center Jalen Duren has taken a significant step toward returning from injury, practicing with the team Tuesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50586890/jalen-duren-begin-rehab-assignment-next-step-return-injury",
+      "publishedAt": "2026-11-24T23:32:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750855_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Jalen Duren",
+        "news"
+      ]
+    },
+    {
+      "id": "50586638",
+      "title": "Lakers latest in NBA to establish partnership with Kalshi",
+      "summary": "The Lakers on Tuesday announced a partnership with Kalshi, following similar deals announced last month by the 76ers and the league itself.",
+      "url": "https://www.espn.com/nba/story/_/id/50586638/lakers-latest-nba-partnership-kalshi",
+      "publishedAt": "2026-11-24T23:11:36+00:00",
+      "image": "https://a.espncdn.com/photo/2020/0621/r710816_600x600_1-1.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Los Angeles Lakers",
+        "news – sports betting",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50585929",
+      "title": "Tracy Morgan reveals how he kept Knicks' title celebration ticking",
+      "summary": "Morgan also discussed in an appearance on \"Live with Kelly and Mark\" his experience traveling to Knicks road playoff games -- seven private jets and all.",
+      "url": "https://www.espn.com/nba/story/_/id/50585929/tracy-morgan-new-york-knicks-rolexes",
+      "publishedAt": "2026-11-24T22:56:18+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750781_608x342_16-9.jpg",
+      "author": "J.J. Post",
+      "categories": [
+        "NBA",
+        "New York Knicks"
+      ]
+    },
+    {
+      "id": "50584319",
+      "title": "Fantasy notebook: Karabell on Paul George, Tyler Herro, De'Aaron Fox, more",
+      "summary": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50584319/fantasy-basketball-trends-nba-2026-2027",
+      "publishedAt": "2026-11-24T18:33:17+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750690_1296x729_16-9.jpg",
+      "author": "Eric Karabell",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Paul George",
+        "Victor Wembanyama",
+        "Tyler Herro",
+        "Darius Acuff Jr",
+        "Charles Bassey",
+        "James Harden",
+        "De'Aaron Fox",
+        "Eric Karabell"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel for the 2026-27 season",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-24T18:12:46+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750646_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "nba trade deadline",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50584006",
+      "title": "Fantasy basketball adds and NBA bets: Hot streaks for Paul Reed, Jamal Murray",
+      "summary": "Eric Moody breaks down Tuesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50584006/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-24T17:53:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750678_1296x729_16-9.jpg",
+      "author": "Eric Moody",
+      "categories": [
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "Neemias Queta",
+        "Tristan da Silva",
+        "Kevin Huerter",
+        "Paul Reed"
+      ]
+    },
+    {
+      "id": "50584000",
+      "title": "Sources: Wolves' Donte DiVincenzo eyes New Year's for season debut",
+      "summary": "The Timberwolves said Donte DiVincenzo has been cleared for basketball activities after Achilles surgery.",
+      "url": "https://www.espn.com/nba/story/_/id/50584000/wolves-dante-divincenzo-cleared-basketball-activities",
+      "publishedAt": "2026-11-24T17:38:32+00:00",
+      "image": "https://a.espncdn.com/photo/2024/1014/r1400281_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "Minnesota Timberwolves",
+        "NBA",
+        "Donte DiVincenzo"
+      ]
+    },
     {
       "id": "50544296",
       "title": "NBA Rookie Rankings: 10 standouts in a star-studded class",
@@ -324,22 +475,6 @@
       ]
     },
     {
-      "id": "50564924",
-      "title": "Veteran guard Gabe Vincent signs deal with Kings",
-      "summary": "Guard Gabe Vincent signed a deal with the Sacramento Kings to fill their 15th roster spot, it was announced on Monday.",
-      "url": "https://www.espn.com/nba/story/_/id/50564924/sources-free-agent-gabe-vincent-kings-finalizing-deal",
-      "publishedAt": "2026-11-23T21:49:52+00:00",
-      "image": "https://a.espncdn.com/photo/2024/0401/r1312689_600x600_1-1.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "Sacramento Kings",
-        "Gabe Vincent",
-        "news",
-        "Anthony Slater"
-      ]
-    },
-    {
       "id": "50573843",
       "title": "Fantasy adds, NBA bets to make for Monday: Pick up Brook Lopez, Quentin Grimes",
       "summary": "Andre Snellings breaks down Monday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
@@ -425,20 +560,6 @@
         "Toronto Raptors",
         "Utah Jazz",
         "Washington Wizards"
-      ]
-    },
-    {
-      "id": "50568682",
-      "title": "Bam Adebayo's triple-double ignites Heat's 123-113 victory over Thunder",
-      "summary": "In a game that did not feature Oklahoma City's Shai Gilgeous-Alexander or Miami's Giannis Antetokounmpo, Bam Adebayo swiped the spotlight, scoring 24 points en route to a triple-double, as the surging Heat defeated the Thunder 123-113 on Sunday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50568682/adebayo-triple-double-sparks-shorthanded-heat-victory",
-      "publishedAt": "2026-11-23T18:25:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1749970_600x600_1-1.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Miami Heat",
-        "Oklahoma City Thunder"
       ]
     },
     {
@@ -611,46 +732,6 @@
       ]
     },
     {
-      "id": "50567550",
-      "title": "Klay Thompson blows out shoe in Heat's win over Thunder",
-      "summary": "Klay Thompson blew out part of a shoe while defending a fast break in the Heat's game against the Thunder on Sunday night.",
-      "url": "https://www.espn.com/nba/story/_/id/50567550/klay-thompson-blows-shoe-heat-thunder",
-      "publishedAt": "2026-11-23T02:57:25+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1749941_2_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Miami Heat",
-        "Klay Thompson"
-      ]
-    },
-    {
-      "id": "50568768",
-      "title": "Orlando Magic vs. Washington Wizards: Game Highlights",
-      "summary": "Orlando Magic vs. Washington Wizards: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50568768/game-highlights",
-      "publishedAt": "2026-11-23T02:40:29+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1123/543e1518-dd03-49d5-8219-f972f69fa35d/543e1518-dd03-49d5-8219-f972f69fa35d.jpg",
-      "author": "",
-      "categories": [
-        "Washington Wizards",
-        "Tristan da Silva",
-        "Orlando Magic",
-        "Kyshawn George",
-        "Desmond Bane",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Wendell Carter Jr",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Orlando Magic @ Washington Wizards"
-      ]
-    },
-    {
       "id": "50568860",
       "title": "Dallas Mavericks vs. Utah Jazz: Game Highlights",
       "summary": "Dallas Mavericks vs. Utah Jazz: Game Highlights",
@@ -673,72 +754,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Dallas Mavericks @ Utah Jazz"
-      ]
-    },
-    {
-      "id": "50568089",
-      "title": "Oklahoma City Thunder vs. Miami Heat: Game Highlights",
-      "summary": "Oklahoma City Thunder vs. Miami Heat: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50568089/game-highlights",
-      "publishedAt": "2026-11-23T01:31:29+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1123/2c2a8bd4-a25b-451f-882b-672bb7fff492/2c2a8bd4-a25b-451f-882b-672bb7fff492.jpg",
-      "author": "",
-      "categories": [
-        "Miami Heat",
-        "Ajay Mitchell",
-        "Bennett Stirtz",
-        "Oklahoma City Thunder",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Bam Adebayo",
-        "Simone Fontecchio",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Oklahoma City Thunder @ Miami Heat"
-      ]
-    },
-    {
-      "id": "50564049",
-      "title": "Bulls G Norman Powell sidelined by mild hamstring injury",
-      "summary": "Bulls guard Norman Powell was ruled out against the Nuggets and will be reevaluated later in the week because of a mild right hamstring strain.",
-      "url": "https://www.espn.com/nba/story/_/id/50564049/bulls-g-norman-powell-sidelined-mild-hamstring-injury",
-      "publishedAt": "2026-11-22T23:43:58+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1122/r1749738_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Chicago Bulls",
-        "Norman Powell",
-        "news"
-      ]
-    },
-    {
-      "id": "50566482",
-      "title": "Detroit Pistons vs. Atlanta Hawks: Game Highlights",
-      "summary": "Detroit Pistons vs. Atlanta Hawks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50566482/game-highlights",
-      "publishedAt": "2026-11-22T23:19:34+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1122/d3c5c9f3-58db-46ec-b88e-88ea435ecc5f/d3c5c9f3-58db-46ec-b88e-88ea435ecc5f.jpg",
-      "author": "",
-      "categories": [
-        "Nickeil Alexander-Walker",
-        "Luguentz Dort",
-        "Atlanta Hawks",
-        "Detroit Pistons",
-        "Isaiah Joe",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Kevin Huerter",
-        "SC4U  - Eligible",
-        "4 Star Rating",
-        "Kingston Flemings",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Detroit Pistons @ Atlanta Hawks"
       ]
     }
   ]
