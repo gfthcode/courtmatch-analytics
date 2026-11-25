@@ -1,14 +1,101 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-24T23:53:29.377587+00:00",
+  "updatedAt": "2026-11-25T08:32:41.717454+00:00",
   "articles": [
+    {
+      "id": "50590138",
+      "title": "Dallas Mavericks vs. Denver Nuggets: Game Highlights",
+      "summary": "Dallas Mavericks vs. Denver Nuggets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50590138/game-highlights",
+      "publishedAt": "2026-11-25T05:34:13+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/14d56108-91ca-4566-9eaa-8ab344d3c031/14d56108-91ca-4566-9eaa-8ab344d3c031.jpg",
+      "author": "",
+      "categories": [
+        "Jamal Murray",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Morez Johnson Jr",
+        "NBA",
+        "Nikola Jokic",
+        "Cooper Flagg",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U - Full Highlight",
+        "SC4U  - Eligible",
+        "Dallas Mavericks @ Denver Nuggets"
+      ]
+    },
+    {
+      "id": "50589424",
+      "title": "Celtics snap losing streak with win at the Wizards",
+      "summary": "Celtics snap losing streak with win at the Wizards",
+      "url": "https://www.espn.com/video/clip/_/id/50589424/celtics-snap-losing-streak-win-wizards",
+      "publishedAt": "2026-11-25T03:48:41+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1124/82e68f66bd774da7979ef6a908ef11bd1368/82e68f66bd774da7979ef6a908ef11bd1368.jpg",
+      "author": "",
+      "categories": [
+        "Jayson Tatum",
+        "Paul George",
+        "Washington Wizards",
+        "Boston Celtics",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Anthony Davis",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Boston Celtics @ Washington Wizards"
+      ]
+    },
+    {
+      "id": "50588781",
+      "title": "Detroit Pistons vs. Orlando Magic: Game Highlights",
+      "summary": "Detroit Pistons vs. Orlando Magic: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50588781/game-highlights",
+      "publishedAt": "2026-11-25T02:36:40+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1125/a403d30b-c1f3-4247-8911-984bf7f87d78/a403d30b-c1f3-4247-8911-984bf7f87d78.jpg",
+      "author": "",
+      "categories": [
+        "Orlando Magic",
+        "Detroit Pistons",
+        "Isaiah Joe",
+        "Ronald Holland II",
+        "Desmond Bane",
+        "SC4U - Full Highlight",
+        "NBA",
+        "3 Star Rating",
+        "SC4U  - Eligible",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Detroit Pistons @ Orlando Magic"
+      ]
+    },
+    {
+      "id": "50586890",
+      "title": "Jalen Duren to begin rehab assignment in next step to return from injury",
+      "summary": "Pistons center Jalen Duren has taken a significant step toward returning from injury, practicing with the team Tuesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50586890/jalen-duren-begin-rehab-assignment-next-step-return-injury",
+      "publishedAt": "2026-11-25T00:33:30+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750855_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Jalen Duren",
+        "news"
+      ]
+    },
     {
       "id": "50587249",
       "title": "Kawhi Leonard's return from knee swelling still at least week away",
       "summary": "The Raptors say Kawhi Leonard's status will be revisted in a week as he recovers from knee swelling.",
       "url": "https://www.espn.com/nba/story/_/id/50587249/kawhi-leonard-return-knee-swelling-least-week-away",
-      "publishedAt": "2026-11-24T23:50:41+00:00",
+      "publishedAt": "2026-11-25T00:02:36+00:00",
       "image": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg",
       "author": "Anthony Gharib",
       "categories": [
@@ -32,21 +119,6 @@
         "Indiana Pacers",
         "Tyrese Haliburton",
         "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50586890",
-      "title": "Jalen Duren to begin rehab assignment in next step to return from injury",
-      "summary": "Pistons center Jalen Duren has taken a significant step toward returning from injury, practicing with the team Tuesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50586890/jalen-duren-begin-rehab-assignment-next-step-return-injury",
-      "publishedAt": "2026-11-24T23:32:42+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1124/r1750855_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Jalen Duren",
-        "news"
       ]
     },
     {
@@ -519,50 +591,6 @@
       ]
     },
     {
-      "id": "49577473",
-      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
-      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent win by the Nuggets.",
-      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
-      "publishedAt": "2026-11-23T19:44:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1121/r1748853_608x342_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "event",
-        "daily",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards"
-      ]
-    },
-    {
       "id": "50573732",
       "title": "Nets' Nolan Traore has hamstring strain, to be reevaluated in 8-10 weeks",
       "summary": "Nets guard Nolan Traore has been diagnosed with a right hamstring strain and will be reevaluated in eight to 10 weeks, the team announced Monday.",
@@ -704,56 +732,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Indiana Pacers @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50568964",
-      "title": "Denver Nuggets vs. Chicago Bulls: Game Highlights",
-      "summary": "Denver Nuggets vs. Chicago Bulls: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50568964/game-highlights",
-      "publishedAt": "2026-11-23T02:59:56+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1123/31dc54f3-4554-4b41-8755-1ff3537dbaa0/31dc54f3-4554-4b41-8755-1ff3537dbaa0.jpg",
-      "author": "",
-      "categories": [
-        "Jamal Murray",
-        "Cameron Johnson",
-        "Denver Nuggets",
-        "SC4U - Full Highlight",
-        "Chicago Bulls",
-        "NBA",
-        "Nikola Jokic",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Josh Giddey",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Denver Nuggets @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50568860",
-      "title": "Dallas Mavericks vs. Utah Jazz: Game Highlights",
-      "summary": "Dallas Mavericks vs. Utah Jazz: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50568860/game-highlights",
-      "publishedAt": "2026-11-23T02:40:20+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1123/1cd42f5a-5a78-4e49-84e4-b31129c3b88b/1cd42f5a-5a78-4e49-84e4-b31129c3b88b.jpg",
-      "author": "",
-      "categories": [
-        "Daniel Gafford",
-        "Svi Mykhailiuk",
-        "Utah Jazz",
-        "Dallas Mavericks",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Kyle Filipowski",
-        "Cooper Flagg",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Dallas Mavericks @ Utah Jazz"
       ]
     }
   ]
