@@ -1,8 +1,251 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-25T08:32:41.717454+00:00",
+  "updatedAt": "2026-11-25T19:15:11.942477+00:00",
   "articles": [
+    {
+      "id": "50595534",
+      "title": "Ex-Bucks guard Kevin Porter Jr. finalizing 2-year deal to join Magic, agent says",
+      "summary": "Free agent guard Kevin Porter Jr. is finalizing a two-year contract with the Magic, his agent told ESPN.",
+      "url": "https://www.espn.com/nba/story/_/id/50595534/agent-kevin-porter-jr-finalizing-2-year-deal-magic",
+      "publishedAt": "2026-11-25T19:04:58+00:00",
+      "image": "https://a.espncdn.com/photo/2025/1023/r1564926_1296x729_16-9.jpg",
+      "author": "Shams Charania",
+      "categories": [
+        "NBA",
+        "Orlando Magic",
+        "Kevin Porter Jr",
+        "news",
+        "Shams Charania"
+      ]
+    },
+    {
+      "id": "50593697",
+      "title": "Fantasy adds, NBA bets to make for Wednesday: Scoring chances for Kuminga, Maxey",
+      "summary": "Andre Snellings breaks down Wednesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50593697/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-25T18:05:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1125/r1751159_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Brayden Burries",
+        "Peyton Watson",
+        "Dillon Brooks",
+        "Cam Spencer",
+        "Andre Snellings"
+      ]
+    },
+    {
+      "id": "50583781",
+      "title": "NBA Power Rankings: Whom is each team most thankful for this year?",
+      "summary": "Here's where all 30 teams rank this week -- and the one person each franchise should be thanking most.",
+      "url": "https://www.espn.com/nba/story/_/id/50583781/nba-power-rankings-one-player-coach-exec-thanksgiving",
+      "publishedAt": "2026-11-25T17:23:35+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/nba_power6_cr_16x9_576x324.jpg",
+      "author": "NBA Insiders",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Boston Celtics",
+        "Detroit Pistons",
+        "Atlanta Hawks",
+        "New York Knicks",
+        "Toronto Raptors",
+        "Cleveland Cavaliers",
+        "Miami Heat",
+        "Charlotte Hornets",
+        "Washington Wizards",
+        "Indiana Pacers",
+        "Orlando Magic",
+        "Brooklyn Nets",
+        "Chicago Bulls",
+        "Milwaukee Bucks",
+        "Los Angeles Lakers",
+        "San Antonio Spurs",
+        "Oklahoma City Thunder",
+        "Golden State Warriors",
+        "Minnesota Timberwolves",
+        "Houston Rockets",
+        "Memphis Grizzlies",
+        "Portland Trail Blazers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "New Orleans Pelicans",
+        "Phoenix Suns",
+        "LA Clippers",
+        "Sacramento Kings",
+        "Utah Jazz",
+        "NBA Insiders"
+      ]
+    },
+    {
+      "id": "50028196",
+      "title": "NBA buzz: Latest on trades, news, roster moves and intel for the 2026-27 season",
+      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
+      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
+      "publishedAt": "2026-11-25T14:54:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750646_608x342_16-9.jpg",
+      "author": "ESPN staff",
+      "categories": [
+        "NBA",
+        "daily",
+        "nba free agency",
+        "news - frontpage",
+        "nba trade deadline",
+        "ESPN Staff Profile"
+      ]
+    },
+    {
+      "id": "50592672",
+      "title": "NBA reveals $11B arena initiative to boost efforts for Europe league",
+      "summary": "The long-planned NBA-backed league in Europe took another step toward becoming reality with the unveiling of a plan that targets nearly $11 billion in funding for the development and renovation of arenas around the continent.",
+      "url": "https://www.espn.com/nba/story/_/id/50592672/nba-reveals-11b-initiative-arena-development-europe",
+      "publishedAt": "2026-11-25T14:43:24+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736092_1296x729_16-9.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "news"
+      ]
+    },
+    {
+      "id": "50577428",
+      "title": "76ers' Joel Embiid (illness) sits out loss to Trail Blazers",
+      "summary": "76ers center Joel Embiid missed Monday's game against the Trail Blazers because of an illness.",
+      "url": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
+      "publishedAt": "2026-11-25T12:42:13+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1123/r1750407_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "Joel Embiid",
+        "NBA",
+        "Philadelphia 76ers",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50586890",
+      "title": "Jalen Duren to begin rehab assignment in next step to return from injury",
+      "summary": "Pistons center Jalen Duren has taken a significant step toward returning from injury, practicing with the team Tuesday.",
+      "url": "https://www.espn.com/nba/story/_/id/50586890/jalen-duren-begin-rehab-assignment-next-step-return-injury",
+      "publishedAt": "2026-11-25T12:41:31+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750855_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Jalen Duren",
+        "news"
+      ]
+    },
+    {
+      "id": "50586638",
+      "title": "Lakers latest in NBA to establish partnership with Kalshi",
+      "summary": "The Lakers on Tuesday announced a partnership with Kalshi, following similar deals announced last month by the 76ers and the league itself.",
+      "url": "https://www.espn.com/nba/story/_/id/50586638/lakers-latest-nba-partnership-kalshi",
+      "publishedAt": "2026-11-25T12:41:13+00:00",
+      "image": "https://a.espncdn.com/photo/2020/0621/r710816_600x600_1-1.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Los Angeles Lakers",
+        "news – sports betting",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50584000",
+      "title": "Sources: Wolves' Donte DiVincenzo eyes New Year's for season debut",
+      "summary": "The Timberwolves said Donte DiVincenzo has been cleared for basketball activities after Achilles surgery.",
+      "url": "https://www.espn.com/nba/story/_/id/50584000/wolves-dante-divincenzo-cleared-basketball-activities",
+      "publishedAt": "2026-11-25T12:40:51+00:00",
+      "image": "https://a.espncdn.com/photo/2024/1014/r1400281_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "Minnesota Timberwolves",
+        "NBA",
+        "Donte DiVincenzo"
+      ]
+    },
+    {
+      "id": "50587249",
+      "title": "Kawhi Leonard's return from knee swelling still at least week away",
+      "summary": "The Raptors say Kawhi Leonard's status will be revisted in a week as he recovers from knee swelling.",
+      "url": "https://www.espn.com/nba/story/_/id/50587249/kawhi-leonard-return-knee-swelling-least-week-away",
+      "publishedAt": "2026-11-25T12:40:12+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg",
+      "author": "Anthony Gharib",
+      "categories": [
+        "Kawhi Leonard",
+        "Toronto Raptors",
+        "NBA",
+        "news",
+        "Anthony Gharib"
+      ]
+    },
+    {
+      "id": "50389727",
+      "title": "Inside LeBron's first game in Philly -- more than two decades ago",
+      "summary": "Nearly 25 years ago, LeBron won over Philly for the first time -- inside one of the most iconic basketball arenas in the world.",
+      "url": "https://www.espn.com/nba/story/_/id/50389727/lebron-james-palestra-maureece-rice-philadelphia",
+      "publishedAt": "2026-11-25T12:39:15+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1105/nba_james3_16x9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Cleveland Cavaliers",
+        "LeBron James",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50587119",
+      "title": "LaMelo Ball and the 'collective' carrying Minnesota without Anthony Edwards",
+      "summary": "Through \"giddiness,\" an enhanced focus on defense and an ensemble cast, LaMelo Ball and the Timberwolves are thriving.",
+      "url": "https://www.espn.com/nba/story/_/id/50587119/lamelo-ball-minnesota-timberwolves-anthony-edwards",
+      "publishedAt": "2026-11-25T12:34:20+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1125/r1750870_608x342_16-9.jpg",
+      "author": "Jamal Collier",
+      "categories": [
+        "NBA",
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "Anthony Edwards",
+        "Ayo Dosunmu",
+        "Jaden McDaniels",
+        "Rudy Gobert",
+        "Jamal Collier"
+      ]
+    },
+    {
+      "id": "50584790",
+      "title": "Fantasy basketball: How to take advantage of the 76ers' rotations",
+      "summary": "Andre Snellings looks at how the 76ers are handling rotations, resting players and dishing out minutes, and explains how to take advantage of it.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50584790/fantasy-basketball-philadelphia-76ers-lebron-james",
+      "publishedAt": "2026-11-25T11:48:13+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1124/r1750731_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Philadelphia 76ers",
+        "LeBron James",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "VJ Edgecombe",
+        "Andre Snellings"
+      ]
+    },
     {
       "id": "50590138",
       "title": "Dallas Mavericks vs. Denver Nuggets: Game Highlights",
@@ -76,37 +319,6 @@
       ]
     },
     {
-      "id": "50586890",
-      "title": "Jalen Duren to begin rehab assignment in next step to return from injury",
-      "summary": "Pistons center Jalen Duren has taken a significant step toward returning from injury, practicing with the team Tuesday.",
-      "url": "https://www.espn.com/nba/story/_/id/50586890/jalen-duren-begin-rehab-assignment-next-step-return-injury",
-      "publishedAt": "2026-11-25T00:33:30+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1124/r1750855_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "Detroit Pistons",
-        "Jalen Duren",
-        "news"
-      ]
-    },
-    {
-      "id": "50587249",
-      "title": "Kawhi Leonard's return from knee swelling still at least week away",
-      "summary": "The Raptors say Kawhi Leonard's status will be revisted in a week as he recovers from knee swelling.",
-      "url": "https://www.espn.com/nba/story/_/id/50587249/kawhi-leonard-return-knee-swelling-least-week-away",
-      "publishedAt": "2026-11-25T00:02:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736163_600x400_3-2.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "Kawhi Leonard",
-        "Toronto Raptors",
-        "NBA",
-        "news",
-        "Anthony Gharib"
-      ]
-    },
-    {
       "id": "50586828",
       "title": "Tyrese, Jade Haliburton announce they are expecting their first child",
       "summary": "The couple wed in August after seven years of dating and announced the news that they're expecting on Instagram.",
@@ -119,22 +331,6 @@
         "Indiana Pacers",
         "Tyrese Haliburton",
         "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50586638",
-      "title": "Lakers latest in NBA to establish partnership with Kalshi",
-      "summary": "The Lakers on Tuesday announced a partnership with Kalshi, following similar deals announced last month by the 76ers and the league itself.",
-      "url": "https://www.espn.com/nba/story/_/id/50586638/lakers-latest-nba-partnership-kalshi",
-      "publishedAt": "2026-11-24T23:11:36+00:00",
-      "image": "https://a.espncdn.com/photo/2020/0621/r710816_600x600_1-1.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "news",
-        "NBA",
-        "Los Angeles Lakers",
-        "news – sports betting",
-        "Dave McMenamin"
       ]
     },
     {
@@ -175,23 +371,6 @@
       ]
     },
     {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel for the 2026-27 season",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-24T18:12:46+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1124/r1750646_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "nba trade deadline",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
       "id": "50584006",
       "title": "Fantasy basketball adds and NBA bets: Hot streaks for Paul Reed, Jamal Murray",
       "summary": "Eric Moody breaks down Tuesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
@@ -210,20 +389,6 @@
         "Tristan da Silva",
         "Kevin Huerter",
         "Paul Reed"
-      ]
-    },
-    {
-      "id": "50584000",
-      "title": "Sources: Wolves' Donte DiVincenzo eyes New Year's for season debut",
-      "summary": "The Timberwolves said Donte DiVincenzo has been cleared for basketball activities after Achilles surgery.",
-      "url": "https://www.espn.com/nba/story/_/id/50584000/wolves-dante-divincenzo-cleared-basketball-activities",
-      "publishedAt": "2026-11-24T17:38:32+00:00",
-      "image": "https://a.espncdn.com/photo/2024/1014/r1400281_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "Minnesota Timberwolves",
-        "NBA",
-        "Donte DiVincenzo"
       ]
     },
     {
@@ -393,21 +558,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Cleveland Cavaliers @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50577428",
-      "title": "76ers' Joel Embiid (illness) sits out loss to Trail Blazers",
-      "summary": "76ers center Joel Embiid missed Monday's game against the Trail Blazers because of an illness.",
-      "url": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
-      "publishedAt": "2026-11-24T03:27:49+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750407_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "Joel Embiid",
-        "NBA",
-        "Philadelphia 76ers",
-        "Kris Rhim"
       ]
     },
     {
@@ -632,106 +782,6 @@
         "Philadelphia 76ers",
         "San Antonio Spurs",
         "Ben Golliver"
-      ]
-    },
-    {
-      "id": "50571229",
-      "title": "Sport on ESPN in Africa this festive - What to watch on DStv, Disney+ in December",
-      "summary": "From Thanksgiving NFL showdowns, to Christmas Day NBA action, and Boxing Day football, ESPN Africa has the festive season covered with a packed line-up of live sport, on channels across the continent and Disney+ in SA.",
-      "url": "https://www.espn.com/espn/story/_/id/50571229/sport-espn-africa-festive-watch-dstv-disney+",
-      "publishedAt": "2026-11-23T08:34:45+00:00",
-      "image": "https://a.espncdn.com/photo/2025/1203/r1584273_1296x729_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "Soccer",
-        "NBA",
-        "NFL",
-        "Boxing",
-        "Turkish Super Lig",
-        "Dutch Eredivisie"
-      ]
-    },
-    {
-      "id": "50570668",
-      "title": "Draymond Green swats back at online critics, fuels Warriors' win over Celtics",
-      "summary": "After reinforcing his career​ accolades earlier in the day on social media, Golden State Warriors forward Draymond Green closed out an 88-87 win over the Boston Celtics on Sunday with a last-second defensive stop and rousing celebration from the veteran.",
-      "url": "https://www.espn.com/nba/story/_/id/50570668/vocal-green-defensive-stop-buzzer-fuels-warriors-win",
-      "publishedAt": "2026-11-23T07:58:53+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750046_600x400_3-2.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "news",
-        "NBA",
-        "Golden State Warriors",
-        "Draymond Green",
-        "Anthony Slater"
-      ]
-    },
-    {
-      "id": "50569693",
-      "title": "Wariors down the Celtics at home",
-      "summary": "Wariors down the Celtics at home",
-      "url": "https://www.espn.com/video/clip/_/id/50569693/wariors-celtics-home",
-      "publishedAt": "2026-11-23T05:04:59+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1122/e056091cf0dc454cb22755ae8e95a6221389/e056091cf0dc454cb22755ae8e95a6221389.jpg",
-      "author": "",
-      "categories": [
-        "Jayson Tatum",
-        "Draymond Green",
-        "Boston Celtics",
-        "SC4U - Full Highlight",
-        "Golden State Warriors",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Boston Celtics @ Golden State Warriors"
-      ]
-    },
-    {
-      "id": "47987750",
-      "title": "Which NBA players have the most triple-doubles of all time?",
-      "summary": "Russell Westbrook holds the NBA record for most triple-doubles in a career. See who else joins him on the list.",
-      "url": "https://www.espn.com/nba/story/_/id/47987750/which-nba-players-most-triple-doubles-all",
-      "publishedAt": "2026-11-23T04:20:20+00:00",
-      "image": "https://a.espncdn.com/photo/2026/0220/r1617781_608x342_16-9.jpg",
-      "author": "Keith Jenkins",
-      "categories": [
-        "NBA",
-        "Nikola Jokic",
-        "Luka Doncic",
-        "LeBron James",
-        "James Harden",
-        "Giannis Antetokounmpo",
-        "Draymond Green",
-        "seo explainer"
-      ]
-    },
-    {
-      "id": "50569439",
-      "title": "Indiana Pacers vs. New York Knicks: Game Highlights",
-      "summary": "Indiana Pacers vs. New York Knicks: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50569439/game-highlights",
-      "publishedAt": "2026-11-23T03:47:16+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1123/642db86c-1d4f-4f55-9cbd-d26e3ca98216/642db86c-1d4f-4f55-9cbd-d26e3ca98216.jpg",
-      "author": "",
-      "categories": [
-        "Pascal Siakam",
-        "Karl-Anthony Towns",
-        "New York Knicks",
-        "Indiana Pacers",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Jalen Slawson",
-        "Josh Hart",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Indiana Pacers @ New York Knicks"
       ]
     }
   ]
