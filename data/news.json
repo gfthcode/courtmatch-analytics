@@ -1,8 +1,270 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-25T19:15:11.942477+00:00",
+  "updatedAt": "2026-11-26T03:34:00.337055+00:00",
   "articles": [
+    {
+      "id": "50601049",
+      "title": "Minnesota Timberwolves vs. Oklahoma City Thunder: Full Game Highlight",
+      "summary": "Minnesota Timberwolves vs. Oklahoma City Thunder: Full Game Highlight",
+      "url": "https://www.espn.com/video/clip/_/id/50601049/full-game-highlight",
+      "publishedAt": "2026-11-26T03:28:59+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/68f93403-70a7-4971-9484-fe7a2ef16b95/68f93403-70a7-4971-9484-fe7a2ef16b95.jpg",
+      "author": "",
+      "categories": [
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "Oklahoma City Thunder",
+        "NBA",
+        "Jaden McDaniels",
+        "Shai Gilgeous-Alexander",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "SC4U  - Eligible",
+        "SC4U - Full Highlight",
+        "Minnesota Timberwolves @ Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "50601006",
+      "title": "Minnesota Timberwolves vs. Oklahoma City Thunder: Game Highlights",
+      "summary": "Minnesota Timberwolves vs. Oklahoma City Thunder: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50601006/game-highlights",
+      "publishedAt": "2026-11-26T03:22:05+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/8a0a7173-d654-421f-84c4-2f3dd3a5b0e5/8a0a7173-d654-421f-84c4-2f3dd3a5b0e5.jpg",
+      "author": "",
+      "categories": [
+        "Minnesota Timberwolves",
+        "Oklahoma City Thunder",
+        "SC4U - Full Highlight",
+        "NBA",
+        "Jaden McDaniels",
+        "SC4U  - Eligible",
+        "4 Star Rating",
+        "Shai Gilgeous-Alexander",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Minnesota Timberwolves @ Oklahoma City Thunder"
+      ]
+    },
+    {
+      "id": "50600563",
+      "title": "Chicago Bulls vs. Charlotte Hornets: Game Highlights",
+      "summary": "Chicago Bulls vs. Charlotte Hornets: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50600563/game-highlights",
+      "publishedAt": "2026-11-26T03:21:51+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/5848ccde-6ec6-4a62-ba9c-baa3b9ef7c43/5848ccde-6ec6-4a62-ba9c-baa3b9ef7c43.jpg",
+      "author": "",
+      "categories": [
+        "SC4U - Full Highlight",
+        "Chicago Bulls",
+        "Tre Jones",
+        "NBA",
+        "Coby White",
+        "Matas Buzelis",
+        "SC4U  - Eligible",
+        "Charlotte Hornets",
+        "Brandon Miller",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Chicago Bulls @ Charlotte Hornets"
+      ]
+    },
+    {
+      "id": "50600831",
+      "title": "Cleveland Cavaliers vs. New York Knicks: Game Highlights",
+      "summary": "Cleveland Cavaliers vs. New York Knicks: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50600831/game-highlights",
+      "publishedAt": "2026-11-26T03:18:08+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/d0a211ff-e8a9-4f0e-ac6d-aa04b98e7af3/d0a211ff-e8a9-4f0e-ac6d-aa04b98e7af3.jpg",
+      "author": "",
+      "categories": [
+        "Jose Alvarado",
+        "Donovan Mitchell",
+        "New York Knicks",
+        "SC4U - Full Highlight",
+        "Cleveland Cavaliers",
+        "NBA",
+        "SC4U  - Eligible",
+        "Landry Shamet",
+        "Mikal Bridges",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Cleveland Cavaliers @ New York Knicks"
+      ]
+    },
+    {
+      "id": "49577473",
+      "title": "2026 NBA Cup: Schedule, format, groups, updates and more",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent wins by the Celtics and Mavericks.",
+      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+      "publishedAt": "2026-11-26T03:17:42+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751415_608x342_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "event",
+        "daily",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
+      ]
+    },
+    {
+      "id": "50600508",
+      "title": "Knicks assistant coach Chris Jent returns to team",
+      "summary": "Chris Jent was back on New York's bench for Wednesday night's NBA Cup win against Cleveland after a monthlong absence.",
+      "url": "https://www.espn.com/nba/story/_/id/50600508/knicks-assistant-coach-chris-jent-returns-team",
+      "publishedAt": "2026-11-26T03:03:21+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1028/r1737300_600x400_3-2.jpg",
+      "author": "Vincent Goodwill",
+      "categories": [
+        "news",
+        "NBA",
+        "New York Knicks",
+        "Vincent Goodwill"
+      ]
+    },
+    {
+      "id": "50599296",
+      "title": "76ers' Jaylen Brown exits with recurrence of hamstring issue",
+      "summary": "Jaylen Brown exited Philadelphia's NBA Cup game Wednesday night against Miami and was ruled out because of left hamstring tightness.",
+      "url": "https://www.espn.com/nba/story/_/id/50599296/76ers-jaylen-brown-exits-recurrence-hamstring-issue",
+      "publishedAt": "2026-11-26T02:48:06+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751408_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Jaylen Brown",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50599568",
+      "title": "Miami Heat vs. Philadelphia 76ers: Game Highlights",
+      "summary": "Miami Heat vs. Philadelphia 76ers: Game Highlights",
+      "url": "https://www.espn.com/video/clip/_/id/50599568/game-highlights",
+      "publishedAt": "2026-11-26T01:11:48+00:00",
+      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1126/25105fd2-e131-46a9-8f86-2540fab877fe/25105fd2-e131-46a9-8f86-2540fab877fe.jpg",
+      "author": "",
+      "categories": [
+        "Philadelphia 76ers",
+        "Miami Heat",
+        "Giannis Antetokounmpo",
+        "Adem Bona",
+        "SC4U - Full Highlight",
+        "NBA",
+        "SC4U  - Eligible",
+        "Tyrese Maxey",
+        "4 Star Rating",
+        "fantasy",
+        "nba highlight",
+        "Fantasy NBA",
+        "Miami Heat @ Philadelphia 76ers"
+      ]
+    },
+    {
+      "id": "50597465",
+      "title": "Austin Reaves rejoins Lakers for full practice, no call yet on facing Spurs",
+      "summary": "Austin Reaves returned to his first full practice since suffering a left heel bruise, although his status for Friday's game vs. the Spurs is uncertain.",
+      "url": "https://www.espn.com/nba/story/_/id/50597465/austin-reaves-rejoins-lakers-full-practice-tbd-face-spurs",
+      "publishedAt": "2026-11-25T22:13:32+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0509/r1655741_600x600_1-1.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Austin Reaves",
+        "news",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50596747",
+      "title": "76ers' Joel Embiid out vs. Heat, misses second straight game due to illness",
+      "summary": "76ers center Joel Embiid will miss Wednesday night's game against the Heat with an illness.",
+      "url": "https://www.espn.com/nba/story/_/id/50596747/76ers-star-joel-embiid-vs-heat-due-illness",
+      "publishedAt": "2026-11-25T20:53:38+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0904/r1711559_1296x729_16-9.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Joel Embiid",
+        "news",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50592935",
+      "title": "Where to watch 'Cade Cunningham as Deuce Sangfroid,' a Pistons documentary",
+      "summary": "The documentary shows a behind-the-scenes look at the Detroit Pistons star.",
+      "url": "https://www.espn.com/nba/story/_/id/50592935/watch-cade-cunningham-documentary-deuce-sangfroid",
+      "publishedAt": "2026-11-25T20:46:52+00:00",
+      "image": "https://a.espncdn.com/photo/2026/0516/r1658702_608x342_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "Detroit Pistons",
+        "Cade Cunningham",
+        "seo h2w"
+      ]
+    },
+    {
+      "id": "44679680",
+      "title": "Updated NBA championship and MVP odds: Spurs remain favorites as Thunder slide",
+      "summary": "The Spurs remain atop the oddsboard, while Victor Wembanyama and Luka Doncic are making MVP a two-man race.",
+      "url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+      "publishedAt": "2026-11-25T20:25:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1125/r1751236_1296x729_16-9.jpg",
+      "author": "Doug Greenberg",
+      "categories": [
+        "NBA",
+        "Sports Betting",
+        "news – sports betting",
+        "news - nba",
+        "Luka Doncic",
+        "Victor Wembanyama",
+        "San Antonio Spurs",
+        "Oklahoma City Thunder",
+        "Doug Greenberg"
+      ]
+    },
     {
       "id": "50595534",
       "title": "Ex-Bucks guard Kevin Porter Jr. finalizing 2-year deal to join Magic, agent says",
@@ -111,21 +373,6 @@
       "categories": [
         "NBA",
         "news"
-      ]
-    },
-    {
-      "id": "50577428",
-      "title": "76ers' Joel Embiid (illness) sits out loss to Trail Blazers",
-      "summary": "76ers center Joel Embiid missed Monday's game against the Trail Blazers because of an illness.",
-      "url": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
-      "publishedAt": "2026-11-25T12:42:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750407_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "Joel Embiid",
-        "NBA",
-        "Philadelphia 76ers",
-        "Kris Rhim"
       ]
     },
     {
@@ -425,23 +672,6 @@
       ]
     },
     {
-      "id": "50578664",
-      "title": "Spurs rule Victor Wembanyama, De'Aaron Fox out 90 minutes before win over Kings",
-      "summary": "Less than two hours prior to tipoff Monday, the San Antonio Spurs ruled Victor Wembanyama and De'Aaron Fox out of their 123-107 win over the Sacramento Kings, but the club anticipates both will play in Wednesday's game against the Portland Trail Blazers.",
-      "url": "https://www.espn.com/nba/story/_/id/50578664/spurs-victor-wembanyama-deaaron-fox-kings",
-      "publishedAt": "2026-11-24T07:01:00+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1124/r1750458_600x600_1-1.jpg",
-      "author": "Anthony Slater",
-      "categories": [
-        "NBA",
-        "San Antonio Spurs",
-        "Sacramento Kings",
-        "Victor Wembanyama",
-        "De'Aaron Fox",
-        "Anthony Slater"
-      ]
-    },
-    {
       "id": "50579290",
       "title": "Luke Kornet elevates for alley-oop jam",
       "summary": "Luke Kornet connects on alley-oop",
@@ -558,230 +788,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Cleveland Cavaliers @ Chicago Bulls"
-      ]
-    },
-    {
-      "id": "50579033",
-      "title": "Milwaukee Bucks vs. Toronto Raptors: Game Highlights",
-      "summary": "Milwaukee Bucks vs. Toronto Raptors: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50579033/game-highlights",
-      "publishedAt": "2026-11-24T03:27:38+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/25956682-4111-47e3-b865-47e3794c81f9/25956682-4111-47e3-b865-47e3794c81f9.jpg",
-      "author": "",
-      "categories": [
-        "Tyler Herro",
-        "Toronto Raptors",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Scottie Barnes",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Kyle Kuzma",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Milwaukee Bucks @ Toronto Raptors"
-      ]
-    },
-    {
-      "id": "50579050",
-      "title": "Brooklyn Nets vs. Minnesota Timberwolves: Game Highlights",
-      "summary": "Brooklyn Nets vs. Minnesota Timberwolves: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50579050/game-highlights",
-      "publishedAt": "2026-11-24T03:27:16+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/17edb57f-6b2b-45e1-8ebd-1d7087f7e8bd/17edb57f-6b2b-45e1-8ebd-1d7087f7e8bd.jpg",
-      "author": "",
-      "categories": [
-        "Minnesota Timberwolves",
-        "Julius Randle",
-        "SC4U - Full Highlight",
-        "NBA",
-        "Jaden McDaniels",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Bones Hyland",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Brooklyn Nets @ Minnesota Timberwolves"
-      ]
-    },
-    {
-      "id": "50578971",
-      "title": "Oklahoma City Thunder vs. Indiana Pacers: Game Highlights",
-      "summary": "Oklahoma City Thunder vs. Indiana Pacers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50578971/game-highlights",
-      "publishedAt": "2026-11-24T03:08:57+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/d86de237-97a8-4ca1-a293-07275300e833/d86de237-97a8-4ca1-a293-07275300e833.jpg",
-      "author": "",
-      "categories": [
-        "Quenton Jackson",
-        "Kenrich Williams",
-        "Pascal Siakam",
-        "Indiana Pacers",
-        "Oklahoma City Thunder",
-        "SC4U - Full Highlight",
-        "NBA",
-        "3 Star Rating",
-        "Kelly Oubre Jr",
-        "SC4U  - Eligible",
-        "Shai Gilgeous-Alexander",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Oklahoma City Thunder @ Indiana Pacers"
-      ]
-    },
-    {
-      "id": "50578651",
-      "title": "Portland Trail Blazers vs. Philadelphia 76ers: Game Highlights",
-      "summary": "Portland Trail Blazers vs. Philadelphia 76ers: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50578651/game-highlights",
-      "publishedAt": "2026-11-24T02:50:34+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/e0a4fced-183d-427a-8fd3-100a7385d7bf/e0a4fced-183d-427a-8fd3-100a7385d7bf.jpg",
-      "author": "",
-      "categories": [
-        "Deni Avdija",
-        "Philadelphia 76ers",
-        "Portland Trail Blazers",
-        "SC4U - Full Highlight",
-        "NBA",
-        "LeBron James",
-        "3 Star Rating",
-        "SC4U  - Eligible",
-        "Tyrese Maxey",
-        "Scoot Henderson",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Portland Trail Blazers @ Philadelphia 76ers"
-      ]
-    },
-    {
-      "id": "50578725",
-      "title": "Memphis Grizzlies vs. Charlotte Hornets: Game Highlights",
-      "summary": "Memphis Grizzlies vs. Charlotte Hornets: Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50578725/game-highlights",
-      "publishedAt": "2026-11-24T02:49:53+00:00",
-      "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2026/1124/811f582f-5b68-4d1b-953e-4370f68cda5a/811f582f-5b68-4d1b-953e-4370f68cda5a.jpg",
-      "author": "",
-      "categories": [
-        "Ty Jerome",
-        "SC4U - Full Highlight",
-        "Memphis Grizzlies",
-        "NBA",
-        "SC4U  - Eligible",
-        "Christian Anderson",
-        "Charlotte Hornets",
-        "Cam Spencer",
-        "4 Star Rating",
-        "fantasy",
-        "nba highlight",
-        "Fantasy NBA",
-        "Memphis Grizzlies @ Charlotte Hornets"
-      ]
-    },
-    {
-      "id": "50577588",
-      "title": "Grizzlies' Cameron Boozer (ankle) to be reevaluated in 4 weeks",
-      "summary": "Grizzlies rookie forward Cameron Boozer has a sprained right ankle that will sideline him for at least a month.",
-      "url": "https://www.espn.com/nba/story/_/id/50577588/grizzlies-cameron-boozer-ankle-reevaluated-4-weeks",
-      "publishedAt": "2026-11-24T00:41:48+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750412_600x400_3-2.jpg",
-      "author": "Anthony Gharib",
-      "categories": [
-        "NBA",
-        "Memphis Grizzlies",
-        "Cameron Boozer",
-        "Anthony Gharib"
-      ]
-    },
-    {
-      "id": "50573843",
-      "title": "Fantasy adds, NBA bets to make for Monday: Pick up Brook Lopez, Quentin Grimes",
-      "summary": "Andre Snellings breaks down Monday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50573843/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-23T21:15:18+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750201_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Jalen Smith",
-        "Quentin Grimes",
-        "Brook Lopez",
-        "Cam Spencer",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50575130",
-      "title": "Fantasy risers and fallers: Trade Davion Mitchell? Move on from De'Aaron Fox?",
-      "summary": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50575130/fantasy-basketball-risers-fallers-keep-cut-add-today",
-      "publishedAt": "2026-11-23T21:00:09+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1750302_1296x729_16-9.jpg",
-      "author": "Steve Alexander",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Davion Mitchell",
-        "Quentin Grimes",
-        "Cedric Coward",
-        "Kel'el Ware",
-        "Jalen Green",
-        "De'Aaron Fox",
-        "Steve Alexander"
-      ]
-    },
-    {
-      "id": "50573732",
-      "title": "Nets' Nolan Traore has hamstring strain, to be reevaluated in 8-10 weeks",
-      "summary": "Nets guard Nolan Traore has been diagnosed with a right hamstring strain and will be reevaluated in eight to 10 weeks, the team announced Monday.",
-      "url": "https://www.espn.com/nba/story/_/id/50573732/nets-nolan-traore-hamstring-reevaluated-8-10-weeks",
-      "publishedAt": "2026-11-23T18:24:21+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1107/r1742411_600x400_3-2.jpg",
-      "author": "",
-      "categories": [
-        "news",
-        "NBA",
-        "Brooklyn Nets",
-        "Nolan Traore"
-      ]
-    },
-    {
-      "id": "50558987",
-      "title": "Too-early NBA All-Star picks: The 24 most deserving players right now",
-      "summary": "So what if the All-Star Game is three months away? We're picking locks and position battles to watch across both conferences.",
-      "url": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
-      "publishedAt": "2026-11-23T13:25:58+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1123/r1749989_1296x729_16-9.jpg",
-      "author": "Ben Golliver",
-      "categories": [
-        "NBA",
-        "Boston Celtics",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Minnesota Timberwolves",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "San Antonio Spurs",
-        "Ben Golliver"
       ]
     }
   ]
