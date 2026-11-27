@@ -1,14 +1,85 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-27T12:18:37.704900+00:00",
+  "updatedAt": "2026-11-27T23:27:23.718544+00:00",
   "articles": [
+    {
+      "id": "50615568",
+      "title": "Wizards rookie Felix Okpara punches Rob Dillingham in G League tilt",
+      "summary": "Wizards two-way forward Felix Okpara threw a punch at Westchester Knicks guard Rob Dillingham, sparking a brief fight during a G League game Friday night.",
+      "url": "https://www.espn.com/nba/story/_/id/50615568/wizards-rookie-okpara-punches-dillingham-g-league-tilt",
+      "publishedAt": "2026-11-27T22:57:23+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1127/r1752248_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "NBA",
+        "Washington Wizards",
+        "New York Knicks",
+        "Rob Dillingham",
+        "Felix Okpara"
+      ]
+    },
+    {
+      "id": "50613364",
+      "title": "Lakers' Austin Reaves available vs. Spurs after missing 5 games with heel bruise",
+      "summary": "Lakers guard Austin Reaves is available to play in Friday night's NBA Cup matchup against the Spurs after missing the past five games with a heel bruise.",
+      "url": "https://www.espn.com/nba/story/_/id/50613364/lakers-reaves-available-missing-5-games-heel-bruise",
+      "publishedAt": "2026-11-27T20:25:53+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1111/r1744439_600x400_3-2.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "news",
+        "NBA",
+        "Los Angeles Lakers",
+        "Austin Reaves",
+        "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "50613102",
+      "title": "Timberwolves downgrade star LaMelo Ball to out with ankle sprain",
+      "summary": "The Minnesota Timberwolves downgraded star guard LaMelo Ball to out for Friday night's NBA Cup game vs. the Memphis Grizzlies due to a left ankle sprain.",
+      "url": "https://www.espn.com/nba/story/_/id/50613102/timberwolves-downgrade-lamelo-ball-ankle-sprain",
+      "publishedAt": "2026-11-27T19:06:33+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751519_600x400_3-2.jpg",
+      "author": "",
+      "categories": [
+        "news",
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "NBA"
+      ]
+    },
+    {
+      "id": "50612457",
+      "title": "Fantasy adds, NBA bets to make for Friday: Day'Ron Sharpe filling the box score",
+      "summary": "Andre Snellings breaks down Friday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
+      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50612457/fantasy-basketball-tips-nba-betting-picks-today",
+      "publishedAt": "2026-11-27T18:05:19+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1127/r1752108_1296x729_16-9.jpg",
+      "author": "Andre Snellings",
+      "categories": [
+        "Fantasy NBA",
+        "NBA",
+        "news - fantasy",
+        "news - fantasy basketball",
+        "news - nba",
+        "Sports Betting",
+        "news – sports betting",
+        "Jakob Poeltl",
+        "Cam Spencer",
+        "Day'Ron Sharpe",
+        "Daniel Gafford",
+        "Andre Snellings"
+      ]
+    },
     {
       "id": "50599642",
       "title": "Why Walker Kessler is the X factor for Luka Doncic and the Lakers this season",
       "summary": "Doncic's first request when he became a Laker? Get an 'A-list' big man. It took a year, but Kessler is that man in Los Angeles.",
       "url": "https://www.espn.com/nba/story/_/id/50599642/los-angeles-lakers-luka-doncic-walker-kessler-nba",
-      "publishedAt": "2026-11-27T12:02:51+00:00",
+      "publishedAt": "2026-11-27T14:40:36+00:00",
       "image": "https://a.espncdn.com/photo/2026/1126/r1751451_576x324_16-9.jpg",
       "author": "Dave McMenamin",
       "categories": [
@@ -18,6 +89,50 @@
         "Austin Reaves",
         "Luka Doncic",
         "Dave McMenamin"
+      ]
+    },
+    {
+      "id": "49577473",
+      "title": "2026 NBA Cup: Schedule, scores group standings and updates",
+      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent wins by the Celtics and Mavericks.",
+      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+      "publishedAt": "2026-11-27T14:31:38+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751533_608x342_16-9.jpg",
+      "author": "ESPN",
+      "categories": [
+        "NBA",
+        "event",
+        "daily",
+        "Atlanta Hawks",
+        "Boston Celtics",
+        "Brooklyn Nets",
+        "Charlotte Hornets",
+        "Chicago Bulls",
+        "Cleveland Cavaliers",
+        "Dallas Mavericks",
+        "Denver Nuggets",
+        "Detroit Pistons",
+        "Golden State Warriors",
+        "Houston Rockets",
+        "Indiana Pacers",
+        "LA Clippers",
+        "Los Angeles Lakers",
+        "Memphis Grizzlies",
+        "Miami Heat",
+        "Milwaukee Bucks",
+        "Minnesota Timberwolves",
+        "New Orleans Pelicans",
+        "New York Knicks",
+        "Oklahoma City Thunder",
+        "Orlando Magic",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Portland Trail Blazers",
+        "Sacramento Kings",
+        "San Antonio Spurs",
+        "Toronto Raptors",
+        "Utah Jazz",
+        "Washington Wizards"
       ]
     },
     {
@@ -91,50 +206,6 @@
         "Soccer",
         "MLB",
         "Brianna Williams"
-      ]
-    },
-    {
-      "id": "49577473",
-      "title": "2026 NBA Cup: Schedule, scores group standings and updates",
-      "summary": "Here's everything you need to know about the fourth annual in-season tournament, including the recent wins by the Celtics and Mavericks.",
-      "url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
-      "publishedAt": "2026-11-26T14:50:01+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1126/r1751533_608x342_16-9.jpg",
-      "author": "ESPN",
-      "categories": [
-        "NBA",
-        "event",
-        "daily",
-        "Atlanta Hawks",
-        "Boston Celtics",
-        "Brooklyn Nets",
-        "Charlotte Hornets",
-        "Chicago Bulls",
-        "Cleveland Cavaliers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "Detroit Pistons",
-        "Golden State Warriors",
-        "Houston Rockets",
-        "Indiana Pacers",
-        "LA Clippers",
-        "Los Angeles Lakers",
-        "Memphis Grizzlies",
-        "Miami Heat",
-        "Milwaukee Bucks",
-        "Minnesota Timberwolves",
-        "New Orleans Pelicans",
-        "New York Knicks",
-        "Oklahoma City Thunder",
-        "Orlando Magic",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Portland Trail Blazers",
-        "Sacramento Kings",
-        "San Antonio Spurs",
-        "Toronto Raptors",
-        "Utah Jazz",
-        "Washington Wizards"
       ]
     },
     {
@@ -526,73 +597,6 @@
         "San Antonio Spurs",
         "Oklahoma City Thunder",
         "Doug Greenberg"
-      ]
-    },
-    {
-      "id": "50593697",
-      "title": "Fantasy adds, NBA bets to make for Wednesday: Scoring chances for Kuminga, Maxey",
-      "summary": "Andre Snellings breaks down Wednesday's NBA slate, highlighting the fantasy streamers to add and bets to make.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50593697/fantasy-basketball-tips-nba-betting-picks-today",
-      "publishedAt": "2026-11-25T18:05:53+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1125/r1751159_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Brayden Burries",
-        "Peyton Watson",
-        "Dillon Brooks",
-        "Cam Spencer",
-        "Andre Snellings"
-      ]
-    },
-    {
-      "id": "50028196",
-      "title": "NBA buzz: Latest on trades, news, roster moves and intel for the 2026-27 season",
-      "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
-      "url": "https://www.espn.com/nba/story/_/id/50028196/2026-27-nba-buzz-latest-live-updates-news-intel-trades-deals",
-      "publishedAt": "2026-11-25T14:54:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1124/r1750646_608x342_16-9.jpg",
-      "author": "ESPN staff",
-      "categories": [
-        "NBA",
-        "daily",
-        "nba free agency",
-        "news - frontpage",
-        "nba trade deadline",
-        "ESPN Staff Profile"
-      ]
-    },
-    {
-      "id": "50592672",
-      "title": "NBA reveals $11B arena initiative to boost efforts for Europe league",
-      "summary": "The long-planned NBA-backed league in Europe took another step toward becoming reality with the unveiling of a plan that targets nearly $11 billion in funding for the development and renovation of arenas around the continent.",
-      "url": "https://www.espn.com/nba/story/_/id/50592672/nba-reveals-11b-initiative-arena-development-europe",
-      "publishedAt": "2026-11-25T14:43:24+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1025/r1736092_1296x729_16-9.jpg",
-      "author": "",
-      "categories": [
-        "NBA",
-        "news"
-      ]
-    },
-    {
-      "id": "50389727",
-      "title": "Inside LeBron's first game in Philly -- more than two decades ago",
-      "summary": "Nearly 25 years ago, LeBron won over Philly for the first time -- inside one of the most iconic basketball arenas in the world.",
-      "url": "https://www.espn.com/nba/story/_/id/50389727/lebron-james-palestra-maureece-rice-philadelphia",
-      "publishedAt": "2026-11-25T12:39:15+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1105/nba_james3_16x9.jpg",
-      "author": "Dave McMenamin",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Cleveland Cavaliers",
-        "LeBron James",
-        "Dave McMenamin"
       ]
     }
   ]
