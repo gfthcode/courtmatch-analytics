@@ -1,8 +1,25 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-27T01:43:13.961047+00:00",
+  "updatedAt": "2026-11-27T12:18:37.704900+00:00",
   "articles": [
+    {
+      "id": "50599642",
+      "title": "Why Walker Kessler is the X factor for Luka Doncic and the Lakers this season",
+      "summary": "Doncic's first request when he became a Laker? Get an 'A-list' big man. It took a year, but Kessler is that man in Los Angeles.",
+      "url": "https://www.espn.com/nba/story/_/id/50599642/los-angeles-lakers-luka-doncic-walker-kessler-nba",
+      "publishedAt": "2026-11-27T12:02:51+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751451_576x324_16-9.jpg",
+      "author": "Dave McMenamin",
+      "categories": [
+        "NBA",
+        "Los Angeles Lakers",
+        "Walker Kessler",
+        "Austin Reaves",
+        "Luka Doncic",
+        "Dave McMenamin"
+      ]
+    },
     {
       "id": "50606614",
       "title": "Jaylen Brown out against Pacers; Joel Embiid (illness) questionable",
@@ -533,49 +550,6 @@
       ]
     },
     {
-      "id": "50583781",
-      "title": "NBA Power Rankings: Whom is each team most thankful for this year?",
-      "summary": "Here's where all 30 teams rank this week -- and the one person each franchise should be thanking most.",
-      "url": "https://www.espn.com/nba/story/_/id/50583781/nba-power-rankings-one-player-coach-exec-thanksgiving",
-      "publishedAt": "2026-11-25T17:23:35+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1124/nba_power6_cr_16x9_576x324.jpg",
-      "author": "NBA Insiders",
-      "categories": [
-        "NBA",
-        "Philadelphia 76ers",
-        "Boston Celtics",
-        "Detroit Pistons",
-        "Atlanta Hawks",
-        "New York Knicks",
-        "Toronto Raptors",
-        "Cleveland Cavaliers",
-        "Miami Heat",
-        "Charlotte Hornets",
-        "Washington Wizards",
-        "Indiana Pacers",
-        "Orlando Magic",
-        "Brooklyn Nets",
-        "Chicago Bulls",
-        "Milwaukee Bucks",
-        "Los Angeles Lakers",
-        "San Antonio Spurs",
-        "Oklahoma City Thunder",
-        "Golden State Warriors",
-        "Minnesota Timberwolves",
-        "Houston Rockets",
-        "Memphis Grizzlies",
-        "Portland Trail Blazers",
-        "Dallas Mavericks",
-        "Denver Nuggets",
-        "New Orleans Pelicans",
-        "Phoenix Suns",
-        "LA Clippers",
-        "Sacramento Kings",
-        "Utah Jazz",
-        "NBA Insiders"
-      ]
-    },
-    {
       "id": "50028196",
       "title": "NBA buzz: Latest on trades, news, roster moves and intel for the 2026-27 season",
       "summary": "The NBA is back. The buzz never left. Bookmark this page for the latest news, rumblings and analysis from ESPN's insiders.",
@@ -619,25 +593,6 @@
         "Cleveland Cavaliers",
         "LeBron James",
         "Dave McMenamin"
-      ]
-    },
-    {
-      "id": "50587119",
-      "title": "LaMelo Ball and the 'collective' carrying Minnesota without Anthony Edwards",
-      "summary": "Through \"giddiness,\" an enhanced focus on defense and an ensemble cast, LaMelo Ball and the Timberwolves are thriving.",
-      "url": "https://www.espn.com/nba/story/_/id/50587119/lamelo-ball-minnesota-timberwolves-anthony-edwards",
-      "publishedAt": "2026-11-25T12:34:20+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1125/r1750870_608x342_16-9.jpg",
-      "author": "Jamal Collier",
-      "categories": [
-        "NBA",
-        "Minnesota Timberwolves",
-        "LaMelo Ball",
-        "Anthony Edwards",
-        "Ayo Dosunmu",
-        "Jaden McDaniels",
-        "Rudy Gobert",
-        "Jamal Collier"
       ]
     }
   ]
