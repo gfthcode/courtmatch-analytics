@@ -1,8 +1,57 @@
 {
   "source": "ESPN NBA News API",
   "feedUrl": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50",
-  "updatedAt": "2026-11-26T16:53:51.645788+00:00",
+  "updatedAt": "2026-11-27T01:43:13.961047+00:00",
   "articles": [
+    {
+      "id": "50606614",
+      "title": "Jaylen Brown out against Pacers; Joel Embiid (illness) questionable",
+      "summary": "The 76ers' Jaylen Brown (hamstring) is out for Friday's NBA Cup game against the Pacers. Joel Embiid (illness) is questionable.",
+      "url": "https://www.espn.com/nba/story/_/id/50606614/76ers-jaylen-brown-hamstring-friday-pacers",
+      "publishedAt": "2026-11-26T22:45:16+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751810_2_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "NBA",
+        "Philadelphia 76ers",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "news",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50599296",
+      "title": "76ers' Jaylen Brown exits with recurrence of hamstring issue",
+      "summary": "Jaylen Brown exited the 76ers' NBA Cup game against the Heat and was ruled out because of left hamstring tightness.",
+      "url": "https://www.espn.com/nba/story/_/id/50599296/76ers-jaylen-brown-exits-recurrence-hamstring-issue",
+      "publishedAt": "2026-11-26T19:43:10+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751408_600x400_3-2.jpg",
+      "author": "Kris Rhim",
+      "categories": [
+        "news",
+        "NBA",
+        "Philadelphia 76ers",
+        "Jaylen Brown",
+        "Kris Rhim"
+      ]
+    },
+    {
+      "id": "50601570",
+      "title": "Timberwolves' LaMelo Ball limps off vs. OKC after hurting left ankle",
+      "summary": "The Timberwolves did not have an update on the status of LaMelo Ball's left ankle after he was injured late in a win over the Thunder.",
+      "url": "https://www.espn.com/nba/story/_/id/50601570/timberwolves-lamelo-ball-limps-hurting-left-ankle",
+      "publishedAt": "2026-11-26T18:13:44+00:00",
+      "image": "https://a.espncdn.com/photo/2026/1126/r1751519_600x400_3-2.jpg",
+      "author": "Tim MacMahon",
+      "categories": [
+        "news",
+        "NBA",
+        "Minnesota Timberwolves",
+        "LaMelo Ball",
+        "Tim MacMahon"
+      ]
+    },
     {
       "id": "50576889",
       "title": "Friday Night Lights,' 'Ted Lasso' top poll ranking 21st-century sports shows",
@@ -165,22 +214,6 @@
         "League Boost",
         "Oklahoma City Thunder",
         "Verts - Exclude Content"
-      ]
-    },
-    {
-      "id": "50601570",
-      "title": "Timberwolves' LaMelo Ball limps off vs. OKC after hurting left ankle",
-      "summary": "The Timberwolves did not have an update on the status of LaMelo Ball's left ankle after he was injured late Wednesday night's win over the Thunder.",
-      "url": "https://www.espn.com/nba/story/_/id/50601570/timberwolves-lamelo-ball-limps-hurting-left-ankle",
-      "publishedAt": "2026-11-26T04:47:36+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1126/r1751519_600x400_3-2.jpg",
-      "author": "Tim MacMahon",
-      "categories": [
-        "news",
-        "NBA",
-        "Minnesota Timberwolves",
-        "LaMelo Ball",
-        "Tim MacMahon"
       ]
     },
     {
@@ -385,22 +418,6 @@
         "nba highlight",
         "Fantasy NBA",
         "Cleveland Cavaliers @ New York Knicks"
-      ]
-    },
-    {
-      "id": "50599296",
-      "title": "76ers' Jaylen Brown exits with recurrence of hamstring issue",
-      "summary": "Jaylen Brown exited Philadelphia's NBA Cup game Wednesday night against Miami and was ruled out because of left hamstring tightness.",
-      "url": "https://www.espn.com/nba/story/_/id/50599296/76ers-jaylen-brown-exits-recurrence-hamstring-issue",
-      "publishedAt": "2026-11-26T02:48:06+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1126/r1751408_600x400_3-2.jpg",
-      "author": "Kris Rhim",
-      "categories": [
-        "news",
-        "NBA",
-        "Philadelphia 76ers",
-        "Jaylen Brown",
-        "Kris Rhim"
       ]
     },
     {
@@ -621,28 +638,6 @@
         "Jaden McDaniels",
         "Rudy Gobert",
         "Jamal Collier"
-      ]
-    },
-    {
-      "id": "50584790",
-      "title": "Fantasy basketball: How to take advantage of the 76ers' rotations",
-      "summary": "Andre Snellings looks at how the 76ers are handling rotations, resting players and dishing out minutes, and explains how to take advantage of it.",
-      "url": "https://www.espn.com/fantasy/basketball/story/_/id/50584790/fantasy-basketball-philadelphia-76ers-lebron-james",
-      "publishedAt": "2026-11-25T11:48:13+00:00",
-      "image": "https://a.espncdn.com/photo/2026/1124/r1750731_1296x729_16-9.jpg",
-      "author": "Andre Snellings",
-      "categories": [
-        "Fantasy NBA",
-        "NBA",
-        "news - fantasy",
-        "news - fantasy basketball",
-        "news - nba",
-        "Philadelphia 76ers",
-        "LeBron James",
-        "Jaylen Brown",
-        "Joel Embiid",
-        "VJ Edgecombe",
-        "Andre Snellings"
       ]
     }
   ]
